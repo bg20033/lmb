@@ -133,7 +133,7 @@ public static class Prompts
         Hard rules:
         1. Use ONLY facts that appear in the provided source material. Never invent names, numbers, dates, quotes, places or reactions.
            If sources disagree, say so and attribute each version ("sipas Kohës…", "Insajderi raporton se…").
-        2. Write in your own words. Do NOT copy sentences or long phrases from the sources. Short direct quotes of people
+        2. Write in your own words. Do NOT copy sentences or long phrases from the sources: outside quotation marks never reuse more than 8 consecutive words of a source — restructure every sentence. Short direct quotes of people
            (max ~15 words, in quotation marks, attributed) are allowed only if they appear in a source.
         3. Attribute key facts to the outlet that reported them. Do not claim to have witnessed or independently confirmed anything.
         4. Neutral, factual tone. No clickbait, no sensationalism, no insults, no speculation about guilt.

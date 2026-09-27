@@ -66,8 +66,12 @@ public sealed partial class SitePublisher
         if (!_site.Categories.Contains(d.Category)) p.Add($"Category '{d.Category}' is not one of: {string.Join(", ", _site.Categories)}.");
         var words = TextUtil.WordCount(d.BodyMarkdown);
         if (words < _ai.MinWords * 0.8) p.Add($"Body is too short: {words} words, need at least {_ai.MinWords}.");
-        var run = TextUtil.LongestSharedRun(d.Title + "\n" + d.Description + "\n" + d.BodyMarkdown, sources.Select(s => s.Text + "\n" + s.Title), 8);
-        if (run >= 12) p.Add($"The text copies a {run}-word passage from a source. Rewrite every sentence in your own words.");
+        var own = TextUtil.WithoutShortQuotes(d.Title + "\n" + d.Description + "\n" + d.BodyMarkdown);
+        var (run, passage) = TextUtil.LongestSharedPassage(own, sources.Select(s => s.Text + "\n" + s.Title), 8);
+        if (run >= 12)
+            p.Add($"The text copies a {run}-word passage from a source word for word: \"{TextUtil.TruncateWords(passage, 220)}\". " +
+                  "Rewrite that part — and every other sentence — in your own words (change the sentence structure, not just single words). " +
+                  "Short direct quotes of people are fine only inside quotation marks.");
         return p;
     }
 

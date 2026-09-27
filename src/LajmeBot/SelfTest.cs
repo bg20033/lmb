@@ -39,6 +39,12 @@ public static class SelfTest
         Check("copy guard ignores paraphrase",
             TextUtil.LongestSharedRun("Deputetët votuan pro dokumentit që përcakton qëndrimin e shtetit në bisedime",
                 new[] { "Kuvendi i Kosovës ka miratuar sot rezolutën për dialogun me shumicë votash." }) == 0);
+        Check("quotes of people are not counted as copying",
+            TextUtil.LongestSharedRun(TextUtil.WithoutShortQuotes("Ministri deklaroi: “Kuvendi i Kosovës ka miratuar sot rezolutën për dialogun me shumicë votash dhe pa kundërshtime”, tha ai."),
+                new[] { "Kuvendi i Kosovës ka miratuar sot rezolutën për dialogun me shumicë votash dhe pa kundërshtime." }) == 0);
+        Check("copy guard reports the passage",
+            TextUtil.LongestSharedPassage("Sot Kuvendi i Kosovës ka miratuar sot rezolutën për dialogun me shumicë votash dhe pa kundërshtime",
+                new[] { "Kuvendi i Kosovës ka miratuar sot rezolutën për dialogun me shumicë votash dhe pa kundërshtime." }).passage.StartsWith("kuvendi i kosoves"));
         Check("truncate keeps word boundary", TextUtil.TruncateWords("një dy tre katër pesë gjashtë", 14) == "një dy tre…");
         Check("yaml string escaping", TextUtil.YamlString("Ai tha \"po\"") == "\"Ai tha \\\"po\\\"\"");
 

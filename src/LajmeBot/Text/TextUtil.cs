@@ -130,11 +130,16 @@ public static partial class TextUtil
     /// Longest run of consecutive words shared by <paramref name="text"/> and any source.
     /// Used as a guard against the AI copying sentences from the source articles.
     /// </summary>
-    public static int LongestSharedRun(string text, IEnumerable<string> sources, int minRun = 8)
+    public static int LongestSharedRun(string text, IEnumerable<string> sources, int minRun = 8) =>
+        LongestSharedPassage(text, sources, minRun).words;
+
+    /// <summary>Longest run of consecutive words shared with a source, plus that passage (folded, for feedback).</summary>
+    public static (int words, string passage) LongestSharedPassage(string text, IEnumerable<string> sources, int minRun = 8)
     {
         static string[] Words(string t) => NonWord().Split(Fold(t)).Where(w => w.Length > 0).ToArray();
         var w = Words(text);
         var best = 0;
+        var bestEnd = -1;
         foreach (var src in sources)
         {
             var sw = Words(src);
@@ -144,12 +149,25 @@ public static partial class TextUtil
             var run = 0;
             for (var i = 0; i + minRun <= w.Length; i++)
             {
-                if (shingles.Contains(string.Join(' ', w, i, minRun))) { run = run == 0 ? minRun : run + 1; best = Math.Max(best, run); }
+                if (shingles.Contains(string.Join(' ', w, i, minRun)))
+                {
+                    run = run == 0 ? minRun : run + 1;
+                    if (run > best) { best = run; bestEnd = i + minRun; }
+                }
                 else run = 0;
             }
         }
-        return best;
+        return best == 0 ? (0, "") : (best, string.Join(' ', w, bestEnd - best, best));
     }
+
+    [GeneratedRegex(@"[“„«""]([^“”„«»""]{1,400})[”»""]")]
+    private static partial Regex QuotedSpan();
+
+    /// <summary>
+    /// Removes short quotations (≤ 30 words) — attributed quotes of people are allowed to match the source word for word.
+    /// </summary>
+    public static string WithoutShortQuotes(string text) =>
+        QuotedSpan().Replace(text, m => WordCount(m.Groups[1].Value) <= 30 ? " … " : m.Value);
 
     public static ulong StableHash(string s)
     {
