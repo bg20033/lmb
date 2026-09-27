@@ -64,8 +64,20 @@ public sealed class ClaudeWriter : IArticleWriter, IDisposable
         {
             using var content = new StringContent(body.ToJsonString(), Encoding.UTF8);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            using var resp = await _http.PostAsync(_cfg.Endpoint + "/v1/messages", content, ct);
-            var text = await resp.Content.ReadAsStringAsync(ct);
+            HttpResponseMessage resp;
+            string text;
+            try
+            {
+                resp = await _http.PostAsync(_cfg.Endpoint + "/v1/messages", content, ct);
+                text = await resp.Content.ReadAsStringAsync(ct);
+            }
+            catch (Exception ex) when (ex is OperationCanceledException or HttpRequestException && !ct.IsCancellationRequested)
+            {
+                if (attempt >= 3) throw new InvalidOperationException($"Claude API: {ex.Message}");
+                _log.Warn($"Claude API: {ex.Message}; retrying");
+                continue;
+            }
+            using var _ = resp;
             var status = (int)resp.StatusCode;
             if ((status == 429 || status == 529 || status >= 500) && attempt < 4)
             {

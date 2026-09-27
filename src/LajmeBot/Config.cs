@@ -72,6 +72,8 @@ public sealed class AiConfig
     public string OutputFormat { get; set; } = "text";
 
     public int MaxTokens { get; set; } = 8000;
+    /// <summary>Max seconds to wait for one AI answer before moving on to the next (fallback) model.</summary>
+    public int RequestTimeoutSeconds { get; set; } = 150;
     /// <summary>Optional; leave null to use the model default.</summary>
     public double? Temperature { get; set; }
     /// <summary>Environment variable with the API key. Default: OPENROUTER_API_KEY or ANTHROPIC_API_KEY.</summary>

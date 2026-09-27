@@ -105,7 +105,7 @@ var feeds = new FeedReader(fetcher, log);
 var allItems = (await Task.WhenAll(cfg.Sources.Where(s => s.Enabled).Select(async s =>
 {
     try { return await feeds.ReadSourceAsync(s, ct); }
-    catch (Exception ex) when (ex is not OperationCanceledException) { log.Warn($"{s.Name}: {ex.Message}"); return new List<FeedItem>(); }
+    catch (Exception ex) when (!ct.IsCancellationRequested) { log.Warn($"{s.Name}: {ex.Message}"); return new List<FeedItem>(); }
 }))).SelectMany(x => x).ToList();
 log.Info($"Discovered {allItems.Count} items from {allItems.Select(i => i.Source).Distinct().Count()} sources");
 
@@ -145,7 +145,9 @@ foreach (var story in stories)
     // Sources: at most one item per outlet, richest summary first.
     var picks = story.Items.GroupBy(i => i.Source).Select(g => g.OrderByDescending(i => i.Summary.Length).First())
         .OrderByDescending(i => i.Summary.Length).Take(cfg.MaxSourcesPerStory).ToList();
-    var sources = (await Task.WhenAll(picks.Select(p => articleFetcher.FetchAsync(p, ct)))).Where(s => s != null).Select(s => s!).ToList();
+    List<SourceText> sources;
+    try { sources = (await Task.WhenAll(picks.Select(p => articleFetcher.FetchAsync(p, ct)))).Where(s => s != null).Select(s => s!).ToList(); }
+    catch (OperationCanceledException) { log.Error("Time limit for this run reached — stopping"); break; }
     if (sources.Sum(s => s.Text.Length) < 400)
     {
         log.Warn($"skip (too little source text): {story.Lead.Title}");
@@ -176,9 +178,14 @@ foreach (var story in stories)
             aiCalls++;
             ArticleDraft draft;
             try { draft = await writer.WriteAsync(new ArticleRequest(site, story, sources, recent[site.Slug], feedback), ct); }
-            catch (Exception ex) when (ex is not OperationCanceledException)
+            catch (Exception ex) when (!ct.IsCancellationRequested)
             {
                 log.Error($"{site.Slug}: writer failed: {ex.Message}");
+                break;
+            }
+            catch (OperationCanceledException)
+            {
+                log.Error("Time limit for this run reached — stopping (the rest is written next run)");
                 break;
             }
             if (draft.Skip)

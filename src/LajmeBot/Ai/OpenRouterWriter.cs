@@ -13,7 +13,8 @@ namespace LajmeBot.Ai;
 /// </summary>
 public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
 {
-    private readonly HttpClient _http = new() { Timeout = TimeSpan.FromMinutes(4) };
+    private readonly HttpClient _http = new() { Timeout = Timeout.InfiniteTimeSpan }; // per-request timeout below
+    private int _modelIndex; // moves to the next fallback model after a timeout
     private readonly AiConfig _cfg;
     private readonly Log _log;
     // "text" (plain labelled text — works with every model, weak models write longer articles this way),
@@ -41,8 +42,25 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
             var body = BuildRequest(req, _mode);
             using var content = new StringContent(body.ToJsonString(), Encoding.UTF8);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            using var resp = await _http.PostAsync(_cfg.Endpoint + "/chat/completions", content, ct);
-            var text = await resp.Content.ReadAsStringAsync(ct);
+            string text;
+            HttpResponseMessage resp;
+            using var timeout = CancellationTokenSource.CreateLinkedTokenSource(ct);
+            timeout.CancelAfter(TimeSpan.FromSeconds(Math.Max(30, _cfg.RequestTimeoutSeconds)));
+            try
+            {
+                resp = await _http.PostAsync(_cfg.Endpoint + "/chat/completions", content, timeout.Token);
+                text = await resp.Content.ReadAsStringAsync(timeout.Token);
+            }
+            catch (Exception ex) when (ex is OperationCanceledException or HttpRequestException && !ct.IsCancellationRequested)
+            {
+                var chain = ModelChain();
+                var what = ex is OperationCanceledException ? $"no answer within {_cfg.RequestTimeoutSeconds}s" : ex.Message;
+                if (attempt >= 3) throw new InvalidOperationException($"{chain[_modelIndex % chain.Count]}: {what}");
+                _modelIndex++;
+                _log.Warn($"{chain[(_modelIndex - 1) % chain.Count]}: {what} — trying {chain[_modelIndex % chain.Count]}");
+                continue;
+            }
+            using var _ = resp;
             var status = (int)resp.StatusCode;
 
             if ((status == 429 || status >= 500) && attempt < 4)
@@ -125,7 +143,7 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
 
         var body = new JsonObject
         {
-            ["model"] = _cfg.Model,
+            ["model"] = ModelChain()[_modelIndex % ModelChain().Count],
             ["max_tokens"] = _cfg.MaxTokens,
             ["messages"] = new JsonArray(
                 new JsonObject { ["role"] = "system", ["content"] = system },
@@ -133,7 +151,7 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
         };
         if (_cfg.Temperature is { } t) body["temperature"] = t;
         if (_cfg.FallbackModels.Count > 0)
-            body["models"] = new JsonArray(new[] { _cfg.Model }.Concat(_cfg.FallbackModels).Distinct().Select(m => (JsonNode)JsonValue.Create(m)!).ToArray());
+            body["models"] = new JsonArray(ModelChain().Skip(_modelIndex % ModelChain().Count).Select(m => (JsonNode)JsonValue.Create(m)!).ToArray());
 
         if (mode == "json")
         {
@@ -157,6 +175,8 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
         }
         return body;
     }
+
+    private List<string> ModelChain() => new[] { _cfg.Model }.Concat(_cfg.FallbackModels).Distinct().ToList();
 
     private static string? MessageText(JsonNode? message)
     {

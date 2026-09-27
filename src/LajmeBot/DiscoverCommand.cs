@@ -27,7 +27,7 @@ public static class DiscoverCommand
         var results = await Task.WhenAll(cfg.Sources.Where(s => s.Enabled).Select(async s =>
         {
             try { return (s, items: await reader.ReadSourceAsync(s, ct), error: (string?)null); }
-            catch (Exception ex) when (ex is not OperationCanceledException) { return (s, items: new List<FeedItem>(), error: ex.Message); }
+            catch (Exception ex) when (!ct.IsCancellationRequested) { return (s, items: new List<FeedItem>(), error: ex.Message); }
         }));
 
         md.AppendLine("## 1. Burimet (RSS)").AppendLine();
