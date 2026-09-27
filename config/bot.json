@@ -34,6 +34,9 @@
 
     // "text" works with every model (free ones write longer articles this way); "tools" = function calling.
     "OutputFormat": "text",
+    // Free endpoints occasionally accept a request but never start generating. Keep each
+    // attempt short so the fallback model (or the next story) gets a chance in this run.
+    "RequestTimeoutSeconds": 60,
     "MaxTokens": 8000,
     "MinWords": 350,
     "MaxWords": 700
