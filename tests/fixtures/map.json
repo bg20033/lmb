@@ -1,0 +1,12 @@
+{
+  "https://www.koha.net/rss": "koha.xml",
+  "https://insajderi.com/feed/": "insajderi.xml",
+  "https://sinjali.com/feed/": "sinjali.xml",
+  "https://telegrafi.com/feed/": "telegrafi.xml",
+  "https://www.koha.net/kosove/1001/": "koha-1001.html",
+  "https://www.koha.net/ekonomi/1002/": "koha-1002.html",
+  "https://insajderi.com/2026/09/27/rezoluta/": "insajderi-rezoluta.html",
+  "https://sinjali.com/2026/09/27/rezoluta-dialogu/": "sinjali-rezoluta.html",
+  "https://sinjali.com/2026/09/27/kombetarja/": "sinjali-kombetarja.html",
+  "https://telegrafi.com/paga-minimale/": "telegrafi-paga.html"
+}

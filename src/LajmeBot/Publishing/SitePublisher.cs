@@ -1,0 +1,147 @@
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using System.Text.RegularExpressions;
+using LajmeBot.Ai;
+using LajmeBot.Discovery;
+using LajmeBot.Images;
+using LajmeBot.Text;
+
+namespace LajmeBot.Publishing;
+
+public sealed record PublishedArticle(string Site, string Slug, string Title, string Category, string MarkdownPath, string ImagePath);
+
+/// <summary>Reads and writes one Astro site checkout (src/content/news + src/assets/news).</summary>
+public sealed partial class SitePublisher
+{
+    private readonly SiteConfig _site;
+    private readonly AiConfig _ai;
+    private readonly Log _log;
+
+    public SitePublisher(SiteConfig site, AiConfig ai, Log log) { _site = site; _ai = ai; _log = log; }
+
+    private string NewsDir => Path.Combine(_site.Root, "src", "content", "news");
+    private string AssetsDir => Path.Combine(_site.Root, "src", "assets", "news");
+    private string AuthorsFile => Path.Combine(_site.Root, "src", "content", "authors.json");
+
+    public bool Exists => Directory.Exists(NewsDir);
+
+    [GeneratedRegex(@"^title:\s*""?(.*?)""?\s*$", RegexOptions.Multiline)]
+    private static partial Regex TitleLine();
+
+    /// <summary>Titles of the newest articles on the site (so the AI avoids repeating them).</summary>
+    public List<string> RecentTitles(int max = 20) =>
+        Directory.EnumerateFiles(NewsDir, "*.md")
+            .Select(f => new FileInfo(f)).OrderByDescending(f => f.LastWriteTimeUtc).Take(max)
+            .Select(f => TitleLine().Match(File.ReadAllText(f.FullName)))
+            .Where(m => m.Success).Select(m => m.Groups[1].Value.Replace("\\\"", "\"")).ToList();
+
+    /// <summary>Adds the automated-newsroom author to authors.json if it is missing.</summary>
+    public void EnsureAuthor()
+    {
+        var arr = JsonNode.Parse(File.ReadAllText(AuthorsFile))!.AsArray();
+        if (arr.Any(a => a?["id"]?.GetValue<string>() == _site.AuthorId)) return;
+        arr.Add(new JsonObject
+        {
+            ["id"] = _site.AuthorId,
+            ["name"] = _site.AuthorName,
+            ["role"] = "Redaksia automatike",
+            ["bio"] = $"Artikujt e nënshkruar nga {_site.AuthorName} përgatiten automatikisht me ndihmën e inteligjencës artificiale, " +
+                      "duke u bazuar vetëm në burime publike që citohen me lidhje në fund të çdo artikulli.",
+        });
+        File.WriteAllText(AuthorsFile, arr.ToJsonString(new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+        }) + "\n");
+        _log.Info($"{_site.Slug}: added author '{_site.AuthorId}' to authors.json");
+    }
+
+    /// <summary>Checks a draft against the site's content schema and our own quality rules. Returns problems (empty = OK).</summary>
+    public List<string> Validate(ArticleDraft d, IReadOnlyList<SourceText> sources)
+    {
+        var p = new List<string>();
+        if (d.Title.Length is < 20 or > 120) p.Add($"Title must be 20–120 characters (was {d.Title.Length}).");
+        if (d.Description.Length < 70) p.Add($"Description must be at least 90 characters (was {d.Description.Length}).");
+        if (!_site.Categories.Contains(d.Category)) p.Add($"Category '{d.Category}' is not one of: {string.Join(", ", _site.Categories)}.");
+        var words = TextUtil.WordCount(d.BodyMarkdown);
+        if (words < _ai.MinWords * 0.8) p.Add($"Body is too short: {words} words, need at least {_ai.MinWords}.");
+        var run = TextUtil.LongestSharedRun(d.Title + "\n" + d.Description + "\n" + d.BodyMarkdown, sources.Select(s => s.Text + "\n" + s.Title), 8);
+        if (run >= 12) p.Add($"The text copies a {run}-word passage from a source. Rewrite every sentence in your own words.");
+        return p;
+    }
+
+    public PublishedArticle Write(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now)
+    {
+        Directory.CreateDirectory(NewsDir);
+        Directory.CreateDirectory(AssetsDir);
+
+        var slug = UniqueSlug(TextUtil.Slugify(d.Title));
+        var imagePath = Path.Combine(AssetsDir, slug + ".png");
+        var motif = HeroImageGenerator.Motifs.Contains(d.ImageMotif) ? d.ImageMotif : HeroImageGenerator.Motifs[0];
+        HeroImageGenerator.Generate(imagePath, _site.Slug + "/" + slug, d.Category, motif, _site.Accent, _site.Tint, _site.TintAmount);
+
+        var description = d.Description.Length > 175 ? TextUtil.TruncateWords(d.Description, 174) : d.Description;
+        var tags = d.Tags.Select(t => TextUtil.YamlString(TextUtil.TruncateWords(t, 40)));
+        var local = ToKosovoTime(now);
+
+        var md = new StringBuilder();
+        md.AppendLine("---");
+        md.AppendLine($"title: {TextUtil.YamlString(d.Title)}");
+        md.AppendLine($"description: {TextUtil.YamlString(description)}");
+        md.AppendLine($"category: {d.Category}");
+        md.AppendLine($"author: {_site.AuthorId}");
+        md.AppendLine($"publishedAt: {local:yyyy-MM-ddTHH:mm:sszzz}");
+        md.AppendLine($"heroImage: ../../assets/news/{slug}.png");
+        md.AppendLine($"heroImageAlt: {TextUtil.YamlString(HeroImageGenerator.AltText(motif))}");
+        md.AppendLine($"heroCaption: {TextUtil.YamlString($"Ilustrim: {_site.Name}")}");
+        md.AppendLine($"tags: [{string.Join(", ", tags)}]");
+        if (featured) md.AppendLine("featured: true");
+        if (_site.PublishAsDraft) md.AppendLine("draft: true");
+        md.AppendLine("---");
+        md.AppendLine();
+        md.AppendLine(CleanBody(d.BodyMarkdown));
+        md.AppendLine();
+        md.AppendLine("## Burimet");
+        md.AppendLine();
+        foreach (var s in sources.DistinctBy(s => s.Url))
+            md.AppendLine($"- {s.Source}: [{EscapeLinkText(s.Title)}]({s.Url})");
+        md.AppendLine();
+        md.AppendLine($"*Ky artikull është përgatitur automatikisht nga {_site.AuthorName} me ndihmën e inteligjencës artificiale, duke u bazuar në burimet e mësipërme. Nëse vëreni ndonjë pasaktësi, na shkruani.*");
+
+        var mdPath = Path.Combine(NewsDir, slug + ".md");
+        File.WriteAllText(mdPath, md.ToString(), new UTF8Encoding(false));
+        return new PublishedArticle(_site.Slug, slug, d.Title, d.Category, mdPath, imagePath);
+    }
+
+    private string UniqueSlug(string baseSlug)
+    {
+        if (baseSlug.Length < 3) baseSlug = "lajm";
+        var slug = baseSlug;
+        for (var i = 2; File.Exists(Path.Combine(NewsDir, slug + ".md")); i++) slug = $"{baseSlug}-{i}";
+        return slug;
+    }
+
+    private static string CleanBody(string body)
+    {
+        var lines = body.Replace("\r\n", "\n").Trim().Split('\n').ToList();
+        // Drop a leading heading that just repeats the title, and any "Burimet"/sources section the model added anyway.
+        if (lines.Count > 0 && lines[0].StartsWith('#')) lines.RemoveAt(0);
+        var cut = lines.FindIndex(l => Regex.IsMatch(l, @"^#{1,3}\s*(Burimet|Burime|Sources)\b", RegexOptions.IgnoreCase));
+        if (cut >= 0) lines = lines.Take(cut).ToList();
+        var text = string.Join('\n', lines).Trim();
+        return Regex.Replace(text, @"^# ", "## ", RegexOptions.Multiline);
+    }
+
+    private static string EscapeLinkText(string s) => s.Replace("[", "(").Replace("]", ")");
+
+    public static DateTimeOffset ToKosovoTime(DateTimeOffset utc)
+    {
+        foreach (var id in new[] { "Europe/Belgrade", "Europe/Pristina", "Central European Standard Time" })
+        {
+            try { return TimeZoneInfo.ConvertTime(utc, TimeZoneInfo.FindSystemTimeZoneById(id)); }
+            catch (TimeZoneNotFoundException) { }
+        }
+        return utc;
+    }
+}

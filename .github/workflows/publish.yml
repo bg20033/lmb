@@ -1,0 +1,123 @@
+name: Publiko lajme
+
+on:
+  schedule:
+    # Every 2 hours from 05:07 to 21:07 UTC  (≈ 07:07–23:07 in Kosovo during summer time).
+    - cron: "7 5-21/2 * * *"
+  workflow_dispatch:
+    inputs:
+      max_stories:
+        description: "Sa histori të reja (bosh = sipas config/bot.json)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Vetëm provë: mos shkruaj e mos publiko asgjë"
+        type: boolean
+        default: false
+      mock_ai:
+        description: "Test pa AI (artikuj testues — mos e përdor në prodhim)"
+        type: boolean
+        default: false
+
+# Never run two publishing jobs at the same time.
+concurrency:
+  group: lajme-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: "1"
+      DOTNET_NOLOGO: "1"
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      BOT: dotnet bin/bot/LajmeBot.dll
+    steps:
+      - name: Checkout bot
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Build bot
+        run: dotnet build src/LajmeBot -c Release -o bin/bot --nologo -v quiet
+
+      - name: Self-test
+        run: $BOT selftest
+
+      - name: Checkout sites
+        env:
+          SITES_TOKEN: ${{ secrets.SITES_TOKEN }}
+        run: |
+          if [ -z "$SITES_TOKEN" ]; then echo "::error::Secret SITES_TOKEN mungon (GitHub token me qasje Contents: write në repo-t e faqeve)"; exit 1; fi
+          mkdir -p sites
+          $BOT sites | while read -r slug repo branch; do
+            echo "Cloning $repo ($branch) -> sites/$slug"
+            git clone --quiet --depth 20 --branch "$branch" "https://x-access-token:${SITES_TOKEN}@github.com/${repo}.git" "sites/$slug" \
+              || echo "::warning::Nuk u klonua $repo — faqja $slug anashkalohet"
+          done
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: sites/*/package-lock.json
+
+      - name: Write articles
+        run: |
+          ARGS="--sites-root sites --summary out/summary.json"
+          [ -n "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories ${{ inputs.max_stories }}"
+          [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+          [ "${{ inputs.mock_ai }}" = "true" ] && ARGS="$ARGS --mock-ai"
+          $BOT run $ARGS
+
+      - name: Build, check and push every changed site
+        run: |
+          failed=0
+          for dir in sites/*/; do
+            slug=$(basename "$dir")
+            pushd "$dir" > /dev/null
+            if [ -z "$(git status --porcelain)" ]; then echo "$slug: asgjë e re"; popd > /dev/null; continue; fi
+            count=$(git status --porcelain -- src/content/news | grep -c '\.md$' || true)
+            echo "::group::$slug — build ($count artikuj të rinj)"
+            if npm ci --no-audit --no-fund && npm run build && npm run audit:seo; then
+              echo "::endgroup::"
+              git add -A src/content src/assets
+              msg="Lajme automatike: $count artikuj të rinj"; [ "$count" = "0" ] && msg="LajmeBot: përditësim"
+              git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "$msg"
+              git push --quiet origin HEAD && echo "$slug: u publikuan $count artikuj" || { echo "::error::$slug: push dështoi"; failed=1; }
+            else
+              echo "::endgroup::"
+              echo "::error::$slug: build ose SEO audit dështoi — artikujt NUK u publikuan"
+              git reset --hard --quiet && git clean -fdq
+              failed=1
+            fi
+            popd > /dev/null
+          done
+          exit $failed
+
+      - name: Save bot memory (state/state.json)
+        if: always() && inputs.dry_run != true
+        run: |
+          if [ -n "$(git status --porcelain state)" ]; then
+            git add state
+            git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "Bot state"
+            git push --quiet || (git pull --rebase --quiet && git push --quiet)
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ -f out/summary.json ]; then
+            echo '### Artikujt e publikuar' >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat out/summary.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi

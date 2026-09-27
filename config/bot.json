@@ -1,0 +1,94 @@
+{
+  // Shown to the news sites in every request. Put a real contact address here.
+  "UserAgent": "LajmeBot/1.0 (+mailto:bardhgashi443@gmail.com)",
+  "RequestTimeoutSeconds": 25,
+  "MinDelayPerHostMs": 1500,
+  "RespectRobotsTxt": true,
+
+  // How much to publish on every run (the GitHub workflow runs every 2 hours by default).
+  "MaxStoriesPerRun": 3,      // new stories written per run
+  "SitesPerStory": 2,         // how many sites get their own version of each story
+  "MaxSourcesPerStory": 4,
+  "MaxStoryAgeHours": 10,
+  "ClusterSimilarity": 0.3,
+  "FeaturedMinSources": 3,
+  "StateRetentionDays": 10,
+
+  "Ai": {
+    // Models: https://platform.claude.com/docs/en/about-claude/models/overview
+    // claude-sonnet-5 = good Albanian at a moderate price; claude-haiku-4-5-20251001 = cheapest.
+    "Model": "claude-sonnet-5",
+    "MaxTokens": 4096,
+    "ApiKeyEnv": "ANTHROPIC_API_KEY",
+    "MinWords": 450,
+    "MaxWords": 800
+  },
+
+  // Outlets the bot READS for facts. Nothing is copied: the AI writes new text and links back to them.
+  // If a feed URL is wrong, the bot tries to auto-discover the feed from HomeUrl and logs the right one.
+  "Sources": [
+    { "Name": "Koha",          "HomeUrl": "https://www.koha.net/",          "FeedUrls": ["https://www.koha.net/rss", "https://www.koha.net/feed/"] },
+    { "Name": "Insajderi",     "HomeUrl": "https://insajderi.com/",         "FeedUrls": ["https://insajderi.com/feed/"] },
+    { "Name": "Sinjali",       "HomeUrl": "https://sinjali.com/",           "FeedUrls": ["https://sinjali.com/feed/"] },
+    { "Name": "Telegrafi",     "HomeUrl": "https://telegrafi.com/",         "FeedUrls": ["https://telegrafi.com/feed/"] },
+    { "Name": "Kallxo",        "HomeUrl": "https://kallxo.com/",            "FeedUrls": ["https://kallxo.com/feed/"] },
+    { "Name": "Gazeta Express","HomeUrl": "https://www.gazetaexpress.com/", "FeedUrls": ["https://www.gazetaexpress.com/feed/"] },
+    { "Name": "Nacionale",     "HomeUrl": "https://nacionale.com/",         "FeedUrls": ["https://nacionale.com/feed"] },
+    { "Name": "RTK",           "HomeUrl": "https://www.rtklive.com/sq/",    "FeedUrls": ["https://www.rtklive.com/sq/rss"] },
+    { "Name": "Evropa e Lirë", "HomeUrl": "https://www.evropaelire.org/",   "FeedUrls": [] }
+  ],
+
+  // Your sites. "Repo" is used by the GitHub workflow to check them out into sites/<Slug>.
+  "Sites": [
+    {
+      "Slug": "raporti-sot",
+      "Name": "Raporti Sot",
+      "Repo": "bg20033/raporti-sot",
+      "Branch": "main",
+      "Accent": "#cc0000",
+      "MaxArticlesPerRun": 2,
+      "AuthorId": "redaksia",
+      "AuthorName": "Redaksia e Raporti Sot",
+      "Style": "Analytical and explanatory. Put the news in context: what happened, why it matters, what comes next. Calm, measured sentences."
+    },
+    {
+      "Slug": "infokosove24",
+      "Name": "InfoKosove24",
+      "Repo": "bg20033/infokosove24",
+      "Branch": "main",
+      "Accent": "#0057b8",
+      "Tint": "#081e48",
+      "TintAmount": 0.35,
+      "MaxArticlesPerRun": 2,
+      "AuthorId": "redaksia",
+      "AuthorName": "Redaksia e InfoKosove24",
+      "Style": "Fast, clear news service. Short paragraphs of 2–3 sentences, the most important facts first, plain everyday language. Good for readers on mobile."
+    },
+    {
+      "Slug": "kosova-aktuale",
+      "Name": "Kosova Aktuale",
+      "Repo": "bg20033/kosova-aktuale",
+      "Branch": "main",
+      "Accent": "#0a7d4f",
+      "Tint": "#0c3424",
+      "TintAmount": 0.3,
+      "MaxArticlesPerRun": 2,
+      "AuthorId": "redaksia",
+      "AuthorName": "Redaksia e Kosova Aktuale",
+      "Style": "Feature-style reporting: open with a concrete scene or detail from the sources, then explain the background and the people or institutions involved. Warm but neutral."
+    },
+    {
+      "Slug": "kosova-fakt",
+      "Name": "Kosova Fakt",
+      "Repo": "bg20033/kosova-fakt",
+      "Branch": "main",
+      "Accent": "#f5b400",
+      "Tint": "#121214",
+      "TintAmount": 0.5,
+      "MaxArticlesPerRun": 2,
+      "AuthorId": "redaksia",
+      "AuthorName": "Redaksia e Kosova Fakt",
+      "Style": "Fact-first. After the opening paragraph add a section '## Faktet kryesore' with 4–6 bullet points of verified facts from the sources, then explanation. Be explicit about what is confirmed and what is still unclear."
+    }
+  ]
+}

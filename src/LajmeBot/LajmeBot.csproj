@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <RootNamespace>LajmeBot</RootNamespace>
+    <AssemblyName>LajmeBot</AssemblyName>
+    <!-- No NuGet packages on purpose: the bot only needs the .NET base library. -->
+  </PropertyGroup>
+
+</Project>
