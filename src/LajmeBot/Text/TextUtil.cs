@@ -22,6 +22,9 @@ public static partial class TextUtil
     [GeneratedRegex(@"[^\p{L}\p{Nd}]+")]
     private static partial Regex NonWord();
 
+    /// <summary>Removes scripts, styles, navigation, header, footer, asides and comments.</summary>
+    public static string StripNoise(string html) => NoiseBlocks().Replace(Comments().Replace(html, " "), " ");
+
     /// <summary>Converts an HTML fragment to readable plain text with paragraph breaks.</summary>
     public static string HtmlToText(string html)
     {

@@ -76,6 +76,9 @@ public static class SelfTest
         var wpHtml = "<html><body><nav><p>Menu menu menu menu menu menu menu menu menu menu menu menu menu menu</p></nav><div class=\"entry-content\"><p>" + body + "</p><p>" + body + "</p><div class=\"share\"><p>Shpërndaje</p></div></div></body></html>";
         var wp = ArticleFetcher.Extract(wpHtml);
         Check("extract entry-content paragraphs", wp.Contains("Kjo është") && !wp.Contains("Menu"));
+        var navHtml = "<html><body><header><nav><p>Kryefaqja Lajme Sport Ekonomi Kultura Bota Showbiz Magazina Video Foto Kontakt</p></nav></header><p>" + body + "</p><p>" + body + "</p><footer><p>Të gjitha të drejtat e rezervuara nga portali, ndalohet kopjimi pa leje.</p></footer></body></html>";
+        var nav = ArticleFetcher.Extract(navHtml);
+        Check("extract ignores nav/header/footer", nav.Contains("Kjo është") && !nav.Contains("Kryefaqja") && !nav.Contains("drejtat"));
 
         // Clustering + state
         var feedItems = new List<FeedItem>

@@ -6,20 +6,21 @@ on:
     - cron: "7 5-21/2 * * *"
   workflow_dispatch:
     inputs:
+      mode:
+        description: "Çka me bo"
+        type: choice
+        default: discover
+        options:
+          - discover   # PROVË PA AI: lexon portalet, grupon lajmet, lexon tekstet — s'shkruan asgjë
+          - test       # PROVË PA AI: shkruan artikuj TEST në kopje të faqeve, i ndërton + SEO audit — NUK publikon
+          - dry-run    # ME AI: shkruan draft-et e vërteta dhe i shfaq në log — NUK publikon
+          - publish    # ME AI: publikon në faqe (kjo punon vetë çdo 2 orë)
       max_stories:
-        description: "Sa histori të reja (bosh = sipas config/bot.json)"
+        description: "Sa histori (bosh = sipas config/bot.json)"
         required: false
         default: ""
-      dry_run:
-        description: "Vetëm provë: mos shkruaj e mos publiko asgjë"
-        type: boolean
-        default: false
-      mock_ai:
-        description: "Test pa AI (artikuj testues — mos e përdor në prodhim)"
-        type: boolean
-        default: false
 
-# Never run two publishing jobs at the same time.
+# Never run two jobs at the same time.
 concurrency:
   group: lajme-bot
   cancel-in-progress: false
@@ -28,10 +29,11 @@ permissions:
   contents: write
 
 jobs:
-  publish:
+  bot:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
+      MODE: ${{ inputs.mode || 'publish' }}
       DOTNET_CLI_TELEMETRY_OPTOUT: "1"
       DOTNET_NOLOGO: "1"
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -51,34 +53,50 @@ jobs:
       - name: Self-test
         run: $BOT selftest
 
+      # ---------------- discover: live test of the reading side, no AI, no sites ----------------
+      - name: Discover (pa AI)
+        if: env.MODE == 'discover'
+        run: |
+          $BOT discover --top 5 --report out/discover.md
+          cat out/discover.md >> "$GITHUB_STEP_SUMMARY"
+
+      # ---------------- everything below needs the site checkouts ----------------
       - name: Checkout sites
+        if: env.MODE != 'discover'
         env:
           SITES_TOKEN: ${{ secrets.SITES_TOKEN }}
         run: |
-          if [ -z "$SITES_TOKEN" ]; then echo "::error::Secret SITES_TOKEN mungon (GitHub token me qasje Contents: write në repo-t e faqeve)"; exit 1; fi
+          if [ -z "$SITES_TOKEN" ] && [ "$MODE" = "publish" ]; then
+            echo "::error::Secret SITES_TOKEN mungon (GitHub token me qasje Contents: write në repo-t e faqeve)"; exit 1
+          fi
           mkdir -p sites
           $BOT sites | while read -r slug repo branch; do
+            if [ -n "$SITES_TOKEN" ]; then url="https://x-access-token:${SITES_TOKEN}@github.com/${repo}.git"; else url="https://github.com/${repo}.git"; fi
             echo "Cloning $repo ($branch) -> sites/$slug"
-            git clone --quiet --depth 20 --branch "$branch" "https://x-access-token:${SITES_TOKEN}@github.com/${repo}.git" "sites/$slug" \
-              || echo "::warning::Nuk u klonua $repo — faqja $slug anashkalohet"
+            git clone --quiet --depth 20 --branch "$branch" "$url" "sites/$slug" \
+              || echo "::warning::Nuk u klonua $repo — faqja $slug anashkalohet (repo privat pa SITES_TOKEN, ose s'ekziston)"
           done
+          ls sites
 
       - name: Setup Node
+        if: env.MODE == 'test' || env.MODE == 'publish'
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: npm
-          cache-dependency-path: sites/*/package-lock.json
 
       - name: Write articles
+        if: env.MODE != 'discover'
         run: |
           ARGS="--sites-root sites --summary out/summary.json"
           [ -n "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories ${{ inputs.max_stories }}"
-          [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
-          [ "${{ inputs.mock_ai }}" = "true" ] && ARGS="$ARGS --mock-ai"
+          case "$MODE" in
+            test)    ARGS="$ARGS --mock-ai --state out/test-state.json" ;;   # real bot memory stays untouched
+            dry-run) ARGS="$ARGS --dry-run" ;;
+          esac
           $BOT run $ARGS
 
-      - name: Build, check and push every changed site
+      - name: Build and check every changed site (push only in publish mode)
+        if: env.MODE == 'test' || env.MODE == 'publish'
         run: |
           failed=0
           for dir in sites/*/; do
@@ -89,13 +107,19 @@ jobs:
             echo "::group::$slug — build ($count artikuj të rinj)"
             if npm ci --no-audit --no-fund && npm run build && npm run audit:seo; then
               echo "::endgroup::"
-              git add -A src/content src/assets
-              msg="Lajme automatike: $count artikuj të rinj"; [ "$count" = "0" ] && msg="LajmeBot: përditësim"
-              git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "$msg"
-              git push --quiet origin HEAD && echo "$slug: u publikuan $count artikuj" || { echo "::error::$slug: push dështoi"; failed=1; }
+              if [ "$MODE" = "publish" ]; then
+                git add -A src/content src/assets
+                msg="Lajme automatike: $count artikuj të rinj"; [ "$count" = "0" ] && msg="LajmeBot: përditësim"
+                git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "$msg"
+                git push --quiet origin HEAD && echo "$slug: u publikuan $count artikuj" || { echo "::error::$slug: push dështoi"; failed=1; }
+              else
+                echo "$slug: ✅ $count artikuj TEST u ndërtuan pa gabime (nuk u publikuan)"
+                echo "- **$slug**: ✅ $count artikuj test, build + SEO audit OK" >> "$GITHUB_STEP_SUMMARY"
+              fi
             else
               echo "::endgroup::"
               echo "::error::$slug: build ose SEO audit dështoi — artikujt NUK u publikuan"
+              echo "- **$slug**: ❌ build ose SEO audit dështoi" >> "$GITHUB_STEP_SUMMARY"
               git reset --hard --quiet && git clean -fdq
               failed=1
             fi
@@ -103,8 +127,16 @@ jobs:
           done
           exit $failed
 
+      - name: Show one test article
+        if: env.MODE == 'test'
+        run: |
+          f=$(ls -t sites/*/src/content/news/test-*.md 2>/dev/null | head -1)
+          if [ -n "$f" ]; then
+            { echo; echo "### Shembull: $f"; echo '```markdown'; head -40 "$f"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Save bot memory (state/state.json)
-        if: always() && inputs.dry_run != true
+        if: always() && env.MODE == 'publish'
         run: |
           if [ -n "$(git status --porcelain state)" ]; then
             git add state
@@ -113,10 +145,10 @@ jobs:
           fi
 
       - name: Summary
-        if: always()
+        if: always() && env.MODE != 'discover'
         run: |
           if [ -f out/summary.json ]; then
-            echo '### Artikujt e publikuar' >> "$GITHUB_STEP_SUMMARY"
+            echo "### Artikujt ($MODE)" >> "$GITHUB_STEP_SUMMARY"
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
             cat out/summary.json >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"

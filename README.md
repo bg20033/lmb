@@ -37,7 +37,16 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
 4. Ndrysho në `config/bot.json`:
    - `UserAgent` → vendos email-in tënd real
    - `Repo` e secilës faqe, nëse emrat në GitHub janë ndryshe
-5. **Prova e parë:** *Actions → Publiko lajme → Run workflow* me **dry_run = true**. Log-u tregon cilat histori u gjetën dhe draft-et, pa publikuar asgjë. Pastaj e lëshon pa dry-run.
+5. **Provat** (*Actions → Publiko lajme → Run workflow*, zgjedh `mode`):
+
+   | mode | AI? | Sekretet | Çka bën |
+   |---|---|---|---|
+   | `discover` | jo | asnjë | Lexon portalet live, grupon lajmet, lexon tekstet dhe shfaq raport (cili portal punon, sa fjalë u lexuan). Nuk prek faqet. |
+   | `test` | jo | `SITES_TOKEN` (s'duhet nëse repo-t e faqeve janë publike) | Shkruan artikuj **TEST** në kopje të faqeve, gjeneron ilustrimet, i ndërton dhe i kalon SEO audit. **Nuk publikon** dhe nuk e prek kujtesën e bot-it. |
+   | `dry-run` | po | të dyja | Draft-et e vërteta nga Claude shfaqen në log. Nuk publikon. |
+   | `publish` | po | të dyja | Publikon. Kjo punon vetë sipas orarit. |
+
+   Rendi i rekomanduar: `discover` → `test` → `dry-run` → `publish`.
 
 Pas kësaj punon vetë çdo 2 orë, prej orës 07 deri në 23 me orën e Kosovës (`cron` në `.github/workflows/publish.yml`).
 
@@ -50,7 +59,8 @@ E zvogëlon me `MaxStoriesPerRun`, `SitesPerStory`, me më pak ekzekutime në `c
 ## Komandat lokale
 
 ```bash
-dotnet run --project src/LajmeBot -- selftest                        # 36 teste pa internet
+dotnet run --project src/LajmeBot -- selftest                        # testet, pa internet
+dotnet run --project src/LajmeBot -- discover --top 5                # provë live e portaleve, pa AI, s'shkruan asgjë
 dotnet run --project src/LajmeBot -- run --sites-root .. --dry-run   # me ANTHROPIC_API_KEY: tregon draft-et, s'shkruan asgjë
 dotnet run --project src/LajmeBot -- run --sites-root .. --site kosova-fakt --max-stories 1
 dotnet run --project src/LajmeBot -- run --sites-root /tmp/kopje --fixtures tests/fixtures --mock-ai   # provë offline
@@ -72,6 +82,7 @@ src/LajmeBot/
   Ai/Writers.cs                  Claude (Messages API me tool call të detyruar) + mock
   Publishing/SitePublisher.cs    validimi sipas skemës Astro, shkrimi i .md, autori
   Images/HeroImageGenerator.cs   ilustrime PNG në C# të pastër (8 motive)
+  DiscoverCommand.cs             komanda "discover" (provë pa AI)
   SelfTest.cs                    testet
 tests/fixtures/                  RSS dhe faqe për testim offline
 .github/workflows/publish.yml    orari, build, SEO audit, push
@@ -91,4 +102,3 @@ tests/fixtures/                  RSS dhe faqe për testim offline
 
 Megjithatë **AI mund të gabojë**. Shiko herë pas here çka publikohet, sidomos për tema politike dhe gjyqësore.
 Nëse do kontroll para publikimit, vendos `"PublishAsDraft": true` te faqja në `config/bot.json`: artikujt shkruhen me `draft: true` dhe dalin në faqe vetëm kur e heq atë rresht.
-# lmb

@@ -187,12 +187,13 @@ public sealed partial class ArticleFetcher
             catch (JsonException) { }
         }
         // 2) Known content containers → paragraphs inside them
+        html = TextUtil.StripNoise(html);
         var c = ContentContainer().Match(html);
         if (c.Success)
         {
             var slice = html.Substring(c.Index, Math.Min(120_000, html.Length - c.Index));
             var text = Paragraphs(slice);
-            if (text.Length > 300) return text;
+            if (text.Length > 150) return text;
         }
         // 3) All reasonably long paragraphs on the page
         var all = Paragraphs(html);

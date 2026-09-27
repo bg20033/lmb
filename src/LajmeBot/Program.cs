@@ -19,6 +19,11 @@ if (opts.Command == "sites")
         Console.WriteLine($"{s.Slug} {s.Repo} {s.Branch}");
     return 0;
 }
+if (opts.Command == "discover")
+{
+    // Live check of feeds, clustering and text extraction — no API key, no sites, writes nothing.
+    return await DiscoverCommand.RunAsync(BotConfig.Load(opts.ConfigPath), opts.FixturesDir, opts.ReportPath, opts.Top, opts.Verbose);
+}
 if (opts.Command != "run")
 {
     Console.WriteLine("""
@@ -27,6 +32,8 @@ if (opts.Command != "run")
         Usage:
           dotnet run --project src/LajmeBot -- run [options]
           dotnet run --project src/LajmeBot -- selftest
+          dotnet run --project src/LajmeBot -- discover [--top 5] [--report file.md]
+                                     (live test of feeds + text extraction, no AI, writes nothing)
           dotnet run --project src/LajmeBot -- sites        (lists enabled sites for the workflow)
 
         Options:
@@ -219,6 +226,8 @@ sealed class Options
     public bool Verbose { get; set; }
     public string? FixturesDir { get; set; }
     public string? SummaryPath { get; set; }
+    public string? ReportPath { get; set; }
+    public int Top { get; set; } = 5;
 
     public static Options Parse(string[] args)
     {
@@ -237,6 +246,8 @@ sealed class Options
                 case "--mock-ai": o.MockAi = true; break;
                 case "--fixtures": o.FixturesDir = Next(); break;
                 case "--summary": o.SummaryPath = Next(); break;
+                case "--report": o.ReportPath = Next(); break;
+                case "--top": o.Top = int.Parse(Next()); break;
                 case "--verbose": o.Verbose = true; break;
                 default: throw new ArgumentException($"Unknown option {args[i]}");
             }
