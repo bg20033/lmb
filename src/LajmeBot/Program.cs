@@ -43,6 +43,8 @@ if (opts.Command != "run")
           --sites-root <dir>    folder containing one checkout per site, named by site slug (default: sites)
           --site <slug>         only publish to this site (repeatable)
           --max-stories <n>     override MaxStoriesPerRun
+          --provider <name>     override Ai.Provider (openrouter | anthropic)
+          --model <id>          override Ai.Model, e.g. deepseek/deepseek-v4.1-flash
           --dry-run             write nothing to the sites; full drafts go to --drafts-dir
           --drafts-dir <dir>    where dry-run drafts are saved (default: out/drafts)
           --mock-ai             offline placeholder writer (for testing without an API key)
@@ -56,6 +58,8 @@ if (opts.Command != "run")
 var log = new Log(opts.Verbose);
 var cfg = BotConfig.Load(opts.ConfigPath);
 if (opts.MaxStories is { } ms) cfg.MaxStoriesPerRun = ms;
+if (!string.IsNullOrWhiteSpace(opts.Provider)) cfg.Ai.Provider = opts.Provider;
+if (!string.IsNullOrWhiteSpace(opts.Model)) { cfg.Ai.Model = opts.Model; cfg.Ai.FallbackModels.Clear(); }
 
 // ---- sites -------------------------------------------------------------------------------------
 var sites = new List<(SiteConfig cfg, SitePublisher pub)>();
@@ -79,9 +83,10 @@ IArticleWriter writer;
 if (opts.MockAi) writer = new MockWriter();
 else
 {
-    var key = Environment.GetEnvironmentVariable(cfg.Ai.ApiKeyEnv);
-    if (string.IsNullOrWhiteSpace(key)) { log.Error($"Missing API key: set the {cfg.Ai.ApiKeyEnv} environment variable (or use --mock-ai)."); return 2; }
-    writer = new ClaudeWriter(cfg.Ai, key, log);
+    var key = Environment.GetEnvironmentVariable(cfg.Ai.KeyEnv);
+    if (string.IsNullOrWhiteSpace(key)) { log.Error($"Missing API key: set the {cfg.Ai.KeyEnv} environment variable (or use --mock-ai)."); return 2; }
+    writer = cfg.Ai.IsOpenRouter ? new OpenRouterWriter(cfg.Ai, key, log) : new ClaudeWriter(cfg.Ai, key, log);
+    log.Info($"AI: {cfg.Ai.Provider} / {cfg.Ai.Model}" + (cfg.Ai.IsOpenRouter && cfg.Ai.FallbackModels.Count > 0 ? $" (rezervë: {string.Join(", ", cfg.Ai.FallbackModels)})" : ""));
 }
 
 using var cts = new CancellationTokenSource(TimeSpan.FromMinutes(25));
@@ -215,6 +220,7 @@ if (opts.SummaryPath != null)
     }, new JsonSerializerOptions { WriteIndented = true }));
 }
 log.Info($"Done: {published.Count} articles for {storiesDone} stories.");
+if (writer is OpenRouterWriter orw && orw.TotalCost > 0) log.Info($"Kosto e AI në këtë ekzekutim: ${orw.TotalCost:0.0000}");
 (writer as IDisposable)?.Dispose();
 (fetcher as IDisposable)?.Dispose();
 return 0;
@@ -228,6 +234,8 @@ sealed class Options
     public string SitesRoot { get; set; } = "sites";
     public HashSet<string> OnlySites { get; } = new();
     public int? MaxStories { get; set; }
+    public string? Provider { get; set; }
+    public string? Model { get; set; }
     public bool DryRun { get; set; }
     public string DraftsDir { get; set; } = "out/drafts";
     public bool MockAi { get; set; }
@@ -250,6 +258,8 @@ sealed class Options
                 case "--sites-root": o.SitesRoot = Next(); break;
                 case "--site": o.OnlySites.Add(Next()); break;
                 case "--max-stories": o.MaxStories = int.Parse(Next()); break;
+                case "--provider": o.Provider = Next(); break;
+                case "--model": o.Model = Next(); break;
                 case "--dry-run": o.DryRun = true; break;
                 case "--drafts-dir": o.DraftsDir = Next(); break;
                 case "--mock-ai": o.MockAi = true; break;

@@ -19,6 +19,10 @@ on:
         description: "Sa histori (bosh = sipas config/bot.json)"
         required: false
         default: ""
+      model:
+        description: "Modeli për këtë ekzekutim (bosh = sipas config), p.sh. deepseek/deepseek-v4.1-flash"
+        required: false
+        default: ""
 
 # Never run two jobs at the same time.
 concurrency:
@@ -37,6 +41,7 @@ jobs:
       DOTNET_CLI_TELEMETRY_OPTOUT: "1"
       DOTNET_NOLOGO: "1"
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       BOT: dotnet bin/bot/LajmeBot.dll
     steps:
       - name: Checkout bot
@@ -61,7 +66,9 @@ jobs:
         run: |
           go=true
           if [ "$MODE" = "publish" ] || [ "$MODE" = "dry-run" ]; then
-            [ -z "$ANTHROPIC_API_KEY" ] && { echo "::notice::ANTHROPIC_API_KEY mungon — '$MODE' u anashkalua. Provo mode 'discover' ose 'test' (pa AI)."; go=false; }
+            if [ -z "$OPENROUTER_API_KEY" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
+              echo "::notice::Mungon çelësi i AI (OPENROUTER_API_KEY ose ANTHROPIC_API_KEY) — '$MODE' u anashkalua. Provo mode 'discover' ose 'test' (pa AI)."; go=false
+            fi
           fi
           if [ "$MODE" = "publish" ] && [ -z "$SITES_TOKEN" ]; then
             echo "::notice::SITES_TOKEN mungon — publikimi u anashkalua."; go=false
@@ -104,6 +111,7 @@ jobs:
         run: |
           ARGS="--sites-root sites --summary out/summary.json"
           [ -n "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories ${{ inputs.max_stories }}"
+          [ -n "${{ inputs.model }}" ] && ARGS="$ARGS --model ${{ inputs.model }}"
           case "$MODE" in
             test)    ARGS="$ARGS --mock-ai --state out/test-state.json" ;;   # real bot memory stays untouched
             dry-run)

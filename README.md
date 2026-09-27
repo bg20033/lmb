@@ -5,7 +5,7 @@ Punon falas në **GitHub Actions** (pa server, pa databazë) dhe është shkruar
 
 ```
 RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i fakteve nga 2–4 burime
-      ──► Claude shkruan artikull ORIGJINAL (stil tjetër për secilën faqe)
+      ──► AI (OpenRouter ose Claude) shkruan artikull ORIGJINAL (stil tjetër për secilën faqe)
       ──► kontroll: skema e faqes, gjatësia, kopjimi i teksteve
       ──► .md + ilustrim PNG në src/content/news  ──► astro build + SEO audit
       ──► git push  ──► Vercel/Netlify e publikon vetë
@@ -16,7 +16,7 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
 1. **Zbulimi.** Lexon RSS-in e portaleve në `config/bot.json` (Koha, Insajderi, Sinjali, Telegrafi, Kallxo…). Nëse një adresë RSS është gabim, e gjen vetë nga faqja kryesore dhe e shkruan në log.
 2. **Grupimi.** Titujt që flasin për të njëjtën ngjarje bashkohen në një "histori" (me stemming të thjeshtë shqip). Historitë me më shumë burime dhe më të freskëta vijnë të parat.
 3. **Faktet.** Për çdo histori hap 2–4 artikuj burimorë (duke respektuar `robots.txt`, me User-Agent të ndershëm dhe pauzë mes kërkesave) dhe nxjerr tekstin vetëm që AI t'i lexojë faktet.
-4. **Shkrimi.** Claude shkruan artikull të ri me fjalët e veta: pa fakte të shpikura, me atribuim ("sipas Kohës…"), 450–800 fjalë, me nëntituj. Secila faqe ka zërin e vet (`Style` në config). Çdo histori shkon te 2 faqe (me rotacion), kështu që faqet kanë përmbajtje të ndryshme.
+4. **Shkrimi.** AI shkruan artikull të ri me fjalët e veta: pa fakte të shpikura, me atribuim ("sipas Kohës…"), 450–800 fjalë, me nëntituj. Secila faqe ka zërin e vet (`Style` në config). Çdo histori shkon te 2 faqe (me rotacion), kështu që faqet kanë përmbajtje të ndryshme.
 5. **Kontrolli.** Nëse titulli/përshkrimi nuk i plotëson rregullat e faqes, ose nëse teksti ka ≥12 fjalë radhazi të kopjuara nga një burim, draft-i refuzohet dhe AI e rishkruan një herë.
 6. **Publikimi.** Shkruan `src/content/news/<slug>.md` dhe një ilustrim abstrakt `src/assets/news/<slug>.png` me ngjyrat e faqes (nuk merren foto nga portalet). Në fund të çdo artikulli shtohen **Burimet** me linqe dhe një shënim që artikulli është përgatitur me AI. Autori është "Redaksia e …" (shtohet vetë në `authors.json`).
 7. **Siguria.** Workflow-i e ndërton faqen dhe e kalon SEO audit **para** push-it. Nëse diçka dështon, ajo faqe nuk publikohet.
@@ -31,9 +31,10 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
    ```
    (njëjtë për `kosova-aktuale` dhe `kosova-fakt`) dhe lidhi me Vercel, secilën me `PUBLIC_SITE_URL` të vet.
 2. **Krijo repo për bot-in** (p.sh. `bg20033/lajme-bot`) dhe shtyje këtë folder. Nëse repo është **publik**, minutat e GitHub Actions janë falas pa limit. Nëse është privat, limiti është 2 000 min/muaj, që mjafton për rreth 8–9 ekzekutime në ditë.
-3. **API key i Claude:** https://platform.claude.com → API Keys. Në repo-n e bot-it: *Settings → Secrets and variables → Actions → New repository secret*
-   - `ANTHROPIC_API_KEY` = çelësi
-   - `SITES_TOKEN` = GitHub fine-grained token (*Settings → Developer settings → Fine-grained tokens*) me qasje vetëm te 4 repo-t e faqeve, leja **Contents: Read and write**.
+3. **Çelësi i AI.** Në repo-n e bot-it: *Settings → Secrets and variables → Actions → New repository secret*
+   - `OPENROUTER_API_KEY`: nga https://openrouter.ai/keys. Është standardi, me një çelës i ke të gjitha modelet. Mbushe llogarinë me pak kredit.
+   - ose `ANTHROPIC_API_KEY`: nëse do Claude direkt, dhe te config vendos `"Provider": "anthropic"`, `"Model": "claude-sonnet-5"`.
+   - `SITES_TOKEN`: GitHub fine-grained token (*Settings → Developer settings → Fine-grained tokens*) me qasje vetëm te 4 repo-t e faqeve, leja **Contents: Read and write**.
 4. Ndrysho në `config/bot.json`:
    - `UserAgent` → vendos email-in tënd real
    - `Repo` e secilës faqe, nëse emrat në GitHub janë ndryshe
@@ -43,7 +44,7 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
    |---|---|---|---|
    | `discover` | jo | asnjë | Lexon portalet live, grupon lajmet, lexon tekstet dhe shfaq raport (cili portal punon, sa fjalë u lexuan). Nuk prek faqet. |
    | `test` | jo | `SITES_TOKEN` (s'duhet nëse repo-t e faqeve janë publike) | Shkruan artikuj **TEST** në kopje të faqeve, gjeneron ilustrimet, i ndërton dhe i kalon SEO audit. **Nuk publikon** dhe nuk e prek kujtesën e bot-it. |
-   | `dry-run` | po | vetëm `ANTHROPIC_API_KEY` | Claude shkruan artikuj të vërtetë (1 histori nëse s'jep numër). I sheh të plotë te **Summary** e ekzekutimit, ilustrimet te **Artifacts → drafts**. Nuk publikon e nuk e prek kujtesën. |
+   | `dry-run` | po | vetëm çelësi i AI | AI shkruan artikuj të vërtetë (1 histori nëse s'jep numër). I sheh të plotë te **Summary** e ekzekutimit, ilustrimet te **Artifacts → drafts**. Nuk publikon e nuk e prek kujtesën. |
    | `publish` | po | të dyja | Publikon. Kjo punon vetë sipas orarit. |
 
    Rendi i rekomanduar: `discover` → `test` → `dry-run` → `publish`.
@@ -51,18 +52,28 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
 
 Pas kësaj punon vetë çdo 2 orë, prej orës 07 deri në 23 me orën e Kosovës (`cron` në `.github/workflows/publish.yml`).
 
-## Sa kushton
+## Modeli dhe kostoja
 
-Me `claude-sonnet-5` një artikull kushton afërsisht **$0.02–0.04** (~4–6k token hyrje, ~1.5–2k dalje).
-Me konfigurimin standard (3 histori × 2 faqe × 9 ekzekutime në ditë, rreth 54 artikuj në ditë) del **~$1–2 në ditë**.
-E zvogëlon me `MaxStoriesPerRun`, `SitesPerStory`, me më pak ekzekutime në `cron`, ose me `claude-haiku-4-5-20251001` (më lirë, por shqipja është më e dobët).
+Modeli ndërrohet te `config/bot.json` → `Ai.Model`, ose vetëm për një ekzekutim te fusha **model** e workflow-it.
+Çmimet për milion token (hyrje / dalje, shtator 2026). Një artikull merr afërsisht 5k token hyrje dhe 2k dalje:
+
+| Modeli (OpenRouter) | Çmimi | Për artikull | ~54 artikuj/ditë |
+|---|---|---|---|
+| `google/gemini-3.8-flash` (standardi) | $0.75 / $3.75 | ~1 cent | ~$0.60/ditë |
+| `qwen/qwen3.8-flash` | $0.15 / $0.47 | ~0.2 cent | ~$0.10/ditë |
+| `deepseek/deepseek-v4.1-flash` (rezerva) | $0.035 / $0.29 | ~0.08 cent | ~$0.05/ditë |
+| `claude-sonnet-5` (Anthropic direkt) | $2 / $10 | ~3 cent | ~$1.60/ditë |
+
+Modelet më të lira shpesh e shkruajnë shqipen më dobët. Provoji me `dry-run` (fusha **model**) dhe krahasoji para se ta ndërrosh standardin.
+Nëse modeli kryesor bie, OpenRouter kalon vetë te `FallbackModels`. Log-u e shkruan koston e çdo ekzekutimi.
 
 ## Komandat lokale
 
 ```bash
 dotnet run --project src/LajmeBot -- selftest                        # testet, pa internet
 dotnet run --project src/LajmeBot -- discover --top 5                # provë live e portaleve, pa AI, s'shkruan asgjë
-dotnet run --project src/LajmeBot -- run --sites-root .. --dry-run   # me ANTHROPIC_API_KEY: tregon draft-et, s'shkruan asgjë
+dotnet run --project src/LajmeBot -- run --sites-root .. --dry-run   # me OPENROUTER_API_KEY: draft-et në out/drafts, s'publikon
+dotnet run --project src/LajmeBot -- run --sites-root .. --dry-run --model deepseek/deepseek-v4.1-flash
 dotnet run --project src/LajmeBot -- run --sites-root .. --site kosova-fakt --max-stories 1
 dotnet run --project src/LajmeBot -- run --sites-root /tmp/kopje --fixtures tests/fixtures --mock-ai   # provë offline
 ```
@@ -80,7 +91,8 @@ src/LajmeBot/
   Http/Fetcher.cs                HttpClient i sjellshëm: robots.txt, pauzë për host, retry 429/5xx
   Discovery/Discovery.cs         RSS/Atom + nxjerrja e tekstit (JSON-LD → entry-content → <p>)
   Stories/Stories.cs             grupimi i lajmeve dhe kujtesa
-  Ai/Writers.cs                  Claude (Messages API me tool call të detyruar) + mock
+  Ai/OpenRouterWriter.cs         OpenRouter (function calling, me kalim automatik në JSON)
+  Ai/Writers.cs                  Claude direkt (Messages API), prompt-et + mock
   Publishing/SitePublisher.cs    validimi sipas skemës Astro, shkrimi i .md, autori
   Images/HeroImageGenerator.cs   ilustrime PNG në C# të pastër (8 motive)
   DiscoverCommand.cs             komanda "discover" (provë pa AI)

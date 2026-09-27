@@ -50,16 +50,32 @@ public sealed class BotConfig
 
 public sealed class AiConfig
 {
-    /// <summary>Anthropic model id, e.g. claude-sonnet-5. See https://platform.claude.com/docs/en/about-claude/models/overview</summary>
-    public string Model { get; set; } = "claude-sonnet-5";
-    public int MaxTokens { get; set; } = 4096;
+    /// <summary>"openrouter" (hundreds of models, one key) or "anthropic" (Claude directly).</summary>
+    public string Provider { get; set; } = "openrouter";
+
+    /// <summary>
+    /// Model id for the chosen provider.
+    /// OpenRouter: e.g. google/gemini-3.8-flash, deepseek/deepseek-v4.1-flash — https://openrouter.ai/models
+    /// Anthropic: e.g. claude-sonnet-5 — https://platform.claude.com/docs/en/about-claude/models/overview
+    /// </summary>
+    public string Model { get; set; } = "google/gemini-3.8-flash";
+
+    /// <summary>OpenRouter only: models tried in order if the main one is down or rate-limited.</summary>
+    public List<string> FallbackModels { get; set; } = new();
+
+    public int MaxTokens { get; set; } = 8000;
     /// <summary>Optional; leave null to use the model default.</summary>
     public double? Temperature { get; set; }
-    /// <summary>Environment variable that holds the API key.</summary>
-    public string ApiKeyEnv { get; set; } = "ANTHROPIC_API_KEY";
-    public string BaseUrl { get; set; } = "https://api.anthropic.com";
+    /// <summary>Environment variable with the API key. Default: OPENROUTER_API_KEY or ANTHROPIC_API_KEY.</summary>
+    public string? ApiKeyEnv { get; set; }
+    /// <summary>Default: https://openrouter.ai/api/v1 or https://api.anthropic.com</summary>
+    public string? BaseUrl { get; set; }
     public int MinWords { get; set; } = 450;
     public int MaxWords { get; set; } = 800;
+
+    public bool IsOpenRouter => Provider.Equals("openrouter", StringComparison.OrdinalIgnoreCase);
+    public string KeyEnv => ApiKeyEnv ?? (IsOpenRouter ? "OPENROUTER_API_KEY" : "ANTHROPIC_API_KEY");
+    public string Endpoint => (BaseUrl ?? (IsOpenRouter ? "https://openrouter.ai/api/v1" : "https://api.anthropic.com")).TrimEnd('/');
 }
 
 public sealed class SourceConfig

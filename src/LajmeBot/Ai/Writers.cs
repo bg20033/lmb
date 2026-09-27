@@ -64,7 +64,7 @@ public sealed class ClaudeWriter : IArticleWriter, IDisposable
         {
             using var content = new StringContent(body.ToJsonString(), Encoding.UTF8);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            using var resp = await _http.PostAsync(_cfg.BaseUrl.TrimEnd('/') + "/v1/messages", content, ct);
+            using var resp = await _http.PostAsync(_cfg.Endpoint + "/v1/messages", content, ct);
             var text = await resp.Content.ReadAsStringAsync(ct);
             var status = (int)resp.StatusCode;
             if ((status == 429 || status == 529 || status >= 500) && attempt < 4)

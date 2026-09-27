@@ -80,6 +80,13 @@ public static class SelfTest
         var nav = ArticleFetcher.Extract(navHtml);
         Check("extract ignores nav/header/footer", nav.Contains("Kjo është") && !nav.Contains("Kryefaqja") && !nav.Contains("drejtat"));
 
+        // OpenRouter / OpenAI-style responses
+        var toolMsg = System.Text.Json.Nodes.JsonNode.Parse("""{"tool_calls":[{"type":"function","function":{"name":"publish_article","arguments":"{\"title\":\"T\"}"}}]}""");
+        Check("openrouter: tool call arguments as string", OpenRouterWriter.ExtractArguments(toolMsg)?["title"]?.GetValue<string>() == "T");
+        var fenced = System.Text.Json.Nodes.JsonNode.Parse("""{"content":"Ja artikulli:\n```json\n{\"title\": \"X\", \"skip\": false}\n```"}""");
+        Check("openrouter: JSON inside a fenced reply", OpenRouterWriter.ExtractArguments(fenced)?["title"]?.GetValue<string>() == "X");
+        Check("openrouter: no JSON -> null", OpenRouterWriter.ExtractArguments(System.Text.Json.Nodes.JsonNode.Parse("""{"content":"Më vjen keq."}""")) is null);
+
         // Clustering + state
         var feedItems = new List<FeedItem>
         {

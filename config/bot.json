@@ -1,6 +1,6 @@
 {
   // Shown to the news sites in every request. Put a real contact address here.
-  "UserAgent": "LajmeBot/1.0 (+mailto:bardhgashi443@gmail.com)",
+  "UserAgent": "LajmeBot/1.0 (+mailto:redaksia@example.com)",
   "RequestTimeoutSeconds": 25,
   "MinDelayPerHostMs": 1500,
   "RespectRobotsTxt": true,
@@ -15,11 +15,20 @@
   "StateRetentionDays": 10,
 
   "Ai": {
-    // Models: https://platform.claude.com/docs/en/about-claude/models/overview
-    // claude-sonnet-5 = good Albanian at a moderate price; claude-haiku-4-5-20251001 = cheapest.
-    "Model": "claude-sonnet-5",
-    "MaxTokens": 4096,
-    "ApiKeyEnv": "ANTHROPIC_API_KEY",
+    // "openrouter" = one key for hundreds of models (https://openrouter.ai/models)
+    // "anthropic"  = Claude directly (then Model e.g. "claude-sonnet-5", secret ANTHROPIC_API_KEY)
+    "Provider": "openrouter",
+
+    // Price per million tokens (input / output), September 2026:
+    //   google/gemini-3.8-flash        $0.75 / $3.75   good Albanian — ~1 cent per article
+    //   deepseek/deepseek-v4.1-flash   $0.035 / $0.29  very cheap — ~0.1 cent per article
+    //   qwen/qwen3.8-flash             $0.15 / $0.47
+    // Try a model first with the workflow's "dry-run" mode and the "model" field.
+    "Model": "google/gemini-3.8-flash",
+    // Used automatically if the main model is down or rate-limited.
+    "FallbackModels": ["deepseek/deepseek-v4.1-flash"],
+
+    "MaxTokens": 8000,
     "MinWords": 450,
     "MaxWords": 800
   },
