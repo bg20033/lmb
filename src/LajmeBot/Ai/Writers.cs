@@ -180,6 +180,61 @@ public static class Prompts
         return sb.ToString();
     }
 
+    /// <summary>Plain labelled-text output format (robust with small/free models).</summary>
+    public static string TextFormat(SiteConfig site, AiConfig ai) => $"""
+        OUTPUT FORMAT — plain text exactly like this, no JSON and no code fences:
+        SKIP: no
+        TITLE: <Albanian headline, 40–100 characters>
+        DESCRIPTION: <Albanian meta description, 90–165 characters>
+        CATEGORY: <exactly one of: {string.Join(", ", site.Categories)}>
+        TAGS: <2–5 short Albanian tags, separated by commas>
+        IMAGE: <exactly one of: {string.Join(", ", HeroImageGenerator.Motifs)}>
+        BODY:
+        <the full article in Markdown: at least {ai.MinWords} words, 3–5 sections with "## " subheadings>
+
+        The BODY must be long — at least {ai.MinWords} words. Shorter articles are rejected automatically.
+        If the story must be skipped, answer only with the line: SKIP: yes — <reason>
+        """;
+
+    private static readonly global::System.Text.RegularExpressions.Regex FieldLine =
+        new(@"^[ \t>*_#-]*(SKIP|TITLE|DESCRIPTION|CATEGORY|TAGS|IMAGE|BODY)[ \t*_]*:[ \t]*(.*)$",
+            global::System.Text.RegularExpressions.RegexOptions.Multiline | global::System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+
+    /// <summary>Parses the labelled text format; null if it cannot be read.</summary>
+    public static ArticleDraft? ParseTextDraft(string raw)
+    {
+        var s = raw.Replace("\r\n", "\n").Trim();
+        s = global::System.Text.RegularExpressions.Regex.Replace(s, @"^```[a-zA-Z]*\s*\n|\n```\s*$", "");
+        var fields = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        string? body = null;
+        foreach (global::System.Text.RegularExpressions.Match m in FieldLine.Matches(s))
+        {
+            var key = m.Groups[1].Value.ToUpperInvariant();
+            if (fields.ContainsKey(key) || (key != "BODY" && body != null)) continue;
+            if (key == "BODY")
+            {
+                body = (m.Groups[2].Value + "\n" + s[(m.Index + m.Length)..]).Trim();
+                break;
+            }
+            fields[key] = m.Groups[2].Value.Trim();
+        }
+
+        static string Clean(string? v) => (v ?? "").Trim().Trim('*', '_', '"', '“', '”', '„', '\'', ' ').Trim();
+        var skip = Clean(fields.GetValueOrDefault("SKIP"));
+        if (global::System.Text.RegularExpressions.Regex.IsMatch(skip, @"^(yes|po|true|y)\b", global::System.Text.RegularExpressions.RegexOptions.IgnoreCase))
+            return new ArticleDraft(true, global::System.Text.RegularExpressions.Regex.Replace(skip, @"^\w+\W*", ""), "", "", "", new(), "", "");
+
+        var title = Clean(fields.GetValueOrDefault("TITLE"));
+        if (title.Length == 0 || string.IsNullOrWhiteSpace(body)) return null;
+
+        var catRaw = Text.TextUtil.Fold(Clean(fields.GetValueOrDefault("CATEGORY")));
+        catRaw = global::System.Text.RegularExpressions.Regex.Replace(catRaw, "[^a-z]", "");
+        var tags = Clean(fields.GetValueOrDefault("TAGS")).Split(',', ';')
+            .Select(t => Clean(t).TrimStart('#')).Where(t => t.Length > 1).Distinct().Take(5).ToList();
+        var motif = Clean(fields.GetValueOrDefault("IMAGE")).ToLowerInvariant();
+        return new ArticleDraft(false, null, title, Clean(fields.GetValueOrDefault("DESCRIPTION")), catRaw, tags, body!, motif);
+    }
+
     public static JsonObject Tool(SiteConfig site)
     {
         static JsonObject Str(string d) => new() { ["type"] = "string", ["description"] = d };

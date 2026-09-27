@@ -63,6 +63,9 @@ public sealed class AiConfig
     /// <summary>OpenRouter only: models tried in order if the main one is down or rate-limited.</summary>
     public List<string> FallbackModels { get; set; } = new();
 
+    /// <summary>OpenRouter only: "text" (works with every model), "tools" (function calling) or "json".</summary>
+    public string OutputFormat { get; set; } = "text";
+
     public int MaxTokens { get; set; } = 8000;
     /// <summary>Optional; leave null to use the model default.</summary>
     public double? Temperature { get; set; }

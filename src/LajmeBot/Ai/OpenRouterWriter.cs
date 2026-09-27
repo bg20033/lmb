@@ -16,7 +16,9 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
     private readonly HttpClient _http = new() { Timeout = TimeSpan.FromMinutes(4) };
     private readonly AiConfig _cfg;
     private readonly Log _log;
-    private bool _jsonMode; // switched on for the rest of the run if the model rejects tools
+    // "text" (plain labelled text — works with every model, weak models write longer articles this way),
+    // "tools" (function calling) or "json" (response_format json_object). Falls back to "text" when needed.
+    private string _mode;
 
     /// <summary>Total USD cost reported by OpenRouter during this run.</summary>
     public decimal TotalCost { get; private set; }
@@ -25,6 +27,7 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
     {
         _cfg = cfg;
         _log = log;
+        _mode = cfg.OutputFormat.Trim().ToLowerInvariant() switch { "tools" => "tools", "json" => "json", _ => "text" };
         _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
         // Optional attribution headers (shown in OpenRouter's app rankings).
         _http.DefaultRequestHeaders.Add("HTTP-Referer", "https://github.com/bg20033/lmb");
@@ -35,7 +38,7 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
     {
         for (var attempt = 1; ; attempt++)
         {
-            var body = BuildRequest(req, _jsonMode);
+            var body = BuildRequest(req, _mode);
             using var content = new StringContent(body.ToJsonString(), Encoding.UTF8);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
             using var resp = await _http.PostAsync(_cfg.Endpoint + "/chat/completions", content, ct);
@@ -51,10 +54,10 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
             }
             if (!resp.IsSuccessStatusCode)
             {
-                if (!_jsonMode && ToolsUnsupported(text))
+                if (_mode != "text" && (ToolsUnsupported(text) || status == 400))
                 {
-                    _log.Warn($"{_cfg.Model} does not support tool calling here — switching to JSON output");
-                    _jsonMode = true;
+                    _log.Warn($"{_cfg.Model}: '{_mode}' output not supported here ({status}) — switching to plain text output");
+                    _mode = "text";
                     continue;
                 }
                 throw new InvalidOperationException($"OpenRouter {status}: {Truncate(text, 400)}");
@@ -75,26 +78,37 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
             if (usage?["cost"] is JsonValue c && c.TryGetValue<decimal>(out var cost)) TotalCost += cost;
             if (finish == "length") throw new InvalidOperationException("The model hit max_tokens; raise Ai.MaxTokens");
 
+            if (_mode == "text")
+            {
+                var draft = Prompts.ParseTextDraft(MessageText(message) ?? "");
+                if (draft is not null) return draft;
+                if (attempt < 3) { _log.Warn($"Model answer was not in the expected format (TITLE/…/BODY); retrying"); continue; }
+                throw new InvalidOperationException($"Model answer not in the expected format (finish_reason={finish})");
+            }
             var input = ExtractArguments(message);
             if (input is null)
             {
-                if (attempt < 3) { _log.Warn("Model answered without usable JSON; retrying"); _jsonMode = true; continue; }
+                if (attempt < 3) { _log.Warn("Model answered without usable JSON; switching to plain text output"); _mode = "text"; continue; }
                 throw new InvalidOperationException($"Model returned no usable JSON (finish_reason={finish})");
             }
             return Prompts.ParseDraft(input);
         }
     }
 
-    private JsonObject BuildRequest(ArticleRequest req, bool jsonMode)
+    private JsonObject BuildRequest(ArticleRequest req, string mode)
     {
         var tool = Prompts.Tool(req.Site);
         var schema = tool["input_schema"]!.DeepClone();
         var system = Prompts.System(req.Site, _cfg);
-        if (jsonMode)
+        if (mode != "tools") system = system.Replace($"Always answer by calling the {Prompts.ToolName} tool.", "");
+        if (mode == "json")
         {
-            system = system.Replace($"Always answer by calling the {Prompts.ToolName} tool.", "");
             system += "\n\nOUTPUT FORMAT: reply with ONE JSON object and nothing else (no Markdown fences, no comments). " +
                       "It must match this JSON Schema:\n" + schema.ToJsonString();
+        }
+        else if (mode == "text")
+        {
+            system += "\n\n" + Prompts.TextFormat(req.Site, _cfg);
         }
 
         var body = new JsonObject
@@ -109,11 +123,11 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
         if (_cfg.FallbackModels.Count > 0)
             body["models"] = new JsonArray(new[] { _cfg.Model }.Concat(_cfg.FallbackModels).Distinct().Select(m => (JsonNode)JsonValue.Create(m)!).ToArray());
 
-        if (jsonMode)
+        if (mode == "json")
         {
             body["response_format"] = new JsonObject { ["type"] = "json_object" };
         }
-        else
+        else if (mode == "tools")
         {
             body["tools"] = new JsonArray(new JsonObject
             {
@@ -130,6 +144,17 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
             body["provider"] = new JsonObject { ["require_parameters"] = true };
         }
         return body;
+    }
+
+    private static string? MessageText(JsonNode? message)
+    {
+        var content = message?["content"];
+        return content?.GetValueKind() switch
+        {
+            JsonValueKind.String => content.GetValue<string>(),
+            JsonValueKind.Array => string.Concat(content.AsArray().Select(p => p?["text"]?.GetValue<string>() ?? "")),
+            _ => null,
+        };
     }
 
     /// <summary>Gets the article JSON from a tool call, or from the message text in JSON mode.</summary>

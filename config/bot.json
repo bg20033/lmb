@@ -32,9 +32,11 @@
     // Used automatically if the main model is busy or down ("openrouter/free" = any free model).
     "FallbackModels": ["qwen/qwen3.8-27b:free", "openrouter/free"],
 
+    // "text" works with every model (free ones write longer articles this way); "tools" = function calling.
+    "OutputFormat": "text",
     "MaxTokens": 8000,
-    "MinWords": 450,
-    "MaxWords": 800
+    "MinWords": 350,
+    "MaxWords": 700
   },
 
   // Outlets the bot READS for facts. Nothing is copied: the AI writes new text and links back to them.
@@ -48,7 +50,7 @@
     { "Name": "Gazeta Express","HomeUrl": "https://www.gazetaexpress.com/", "FeedUrls": ["https://www.gazetaexpress.com/feed/"] },
     { "Name": "Nacionale",     "HomeUrl": "https://nacionale.com/",         "FeedUrls": ["https://nacionale.com/feed"] },
     { "Name": "RTK",           "HomeUrl": "https://www.rtklive.com/sq/",    "FeedUrls": ["https://www.rtklive.com/sq/rss"] },
-    { "Name": "Evropa e Lirë", "HomeUrl": "https://www.evropaelire.org/",   "FeedUrls": [] }
+    { "Name": "Evropa e Lirë", "HomeUrl": "https://www.evropaelire.org/",   "FeedUrls": ["https://www.evropaelire.org/api/"] }
   ],
 
   // Your sites. "Repo" is used by the GitHub workflow to check them out into sites/<Slug>.

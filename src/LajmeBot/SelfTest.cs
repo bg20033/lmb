@@ -87,6 +87,14 @@ public static class SelfTest
         Check("openrouter: JSON inside a fenced reply", OpenRouterWriter.ExtractArguments(fenced)?["title"]?.GetValue<string>() == "X");
         Check("openrouter: no JSON -> null", OpenRouterWriter.ExtractArguments(System.Text.Json.Nodes.JsonNode.Parse("""{"content":"Më vjen keq."}""")) is null);
 
+        // Plain-text output format (free models)
+        var txt = "Ja artikulli:\n**TITLE:** Kuvendi miraton rezolutën për dialogun\nDESCRIPTION: Deputetët votuan dokumentin pas një debati të gjatë në seancë.\nCATEGORY: Politikë\nTAGS: Kosova, Kuvendi, #Dialogu\nIMAGE: columns\nBODY:\n## Seanca\n\nTeksti i artikullit.\n\n## Votimi\n\nMë shumë tekst.";
+        var td = Prompts.ParseTextDraft(txt);
+        Check("text format: fields parsed", td is { Skip: false } && td.Title == "Kuvendi miraton rezolutën për dialogun" && td.Category == "politike" && td.Tags.Count == 3 && td.ImageMotif == "columns");
+        Check("text format: body kept with headings", td != null && td.BodyMarkdown.StartsWith("## Seanca") && td.BodyMarkdown.Contains("Më shumë tekst"));
+        Check("text format: skip", Prompts.ParseTextDraft("SKIP: yes — vetëm thashetheme") is { Skip: true });
+        Check("text format: garbage -> null", Prompts.ParseTextDraft("Më vjen keq, nuk mundem.") is null);
+
         // Clustering + state
         var feedItems = new List<FeedItem>
         {
