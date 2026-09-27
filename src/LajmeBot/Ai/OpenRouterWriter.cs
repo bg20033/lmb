@@ -4,6 +4,9 @@ using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 
+using LajmeBot.Discovery;
+using LajmeBot.Stories;
+
 namespace LajmeBot.Ai;
 
 /// <summary>
@@ -174,6 +177,46 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
             body["provider"] = new JsonObject { ["require_parameters"] = true };
         }
         return body;
+    }
+
+    public async Task<string?> ExtractFactsAsync(Story story, IReadOnlyList<SourceText> sources, CancellationToken ct)
+    {
+        for (var attempt = 1; attempt <= 3; attempt++)
+        {
+            var chain = ModelChain();
+            var body = new JsonObject
+            {
+                ["model"] = chain[_modelIndex % chain.Count],
+                ["models"] = new JsonArray(chain.Skip(_modelIndex % chain.Count).Select(m => (JsonNode)JsonValue.Create(m)!).ToArray()),
+                ["max_tokens"] = 2500,
+                ["messages"] = new JsonArray(
+                    new JsonObject { ["role"] = "system", ["content"] = Prompts.FactsSystem },
+                    new JsonObject { ["role"] = "user", ["content"] = Prompts.FactsUser(story, sources) }),
+            };
+            using var content = new StringContent(body.ToJsonString(), Encoding.UTF8);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            using var timeout = CancellationTokenSource.CreateLinkedTokenSource(ct);
+            timeout.CancelAfter(TimeSpan.FromSeconds(Math.Max(30, _cfg.RequestTimeoutSeconds)));
+            try
+            {
+                using var resp = await _http.PostAsync(_cfg.Endpoint + "/chat/completions", content, timeout.Token);
+                var text = await resp.Content.ReadAsStringAsync(timeout.Token);
+                var status = (int)resp.StatusCode;
+                if (status == 429 || status >= 500) { _log.Warn($"facts: OpenRouter {status}, retrying"); await Task.Delay(TimeSpan.FromSeconds(5 * attempt), ct); continue; }
+                if (!resp.IsSuccessStatusCode) { _log.Warn($"facts: OpenRouter {status}: {Truncate(text, 200)}"); return null; }
+                var root = JsonNode.Parse(text)!;
+                var facts = MessageText(root["choices"]?[0]?["message"])?.Trim();
+                if (root["usage"]?["cost"] is JsonValue c && c.TryGetValue<decimal>(out var cost)) TotalCost += cost;
+                if (!string.IsNullOrWhiteSpace(facts) && facts.Length >= 150) { _log.Info($"facts: {facts.Split('\n').Count(l => l.TrimStart().StartsWith('-'))} facts extracted"); return facts; }
+                _log.Warn("facts: empty answer, retrying");
+            }
+            catch (Exception ex) when (ex is OperationCanceledException or HttpRequestException && !ct.IsCancellationRequested)
+            {
+                _modelIndex++;
+                _log.Warn($"facts: {(ex is OperationCanceledException ? "timeout" : ex.Message)} — trying {ModelChain()[_modelIndex % ModelChain().Count]}");
+            }
+        }
+        return null;
     }
 
     private List<string> ModelChain() => new[] { _cfg.Model }.Concat(_cfg.FallbackModels).Distinct().ToList();

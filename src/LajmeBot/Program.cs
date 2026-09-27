@@ -133,7 +133,7 @@ var recent = sites.ToDictionary(s => s.cfg.Slug, s => s.pub.RecentTitles());
 var published = new List<PublishedArticle>();
 var storiesDone = 0;
 var aiCalls = 0;
-var aiCallBudget = Math.Max(4, cfg.MaxStoriesPerRun * cfg.SitesPerStory * 3); // hard cap on API spend per run
+var aiCallBudget = Math.Max(5, cfg.MaxStoriesPerRun * (cfg.SitesPerStory * 3 + 1)); // hard cap on API spend per run
 
 if (!opts.DryRun) foreach (var (_, pub) in sites) pub.EnsureAuthor();
 
@@ -152,6 +152,19 @@ foreach (var story in stories)
     {
         log.Warn($"skip (too little source text): {story.Lead.Title}");
         continue;
+    }
+
+    // Step 1 (optional): facts list, shared by every site that writes this story.
+    string? facts = null;
+    if (cfg.Ai.FactsFirst && aiCalls < aiCallBudget)
+    {
+        try
+        {
+            aiCalls++;
+            facts = await writer.ExtractFactsAsync(story, sources, ct);
+        }
+        catch (Exception ex) when (!ct.IsCancellationRequested) { log.Warn($"facts failed: {ex.Message} — writing from the sources"); }
+        catch (OperationCanceledException) { log.Error("Time limit for this run reached — stopping"); break; }
     }
 
     // Rotate which sites get this story so every site gets a different mix.
@@ -177,7 +190,7 @@ foreach (var story in stories)
             if (aiCalls >= aiCallBudget) break;
             aiCalls++;
             ArticleDraft draft;
-            try { draft = await writer.WriteAsync(new ArticleRequest(site, story, sources, recent[site.Slug], feedback), ct); }
+            try { draft = await writer.WriteAsync(new ArticleRequest(site, story, sources, recent[site.Slug], feedback, facts), ct); }
             catch (Exception ex) when (!ct.IsCancellationRequested)
             {
                 log.Error($"{site.Slug}: writer failed: {ex.Message}");

@@ -15,7 +15,8 @@ public sealed record ArticleRequest(
     Story Story,
     IReadOnlyList<SourceText> Sources,
     IReadOnlyList<string> RecentTitles,
-    string? Feedback);
+    string? Feedback,
+    string? Facts = null);
 
 public sealed record ArticleDraft(
     bool Skip,
@@ -30,6 +31,12 @@ public sealed record ArticleDraft(
 public interface IArticleWriter
 {
     Task<ArticleDraft> WriteAsync(ArticleRequest req, CancellationToken ct);
+
+    /// <summary>
+    /// Optional first step: turn the source articles into a short list of facts, so the article is written
+    /// from facts instead of from the original prose (much less copying with small models). null = not supported.
+    /// </summary>
+    Task<string?> ExtractFactsAsync(Story story, IReadOnlyList<SourceText> sources, CancellationToken ct) => Task.FromResult<string?>(null);
 }
 
 /// <summary>Writes an original article with the Anthropic Messages API, using a forced tool call for structured output.</summary>
@@ -167,16 +174,29 @@ public static class Prompts
     {
         var sb = new StringBuilder();
         sb.AppendLine($"Today is {DateTimeOffset.UtcNow:yyyy-MM-dd} (Kosovo time zone Europe/Belgrade).");
-        sb.AppendLine("Write an original article for our site about this story. Source material follows (for facts only — do not copy wording).");
-        sb.AppendLine();
-        var i = 1;
-        foreach (var s in req.Sources)
+        if (!string.IsNullOrWhiteSpace(req.Facts))
         {
-            sb.AppendLine($"<source index=\"{i++}\" outlet=\"{s.Source}\" url=\"{s.Url}\">");
-            sb.AppendLine($"Headline: {s.Title}");
-            sb.AppendLine(s.Text);
-            sb.AppendLine("</source>");
+            sb.AppendLine("Write an original article for our site about this story, using ONLY the facts below.");
+            sb.AppendLine($"The facts were collected from: {string.Join(", ", req.Sources.Select(x => x.Source).Distinct())}.");
             sb.AppendLine();
+            sb.AppendLine("<facts>");
+            sb.AppendLine(req.Facts.Trim());
+            sb.AppendLine("</facts>");
+            sb.AppendLine();
+        }
+        else
+        {
+            sb.AppendLine("Write an original article for our site about this story. Source material follows (for facts only — do not copy wording).");
+            sb.AppendLine();
+            var i = 1;
+            foreach (var s in req.Sources)
+            {
+                sb.AppendLine($"<source index=\"{i++}\" outlet=\"{s.Source}\" url=\"{s.Url}\">");
+                sb.AppendLine($"Headline: {s.Title}");
+                sb.AppendLine(s.Text);
+                sb.AppendLine("</source>");
+                sb.AppendLine();
+            }
         }
         if (req.RecentTitles.Count > 0)
         {
@@ -188,6 +208,31 @@ public static class Prompts
         {
             sb.AppendLine("Your previous attempt was rejected by the automatic checker. Fix this and try again:");
             sb.AppendLine(req.Feedback);
+        }
+        return sb.ToString();
+    }
+
+    public const string FactsSystem = """
+        You are a news researcher for an Albanian newsroom. Read the source articles and list the verifiable facts.
+        Answer in standard Albanian as a list of "- " bullet points (10–30 bullets), nothing else.
+        Each bullet is ONE fact in your own short words (at most ~20 words): who, what, when, where, numbers, decisions, next steps.
+        Do not copy sentences from the sources. Direct quotes of people only inside quotation marks, with the speaker's name.
+        Add the outlet that reported the fact in parentheses, e.g. (Koha). If outlets disagree, write both versions.
+        No opinions and no background that is not in the sources.
+        """;
+
+    public static string FactsUser(Story story, IReadOnlyList<SourceText> sources)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine($"Story: {story.Lead.Title}");
+        sb.AppendLine();
+        foreach (var s in sources)
+        {
+            sb.AppendLine($"<source outlet=\"{s.Source}\">");
+            sb.AppendLine($"Headline: {s.Title}");
+            sb.AppendLine(s.Text);
+            sb.AppendLine("</source>");
+            sb.AppendLine();
         }
         return sb.ToString();
     }

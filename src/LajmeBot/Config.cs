@@ -70,6 +70,8 @@ public sealed class AiConfig
 
     /// <summary>OpenRouter only: "text" (works with every model), "tools" (function calling) or "json".</summary>
     public string OutputFormat { get; set; } = "text";
+    /// <summary>First turn the sources into a fact list, then write from the facts (much less copying). One extra AI call per story.</summary>
+    public bool FactsFirst { get; set; } = true;
 
     public int MaxTokens { get; set; } = 8000;
     /// <summary>Max seconds to wait for one AI answer before moving on to the next (fallback) model.</summary>
