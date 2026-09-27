@@ -91,3 +91,4 @@ tests/fixtures/                  RSS dhe faqe për testim offline
 
 Megjithatë **AI mund të gabojë**. Shiko herë pas here çka publikohet, sidomos për tema politike dhe gjyqësore.
 Nëse do kontroll para publikimit, vendos `"PublishAsDraft": true` te faqja në `config/bot.json`: artikujt shkruhen me `draft: true` dhe dalin në faqe vetëm kur e heq atë rresht.
+# lmb
