@@ -6,6 +6,7 @@ using LajmeBot.Discovery;
 using LajmeBot.Http;
 using LajmeBot.Publishing;
 using LajmeBot.Stories;
+using LajmeBot.Text;
 
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 Console.OutputEncoding = Encoding.UTF8;
@@ -42,7 +43,8 @@ if (opts.Command != "run")
           --sites-root <dir>    folder containing one checkout per site, named by site slug (default: sites)
           --site <slug>         only publish to this site (repeatable)
           --max-stories <n>     override MaxStoriesPerRun
-          --dry-run             do everything except writing files; prints the drafts
+          --dry-run             write nothing to the sites; full drafts go to --drafts-dir
+          --drafts-dir <dir>    where dry-run drafts are saved (default: out/drafts)
           --mock-ai             offline placeholder writer (for testing without an API key)
           --fixtures <dir>      read feeds/pages from local files instead of the internet (tests)
           --summary <file>      write a JSON summary of what was published
@@ -61,7 +63,12 @@ foreach (var s in cfg.Sites.Where(s => s.Enabled && (opts.OnlySites.Count == 0 |
 {
     s.Root = Path.GetFullPath(Path.Combine(opts.SitesRoot, s.Slug));
     var pub = new SitePublisher(s, cfg.Ai, log);
-    if (!pub.Exists) { log.Warn($"{s.Slug}: no checkout at {s.Root} — skipped"); continue; }
+    if (!pub.Exists)
+    {
+        // A dry-run only needs the site's settings from config, so it also works without the checkout.
+        if (!opts.DryRun) { log.Warn($"{s.Slug}: no checkout at {s.Root} — skipped"); continue; }
+        log.Info($"{s.Slug}: no checkout — dry-run continues without the site's recent titles");
+    }
     sites.Add((s, pub));
 }
 if (sites.Count == 0) { log.Error("No site checkouts found. Nothing to do."); return 2; }
@@ -171,7 +178,8 @@ foreach (var story in stories)
             }
             if (opts.DryRun)
             {
-                log.Info($"[dry-run] {site.Slug}: {draft.Category} | {draft.Title}\n  {draft.Description}\n  {TextPreview(draft.BodyMarkdown)}");
+                var preview = pub.WritePreview(draft, sources, story.SourceCount >= cfg.FeaturedMinSources, DateTimeOffset.UtcNow, opts.DraftsDir);
+                log.Info($"[dry-run] {site.Slug}: {draft.Category} | {draft.Title} ({TextUtil.WordCount(draft.BodyMarkdown)} fjalë)\n  {draft.Description}\n  → {preview}");
                 record.Articles[site.Slug] = "(dry-run)";
             }
             else
@@ -211,7 +219,6 @@ log.Info($"Done: {published.Count} articles for {storiesDone} stories.");
 (fetcher as IDisposable)?.Dispose();
 return 0;
 
-static string TextPreview(string s) => s.Length > 300 ? s[..300].Replace('\n', ' ') + "…" : s.Replace('\n', ' ');
 
 sealed class Options
 {
@@ -222,6 +229,7 @@ sealed class Options
     public HashSet<string> OnlySites { get; } = new();
     public int? MaxStories { get; set; }
     public bool DryRun { get; set; }
+    public string DraftsDir { get; set; } = "out/drafts";
     public bool MockAi { get; set; }
     public bool Verbose { get; set; }
     public string? FixturesDir { get; set; }
@@ -243,6 +251,7 @@ sealed class Options
                 case "--site": o.OnlySites.Add(Next()); break;
                 case "--max-stories": o.MaxStories = int.Parse(Next()); break;
                 case "--dry-run": o.DryRun = true; break;
+                case "--drafts-dir": o.DraftsDir = Next(); break;
                 case "--mock-ai": o.MockAi = true; break;
                 case "--fixtures": o.FixturesDir = Next(); break;
                 case "--summary": o.SummaryPath = Next(); break;

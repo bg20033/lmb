@@ -13,7 +13,7 @@ on:
         options:
           - discover   # PROVË PA AI: lexon portalet, grupon lajmet, lexon tekstet — s'shkruan asgjë
           - test       # PROVË PA AI: shkruan artikuj TEST në kopje të faqeve, i ndërton + SEO audit — NUK publikon
-          - dry-run    # ME AI: shkruan draft-et e vërteta dhe i shfaq në log — NUK publikon
+          - dry-run    # ME AI: Claude shkruan artikuj të vërtetë, i sheh të plotë në Summary — NUK publikon
           - publish    # ME AI: publikon në faqe (kjo punon vetë çdo 2 orë)
       max_stories:
         description: "Sa histori (bosh = sipas config/bot.json)"
@@ -53,16 +53,31 @@ jobs:
       - name: Self-test
         run: $BOT selftest
 
+      # Until the secrets are set, scheduled runs end quietly instead of failing every 2 hours.
+      - name: Check secrets
+        id: gate
+        env:
+          SITES_TOKEN: ${{ secrets.SITES_TOKEN }}
+        run: |
+          go=true
+          if [ "$MODE" = "publish" ] || [ "$MODE" = "dry-run" ]; then
+            [ -z "$ANTHROPIC_API_KEY" ] && { echo "::notice::ANTHROPIC_API_KEY mungon — '$MODE' u anashkalua. Provo mode 'discover' ose 'test' (pa AI)."; go=false; }
+          fi
+          if [ "$MODE" = "publish" ] && [ -z "$SITES_TOKEN" ]; then
+            echo "::notice::SITES_TOKEN mungon — publikimi u anashkalua."; go=false
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+
       # ---------------- discover: live test of the reading side, no AI, no sites ----------------
       - name: Discover (pa AI)
-        if: env.MODE == 'discover'
+        if: steps.gate.outputs.go == 'true' && env.MODE == 'discover'
         run: |
           $BOT discover --top 5 --report out/discover.md
           cat out/discover.md >> "$GITHUB_STEP_SUMMARY"
 
       # ---------------- everything below needs the site checkouts ----------------
       - name: Checkout sites
-        if: env.MODE != 'discover'
+        if: steps.gate.outputs.go == 'true' && env.MODE != 'discover'
         env:
           SITES_TOKEN: ${{ secrets.SITES_TOKEN }}
         run: |
@@ -79,24 +94,27 @@ jobs:
           ls sites
 
       - name: Setup Node
-        if: env.MODE == 'test' || env.MODE == 'publish'
+        if: steps.gate.outputs.go == 'true' && (env.MODE == 'test' || env.MODE == 'publish')
         uses: actions/setup-node@v4
         with:
           node-version: "22"
 
       - name: Write articles
-        if: env.MODE != 'discover'
+        if: steps.gate.outputs.go == 'true' && env.MODE != 'discover'
         run: |
           ARGS="--sites-root sites --summary out/summary.json"
           [ -n "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories ${{ inputs.max_stories }}"
           case "$MODE" in
             test)    ARGS="$ARGS --mock-ai --state out/test-state.json" ;;   # real bot memory stays untouched
-            dry-run) ARGS="$ARGS --dry-run" ;;
+            dry-run)
+              ARGS="$ARGS --dry-run --drafts-dir out/drafts"
+              [ -z "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories 1"   # a test should be cheap
+              ;;
           esac
           $BOT run $ARGS
 
       - name: Build and check every changed site (push only in publish mode)
-        if: env.MODE == 'test' || env.MODE == 'publish'
+        if: steps.gate.outputs.go == 'true' && (env.MODE == 'test' || env.MODE == 'publish')
         run: |
           failed=0
           for dir in sites/*/; do
@@ -128,15 +146,38 @@ jobs:
           exit $failed
 
       - name: Show one test article
-        if: env.MODE == 'test'
+        if: steps.gate.outputs.go == 'true' && env.MODE == 'test'
         run: |
           f=$(ls -t sites/*/src/content/news/test-*.md 2>/dev/null | head -1)
           if [ -n "$f" ]; then
             { echo; echo "### Shembull: $f"; echo '```markdown'; head -40 "$f"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           fi
 
+      - name: Show dry-run drafts
+        if: steps.gate.outputs.go == 'true' && env.MODE == 'dry-run'
+        run: |
+          shopt -s nullglob
+          files=(out/drafts/*.md)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "### Asnjë draft — shiko log-un e hapit 'Write articles'" >> "$GITHUB_STEP_SUMMARY"; exit 0
+          fi
+          echo "## Draft-et nga Claude (${#files[@]}) — NUK u publikuan" >> "$GITHUB_STEP_SUMMARY"
+          echo "Ilustrimet i gjen te **Artifacts → drafts** në fund të kësaj faqeje." >> "$GITHUB_STEP_SUMMARY"
+          for f in "${files[@]}"; do
+            title=$(grep -m1 '^title:' "$f" | sed 's/^title: *//; s/^"//; s/"$//')
+            { echo; echo "<details><summary><b>$(basename "$f" .md | sed 's/--.*//')</b>: $title</summary>"; echo; echo '```markdown'; cat "$f"; echo '```'; echo "</details>"; } >> "$GITHUB_STEP_SUMMARY"
+          done
+
+      - name: Upload drafts
+        if: steps.gate.outputs.go == 'true' && env.MODE == 'dry-run'
+        uses: actions/upload-artifact@v4
+        with:
+          name: drafts
+          path: out/drafts
+          if-no-files-found: ignore
+
       - name: Save bot memory (state/state.json)
-        if: always() && env.MODE == 'publish'
+        if: always() && steps.gate.outputs.go == 'true' && env.MODE == 'publish'
         run: |
           if [ -n "$(git status --porcelain state)" ]; then
             git add state
@@ -145,7 +186,7 @@ jobs:
           fi
 
       - name: Summary
-        if: always() && env.MODE != 'discover'
+        if: always() && steps.gate.outputs.go == 'true' && env.MODE != 'discover'
         run: |
           if [ -f out/summary.json ]; then
             echo "### Artikujt ($MODE)" >> "$GITHUB_STEP_SUMMARY"

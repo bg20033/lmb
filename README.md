@@ -43,10 +43,11 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
    |---|---|---|---|
    | `discover` | jo | asnjë | Lexon portalet live, grupon lajmet, lexon tekstet dhe shfaq raport (cili portal punon, sa fjalë u lexuan). Nuk prek faqet. |
    | `test` | jo | `SITES_TOKEN` (s'duhet nëse repo-t e faqeve janë publike) | Shkruan artikuj **TEST** në kopje të faqeve, gjeneron ilustrimet, i ndërton dhe i kalon SEO audit. **Nuk publikon** dhe nuk e prek kujtesën e bot-it. |
-   | `dry-run` | po | të dyja | Draft-et e vërteta nga Claude shfaqen në log. Nuk publikon. |
+   | `dry-run` | po | vetëm `ANTHROPIC_API_KEY` | Claude shkruan artikuj të vërtetë (1 histori nëse s'jep numër). I sheh të plotë te **Summary** e ekzekutimit, ilustrimet te **Artifacts → drafts**. Nuk publikon e nuk e prek kujtesën. |
    | `publish` | po | të dyja | Publikon. Kjo punon vetë sipas orarit. |
 
    Rendi i rekomanduar: `discover` → `test` → `dry-run` → `publish`.
+   Derisa të mos i vendosësh sekretet, ekzekutimet automatike çdo 2 orë mbarojnë pa bo asgjë (pa gabime).
 
 Pas kësaj punon vetë çdo 2 orë, prej orës 07 deri në 23 me orën e Kosovës (`cron` në `.github/workflows/publish.yml`).
 

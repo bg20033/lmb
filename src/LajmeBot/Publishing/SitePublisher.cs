@@ -30,7 +30,7 @@ public sealed partial class SitePublisher
     private static partial Regex TitleLine();
 
     /// <summary>Titles of the newest articles on the site (so the AI avoids repeating them).</summary>
-    public List<string> RecentTitles(int max = 20) =>
+    public List<string> RecentTitles(int max = 20) => !Directory.Exists(NewsDir) ? new() :
         Directory.EnumerateFiles(NewsDir, "*.md")
             .Select(f => new FileInfo(f)).OrderByDescending(f => f.LastWriteTimeUtc).Take(max)
             .Select(f => TitleLine().Match(File.ReadAllText(f.FullName)))
@@ -78,9 +78,36 @@ public sealed partial class SitePublisher
 
         var slug = UniqueSlug(TextUtil.Slugify(d.Title));
         var imagePath = Path.Combine(AssetsDir, slug + ".png");
-        var motif = HeroImageGenerator.Motifs.Contains(d.ImageMotif) ? d.ImageMotif : HeroImageGenerator.Motifs[0];
+        var motif = MotifOf(d);
         HeroImageGenerator.Generate(imagePath, _site.Slug + "/" + slug, d.Category, motif, _site.Accent, _site.Tint, _site.TintAmount);
 
+        var mdPath = Path.Combine(NewsDir, slug + ".md");
+        File.WriteAllText(mdPath, Render(d, sources, featured, now, slug), new UTF8Encoding(false));
+        return new PublishedArticle(_site.Slug, slug, d.Title, d.Category, mdPath, imagePath);
+    }
+
+    /// <summary>
+    /// Dry-run: writes the complete article (and its illustration) to a preview folder
+    /// instead of the site, so it can be read in full without publishing anything.
+    /// </summary>
+    public string WritePreview(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string previewDir)
+    {
+        Directory.CreateDirectory(previewDir);
+        var slug = TextUtil.Slugify(d.Title);
+        if (slug.Length < 3) slug = "lajm";
+        var baseName = $"{_site.Slug}--{slug}";
+        HeroImageGenerator.Generate(Path.Combine(previewDir, baseName + ".png"), _site.Slug + "/" + slug, d.Category, MotifOf(d), _site.Accent, _site.Tint, _site.TintAmount);
+        var path = Path.Combine(previewDir, baseName + ".md");
+        File.WriteAllText(path, Render(d, sources, featured, now, slug), new UTF8Encoding(false));
+        return path;
+    }
+
+    private static string MotifOf(ArticleDraft d) =>
+        HeroImageGenerator.Motifs.Contains(d.ImageMotif) ? d.ImageMotif : HeroImageGenerator.Motifs[0];
+
+    private string Render(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string slug)
+    {
+        var motif = MotifOf(d);
         var description = d.Description.Length > 175 ? TextUtil.TruncateWords(d.Description, 174) : d.Description;
         var tags = d.Tags.Select(t => TextUtil.YamlString(TextUtil.TruncateWords(t, 40)));
         var local = ToKosovoTime(now);
@@ -108,10 +135,7 @@ public sealed partial class SitePublisher
             md.AppendLine($"- {s.Source}: [{EscapeLinkText(s.Title)}]({s.Url})");
         md.AppendLine();
         md.AppendLine($"*Ky artikull është përgatitur automatikisht nga {_site.AuthorName} me ndihmën e inteligjencës artificiale, duke u bazuar në burimet e mësipërme. Nëse vëreni ndonjë pasaktësi, na shkruani.*");
-
-        var mdPath = Path.Combine(NewsDir, slug + ".md");
-        File.WriteAllText(mdPath, md.ToString(), new UTF8Encoding(false));
-        return new PublishedArticle(_site.Slug, slug, d.Title, d.Category, mdPath, imagePath);
+        return md.ToString();
     }
 
     private string UniqueSlug(string baseSlug)
