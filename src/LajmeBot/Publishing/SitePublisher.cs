@@ -121,7 +121,6 @@ public sealed partial class SitePublisher
         md.AppendLine($"publishedAt: {local:yyyy-MM-ddTHH:mm:sszzz}");
         md.AppendLine($"heroImage: ../../assets/news/{slug}.png");
         md.AppendLine($"heroImageAlt: {TextUtil.YamlString(HeroImageGenerator.AltText(motif))}");
-        md.AppendLine($"heroCaption: {TextUtil.YamlString($"Ilustrim: {_site.Name}")}");
         md.AppendLine($"tags: [{string.Join(", ", tags)}]");
         if (featured) md.AppendLine("featured: true");
         if (_site.PublishAsDraft) md.AppendLine("draft: true");
