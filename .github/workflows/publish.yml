@@ -108,15 +108,26 @@ jobs:
 
       - name: Write articles
         if: steps.gate.outputs.go == 'true' && env.MODE != 'discover'
+        env:
+          IN_MAX: ${{ inputs.max_stories }}
+          IN_MODEL: ${{ inputs.model }}
         run: |
           ARGS="--sites-root sites --summary out/summary.json"
-          [ -n "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories ${{ inputs.max_stories }}"
-          [ -n "${{ inputs.model }}" ] && ARGS="$ARGS --model ${{ inputs.model }}"
+          MAX="$(printf '%s' "$IN_MAX" | tr -d '[:space:]')"
+          MODEL="$(printf '%s' "$IN_MODEL" | tr -d '[:space:]')"
+          if [ -n "$MAX" ]; then
+            if [[ "$MAX" =~ ^[0-9]+$ ]]; then ARGS="$ARGS --max-stories $MAX"
+            else echo "::warning::max_stories duhet të jetë numër (p.sh. 2), jo '$MAX' — u injorua"; MAX=""; fi
+          fi
+          if [ -n "$MODEL" ]; then
+            if [[ "$MODEL" == */* ]]; then ARGS="$ARGS --model $MODEL"
+            else echo "::warning::model duhet të duket si 'google/gemini-3.8-flash', jo '$MODEL' — u përdor modeli nga config"; fi
+          fi
           case "$MODE" in
             test)    ARGS="$ARGS --mock-ai --state out/test-state.json" ;;   # real bot memory stays untouched
             dry-run)
               ARGS="$ARGS --dry-run --drafts-dir out/drafts"
-              [ -z "${{ inputs.max_stories }}" ] && ARGS="$ARGS --max-stories 1"   # a test should be cheap
+              [ -z "$MAX" ] && ARGS="$ARGS --max-stories 1"   # a test should be cheap
               ;;
           esac
           $BOT run $ARGS

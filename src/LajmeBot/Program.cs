@@ -11,7 +11,13 @@ using LajmeBot.Text;
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 Console.OutputEncoding = Encoding.UTF8;
 
-var opts = Options.Parse(args);
+Options opts;
+try { opts = Options.Parse(args); }
+catch (Exception ex) when (ex is ArgumentException or FormatException)
+{
+    Console.Error.WriteLine($"Gabim në parametra: {ex.Message}");
+    return 2;
+}
 if (opts.Command == "selftest") return SelfTest.Run();
 if (opts.Command == "sites")
 {
@@ -261,7 +267,10 @@ sealed class Options
                 case "--state": o.StatePath = Next(); break;
                 case "--sites-root": o.SitesRoot = Next(); break;
                 case "--site": o.OnlySites.Add(Next()); break;
-                case "--max-stories": o.MaxStories = int.Parse(Next()); break;
+                case "--max-stories":
+                    var raw = Next();
+                    o.MaxStories = int.TryParse(raw, out var n) && n > 0 ? n : throw new ArgumentException($"--max-stories duhet të jetë numër pozitiv, jo '{raw}'");
+                    break;
                 case "--provider": o.Provider = Next(); break;
                 case "--model": o.Model = Next(); break;
                 case "--dry-run": o.DryRun = true; break;
@@ -270,7 +279,7 @@ sealed class Options
                 case "--fixtures": o.FixturesDir = Next(); break;
                 case "--summary": o.SummaryPath = Next(); break;
                 case "--report": o.ReportPath = Next(); break;
-                case "--top": o.Top = int.Parse(Next()); break;
+                case "--top": o.Top = int.TryParse(Next(), out var t) && t > 0 ? t : 5; break;
                 case "--verbose": o.Verbose = true; break;
                 default: throw new ArgumentException($"Unknown option {args[i]}");
             }
