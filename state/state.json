@@ -1,1 +1,27 @@
-{ "RotationCursor": 0, "Published": [] }
+{
+  "RotationCursor": 1,
+  "Published": [
+    {
+      "At": "2026-09-27T22:02:08.467736+00:00",
+      "Title": "Portugalia e mposht Norvegjin\u00EB, ia \u201Csheh hajrin\u201D gabimit t\u00EB portierit",
+      "Tokens": [
+        "portu",
+        "mposh",
+        "norve",
+        "sheh",
+        "hajr",
+        "gabim",
+        "porti"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/portugalia-e-mposht-norvegjine-ia-sheh-hajrin-gabimit-te-portierit/",
+        "https://www.koha.net/futboll/portugalia-mposht-norvegjine-ronaldo-nuk-luan",
+        "https://telegrafi.com/cristiano-ronaldos-i-tregohet-stoli-portugalia-fiton-ndaj-norvegjise/"
+      ],
+      "Articles": {
+        "raporti-sot": "portugalia-fiton-2-1-kunder-norvegjise-ne-oslo-gara-e-liges-se-kombeve-uefa",
+        "infokosove24": "portugalia-mposht-norvegjine-2-1-ne-oslo-dhe-nderhyn-ne-grupin-a4"
+      }
+    }
+  ]
+}
