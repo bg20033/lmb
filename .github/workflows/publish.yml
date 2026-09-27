@@ -45,10 +45,10 @@ jobs:
       BOT: dotnet bin/bot/LajmeBot.dll
     steps:
       - name: Checkout bot
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
@@ -102,7 +102,7 @@ jobs:
 
       - name: Setup Node
         if: steps.gate.outputs.go == 'true' && (env.MODE == 'test' || env.MODE == 'publish')
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: "22"
 
@@ -167,7 +167,7 @@ jobs:
           shopt -s nullglob
           files=(out/drafts/*.md)
           if [ ${#files[@]} -eq 0 ]; then
-            echo "### Asnjë draft — shiko log-un e hapit 'Write articles'" >> "$GITHUB_STEP_SUMMARY"; exit 0
+            echo "### Asnjë draft — arsyet janë te \"Probleme / paralajmërime\" më poshtë" >> "$GITHUB_STEP_SUMMARY"; exit 0
           fi
           echo "## Draft-et nga Claude (${#files[@]}) — NUK u publikuan" >> "$GITHUB_STEP_SUMMARY"
           echo "Ilustrimet i gjen te **Artifacts → drafts** në fund të kësaj faqeje." >> "$GITHUB_STEP_SUMMARY"
@@ -178,7 +178,7 @@ jobs:
 
       - name: Upload drafts
         if: steps.gate.outputs.go == 'true' && env.MODE == 'dry-run'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: drafts
           path: out/drafts
@@ -196,9 +196,26 @@ jobs:
       - name: Summary
         if: always() && steps.gate.outputs.go == 'true' && env.MODE != 'discover'
         run: |
-          if [ -f out/summary.json ]; then
-            echo "### Artikujt ($MODE)" >> "$GITHUB_STEP_SUMMARY"
-            echo '```json' >> "$GITHUB_STEP_SUMMARY"
-            cat out/summary.json >> "$GITHUB_STEP_SUMMARY"
-            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          if [ ! -f out/summary.json ]; then
+            echo "### ⚠️ Bot-i ndaloi para se me e shkru raportin — shiko log-un e hapit 'Write articles'" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
           fi
+          python3 - >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json, os
+          s = json.load(open("out/summary.json"))
+          arts = s.get("articles", [])
+          print(f"### Raporti i bot-it ({os.environ.get('MODE')})")
+          print(f"- Lajme të lexuara nga portalet: **{s.get('discoveredItems', 0)}**")
+          print(f"- Histori të reja: **{s.get('candidateStories', 0)}**")
+          for c in s.get("topCandidates", []):
+              print(f"  - {c}")
+          print(f"- Artikuj të publikuar: **{len(arts)}**")
+          for a in arts:
+              print(f"  - **{a['Site']}**: {a['Title']} (`/{a['Category']}/{a['Slug']}`)")
+          probs = s.get("problems", [])
+          if probs:
+              print(f"\n<details><summary><b>Probleme / paralajmërime ({len(probs)})</b></summary>\n")
+              for p in probs:
+                  print(f"- {p}")
+              print("\n</details>")
+          PY

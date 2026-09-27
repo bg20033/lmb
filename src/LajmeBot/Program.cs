@@ -134,7 +134,7 @@ foreach (var story in stories)
     var sources = (await Task.WhenAll(picks.Select(p => articleFetcher.FetchAsync(p, ct)))).Where(s => s != null).Select(s => s!).ToList();
     if (sources.Sum(s => s.Text.Length) < 400)
     {
-        log.Info($"skip (too little source text): {story.Lead.Title}");
+        log.Warn($"skip (too little source text): {story.Lead.Title}");
         continue;
     }
 
@@ -169,7 +169,7 @@ foreach (var story in stories)
             }
             if (draft.Skip)
             {
-                log.Info($"{site.Slug}: AI skipped \"{story.Lead.Title}\": {draft.SkipReason}");
+                log.Warn($"{site.Slug}: AI skipped \"{story.Lead.Title}\": {draft.SkipReason}");
                 skippedByAi = true;
                 break;
             }
@@ -215,8 +215,12 @@ if (opts.SummaryPath != null)
     {
         at = now,
         stories = storiesDone,
+        discoveredItems = allItems.Count,
+        candidateStories = stories.Count,
+        topCandidates = stories.Take(5).Select(st => $"{st.SourceCount}× {st.Lead.Title}"),
         articles = published.Select(p => new { p.Site, p.Slug, p.Title, p.Category }),
         sites = published.Select(p => p.Site).Distinct(),
+        problems = log.Issues.Take(40),
     }, new JsonSerializerOptions { WriteIndented = true }));
 }
 log.Info($"Done: {published.Count} articles for {storiesDone} stories.");
