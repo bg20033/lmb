@@ -53,6 +53,9 @@
     { "Name": "Evropa e Lirë", "HomeUrl": "https://www.evropaelire.org/",   "FeedUrls": ["https://www.evropaelire.org/api/"] }
   ],
 
+  // Your own domains: never used as a news source (your site slugs/names are excluded automatically as well).
+  "OwnDomains": [],
+
   // Your sites. "Repo" is used by the GitHub workflow to check them out into sites/<Slug>.
   "Sites": [
     {

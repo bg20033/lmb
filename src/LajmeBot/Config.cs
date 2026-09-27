@@ -30,6 +30,11 @@ public sealed class BotConfig
     public AiConfig Ai { get; set; } = new();
     public List<SourceConfig> Sources { get; set; } = new();
     public List<SiteConfig> Sites { get; set; } = new();
+    /// <summary>
+    /// Your own domains. Items linking to them are never used as sources, so the bot never
+    /// rewrites your own articles. Site slugs (e.g. raporti-sot → raportisot) are excluded automatically too.
+    /// </summary>
+    public List<string> OwnDomains { get; set; } = new();
 
     private static readonly JsonSerializerOptions Json = new()
     {
@@ -114,6 +119,8 @@ public sealed class SiteConfig
     public string AuthorName { get; set; } = "Redaksia";
     /// <summary>true = articles are written with draft: true (not shown on the site until you remove it).</summary>
     public bool PublishAsDraft { get; set; }
+    /// <summary>The site's public domain, e.g. raportisot.com — never used as a news source.</summary>
+    public string? Domain { get; set; }
 
     [JsonIgnore] public string Root { get; set; } = "";
 }

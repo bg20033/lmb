@@ -111,6 +111,14 @@ log.Info($"Discovered {allItems.Count} items from {allItems.Select(i => i.Source
 
 // ---- 2. cluster + pick ---------------------------------------------------------------------------
 var maxAge = TimeSpan.FromHours(cfg.MaxStoryAgeHours);
+// Never use our own sites as a source (not even through an aggregator feed that links to them).
+var ownMarkers = cfg.Sites.Select(x => x.Slug.Replace("-", "")).Concat(cfg.Sites.Select(x => x.Name.Replace(" ", "")))
+    .Concat(cfg.Sites.Where(x => !string.IsNullOrWhiteSpace(x.Domain)).Select(x => x.Domain!)).Concat(cfg.OwnDomains)
+    .Select(x => x.Trim().ToLowerInvariant().Replace("www.", "")).Where(x => x.Length >= 5).Distinct().ToList();
+bool IsOwn(FeedItem i) => Uri.TryCreate(i.Url, UriKind.Absolute, out var u) && ownMarkers.Any(m => u.Host.Replace("-", "").ToLowerInvariant().Contains(m.Replace("-", "")));
+var own = allItems.Count(IsOwn);
+if (own > 0) log.Info($"Ignored {own} items that point to our own sites");
+allItems = allItems.Where(i => !IsOwn(i)).ToList();
 var fresh = allItems.Where(i => i.Published is null || now - i.Published.Value <= maxAge).ToList();
 var stories = StoryClusterer.Cluster(fresh, cfg.ClusterSimilarity)
     .Where(s => !state.AlreadyCovered(s, cfg.ClusterSimilarity))

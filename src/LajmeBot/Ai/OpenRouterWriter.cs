@@ -76,7 +76,19 @@ public sealed partial class OpenRouterWriter : IArticleWriter, IDisposable
             var usage = root["usage"];
             _log.Debug($"model={root["model"]} tokens in={usage?["prompt_tokens"]} out={usage?["completion_tokens"]} cost={usage?["cost"]}");
             if (usage?["cost"] is JsonValue c && c.TryGetValue<decimal>(out var cost)) TotalCost += cost;
-            if (finish == "length") throw new InvalidOperationException("The model hit max_tokens; raise Ai.MaxTokens");
+            if (finish == "length")
+            {
+                // Long answer cut off: keep it if the article is already long enough (drop the unfinished paragraph).
+                if (_mode == "text" && Prompts.ParseTextDraft(MessageText(message) ?? "") is { Skip: false } cut)
+                {
+                    var kept = cut.BodyMarkdown;
+                    var lastPara = kept.LastIndexOf("\n\n", StringComparison.Ordinal);
+                    if (lastPara > 0) kept = kept[..lastPara];
+                    if (Text.TextUtil.WordCount(kept) >= _cfg.MinWords) { _log.Warn("Answer was cut at max_tokens — kept the complete paragraphs"); return cut with { BodyMarkdown = kept }; }
+                }
+                if (attempt < 3) { _log.Warn("The model hit max_tokens; retrying"); continue; }
+                throw new InvalidOperationException("The model hit max_tokens; raise Ai.MaxTokens");
+            }
 
             if (_mode == "text")
             {
