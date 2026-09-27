@@ -37,9 +37,11 @@
     // Free endpoints occasionally accept a request but never start generating. Keep each
     // attempt short so the fallback model (or the next story) gets a chance in this run.
     "RequestTimeoutSeconds": 60,
-    "MaxTokens": 8000,
+    // A 350–600 word Albanian article fits comfortably here. A much larger limit lets
+    // free models ramble until OpenRouter ends the answer with finish_reason=length.
+    "MaxTokens": 3200,
     "MinWords": 350,
-    "MaxWords": 700
+    "MaxWords": 600
   },
 
   // Outlets the bot READS for facts. Nothing is copied: the AI writes new text and links back to them.
