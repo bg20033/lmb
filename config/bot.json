@@ -6,7 +6,7 @@
   "RespectRobotsTxt": true,
 
   // How much to publish on every run (the GitHub workflow runs every 2 hours by default).
-  "MaxStoriesPerRun": 3,      // new stories written per run
+  "MaxStoriesPerRun": 2,      // new stories written per run (free models: max ~50 AI requests/day)
   "SitesPerStory": 2,         // how many sites get their own version of each story
   "MaxSourcesPerStory": 4,
   "MaxStoryAgeHours": 10,
@@ -19,14 +19,18 @@
     // "anthropic"  = Claude directly (then Model e.g. "claude-sonnet-5", secret ANTHROPIC_API_KEY)
     "Provider": "openrouter",
 
-    // Price per million tokens (input / output), September 2026:
-    //   google/gemini-3.8-flash        $0.75 / $3.75   good Albanian — ~1 cent per article
-    //   deepseek/deepseek-v4.1-flash   $0.035 / $0.29  very cheap — ~0.1 cent per article
-    //   qwen/qwen3.8-flash             $0.15 / $0.47
+    // FREE models (":free"): $0, but OpenRouter allows only 20 requests/minute and 50 requests/day
+    // (1000/day once you have bought at least $10 of credits). One article = 1 request.
+    // If you get "No endpoints found matching your data policy", enable free models at
+    // https://openrouter.ai/settings/privacy
+    //
+    // Paid, better Albanian (price per million tokens, input / output, September 2026):
+    //   google/gemini-3.8-flash        $0.75 / $3.75   ~1 cent per article
+    //   deepseek/deepseek-v4.1-flash   $0.035 / $0.29  ~0.1 cent per article
     // Try a model first with the workflow's "dry-run" mode and the "model" field.
-    "Model": "google/gemini-3.8-flash",
-    // Used automatically if the main model is down or rate-limited.
-    "FallbackModels": ["deepseek/deepseek-v4.1-flash"],
+    "Model": "google/gemma-4-31b-it:free",
+    // Used automatically if the main model is busy or down ("openrouter/free" = any free model).
+    "FallbackModels": ["qwen/qwen3.8-27b:free", "openrouter/free"],
 
     "MaxTokens": 8000,
     "MinWords": 450,
