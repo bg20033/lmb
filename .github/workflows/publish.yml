@@ -142,12 +142,20 @@ jobs:
             slug=$(basename "$dir")
             pushd "$dir" > /dev/null
             if [ -z "$(git status --porcelain)" ]; then echo "$slug: asgjë e re"; popd > /dev/null; continue; fi
-            count=$(git status --porcelain -- src/content/news | grep -c '\.md$' || true)
+            if [ "$slug" = "lajme-per-kosove" ]; then
+              count=$(git diff --numstat -- src/data/importedArticles.json | awk '{ print $1 }' || true)
+              verify='npm ci --no-audit --no-fund && npm run build'
+              add_paths='src/data/importedArticles.json'
+            else
+              count=$(git status --porcelain -- src/content/news | grep -c '\.md$' || true)
+              verify='npm ci --no-audit --no-fund && npm run build && npm run audit:seo'
+              add_paths='src/content src/assets'
+            fi
             echo "::group::$slug — build ($count artikuj të rinj)"
-            if npm ci --no-audit --no-fund && npm run build && npm run audit:seo; then
+            if eval "$verify"; then
               echo "::endgroup::"
               if [ "$MODE" = "publish" ] || [ "$MODE" = "licensed-copy" ]; then
-                git add -A src/content src/assets
+                git add -A $add_paths
                 msg="Lajme automatike: $count artikuj të rinj"; [ "$count" = "0" ] && msg="LajmeBot: përditësim"
                 git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "$msg"
                 git push --quiet origin HEAD && echo "$slug: u publikuan $count artikuj" || { echo "::error::$slug: push dështoi"; failed=1; }

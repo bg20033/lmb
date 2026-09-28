@@ -69,11 +69,13 @@ if (!string.IsNullOrWhiteSpace(opts.Provider)) cfg.Ai.Provider = opts.Provider;
 if (!string.IsNullOrWhiteSpace(opts.Model)) { cfg.Ai.Model = opts.Model; cfg.Ai.FallbackModels.Clear(); }
 
 // ---- sites -------------------------------------------------------------------------------------
-var sites = new List<(SiteConfig cfg, SitePublisher pub)>();
+var sites = new List<(SiteConfig cfg, INewsPublisher pub)>();
 foreach (var s in cfg.Sites.Where(s => s.Enabled && (opts.OnlySites.Count == 0 || opts.OnlySites.Contains(s.Slug))))
 {
     s.Root = Path.GetFullPath(Path.Combine(opts.SitesRoot, s.Slug));
-    var pub = new SitePublisher(s, cfg.Ai, log);
+    INewsPublisher pub = s.Publisher.Equals("lajme-per-kosove", StringComparison.OrdinalIgnoreCase)
+        ? new LajmePerKosovePublisher(s, log)
+        : new SitePublisher(s, cfg.Ai, log);
     if (!pub.Exists)
     {
         // A dry-run only needs the site's settings from config, so it also works without the checkout.

@@ -4,8 +4,8 @@
   "RequestTimeoutSeconds": 25,
   "MinDelayPerHostMs": 1500,
   // How much to publish on every run (the GitHub workflow runs every 2 hours by default).
-  "MaxStoriesPerRun": 2,      // new stories written per run (free models: max ~50 AI requests/day)
-  "SitesPerStory": 2,         // how many sites get their own version of each story
+  "MaxStoriesPerRun": 60,     // every fresh discovered story is distributed in one run
+  "SitesPerStory": 1,         // one copy per story, distributed evenly across the five sites
   "MaxSourcesPerStory": 4,
   "MaxStoryAgeHours": 10,
   "ClusterSimilarity": 0.3,
@@ -67,7 +67,7 @@
       "Repo": "bg20033/raporti-sot",
       "Branch": "main",
       "Accent": "#cc0000",
-      "MaxArticlesPerRun": 2,
+      "MaxArticlesPerRun": 12,
       "AuthorId": "redaksia",
       "AuthorName": "Redaksia e Raporti Sot",
       "Style": "Analytical and explanatory. Put the news in context: what happened, why it matters, what comes next. Calm, measured sentences."
@@ -80,7 +80,7 @@
       "Accent": "#0057b8",
       "Tint": "#081e48",
       "TintAmount": 0.35,
-      "MaxArticlesPerRun": 2,
+      "MaxArticlesPerRun": 12,
       "AuthorId": "redaksia",
       "AuthorName": "Redaksia e InfoKosove24",
       "Style": "Fast, clear news service. Short paragraphs of 2–3 sentences, the most important facts first, plain everyday language. Good for readers on mobile."
@@ -93,7 +93,7 @@
       "Accent": "#0a7d4f",
       "Tint": "#0c3424",
       "TintAmount": 0.3,
-      "MaxArticlesPerRun": 2,
+      "MaxArticlesPerRun": 12,
       "AuthorId": "redaksia",
       "AuthorName": "Redaksia e Kosova Aktuale",
       "Style": "Feature-style reporting: open with a concrete scene or detail from the sources, then explain the background and the people or institutions involved. Warm but neutral."
@@ -106,10 +106,23 @@
       "Accent": "#f5b400",
       "Tint": "#121214",
       "TintAmount": 0.5,
-      "MaxArticlesPerRun": 2,
+      "MaxArticlesPerRun": 12,
       "AuthorId": "redaksia",
       "AuthorName": "Redaksia e Kosova Fakt",
       "Style": "Fact-first. After the opening paragraph add a section '## Faktet kryesore' with 4–6 bullet points of verified facts from the sources, then explanation. Be explicit about what is confirmed and what is still unclear."
+    },
+    {
+      "Slug": "lajme-per-kosove",
+      "Name": "Lajme për Kosovë",
+      "Publisher": "lajme-per-kosove",
+      "Repo": "bg20033/lajme-per-kosove",
+      "Branch": "main",
+      "Accent": "#a11d27",
+      "MaxArticlesPerRun": 12,
+      "AuthorId": "redaksia",
+      "AuthorName": "Redaksia e Lajme për Kosovë",
+      "Style": "Clear, factual news reporting.",
+      "Categories": ["bota", "politike", "ekonomi", "teknologji", "shkence", "kulture", "sport"]
     }
   ]
 }

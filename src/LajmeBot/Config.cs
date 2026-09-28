@@ -108,6 +108,8 @@ public sealed class SiteConfig
 {
     public string Slug { get; set; } = "";
     public string Name { get; set; } = "";
+    /// <summary>"astro" for the four Astro sites, "lajme-per-kosove" for its React newsroom data store.</summary>
+    public string Publisher { get; set; } = "astro";
     public bool Enabled { get; set; } = true;
     /// <summary>GitHub "owner/repo" — used by the workflow, not by the bot itself.</summary>
     public string Repo { get; set; } = "";

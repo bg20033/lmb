@@ -1,6 +1,6 @@
 # LajmeBot
 
-Backend automatik që shkruan dhe publikon lajme në faqet **Raporti Sot**, **InfoKosove24**, **Kosova Aktuale** dhe **Kosova Fakt**.
+Backend automatik që publikon lajme në **Raporti Sot**, **InfoKosove24**, **Kosova Aktuale**, **Kosova Fakt** dhe **Lajme për Kosovë**.
 Punon falas në **GitHub Actions** (pa server, pa databazë) dhe është shkruar në **.NET 8**, pa asnjë paketë NuGet.
 
 ```
@@ -17,7 +17,7 @@ Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e arti
 1. **Zbulimi.** Hyn te faqja kryesore dhe faqet e kategorive të çdo portali në `config/bot.json`, gjen linkat e artikujve të rinj dhe hap deri në 24 artikuj për portal. Nga çdo artikull nxjerr titullin, datën, përshkrimin dhe tekstin e plotë. RSS/Atom nuk përdoret.
 2. **Grupimi.** Titujt që flasin për të njëjtën ngjarje bashkohen në një "histori" (me stemming të thjeshtë shqip). Historitë me më shumë burime dhe më të freskëta vijnë të parat.
 3. **Faktet / teksti i licencuar.** Për çdo histori hap 2–4 artikuj burimorë. Në modalitetin AI, teksti përdoret vetëm për fakte; në `licensed-copy`, publikohet teksti i plotë i burimit të licencuar.
-4. **Shkrimi.** AI shkruan artikull të ri me fjalët e veta; ose `licensed-copy` punon pa API/AI, merr tekstin e plotë nga burimi me licencë dhe e publikon me emrin e portalit dhe linkun origjinal. Çdo histori shkon te 2 faqe (me rotacion).
+4. **Shkrimi.** AI shkruan artikull të ri me fjalët e veta; ose `licensed-copy` punon pa API/AI, merr tekstin e plotë nga burimi me licencë dhe e publikon me emrin e portalit dhe linkun origjinal. Në `licensed-copy`, çdo histori shpërndahet në mënyrë të barabartë në një nga pesë faqet.
 5. **Kontrolli.** Nëse titulli/përshkrimi nuk i plotëson rregullat e faqes, ose nëse teksti ka ≥12 fjalë radhazi të kopjuara nga një burim, draft-i refuzohet dhe AI e rishkruan një herë.
 6. **Publikimi.** Shkruan `src/content/news/<slug>.md` dhe një ilustrim abstrakt `src/assets/news/<slug>.png`. Në `licensed-copy`, fundi ka **Burimi origjinal**, emrin e portalit, linkun dhe shënimin e licencës.
 7. **Siguria.** Workflow-i e ndërton faqen dhe e kalon SEO audit **para** push-it. Nëse diçka dështon, ajo faqe nuk publikohet.

@@ -152,6 +152,13 @@ public static class SelfTest
         Check("licensed copy keeps complete source text", copyDraft.BodyMarkdown == src[0].Text && pub.Validate(copyDraft, src, licensedCopy: true).Count == 0);
         var copyPreview = pub.WritePreview(copyDraft, src, false, DateTimeOffset.UtcNow, tmp, licensedCopy: true);
         Check("licensed copy adds source attribution and link", File.ReadAllText(copyPreview).Contains("## Burimi origjinal") && File.ReadAllText(copyPreview).Contains(src[0].Url));
+        var reactRoot = Path.Combine(tmp, "lajme-per-kosove");
+        Directory.CreateDirectory(Path.Combine(reactRoot, "src", "data"));
+        var reactSite = new SiteConfig { Slug = "lajme-per-kosove", Name = "Lajme për Kosovë", Publisher = "lajme-per-kosove", Root = reactRoot };
+        var reactPub = new LajmePerKosovePublisher(reactSite, new Log(false));
+        var reactArticle = reactPub.Write(copyDraft, src, false, DateTimeOffset.UtcNow, licensedCopy: true);
+        var reactJson = File.ReadAllText(reactArticle.MarkdownPath);
+        Check("React publisher writes a licensed article with original link", reactJson.Contains("imported-") && reactJson.Contains(src[0].Url) && reactJson.Contains("\"status\": \"published\""));
         Check("Kosovo time zone available", SitePublisher.ToKosovoTime(new DateTimeOffset(2026, 7, 1, 10, 0, 0, TimeSpan.Zero)).Offset == TimeSpan.FromHours(2));
 
         try { Directory.Delete(tmp, true); } catch { }

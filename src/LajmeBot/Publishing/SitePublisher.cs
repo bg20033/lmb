@@ -11,8 +11,18 @@ namespace LajmeBot.Publishing;
 
 public sealed record PublishedArticle(string Site, string Slug, string Title, string Category, string MarkdownPath, string ImagePath);
 
+public interface INewsPublisher
+{
+    bool Exists { get; }
+    List<string> RecentTitles(int max = 20);
+    void EnsureAuthor(bool licensedCopy = false);
+    List<string> Validate(ArticleDraft draft, IReadOnlyList<SourceText> sources, bool licensedCopy = false);
+    PublishedArticle Write(ArticleDraft draft, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, bool licensedCopy = false);
+    string WritePreview(ArticleDraft draft, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string previewDir, bool licensedCopy = false);
+}
+
 /// <summary>Reads and writes one Astro site checkout (src/content/news + src/assets/news).</summary>
-public sealed partial class SitePublisher
+public sealed partial class SitePublisher : INewsPublisher
 {
     private readonly SiteConfig _site;
     private readonly AiConfig _ai;
