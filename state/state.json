@@ -1,6 +1,54 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-09-28T13:45:30.0333407+00:00",
+      "Title": "Djali i Jakup Krasniqit: Pa u votuar ligji p\u00EBr Gjykat\u00EBn Speciale, nuk \u00EBsht\u00EB b\u00EBr\u00EB asgj\u00EB konkrete - NACIONALE",
+      "Tokens": [
+        "djal",
+        "jakup",
+        "krasn",
+        "votua",
+        "ligj",
+        "gjyka",
+        "speci",
+        "ber",
+        "asg",
+        "konkr",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/altin-krasniqi-pa-u-votuar-ligji-per-gjykaten-speciale-nuk-eshte-bere-asgje-konkrete/",
+        "https://nacionale.com/politike/djali-i-jakup-krasniqit-pa-u-votuar-ligji-per-gjykaten-speciale-nuk-eshte-bere-asgje-konkrete"
+      ],
+      "Articles": {
+        "kosova-fakt": "altin-krasniqi-pa-u-votuar-ligji-per-gjykaten-speciale-nuk-eshte-bere-asgje",
+        "raporti-sot": "altin-krasniqi-pa-u-votuar-ligji-per-gjykaten-speciale-nuk-eshte-bere-asgje"
+      }
+    },
+    {
+      "At": "2026-09-28T13:45:30.0333407+00:00",
+      "Title": "Tik-taku i Presidentit, Bajrami: N\u00EBse ka kandidat t\u00EB LDK-s\u00EB, e votoj - NACIONALE",
+      "Tokens": [
+        "tik",
+        "tak",
+        "presi",
+        "bajra",
+        "nes",
+        "kandi",
+        "ldk",
+        "votoj",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bajrami-se-di-nese-jane-takuar-abdixhiku-e-kurti-nese-ka-kandidat-te-ldk-se-per-president-e-votoj/",
+        "https://nacionale.com/politike/tik-taku-i-presidentit-bajrami-nese-ka-kandidat-te-ldk-se-e-votoj"
+      ],
+      "Articles": {
+        "raporti-sot": "bajrami-s-e-di-nese-jane-takuar-abdixhiku-e-kurti-nese-ka-kandidat-te-ldk-se",
+        "infokosove24": "bajrami-s-e-di-nese-jane-takuar-abdixhiku-e-kurti-nese-ka-kandidat-te-ldk-se"
+      }
+    },
     {
       "At": "2026-09-28T11:37:48.5919612+00:00",
       "Title": "Kuvendi miraton deklarat\u00EBn p\u00EBr aktgjykimin e Speciales, n\u00EB mbrojtje t\u00EB U\u00C7K-s\u00EB",
