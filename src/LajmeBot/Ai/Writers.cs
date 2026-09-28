@@ -139,6 +139,41 @@ public sealed class MockWriter : IArticleWriter
     }
 }
 
+/// <summary>
+/// Republishes the complete extracted text from a licensed source. It makes no network/API calls;
+/// SitePublisher adds an explicit attribution and original link when this mode is used.
+/// </summary>
+public sealed class LicensedCopyWriter : IArticleWriter
+{
+    public static SourceText PickSource(IReadOnlyList<SourceText> sources) =>
+        sources.OrderByDescending(s => TextUtil.WordCount(s.Text)).ThenBy(s => s.Source, StringComparer.Ordinal).First();
+
+    public Task<ArticleDraft> WriteAsync(ArticleRequest req, CancellationToken ct)
+    {
+        var source = PickSource(req.Sources);
+        var body = source.Text.Trim();
+        var description = TextUtil.TruncateWords(body.Replace('\n', ' '), 174);
+        var category = CategoryFor(req.Site, source.Title);
+        var motif = HeroImageGenerator.Motifs[(int)(TextUtil.StableHash(source.Url) % (ulong)HeroImageGenerator.Motifs.Length)];
+        return Task.FromResult(new ArticleDraft(false, null, source.Title, description, category,
+            new() { source.Source, "Lajme" }, body, motif));
+    }
+
+    private static string CategoryFor(SiteConfig site, string title)
+    {
+        var tokens = TextUtil.Tokens(title);
+        string Pick(string category, params string[] words) => site.Categories.Contains(category) && words.Any(w => tokens.Contains(TextUtil.Stem(w))) ? category : "";
+        return new[]
+            {
+                Pick("sport", "futboll", "ndeshje", "gol", "basketboll", "xhudo"),
+                Pick("ekonomi", "ekonomi", "paga", "buxhet", "banka", "treg"),
+                Pick("teknologji", "teknologji", "internet", "telefon", "aplikacion"),
+                Pick("kulture", "kulture", "film", "muzik", "teater"),
+                Pick("bota", "evrope", "bote", "amerik", "ukrain", "global"),
+            }.FirstOrDefault(x => x.Length > 0) ?? (site.Categories.Contains("politike") ? "politike" : site.Categories.First());
+    }
+}
+
 public static class Prompts
 {
     public const string ToolName = "publish_article";

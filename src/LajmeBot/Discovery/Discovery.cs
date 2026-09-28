@@ -226,7 +226,8 @@ public sealed partial class ArticleFetcher
     private readonly Log _log;
     public ArticleFetcher(IFetcher fetcher, Log log) { _fetcher = fetcher; _log = log; }
 
-    public async Task<SourceText?> FetchAsync(FeedItem item, CancellationToken ct)
+    /// <param name="maxChars">AI needs a bounded source; licensed republication can request the full extracted text.</param>
+    public async Task<SourceText?> FetchAsync(FeedItem item, CancellationToken ct, int maxChars = 7000)
     {
         var res = await _fetcher.GetAsync(item.Url, ct);
         if (!res.Ok)
@@ -237,7 +238,7 @@ public sealed partial class ArticleFetcher
         var text = Extract(res.Body);
         if (text.Length < 200 && item.Summary.Length > text.Length) text = item.Summary;
         if (text.Length < 80) return null;
-        return new SourceText(item.Source, item.Title, item.Url, TextUtil.TruncateWords(text, 7000));
+        return new SourceText(item.Source, item.Title, item.Url, TextUtil.TruncateWords(text, maxChars));
     }
 
     public static string Extract(string html)

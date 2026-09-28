@@ -6,7 +6,7 @@ Punon falas në **GitHub Actions** (pa server, pa databazë) dhe është shkruar
 ```
 Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e artikujve të plotë
       ──► grupim i lajmeve të njëjta ──► leximi i fakteve nga 2–4 burime
-      ──► AI (OpenRouter ose Claude) shkruan artikull ORIGJINAL (stil tjetër për secilën faqe)
+      ──► AI shkruan artikull origjinal OSE modaliteti licensed-copy publikon tekstin e licencuar
       ──► kontroll: skema e faqes, gjatësia, kopjimi i teksteve
       ──► .md + ilustrim PNG në src/content/news  ──► astro build + SEO audit
       ──► git push  ──► Vercel/Netlify e publikon vetë
@@ -16,10 +16,10 @@ Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e arti
 
 1. **Zbulimi.** Hyn te faqja kryesore dhe faqet e kategorive të çdo portali në `config/bot.json`, gjen linkat e artikujve të rinj dhe hap deri në 24 artikuj për portal. Nga çdo artikull nxjerr titullin, datën, përshkrimin dhe tekstin e plotë. RSS/Atom nuk përdoret.
 2. **Grupimi.** Titujt që flasin për të njëjtën ngjarje bashkohen në një "histori" (me stemming të thjeshtë shqip). Historitë me më shumë burime dhe më të freskëta vijnë të parat.
-3. **Faktet.** Për çdo histori hap 2–4 artikuj burimorë dhe nxjerr tekstin vetëm që AI t'i lexojë faktet.
-4. **Shkrimi.** AI shkruan artikull të ri me fjalët e veta: pa fakte të shpikura, me atribuim ("sipas Kohës…"), 350–600 fjalë, me nëntituj. Secila faqe ka zërin e vet (`Style` në config). Çdo histori shkon te 2 faqe (me rotacion), kështu që faqet kanë përmbajtje të ndryshme.
+3. **Faktet / teksti i licencuar.** Për çdo histori hap 2–4 artikuj burimorë. Në modalitetin AI, teksti përdoret vetëm për fakte; në `licensed-copy`, publikohet teksti i plotë i burimit të licencuar.
+4. **Shkrimi.** AI shkruan artikull të ri me fjalët e veta; ose `licensed-copy` punon pa API/AI, merr tekstin e plotë nga burimi me licencë dhe e publikon me emrin e portalit dhe linkun origjinal. Çdo histori shkon te 2 faqe (me rotacion).
 5. **Kontrolli.** Nëse titulli/përshkrimi nuk i plotëson rregullat e faqes, ose nëse teksti ka ≥12 fjalë radhazi të kopjuara nga një burim, draft-i refuzohet dhe AI e rishkruan një herë.
-6. **Publikimi.** Shkruan `src/content/news/<slug>.md` dhe një ilustrim abstrakt `src/assets/news/<slug>.png` me ngjyrat e faqes (nuk merren foto nga portalet). Në fund të çdo artikulli shtohen **Burimet** me linqe dhe një shënim që artikulli është përgatitur me AI. Autori është "Redaksia e …" (shtohet vetë në `authors.json`).
+6. **Publikimi.** Shkruan `src/content/news/<slug>.md` dhe një ilustrim abstrakt `src/assets/news/<slug>.png`. Në `licensed-copy`, fundi ka **Burimi origjinal**, emrin e portalit, linkun dhe shënimin e licencës.
 7. **Siguria.** Workflow-i e ndërton faqen dhe e kalon SEO audit **para** push-it. Nëse diçka dështon, ajo faqe nuk publikohet.
 8. **Kujtesa.** `state/state.json` mban mend çka u publikua (10 ditë), që e njëjta histori të mos shkruhet dy herë.
 
@@ -46,7 +46,8 @@ Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e arti
    | `discover` | jo | asnjë | Lexon portalet live, grupon lajmet, lexon tekstet dhe shfaq raport (cili portal punon, sa fjalë u lexuan). Nuk prek faqet. |
    | `test` | jo | `SITES_TOKEN` (s'duhet nëse repo-t e faqeve janë publike) | Shkruan artikuj **TEST** në kopje të faqeve, gjeneron ilustrimet, i ndërton dhe i kalon SEO audit. **Nuk publikon** dhe nuk e prek kujtesën e bot-it. |
    | `dry-run` | po | vetëm çelësi i AI | AI shkruan artikuj të vërtetë (1 histori nëse s'jep numër). I sheh të plotë te **Summary** e ekzekutimit, ilustrimet te **Artifacts → drafts**. Nuk publikon e nuk e prek kujtesën. |
-   | `publish` | po | të dyja | Publikon. Kjo punon vetë sipas orarit. |
+   | `publish` | po | të dyja | Publikon artikuj të shkruar me AI. |
+   | `licensed-copy` | jo | `SITES_TOKEN` | Publikon tekstin e plotë të burimit të licencuar, me atribim + link. Ky është modaliteti automatik. |
 
    Rendi i rekomanduar: `discover` → `test` → `dry-run` → `publish`.
    Derisa të mos i vendosësh sekretet, ekzekutimet automatike çdo 2 orë mbarojnë pa bo asgjë (pa gabime).
@@ -77,6 +78,7 @@ dotnet run --project src/LajmeBot -- run --sites-root .. --dry-run   # me OPENRO
 dotnet run --project src/LajmeBot -- run --sites-root .. --dry-run --model deepseek/deepseek-v4.1-flash
 dotnet run --project src/LajmeBot -- run --sites-root .. --site kosova-fakt --max-stories 1
 dotnet run --project src/LajmeBot -- run --sites-root /tmp/kopje --fixtures tests/fixtures --mock-ai   # provë offline
+dotnet run --project src/LajmeBot -- run --licensed-copy --sites-root .. --dry-run # provë pa API, pa publikim
 ```
 
 `--sites-root ..` punon kur `lajme-bot` rri në të njëjtin folder me faqet (`lajme/raporti-sot`, `lajme/infokosove24`…).

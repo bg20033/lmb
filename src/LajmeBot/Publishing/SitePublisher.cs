@@ -37,18 +37,21 @@ public sealed partial class SitePublisher
             .Where(m => m.Success).Select(m => m.Groups[1].Value.Replace("\\\"", "\"")).ToList();
 
     /// <summary>Adds the automated-newsroom author to authors.json if it is missing.</summary>
-    public void EnsureAuthor()
+    public void EnsureAuthor(bool licensedCopy = false)
     {
         var arr = JsonNode.Parse(File.ReadAllText(AuthorsFile))!.AsArray();
-        if (arr.Any(a => a?["id"]?.GetValue<string>() == _site.AuthorId)) return;
-        arr.Add(new JsonObject
+        var author = arr.FirstOrDefault(a => a?["id"]?.GetValue<string>() == _site.AuthorId) as JsonObject;
+        if (author != null && !licensedCopy) return;
+        if (author == null)
         {
-            ["id"] = _site.AuthorId,
-            ["name"] = _site.AuthorName,
-            ["role"] = "Redaksia automatike",
-            ["bio"] = $"Artikujt e nënshkruar nga {_site.AuthorName} përgatiten automatikisht me ndihmën e inteligjencës artificiale, " +
-                      "duke u bazuar vetëm në burime publike që citohen me lidhje në fund të çdo artikulli.",
-        });
+            author = new JsonObject { ["id"] = _site.AuthorId };
+            arr.Add(author);
+        }
+        author["name"] = _site.AuthorName;
+        author["role"] = "Redaksia automatike";
+        author["bio"] = licensedCopy
+            ? $"Artikujt e nënshkruar nga {_site.AuthorName} publikohen automatikisht me leje/licencë dhe me atribuim të qartë te burimi origjinal."
+            : $"Artikujt e nënshkruar nga {_site.AuthorName} përgatiten automatikisht me ndihmën e inteligjencës artificiale, duke u bazuar vetëm në burime publike që citohen me lidhje në fund të çdo artikulli.";
         File.WriteAllText(AuthorsFile, arr.ToJsonString(new JsonSerializerOptions
         {
             WriteIndented = true,
@@ -58,24 +61,31 @@ public sealed partial class SitePublisher
     }
 
     /// <summary>Checks a draft against the site's content schema and our own quality rules. Returns problems (empty = OK).</summary>
-    public List<string> Validate(ArticleDraft d, IReadOnlyList<SourceText> sources)
+    public List<string> Validate(ArticleDraft d, IReadOnlyList<SourceText> sources, bool licensedCopy = false)
     {
         var p = new List<string>();
-        if (d.Title.Length is < 20 or > 120) p.Add($"Title must be 20–120 characters (was {d.Title.Length}).");
-        if (d.Description.Length < 70) p.Add($"Description must be at least 90 characters (was {d.Description.Length}).");
+        if (!licensedCopy && d.Title.Length is < 20 or > 120) p.Add($"Title must be 20–120 characters (was {d.Title.Length}).");
+        if (!licensedCopy && d.Description.Length < 70) p.Add($"Description must be at least 90 characters (was {d.Description.Length}).");
         if (!_site.Categories.Contains(d.Category)) p.Add($"Category '{d.Category}' is not one of: {string.Join(", ", _site.Categories)}.");
         var words = TextUtil.WordCount(d.BodyMarkdown);
-        if (words < _ai.MinWords * 0.8) p.Add($"Body is too short: {words} words, need at least {_ai.MinWords}.");
-        var own = TextUtil.WithoutShortQuotes(d.Title + "\n" + d.Description + "\n" + d.BodyMarkdown);
-        var (run, passage) = TextUtil.LongestSharedPassage(own, sources.Select(s => s.Text + "\n" + s.Title), 8);
-        if (run >= 12)
-            p.Add($"The text copies a {run}-word passage from a source word for word: \"{TextUtil.TruncateWords(passage, 220)}\". " +
-                  "Rewrite that part — and every other sentence — in your own words (change the sentence structure, not just single words). " +
-                  "Short direct quotes of people are fine only inside quotation marks.");
+        if (licensedCopy)
+        {
+            if (words == 0) p.Add("Licensed source text is empty.");
+        }
+        else
+        {
+            if (words < _ai.MinWords * 0.8) p.Add($"Body is too short: {words} words, need at least {_ai.MinWords}.");
+            var own = TextUtil.WithoutShortQuotes(d.Title + "\n" + d.Description + "\n" + d.BodyMarkdown);
+            var (run, passage) = TextUtil.LongestSharedPassage(own, sources.Select(s => s.Text + "\n" + s.Title), 8);
+            if (run >= 12)
+                p.Add($"The text copies a {run}-word passage from a source word for word: \"{TextUtil.TruncateWords(passage, 220)}\". " +
+                      "Rewrite that part — and every other sentence — in your own words (change the sentence structure, not just single words). " +
+                      "Short direct quotes of people are fine only inside quotation marks.");
+        }
         return p;
     }
 
-    public PublishedArticle Write(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now)
+    public PublishedArticle Write(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, bool licensedCopy = false)
     {
         Directory.CreateDirectory(NewsDir);
         Directory.CreateDirectory(AssetsDir);
@@ -86,7 +96,7 @@ public sealed partial class SitePublisher
         HeroImageGenerator.Generate(imagePath, _site.Slug + "/" + slug, d.Category, motif, _site.Accent, _site.Tint, _site.TintAmount);
 
         var mdPath = Path.Combine(NewsDir, slug + ".md");
-        File.WriteAllText(mdPath, Render(d, sources, featured, now, slug), new UTF8Encoding(false));
+        File.WriteAllText(mdPath, Render(d, sources, featured, now, slug, licensedCopy), new UTF8Encoding(false));
         return new PublishedArticle(_site.Slug, slug, d.Title, d.Category, mdPath, imagePath);
     }
 
@@ -94,7 +104,7 @@ public sealed partial class SitePublisher
     /// Dry-run: writes the complete article (and its illustration) to a preview folder
     /// instead of the site, so it can be read in full without publishing anything.
     /// </summary>
-    public string WritePreview(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string previewDir)
+    public string WritePreview(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string previewDir, bool licensedCopy = false)
     {
         Directory.CreateDirectory(previewDir);
         var slug = TextUtil.Slugify(d.Title);
@@ -102,14 +112,14 @@ public sealed partial class SitePublisher
         var baseName = $"{_site.Slug}--{slug}";
         HeroImageGenerator.Generate(Path.Combine(previewDir, baseName + ".png"), _site.Slug + "/" + slug, d.Category, MotifOf(d), _site.Accent, _site.Tint, _site.TintAmount);
         var path = Path.Combine(previewDir, baseName + ".md");
-        File.WriteAllText(path, Render(d, sources, featured, now, slug), new UTF8Encoding(false));
+        File.WriteAllText(path, Render(d, sources, featured, now, slug, licensedCopy), new UTF8Encoding(false));
         return path;
     }
 
     private static string MotifOf(ArticleDraft d) =>
         HeroImageGenerator.Motifs.Contains(d.ImageMotif) ? d.ImageMotif : HeroImageGenerator.Motifs[0];
 
-    private string Render(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string slug)
+    private string Render(ArticleDraft d, IReadOnlyList<SourceText> sources, bool featured, DateTimeOffset now, string slug, bool licensedCopy)
     {
         var motif = MotifOf(d);
         var description = d.Description.Length > 175 ? TextUtil.TruncateWords(d.Description, 174) : d.Description;
@@ -132,12 +142,14 @@ public sealed partial class SitePublisher
         md.AppendLine();
         md.AppendLine(CleanBody(d.BodyMarkdown));
         md.AppendLine();
-        md.AppendLine("## Burimet");
+        md.AppendLine(licensedCopy ? "## Burimi origjinal" : "## Burimet");
         md.AppendLine();
         foreach (var s in sources.DistinctBy(s => s.Url))
             md.AppendLine($"- {s.Source}: [{EscapeLinkText(s.Title)}]({s.Url})");
         md.AppendLine();
-        md.AppendLine($"*Ky artikull është përgatitur automatikisht nga {_site.AuthorName} me ndihmën e inteligjencës artificiale, duke u bazuar në burimet e mësipërme. Nëse vëreni ndonjë pasaktësi, na shkruani.*");
+        md.AppendLine(licensedCopy
+            ? $"*Ky tekst publikohet nga {_site.AuthorName} me leje/licencë. Burimi origjinal është i lidhur më sipër.*"
+            : $"*Ky artikull është përgatitur automatikisht nga {_site.AuthorName} me ndihmën e inteligjencës artificiale, duke u bazuar në burimet e mësipërme. Nëse vëreni ndonjë pasaktësi, na shkruani.*");
         return md.ToString();
     }
 

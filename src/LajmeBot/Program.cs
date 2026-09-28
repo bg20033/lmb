@@ -52,6 +52,7 @@ if (opts.Command != "run")
           --provider <name>     override Ai.Provider (openrouter | anthropic)
           --model <id>          override Ai.Model, e.g. deepseek/deepseek-v4.1-flash
           --dry-run             write nothing to the sites; full drafts go to --drafts-dir
+          --licensed-copy       republish complete text from licensed sources; no AI/API call
           --drafts-dir <dir>    where dry-run drafts are saved (default: out/drafts)
           --mock-ai             offline placeholder writer (for testing without an API key)
           --fixtures <dir>      read feeds/pages from local files instead of the internet (tests)
@@ -86,7 +87,12 @@ if (sites.Count == 0) { log.Error("No site checkouts found. Nothing to do."); re
 // ---- services ----------------------------------------------------------------------------------
 IFetcher fetcher = opts.FixturesDir != null ? new FixtureFetcher(opts.FixturesDir) : new PoliteFetcher(cfg);
 IArticleWriter writer;
-if (opts.MockAi) writer = new MockWriter();
+if (opts.LicensedCopy)
+{
+    writer = new LicensedCopyWriter();
+    log.Info("Mode: licensed copy — no AI/API call; each article is attributed to its original source");
+}
+else if (opts.MockAi) writer = new MockWriter();
 else
 {
     var key = Environment.GetEnvironmentVariable(cfg.Ai.KeyEnv);
@@ -135,18 +141,18 @@ var storiesDone = 0;
 var aiCalls = 0;
 var aiCallBudget = Math.Max(5, cfg.MaxStoriesPerRun * (cfg.SitesPerStory * 3 + 1)); // hard cap on API spend per run
 
-if (!opts.DryRun) foreach (var (_, pub) in sites) pub.EnsureAuthor();
+if (!opts.DryRun) foreach (var (_, pub) in sites) pub.EnsureAuthor(opts.LicensedCopy);
 
 foreach (var story in stories)
 {
     if (storiesDone >= cfg.MaxStoriesPerRun || capacity.Values.All(v => v <= 0) || ct.IsCancellationRequested) break;
-    if (aiCalls >= aiCallBudget) { log.Warn($"AI call budget ({aiCallBudget}) used up for this run"); break; }
+    if (!opts.LicensedCopy && aiCalls >= aiCallBudget) { log.Warn($"AI call budget ({aiCallBudget}) used up for this run"); break; }
 
     // Sources: at most one item per outlet, richest summary first.
     var picks = story.Items.GroupBy(i => i.Source).Select(g => g.OrderByDescending(i => i.Summary.Length).First())
         .OrderByDescending(i => i.Summary.Length).Take(cfg.MaxSourcesPerStory).ToList();
     List<SourceText> sources;
-    try { sources = (await Task.WhenAll(picks.Select(p => articleFetcher.FetchAsync(p, ct)))).Where(s => s != null).Select(s => s!).ToList(); }
+    try { sources = (await Task.WhenAll(picks.Select(p => articleFetcher.FetchAsync(p, ct, opts.LicensedCopy ? 200_000 : 7000)))).Where(s => s != null).Select(s => s!).ToList(); }
     catch (OperationCanceledException) { log.Error("Time limit for this run reached — stopping"); break; }
     if (sources.Sum(s => s.Text.Length) < 400)
     {
@@ -156,7 +162,7 @@ foreach (var story in stories)
 
     // Step 1 (optional): facts list, shared by every site that writes this story.
     string? facts = null;
-    if (cfg.Ai.FactsFirst && aiCalls < aiCallBudget)
+    if (!opts.LicensedCopy && cfg.Ai.FactsFirst && aiCalls < aiCallBudget)
     {
         try
         {
@@ -184,13 +190,14 @@ foreach (var story in stories)
 
     foreach (var (site, pub) in targets)
     {
+        var publicationSources = opts.LicensedCopy ? new List<SourceText> { LicensedCopyWriter.PickSource(sources) } : sources;
         string? feedback = null;
-        for (var attempt = 1; attempt <= 2; attempt++)
+        for (var attempt = 1; attempt <= (opts.LicensedCopy ? 1 : 2); attempt++)
         {
-            if (aiCalls >= aiCallBudget) break;
-            aiCalls++;
+            if (!opts.LicensedCopy && aiCalls >= aiCallBudget) break;
+            if (!opts.LicensedCopy) aiCalls++;
             ArticleDraft draft;
-            try { draft = await writer.WriteAsync(new ArticleRequest(site, story, sources, recent[site.Slug], feedback, facts), ct); }
+            try { draft = await writer.WriteAsync(new ArticleRequest(site, story, publicationSources, recent[site.Slug], feedback, facts), ct); }
             catch (Exception ex) when (!ct.IsCancellationRequested)
             {
                 log.Error($"{site.Slug}: writer failed: {ex.Message}");
@@ -207,7 +214,7 @@ foreach (var story in stories)
                 skippedByAi = true;
                 break;
             }
-            var problems = pub.Validate(draft, sources);
+            var problems = pub.Validate(draft, publicationSources, opts.LicensedCopy);
             if (problems.Count > 0)
             {
                 feedback = string.Join("\n", problems.Select(p => "- " + p));
@@ -217,13 +224,13 @@ foreach (var story in stories)
             }
             if (opts.DryRun)
             {
-                var preview = pub.WritePreview(draft, sources, story.SourceCount >= cfg.FeaturedMinSources, DateTimeOffset.UtcNow, opts.DraftsDir);
-                log.Info($"[dry-run] {site.Slug}: {draft.Category} | {draft.Title} ({TextUtil.WordCount(draft.BodyMarkdown)} fjalë)\n  {draft.Description}\n  → {preview}");
+                var preview = pub.WritePreview(draft, publicationSources, story.SourceCount >= cfg.FeaturedMinSources, DateTimeOffset.UtcNow, opts.DraftsDir, opts.LicensedCopy);
+                log.Info($"[{(opts.LicensedCopy ? "licensed-copy" : "dry-run")}] {site.Slug}: {draft.Category} | {draft.Title} ({TextUtil.WordCount(draft.BodyMarkdown)} fjalë)\n  {draft.Description}\n  → {preview}");
                 record.Articles[site.Slug] = "(dry-run)";
             }
             else
             {
-                var art = pub.Write(draft, sources, story.SourceCount >= cfg.FeaturedMinSources, DateTimeOffset.UtcNow);
+                var art = pub.Write(draft, publicationSources, story.SourceCount >= cfg.FeaturedMinSources, DateTimeOffset.UtcNow, opts.LicensedCopy);
                 published.Add(art);
                 record.Articles[site.Slug] = art.Slug;
                 recent[site.Slug].Insert(0, art.Title);
@@ -277,6 +284,7 @@ sealed class Options
     public bool DryRun { get; set; }
     public string DraftsDir { get; set; } = "out/drafts";
     public bool MockAi { get; set; }
+    public bool LicensedCopy { get; set; }
     public bool Verbose { get; set; }
     public string? FixturesDir { get; set; }
     public string? SummaryPath { get; set; }
@@ -304,6 +312,7 @@ sealed class Options
                 case "--dry-run": o.DryRun = true; break;
                 case "--drafts-dir": o.DraftsDir = Next(); break;
                 case "--mock-ai": o.MockAi = true; break;
+                case "--licensed-copy": o.LicensedCopy = true; break;
                 case "--fixtures": o.FixturesDir = Next(); break;
                 case "--summary": o.SummaryPath = Next(); break;
                 case "--report": o.ReportPath = Next(); break;

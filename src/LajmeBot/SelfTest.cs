@@ -147,6 +147,11 @@ public static class SelfTest
         Check("valid draft passes", pub.Validate(draft, src).Count == 0, string.Join("; ", pub.Validate(draft, src)));
         Check("bad category rejected", pub.Validate(draft with { Category = "lifestyle" }, src).Count == 1);
         Check("copied text rejected", pub.Validate(draft with { BodyMarkdown = okBody + "\n\nThanë se Kuvendi i Kosovës ka miratuar sot rezolutën për dialogun me shumicë votash dhe gjithçka." }, src).Any(p => p.Contains("copies")));
+        var copyWriter = new LicensedCopyWriter();
+        var copyDraft = copyWriter.WriteAsync(new ArticleRequest(site, stories[0], src, Array.Empty<string>(), null), CancellationToken.None).Result;
+        Check("licensed copy keeps complete source text", copyDraft.BodyMarkdown == src[0].Text && pub.Validate(copyDraft, src, licensedCopy: true).Count == 0);
+        var copyPreview = pub.WritePreview(copyDraft, src, false, DateTimeOffset.UtcNow, tmp, licensedCopy: true);
+        Check("licensed copy adds source attribution and link", File.ReadAllText(copyPreview).Contains("## Burimi origjinal") && File.ReadAllText(copyPreview).Contains(src[0].Url));
         Check("Kosovo time zone available", SitePublisher.ToKosovoTime(new DateTimeOffset(2026, 7, 1, 10, 0, 0, TimeSpan.Zero)).Offset == TimeSpan.FromHours(2));
 
         try { Directory.Delete(tmp, true); } catch { }
