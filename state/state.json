@@ -1,6 +1,31 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-09-28T14:30:28.2736927+00:00",
+      "Title": "Ambasada e ShBA-s\u00EB e FBI vler\u00EBsojn\u00EB s\u00EBrish Prokurorin\u00EB Speciale: Bashk\u00EBpunimi jon\u00EB sjell rezultate konkrete - NACIONALE",
+      "Tokens": [
+        "ambas",
+        "shb",
+        "fbi",
+        "vlere",
+        "seris",
+        "proku",
+        "speci",
+        "bashk",
+        "jon",
+        "sjell",
+        "rezul",
+        "konkr",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/ambasada-e-shba-se-e-fbi-vleresojne-serish-prokurorine-speciale-bashkepunimi-jone-sjell-rezultate-konkrete"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ambasada-e-shba-se-e-fbi-vleresojne-serish-prokurorine-speciale-bashkepunimi"
+      }
+    },
     {
       "At": "2026-09-28T14:21:18.9208286+00:00",
       "Title": "IKShPK: 180 raste me fruth jan\u00EB konfirmuar q\u00EB nga prilli, mbi 95 p\u00EBr qind te t\u00EB pavaksinuarit",
