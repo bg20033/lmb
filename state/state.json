@@ -1,6 +1,730 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Shqiptar\u00EBt e Teksasit protestuan n\u00EB Austin n\u00EB mb\u00EBshtetje t\u00EB U\u00C7K-s\u00EB",
+      "Tokens": [
+        "shqip",
+        "teksa",
+        "prote",
+        "aust",
+        "mbesh",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/shqiptaret-e-teksasit-protestuan-ne-austin-ne-mbeshtetje-te-uck-se/",
+        "https://nacionale.com/politike/sot-shqiptaret-ne-teksas-te-shba-se-protestojne-per-uck-ne"
+      ],
+      "Articles": {
+        "kosova-fakt": "sot-shqiptaret-ne-teksas-te-shba-se-protestojne-per-uck-ne-nacionale"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Identifikohen mbetje mortore t\u00EB dy personave, nuk jan\u00EB nga \u0022Grupi i Intelektual\u00EBve\u0022",
+      "Tokens": [
+        "ident",
+        "mbet",
+        "morto",
+        "perso",
+        "grup",
+        "intel"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/identifikohen-mbetje-mortore-te-dy-personave-nuk-jane-nga-grupi-i-intelektualeve/",
+        "https://sinjali.com/identifikohen-mbetjet-mortore-te-dy-personave-gara-nuk-jane-nga-germimet-ne-veri/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "identifikohen-mbetjet-mortore-te-dy-personave-gara-nuk-jane-nga-germimet-ne-veri"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "\u201CJo n\u00EB emrin tim\u201D, p\u00EBr t\u00EB 13-t\u00EBn nat\u00EB protestohet kund\u00EBr aktgjykimit t\u00EB Speciales",
+      "Tokens": [
+        "emr",
+        "tim",
+        "ten",
+        "nat",
+        "prote",
+        "kunde",
+        "aktgj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/jo-ne-emrin-tim-per-te-13-ten-nate-protestohet-kunder-aktgjykimit-te-speciales/",
+        "https://www.gazetaexpress.com/qytetaret-mblidhen-ne-shesh-ne-naten-e-13-te-protestes-kunder-aktgjykimit-te-speciales/"
+      ],
+      "Articles": {
+        "raporti-sot": "qytetaret-mblidhen-ne-shesh-ne-naten-e-13-te-protestes-kunder-aktgjykimit-te"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Kongresist\u00EB republikan\u00EB k\u00EBrkojn\u00EB t\u00EB mos i zgjatet licenca Industris\u00EB s\u00EB Naft\u00EBs s\u00EB Serbis\u00EB",
+      "Tokens": [
+        "kongr",
+        "repub",
+        "kerko",
+        "zgjat",
+        "licen",
+        "indus",
+        "naft",
+        "serb"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dy-republikane-kerkojne-nga-administrata-trump-qe-te-vazhdojne-sanksionet-ndaj-industrise-se-naftes-se-serbise/",
+        "https://www.evropaelire.org/a/kongresiste-republikane-mos-zgjatje-licence-nis/33865868.html"
+      ],
+      "Articles": {
+        "infokosove24": "kongresiste-republikane-kerkojne-te-mos-i-zgjatet-licenca-industrise-se-naftes"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Aspinall heq dor\u00EB nga titulli i UFC-s\u00EB, Gane shpallet kampion absolut",
+      "Tokens": [
+        "aspin",
+        "heq",
+        "dor",
+        "titul",
+        "ufc",
+        "gan",
+        "shpal",
+        "kampi",
+        "absol"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/aspinall-heq-dore-nga-titulli-i-ufc-se-gane-shpallet-kampion-absolut/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "aspinall-heq-dore-nga-titulli-i-ufc-se-gane-shpallet-kampion-absolut"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Hoxha: N\u00EBse je i bindur q\u00EB gjykata ka dal\u00EB jasht\u00EB kontrollit, duhen hapa radikal\u00EB",
+      "Tokens": [
+        "hoxh",
+        "nes",
+        "bindu",
+        "gjyka",
+        "dal",
+        "jasht",
+        "kontr",
+        "duh",
+        "hap",
+        "radik"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hoxha-nese-je-i-bindur-qe-gjykata-ka-dale-jashte-kontrollit-duhen-hapa-radikale/"
+      ],
+      "Articles": {
+        "kosova-fakt": "hoxha-nese-je-i-bindur-qe-gjykata-ka-dale-jashte-kontrollit-duhen-hapa-radikale"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Kthim borxhi apo hakmarrje? Abdixhiku rishp\u00EBrndan postet n\u00EB LDK \u2013 gjasht\u00EB deputet\u00EBt q\u00EB kund\u00EBrshtuan marr\u00EBveshjen p\u00EBr presidentin mbeten pa role drejtuese",
+      "Tokens": [
+        "kthim",
+        "borxh",
+        "hakma",
+        "abdix",
+        "rishp",
+        "post",
+        "ldk",
+        "gjash",
+        "deput",
+        "kunde",
+        "marre",
+        "presi",
+        "mbet",
+        "rol",
+        "drejt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kthim-borxhi-apo-hakmarrje-abdixhiku-rishperndan-postet-ne-ldk-gjashte-deputetet-qe-kundershtuan-marreveshjen-per-presidentin-mbeten-pa-role-drejtuese/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kthim-borxhi-apo-hakmarrje-abdixhiku-rishperndan-postet-ne-ldk-gjashte"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Kallas: Tallja e Rusis\u00EB me takimin n\u00EB OKB tregon se s\u2019i intereson t\u2019i jap\u00EB fund luft\u00EBs n\u00EB Ukrain\u00EB",
+      "Tokens": [
+        "kalla",
+        "tall",
+        "rus",
+        "takim",
+        "okb",
+        "trego",
+        "inter",
+        "jap",
+        "fund",
+        "luft",
+        "ukra"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/kallas-rusia-pa-interesuar-fund-luftes-ukraine/33865980.html"
+      ],
+      "Articles": {
+        "raporti-sot": "kallas-tallja-e-rusise-me-takimin-ne-okb-tregon-se-s-i-intereson-t-i-jape-fund"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Edhe k\u00EBsaj here prijn\u00EB shqiptar\u00EBt, Fevziu: Gruaja m\u00EB e vjet\u00EBr n\u00EB bot\u00EB jeton n\u00EB Shqip\u00EBri",
+      "Tokens": [
+        "kesaj",
+        "her",
+        "prijn",
+        "shqip",
+        "fevzi",
+        "grua",
+        "vjete",
+        "bot",
+        "jeton"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/edhe-kesaj-here-prijne-shqiptaret-fevziu-gruaja-me-e-vjeter-ne-bote-jeton-ne-shqiperi/"
+      ],
+      "Articles": {
+        "infokosove24": "edhe-kesaj-here-prijne-shqiptaret-fevziu-gruaja-me-e-vjeter-ne-bote-jeton-ne"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Haxhiu k\u00EBrkon rrug\u00EB m\u00EB radikale: Ndryshimi i ligjit t\u00EB Speciales nuk sjell asgj\u00EB, un\u00EB jam p\u00EBr ta zhb\u00EBr\u00EB krejt\u00EBsisht \u2013 Apeli \u00EBsht\u00EB problematik",
+      "Tokens": [
+        "haxhi",
+        "kerko",
+        "rrug",
+        "radik",
+        "ndrys",
+        "ligj",
+        "speci",
+        "sjell",
+        "asg",
+        "une",
+        "jam",
+        "zhber",
+        "krejt",
+        "apel",
+        "probl"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/duhet-gjetur-nje-rruge-tjeter-per-ndryshimin-radikal-te-kesaj-ceshtjeje-nese-po-hyjme-ne-kete-duhet-ta-zhbejme-gjithe-ligjin-baton-haxhiu-apeli-eshte-problematik/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "haxhiu-kerkon-rruge-me-radikale-ndryshimi-i-ligjit-te-speciales-nuk-sjell-asgje"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Nis protesta n\u00EB Prishtin\u00EB, num\u00EBr i madh qytetar\u00EBsh n\u00EB shesh \u2013 t\u00EB pranish\u00EBm edhe djemt\u00EB e kat\u00EBrshes s\u00EB U\u00C7K-s\u00EB",
+      "Tokens": [
+        "nis",
+        "prote",
+        "prish",
+        "numer",
+        "madh",
+        "qytet",
+        "shesh",
+        "prani",
+        "djemt",
+        "kater",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nis-protesta-ne-prishtine-numer-i-madh-qytetaresh-ne-shesh-te-pranishem-edhe-djemte-e-katershes-se-uck-se/"
+      ],
+      "Articles": {
+        "kosova-fakt": "nis-protesta-ne-prishtine-numer-i-madh-qytetaresh-ne-shesh-te-pranishem-edhe"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Wikipedia heq nga hyrja e biografis\u00EB s\u00EB Tha\u00E7it cil\u00EBsimin \u201Ckriminel lufte i d\u00EBnuar\u201D",
+      "Tokens": [
+        "wikip",
+        "heq",
+        "hyr",
+        "biogr",
+        "thac",
+        "ciles",
+        "krimi",
+        "luft",
+        "denua"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/wikipedia-heq-nga-hyrja-e-biografise-se-thacit-cilesimin-kriminel-lufte-i-denuar/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "wikipedia-heq-nga-hyrja-e-biografise-se-thacit-cilesimin-kriminel-lufte-i-denuar"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Dominojn\u00EB t\u00EB huajt: Vet\u00EBm 29.8% e minutave iu shkuan italian\u00EBve n\u00EB Serie A k\u00EBt\u00EB sezon",
+      "Tokens": [
+        "domin",
+        "huajt",
+        "minut",
+        "shkua",
+        "itali",
+        "seri",
+        "ket",
+        "sezon"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dominojne-te-huajt-7vetem-29-8-e-minutave-iu-shkuan-italianeve-ne-serie-a-kete-sezon/"
+      ],
+      "Articles": {
+        "raporti-sot": "dominojne-te-huajt-vetem-29-8-e-minutave-iu-shkuan-italianeve-ne-serie-a-kete"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Daily Mail shkruan p\u00EBr Dua Lip\u00EBn n\u00EB Prishtin\u00EB, britanik\u00EBt mahniten nga vall\u00EBzimi shqiptar me got\u00EB mbi kok\u00EB",
+      "Tokens": [
+        "daily",
+        "mail",
+        "shkru",
+        "dua",
+        "lip",
+        "prish",
+        "brita",
+        "mahni",
+        "valle",
+        "shqip",
+        "got",
+        "kok"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/daily-mail-shkruan-per-dua-lipen-ne-prishtine-britaniket-mahniten-nga-vallezimi-shqiptar-me-gote-mbi-koke/"
+      ],
+      "Articles": {
+        "infokosove24": "daily-mail-shkruan-per-dua-lipen-ne-prishtine-britaniket-mahniten-nga-vallezimi"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Mourinho refuzoi Portugalin\u00EB p\u00EBr Real Madridin, zbulohet arsyeja",
+      "Tokens": [
+        "mouri",
+        "refuz",
+        "portu",
+        "real",
+        "madri",
+        "zbulo",
+        "arsye"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mourinho-refuzoi-portugaline-per-real-madridin-zbulohet-arsyeja/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mourinho-refuzoi-portugaline-per-real-madridin-zbulohet-arsyeja"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "BE-ja p\u00EBrgatit mekaniz\u00EBm t\u00EB ri p\u00EBr k\u00EBrc\u00EBnimet hibride, n\u00EB koordinim me NATO-n",
+      "Tokens": [
+        "perga",
+        "mekan",
+        "kerce",
+        "hibri",
+        "koord",
+        "nato"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/be-ja-pergatit-mekanizem-te-ri-per-kercenimet-hibride-ne-koordinim-me-nato-n/"
+      ],
+      "Articles": {
+        "kosova-fakt": "be-ja-pergatit-mekanizem-te-ri-per-kercenimet-hibride-ne-koordinim-me-nato-n"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "\u00C7ka i karakterizoi 14 vjet\u00EBt e Vu\u00E7iqit n\u00EB pushtet?",
+      "Tokens": [
+        "cka",
+        "karak",
+        "vjet",
+        "vuciq",
+        "pusht"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/vuciqi-14-vjet-pushtet-cka-karakterizoi-kohen-tij/33865958.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "cka-i-karakterizoi-14-vjetet-e-vuciqit-ne-pushtet"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Nata e 13-t\u00EB, prostesta n\u00EB Prishtin\u00EB vazhdon edhe sonte",
+      "Tokens": [
+        "nat",
+        "prost",
+        "prish",
+        "vazhd",
+        "sont"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nata-e-13-te-prostesta-ne-prishtine-vazhdon-edhe-sonte/"
+      ],
+      "Articles": {
+        "raporti-sot": "nata-e-13-te-prostesta-ne-prishtine-vazhdon-edhe-sonte"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "BE pritet t\u2019u jap\u00EB afate an\u00EBtar\u00EBsimi Malit t\u00EB Zi, Shqip\u00EBris\u00EB, Ukrain\u00EBs e Moldavis\u00EB \u2013 Kosov\u00EBs, Bosnj\u00EBs, Serbis\u00EB e RMV\u2019s\u00EB jo",
+      "Tokens": [
+        "prit",
+        "jap",
+        "afat",
+        "aneta",
+        "mal",
+        "shqip",
+        "ukrai",
+        "molda",
+        "kosov",
+        "bosnj",
+        "serb",
+        "rmv"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/be-pritet-tu-jape-afateanetaresimi-malit-te-zi-shqiperise-ukraines-e-moldavise-kosoves-bosnjes-serbise-e-rmvse-jo/"
+      ],
+      "Articles": {
+        "infokosove24": "be-pritet-t-u-jape-afate-anetaresimi-malit-te-zi-shqiperise-ukraines-e"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Mustafa b\u00EBn thirrje p\u00EBr koalicion LVV-PDK: Kosov\u00EBs i duhet unitet dhe drejtim i ri",
+      "Tokens": [
+        "musta",
+        "ben",
+        "thirr",
+        "koali",
+        "lvv",
+        "pdk",
+        "kosov",
+        "duh",
+        "unit",
+        "drejt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mustafa-ben-thirrje-per-koalicion-lvv-pdk-kosoves-i-duhet-unitet-dhe-drejtim-i-ri/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mustafa-ben-thirrje-per-koalicion-lvv-pdk-kosoves-i-duhet-unitet-dhe-drejtim-i"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Aleanca propozon emrat p\u00EBr 16 komisionet, Bek\u00EB Berisha zgjidhet kryetar i Komisionit p\u00EBr AKI-n\u00EB",
+      "Tokens": [
+        "alean",
+        "propo",
+        "emrat",
+        "komis",
+        "bek",
+        "beris",
+        "zgjid",
+        "kryet",
+        "aki"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/aleanca-propozon-emrat-per-16-komisionet-beke-berisha-zgjidhet-kryetar-i-komisionit-per-aki-ne/"
+      ],
+      "Articles": {
+        "kosova-fakt": "aleanca-propozon-emrat-per-16-komisionet-beke-berisha-zgjidhet-kryetar-i"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Prattipati n\u00EB Shtabin e KFOR-it, komandanti e fal\u00EBnderon p\u00EBr \u201Ckontributin afatgjat\u00EB\u201D t\u00EB SHBA-s\u00EB n\u00EB misionin e NATO-s",
+      "Tokens": [
+        "pratt",
+        "shtab",
+        "kfor",
+        "koman",
+        "falen",
+        "kontr",
+        "afatg",
+        "shb",
+        "misio",
+        "nato"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/prattipati-ne-shtabin-e-kfor-it-komandanti-e-falenderon-per-kontributin-afatgjate-te-shba-se-ne-misionin-e-nato-s/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "prattipati-ne-shtabin-e-kfor-it-komandanti-e-falenderon-per-kontributin"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Pas bised\u00EBs Vu\u00E7iq-Putin, Departamenti i Shtetit rikujton deklarat\u00EBn e Rubios p\u00EBr \u00E7\u00EBshtjet problematike",
+      "Tokens": [
+        "bised",
+        "vuciq",
+        "put",
+        "depar",
+        "shtet",
+        "rikuj",
+        "dekla",
+        "rubio",
+        "cesht",
+        "probl"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/biseda-vuciq-putin-departamenti-shtetit-rikujton-rubion-ceshtje-/33865897.html"
+      ],
+      "Articles": {
+        "raporti-sot": "pas-bisedes-vuciq-putin-departamenti-i-shtetit-rikujton-deklaraten-e-rubios-per"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "KFOR-i: Batalioni britanik mb\u00EBrrin n\u00EB Kosov\u00EB, dislokimi rutin\u00EB nuk ndryshon mandatin e misionit",
+      "Tokens": [
+        "kfor",
+        "batal",
+        "brita",
+        "mberr",
+        "koso",
+        "dislo",
+        "rut",
+        "ndrys",
+        "manda",
+        "misio"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kfor-i-batalioni-britanik-mberrin-ne-kosove-dislokimi-rutine-nuk-ndryshon-mandatin-e-misionit/"
+      ],
+      "Articles": {
+        "infokosove24": "kfor-i-batalioni-britanik-mberrin-ne-kosove-dislokimi-rutine-nuk-ndryshon"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Nis seanca pas afro 2 or\u00EBsh vones\u00EB",
+      "Tokens": [
+        "nis",
+        "seanc",
+        "afro",
+        "oresh",
+        "von"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nis-seanca-pas-afro-2-oresh-vonese/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nis-seanca-pas-afro-2-oresh-vonese"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Bedri Hamza afrohet te rreshti i par\u00EB i deputet\u00EBve t\u00EB LDK-s\u00EB, flet me Vjosa Osmanin e Lumir Abdixhikun",
+      "Tokens": [
+        "bedr",
+        "hamz",
+        "afroh",
+        "rresh",
+        "par",
+        "deput",
+        "ldk",
+        "flet",
+        "vjos",
+        "osman",
+        "lumir",
+        "abdix"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/bedri-hamza-afrohet-te-rreshti-i-pare-i-deputeteve-te-ldk-se-flet-me-vjosa-osmanin-e-lumir-abdixhikun/"
+      ],
+      "Articles": {
+        "kosova-fakt": "bedri-hamza-afrohet-te-rreshti-i-pare-i-deputeteve-te-ldk-se-flet-me-vjosa"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Pas nj\u00EB ore e gjysm\u00EB vones\u00EB, ka dakordim p\u00EBr tekstin e deklarat\u00EBs p\u00EBr Specialen",
+      "Tokens": [
+        "ore",
+        "gjysm",
+        "von",
+        "dakor",
+        "tekst",
+        "dekla",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pas-nje-ore-e-gjysme-vonese-ka-dakordim-per-tekstin-e-deklarates-per-specialen/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pas-nje-ore-e-gjysme-vonese-ka-dakordim-per-tekstin-e-deklarates-per-specialen"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Brohoritje p\u00EBr Mlladiqin n\u00EB Serbi-Holand\u00EB, avokati i Tha\u00E7it: Tifoz\u00EBt serb\u00EB prisnin dor\u00EBzim si n\u00EB Srebrenic\u00EB, por holandez\u00EBt q\u00EBndruan - NACIONALE",
+      "Tokens": [
+        "broho",
+        "mllad",
+        "serb",
+        "holan",
+        "avoka",
+        "thac",
+        "tifoz",
+        "prisn",
+        "dorez",
+        "srebr",
+        "qendr",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/brohoritje-p%C3%ABr-mlladiqin-n%C3%AB-serbi-holand%C3%AB-avokati-i-tha%C3%A7it-tifoz%C3%ABt-serb%C3%AB-prisnin-dor%C3%ABzim-si-n%C3%AB-srebrenic%C3%AB-por-holandez%C3%ABt-q%C3%ABndruan"
+      ],
+      "Articles": {
+        "raporti-sot": "brohoritje-per-mlladiqin-ne-serbi-holande-avokati-i-thacit-tifozet-serbe"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Gjini: Kosova ka d\u00EBshtuar t\u0027i kund\u00EBrp\u00EBrgjigjet narrativ\u00EBs serbe p\u00EBr trafikimin e organeve - NACIONALE",
+      "Tokens": [
+        "gjin",
+        "kosov",
+        "desht",
+        "kunde",
+        "narra",
+        "serb",
+        "trafi",
+        "organ",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/gjini-kosova-ka-deshtuar-ti-kunderpergjigjet-narratives-serbe-per-trafikimin-e-organeve"
+      ],
+      "Articles": {
+        "infokosove24": "gjini-kosova-ka-deshtuar-t-i-kunderpergjigjet-narratives-serbe-per-trafikimin-e"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Tremb\u00EBdhjet\u00EB net me radh\u00EB: mij\u00EBra qytetar\u00EBt s\u00EBrish n\u00EB sheshin \u201CSk\u00EBnderbeu\u201D kund\u00EBr vendimit t\u00EB Speciales - NACIONALE",
+      "Tokens": [
+        "tremb",
+        "net",
+        "radh",
+        "mijer",
+        "qytet",
+        "seris",
+        "shesh",
+        "skend",
+        "kunde",
+        "vendi",
+        "speci",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/tremb%C3%ABdhjet%C3%AB-net-me-radh%C3%AB-mij%C3%ABra-qytetar%C3%ABt-s%C3%ABrish-n%C3%AB-sheshin-sk%C3%ABnderbeu-kund%C3%ABr-vendimit-t%C3%AB-speciales"
+      ],
+      "Articles": {
+        "kosova-aktuale": "trembedhjete-net-me-radhe-mijera-qytetaret-serish-ne-sheshin-skenderbeu-kunder"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Nj\u00EB hile e rrezikshme nga dy mij\u00EB faqet e aktgjykimit - NACIONALE",
+      "Tokens": [
+        "hil",
+        "rrezi",
+        "mij",
+        "faq",
+        "aktgj",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/opinion/nj%C3%AB-hile-e-rrezikshme-nga-dy-mij%C3%AB-faqet-e-aktgjykimit"
+      ],
+      "Articles": {
+        "kosova-fakt": "nje-hile-e-rrezikshme-nga-dy-mije-faqet-e-aktgjykimit-nacionale"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Deklarata e Kuvendit p\u00EBr drejtuesit e U\u00C7K-s\u00EB, Rama: Sot Kosova foli me nj\u00EB z\u00EB, shteti \u00EBsht\u00EB mbi partit\u00EB - NACIONALE",
+      "Tokens": [
+        "dekla",
+        "kuven",
+        "drejt",
+        "uck",
+        "ram",
+        "kosov",
+        "fol",
+        "shtet",
+        "part",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/deklarata-e-kuvendit-per-drejtuesit-e-uck-se-rama-sot-kosova-foli-me-nje-ze-shteti-eshte-mbi-partite"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "deklarata-e-kuvendit-per-drejtuesit-e-uck-se-rama-sot-kosova-foli-me-nje-ze"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "Regjistrimi i bizneseve bie 36,2 % n\u00EB gusht, niveli m\u00EB i ul\u00EBt i vitit 2026 - NACIONALE",
+      "Tokens": [
+        "regji",
+        "bizne",
+        "bie",
+        "gusht",
+        "nivel",
+        "ulet",
+        "vit",
+        "2026",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/regjistrimi-i-bizneseve-bie-36-2-ne-gusht-niveli-me-i-ulet-i-vitit-2026"
+      ],
+      "Articles": {
+        "raporti-sot": "regjistrimi-i-bizneseve-bie-36-2-ne-gusht-niveli-me-i-ulet-i-vitit-2026"
+      }
+    },
+    {
+      "At": "2026-09-28T20:05:44.5198032+00:00",
+      "Title": "AP: Netanyahu udh\u00EBtoi fshehtas n\u00EB Emiratet e Bashkuara, i shtroi nj\u00EB k\u00EBrkes\u00EB udh\u00EBheq\u00EBsit - NACIONALE",
+      "Tokens": [
+        "netan",
+        "udhet",
+        "fsheh",
+        "emira",
+        "bashk",
+        "shtro",
+        "kerk",
+        "udheh",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/globale/ap-netanyahu-udhetoi-fshehtas-ne-emiratet-e-bashkuara-i-shtroi-nje-kerkese-udheheqesit"
+      ],
+      "Articles": {
+        "infokosove24": "ap-netanyahu-udhetoi-fshehtas-ne-emiratet-e-bashkuara-i-shtroi-nje-kerkese"
+      }
+    },
     {
       "At": "2026-09-28T14:30:28.2736927+00:00",
       "Title": "Ambasada e ShBA-s\u00EB e FBI vler\u00EBsojn\u00EB s\u00EBrish Prokurorin\u00EB Speciale: Bashk\u00EBpunimi jon\u00EB sjell rezultate konkrete - NACIONALE",
