@@ -143,7 +143,7 @@ jobs:
             pushd "$dir" > /dev/null
             if [ -z "$(git status --porcelain)" ]; then echo "$slug: asgjë e re"; popd > /dev/null; continue; fi
             if [ "$slug" = "lajme-per-kosove" ]; then
-              count=$(git diff --numstat -- src/data/importedArticles.json | awk '{ print $1 }' || true)
+              count=$(git diff --unified=0 -- src/data/importedArticles.json | grep -c '^+    "id": "imported-' || true)
               verify='npm ci --no-audit --no-fund && npm run build'
               add_paths='src/data/importedArticles.json'
             else
@@ -211,7 +211,11 @@ jobs:
           if [ -n "$(git status --porcelain state)" ]; then
             git add state
             git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "Bot state"
-            git push --quiet || (git pull --rebase --quiet && git push --quiet)
+            if ! git push --quiet; then
+              # A code push while this job is running can make the state-only commit stale.
+              # The next scheduled run can safely rebuild the memory; do not fail publishing.
+              echo "::warning::Bot state was not pushed because main changed during this run; it will retry next run."
+            fi
           fi
 
       - name: Summary

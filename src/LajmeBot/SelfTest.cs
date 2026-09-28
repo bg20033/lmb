@@ -150,6 +150,9 @@ public static class SelfTest
         var copyWriter = new LicensedCopyWriter();
         var copyDraft = copyWriter.WriteAsync(new ArticleRequest(site, stories[0], src, Array.Empty<string>(), null), CancellationToken.None).Result;
         Check("licensed copy keeps complete source text", copyDraft.BodyMarkdown == src[0].Text && pub.Validate(copyDraft, src, licensedCopy: true).Count == 0);
+        var longTitleSource = new List<SourceText> { src[0] with { Title = string.Concat(Enumerable.Repeat("Titull shumë i gjatë për testim ", 6)) } };
+        var clippedCopy = copyWriter.WriteAsync(new ArticleRequest(site, stories[0], longTitleSource, Array.Empty<string>(), null), CancellationToken.None).Result;
+        Check("licensed copy caps long source headlines", clippedCopy.Title.Length <= 120);
         var copyPreview = pub.WritePreview(copyDraft, src, false, DateTimeOffset.UtcNow, tmp, licensedCopy: true);
         Check("licensed copy adds source attribution and link", File.ReadAllText(copyPreview).Contains("## Burimi origjinal") && File.ReadAllText(copyPreview).Contains(src[0].Url));
         var reactRoot = Path.Combine(tmp, "lajme-per-kosove");

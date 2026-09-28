@@ -152,10 +152,13 @@ public sealed class LicensedCopyWriter : IArticleWriter
     {
         var source = PickSource(req.Sources);
         var body = source.Text.Trim();
+        // Astro content collections cap headlines at 120 characters. Preserve the source title,
+        // but cut only at a word boundary so licensed imports always satisfy every site schema.
+        var title = TextUtil.TruncateWords(source.Title, 120);
         var description = TextUtil.TruncateWords(body.Replace('\n', ' '), 174);
         var category = CategoryFor(req.Site, source.Title);
         var motif = HeroImageGenerator.Motifs[(int)(TextUtil.StableHash(source.Url) % (ulong)HeroImageGenerator.Motifs.Length)];
-        return Task.FromResult(new ArticleDraft(false, null, source.Title, description, category,
+        return Task.FromResult(new ArticleDraft(false, null, title, description, category,
             new() { source.Source, "Lajme" }, body, motif));
     }
 

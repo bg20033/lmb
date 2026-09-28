@@ -216,6 +216,14 @@ foreach (var story in stories)
                 skippedByAi = true;
                 break;
             }
+            // The licensed mode republishes source headlines. Never add an indistinguishable
+            // second copy when a similar source item was already published to this same site.
+            if (opts.LicensedCopy && recent[site.Slug].Any(title => SameTitle(title, draft.Title)))
+            {
+                log.Info($"{site.Slug}: skip duplicate licensed title: {draft.Title}");
+                skippedByAi = true; // remember this source URL, so it is not retried next run
+                break;
+            }
             var problems = pub.Validate(draft, publicationSources, opts.LicensedCopy);
             if (problems.Count > 0)
             {
@@ -271,6 +279,13 @@ if (writer is OpenRouterWriter orw && orw.TotalCost > 0) log.Info($"Kosto e AI n
 (writer as IDisposable)?.Dispose();
 (fetcher as IDisposable)?.Dispose();
 return 0;
+
+static bool SameTitle(string a, string b)
+{
+    var left = TextUtil.Fold(a).Trim();
+    var right = TextUtil.Fold(b).Trim();
+    return left == right || (left.Length >= 45 && right.Length >= 45 && (left.StartsWith(right) || right.StartsWith(left)));
+}
 
 
 sealed class Options
