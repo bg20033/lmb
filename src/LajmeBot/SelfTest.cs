@@ -75,10 +75,18 @@ public static class SelfTest
         Check("atom parses relative links", atomItems.Count == 1 && atomItems[0].Url == "https://example.org/lajme/buxheti");
         Check("RFC822 named zone", FeedReader.ParseDate("Sun, 27 Sep 2026 18:42:00 CEST") == new DateTimeOffset(2026, 9, 27, 16, 42, 0, TimeSpan.Zero));
 
+        // Website crawling (the production discovery path; RSS is not used there)
+        var listingHtml = "<nav><a href=\"/sport/\">Sport</a></nav><article><a href=\"/kosove/1001/?utm_source=home\"><span>Kuvendi miraton rezolutën për dialogun me Serbinë</span></a></article>";
+        var crawledLinks = WebCrawler.ExtractArticleLinks(listingHtml, "https://example.com/").ToList();
+        Check("crawler finds same-site article links", crawledLinks.Count == 1 && crawledLinks[0].Url == "https://example.com/kosove/1001/" && crawledLinks[0].Title.StartsWith("Kuvendi"));
+
         // Extraction
         var body = string.Concat(Enumerable.Repeat("Kjo është një fjali e gjatë e trupit të artikullit me mjaft fjalë për testim. ", 6));
         var jsonLdHtml = "<html><head><script type=\"application/ld+json\">{\"@graph\":[{\"@type\":\"NewsArticle\",\"articleBody\":\"" + body + "\"}]}</script></head><body></body></html>";
         Check("extract JSON-LD articleBody", ArticleFetcher.Extract(jsonLdHtml).StartsWith("Kjo është"));
+        var metadataHtml = "<script type=\"application/ld+json\">{\"@type\":\"NewsArticle\",\"headline\":\"Kuvendi miraton rezolutën për dialogun me Serbinë\",\"description\":\"Përshkrim i shkurtër për artikullin e sotëm.\",\"datePublished\":\"2026-09-28T10:15:00+02:00\"}</script>";
+        var metadata = ArticleFetcher.ExtractMetadata(metadataHtml);
+        Check("crawler reads article metadata", metadata.Title?.StartsWith("Kuvendi") == true && metadata.Published == new DateTimeOffset(2026, 9, 28, 8, 15, 0, TimeSpan.Zero));
         var wpHtml = "<html><body><nav><p>Menu menu menu menu menu menu menu menu menu menu menu menu menu menu</p></nav><div class=\"entry-content\"><p>" + body + "</p><p>" + body + "</p><div class=\"share\"><p>Shpërndaje</p></div></div></body></html>";
         var wp = ArticleFetcher.Extract(wpHtml);
         Check("extract entry-content paragraphs", wp.Contains("Kjo është") && !wp.Contains("Menu"));

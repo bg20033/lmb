@@ -14,6 +14,85 @@ public sealed record FeedItem(string Source, string Title, string Url, string Su
 }
 
 public sealed record SourceText(string Source, string Title, string Url, string Text);
+public sealed record ArticleMetadata(string? Title, string? Description, DateTimeOffset? Published);
+
+/// <summary>
+/// Finds new articles by crawling public front/category pages. The crawler never reads RSS/Atom:
+/// it follows only same-domain article links, opens a capped number of candidates, and uses the
+/// article page itself for the title, date and summary used by the story clusterer.
+/// </summary>
+public sealed partial class WebCrawler
+{
+    private readonly IFetcher _fetcher;
+    private readonly Log _log;
+
+    public WebCrawler(IFetcher fetcher, Log log) { _fetcher = fetcher; _log = log; }
+
+    [GeneratedRegex(@"<a\b[^>]*\bhref\s*=\s*[""']([^""'#]+)[""'][^>]*>([\s\S]*?)</a>", RegexOptions.IgnoreCase)]
+    private static partial Regex Anchor();
+    [GeneratedRegex(@"/(?:tag|tags|category|categories|author|page|search|kontakt|contact|rreth-nesh|privacy|privatesia|wp-admin|wp-json|feed)(?:/|$)", RegexOptions.IgnoreCase)]
+    private static partial Regex NonArticlePath();
+    [GeneratedRegex(@"\.(?:jpg|jpeg|png|gif|webp|svg|pdf|zip|mp4|mp3)$", RegexOptions.IgnoreCase)]
+    private static partial Regex FileLink();
+
+    public async Task<List<FeedItem>> CrawlSourceAsync(SourceConfig src, CancellationToken ct)
+    {
+        var listingUrls = new[] { src.HomeUrl }.Concat(src.CategoryUrls)
+            .Where(u => Uri.TryCreate(u, UriKind.Absolute, out _)).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+        var candidates = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        var maxFromEachListing = Math.Max(1, (int)Math.Ceiling(Math.Max(1, src.MaxArticlePages) / (double)Math.Max(1, listingUrls.Count)));
+
+        foreach (var listing in listingUrls)
+        {
+            var page = await _fetcher.GetAsync(listing, ct);
+            if (!page.Ok) { _log.Debug($"{src.Name}: listing {listing} -> {page.Error}"); continue; }
+            var taken = 0;
+            foreach (var (url, title) in ExtractArticleLinks(page.Body, page.FinalUrl))
+            {
+                if (!candidates.TryGetValue(url, out var old) || title.Length > old.Length) candidates[url] = title;
+                if (++taken >= maxFromEachListing) break;
+            }
+        }
+
+        var picks = candidates.Select(x => (Url: x.Key, Title: x.Value)).Take(Math.Max(1, src.MaxArticlePages)).ToList();
+        var articles = await Task.WhenAll(picks.Select(p => ReadArticleAsync(src.Name, p.Url, p.Title, ct)));
+        var items = articles.Where(x => x is not null).Select(x => x!).ToList();
+        _log.Info($"{src.Name}: {items.Count} articles from {listingUrls.Count} page(s) ({candidates.Count} links found)");
+        return items;
+    }
+
+    private async Task<FeedItem?> ReadArticleAsync(string source, string url, string linkedTitle, CancellationToken ct)
+    {
+        var page = await _fetcher.GetAsync(url, ct);
+        if (!page.Ok) return null;
+        var body = ArticleFetcher.Extract(page.Body);
+        if (body.Length < 160) return null;
+        var meta = ArticleFetcher.ExtractMetadata(page.Body);
+        var title = TextUtil.CleanInline(meta.Title);
+        if (title.Length < 12) title = linkedTitle;
+        if (title.Length < 12) return null;
+        var summary = TextUtil.CleanInline(meta.Description);
+        if (summary.Length < 80) summary = TextUtil.TruncateWords(body, 600);
+        return new FeedItem(source, title, FeedReader.NormalizeUrl(new Uri(page.FinalUrl)), summary, meta.Published);
+    }
+
+    public static IEnumerable<(string Url, string Title)> ExtractArticleLinks(string html, string baseUrl)
+    {
+        if (!Uri.TryCreate(baseUrl, UriKind.Absolute, out var home)) yield break;
+        foreach (Match match in Anchor().Matches(html))
+        {
+            var raw = System.Net.WebUtility.HtmlDecode(match.Groups[1].Value.Trim());
+            if (!Uri.TryCreate(home, raw, out var uri) || uri.Scheme is not ("http" or "https")) continue;
+            if (!SameHost(home, uri) || uri.AbsolutePath.Length < 10 || NonArticlePath().IsMatch(uri.AbsolutePath) || FileLink().IsMatch(uri.AbsolutePath)) continue;
+            var title = TextUtil.CleanInline(match.Groups[2].Value);
+            if (title.Length < 18 || title.Length > 240 || TextUtil.Tokens(title).Count < 3) continue;
+            yield return (FeedReader.NormalizeUrl(uri), title);
+        }
+    }
+
+    private static bool SameHost(Uri a, Uri b) => Host(a).Equals(Host(b), StringComparison.OrdinalIgnoreCase);
+    private static string Host(Uri u) => u.Host.StartsWith("www.", StringComparison.OrdinalIgnoreCase) ? u.Host[4..] : u.Host;
+}
 
 public sealed partial class FeedReader
 {
@@ -203,6 +282,22 @@ public sealed partial class ArticleFetcher
         return meta.Success ? TextUtil.CleanInline(meta.Groups[1].Value) : "";
     }
 
+    /// <summary>Gets canonical news metadata from JSON-LD before falling back to page-level description.</summary>
+    public static ArticleMetadata ExtractMetadata(string html)
+    {
+        foreach (Match m in JsonLd().Matches(html))
+        {
+            try
+            {
+                using var doc = JsonDocument.Parse(m.Groups[1].Value.Trim());
+                if (FindArticleMetadata(doc.RootElement) is { } metadata) return metadata;
+            }
+            catch (JsonException) { }
+        }
+        var desc = MetaDescription().Match(html);
+        return new ArticleMetadata(null, desc.Success ? TextUtil.CleanInline(desc.Groups[1].Value) : null, null);
+    }
+
     private static string Paragraphs(string html)
     {
         var parts = Paragraph().Matches(html)
@@ -229,4 +324,27 @@ public sealed partial class ArticleFetcher
         }
         return null;
     }
+
+    private static ArticleMetadata? FindArticleMetadata(JsonElement e)
+    {
+        if (e.ValueKind == JsonValueKind.Array)
+        {
+            foreach (var child in e.EnumerateArray()) if (FindArticleMetadata(child) is { } found) return found;
+            return null;
+        }
+        if (e.ValueKind != JsonValueKind.Object) return null;
+        var type = Value(e, "@type");
+        var isArticle = type?.Contains("Article", StringComparison.OrdinalIgnoreCase) == true || type?.Contains("News", StringComparison.OrdinalIgnoreCase) == true;
+        if (isArticle)
+        {
+            var title = Value(e, "headline") ?? Value(e, "name");
+            var description = Value(e, "description");
+            var rawDate = Value(e, "datePublished") ?? Value(e, "dateModified");
+            if (!string.IsNullOrWhiteSpace(title)) return new ArticleMetadata(title, description, FeedReader.ParseDate(rawDate));
+        }
+        foreach (var p in e.EnumerateObject()) if (FindArticleMetadata(p.Value) is { } found) return found;
+        return null;
+    }
+
+    private static string? Value(JsonElement e, string name) => e.TryGetProperty(name, out var p) && p.ValueKind == JsonValueKind.String ? p.GetString() : null;
 }

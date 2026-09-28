@@ -101,10 +101,10 @@ var state = BotState.Load(opts.StatePath);
 var now = DateTimeOffset.UtcNow;
 
 // ---- 1. discover -------------------------------------------------------------------------------
-var feeds = new FeedReader(fetcher, log);
+var crawler = new WebCrawler(fetcher, log);
 var allItems = (await Task.WhenAll(cfg.Sources.Where(s => s.Enabled).Select(async s =>
 {
-    try { return await feeds.ReadSourceAsync(s, ct); }
+    try { return await crawler.CrawlSourceAsync(s, ct); }
     catch (Exception ex) when (!ct.IsCancellationRequested) { log.Warn($"{s.Name}: {ex.Message}"); return new List<FeedItem>(); }
 }))).SelectMany(x => x).ToList();
 log.Info($"Discovered {allItems.Count} items from {allItems.Select(i => i.Source).Distinct().Count()} sources");

@@ -35,7 +35,7 @@ public sealed class PoliteFetcher : IFetcher, IDisposable
         };
         _http = new HttpClient(handler) { Timeout = TimeSpan.FromSeconds(cfg.RequestTimeoutSeconds) };
         _http.DefaultRequestHeaders.UserAgent.ParseAdd(cfg.UserAgent);
-        _http.DefaultRequestHeaders.Accept.ParseAdd("text/html,application/xhtml+xml,application/rss+xml,application/xml;q=0.9,*/*;q=0.8");
+        _http.DefaultRequestHeaders.Accept.ParseAdd("text/html,application/xhtml+xml;q=0.9,*/*;q=0.8");
         _http.DefaultRequestHeaders.AcceptLanguage.ParseAdd("sq,en;q=0.7");
     }
 

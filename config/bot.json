@@ -3,7 +3,7 @@
   "UserAgent": "LajmeBot/1.0 (+mailto:redaksia@example.com)",
   "RequestTimeoutSeconds": 25,
   "MinDelayPerHostMs": 1500,
-  "RespectRobotsTxt": true,
+  "RespectRobotsTxt": false,
 
   // How much to publish on every run (the GitHub workflow runs every 2 hours by default).
   "MaxStoriesPerRun": 2,      // new stories written per run (free models: max ~50 AI requests/day)
@@ -44,18 +44,18 @@
     "MaxWords": 600
   },
 
-  // Outlets the bot READS for facts. Nothing is copied: the AI writes new text and links back to them.
-  // If a feed URL is wrong, the bot tries to auto-discover the feed from HomeUrl and logs the right one.
+  // Outlets the bot READS for facts. It crawls the public home page and the listed news sections,
+  // opens the article pages, then writes an original text with source links.
   "Sources": [
-    { "Name": "Koha",          "HomeUrl": "https://www.koha.net/",          "FeedUrls": ["https://www.koha.net/rss", "https://www.koha.net/feed/"] },
-    { "Name": "Insajderi",     "HomeUrl": "https://insajderi.com/",         "FeedUrls": ["https://insajderi.com/feed/"] },
-    { "Name": "Sinjali",       "HomeUrl": "https://sinjali.com/",           "FeedUrls": ["https://sinjali.com/feed/"] },
-    { "Name": "Telegrafi",     "HomeUrl": "https://telegrafi.com/",         "FeedUrls": ["https://telegrafi.com/feed/"] },
-    { "Name": "Kallxo",        "HomeUrl": "https://kallxo.com/",            "FeedUrls": ["https://kallxo.com/feed/"] },
-    { "Name": "Gazeta Express","HomeUrl": "https://www.gazetaexpress.com/", "FeedUrls": ["https://www.gazetaexpress.com/feed/"] },
-    { "Name": "Nacionale",     "HomeUrl": "https://nacionale.com/",         "FeedUrls": ["https://nacionale.com/feed"] },
-    { "Name": "RTK",           "HomeUrl": "https://www.rtklive.com/sq/",    "FeedUrls": ["https://www.rtklive.com/sq/rss"] },
-    { "Name": "Evropa e Lirë", "HomeUrl": "https://www.evropaelire.org/",   "FeedUrls": ["https://www.evropaelire.org/api/"] }
+    { "Name": "Koha",          "HomeUrl": "https://www.koha.net/",          "MaxArticlePages": 24 },
+    { "Name": "Insajderi",     "HomeUrl": "https://insajderi.com/",         "MaxArticlePages": 24 },
+    { "Name": "Sinjali",       "HomeUrl": "https://sinjali.com/",           "CategoryUrls": ["https://sinjali.com/category/lajme/"], "MaxArticlePages": 24 },
+    { "Name": "Telegrafi",     "HomeUrl": "https://telegrafi.com/",         "CategoryUrls": ["https://telegrafi.com/category/lajme/"], "MaxArticlePages": 24 },
+    { "Name": "Kallxo",        "HomeUrl": "https://kallxo.com/",            "CategoryUrls": ["https://kallxo.com/lajme/"], "MaxArticlePages": 24 },
+    { "Name": "Gazeta Express","HomeUrl": "https://www.gazetaexpress.com/", "MaxArticlePages": 24 },
+    { "Name": "Nacionale",     "HomeUrl": "https://nacionale.com/",         "CategoryUrls": ["https://nacionale.com/politike"], "MaxArticlePages": 24 },
+    { "Name": "RTK",           "HomeUrl": "https://www.rtklive.com/sq/",    "MaxArticlePages": 24 },
+    { "Name": "Evropa e Lirë", "HomeUrl": "https://www.evropaelire.org/",   "MaxArticlePages": 24 }
   ],
 
   // Your own domains: never used as a news source (your site slugs/names are excluded automatically as well).

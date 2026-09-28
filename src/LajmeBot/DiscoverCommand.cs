@@ -22,21 +22,21 @@ public static class DiscoverCommand
         var now = DateTimeOffset.UtcNow;
         var md = new StringBuilder();
 
-        // 1. Feeds, one row per source
-        var reader = new FeedReader(fetcher, log);
+        // 1. Crawl the public front page/category pages, then inspect each candidate article.
+        var crawler = new WebCrawler(fetcher, log);
         var results = await Task.WhenAll(cfg.Sources.Where(s => s.Enabled).Select(async s =>
         {
-            try { return (s, items: await reader.ReadSourceAsync(s, ct), error: (string?)null); }
+            try { return (s, items: await crawler.CrawlSourceAsync(s, ct), error: (string?)null); }
             catch (Exception ex) when (!ct.IsCancellationRequested) { return (s, items: new List<FeedItem>(), error: ex.Message); }
         }));
 
-        md.AppendLine("## 1. Burimet (RSS)").AppendLine();
+        md.AppendLine("## 1. Burimet (crawling i faqeve)").AppendLine();
         md.AppendLine("| Portali | Lajme | Më i fundit | Statusi |").AppendLine("|---|---:|---|---|");
         foreach (var (s, items, error) in results)
         {
             var newest = items.Where(i => i.Published != null).Select(i => i.Published!.Value).DefaultIfEmpty().Max();
             var age = newest == default ? "–" : $"{(now - newest).TotalHours:0.#} orë më parë";
-            var status = error != null ? $"❌ {error}" : items.Count == 0 ? "❌ asnjë lajm (kontrollo FeedUrls)" : "✅";
+            var status = error != null ? $"❌ {error}" : items.Count == 0 ? "❌ asnjë artikull (kontrollo HomeUrl/CategoryUrls)" : "✅";
             md.AppendLine($"| {s.Name} | {items.Count} | {age} | {status} |");
         }
         var all = results.SelectMany(r => r.items).ToList();

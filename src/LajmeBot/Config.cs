@@ -93,12 +93,17 @@ public sealed class AiConfig
 public sealed class SourceConfig
 {
     public string Name { get; set; } = "";
-    /// <summary>Home page; used to auto-discover the feed if the feed URLs fail.</summary>
+    /// <summary>Public front page used as the first crawl entry point.</summary>
     public string HomeUrl { get; set; } = "";
-    public List<string> FeedUrls { get; set; } = new();
+    /// <summary>Optional news/category listing pages crawled alongside the front page.</summary>
+    public List<string> CategoryUrls { get; set; } = new();
     public bool Enabled { get; set; } = true;
-    /// <summary>Max feed items taken from this source per run.</summary>
-    public int MaxItems { get; set; } = 30;
+    /// <summary>Maximum candidate article pages opened from this source during one run.</summary>
+    public int MaxArticlePages { get; set; } = 24;
+
+    // Compatibility only for older configuration files. The bot no longer calls FeedReader.
+    [JsonIgnore] public List<string> FeedUrls { get; set; } = new();
+    [JsonIgnore] public int MaxItems { get => MaxArticlePages; set => MaxArticlePages = value; }
 }
 
 public sealed class SiteConfig

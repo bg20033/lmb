@@ -4,7 +4,8 @@ Backend automatik që shkruan dhe publikon lajme në faqet **Raporti Sot**, **In
 Punon falas në **GitHub Actions** (pa server, pa databazë) dhe është shkruar në **.NET 8**, pa asnjë paketë NuGet.
 
 ```
-RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i fakteve nga 2–4 burime
+Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e artikujve të plotë
+      ──► grupim i lajmeve të njëjta ──► leximi i fakteve nga 2–4 burime
       ──► AI (OpenRouter ose Claude) shkruan artikull ORIGJINAL (stil tjetër për secilën faqe)
       ──► kontroll: skema e faqes, gjatësia, kopjimi i teksteve
       ──► .md + ilustrim PNG në src/content/news  ──► astro build + SEO audit
@@ -13,9 +14,9 @@ RSS i portaleve ──► grupim i lajmeve të njëjta ──► leximi i faktev
 
 ## Si punon
 
-1. **Zbulimi.** Lexon RSS-in e portaleve në `config/bot.json` (Koha, Insajderi, Sinjali, Telegrafi, Kallxo…). Nëse një adresë RSS është gabim, e gjen vetë nga faqja kryesore dhe e shkruan në log.
+1. **Zbulimi.** Hyn te faqja kryesore dhe faqet e kategorive të çdo portali në `config/bot.json`, gjen linkat e artikujve të rinj dhe hap deri në 24 artikuj për portal. Nga çdo artikull nxjerr titullin, datën, përshkrimin dhe tekstin e plotë. RSS/Atom nuk përdoret.
 2. **Grupimi.** Titujt që flasin për të njëjtën ngjarje bashkohen në një "histori" (me stemming të thjeshtë shqip). Historitë me më shumë burime dhe më të freskëta vijnë të parat.
-3. **Faktet.** Për çdo histori hap 2–4 artikuj burimorë (duke respektuar `robots.txt`, me User-Agent të ndershëm dhe pauzë mes kërkesave) dhe nxjerr tekstin vetëm që AI t'i lexojë faktet.
+3. **Faktet.** Për çdo histori hap 2–4 artikuj burimorë dhe nxjerr tekstin vetëm që AI t'i lexojë faktet.
 4. **Shkrimi.** AI shkruan artikull të ri me fjalët e veta: pa fakte të shpikura, me atribuim ("sipas Kohës…"), 350–600 fjalë, me nëntituj. Secila faqe ka zërin e vet (`Style` në config). Çdo histori shkon te 2 faqe (me rotacion), kështu që faqet kanë përmbajtje të ndryshme.
 5. **Kontrolli.** Nëse titulli/përshkrimi nuk i plotëson rregullat e faqes, ose nëse teksti ka ≥12 fjalë radhazi të kopjuara nga një burim, draft-i refuzohet dhe AI e rishkruan një herë.
 6. **Publikimi.** Shkruan `src/content/news/<slug>.md` dhe një ilustrim abstrakt `src/assets/news/<slug>.png` me ngjyrat e faqes (nuk merren foto nga portalet). Në fund të çdo artikulli shtohen **Burimet** me linqe dhe një shënim që artikulli është përgatitur me AI. Autori është "Redaksia e …" (shtohet vetë në `authors.json`).
@@ -88,8 +89,8 @@ config/bot.json                  burimet, faqet, stili i secilës faqe, modeli, 
 state/state.json                 kujtesa e bot-it (commit-ohet automatikisht)
 src/LajmeBot/
   Program.cs                     CLI dhe rrjedha: discover → cluster → write → validate → publish
-  Http/Fetcher.cs                HttpClient i sjellshëm: robots.txt, pauzë për host, retry 429/5xx
-  Discovery/Discovery.cs         RSS/Atom + nxjerrja e tekstit (JSON-LD → entry-content → <p>)
+  Http/Fetcher.cs                HttpClient me pauzë për host dhe retry 429/5xx
+  Discovery/Discovery.cs         crawling i listimeve + nxjerrja e artikujve (JSON-LD → entry-content → <p>)
   Stories/Stories.cs             grupimi i lajmeve dhe kujtesa
   Ai/OpenRouterWriter.cs         OpenRouter (function calling, me kalim automatik në JSON)
   Ai/Writers.cs                  Claude direkt (Messages API), prompt-et + mock
@@ -97,13 +98,13 @@ src/LajmeBot/
   Images/HeroImageGenerator.cs   ilustrime PNG në C# të pastër (8 motive)
   DiscoverCommand.cs             komanda "discover" (provë pa AI)
   SelfTest.cs                    testet
-tests/fixtures/                  RSS dhe faqe për testim offline
+tests/fixtures/                  faqe listimi dhe artikuj për testim offline
 .github/workflows/publish.yml    orari, build, SEO audit, push
 ```
 
 ## Shto një portal ose një faqe të re
 
-- **Portal:** shto një rresht te `Sources` (`Name`, `HomeUrl`, `FeedUrls`).
+- **Portal:** shto një rresht te `Sources` (`Name`, `HomeUrl`, `CategoryUrls`, `MaxArticlePages`).
 - **Faqe:** shto një objekt te `Sites` (`Slug`, `Repo`, `Accent`, `Style`…). Faqja duhet të ketë të njëjtën strukturë Astro (`src/content/news`, `src/assets/news`, `src/content/authors.json`).
 
 ## Rregullat editoriale që bot-i i ndjek

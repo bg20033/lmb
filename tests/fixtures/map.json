@@ -1,4 +1,8 @@
 {
+  "https://www.koha.net/": "koha-home.html",
+  "https://insajderi.com/": "insajderi-home.html",
+  "https://sinjali.com/": "sinjali-home.html",
+  "https://telegrafi.com/": "telegrafi-home.html",
   "https://www.koha.net/rss": "koha.xml",
   "https://insajderi.com/feed/": "insajderi.xml",
   "https://sinjali.com/feed/": "sinjali.xml",
