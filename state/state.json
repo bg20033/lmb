@@ -1,6 +1,51 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-09-28T11:37:48.5919612+00:00",
+      "Title": "Kuvendi miraton deklarat\u00EBn p\u00EBr aktgjykimin e Speciales, n\u00EB mbrojtje t\u00EB U\u00C7K-s\u00EB",
+      "Tokens": [
+        "kuven",
+        "mirat",
+        "dekla",
+        "aktgj",
+        "speci",
+        "mbroj",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://www.koha.net/arberi/kuvendi-miraton-deklaraten-per-aktgjykimin-e-speciales",
+        "https://www.koha.net/arberi/teksti-i-plote-deklarates-se-harmonizuar-per-vendimin-e-speciales",
+        "https://sinjali.com/kuvendi-miraton-deklaraten-e-pdk-se-per-aktgjykimin-e-speciales-dhe-ne-mbrojtje-te-uck-se/",
+        "https://telegrafi.com/kuvendi-miraton-deklaraten-per-aktgjykimin-e-speciales-ne-mbrojtje-te-uck-se/",
+        "https://www.koha.net/arberi/abdixhiku-partite-pajtohen-per-tekstin-e-deklarates-per-vendimin-e-speciales",
+        "https://www.koha.net/arberi/edhe-pas-gjysme-ore-vonese-nuk-nis-seanca"
+      ],
+      "Articles": {
+        "infokosove24": "kuvendi-i-kosoves-miratu-deklarate-per-mbrojtjen-e-aktgjykimit-ndaj-dhomave-te",
+        "kosova-aktuale": "kuvendi-miraton-deklaraten-kunder-proceseve-ne-dhomat-e-specializuara"
+      }
+    },
+    {
+      "At": "2026-09-28T11:37:48.5919612+00:00",
+      "Title": "Vlora \u00C7itaku zgjidhet n\u00EBnkryetare e Kuvendit nga PDK",
+      "Tokens": [
+        "vlor",
+        "citak",
+        "zgjid",
+        "nenkr",
+        "kuven",
+        "pdk"
+      ],
+      "SourceUrls": [
+        "https://www.koha.net/arberi/vlora-citaku-votohet-per-nenkryetare",
+        "https://telegrafi.com/vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-nga-pdk/",
+        "https://sinjali.com/vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-te-kosoves/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-te-kosoves-me-95-vota"
+      }
+    },
     {
       "At": "2026-09-27T22:02:08.467736+00:00",
       "Title": "Portugalia e mposht Norvegjin\u00EB, ia \u201Csheh hajrin\u201D gabimit t\u00EB portierit",
