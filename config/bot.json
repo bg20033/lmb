@@ -3,8 +3,6 @@
   "UserAgent": "LajmeBot/1.0 (+mailto:redaksia@example.com)",
   "RequestTimeoutSeconds": 25,
   "MinDelayPerHostMs": 1500,
-  "RespectRobotsTxt": false,
-
   // How much to publish on every run (the GitHub workflow runs every 2 hours by default).
   "MaxStoriesPerRun": 2,      // new stories written per run (free models: max ~50 AI requests/day)
   "SitesPerStory": 2,         // how many sites get their own version of each story

@@ -48,13 +48,6 @@ public static class SelfTest
         Check("truncate keeps word boundary", TextUtil.TruncateWords("një dy tre katër pesë gjashtë", 14) == "një dy tre…");
         Check("yaml string escaping", TextUtil.YamlString("Ai tha \"po\"") == "\"Ai tha \\\"po\\\"\"");
 
-        // Robots
-        var robots = Robots.Parse("User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /*?s=\n", "LajmeBot/1.0");
-        Check("robots disallow", !robots.IsAllowed("/wp-admin/options.php"));
-        Check("robots allow override", robots.IsAllowed("/wp-admin/admin-ajax.php"));
-        Check("robots wildcard", !robots.IsAllowed("/?s=abc"));
-        Check("robots default allow", robots.IsAllowed("/2026/09/27/lajm/"));
-
         // Feeds
         const string rss = """
             <?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>T</title>
@@ -93,6 +86,19 @@ public static class SelfTest
         var navHtml = "<html><body><header><nav><p>Kryefaqja Lajme Sport Ekonomi Kultura Bota Showbiz Magazina Video Foto Kontakt</p></nav></header><p>" + body + "</p><p>" + body + "</p><footer><p>Të gjitha të drejtat e rezervuara nga portali, ndalohet kopjimi pa leje.</p></footer></body></html>";
         var nav = ArticleFetcher.Extract(navHtml);
         Check("extract ignores nav/header/footer", nav.Contains("Kjo është") && !nav.Contains("Kryefaqja") && !nav.Contains("drejtat"));
+        var articleHtml = """
+            <html><head><meta content="Titulli &amp; i saktë" property="og:title"><meta name="description" content="Përshkrimi i artikullit."></head><body>
+            <main><div class="article__content"><p>Ky është paragrafi i parë i artikullit me informacion të qartë dhe të dobishëm për lexuesit që ndjekin zhvillimin e ngjarjes.</p>
+            <p>Paragrafi i dytë jep hollësi shtesë, shpjegon reagimet dhe e vendos zhvillimin në kontekstin e debatit publik.</p>
+            <p>Në pjesën e fundit përmenden hapat e ardhshëm dhe çfarë pritet nga institucionet gjatë ditëve në vijim.</p>
+            <section class="related-news"><p>Ky tekst i lajmeve të ngjashme nuk duhet të hyjë kurrë në artikullin e nxjerrë nga roboti.</p></section></div></main></body></html>
+            """;
+        var extractedArticle = ArticleFetcher.Extract(articleHtml);
+        Check("extractor chooses article prose over related widgets", extractedArticle.Contains("Paragrafi i dytë") && !extractedArticle.Contains("lajmeve të ngjashme"));
+        var fallbackMetadata = ArticleFetcher.ExtractMetadata(articleHtml);
+        Check("extractor reads Open Graph metadata in either attribute order", fallbackMetadata.Title == "Titulli & i saktë" && fallbackMetadata.Description == "Përshkrimi i artikullit.");
+        var arrayTypeJson = "<script type=\"application/ld+json\">{\"@type\":[\"NewsArticle\",\"Thing\"],\"headline\":\"Titull nga skema\",\"datePublished\":\"2026-09-28T12:00:00Z\"}</script>";
+        Check("extractor supports JSON-LD type arrays", ArticleFetcher.ExtractMetadata(arrayTypeJson).Title == "Titull nga skema");
 
         // OpenRouter / OpenAI-style responses
         var toolMsg = System.Text.Json.Nodes.JsonNode.Parse("""{"tool_calls":[{"type":"function","function":{"name":"publish_article","arguments":"{\"title\":\"T\"}"}}]}""");

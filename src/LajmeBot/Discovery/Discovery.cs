@@ -1,5 +1,4 @@
 using System.Globalization;
-using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
@@ -227,17 +226,6 @@ public sealed partial class ArticleFetcher
     private readonly Log _log;
     public ArticleFetcher(IFetcher fetcher, Log log) { _fetcher = fetcher; _log = log; }
 
-    [GeneratedRegex(@"<script[^>]*type=[""']application/ld\+json[""'][^>]*>([\s\S]*?)</script>", RegexOptions.IgnoreCase)]
-    private static partial Regex JsonLd();
-    [GeneratedRegex(@"<(div|section|article)\b[^>]*class=[""'][^""']*\b(entry-content|article-content|article-body|article__body|post-content|td-post-content|single-content|news-content|content-text|article-text)\b[^""']*[""'][^>]*>", RegexOptions.IgnoreCase)]
-    private static partial Regex ContentContainer();
-    [GeneratedRegex(@"<p\b[^>]*>([\s\S]*?)</p>", RegexOptions.IgnoreCase)]
-    private static partial Regex Paragraph();
-    [GeneratedRegex(@"<meta\b[^>]*(?:property|name)=[""'](?:og:description|description)[""'][^>]*content=[""']([^""']*)[""']", RegexOptions.IgnoreCase)]
-    private static partial Regex MetaDescription();
-    [GeneratedRegex(@"(lexo edhe|lexo më shumë|na ndiqni|shpërndaje|share|cookie|abonohu|reklama|advertisement|të ngjashme)", RegexOptions.IgnoreCase)]
-    private static partial Regex Boilerplate();
-
     public async Task<SourceText?> FetchAsync(FeedItem item, CancellationToken ct)
     {
         var res = await _fetcher.GetAsync(item.Url, ct);
@@ -253,98 +241,10 @@ public sealed partial class ArticleFetcher
     }
 
     public static string Extract(string html)
-    {
-        // 1) JSON-LD articleBody (most WordPress/Yoast sites publish it)
-        foreach (Match m in JsonLd().Matches(html))
-        {
-            try
-            {
-                using var doc = JsonDocument.Parse(m.Groups[1].Value.Trim());
-                var body = FindArticleBody(doc.RootElement);
-                if (body is { Length: > 300 }) return TextUtil.HtmlToText(body);
-            }
-            catch (JsonException) { }
-        }
-        // 2) Known content containers → paragraphs inside them
-        html = TextUtil.StripNoise(html);
-        var c = ContentContainer().Match(html);
-        if (c.Success)
-        {
-            var slice = html.Substring(c.Index, Math.Min(120_000, html.Length - c.Index));
-            var text = Paragraphs(slice);
-            if (text.Length > 150) return text;
-        }
-        // 3) All reasonably long paragraphs on the page
-        var all = Paragraphs(html);
-        if (all.Length > 200) return all;
-        // 4) Meta description
-        var meta = MetaDescription().Match(html);
-        return meta.Success ? TextUtil.CleanInline(meta.Groups[1].Value) : "";
-    }
+        => HtmlArticleExtractor.Extract(html);
 
     /// <summary>Gets canonical news metadata from JSON-LD before falling back to page-level description.</summary>
     public static ArticleMetadata ExtractMetadata(string html)
-    {
-        foreach (Match m in JsonLd().Matches(html))
-        {
-            try
-            {
-                using var doc = JsonDocument.Parse(m.Groups[1].Value.Trim());
-                if (FindArticleMetadata(doc.RootElement) is { } metadata) return metadata;
-            }
-            catch (JsonException) { }
-        }
-        var desc = MetaDescription().Match(html);
-        return new ArticleMetadata(null, desc.Success ? TextUtil.CleanInline(desc.Groups[1].Value) : null, null);
-    }
+        => HtmlArticleExtractor.ExtractMetadata(html);
 
-    private static string Paragraphs(string html)
-    {
-        var parts = Paragraph().Matches(html)
-            .Select(m => TextUtil.CleanInline(m.Groups[1].Value))
-            .Where(p => p.Length >= 60 && !(p.Length < 160 && Boilerplate().IsMatch(p)))
-            .Distinct()
-            .ToList();
-        return string.Join("\n\n", parts);
-    }
-
-    private static string? FindArticleBody(JsonElement e)
-    {
-        switch (e.ValueKind)
-        {
-            case JsonValueKind.Object:
-                if (e.TryGetProperty("articleBody", out var b) && b.ValueKind == JsonValueKind.String) return b.GetString();
-                foreach (var p in e.EnumerateObject())
-                    if (FindArticleBody(p.Value) is { } found) return found;
-                break;
-            case JsonValueKind.Array:
-                foreach (var x in e.EnumerateArray())
-                    if (FindArticleBody(x) is { } found) return found;
-                break;
-        }
-        return null;
-    }
-
-    private static ArticleMetadata? FindArticleMetadata(JsonElement e)
-    {
-        if (e.ValueKind == JsonValueKind.Array)
-        {
-            foreach (var child in e.EnumerateArray()) if (FindArticleMetadata(child) is { } found) return found;
-            return null;
-        }
-        if (e.ValueKind != JsonValueKind.Object) return null;
-        var type = Value(e, "@type");
-        var isArticle = type?.Contains("Article", StringComparison.OrdinalIgnoreCase) == true || type?.Contains("News", StringComparison.OrdinalIgnoreCase) == true;
-        if (isArticle)
-        {
-            var title = Value(e, "headline") ?? Value(e, "name");
-            var description = Value(e, "description");
-            var rawDate = Value(e, "datePublished") ?? Value(e, "dateModified");
-            if (!string.IsNullOrWhiteSpace(title)) return new ArticleMetadata(title, description, FeedReader.ParseDate(rawDate));
-        }
-        foreach (var p in e.EnumerateObject()) if (FindArticleMetadata(p.Value) is { } found) return found;
-        return null;
-    }
-
-    private static string? Value(JsonElement e, string name) => e.TryGetProperty(name, out var p) && p.ValueKind == JsonValueKind.String ? p.GetString() : null;
 }

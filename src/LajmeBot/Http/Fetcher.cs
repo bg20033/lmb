@@ -12,8 +12,7 @@ public interface IFetcher
 }
 
 /// <summary>
-/// HttpClient wrapper that behaves like a polite crawler: honest User-Agent,
-/// robots.txt, a minimum delay per host and retries with backoff on 429/5xx.
+/// HttpClient wrapper with an honest User-Agent, a minimum delay per host and retries on 429/5xx.
 /// </summary>
 public sealed class PoliteFetcher : IFetcher, IDisposable
 {
@@ -21,7 +20,6 @@ public sealed class PoliteFetcher : IFetcher, IDisposable
     private readonly BotConfig _cfg;
     private readonly ConcurrentDictionary<string, SemaphoreSlim> _hostGates = new();
     private readonly ConcurrentDictionary<string, DateTime> _lastHit = new();
-    private readonly ConcurrentDictionary<string, Robots> _robots = new();
 
     public PoliteFetcher(BotConfig cfg)
     {
@@ -44,12 +42,6 @@ public sealed class PoliteFetcher : IFetcher, IDisposable
         if (!Uri.TryCreate(url, UriKind.Absolute, out var uri) || (uri.Scheme != "https" && uri.Scheme != "http"))
             return new(false, 0, "", url, "invalid url");
 
-        if (_cfg.RespectRobotsTxt && !uri.AbsolutePath.Equals("/robots.txt", StringComparison.OrdinalIgnoreCase))
-        {
-            var robots = await GetRobotsAsync(uri, ct);
-            if (!robots.IsAllowed(uri.PathAndQuery))
-                return new(false, 0, "", url, "blocked by robots.txt");
-        }
         return await RawGetAsync(uri, ct);
     }
 
@@ -104,78 +96,7 @@ public sealed class PoliteFetcher : IFetcher, IDisposable
         return Encoding.UTF8.GetString(bytes);
     }
 
-    private async Task<Robots> GetRobotsAsync(Uri uri, CancellationToken ct)
-    {
-        var key = $"{uri.Scheme}://{uri.Authority}";
-        if (_robots.TryGetValue(key, out var cached)) return cached;
-        var res = await RawGetAsync(new Uri(key + "/robots.txt"), ct);
-        var robots = res.Ok ? Robots.Parse(res.Body, _cfg.UserAgent) : Robots.AllowAll;
-        _robots[key] = robots;
-        return robots;
-    }
-
     public void Dispose() => _http.Dispose();
-}
-
-/// <summary>Minimal robots.txt evaluator (longest match wins, Allow beats Disallow on ties).</summary>
-public sealed class Robots
-{
-    public static readonly Robots AllowAll = new(new());
-    private readonly List<(bool allow, string path)> _rules;
-    private Robots(List<(bool, string)> rules) => _rules = rules;
-
-    public static Robots Parse(string text, string userAgent)
-    {
-        var token = userAgent.Split('/')[0].Trim().ToLowerInvariant();
-        var groups = new List<(List<string> agents, List<(bool, string)> rules)>();
-        List<string>? agents = null;
-        List<(bool, string)>? rules = null;
-        var lastWasAgent = false;
-        foreach (var raw in text.Split('\n'))
-        {
-            var line = raw.Split('#')[0].Trim();
-            var idx = line.IndexOf(':');
-            if (idx <= 0) continue;
-            var field = line[..idx].Trim().ToLowerInvariant();
-            var value = line[(idx + 1)..].Trim();
-            if (field == "user-agent")
-            {
-                if (!lastWasAgent) { agents = new(); rules = new(); groups.Add((agents, rules)); }
-                agents!.Add(value.ToLowerInvariant());
-                lastWasAgent = true;
-            }
-            else if (field is "allow" or "disallow" && rules != null)
-            {
-                lastWasAgent = false;
-                if (field == "disallow" && value.Length == 0) continue;
-                rules.Add((field == "allow", value));
-            }
-            else lastWasAgent = false;
-        }
-        var specific = groups.FirstOrDefault(g => g.agents.Any(a => a != "*" && token.Contains(a)));
-        var chosen = specific.rules ?? groups.FirstOrDefault(g => g.agents.Contains("*")).rules ?? new();
-        return new Robots(chosen);
-    }
-
-    public bool IsAllowed(string pathAndQuery)
-    {
-        (bool allow, int len) best = (true, -1);
-        foreach (var (allow, pattern) in _rules)
-        {
-            if (!Matches(pattern, pathAndQuery)) continue;
-            var len = pattern.Length;
-            if (len > best.len || (len == best.len && allow)) best = (allow, len);
-        }
-        return best.allow;
-    }
-
-    private static bool Matches(string pattern, string path)
-    {
-        var anchored = pattern.EndsWith('$');
-        var p = anchored ? pattern[..^1] : pattern;
-        var regex = "^" + System.Text.RegularExpressions.Regex.Escape(p).Replace("\\*", ".*") + (anchored ? "$" : "");
-        return System.Text.RegularExpressions.Regex.IsMatch(path, regex);
-    }
 }
 
 /// <summary>Offline fetcher for tests: maps URLs to files listed in fixtures/map.json.</summary>

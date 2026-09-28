@@ -10,8 +10,6 @@ public sealed class BotConfig
     public int RequestTimeoutSeconds { get; set; } = 25;
     /// <summary>Minimum pause between two requests to the same host.</summary>
     public int MinDelayPerHostMs { get; set; } = 1500;
-    public bool RespectRobotsTxt { get; set; } = true;
-
     /// <summary>Only stories whose newest item is younger than this are considered.</summary>
     public int MaxStoryAgeHours { get; set; } = 10;
     /// <summary>How many new stories to write per run (in total).</summary>

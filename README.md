@@ -90,7 +90,8 @@ state/state.json                 kujtesa e bot-it (commit-ohet automatikisht)
 src/LajmeBot/
   Program.cs                     CLI dhe rrjedha: discover → cluster → write → validate → publish
   Http/Fetcher.cs                HttpClient me pauzë për host dhe retry 429/5xx
-  Discovery/Discovery.cs         crawling i listimeve + nxjerrja e artikujve (JSON-LD → entry-content → <p>)
+  Discovery/Discovery.cs         crawling i listimeve + API publike e nxjerrjes së artikujve
+  Discovery/HtmlArticleExtractor.cs  extractor i fortë HTML (JSON-LD/metadata → artikull i vlerësuar → pastrim i widget-eve)
   Stories/Stories.cs             grupimi i lajmeve dhe kujtesa
   Ai/OpenRouterWriter.cs         OpenRouter (function calling, me kalim automatik në JSON)
   Ai/Writers.cs                  Claude direkt (Messages API), prompt-et + mock

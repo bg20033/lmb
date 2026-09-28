@@ -8,7 +8,7 @@ namespace LajmeBot;
 
 /// <summary>
 /// `discover`: checks the whole reading side of the bot against the live internet —
-/// feeds, robots.txt, clustering and text extraction — without an API key and without the sites.
+/// crawling, clustering and text extraction — without an API key and without the sites.
 /// Nothing is written or published.
 /// </summary>
 public static class DiscoverCommand
