@@ -2,6 +2,336 @@
   "RotationCursor": 2,
   "Published": [
     {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "\u00C7lirim Haziri - deputet\u00EBve: K\u00EBrkesa jon\u00EB \u00EBsht\u00EB e qart\u00EB, Ligji p\u00EBr Specialen duhet t\u00EB votohet",
+      "Tokens": [
+        "cliri",
+        "hazir",
+        "deput",
+        "kerke",
+        "jon",
+        "qart",
+        "ligj",
+        "speci",
+        "duh",
+        "votoh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/protesta-e-13-kunder-aktgjykimit-te-hages-haziri-kerkesa-jone-eshte-e-qarte-ligji-per-specialen-duhet-te-votohet/",
+        "https://telegrafi.com/clirim-haziri-deputeteve-kerkesa-jone-e-qarte-ligji-per-specialen-duhet-te-votohet/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "protesta-e-13-kunder-aktgjykimit-te-hages-haziri-kerkesa-jone-eshte-e-qarte"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Ish-eprori i U\u00C7K-s\u00EB rr\u00EBfen p\u00EBr her\u00EBn e fundit kur e pa Behajdin Allaqin: Tha\u00E7i e Veseli nuk ishin n\u00EB shtab",
+      "Tokens": [
+        "ish",
+        "epror",
+        "uck",
+        "rref",
+        "her",
+        "fund",
+        "behaj",
+        "allaq",
+        "thac",
+        "vesel",
+        "shtab"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ish-eprori-i-uck-se-rrefen-per-heren-e-fundit-kur-e-pa-behajdin-allaqin-thaci-e-veseli-nuk-ishin-ne-shtab/",
+        "https://sinjali.com/ish-eprori-i-uck-se-rrefen-per-behajdin-allaqin-thaci-e-veseli-nuk-kane-qene-aty/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ish-eprori-i-uck-se-rrefen-per-heren-e-fundit-kur-e-pa-behajdin-allaqin-thaci-e"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Barcelona rrezikon gjob\u00EB t\u00EB majme nga UEFA, n\u00EBse nuk p\u00EBrmir\u00EBson raportin financiar",
+      "Tokens": [
+        "barce",
+        "rrezi",
+        "gjob",
+        "majm",
+        "uef",
+        "nes",
+        "permi",
+        "rapor",
+        "finan"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/barcelona-rrezikon-gjobe-te-majme-nga-uefa-nese-nuk-permireson-raportin-financiar/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "barcelona-rrezikon-gjobe-te-majme-nga-uefa-nese-nuk-permireson-raportin"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Schweinsteiger: Gjermania nuk \u00EBsht\u00EB m\u00EB skuad\u00EBr e nivelit t\u00EB lart\u00EB, jemi mesatare",
+      "Tokens": [
+        "schwe",
+        "gjerm",
+        "skuad",
+        "nivel",
+        "lart",
+        "jem",
+        "mesat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/schweinsteiger-gjermania-nuk-eshte-me-skuader-e-nivelit-te-larte-jemi-mesatare/"
+      ],
+      "Articles": {
+        "raporti-sot": "schweinsteiger-gjermania-nuk-eshte-me-skuader-e-nivelit-te-larte-jemi-mesatare"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Emigrant\u00EBt e p\u00EBsojn\u00EB s\u00EBrish: Dy gra dhe nj\u00EB 10-vje\u00E7ar humbin jet\u00EBn n\u00EB Kanalin Anglez",
+      "Tokens": [
+        "emigr",
+        "pesoj",
+        "seris",
+        "gra",
+        "vjeca",
+        "humb",
+        "jet",
+        "kanal",
+        "angle"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/emigrantet-e-pesojne-serish-dy-gra-dhe-nje-10-vjecar-humbin-jeten-ne-kanalin-anglez/"
+      ],
+      "Articles": {
+        "infokosove24": "emigrantet-e-pesojne-serish-dy-gra-dhe-nje-10-vjecar-humbin-jeten-ne-kanalin"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Moti nes\u00EBr: Temperaturat nga 4 deri n\u00EB 23 grad\u00EB Celsius",
+      "Tokens": [
+        "mot",
+        "neser",
+        "tempe",
+        "grad",
+        "celsi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/moti-neser-temperaturat-nga-4-deri-ne-23-grade-celsius/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "moti-neser-temperaturat-nga-4-deri-ne-23-grade-celsius"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Gjini: Kurti m\u00EB ka d\u00EBrguar mesazh p\u00EBr takim, nuk shoh asnj\u00EB seriozitet as q\u00EBllim t\u00EB mir\u00EB",
+      "Tokens": [
+        "gjin",
+        "kurt",
+        "dergu",
+        "mesaz",
+        "takim",
+        "shoh",
+        "asn",
+        "serio",
+        "qelli",
+        "mir"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjini-kurti-me-ka-derguar-mesazh-per-takim-nuk-shoh-asnje-seriozitet-as-qellim-te-mire/"
+      ],
+      "Articles": {
+        "kosova-fakt": "gjini-kurti-me-ka-derguar-mesazh-per-takim-nuk-shoh-asnje-seriozitet-as-qellim"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Haxhiu: S\u2019na duhet koalicion me PDK\u2019n\u00EB, bashk\u00EBpunim ve\u00E7 p\u00EBr kund\u00EBrshtimin e vendimit t\u00EB Hag\u00EBs",
+      "Tokens": [
+        "haxhi",
+        "duh",
+        "koali",
+        "pdk",
+        "bashk",
+        "vec",
+        "kunde",
+        "vendi",
+        "hag"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/haxhiu-sna-duhet-koalicion-me-pdkne-bashkepunim-vec-per-kundershtimin-e-vendimit-te-hages/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "haxhiu-s-na-duhet-koalicion-me-pdk-ne-bashkepunim-vec-per-kundershtimin-e"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Ardian Gjini: Gjasat jan\u00EB reale q\u00EB Serbia vet\u00EB ka kryer trafikim organesh, por na kan\u00EB akuzu neve \u2013 kemi d\u00EBshtu me tregu k\u00EBt\u00EB",
+      "Tokens": [
+        "ardia",
+        "gjin",
+        "gjasa",
+        "real",
+        "serbi",
+        "vet",
+        "kryer",
+        "trafi",
+        "organ",
+        "akuz",
+        "nev",
+        "kem",
+        "desht",
+        "treg",
+        "ket"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ardian-gjini-gjasat-jane-reale-qe-serbia-vete-ka-kryer-trafikim-organesh-por-na-kane-akuzu-neve-kemi-deshtu-me-tregu-kete/"
+      ],
+      "Articles": {
+        "raporti-sot": "ardian-gjini-gjasat-jane-reale-qe-serbia-vete-ka-kryer-trafikim-organesh-por-na"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Qytetet e bot\u00EBs po ndryshojn\u00EB ngjyr\u00EB: Fotot nga hap\u00EBsira tregojn\u00EB kalimin nga dritat e verdha n\u00EB t\u00EB bardha",
+      "Tokens": [
+        "qytet",
+        "bot",
+        "ndrys",
+        "ngjyr",
+        "fotot",
+        "hapes",
+        "trego",
+        "kalim",
+        "drita",
+        "verdh",
+        "bardh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/qytetet-e-botes-po-ndryshojne-ngjyre-fotot-nga-hapesira-tregojne-kalimin-nga-dritat-e-verdha-ne-te-bardha/"
+      ],
+      "Articles": {
+        "infokosove24": "qytetet-e-botes-po-ndryshojne-ngjyre-fotot-nga-hapesira-tregojne-kalimin-nga"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Baton Haxhiu flet se si Brukseli mund t\u00EB detyrohet t\u00EB merret me Specialen: P\u00EBr ndryshim t\u00EB ligjit k\u00EBrkujt s\u2019i ha qoshja",
+      "Tokens": [
+        "baton",
+        "haxhi",
+        "flet",
+        "bruks",
+        "mund",
+        "detyr",
+        "merr",
+        "speci",
+        "ndrys",
+        "ligj",
+        "kerku",
+        "qosh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/baton-haxhiu-flet-se-si-be-mund-te-detyrohet-te-merret-me-specialen-per-ndryshim-te-ligjit-kerkujt-si-ha-qoshja/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "baton-haxhiu-flet-se-si-brukseli-mund-te-detyrohet-te-merret-me-specialen-per"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Deliu-Kodra i k\u00EBrkon G\u00EBrvall\u00EBs ta procedoj\u00EB n\u00EB Qeveri Projektligjin p\u00EBr Dhomat e Specializuara",
+      "Tokens": [
+        "deli",
+        "kodr",
+        "kerko",
+        "gerva",
+        "proce",
+        "qever",
+        "proje",
+        "dhoma",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/deliu-kodra-i-kerkon-gervalles-ta-procedoje-ne-qeveri-projektligjin-per-dhomat-e-specializuara/"
+      ],
+      "Articles": {
+        "kosova-fakt": "deliu-kodra-i-kerkon-gervalles-ta-procedoje-ne-qeveri-projektligjin-per-dhomat"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "\u0022Not in My Name\u201C: Shqiptar\u00EBt n\u00EB Austin marshojn\u00EB kund\u00EBr aktgjykimit t\u00EB Hag\u00EBs - NACIONALE",
+      "Tokens": [
+        "not",
+        "nam",
+        "shqip",
+        "aust",
+        "marsh",
+        "kunde",
+        "aktgj",
+        "hag",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/not-in-my-name-shqiptaret-ne-austin-marshojne-kunder-aktgjykimit-te-hages"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "not-in-my-name-shqiptaret-ne-austin-marshojne-kunder-aktgjykimit-te-hages"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Votohet me 99 vota deklarata gjith\u00EBpartiake e Kuvendit p\u00EBr Aktgjykimin e Gjykat\u00EBs Speciale ndaj drejtuesve t\u00EB U\u00C7K-s\u00EB - NACIONALE",
+      "Tokens": [
+        "votoh",
+        "vot",
+        "dekla",
+        "gjith",
+        "kuven",
+        "aktgj",
+        "gjyka",
+        "speci",
+        "ndaj",
+        "drejt",
+        "uck",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/votohet-me-99-vota-deklarata-gjithepartiake-e-kuvendit-per-aktgjykimin-e-gjykates-speciale-ndaj-drejtuesve-te-uck-se"
+      ],
+      "Articles": {
+        "raporti-sot": "votohet-me-99-vota-deklarata-gjithepartiake-e-kuvendit-per-aktgjykimin-e"
+      }
+    },
+    {
+      "At": "2026-09-29T00:57:05.5334735+00:00",
+      "Title": "Ukraina p\u00EBrdor dron p\u00EBr t\u00EB d\u00EBrguar ushqim e ila\u00E7e n\u00EB Oleshky-n e pushtuar nga Rusia - NACIONALE",
+      "Tokens": [
+        "ukrai",
+        "perdo",
+        "dron",
+        "dergu",
+        "ushqi",
+        "ilac",
+        "olesh",
+        "pusht",
+        "rusi",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/globale/ukraina-perdor-dron-per-te-derguar-ushqim-e-ilace-ne-oleshky-n-e-pushtuar-nga-rusia"
+      ],
+      "Articles": {
+        "infokosove24": "ukraina-perdor-dron-per-te-derguar-ushqim-e-ilace-ne-oleshky-n-e-pushtuar-nga"
+      }
+    },
+    {
       "At": "2026-09-28T20:05:44.5198032+00:00",
       "Title": "Shqiptar\u00EBt e Teksasit protestuan n\u00EB Austin n\u00EB mb\u00EBshtetje t\u00EB U\u00C7K-s\u00EB",
       "Tokens": [
