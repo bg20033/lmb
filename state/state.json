@@ -1,6 +1,822 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 0,
   "Published": [
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Zyrtar\u00EB t\u00EB List\u00EBs Serbe dyshohen p\u00EBr sulm ndaj rendit kushtetues dhe vepra t\u00EB tjera penale",
+      "Tokens": [
+        "zyrta",
+        "list",
+        "serb",
+        "dysho",
+        "sulm",
+        "ndaj",
+        "rend",
+        "kusht",
+        "vepr",
+        "tjer",
+        "penal"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/simiq-thote-se-ai-dhe-zyrtare-te-tjere-te-listes-serbe-jane-ftuar-nga-prokuroria-speciale-dyshohen-per-disa-vepra-penale/",
+        "https://www.gazetaexpress.com/prokuroria-speciale-fton-zyrtaret-e-listes-serbe-dyshohen-per-sulm-ndaj-rendit-kushtetues-dhe-vepra-te-tjera/",
+        "https://www.evropaelire.org/a/zyrtare-lista-serbe-dyshohen-sulm-rend-kushtetues-kosove/33866460.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "zyrtare-te-listes-serbe-dyshohen-per-sulm-ndaj-rendit-kushtetues-dhe-vepra-te"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Prishtina miraton buxhetin p\u00EBr vitin 2027, mbi 161 milion\u00EB euro",
+      "Tokens": [
+        "prish",
+        "mirat",
+        "buxhe",
+        "vit",
+        "2027",
+        "161",
+        "milio",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/prishtina-miraton-buxhetin-per-vitin-2027-mbi-161-milione-euro/",
+        "https://www.gazetaexpress.com/rama-pas-miraatimit-te-buxhetit-per-prishtinen-mbi-161-milione-euro-per-kryeqytetin/",
+        "https://www.gazetaexpress.com/miratohet-buxheti-i-prishtines-per-2027-parashihet-zgjatja-e-sheshit-deri-te-posta/"
+      ],
+      "Articles": {
+        "kosova-fakt": "prishtina-miraton-buxhetin-per-vitin-2027-mbi-161-milione-euro"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "PDK-ja k\u00EBrkon ndryshimin e Ligjit p\u00EBr Specialen para 6 tetorit",
+      "Tokens": [
+        "pdk",
+        "kerko",
+        "ndrys",
+        "ligj",
+        "speci",
+        "tetor"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kusari-lila-deri-me-6-tetor-duhet-te-zgjidhet-presidenti-dhe-te-kete-dakordim-per-ndryshimin-e-ligjit-per-specialen/",
+        "https://www.evropaelire.org/a/pdk-kerkon-ndryshim-ligj-speciale-6-tetor/33866408.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pdk-ja-kerkon-ndryshimin-e-ligjit-per-specialen-para-6-tetorit"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Shpresa te Apeli \u2013 k\u00EBta jan\u00EB paneli q\u00EB do t\u00EB japin vendimin historik p\u00EBr kat\u00EBrshen e U\u00C7K-s\u00EB",
+      "Tokens": [
+        "shpre",
+        "apel",
+        "ket",
+        "panel",
+        "jap",
+        "vendi",
+        "histo",
+        "kater",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shpresa-te-apeli-keta-jane-paneli-qe-do-te-japin-vendimin-historik-per-katershen-e-uck-se/"
+      ],
+      "Articles": {
+        "raporti-sot": "shpresa-te-apeli-keta-jane-paneli-qe-do-te-japin-vendimin-historik-per"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Nuk e ha hakun e huaj, kuleta me 1 mij\u00EB e 410 euro i dor\u00EBzohet Policis\u00EB n\u00EB Prizren",
+      "Tokens": [
+        "hakun",
+        "huaj",
+        "kulet",
+        "mij",
+        "410",
+        "euro",
+        "dorez",
+        "polic",
+        "prizr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nuk-e-ha-hakun-e-huaj-kuleta-me-1-mije-e-410-euro-i-dorezohet-policise-ne-prizren/"
+      ],
+      "Articles": {
+        "infokosove24": "nuk-e-ha-hakun-e-huaj-kuleta-me-1-mije-e-410-euro-i-dorezohet-policise-ne"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Valon Murati, Hysni Klinaku e Leart Ajvazi fol\u00EBs n\u00EB nat\u00EBn e 14-t\u00EB t\u00EB protest\u00EBs; \u00C7lirim Haziri me k\u00EBrkes\u00EB konkrete p\u00EBr Qeverin\u00EB dhe Kuvendin",
+      "Tokens": [
+        "valon",
+        "murat",
+        "hysn",
+        "klina",
+        "leart",
+        "ajvaz",
+        "fol",
+        "nat",
+        "prote",
+        "cliri",
+        "hazir",
+        "kerk",
+        "konkr",
+        "qever",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/valon-murati-hysni-klinaku-e-leart-ajvazi-foles-ne-naten-e-14-te-te-protestes-clirim-haziri-me-kerkese-konkrete-per-qeverine-dhe-kuvendin/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "valon-murati-hysni-klinaku-e-leart-ajvazi-foles-ne-naten-e-14-te-te-protestes"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Pas 12 vitesh p\u00EBrpjekje, Rita Ora m\u00EB n\u00EB fund merr patent\u00EBn e vozitjes",
+      "Tokens": [
+        "vites",
+        "perpj",
+        "rit",
+        "ora",
+        "fund",
+        "merr",
+        "paten",
+        "vozit"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pas-12-vitesh-perpjekje-rita-ora-me-ne-fund-merr-patenten-e-vozitjes/"
+      ],
+      "Articles": {
+        "kosova-fakt": "pas-12-vitesh-perpjekje-rita-ora-me-ne-fund-merr-patenten-e-vozitjes"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "\u201CNuk u kam ofruar asgj\u00EB\u201D, Trumpi mohon se po negocion leht\u00EBsime p\u00EBr Iranin",
+      "Tokens": [
+        "kam",
+        "ofrua",
+        "asg",
+        "trump",
+        "mohon",
+        "negoc",
+        "lehte",
+        "iran"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nuk-u-kam-ofruar-asgje-trumpi-mohon-se-po-negocion-lehtesime-per-iranin/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nuk-u-kam-ofruar-asgje-trumpi-mohon-se-po-negocion-lehtesime-per-iranin"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "E dhimbshme: Ky \u00EBsht\u00EB i riu q\u00EB u gjet pa shenja jete n\u00EB Jelloc t\u00EB Klin\u00EBs \u2013 shkaqet e vdekjes po hetohen",
+      "Tokens": [
+        "dhimb",
+        "riu",
+        "gjet",
+        "shen",
+        "jet",
+        "jello",
+        "klin",
+        "shkaq",
+        "vdekj",
+        "hetoh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/e-dhimbshme-ky-eshte-i-riu-qe-u-gjet-pa-shenja-jete-ne-jelloc-te-klines-shkaqet-e-vdekjes-po-hetohen/"
+      ],
+      "Articles": {
+        "raporti-sot": "e-dhimbshme-ky-eshte-i-riu-qe-u-gjet-pa-shenja-jete-ne-jelloc-te-klines-shkaqet"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Nes\u00EBr nis turi ballkanik i Von der Leyen \u2013 Tirana ndalesa e par\u00EB e presidentes s\u00EB KE, do sjell\u00EB planin e an\u00EBtar\u00EBsimit p\u00EBr 4 shtete",
+      "Tokens": [
+        "neser",
+        "nis",
+        "tur",
+        "ballk",
+        "von",
+        "der",
+        "ley",
+        "tiran",
+        "ndale",
+        "par",
+        "presi",
+        "sjell",
+        "plan",
+        "aneta",
+        "shtet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/neser-nis-turi-ballkanik-i-von-der-leyen-tirana-ndalesa-e-pare-e-presidentes-se-ke-do-sjelle-planin-e-anetaresimit-per-4-shtete/"
+      ],
+      "Articles": {
+        "infokosove24": "neser-nis-turi-ballkanik-i-von-der-leyen-tirana-ndalesa-e-pare-e-presidentes-se"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Kush mund ta ndal\u00EB k\u00EBt\u00EB Spanj\u00EB? 39 ndeshje pa humbje, 51 p\u00EBr Fabi\u00E1n Ruiz",
+      "Tokens": [
+        "kush",
+        "mund",
+        "ndal",
+        "ket",
+        "span",
+        "ndesh",
+        "humb",
+        "fabia",
+        "ruiz"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kush-mund-ta-ndale-kete-spanje-39-ndeshje-pa-humbje-51-per-fabian-ruiz/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kush-mund-ta-ndale-kete-spanje-39-ndeshje-pa-humbje-51-per-fabian-ruiz"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Baseli zyrtarizon Jokanoviqin si trajner t\u00EB ri, serbi do t\u00EB punoj\u00EB me Shaqirin",
+      "Tokens": [
+        "basel",
+        "zyrta",
+        "jokan",
+        "trajn",
+        "serb",
+        "puno",
+        "shaqi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/baseli-zyrtarizon-jokanoviqin-si-trajner-te-ri-serbi-do-te-punoje-me-shaqirin/"
+      ],
+      "Articles": {
+        "kosova-fakt": "baseli-zyrtarizon-jokanoviqin-si-trajner-te-ri-serbi-do-te-punoje-me-shaqirin"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Gruda: Si\u00E7 duket q\u00EBllimi \u00EBsht\u00EB t\u00EB lejohet shp\u00EBrndarja e Kuvendit pa ndryshimin e ligjit p\u00EBr Specialen, shpresojm\u00EB t\u00EB mos jet\u00EB ashtu",
+      "Tokens": [
+        "grud",
+        "sic",
+        "duk",
+        "qelli",
+        "lejoh",
+        "shper",
+        "kuven",
+        "ndrys",
+        "ligj",
+        "speci",
+        "shpre",
+        "jet",
+        "asht"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gruda-sic-duket-qellimi-eshte-te-lejohet-shperndarja-e-kuvendit-pa-ndryshimin-e-ligjit-per-specialen-shpresojme-te-mos-jete-ashtu-1/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "gruda-sic-duket-qellimi-eshte-te-lejohet-shperndarja-e-kuvendit-pa-ndryshimin-e"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Gruda: Ligji p\u00EBr Specialen u p\u00EBrgatit nga ekspert\u00EB, Supremja ta kthehet n\u00EB Kosov\u00EB p\u00EBr t\u00EB gjykuar krimet e luft\u00EBs",
+      "Tokens": [
+        "grud",
+        "ligj",
+        "speci",
+        "perga",
+        "ekspe",
+        "supre",
+        "ktheh",
+        "koso",
+        "gjyku",
+        "krim",
+        "luft"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gruda-ligji-per-specialen-u-pergatit-nga-eksperte-supremja-ta-kthehet-ne-kosove-per-te-gjykuar-krimet-e-luftes/"
+      ],
+      "Articles": {
+        "raporti-sot": "gruda-ligji-per-specialen-u-pergatit-nga-eksperte-supremja-ta-kthehet-ne-kosove"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Tokio n\u00EB Japoni regjistron rekord prej 34 dit\u00EBsh radhazi me reshje shiu",
+      "Tokens": [
+        "tokio",
+        "japon",
+        "regji",
+        "rekor",
+        "dites",
+        "radha",
+        "resh",
+        "shi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tokio-ne-japoni-regjistron-rekord-prej-34-ditesh-radhazi-me-reshje-shiu/"
+      ],
+      "Articles": {
+        "infokosove24": "tokio-ne-japoni-regjistron-rekord-prej-34-ditesh-radhazi-me-reshje-shiu"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "\u201CMangupat\u201D e internetit s\u00EBrish n\u00EB aksion, llogaria me shkrim cirilik k\u00EBrc\u00EBnon r\u00EBnd\u00EB Ramush Haradinajn",
+      "Tokens": [
+        "mangu",
+        "inter",
+        "seris",
+        "aksio",
+        "lloga",
+        "shkri",
+        "ciril",
+        "kerce",
+        "rend",
+        "ramus",
+        "harad"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mangupat-e-internetit-serish-ne-aksion-llogaria-me-shkrim-cirilik-kercenon-rende-ramush-haradinajn/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mangupat-e-internetit-serish-ne-aksion-llogaria-me-shkrim-cirilik-kercenon"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Llafet ve\u00E7 n\u00EB sy t\u00EB qytetar\u00EBve: Gjini e fton Kurtin n\u00EB debat publik",
+      "Tokens": [
+        "llaf",
+        "vec",
+        "qytet",
+        "gjin",
+        "fton",
+        "kurt",
+        "debat",
+        "publi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/llafet-vec-ne-sy-te-qytetareve-gjini-e-fton-kurtin-ne-debat-publik/"
+      ],
+      "Articles": {
+        "kosova-fakt": "llafet-vec-ne-sy-te-qytetareve-gjini-e-fton-kurtin-ne-debat-publik"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "SHBA-ja mbetet e p\u00EBrkushtuar p\u00EBr t\u00EB mb\u00EBshtetur misionin e KFOR-it",
+      "Tokens": [
+        "shb",
+        "mbet",
+        "perku",
+        "mbesh",
+        "misio",
+        "kfor"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shba-ja-mbetet-e-perkushtuar-per-te-mbeshtetur-misionin-e-kfor-it/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "shba-ja-mbetet-e-perkushtuar-per-te-mbeshtetur-misionin-e-kfor-it"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Rikthimi i llogarive n\u00EB WhatsApp, KOS-CERT tregon ku duhet t\u00EB raportohen rastet",
+      "Tokens": [
+        "rikth",
+        "lloga",
+        "whats",
+        "kos",
+        "cert",
+        "trego",
+        "duh",
+        "rapor",
+        "rast"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/rikthimi-i-llogarive-ne-whatsapp-kos-cert-tregon-ku-duhet-te-raportohen-rastet/"
+      ],
+      "Articles": {
+        "raporti-sot": "rikthimi-i-llogarive-ne-whatsapp-kos-cert-tregon-ku-duhet-te-raportohen-rastet"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Nd\u00EBrsa Rusia sh\u00EBnjestron civil\u00EBt n\u00EB Ukrain\u00EB, rritet presioni ndaj Trumpit p\u00EBr sanksione",
+      "Tokens": [
+        "nders",
+        "rusi",
+        "shenj",
+        "civil",
+        "ukra",
+        "rrit",
+        "presi",
+        "ndaj",
+        "trump",
+        "sanks"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ukraine-graham-legjislacion-rusia-kongres-sanksione/33866338.html"
+      ],
+      "Articles": {
+        "infokosove24": "ndersa-rusia-shenjestron-civilet-ne-ukraine-rritet-presioni-ndaj-trumpit-per"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "SHBA-ja rikonfirmon mb\u00EBshtetjen p\u00EBr KFOR-in: Do t\u00EB ndihmojm\u00EB n\u00EB ruajtjen e stabilitetit n\u00EB Kosov\u00EB dhe rajon",
+      "Tokens": [
+        "shb",
+        "rikon",
+        "mbesh",
+        "kfor",
+        "ndihm",
+        "ruajt",
+        "stabi",
+        "koso",
+        "rajon"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/shba-ja-rikonfirmon-mbeshtetjen-per-kfor-in-do-te-ndihmojme-ne-ruajtjen-e-stabilitetit-ne-kosove-dhe-rajon/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shba-ja-rikonfirmon-mbeshtetjen-per-kfor-in-do-te-ndihmojme-ne-ruajtjen-e"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Identifikohen dy persona t\u00EB zhdukur gjat\u00EB luft\u00EBs n\u00EB Kosov\u00EB",
+      "Tokens": [
+        "ident",
+        "perso",
+        "zhduk",
+        "luft",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/dy-persona-zhdukur-lufte-identifikohen-adn/33866330.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "identifikohen-dy-persona-te-zhdukur-gjate-luftes-ne-kosove"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Komisioni Evropian propozon kufizimin e t\u00EB drejtave p\u00EBr an\u00EBtar\u00EBt e ardhsh\u00EBm t\u00EB BE-s\u00EB",
+      "Tokens": [
+        "komis",
+        "evrop",
+        "propo",
+        "kufiz",
+        "drejt",
+        "aneta",
+        "ardhs"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/komisioni-evropian-propozon-kufizim-drejta-anetare-ardhshem-be/33866311.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "komisioni-evropian-propozon-kufizimin-e-te-drejtave-per-anetaret-e-ardhshem-te"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "N\u00EB dit\u00EBt e fundit t\u00EB afatit, ish-marinsi amerikan k\u00EBrkon v\u00EBllan\u00EB n\u00EB nj\u00EB kamp refugjat\u00EBsh afgan\u00EB n\u00EB Katar",
+      "Tokens": [
+        "dit",
+        "fund",
+        "afat",
+        "ish",
+        "marin",
+        "ameri",
+        "kerko",
+        "vella",
+        "kamp",
+        "refug",
+        "afgan",
+        "katar"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ish-marinisi-kerkon-vellain-kamp-refugjatesh-katar/33865266.html"
+      ],
+      "Articles": {
+        "raporti-sot": "ne-ditet-e-fundit-te-afatit-ish-marinsi-amerikan-kerkon-vellane-ne-nje-kamp"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Shtat\u00EB dit\u00EB koh\u00EB p\u00EBr presidentin, partit\u00EB ende pa kandidat",
+      "Tokens": [
+        "shtat",
+        "dit",
+        "koh",
+        "presi",
+        "part",
+        "end",
+        "kandi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/shtate-dite-kohe-per-presidentin-partite-ende-pa-kandidat/"
+      ],
+      "Articles": {
+        "infokosove24": "shtate-dite-kohe-per-presidentin-partite-ende-pa-kandidat"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Gazetari zbulon emrat e gjyqtar\u00EBve n\u00EB Apel p\u00EBr rastin e krer\u00EBve t\u00EB U\u00C7K-s\u00EB - NACIONALE",
+      "Tokens": [
+        "gazet",
+        "zbulo",
+        "emrat",
+        "gjyqt",
+        "apel",
+        "rast",
+        "krer",
+        "uck",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/gazetari-zbulon-emrat-e-gjyqtareve-ne-apel-per-rastin-e-krereve-te-uck-se"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gazetari-zbulon-emrat-e-gjyqtareve-ne-apel-per-rastin-e-krereve-te-uck-se"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Kusari-Lila e quan \u201CAktgjykim t\u00EB tmerrsh\u00EBm\u201D vendimin e Hag\u00EBs, k\u00EBrkon \u201Ckonsensus\u201D p\u00EBr presidentin - NACIONALE",
+      "Tokens": [
+        "kusar",
+        "lil",
+        "quan",
+        "aktgj",
+        "tmerr",
+        "vendi",
+        "hag",
+        "kerko",
+        "konse",
+        "presi",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/kusari-lila-e-quan-aktgjykim-te-tmerrshem-vendimin-e-hages-kerkon-konsensus-per-presidentin"
+      ],
+      "Articles": {
+        "kosova-fakt": "kusari-lila-e-quan-aktgjykim-te-tmerrshem-vendimin-e-hages-kerkon-konsensus-per"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Asambleja e Skenderajt miraton deklarat\u00EB kund\u00EBr Aktgjykimit t\u00EB Hag\u00EBs, \u201CJo n\u00EB emrim tim\u201D - NACIONALE",
+      "Tokens": [
+        "asamb",
+        "skend",
+        "mirat",
+        "dekla",
+        "kunde",
+        "aktgj",
+        "hag",
+        "emrim",
+        "tim",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/asambleja-e-skenderajt-miraton-deklarate-kunder-aktgjykimit-te-hages-jo-ne-emrim-tim"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "asambleja-e-skenderajt-miraton-deklarate-kunder-aktgjykimit-te-hages-jo-ne"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "\u201CNuk do t\u2019i falet k\u00EBsaj gjenerate politike\u201D \u2013 Gruda kund\u00EBr shp\u00EBrndarjes s\u00EB Kuvendit pa Ligjin p\u00EBr Specialen - NACIONALE",
+      "Tokens": [
+        "fal",
+        "kesaj",
+        "gjene",
+        "polit",
+        "grud",
+        "kunde",
+        "shper",
+        "kuven",
+        "ligj",
+        "speci",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/nuk-do-ti-falet-k%C3%ABsaj-gjenerate-politike-gruda-kund%C3%ABr-shp%C3%ABrndarjes-s%C3%AB-kuvendit-pa-ligjin-p%C3%ABr-specialen"
+      ],
+      "Articles": {
+        "raporti-sot": "nuk-do-t-i-falet-kesaj-gjenerate-politike-gruda-kunder-shperndarjes-se-kuvendit"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Tahiri k\u00EBrkon q\u00EB Ligji p\u00EBr Dhomat e Specializuara t\u00EB procedohet sa m\u00EB shpejt n\u00EB Kuvend - NACIONALE",
+      "Tokens": [
+        "tahir",
+        "kerko",
+        "ligj",
+        "dhoma",
+        "speci",
+        "proce",
+        "shpej",
+        "kuven",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/tahiri-kerkon-qe-ligji-per-dhomat-e-specializuara-te-procedohet-sa-me-shpejt-ne-kuvend"
+      ],
+      "Articles": {
+        "infokosove24": "tahiri-kerkon-qe-ligji-per-dhomat-e-specializuara-te-procedohet-sa-me-shpejt-ne"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Nga AP te mediat evropiane: Qysh u raportua jasht\u00EB vendit deklarata e p\u00EBrbashk\u00EBt e Kuvendit t\u00EB Kosov\u00EBs ndaj Aktgjykimit t\u00EB Hag\u00EBs? - NACIONALE",
+      "Tokens": [
+        "media",
+        "evrop",
+        "qysh",
+        "rapor",
+        "jasht",
+        "vend",
+        "dekla",
+        "perba",
+        "kuven",
+        "kosov",
+        "ndaj",
+        "aktgj",
+        "hag",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/nga-ap-te-mediat-evropiane-qysh-u-raportua-jashte-vendit-deklarata-e-perbashket-e-kuvendit-te-kosoves-ndaj-aktgjykimit-te-hages"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nga-ap-te-mediat-evropiane-qysh-u-raportua-jashte-vendit-deklarata-e-perbashket"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Muharremi: Kosova po shkon drejt zgjedhjeve t\u00EB reja, Kurti ka marr\u00EB vendim m\u00EB her\u00EBt p\u00EBr nj\u00EB gj\u00EB t\u00EB till\u00EB - NACIONALE",
+      "Tokens": [
+        "muhar",
+        "kosov",
+        "shkon",
+        "drejt",
+        "zgjed",
+        "rej",
+        "kurt",
+        "marr",
+        "vendi",
+        "her",
+        "gje",
+        "till",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/muharremi-kosova-po-shkon-drejt-zgjedhjeve-te-reja-kurti-ka-marre-vendim-me-heret-per-nje-gje-te-tille"
+      ],
+      "Articles": {
+        "kosova-fakt": "muharremi-kosova-po-shkon-drejt-zgjedhjeve-te-reja-kurti-ka-marre-vendim-me"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "\u00C7far\u00EB b\u00EBm\u00EB q\u00EB e humb\u00EBm Per\u00EBndimin: Rehabilitimi i Beogradit dhe vetizolimi i Prishtin\u00EBs - NACIONALE",
+      "Tokens": [
+        "bem",
+        "humbe",
+        "peren",
+        "rehab",
+        "beogr",
+        "vetiz",
+        "prish",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/opinion/cfare-beme-qe-e-humbem-perendimin-rehabilitimi-i-beogradit-dhe-vetizolimi-i-prishtines"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "cfare-beme-qe-e-humbem-perendimin-rehabilitimi-i-beogradit-dhe-vetizolimi-i"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Miftaraj: Ndryshimi i Ligjit p\u00EBr Specialen t\u00EB mos cenoj\u00EB detyrimet nd\u00EBrkomb\u00EBtare q\u00EB ka marr\u00EB Kosova - NACIONALE",
+      "Tokens": [
+        "mifta",
+        "ndrys",
+        "ligj",
+        "speci",
+        "ceno",
+        "detyr",
+        "nderk",
+        "marr",
+        "kosov",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/miftaraj-ndryshimi-i-ligjit-per-specialen-te-mos-cenoje-detyrimet-nderkombetare-qe-ka-marre-kosova"
+      ],
+      "Articles": {
+        "raporti-sot": "miftaraj-ndryshimi-i-ligjit-per-specialen-te-mos-cenoje-detyrimet-nderkombetare"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Edhe nj\u00EB jav\u00EB koh\u00EB: President t\u00EB ri apo zgjedhje t\u00EB reja? - NACIONALE",
+      "Tokens": [
+        "jav",
+        "koh",
+        "presi",
+        "zgjed",
+        "rej",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/edhe-nje-jave-kohe-president-te-ri-apo-zgjedhje-te-reja-te-reja"
+      ],
+      "Articles": {
+        "infokosove24": "edhe-nje-jave-kohe-president-te-ri-apo-zgjedhje-te-reja-nacionale"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Protesta e 1 tetorit, Gucati: Pres njer\u00EBz nga t\u00EB gjitha vendet ku ka shqiptar q\u00EB t\u00EB na bashkohen - NACIONALE",
+      "Tokens": [
+        "prote",
+        "tetor",
+        "gucat",
+        "pres",
+        "njere",
+        "gjith",
+        "vend",
+        "shqip",
+        "bashk",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/protesta-e-1-tetorit-gucati-pres-njerez-nga-te-gjitha-vendet-ku-ka-shqiptar-qe-te-na-bashkohen"
+      ],
+      "Articles": {
+        "kosova-aktuale": "protesta-e-1-tetorit-gucati-pres-njerez-nga-te-gjitha-vendet-ku-ka-shqiptar-qe"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Lushtaku: Politikat e VV-s\u00EB e kan\u00EB p\u00EBr\u00E7a dhe helmu popullin e Kosov\u00EBs - NACIONALE",
+      "Tokens": [
+        "lusht",
+        "polit",
+        "perc",
+        "helm",
+        "popul",
+        "kosov",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/lushtaku-politikat-e-vv-se-e-kane-perca-dhe-helmu-popullin-e-kosoves"
+      ],
+      "Articles": {
+        "kosova-fakt": "lushtaku-politikat-e-vv-se-e-kane-perca-dhe-helmu-popullin-e-kosoves-nacionale"
+      }
+    },
+    {
+      "At": "2026-09-29T11:17:34.009246+00:00",
+      "Title": "Hamza: Qytetar\u00EBt jan\u00EB bashkuar rreth U\u00C7K-s\u00EB - NACIONALE",
+      "Tokens": [
+        "hamz",
+        "qytet",
+        "bashk",
+        "rreth",
+        "uck",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/hamza-qytetaret-jane-bashkuar-rreth-uck-se"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "hamza-qytetaret-jane-bashkuar-rreth-uck-se-nacionale"
+      }
+    },
     {
       "At": "2026-09-29T00:57:05.5334735+00:00",
       "Title": "\u00C7lirim Haziri - deputet\u00EBve: K\u00EBrkesa jon\u00EB \u00EBsht\u00EB e qart\u00EB, Ligji p\u00EBr Specialen duhet t\u00EB votohet",
