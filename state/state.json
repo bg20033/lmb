@@ -1,6 +1,641 @@
 {
-  "RotationCursor": 0,
+  "RotationCursor": 4,
   "Published": [
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Haradinaj: Edhe po t\u00EB kthehesha n\u00EB koh\u00EB, nuk do ta votoja Gjykat\u00EBn Speciale",
+      "Tokens": [
+        "harad",
+        "ktheh",
+        "koh",
+        "voto",
+        "gjyka",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/haradinaj-edhe-po-te-kthehesha-ne-kohe-nuk-do-ta-votoja-gjykaten-speciale/",
+        "https://nacionale.com/politike/haradinaj-edhe-po-te-kthehesha-ne-kohe-prape-sdo-ta-votoja-gjykaten-speciale"
+      ],
+      "Articles": {
+        "raporti-sot": "haradinaj-edhe-po-te-kthehesha-ne-kohe-prape-s-do-ta-votoja-gjykaten-speciale"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Limaj: Shkuarja n\u00EB zgjedhje do t\u00EB n\u00EBnkuptonte heqje dor\u00EB nga mbrojtja e ish-krer\u00EBve t\u00EB U\u00C7K-s\u00EB n\u00EB Hag\u00EB",
+      "Tokens": [
+        "limaj",
+        "shkua",
+        "zgjed",
+        "nenku",
+        "heq",
+        "dor",
+        "mbroj",
+        "ish",
+        "krer",
+        "uck",
+        "hag"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/limaj-shkuarja-ne-zgjedhje-do-te-nenkuptonte-heqje-dore-nga-mbrojtja-e-ish-krereve-te-uck-se-ne-hage/",
+        "https://nacionale.com/politike/limaj-zgjedhjet-tani-do-t%C3%AB-ishin-ikje-nga-p%C3%ABrgjegj%C3%ABsia-ndaj-ish-krer%C3%ABve-t%C3%AB-u%C3%A7k-s%C3%AB"
+      ],
+      "Articles": {
+        "infokosove24": "limaj-zgjedhjet-tani-do-te-ishin-ikje-nga-pergjegjesia-ndaj-ish-krereve-te-uck"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Corriere della Sera n\u00EB fokus te Yll Limani: Nga Kosova drejt skenave europiane dhe amerikane",
+      "Tokens": [
+        "corri",
+        "dell",
+        "ser",
+        "fokus",
+        "yll",
+        "liman",
+        "kosov",
+        "drejt",
+        "sken",
+        "europ",
+        "ameri"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/corriere-della-sera-ne-fokus-te-yll-limani-nga-kosova-drejt-skenave-europiane-dhe-amerikane/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "corriere-della-sera-ne-fokus-te-yll-limani-nga-kosova-drejt-skenave-europiane"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Olti Curri reagon p\u00EBr videot intime: \u201CMos i shp\u00EBrndani, personat e p\u00EBrfshir\u00EB kan\u00EB nevoj\u00EB p\u00EBr mb\u00EBshtetje\u201D",
+      "Tokens": [
+        "olt",
+        "curr",
+        "reago",
+        "video",
+        "intim",
+        "shper",
+        "perso",
+        "perfs",
+        "nevo",
+        "mbesh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/olti-curri-reagon-per-videot-intime-mos-i-shperndani-personat-e-perfshire-kane-nevoje-per-mbeshtetje/"
+      ],
+      "Articles": {
+        "kosova-fakt": "olti-curri-reagon-per-videot-intime-mos-i-shperndani-personat-e-perfshire-kane"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "\u201CMe\u00E7i i shekullit\u201D po afron, Fury dhe Joshua p\u00EBr her\u00EB t\u00EB par\u00EB p\u00EBrballen sy m\u00EB sy, ky ishte reagimi i tyre",
+      "Tokens": [
+        "mec",
+        "sheku",
+        "afron",
+        "fury",
+        "joshu",
+        "her",
+        "par",
+        "perba",
+        "reagi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/meci-i-shekullit-po-afron-fury-dhe-joshua-per-here-te-pare-perballen-sy-me-sy-ky-ishte-reagimi-i-tyre/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "meci-i-shekullit-po-afron-fury-dhe-joshua-per-here-te-pare-perballen-sy-me-sy"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Serbia arreston dy gra, pretendohet se mblidhnin t\u00EB dh\u00EBna p\u00EBr AKI-n\u00EB, Policin\u00EB e Kosov\u00EBs dhe SHISH-in",
+      "Tokens": [
+        "serbi",
+        "arres",
+        "gra",
+        "prete",
+        "mblid",
+        "dhen",
+        "aki",
+        "polic",
+        "kosov",
+        "shish"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/serbia-arreston-dy-gra-pretendohet-se-mblidhnin-te-dhena-per-aki-ne-policine-e-kosoves-dhe-shish-in/"
+      ],
+      "Articles": {
+        "raporti-sot": "serbia-arreston-dy-gra-pretendohet-se-mblidhnin-te-dhena-per-aki-ne-policine-e"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "\u201CFat t\u00EB mbar\u00EB\u201D: Ronaldo largohet nga Komb\u00EBtarja e Portugalis\u00EB, premton se do ta tregoj\u00EB arsyen",
+      "Tokens": [
+        "fat",
+        "mbar",
+        "ronal",
+        "largo",
+        "kombe",
+        "portu",
+        "premt",
+        "trego",
+        "arsy"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/fat-te-mbare-ronaldo-largohet-nga-kombetarja-e-portugalise-premton-se-do-ta-tregoje-arsyen/"
+      ],
+      "Articles": {
+        "infokosove24": "fat-te-mbare-ronaldo-largohet-nga-kombetarja-e-portugalise-premton-se-do-ta"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "LEX | Tenderi i rrug\u00EBs e \u00E7oi deri n\u00EB Kushtetuese \u2013 mbetet d\u00EBnimi p\u00EBr mashtrim ndaj Naim Sallahut",
+      "Tokens": [
+        "lex",
+        "tende",
+        "rrug",
+        "coi",
+        "kusht",
+        "mbet",
+        "denim",
+        "masht",
+        "ndaj",
+        "naim",
+        "salla"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-tenderi-i-rruges-e-coi-deri-ne-kushtetuese-mbetet-denimi-per-mashtrim-ndaj-naim-sallahut/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "lex-tenderi-i-rruges-e-coi-deri-ne-kushtetuese-mbetet-denimi-per-mashtrim-ndaj"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Von der Leyen takohet me presidentin e Shqip\u00EBris\u00EB, Begaj: Synojm\u00EB mbylljen e kapitujve deri n\u00EB 2027",
+      "Tokens": [
+        "von",
+        "der",
+        "ley",
+        "takoh",
+        "presi",
+        "shqip",
+        "begaj",
+        "synoj",
+        "mbyll",
+        "kapit",
+        "2027"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/von-der-leyen-takohet-me-presidentin-e-shqiperise-begaj-synojme-mbylljen-e-kapitujve-deri-ne-2027/"
+      ],
+      "Articles": {
+        "kosova-fakt": "von-der-leyen-takohet-me-presidentin-e-shqiperise-begaj-synojme-mbylljen-e"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "\u201CBota nuk sillet rreth PDK\u2019s\u00EB\u201D, Kryeziu-Hyseni: Gruda e ka pranu q\u00EB s\u2019\u00EBsht\u00EB konsultu me mbrojtjen, n\u00EB projektligj duhet t\u00EB punojm\u00EB krejt",
+      "Tokens": [
+        "bot",
+        "sill",
+        "rreth",
+        "pdk",
+        "kryez",
+        "hysen",
+        "grud",
+        "pran",
+        "konsu",
+        "mbroj",
+        "proje",
+        "duh",
+        "punoj",
+        "krejt"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/mos-ta-marrim-sikur-krejt-bota-sillet-perreth-pdk-se-kryeziu-hyseni-vete-gruda-e-ka-pranu-qe-nuk-eshte-konsultuar-me-mbrojtjen/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "bota-nuk-sillet-rreth-pdk-se-kryeziu-hyseni-gruda-e-ka-pranu-qe-s-eshte"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "\u0022Shqip\u00EBria nd\u00EBr vendet kryesuese drejt BE-s\u00EB\u0022",
+      "Tokens": [
+        "shqip",
+        "nder",
+        "vend",
+        "kryes",
+        "drejt"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/von-der-layen-ne-shqiperi-/33867458.html"
+      ],
+      "Articles": {
+        "raporti-sot": "shqiperia-nder-vendet-kryesuese-drejt-be-se"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Kryeziu-Hyseni: N\u00EBse PDK do ta kishte t\u00EB par\u00EBn \u00E7\u00EBshtjen e Presidentit, do t\u00EB besoja se seriozisht po duan t\u2019i qasen ligjit p\u00EBr Specialen",
+      "Tokens": [
+        "kryez",
+        "hysen",
+        "nes",
+        "pdk",
+        "par",
+        "cesht",
+        "presi",
+        "beso",
+        "serio",
+        "duan",
+        "qas",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kryeziu-e-vv-se-po-tekishte-qene-pdk-ja-unike-me-17-shtator-do-te-dilnin-te-thoshin-se-jemi-ne-situate-ndryshe-dhe-do-te-benin-thirrje-per-ceshtjen-e-presidentit/"
+      ],
+      "Articles": {
+        "infokosove24": "kryeziu-hyseni-nese-pdk-do-ta-kishte-te-paren-ceshtjen-e-presidentit-do-te"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "P\u00EBrmbysje spektakolare, Kosova U21 mposht Qipron",
+      "Tokens": [
+        "permb",
+        "spekt",
+        "kosov",
+        "u21",
+        "mposh",
+        "qipro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/permbysje-spektakolare-kosova-u21-mposht-qipron/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "permbysje-spektakolare-kosova-u21-mposht-qipron"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Sheshi nuk mbetet that\u00EB as nat\u00EBn e 15-t\u00EB, nis protesta n\u00EB Prishtin\u00EB",
+      "Tokens": [
+        "shesh",
+        "mbet",
+        "that",
+        "nat",
+        "nis",
+        "prote",
+        "prish"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sheshi-nuk-mbetet-thate-as-naten-e-15-te-nis-protesta-ne-prishtine/"
+      ],
+      "Articles": {
+        "kosova-fakt": "sheshi-nuk-mbetet-thate-as-naten-e-15-te-nis-protesta-ne-prishtine"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Gabimi i rinis\u00EB gati sa s\u2019i kushtoi me jet\u00EB: Gruas n\u00EB SHBA i pezullohet d\u00EBnimi me vdekje nj\u00EB or\u00EB para ekzekutimit",
+      "Tokens": [
+        "gabim",
+        "rin",
+        "gat",
+        "kusht",
+        "jet",
+        "gruas",
+        "shb",
+        "pezul",
+        "denim",
+        "vdek",
+        "ore",
+        "ekzek"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gabimi-i-rinise-gati-sa-si-kushtoi-me-jete-gruas-ne-shba-i-pezullohet-denimi-me-vdekje-nje-ore-para-ekzekutimit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "gabimi-i-rinise-gati-sa-s-i-kushtoi-me-jete-gruas-ne-shba-i-pezullohet-denimi"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "LEX | Babai ankohet p\u00EBr mosrealizimin e takimeve me f\u00EBmij\u00EBn, Kushtetuesja ia shpall k\u00EBrkes\u00EBn t\u00EB papranueshme",
+      "Tokens": [
+        "lex",
+        "baba",
+        "ankoh",
+        "mosre",
+        "takim",
+        "femij",
+        "kusht",
+        "shpal",
+        "kerke",
+        "papra"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-babai-ankohet-per-mosrealizimin-e-takimeve-me-femijen-kushtetuesja-ia-shpall-kerkesen-te-papranueshme/"
+      ],
+      "Articles": {
+        "raporti-sot": "lex-babai-ankohet-per-mosrealizimin-e-takimeve-me-femijen-kushtetuesja-ia"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Qeveria miraton nj\u00EB varg vendimesh, 102 milion\u00EB euro shtes\u00EB p\u00EBr buxhetin e vitit 2026",
+      "Tokens": [
+        "qever",
+        "mirat",
+        "varg",
+        "vendi",
+        "102",
+        "milio",
+        "euro",
+        "sht",
+        "buxhe",
+        "vit",
+        "2026"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/qeveria-miraton-nje-varg-vendimesh-102-milione-euro-shtese-per-buxhetin-e-vitit-2026/"
+      ],
+      "Articles": {
+        "infokosove24": "qeveria-miraton-nje-varg-vendimesh-102-milione-euro-shtese-per-buxhetin-e-vitit"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "LEX | Goditja pran\u00EB zemr\u00EBs i mori jet\u00EBn Elmir Kryeziut \u2013 mbetet d\u00EBnimi me 20 vjet burg p\u00EBr Haxhi Selmanajn",
+      "Tokens": [
+        "lex",
+        "godit",
+        "pran",
+        "zemr",
+        "mor",
+        "jet",
+        "elmir",
+        "kryez",
+        "mbet",
+        "denim",
+        "vjet",
+        "burg",
+        "haxh",
+        "selma"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-goditja-prane-zemres-i-mori-jeten-elmir-kryeziut-mbetet-denimi-me-20-vjet-burg-per-haxhi-selmanajn/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "lex-goditja-prane-zemres-i-mori-jeten-elmir-kryeziut-mbetet-denimi-me-20-vjet"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Ambasadori francez: Dialogu me Beogradin esencial p\u00EBr stabilitetin rajonal dhe trajektoren europiane t\u00EB Kosov\u00EBs",
+      "Tokens": [
+        "ambas",
+        "franc",
+        "dialo",
+        "beogr",
+        "esenc",
+        "stabi",
+        "rajon",
+        "traje",
+        "europ",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ambasadori-francez-dialogu-me-beogradin-esencial-per-stabilitetin-rajonal-dhe-trajektoren-europiane-te-kosoves/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ambasadori-francez-dialogu-me-beogradin-esencial-per-stabilitetin-rajonal-dhe"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "SHBA-ja ia zgjat NIS-it licenc\u00EBn e operimit deri m\u00EB 30 tetor",
+      "Tokens": [
+        "shb",
+        "zgjat",
+        "nis",
+        "licen",
+        "operi",
+        "tetor"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/shba-nis-licenca/33867422.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "shba-ja-ia-zgjat-nis-it-licencen-e-operimit-deri-me-30-tetor"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Konferenca me von der Leyen, Rama p\u00EBr rastin e Vlora Hysenit: Gjykata t\u00EB shoh n\u00EBse \u00EBsht\u00EB cenuar siguria komb\u00EBtare ose raporti me partner\u00EBt",
+      "Tokens": [
+        "konfe",
+        "von",
+        "der",
+        "ley",
+        "ram",
+        "rast",
+        "vlor",
+        "hysen",
+        "gjyka",
+        "shoh",
+        "nes",
+        "cenua",
+        "sigur",
+        "kombe",
+        "rapor",
+        "partn"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/konferenca-me-von-der-leyen-rama-per-rastin-e-vlora-hysenit-gjykata-te-shoh-nese-eshte-cenuar-siguria-kombetare-ose-raporti-me-partneret/"
+      ],
+      "Articles": {
+        "raporti-sot": "konferenca-me-von-der-leyen-rama-per-rastin-e-vlora-hysenit-gjykata-te-shoh"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Kurti thot\u00EB se Sejdiu mbetet kandidati p\u00EBr president, pavar\u00EBsisht t\u00EBrheqjes s\u00EB tij",
+      "Tokens": [
+        "kurt",
+        "sejdi",
+        "mbet",
+        "kandi",
+        "presi",
+        "pavar",
+        "terhe"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/kurti-sejdiu-kandidat-president-/33867196.html"
+      ],
+      "Articles": {
+        "infokosove24": "kurti-thote-se-sejdiu-mbetet-kandidati-per-president-pavaresisht-terheqjes-se"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Ligji p\u00EBr Specialen | Demaku: Nga ky ligj PDK-ja nuk p\u00EBrfiton asgj\u00EB, p\u00EBrfitojn\u00EB qytetar\u00EBt - NACIONALE",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "demak",
+        "pdk",
+        "perfi",
+        "asg",
+        "qytet",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/ligji-p%C3%ABr-specialen-demaku-nga-ky-ligj-pdk-ja-nuk-p%C3%ABrfiton-asgj%C3%AB-p%C3%ABrfitojn%C3%AB-qytetar%C3%ABt"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ligji-per-specialen-demaku-nga-ky-ligj-pdk-ja-nuk-perfiton-asgje-perfitojne"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "\u201CKurti me komoditet t\u00EB friksh\u00EBm tha k\u00EBt\u00EB jav\u00EB i p\u00EBrgjigjem inciativ\u00EBs\u201D: Nata e 15-t\u00EB, protestuesit b\u00EBrtasin \u201Cmarre\u201D - NACIONALE",
+      "Tokens": [
+        "kurt",
+        "komod",
+        "friks",
+        "ket",
+        "jav",
+        "pergj",
+        "incia",
+        "nat",
+        "prote",
+        "berta",
+        "marr",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/kurti-me-komoditet-te-frikshem-tha-kete-jave-i-pergjigjem-inciatives-nata-e-15-te-protestuesit-bertasin-marre"
+      ],
+      "Articles": {
+        "kosova-fakt": "kurti-me-komoditet-te-frikshem-tha-kete-jave-i-pergjigjem-inciatives-nata-e-15"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Nj\u00EB dit\u00EB para tubimit t\u00EB 1 tetorit, sheshi \u0022Sk\u00EBnderbeu\u0022 s\u00EBrish p\u00EBrplot me qytetar\u00EB - NACIONALE",
+      "Tokens": [
+        "dit",
+        "tubim",
+        "tetor",
+        "shesh",
+        "skend",
+        "seris",
+        "perpl",
+        "qytet",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/nj%C3%AB-dit%C3%AB-para-tubimit-t%C3%AB-1-tetorit-sheshi-sk%C3%ABnderbeu-s%C3%ABrish-p%C3%ABrplot-me-qytetar%C3%AB"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nje-dite-para-tubimit-te-1-tetorit-sheshi-skenderbeu-serish-perplot-me-qytetare"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Tasholli p\u00EBr protest\u00EBn e nes\u00EBrme: Kemi ftuar t\u00EB gjith\u00EB lider\u00EBt, kemi d\u00EBshir\u00EB q\u00EB t\u00EB gjith\u00EB t\u00EB jen\u00EB aty - NACIONALE",
+      "Tokens": [
+        "tasho",
+        "prote",
+        "neser",
+        "kem",
+        "ftuar",
+        "gjith",
+        "lider",
+        "deshi",
+        "jen",
+        "aty",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/tasholli-per-protesten-e-neserme-kemi-ftuar-te-gjithe-lideret-kemi-deshire-qe-te-gjithe-te-jene-aty"
+      ],
+      "Articles": {
+        "raporti-sot": "tasholli-per-protesten-e-neserme-kemi-ftuar-te-gjithe-lideret-kemi-deshire-qe"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "U albinkurtizuam t\u00EB gjith\u00EB - NACIONALE",
+      "Tokens": [
+        "albin",
+        "gjith",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/opinion/u-albinkurtizuam-te-gjithe"
+      ],
+      "Articles": {
+        "infokosove24": "u-albinkurtizuam-te-gjithe-nacionale"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Pasagjeri tregon se si e neutralizoi pilotin q\u00EB thuhet se tentoi ta rr\u00EBzonte aeroplanin Dubai \u2013 Tel Aviv - NACIONALE",
+      "Tokens": [
+        "pasag",
+        "trego",
+        "neutr",
+        "pilot",
+        "thuh",
+        "tento",
+        "rrezo",
+        "aerop",
+        "duba",
+        "tel",
+        "aviv",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/globale/pasagjeri-tregon-se-si-e-neutralizoi-pilotin-qe-thuhet-se-tentoi-ta-rrezonte-aeroplanin-dubai-tel-aviv"
+      ],
+      "Articles": {
+        "kosova-aktuale": "pasagjeri-tregon-se-si-e-neutralizoi-pilotin-qe-thuhet-se-tentoi-ta-rrezonte"
+      }
+    },
+    {
+      "At": "2026-09-30T21:23:50.6092737+00:00",
+      "Title": "Gucati paralajm\u00EBron Qeverin\u00EB: N\u00EBse s\u2019ndryshohet Ligji p\u00EBr Specialen, do t\u00EB nd\u00EBrmarrim hapa t\u00EB tjer\u00EB - NACIONALE",
+      "Tokens": [
+        "gucat",
+        "paral",
+        "qever",
+        "nes",
+        "ndrys",
+        "ligj",
+        "speci",
+        "nderm",
+        "hap",
+        "tjer",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/gucati-paralajmeron-qeverine-nese-sndryshohet-ligji-per-specialen-do-te-ndermarrim-hapa-te-tjere"
+      ],
+      "Articles": {
+        "kosova-fakt": "gucati-paralajmeron-qeverine-nese-s-ndryshohet-ligji-per-specialen-do-te"
+      }
+    },
     {
       "At": "2026-09-30T16:48:32.4609545+00:00",
       "Title": "U kap\u00EBn n\u00EB flagranc\u00EB duke marr\u00EB fajde, Prokuroria n\u00EB Prizren k\u00EBrkon paraburgosjen e dy personave",
