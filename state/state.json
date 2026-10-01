@@ -1,6 +1,632 @@
 {
-  "RotationCursor": 4,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Sharon Stone: Mungesa e edukimit seksual m\u00EB la shtatz\u00EBn\u00EB kur isha adoleshente",
+      "Tokens": [
+        "sharo",
+        "ston",
+        "munge",
+        "eduki",
+        "seksu",
+        "shtat",
+        "ish",
+        "adole"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sharon-stone-mungesa-e-edukimit-seksual-me-la-shtatzene-kur-isha-adoleshente/",
+        "https://sinjali.com/sharon-stone-mungesa-e-edukimit-seksual-me-la-shtatzene-kur-isha-adoleshente/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "sharon-stone-mungesa-e-edukimit-seksual-me-la-shtatzene-kur-isha-adoleshente"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Kurti: Sot nisim komunikimet p\u00EBr takime me opozit\u00EBn p\u00EBr presidentin",
+      "Tokens": [
+        "kurt",
+        "nisim",
+        "komun",
+        "takim",
+        "opozi",
+        "presi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-sot-nisim-komunikimet-per-takime-me-opoziten-per-presidentin/",
+        "https://nacionale.com/politike/pese-dite-te-mbetura-kurti-thote-se-nga-sot-synon-te-kete-takime-me-opoziten-per-zgjedhjen-e-presidentin"
+      ],
+      "Articles": {
+        "raporti-sot": "kurti-sot-nisim-komunikimet-per-takime-me-opoziten-per-presidentin"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Mbyllen dy rrug\u00EB n\u00EB Prishtin\u00EB para marshit t\u00EB sot\u00EBm",
+      "Tokens": [
+        "mbyll",
+        "rrug",
+        "prish",
+        "marsh",
+        "sotem"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mbyllen-dy-rruge-ne-prishtine-para-marshit-te-sotem/",
+        "https://nacionale.com/politike/policia-paralajmeron-mbylljen-e-dy-rrugeve-ne-prishtine-para-protestes"
+      ],
+      "Articles": {
+        "infokosove24": "mbyllen-dy-rruge-ne-prishtine-para-marshit-te-sotem"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Ursula von der Leyen pritet me protest\u00EB \u201CJo n\u00EB emrin tim,\u201D t\u00EB rinj me pankarta i z\u00EBn\u00EB udh\u00EB nga aeroporti - NACIONALE",
+      "Tokens": [
+        "ursul",
+        "von",
+        "der",
+        "ley",
+        "prit",
+        "prote",
+        "emr",
+        "tim",
+        "rinj",
+        "panka",
+        "zen",
+        "udh",
+        "aerop",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/jo-ne-emrin-tim-te-rinjte-protestojne-ne-aeroportin-e-prishtines-para-mberritjes-se-von-der-leyen/",
+        "https://nacionale.com/politike/ursula-von-der-leyen-pritet-me-proteste-jo-ne-emrin-tim-te-rinj-me-pankarta-i-zene-udhe-nga-aeroporti"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ursula-von-der-leyen-pritet-me-proteste-jo-ne-emrin-tim-te-rinj-me-pankarta-i"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Rasti i administrimit t\u00EB drejt\u00EBsis\u00EB, Specialja i vazhdon Tha\u00E7it paraburgimin - NACIONALE",
+      "Tokens": [
+        "rast",
+        "admin",
+        "drejt",
+        "speci",
+        "vazhd",
+        "thac",
+        "parab",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/specialja-ia-vazhdon-paraburgimin-thacit-ne-rastin-kunder-administrimit-te-drejtesise/",
+        "https://nacionale.com/politike/rasti-i-administrimit-te-drejtesise-specialja-i-vazhdon-thacit-paraburgimin"
+      ],
+      "Articles": {
+        "kosova-fakt": "specialja-ia-vazhdon-paraburgimin-thacit-ne-rastin-kunder-administrimit-te"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Gjykata Speciale: Nuk jemi konsultuar p\u00EBr nism\u00EBn e ndryshimit t\u00EB ligjit",
+      "Tokens": [
+        "gjyka",
+        "speci",
+        "jem",
+        "konsu",
+        "nism",
+        "ndrys",
+        "ligj"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gjykata-speciale-nuk-jemi-konsultuar-per-nismen-e-ndryshimit-te-ligjit/",
+        "https://www.evropaelire.org/a/gjykata-speciale-nisma-konsultimi/33867786.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "gjykata-speciale-nuk-jemi-konsultuar-per-nismen-e-ndryshimit-te-ligjit"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Dua Lipa refuzon \u201Cbetej\u00EBn e Britanis\u00EB\u201D \u2013 K\u00EBng\u00EBtarja shqiptare nuk do k\u00EBndoj\u00EB n\u00EB duelin Fury-Joshua",
+      "Tokens": [
+        "dua",
+        "lip",
+        "refuz",
+        "betej",
+        "brita",
+        "kenge",
+        "shqip",
+        "kendo",
+        "duel",
+        "fury",
+        "joshu"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dua-lipa-refuzon-betejen-e-britanise-kengetarja-shqiptare-nuk-do-kendoje-ne-duelin-fury-joshua/"
+      ],
+      "Articles": {
+        "raporti-sot": "dua-lipa-refuzon-betejen-e-britanise-kengetarja-shqiptare-nuk-do-kendoje-ne"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Imazhet e reja t\u00EB Google Maps zbulojn\u00EB shkall\u00EBn masive t\u00EB shkat\u00EBrrimit n\u00EB Gaza",
+      "Tokens": [
+        "imazh",
+        "rej",
+        "googl",
+        "maps",
+        "zbulo",
+        "shkal",
+        "masi",
+        "shkat",
+        "gaz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/imazhet-e-reja-te-google-maps-zbulojne-shkallen-masive-te-shkaterrimit-ne-gaza/"
+      ],
+      "Articles": {
+        "infokosove24": "imazhet-e-reja-te-google-maps-zbulojne-shkallen-masive-te-shkaterrimit-ne-gaza"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Von der Leyen n\u00EB Kosov\u00EB, shefi i Zyr\u00EBs s\u00EB BE: Vizita e saj vjen n\u00EB koh\u00EBn kur partit\u00EB duhet t\u00EB veprojn\u00EB p\u00EBr Presidentin",
+      "Tokens": [
+        "von",
+        "der",
+        "ley",
+        "koso",
+        "shef",
+        "zyr",
+        "vizit",
+        "vjen",
+        "koh",
+        "part",
+        "duh",
+        "vepro",
+        "presi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/von-der-leyen-ne-kosove-shefi-i-zyres-se-be-vizita-e-saj-vjen-ne-kohen-kur-partite-duhet-te-veprojne-per-presidentin/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "von-der-leyen-ne-kosove-shefi-i-zyres-se-be-vizita-e-saj-vjen-ne-kohen-kur"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Komb\u00EBtarja e Kosov\u00EBs m\u00EB e vlefshme se ajo e Izraelit: Kush prin te \u201CDardan\u00EBt\u201D?",
+      "Tokens": [
+        "kombe",
+        "kosov",
+        "vlefs",
+        "izrae",
+        "kush",
+        "prin",
+        "darda"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kombetarja-e-kosoves-me-e-vlefshme-se-ajo-e-izraelit-kush-prin-te-dardanet/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kombetarja-e-kosoves-me-e-vlefshme-se-ajo-e-izraelit-kush-prin-te-dardanet"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Ndahet nga jeta polici nga Vushtrria, Bali Haxha \u2013 sot p\u00EBrcillet n\u00EB banes\u00EBn e fundit",
+      "Tokens": [
+        "ndah",
+        "jet",
+        "polic",
+        "vusht",
+        "bal",
+        "haxh",
+        "perci",
+        "banes",
+        "fund"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndahet-nga-jeta-polici-nga-vushtrria-bali-haxha-sot-percillet-ne-banesen-e-fundit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndahet-nga-jeta-polici-nga-vushtrria-bali-haxha-sot-percillet-ne-banesen-e"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Bllokimi i daljeve t\u00EB aeroportit t\u00EB Prishtin\u00EBs, eskorta e Ursula von Der Leyen detyrohet t\u00EB kaloj\u00EB n\u00EBp\u00EBr rrug\u00EB alternative",
+      "Tokens": [
+        "bllok",
+        "dalj",
+        "aerop",
+        "prish",
+        "eskor",
+        "ursul",
+        "von",
+        "der",
+        "ley",
+        "detyr",
+        "kalo",
+        "neper",
+        "rrug",
+        "alter"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/bllokimi-i-daljeve-te-aeroportit-te-prishtines-eskorta-e-ursula-von-der-leyen-detyrohet-te-kaloje-neper-rruge-alternative/"
+      ],
+      "Articles": {
+        "raporti-sot": "bllokimi-i-daljeve-te-aeroportit-te-prishtines-eskorta-e-ursula-von-der-leyen"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Studimi alarmon: Mbi 90% e produkteve plastike p\u00EBrmbajn\u00EB kimikate t\u00EB rrezikshme",
+      "Tokens": [
+        "studi",
+        "alarm",
+        "produ",
+        "plast",
+        "permb",
+        "kimik",
+        "rrezi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/studimi-alarmon-mbi-90-e-produkteve-plastike-permbajne-kimikate-te-rrezikshme/"
+      ],
+      "Articles": {
+        "infokosove24": "studimi-alarmon-mbi-90-e-produkteve-plastike-permbajne-kimikate-te-rrezikshme"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Sot pritet t\u00EB nis shqyrtimi gjyq\u00EBsor n\u00EB gjykimin ndaj Fatmir Shehollit",
+      "Tokens": [
+        "prit",
+        "nis",
+        "shqyr",
+        "gjyqe",
+        "gjyki",
+        "ndaj",
+        "fatmi",
+        "sheho"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sot-pritet-te-nis-shqyrtimi-gjyqesor-ne-gjykimin-ndaj-fatmir-shehollit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "sot-pritet-te-nis-shqyrtimi-gjyqesor-ne-gjykimin-ndaj-fatmir-shehollit"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Hila paraqitet nes\u00EBr n\u00EB polici \u2013 Kontaktohen 4 nga viktimat e identifikuara n\u00EB videot intime, dy t\u00EB gatshme p\u00EBr bashk\u00EBpunim",
+      "Tokens": [
+        "hil",
+        "paraq",
+        "neser",
+        "polic",
+        "konta",
+        "vikti",
+        "ident",
+        "video",
+        "intim",
+        "gatsh",
+        "bashk"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hila-paraqitet-neser-ne-polici-kontaktohen-4-nga-viktimat-e-identifikuara-ne-videot-intime-dy-te-gatshme-per-bashkepunim/"
+      ],
+      "Articles": {
+        "kosova-fakt": "hila-paraqitet-neser-ne-polici-kontaktohen-4-nga-viktimat-e-identifikuara-ne"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Policia zgjeron hetimet p\u00EBr videot intime, ftohen p\u00EBr deklarim personat n\u00EB pamje",
+      "Tokens": [
+        "polic",
+        "zgjer",
+        "hetim",
+        "video",
+        "intim",
+        "ftoh",
+        "dekla",
+        "perso",
+        "pam"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-zgjeron-hetimet-per-videot-intime-ftohen-per-deklarim-personat-ne-pamje/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "policia-zgjeron-hetimet-per-videot-intime-ftohen-per-deklarim-personat-ne-pamje"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "PDK rrit insistimin p\u00EBr ndryshimin e ligjit p\u00EBr Specialen, Kurti k\u00EBrkon \u201Ckujdes\u201D, afati p\u00EBr zgjedhjen e Presidentit po soset",
+      "Tokens": [
+        "pdk",
+        "rrit",
+        "insis",
+        "ndrys",
+        "ligj",
+        "speci",
+        "kurt",
+        "kerko",
+        "kujd",
+        "afat",
+        "zgjed",
+        "presi",
+        "sos"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pdk-rrit-insistimin-per-ndryshimin-e-ligjit-per-specialen-kurti-kerkon-kujdes-afati-per-zgjedhjen-e-presidentit-po-soset/"
+      ],
+      "Articles": {
+        "raporti-sot": "pdk-rrit-insistimin-per-ndryshimin-e-ligjit-per-specialen-kurti-kerkon-kujdes"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Trump faj\u00EBson s\u00EBrish Ukrain\u00EBn p\u00EBr rritjen rekord t\u00EB \u00E7mimit t\u00EB naft\u00EBs n\u00EB SHBA",
+      "Tokens": [
+        "trump",
+        "fajes",
+        "seris",
+        "ukrai",
+        "rritj",
+        "rekor",
+        "cmim",
+        "naft",
+        "shb"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-fajeson-serish-ukrainen-per-rritjen-rekord-te-cmimit-te-naftes-ne-shba/"
+      ],
+      "Articles": {
+        "infokosove24": "trump-fajeson-serish-ukrainen-per-rritjen-rekord-te-cmimit-te-naftes-ne-shba"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "LEX | D\u00EBshmitari k\u00EBrkon anonimitet, mbyllet p\u00EBr publikun seanca ndaj Momir Pantiqit dhe Zharko Zariqit",
+      "Tokens": [
+        "lex",
+        "deshm",
+        "kerko",
+        "anoni",
+        "mbyll",
+        "publi",
+        "seanc",
+        "ndaj",
+        "momir",
+        "panti",
+        "zhark",
+        "zariq"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-deshmitari-kerkon-anonimitet-mbyllet-per-publikun-seanca-ndaj-momir-pantiqit-dhe-zharko-zariqit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "lex-deshmitari-kerkon-anonimitet-mbyllet-per-publikun-seanca-ndaj-momir"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Dy kosovar\u00EB arrestohen n\u00EB Gjermani, dyshohen p\u00EBr zjarrv\u00EBnie dhe tentativ\u00EB vrasjeje",
+      "Tokens": [
+        "kosov",
+        "arres",
+        "gjerm",
+        "dysho",
+        "zjarr",
+        "tenta",
+        "vrasj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dy-kosovare-arrestohen-ne-gjermani-dyshohen-per-zjarrvenie-dhe-tentative-vrasjeje/"
+      ],
+      "Articles": {
+        "kosova-fakt": "dy-kosovare-arrestohen-ne-gjermani-dyshohen-per-zjarrvenie-dhe-tentative"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Dy \u00221 tetor\u00EBt\u0022 e Sadik Zeqirit",
+      "Tokens": [
+        "tetor",
+        "sadik",
+        "zeqir"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/protesta-1-tetori-sadik-zeqiri/33867312.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dy-1-tetoret-e-sadik-zeqirit"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "T\u00EB burgosurit e liruar politik\u00EB n\u00EB Iran rikthehen n\u00EB jet\u00EBn normale, por pa sendet e konfiskuara",
+      "Tokens": [
+        "burgo",
+        "lirua",
+        "polit",
+        "iran",
+        "rikth",
+        "jet",
+        "norma",
+        "send",
+        "konfi"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/burgosurit-politika-iran-lirohen-senet-konfiskohen/33866714.html"
+      ],
+      "Articles": {
+        "raporti-sot": "te-burgosurit-e-liruar-politike-ne-iran-rikthehen-ne-jeten-normale-por-pa"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "T\u00EB rinj e presin me pankarta \u0022Jo n\u00EB emrin tim\u0022 Presidenten e Komisionit Evropian e cila pritet t\u00EB mb\u00EBrrij\u00EB n\u00EB Prishtin\u00EB p\u00EBr vizit\u00EB - NACIONALE",
+      "Tokens": [
+        "rinj",
+        "pres",
+        "panka",
+        "emr",
+        "tim",
+        "presi",
+        "komis",
+        "evrop",
+        "prit",
+        "mberr",
+        "prish",
+        "viz",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/te-rinj-e-presin-me-pankarta-jo-ne-emrin-tim-presidenten-e-komisionit-evropian-e-cila-pritet-te-mberrije-ne-prishtine-per-vizite"
+      ],
+      "Articles": {
+        "infokosove24": "te-rinj-e-presin-me-pankarta-jo-ne-emrin-tim-presidenten-e-komisionit-evropian"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "PDK vazhdon protest\u00EBn n\u00EB Kuvend, braktis edhe sot pun\u00EBn e komisioneve: Prioritet Ligji p\u00EBr Gjykat\u00EBn Speciale - NACIONALE",
+      "Tokens": [
+        "pdk",
+        "vazhd",
+        "prote",
+        "kuven",
+        "brakt",
+        "pun",
+        "komis",
+        "prior",
+        "ligj",
+        "gjyka",
+        "speci",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/pdk-vazhdon-protesten-ne-kuvend-edhe-sot-braktis-punen-e-komisioneve-prioritet-eshte-ligji-per-specialen"
+      ],
+      "Articles": {
+        "kosova-aktuale": "pdk-vazhdon-protesten-ne-kuvend-braktis-edhe-sot-punen-e-komisioneve-prioritet"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Ajo \u00E7far\u00EB \u00EBsht\u00EB Aleksand\u00EBr Dugin p\u00EBr Putinin, Veton Surroi \u00EBsht\u00EB p\u00EBr Albin Kurtin. - NACIONALE",
+      "Tokens": [
+        "aleks",
+        "dug",
+        "putin",
+        "veton",
+        "surro",
+        "alb",
+        "kurt",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/opinion/ajo-cfare-eshte-aleksander-dugin-per-putinin-veton-surroi-eshte-per-albin-kurtin"
+      ],
+      "Articles": {
+        "kosova-fakt": "ajo-cfare-eshte-aleksander-dugin-per-putinin-veton-surroi-eshte-per-albin"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "\u201CLiria ka Em\u00EBr\u201D th\u00EBrret qytetar\u00EBt n\u00EB protest\u00EBn e sotme: \u201CBac s\u2019u kry!\u201D - NACIONALE",
+      "Tokens": [
+        "liri",
+        "emer",
+        "therr",
+        "qytet",
+        "prote",
+        "sotm",
+        "bac",
+        "kry",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/liria-ka-emer-therret-qytetaret-ne-protesten-e-sotme-bac-su-kry"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "liria-ka-emer-therret-qytetaret-ne-protesten-e-sotme-bac-s-u-kry-nacionale"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Ramadani i Aleanc\u00EBs: S\u2019jemi pjes\u00EB e negociatave p\u00EBr presidentin, p\u00EBr Kurtin q\u00EBllimi \u00EBsht\u00EB ve\u00E7 forma dhe fotografia - NACIONALE",
+      "Tokens": [
+        "ramad",
+        "alean",
+        "jem",
+        "pjes",
+        "negoc",
+        "presi",
+        "kurt",
+        "qelli",
+        "vec",
+        "form",
+        "fotog",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/ramadani-i-aleances-sjemi-pjese-e-negociatave-per-presidentin-per-kurtin-qellimi-eshte-vec-forma-dhe-fotografia"
+      ],
+      "Articles": {
+        "raporti-sot": "ramadani-i-aleances-s-jemi-pjese-e-negociatave-per-presidentin-per-kurtin"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "Projektligji p\u00EBr Specialen, Berisha: Kjo \u00E7\u00EBshtje nuk \u00EBsht\u00EB ve\u00E7 e nj\u00EB partie, \u00EBsht\u00EB e t\u00EB gjith\u00EBve - NACIONALE",
+      "Tokens": [
+        "proje",
+        "speci",
+        "beris",
+        "cesht",
+        "vec",
+        "parti",
+        "gjith",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/projektligji-per-specialen-berisha-kjo-ceshtje-nuk-eshte-vec-e-nje-partie-eshte-e-te-gjitheve"
+      ],
+      "Articles": {
+        "infokosove24": "projektligji-per-specialen-berisha-kjo-ceshtje-nuk-eshte-vec-e-nje-partie-eshte"
+      }
+    },
+    {
+      "At": "2026-10-01T11:32:17.4878677+00:00",
+      "Title": "K\u00EBrkohet procedimi i projektligjit p\u00EBr Gjykat\u00EBn Speciale, PDK largohet nga Komisioni p\u00EBr Mbik\u00EBqyrjen e AKI-s\u00EB - NACIONALE",
+      "Tokens": [
+        "kerko",
+        "proce",
+        "proje",
+        "gjyka",
+        "speci",
+        "pdk",
+        "largo",
+        "komis",
+        "mbike",
+        "aki",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://nacionale.com/politike/kerkohet-procedimi-i-projektligjit-per-gjykaten-speciale-pdk-largohet-nga-komisioni-per-mbikeqyrjen-e-aki-se"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kerkohet-procedimi-i-projektligjit-per-gjykaten-speciale-pdk-largohet-nga"
+      }
+    },
     {
       "At": "2026-09-30T21:23:50.6092737+00:00",
       "Title": "Haradinaj: Edhe po t\u00EB kthehesha n\u00EB koh\u00EB, nuk do ta votoja Gjykat\u00EBn Speciale",
