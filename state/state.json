@@ -1,6 +1,374 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "B\u00EBhet \u201Chero\u201D n\u00EB Zvic\u00EBr, shqiptari nga Kosova shp\u00EBton kat\u00EBr pasagjer\u00EB nga Fiati q\u00EB po digjej",
+      "Tokens": [
+        "beh",
+        "hero",
+        "zvice",
+        "shqip",
+        "kosov",
+        "shpet",
+        "kater",
+        "pasag",
+        "fiat",
+        "digje"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/behet-hero-ne-zvicer-shqiptari-nga-kosova-shpeton-kater-pasagjere-nga-fiati-qe-po-digjej/",
+        "https://www.gazetaexpress.com/behet-hero-ne-zvicer-shqiptari-nga-kosova-qe-nxori-4-pasagjeret-nga-fiati-qe-po-digjej/"
+      ],
+      "Articles": {
+        "infokosove24": "behet-hero-ne-zvicer-shqiptari-nga-kosova-qe-nxori-4-pasagjeret-nga-fiati-qe-po"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Mbapp\u00E9 ia dha 180 mij\u00EB euro, nd\u00EBrsa 15 lojtar\u00EB t\u00EB tjer\u00EB i huazuan para: Skandali q\u00EB shp\u00EBrtheu n\u00EB Franc\u00EB",
+      "Tokens": [
+        "mbapp",
+        "dha",
+        "180",
+        "mij",
+        "euro",
+        "nders",
+        "lojta",
+        "tjer",
+        "huazu",
+        "skand",
+        "shper",
+        "franc"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/mbappe-ia-dha-180-mije-euro-ndersa-15-lojtare-te-tjere-i-huazuan-para-skandali-qe-shpertheu-ne-france/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mbappe-ia-dha-180-mije-euro-ndersa-15-lojtare-te-tjere-i-huazuan-para-skandali"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "France 24: Mij\u00EBra veta protestuan n\u00EB Kosov\u00EB derisa shefja e BE\u2019s\u00EB b\u00EBri thirrje nga Prishtina q\u00EB t\u00EB respektohet Gjykata p\u00EBr krime lufte",
+      "Tokens": [
+        "franc",
+        "mijer",
+        "vet",
+        "prote",
+        "koso",
+        "deris",
+        "shef",
+        "ber",
+        "thirr",
+        "prish",
+        "respe",
+        "gjyka",
+        "krim",
+        "luft"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/france-24-mijera-vetaprotestuan-ne-kosove-derisa-shefja-e-bese-beri-thirrje-nga-prishtina-qe-te-respektohet-gjykata-per-krime-lufte/"
+      ],
+      "Articles": {
+        "kosova-fakt": "france-24-mijera-veta-protestuan-ne-kosove-derisa-shefja-e-be-se-beri-thirrje"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Nagavci thot\u00EB se Bekim Sejdiu do ta shqyrtonte rikandidimin p\u00EBr president n\u00EBse do t\u00EB kishte vullnet t\u00EB deputet\u00EBve",
+      "Tokens": [
+        "nagav",
+        "bekim",
+        "sejdi",
+        "shqyr",
+        "rikan",
+        "presi",
+        "nes",
+        "vulln",
+        "deput"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nagavci-thote-se-bekim-sejdiu-do-ta-shqyrtonte-rikandidimin-per-president-nese-do-te-kishte-vullnet-te-deputeteve/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nagavci-thote-se-bekim-sejdiu-do-ta-shqyrtonte-rikandidimin-per-president-nese"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Arrestohet n\u00EB Viti i dyshuari p\u00EBr arm\u00EBmbajtje pa leje, sekuestrohet AK-47 dhe municion",
+      "Tokens": [
+        "arres",
+        "vit",
+        "dyshu",
+        "armem",
+        "lej",
+        "sekue",
+        "munic"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arrestohet-ne-viti-i-dyshuari-per-armembajtje-pa-leje-sekuestrohet-ak-47-dhe-municion/"
+      ],
+      "Articles": {
+        "raporti-sot": "arrestohet-ne-viti-i-dyshuari-per-armembajtje-pa-leje-sekuestrohet-ak-47-dhe"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Irani: Rihapja e Hormuzit varet nga garancit\u00EB e SHBA-s\u00EB p\u00EBr p\u00EBrfundimin e luft\u00EBs",
+      "Tokens": [
+        "iran",
+        "rihap",
+        "hormu",
+        "var",
+        "garan",
+        "shb",
+        "perfu",
+        "luft"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/irani-rihapja-e-hormuzit-varet-nga-garancite-e-shba-se-per-perfundimin-e-luftes/"
+      ],
+      "Articles": {
+        "infokosove24": "irani-rihapja-e-hormuzit-varet-nga-garancite-e-shba-se-per-perfundimin-e-luftes"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Ambasada e Izraelit n\u00EB Kosov\u00EB: Incidenti n\u00EB fluturimin Dubai\u2013Tel Aviv ishte tentativ\u00EB sulmi terrorist",
+      "Tokens": [
+        "ambas",
+        "izrae",
+        "koso",
+        "incid",
+        "flutu",
+        "duba",
+        "tel",
+        "aviv",
+        "tenta",
+        "sulm",
+        "terro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ambasada-e-izraelit-ne-kosove-incidenti-ne-fluturimin-dubai-tel-aviv-ishte-tentative-sulmi-terrorist/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ambasada-e-izraelit-ne-kosove-incidenti-ne-fluturimin-dubai-tel-aviv-ishte"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "P\u00EBrdoruesit e iPhone 18 Pro raportojn\u00EB k\u00EBrcitje dhe klikime nga altoparlanti",
+      "Tokens": [
+        "perdo",
+        "iphon",
+        "pro",
+        "rapor",
+        "kerci",
+        "kliki",
+        "altop"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/perdoruesit-e-iphone-18-pro-raportojne-kercitje-dhe-klikime-nga-altoparlanti/"
+      ],
+      "Articles": {
+        "kosova-fakt": "perdoruesit-e-iphone-18-pro-raportojne-kercitje-dhe-klikime-nga-altoparlanti"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Bitcoin dob\u00EBsohet n\u00EBn presionin e dollarit, \u00E7far\u00EB pritet m\u00EB tej?",
+      "Tokens": [
+        "bitco",
+        "dobes",
+        "presi",
+        "dolla",
+        "prit",
+        "tej"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bitcoin-dobesohet-nen-presionin-e-dollarit-cfare-pritet-me-tej/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "bitcoin-dobesohet-nen-presionin-e-dollarit-cfare-pritet-me-tej"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Bill Gates: Kompanit\u00EB q\u00EB z\u00EBvend\u00EBsojn\u00EB pun\u00EBtor\u00EBt me robot\u00EB duhet t\u00EB paguajn\u00EB t\u00EB nj\u00EBjtat taksa",
+      "Tokens": [
+        "bill",
+        "gat",
+        "kompa",
+        "zeven",
+        "punet",
+        "robot",
+        "duh",
+        "pagua",
+        "njejt",
+        "taks"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bill-gates-kompanite-qe-zevendesojne-punetoret-me-robote-duhet-te-paguajne-te-njejtat-taksa/"
+      ],
+      "Articles": {
+        "raporti-sot": "bill-gates-kompanite-qe-zevendesojne-punetoret-me-robote-duhet-te-paguajne-te"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Trump: Irani do t\u00EB goditet r\u00EBnd\u00EB n\u00EBse konfirmohet lidhja me incidentin e Flydubai",
+      "Tokens": [
+        "trump",
+        "iran",
+        "godit",
+        "rend",
+        "nes",
+        "konfi",
+        "lidh",
+        "incid",
+        "flydu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-irani-do-te-goditet-rende-nese-konfirmohet-lidhja-me-incidentin-e-flydubai/"
+      ],
+      "Articles": {
+        "infokosove24": "trump-irani-do-te-goditet-rende-nese-konfirmohet-lidhja-me-incidentin-e-flydubai"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "\u201CKamerat i vendosa p\u00EBr sigurin\u00EB e banes\u00EBs, nuk kishin memorie\u201D, fjal\u00EBt e Adrian Hil\u00EBs n\u00EB Polici sipas mediave shqiptare",
+      "Tokens": [
+        "kamer",
+        "vendo",
+        "sigur",
+        "banes",
+        "kish",
+        "memor",
+        "fjal",
+        "adria",
+        "hil",
+        "polic",
+        "sipas",
+        "medi",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kamerat-i-vendosa-per-sigurine-e-baneses-nuk-kishin-memorie-fjalet-e-adrian-hiles-ne-polici-sipas-mediave-shqiptare/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kamerat-i-vendosa-per-sigurine-e-baneses-nuk-kishin-memorie-fjalet-e-adrian"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Ndeshja Izrael\u2013Kosov\u00EB pa fitues, Dardan\u00EBt marrin nj\u00EB pik\u00EB",
+      "Tokens": [
+        "ndesh",
+        "izrae",
+        "koso",
+        "fitu",
+        "darda",
+        "marr",
+        "pik"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndeshja-izrael-kosove-pa-fitues-dardanet-marrin-nje-pike/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ndeshja-izrael-kosove-pa-fitues-dardanet-marrin-nje-pike"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "\u201CMillosheviqi mendje gjenocidale\u201D, Clark: Tha\u00E7i patriot, u kthye n\u00EB Kosov\u00EB n\u00EB koh\u00EB krize",
+      "Tokens": [
+        "millo",
+        "mend",
+        "gjeno",
+        "clark",
+        "thac",
+        "patri",
+        "kthy",
+        "koso",
+        "koh",
+        "kriz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/millosheviqi-mendje-gjenocidale-clark-thaci-patriot-u-kthye-ne-kosove-ne-kohe-krize/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "millosheviqi-mendje-gjenocidale-clark-thaci-patriot-u-kthye-ne-kosove-ne-kohe"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Momenti kur vjehrra e sheh Auror\u00EBn n\u00EB kanagjeq, v\u00EBllai i dhuron para dhe dhurata e Suanit\u00EBs",
+      "Tokens": [
+        "momen",
+        "vjehr",
+        "sheh",
+        "auror",
+        "kanag",
+        "vella",
+        "dhuro",
+        "dhura",
+        "suani"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/momenti-kur-vjehrra-e-sheh-auroren-ne-kanagjeq-vellai-i-dhuron-para-dhe-dhurata-e-suanites/"
+      ],
+      "Articles": {
+        "raporti-sot": "momenti-kur-vjehrra-e-sheh-auroren-ne-kanagjeq-vellai-i-dhuron-para-dhe-dhurata"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "Tasholli: Liria ka Em\u00EBr nuk do t\u00EB ndalet, sot n\u00EB protest\u00EB ishin mbi 100 mij\u00EB njer\u00EBz",
+      "Tokens": [
+        "tasho",
+        "liri",
+        "emer",
+        "ndal",
+        "prote",
+        "ish",
+        "100",
+        "mij",
+        "njere"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/tasholli-sot-ne-protesteishin-mbi-100-mije-njerez/"
+      ],
+      "Articles": {
+        "infokosove24": "tasholli-liria-ka-emer-nuk-do-te-ndalet-sot-ne-proteste-ishin-mbi-100-mije"
+      }
+    },
+    {
+      "At": "2026-10-01T23:05:31.2269618+00:00",
+      "Title": "\u201CKur i mbylla syt\u00EB sot, i nj\u00EBjti p\u00EBrjetim\u201D, Driton Laj\u00E7i krahason protestat studentore t\u00EB vitit 1997 me t\u00EB sotit",
+      "Tokens": [
+        "mbyll",
+        "syt",
+        "njejt",
+        "perje",
+        "drito",
+        "lajc",
+        "kraha",
+        "prote",
+        "stude",
+        "vit",
+        "1997",
+        "sot"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kur-i-mbylla-syte-sot-i-njejti-perjetim-driton-lajci-krahason-protestat-studentore-te-vitit-1997-me-te-sotit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kur-i-mbylla-syte-sot-i-njejti-perjetim-driton-lajci-krahason-protestat"
+      }
+    },
     {
       "At": "2026-10-01T18:48:35.8663663+00:00",
       "Title": "Nd\u00EBrtesa e Qeveris\u00EB ndri\u00E7ohet me flamurin e U\u00C7K-s\u00EB",
