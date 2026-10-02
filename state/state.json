@@ -2,6 +2,522 @@
   "RotationCursor": 3,
   "Published": [
     {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Kurti takohet me Trumpin n\u00EB SHBA",
+      "Tokens": [
+        "kurt",
+        "takoh",
+        "trump",
+        "shb"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/kurti-takon-trumpin-per-here-te-pare-shba-te-jane-aleati-kryesor-i-kosoves/",
+        "https://sinjali.com/kurti-takohet-me-trumpin-ne-shba/",
+        "https://www.gazetaexpress.com/kurti-publikon-fotografine-me-trump-kisha-nderin-ta-takoj-per-here-te-pare-shba-mik-special/",
+        "https://sinjali.com/kurti-takohet-me-te-ngarkuaren-me-pune-te-ambasades-se-shba-se-diskutojne-zhvillimet-politike/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kurti-publikon-fotografine-me-trump-kisha-nderin-ta-takoj-per-here-te-pare-shba"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Protestuesit aksion para Ministris\u00EB s\u00EB Drejt\u00EBsis\u00EB, i drejtohen G\u00EBrvall\u00EBs: Koha e arsyetimeve ka mbaruar, votojeni ligjin p\u00EBr U\u00C7K-n\u00EB",
+      "Tokens": [
+        "prote",
+        "aksio",
+        "minis",
+        "drejt",
+        "gerva",
+        "koh",
+        "arsye",
+        "mbaru",
+        "votoj",
+        "ligj",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/protestuesit-aksion-para-ministrise-se-drejtesise-i-drejtohen-gervalles-koha-e-arsyetimeve-ka-mbaruar-votojeni-ligjin-per-uck-ne/",
+        "https://sinjali.com/protestuesit-aksion-para-md-se-i-drejtohen-gervalles-koha-e-arsyetimeve-ka-mbaruar-votojeni-ligjin-per-mbrojtjen-e-uck-se/",
+        "https://www.gazetaexpress.com/jo-ne-emrin-tim-aksion-para-minstrise-se-drejtesise-thirrje-gervalles-voto-ligjin-koha-e-arsyetimeve-ka-mbaruar/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "jo-ne-emrin-tim-aksion-para-minstrise-se-drejtesise-thirrje-gervalles-voto"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Greqi: Rumuni plagos me thik\u00EB ish-gruan dhe partnerin e saj shqiptar",
+      "Tokens": [
+        "greq",
+        "rumun",
+        "plago",
+        "thik",
+        "ish",
+        "gruan",
+        "partn",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/e-rende-ne-greqi-32-vjecari-rumun-plagos-ish-gruan-dhe-partnerin-e-saj-shqiptar-hyri-ne-banese-nga-dritarja/",
+        "https://sinjali.com/greqi-rumuni-plagos-me-thike-ish-gruan-dhe-partnerin-e-saj-shqiptar/"
+      ],
+      "Articles": {
+        "raporti-sot": "greqi-rumuni-plagos-me-thike-ish-gruan-dhe-partnerin-e-saj-shqiptar"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Videot intime me Adi Hil\u00EBn, Eli Fara d\u00EBshmon n\u00EB polici: Nuk e dija q\u00EB kishte kamera",
+      "Tokens": [
+        "video",
+        "intim",
+        "adi",
+        "hil",
+        "eli",
+        "far",
+        "deshm",
+        "polic",
+        "dij",
+        "kamer"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/videot-intime-me-adi-hilen-eli-fara-deshmon-ne-polici-nuk-e-dija-qe-kishte-kamera/",
+        "https://www.gazetaexpress.com/videot-intime-me-adi-hilen-eli-fara-deshmon-ne-polici-nuk-e-dija-qe-kishte-kamera/"
+      ],
+      "Articles": {
+        "infokosove24": "videot-intime-me-adi-hilen-eli-fara-deshmon-ne-polici-nuk-e-dija-qe-kishte"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Policia n\u00EB Prizren fillon mbik\u00EBqyrjen e rrug\u00EBve me dron\u00EB",
+      "Tokens": [
+        "polic",
+        "prizr",
+        "fillo",
+        "mbike",
+        "rrug",
+        "dron"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-ne-prizren-fillon-mbikeqyrjen-e-rrugeve-me-drone/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "policia-ne-prizren-fillon-mbikeqyrjen-e-rrugeve-me-drone"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "\u201CHyra me dhun\u00EB n\u00EB sken\u00EB\u201D, Nasim Haradinaj tregon si e mori dje fjal\u00EBn n\u00EB marsh",
+      "Tokens": [
+        "hyr",
+        "dhun",
+        "sken",
+        "nasim",
+        "harad",
+        "trego",
+        "mor",
+        "fjal",
+        "marsh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hyra-me-dhune-ne-skene-nasim-haradinaj-tregon-si-e-mori-dje-fjalen-ne-marsh/"
+      ],
+      "Articles": {
+        "kosova-fakt": "hyra-me-dhune-ne-skene-nasim-haradinaj-tregon-si-e-mori-dje-fjalen-ne-marsh"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Or\u00EBt e fundit p\u00EBr marr\u00EBveshje, Kurti e Hamza takohen sot, Specialja dhe Presidenti n\u00EB tavolin\u00EB",
+      "Tokens": [
+        "oret",
+        "fund",
+        "marre",
+        "kurt",
+        "hamz",
+        "takoh",
+        "speci",
+        "presi",
+        "tavol"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/oret-e-fundit-per-marreveshje-kurti-e-hamza-takohen-sot-specialja-dhe-presidenti-ne-tavoline/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "oret-e-fundit-per-marreveshje-kurti-e-hamza-takohen-sot-specialja-dhe"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Historia e nj\u00EB manipulimi: krijimi i Tribunalit Special p\u00EBr Kosov\u00EBn",
+      "Tokens": [
+        "histo",
+        "manip",
+        "kriji",
+        "tribu",
+        "speci",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/historia-e-nje-manipulimi-krijimi-i-tribunalit-special-per-kosoven/"
+      ],
+      "Articles": {
+        "raporti-sot": "historia-e-nje-manipulimi-krijimi-i-tribunalit-special-per-kosoven"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Trump komenton ekzekutimin e d\u00EBshtuar t\u00EB Christa Pike: Ila\u00E7i nuk funksionoi si\u00E7 duhej",
+      "Tokens": [
+        "trump",
+        "komen",
+        "ekzek",
+        "desht",
+        "chris",
+        "pik",
+        "ilac",
+        "funks",
+        "sic",
+        "duhej"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-komenton-ekzekutimin-e-deshtuar-te-christa-pike-ilaci-nuk-funksionoi-sic-duhej/"
+      ],
+      "Articles": {
+        "infokosove24": "trump-komenton-ekzekutimin-e-deshtuar-te-christa-pike-ilaci-nuk-funksionoi-sic"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Daut Haradinaj kritikon adresimet n\u00EB protest\u00EBn e djeshme: Ishin t\u00EB paqarta",
+      "Tokens": [
+        "daut",
+        "harad",
+        "kriti",
+        "adres",
+        "prote",
+        "djesh",
+        "ish",
+        "paqar"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/daut-haradinaj-kritikon-adresimet-ne-protesten-e-djeshme-ishin-te-paqarta/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "daut-haradinaj-kritikon-adresimet-ne-protesten-e-djeshme-ishin-te-paqarta"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "\u201CLiria Ka Em\u00EBr\u201D fton bashkatdhetar\u00EBt n\u00EB protest\u00EBn e 10 tetorit n\u00EB Bruksel",
+      "Tokens": [
+        "liri",
+        "emer",
+        "fton",
+        "bashk",
+        "prote",
+        "tetor",
+        "bruks"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/liria-ka-emer-fton-bashkatdhetaret-ne-protesten-e-10-tetorit-ne-bruksel/"
+      ],
+      "Articles": {
+        "kosova-fakt": "liria-ka-emer-fton-bashkatdhetaret-ne-protesten-e-10-tetorit-ne-bruksel"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Rama: Qeveria po tenton ta bllokoj\u00EB Tulltoren, nj\u00EBjt\u00EB si\u00E7 veproi me pron\u00EBn p\u00EBr Universitetin",
+      "Tokens": [
+        "ram",
+        "qever",
+        "tento",
+        "bllok",
+        "tullt",
+        "njejt",
+        "sic",
+        "vepro",
+        "pron",
+        "unive"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/rama-qeveria-po-tenton-ta-bllokoje-tulltoren-njejte-sic-veproi-me-pronen-per-universitetin/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "rama-qeveria-po-tenton-ta-bllokoje-tulltoren-njejte-sic-veproi-me-pronen-per"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Federata Angleze reagon pas vendimit p\u00EBr Man Cityn: Ka implikime t\u00EB r\u00EBnd\u00EBsishme p\u00EBr integritetin e futbollit",
+      "Tokens": [
+        "feder",
+        "angle",
+        "reago",
+        "vendi",
+        "man",
+        "cityn",
+        "impli",
+        "rende",
+        "integ",
+        "futbo"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/federata-angleze-reagon-pas-vendimit-per-man-cityn-ka-implikime-te-rendesishme-per-integritetin-e-futbollit/"
+      ],
+      "Articles": {
+        "raporti-sot": "federata-angleze-reagon-pas-vendimit-per-man-cityn-ka-implikime-te-rendesishme"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Brukseli ofron treg t\u00EB p\u00EBrbashk\u00EBt n\u00EBse vendet kandidate t\u00EB BE-s\u00EB \u201Cjan\u00EB t\u00EB gatshme nj\u00EBmend\u201D",
+      "Tokens": [
+        "bruks",
+        "ofron",
+        "treg",
+        "perba",
+        "nes",
+        "vend",
+        "kandi",
+        "gatsh",
+        "njeme"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/brukseli-treg-perbashket-vendet-kandidate-be/33868514.html"
+      ],
+      "Articles": {
+        "infokosove24": "brukseli-ofron-treg-te-perbashket-nese-vendet-kandidate-te-be-se-jane-te"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Protestat n\u00EB shkolla n\u00EB Franc\u00EB p\u00EBrshkall\u00EBzohen n\u00EB \u2018dhun\u00EB urbane\u2019, kryeministri th\u00EBrret mbledhje krize t\u00EB kabinetit",
+      "Tokens": [
+        "prote",
+        "shkol",
+        "franc",
+        "persh",
+        "dhun",
+        "urban",
+        "kryem",
+        "therr",
+        "mbled",
+        "kriz",
+        "kabin"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestat-ne-shkolla-ne-france-pershkallezohen-ne-dhune-urbane-kryeministri-therret-mbledhje-krize-te-kabinetit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "protestat-ne-shkolla-ne-france-pershkallezohen-ne-dhune-urbane-kryeministri"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Nj\u00EB aksident me fatalitet dhe 23 me t\u00EB l\u00EBnduar n\u00EB 24 or\u00EBt e fundit",
+      "Tokens": [
+        "aksid",
+        "fatal",
+        "lendu",
+        "oret",
+        "fund"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nje-aksident-me-fatalitet-dhe-23-me-te-lenduar-ne-24-oret-e-fundit/"
+      ],
+      "Articles": {
+        "kosova-fakt": "nje-aksident-me-fatalitet-dhe-23-me-te-lenduar-ne-24-oret-e-fundit"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Kurti pret Prattipatin, ZKM: \u201CE uroi p\u00EBr formimin e qeveris\u00EB\u201D, \u201Cdiskutime p\u00EBr zhvillimet e fundit\u201D",
+      "Tokens": [
+        "kurt",
+        "pret",
+        "pratt",
+        "zkm",
+        "uro",
+        "formi",
+        "qever",
+        "disku",
+        "zhvil",
+        "fund"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-pret-prattipatin-zkm-e-uroi-per-formimin-e-qeverise-diskutime-per-zhvillimet-e-fundit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kurti-pret-prattipatin-zkm-e-uroi-per-formimin-e-qeverise-diskutime-per"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Organizatat e dala nga lufta e U\u00C7K-s\u00EB n\u00EB Drenas nd\u00EBrpresin bashk\u00EBpunimin me Komun\u00EBn",
+      "Tokens": [
+        "organ",
+        "dal",
+        "luft",
+        "uck",
+        "drena",
+        "nderp",
+        "bashk",
+        "komun"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/organizatat-e-dala-nga-lufta-e-uck-se-ne-drenas-nderpresin-bashkepunimin-me-komunen/"
+      ],
+      "Articles": {
+        "raporti-sot": "organizatat-e-dala-nga-lufta-e-uck-se-ne-drenas-nderpresin-bashkepunimin-me"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Pa WhatsApp, pa klient\u00EB: \u00C7ka po ndodh me llogarit\u00EB e bizneseve n\u00EB Kosov\u00EB?",
+      "Tokens": [
+        "whats",
+        "klien",
+        "cka",
+        "ndodh",
+        "lloga",
+        "bizne",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/whatsapp-llogari-hakim-kosova/33868930.html"
+      ],
+      "Articles": {
+        "infokosove24": "pa-whatsapp-pa-kliente-cka-po-ndodh-me-llogarite-e-bizneseve-ne-kosove"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Kurti: Kemi nisur komunikimet, kjo fundjav\u00EB \u00EBsht\u00EB vendimtare p\u00EBr marr\u00EBveshjen p\u00EBr presidentin",
+      "Tokens": [
+        "kurt",
+        "kem",
+        "nisur",
+        "komun",
+        "fundj",
+        "vendi",
+        "marre",
+        "presi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-kemi-nisur-komunikimet-kjo-fundjave-eshte-vendimtare-per-marreveshjen-per-presidentin/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kurti-kemi-nisur-komunikimet-kjo-fundjave-eshte-vendimtare-per-marreveshjen-per"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Sulmi gjat\u00EB fluturimit t\u00EB FlyDubai, Trump: N\u00EBse Irani \u00EBsht\u00EB p\u00EBrgjegj\u00EBs, do ta godasim shum\u00EB fort",
+      "Tokens": [
+        "sulm",
+        "flutu",
+        "flydu",
+        "trump",
+        "nes",
+        "iran",
+        "pergj",
+        "godas",
+        "shum",
+        "fort"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sulmi-gjate-fluturimit-te-flydubai-trump-nese-irani-eshte-pergjegjes-do-ta-godasim-shume-fort/"
+      ],
+      "Articles": {
+        "kosova-fakt": "sulmi-gjate-fluturimit-te-flydubai-trump-nese-irani-eshte-pergjegjes-do-ta"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Ministri letonez i Mbrojtjes: Sulmet hibride t\u00EB Rusis\u00EB jan\u00EB shqet\u00EBsimi kryesor, jo retorika b\u00EBrthamore",
+      "Tokens": [
+        "minis",
+        "leton",
+        "mbroj",
+        "sulm",
+        "hibri",
+        "rus",
+        "shqet",
+        "kryes",
+        "retor",
+        "berth"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/sulmet-hibride-kercenimet-berthamore-rusia/33868437.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ministri-letonez-i-mbrojtjes-sulmet-hibride-te-rusise-jane-shqetesimi-kryesor"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "BE-ja p\u00EBr protestat n\u00EB Kosov\u00EB pas aktgjykimit n\u00EB Hag\u00EB: Demonstratat paq\u00EBsore jan\u00EB e drejt\u00EB themelore",
+      "Tokens": [
+        "prote",
+        "koso",
+        "aktgj",
+        "hag",
+        "demon",
+        "paqes",
+        "drejt",
+        "theme"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/be-ja-per-protestat-ne-kosove-pas-aktgjykimit-ne-hage-demonstratat-paqesore-jane-e-drejte-themelore/"
+      ],
+      "Articles": {
+        "raporti-sot": "be-ja-per-protestat-ne-kosove-pas-aktgjykimit-ne-hage-demonstratat-paqesore"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "Largimi i SHBA-s\u00EB nga Iraku ngre shqet\u00EBsime p\u00EBr rritjen e ndikimit iranian",
+      "Tokens": [
+        "largi",
+        "shb",
+        "irak",
+        "ngr",
+        "shqet",
+        "rritj",
+        "ndiki",
+        "irani"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/largimi-shba-irak-shqetesim-ndikimi-iranian/33868582.html"
+      ],
+      "Articles": {
+        "infokosove24": "largimi-i-shba-se-nga-iraku-ngre-shqetesime-per-rritjen-e-ndikimit-iranian"
+      }
+    },
+    {
+      "At": "2026-10-02T11:01:35.3949732+00:00",
+      "Title": "T\u00EB gjitha mesazhet q\u00EB dha dje Von der Leyen n\u00EB Kosov\u00EB",
+      "Tokens": [
+        "gjith",
+        "mesaz",
+        "dha",
+        "von",
+        "der",
+        "ley",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/te-gjitha-mesazhet-qe-dha-dje-von-der-leyen-ne-kosove/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "te-gjitha-mesazhet-qe-dha-dje-von-der-leyen-ne-kosove"
+      }
+    },
+    {
       "At": "2026-10-01T23:05:31.2269618+00:00",
       "Title": "B\u00EBhet \u201Chero\u201D n\u00EB Zvic\u00EBr, shqiptari nga Kosova shp\u00EBton kat\u00EBr pasagjer\u00EB nga Fiati q\u00EB po digjej",
       "Tokens": [
