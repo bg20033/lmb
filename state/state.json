@@ -1,6 +1,481 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "KPK shkarkon kryeprokurorin e Prokuroris\u00EB Speciale t\u00EB Kosov\u00EBs, Blerim Isufaj",
+      "Tokens": [
+        "kpk",
+        "shkar",
+        "kryep",
+        "proku",
+        "speci",
+        "kosov",
+        "bleri",
+        "isufa"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pas-shkarkimit-kpk-thote-se-blerim-isufaj-do-vazhdoje-si-prokuror-ne-prokurorine-speciale/",
+        "https://www.evropaelire.org/a/kpk-shkarkon-blerim-isufajn-kryeprokuror-speciales/33869252.html",
+        "https://telegrafi.com/kpk-shkarkon-blerim-isufajn-nga-pozita-e-kryeprokurorit-te-psrk-se/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kpk-shkarkon-kryeprokurorin-e-prokurorise-speciale-te-kosoves-blerim-isufaj"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Dyshohet p\u00EBr zjarr n\u00EB nj\u00EB qend\u00EBr p\u00EBr f\u00EBmij\u00EB n\u00EB Fush\u00EB-Kosov\u00EB",
+      "Tokens": [
+        "dysho",
+        "zjarr",
+        "qende",
+        "femi",
+        "fush",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kaplohet-nga-zjarri-nje-qender-tregtare-ne-rrugen-fushe-kosove-prishtine/",
+        "https://telegrafi.com/dyshohet-per-zjarr-ne-nje-qender-per-femije-ne-fushe-kosove/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dyshohet-per-zjarr-ne-nje-qender-per-femije-ne-fushe-kosove"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Kurti takon ambasador\u00EBt e Franc\u00EBs, Britanis\u00EB dhe Gjermanis\u00EB",
+      "Tokens": [
+        "kurt",
+        "takon",
+        "ambas",
+        "franc",
+        "brita",
+        "gjerm"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/kurti-takon-ambasadoret-e-frances-britanise-dhe-gjermanise/",
+        "https://sinjali.com/kurti-takon-ambasadorin-britanik-diskutohet-finalizimi-i-formimit-te-institucioneve/"
+      ],
+      "Articles": {
+        "raporti-sot": "kurti-takon-ambasadorin-britanik-diskutohet-finalizimi-i-formimit-te"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Dy or\u00EB nga fillimi i takimit \u2013 A do prodhojn\u00EB rezultate diskutimet mes Kurtit e Hamz\u00EBs p\u00EBr Specialen e Presidentin",
+      "Tokens": [
+        "ore",
+        "filli",
+        "takim",
+        "prodh",
+        "rezul",
+        "disku",
+        "mes",
+        "kurt",
+        "hamz",
+        "speci",
+        "presi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dy1-ore-nga-fillimi-i-takimit-a-do-prodhojne-rezultate-diskutimet-mes-kurtit-e-hamzes-per-specialen-e-presidentin/"
+      ],
+      "Articles": {
+        "infokosove24": "dy-ore-nga-fillimi-i-takimit-a-do-prodhojne-rezultate-diskutimet-mes-kurtit-e"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "1 muaj nga vdekja e Laurentit, Egzoni rr\u00EBqeth me fjal\u00EBt: Ki me met\u00EB gjith\u00EB n\u2019zemrat tona, vlla",
+      "Tokens": [
+        "muaj",
+        "vdek",
+        "laure",
+        "egzon",
+        "rreqe",
+        "fjal",
+        "met",
+        "gjith",
+        "zemra",
+        "ton",
+        "vll"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/1-muaj-nga-vdekja-e-laurentit-egzoni-rreqeth-me-fjalet-ki-me-mete-gjithe-nzemrat-tona-vlla/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "1-muaj-nga-vdekja-e-laurentit-egzoni-rreqeth-me-fjalet-ki-me-mete-gjithe-n"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "\u2018\u2018Alarm p\u00EBr drejt\u00EBsin\u00EB\u2019\u2019, Bajrami pas shkarkimit t\u00EB Isufajt: Mesazh i rreziksh\u00EBm p\u00EBr prokuror\u00EBt e gjyqtar\u00EBt, kujdes se k\u00EB hetoni",
+      "Tokens": [
+        "alarm",
+        "drejt",
+        "bajra",
+        "shkar",
+        "isufa",
+        "mesaz",
+        "rrezi",
+        "proku",
+        "gjyqt",
+        "kujd",
+        "heton"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/alarm1-per-drejtesine-bajrami-pas-shkarkimit-te-isufajt-mesazh-i-rrezikshem-per-prokuroret-e-gjyqtaret-kujdes-se-ke-hetoni/"
+      ],
+      "Articles": {
+        "kosova-fakt": "alarm-per-drejtesine-bajrami-pas-shkarkimit-te-isufajt-mesazh-i-rrezikshem-per"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Trump njofton marr\u00EBveshjen: Evropa do t\u00EB nxjerr\u00EB sasi t\u00EB m\u00EBdha t\u00EB rezervave t\u00EB naft\u00EBs",
+      "Tokens": [
+        "trump",
+        "njoft",
+        "marre",
+        "evrop",
+        "nxjer",
+        "sas",
+        "medh",
+        "rezer",
+        "naft"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-njofton-marreveshjen-evropa-do-te-nxjerre-sasi-te-medha-te-rezervave-te-naftes/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "trump-njofton-marreveshjen-evropa-do-te-nxjerre-sasi-te-medha-te-rezervave-te"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Yan Diomande i ka l\u00EBn\u00EB Mbappen e Yamalin mbrapa, sa i p\u00EBrket nj\u00EB statistike",
+      "Tokens": [
+        "yan",
+        "dioma",
+        "len",
+        "mbapp",
+        "yamal",
+        "mbrap",
+        "perk",
+        "stati"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/yan-diomande-i-ka-lene-mbappen-e-yamalin-mbrapa-sa-i-perket-nje-statistike/"
+      ],
+      "Articles": {
+        "raporti-sot": "yan-diomande-i-ka-lene-mbappen-e-yamalin-mbrapa-sa-i-perket-nje-statistike"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Haradinaj e quan hakmarrje politike shkarkimin e Isufajt: Po i vjen er\u00EB e keqe",
+      "Tokens": [
+        "harad",
+        "quan",
+        "hakma",
+        "polit",
+        "shkar",
+        "isufa",
+        "vjen",
+        "ere",
+        "keq"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/haradinaj-e-quan-hakmarrje-politike-shkarkimin-e-isufajt-po-i-vjen-ere-e-keqe/"
+      ],
+      "Articles": {
+        "infokosove24": "haradinaj-e-quan-hakmarrje-politike-shkarkimin-e-isufajt-po-i-vjen-ere-e-keqe"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Raphinha u kthye i d\u00EBmtuar nga Brazili, testet zbulojn\u00EB shkall\u00EBn e l\u00EBndimit",
+      "Tokens": [
+        "raphi",
+        "kthy",
+        "demtu",
+        "brazi",
+        "test",
+        "zbulo",
+        "shkal",
+        "lendi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/raphinha-u-kthye-i-demtuar-nga-brazili-testet-zbulojne-shkallen-e-lendimit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "raphinha-u-kthye-i-demtuar-nga-brazili-testet-zbulojne-shkallen-e-lendimit"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "E rrall\u00EB dhe e pazakont\u00EB, lind breshka me dy koka",
+      "Tokens": [
+        "rrall",
+        "pazak",
+        "lind",
+        "bresh",
+        "kok"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/e-rralle-dhe-e-pazakonte-lind-breshka-me-dy-koka/"
+      ],
+      "Articles": {
+        "kosova-fakt": "e-rralle-dhe-e-pazakonte-lind-breshka-me-dy-koka"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "E diel\u00EB emocionale p\u00EBr Argjentin\u00EBn, Messi pritet t\u2019i thot\u00EB lamtumir\u00EB komb\u00EBtares",
+      "Tokens": [
+        "diel",
+        "emoci",
+        "argje",
+        "mess",
+        "prit",
+        "lamtu",
+        "kombe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/e-diele-emocionale-per-argjentinen-messi-pritet-ti-thote-lamtumire-kombetares/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "e-diele-emocionale-per-argjentinen-messi-pritet-t-i-thote-lamtumire-kombetares"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Edhe Malmo n\u00EB protest\u00EB kund\u00EBr d\u00EBnimit t\u00EB \u00E7lirimtar\u00EBve",
+      "Tokens": [
+        "malmo",
+        "prote",
+        "kunde",
+        "denim",
+        "cliri"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/edhe-malmo-ne-proteste-kunder-denimit-te-clirimtareve/"
+      ],
+      "Articles": {
+        "raporti-sot": "edhe-malmo-ne-proteste-kunder-denimit-te-clirimtareve"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "\u201CVend ku Albini d\u00EBshiron ta luaj\u00EB rolin e Kryeministrit, gjyqtarit, kryeprokurorit e Presidentit\u201D, Daut Haradinaj reagon p\u00EBr Isufajn",
+      "Tokens": [
+        "vend",
+        "albin",
+        "deshi",
+        "lua",
+        "rol",
+        "kryem",
+        "gjyqt",
+        "kryep",
+        "presi",
+        "daut",
+        "harad",
+        "reago",
+        "isufa"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/vend-ku-albini-deshiron-ta-luaje-rolin-e-kryeministrit-gjyqtarit-kryeprokurorit-e-presidentit-daut-haradinaj-reagon-per-isufajn/"
+      ],
+      "Articles": {
+        "infokosove24": "vend-ku-albini-deshiron-ta-luaje-rolin-e-kryeministrit-gjyqtarit-kryeprokurorit"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Betej\u00EB mes matematikan\u00EBve dhe AI-s\u00EB, n\u00EB pik\u00EBpyetje v\u00EBrtet\u00EBsia e zgjidhjeve",
+      "Tokens": [
+        "bete",
+        "mes",
+        "matem",
+        "pikep",
+        "verte",
+        "zgjid"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/beteje-mes-matematikaneve-dhe-ai-se-ne-pikepyetje-vertetesia-e-zgjidhjeve/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "beteje-mes-matematikaneve-dhe-ai-se-ne-pikepyetje-vertetesia-e-zgjidhjeve"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "\u201CMezi po presim videon t\u00EBnde\u201D, ndjek\u00EBsja \u201Cprovokon\u201D Aurela Ga\u00E7en \u2013 k\u00EBng\u00EBtarja ia kthen",
+      "Tokens": [
+        "mez",
+        "presi",
+        "video",
+        "tend",
+        "ndjek",
+        "provo",
+        "aurel",
+        "gac",
+        "kenge",
+        "kth"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mezi-po-presim-videon-tende-ndjekesja-provokon-aurela-gacen-kengetarja-ia-kthen/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mezi-po-presim-videon-tende-ndjekesja-provokon-aurela-gacen-kengetarja-ia-kthen"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "KPK thot\u00EB se Blerim Isufajn e shkarkuan pasi u vler\u00EBsuan rrethanat \u201Cinstitucionale dhe profesionale\u201D, njoftimi i plot\u00EB",
+      "Tokens": [
+        "kpk",
+        "bleri",
+        "isufa",
+        "shkar",
+        "pas",
+        "vlere",
+        "rreth",
+        "insti",
+        "profe",
+        "njoft",
+        "plot"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kpk-thote-se-blerim-isufajn-e-shkarkuan-pasi-u-vleresuan-rrethanat-institucionale-dhe-profesionale-njoftimi-i-plote/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kpk-thote-se-blerim-isufajn-e-shkarkuan-pasi-u-vleresuan-rrethanat"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "LEX | Prokuroria k\u00EBrkon d\u00EBnim n\u00EB rigjykim, m\u00EB 6 tetor vendoset p\u00EBr Mendim Sojev\u00EBn",
+      "Tokens": [
+        "lex",
+        "proku",
+        "kerko",
+        "denim",
+        "rigjy",
+        "tetor",
+        "vendo",
+        "mendi",
+        "sojev"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-prokuroria-kerkon-denim-ne-rigjykim-me-6-tetor-vendoset-per-mendim-sojeven/"
+      ],
+      "Articles": {
+        "raporti-sot": "lex-prokuroria-kerkon-denim-ne-rigjykim-me-6-tetor-vendoset-per-mendim-sojeven"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Brukseli planifikon \u201Cplane veprimi\u201D p\u00EBr an\u00EBtar\u00EBsimin e Malit t\u00EB Zi e Shqip\u00EBris\u00EB, p\u00EBr Kosov\u00EBn e t\u00EB tjerat forma t\u00EB \u201Cintegrimit gradual\u201D",
+      "Tokens": [
+        "bruks",
+        "plani",
+        "plan",
+        "vepri",
+        "aneta",
+        "mal",
+        "shqip",
+        "kosov",
+        "tjera",
+        "form",
+        "integ",
+        "gradu"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/brukseli-planifikon-plane-veprimi-per-anetaresimin-e-malit-te-zi-e-shqiperise-per-kosoven-e-te-tjerat-forma-te-integrimit-gradual/"
+      ],
+      "Articles": {
+        "infokosove24": "brukseli-planifikon-plane-veprimi-per-anetaresimin-e-malit-te-zi-e-shqiperise"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Haxhiu: Sejdiu mund t\u00EB rikthehet n\u00EB gar\u00EBn presidenciale n\u00EBse 6 deputet\u00EB t\u00EB LDK-s\u00EB premtojn\u00EB se do t\u00EB q\u00EBndrojn\u00EB n\u00EB sall\u00EB",
+      "Tokens": [
+        "haxhi",
+        "sejdi",
+        "mund",
+        "rikth",
+        "gar",
+        "presi",
+        "nes",
+        "deput",
+        "ldk",
+        "premt",
+        "qendr",
+        "sall"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/haxhiu-sejdiu-mund-te-rikthehet-ne-garen-presidenciale-nese-6-deputete-te-ldk-se-premtojne-se-do-te-qendrojne-ne-salle/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "haxhiu-sejdiu-mund-te-rikthehet-ne-garen-presidenciale-nese-6-deputete-te-ldk"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Zyra p\u00EBr Mbrojtje dhe Ndihm\u00EB t\u00EB Viktimave: 48 raste t\u00EB dhun\u00EBs n\u00EB familje brenda nj\u00EB jave",
+      "Tokens": [
+        "zyr",
+        "mbroj",
+        "ndihm",
+        "vikti",
+        "rast",
+        "dhun",
+        "famil",
+        "brend",
+        "jav"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/zyra-per-mbrojtje-48-raste-te-dhunes-ne-familje-brenda-nje-jave/"
+      ],
+      "Articles": {
+        "kosova-fakt": "zyra-per-mbrojtje-dhe-ndihme-te-viktimave-48-raste-te-dhunes-ne-familje-brenda"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "Pas Vu\u00E7iqit, \u00E7far\u00EB ndryshon p\u00EBr Kosov\u00EBn?",
+      "Tokens": [
+        "vuciq",
+        "ndrys",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/vucic-serbia-kosova/33869140.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pas-vuciqit-cfare-ndryshon-per-kosoven"
+      }
+    },
+    {
+      "At": "2026-10-02T16:36:37.7418166+00:00",
+      "Title": "\u0022Nuk i ndalim protestat\u0022: Beteja p\u00EBr ndryshimin e ligjit p\u00EBr Specialen",
+      "Tokens": [
+        "ndali",
+        "prote",
+        "bete",
+        "ndrys",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/nuk-ndalim-protesta-beteja-ndryshimi-ligji-specialen/33869209.html"
+      ],
+      "Articles": {
+        "raporti-sot": "nuk-i-ndalim-protestat-beteja-per-ndryshimin-e-ligjit-per-specialen"
+      }
+    },
     {
       "At": "2026-10-02T11:01:35.3949732+00:00",
       "Title": "Kurti takohet me Trumpin n\u00EB SHBA",
