@@ -2,6 +2,331 @@
   "RotationCursor": 2,
   "Published": [
     {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Takimet e lider\u00EBve politik\u00EB, Daut Haradinaj: T\u00EB kota, s\u2019do prodhojn\u00EB asgj\u00EB \u2013 M\u00EB 6 tetor do t\u00EB duhej t\u00EB ishim t\u00EB gjith\u00EB n\u00EB shesh",
+      "Tokens": [
+        "takim",
+        "lider",
+        "polit",
+        "daut",
+        "harad",
+        "kot",
+        "prodh",
+        "asg",
+        "tetor",
+        "duhej",
+        "ishim",
+        "gjith",
+        "shesh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/takimet-e-lidereve-politike-daut-haradinaj-te-kota-sdo-prodhojne-asgje-me-6-tetor-do-te-duhej-te-ishim-te-gjithe-ne-shesh/",
+        "https://sinjali.com/haradinaj-takimet-e-lidereve-politike-jane-te-kota-me-6-tetor-te-jemi-te-gjithe-ne-shesh/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "haradinaj-takimet-e-lidereve-politike-jane-te-kota-me-6-tetor-te-jemi-te-gjithe"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "E r\u00EBnd\u00EB: 19-vje\u00E7ari gjendet pa shenja jete n\u00EB Ka\u00E7anik",
+      "Tokens": [
+        "rend",
+        "vjeca",
+        "gjend",
+        "shen",
+        "jet",
+        "kacan"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/e-dhimbshme-ky-eshte-19-vjecari-qe-u-gjet-pa-shenja-jete-ne-kacanik/",
+        "https://sinjali.com/e-rende-19-vjecari-gjendet-pa-shenja-jete-ne-kacanik/"
+      ],
+      "Articles": {
+        "kosova-fakt": "e-rende-19-vjecari-gjendet-pa-shenja-jete-ne-kacanik"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Gjendet i vdekur nj\u00EB 19 vje\u00E7ar n\u00EB Nikaj t\u00EB Ka\u00E7anikut, Policia: Po punojm\u00EB p\u00EBr t\u00EB sqaruar rrethanat e plota",
+      "Tokens": [
+        "gjend",
+        "vdeku",
+        "vjeca",
+        "nikaj",
+        "kacan",
+        "polic",
+        "punoj",
+        "sqaru",
+        "rreth",
+        "plot"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gjendet-i-vdekur-nje-19-vjecar-ne-nikaj-te-kacanikut-policia-po-punojme-per-te-sqaruar-rrethanat-e-plota/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "gjendet-i-vdekur-nje-19-vjecar-ne-nikaj-te-kacanikut-policia-po-punojme-per-te"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "\u201CNuk ish e leht\u00EB me u b\u00EB familje\u201D, Xhuli del nga spitali bashk\u00EB me binjak\u00EBt",
+      "Tokens": [
+        "ish",
+        "leht",
+        "famil",
+        "xhul",
+        "del",
+        "spita",
+        "bashk",
+        "binja"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nuk-ish-e-lehte-me-u-be-familje-xhuli-del-nga-spitali-bashke-me-binjaket/"
+      ],
+      "Articles": {
+        "raporti-sot": "nuk-ish-e-lehte-me-u-be-familje-xhuli-del-nga-spitali-bashke-me-binjaket"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Endi Demneri dhe Krenar \u00C7o\u00E7aj b\u00EBhen prind\u00EBr p\u00EBr her\u00EB t\u00EB par\u00EB, vjen n\u00EB jet\u00EB djali i tyre",
+      "Tokens": [
+        "end",
+        "demne",
+        "krena",
+        "cocaj",
+        "beh",
+        "prind",
+        "her",
+        "par",
+        "vjen",
+        "jet",
+        "djal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/endi-demneri-dhe-krenar-cocaj-behen-prinder-per-here-te-pare-vjen-ne-jete-djali-i-tyre/"
+      ],
+      "Articles": {
+        "infokosove24": "endi-demneri-dhe-krenar-cocaj-behen-prinder-per-here-te-pare-vjen-ne-jete-djali"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Tragjedi: N\u00EBna vret vajz\u00EBn 4-vje\u00E7are dhe m\u00EB pas veten, vet\u00EBm disa or\u00EB pasi humbi kujdestarin\u00EB",
+      "Tokens": [
+        "tragj",
+        "nen",
+        "vret",
+        "vajz",
+        "vjeca",
+        "vet",
+        "dis",
+        "ore",
+        "pas",
+        "humb",
+        "kujde"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tragjedi-nena-vret-vajzen-4-vjecare-dhe-me-pas-veten-vetem-disa-ore-pasi-humbi-kujdestarine/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "tragjedi-nena-vret-vajzen-4-vjecare-dhe-me-pas-veten-vetem-disa-ore-pasi-humbi"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "OVL th\u00EBrret protest\u00EB t\u00EB h\u00EBn\u00EBn: N\u00EBse nes\u00EBr s\u2019ka dakordim p\u00EBr ligjin p\u00EBr Specialen, do i p\u00EBrshkall\u00EBzojm\u00EB veprimet",
+      "Tokens": [
+        "ovl",
+        "therr",
+        "prote",
+        "hen",
+        "nes",
+        "neser",
+        "dakor",
+        "ligj",
+        "speci",
+        "persh",
+        "vepri"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ovl-therret-proteste-te-henen-nese-neser-ska-dakordim-per-ligjin-per-specialen-do-i-pershkallezojme-veprimet/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ovl-therret-proteste-te-henen-nese-neser-s-ka-dakordim-per-ligjin-per-specialen"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Bruno Fernandes: Ronaldo \u00EBsht\u00EB ikon\u00EB e Portugalis\u00EB, d\u00EBshirojm\u00EB t\u2019i japim kok\u00EBdhimbje trajnerit",
+      "Tokens": [
+        "bruno",
+        "ferna",
+        "ronal",
+        "ikon",
+        "portu",
+        "deshi",
+        "japim",
+        "koked",
+        "trajn"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/bruno-fernandes-ronaldo-eshte-ikone-e-portugalise-deshirojme-ti-japim-kokedhimbje-trajnerit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "bruno-fernandes-ronaldo-eshte-ikone-e-portugalise-deshirojme-t-i-japim"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Raportohet se ky \u00EBsht\u00EB kushti q\u00EB Kurti ia ka vendosur Hamz\u00EBs p\u00EBr t\u2019u miratuar ligji p\u00EBr Gjykat\u00EBn Speciale n\u00EB lexim t\u00EB dyt\u00EB",
+      "Tokens": [
+        "rapor",
+        "kusht",
+        "kurt",
+        "vendo",
+        "hamz",
+        "mirat",
+        "ligj",
+        "gjyka",
+        "speci",
+        "lexim",
+        "dyt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/raportohet-se-ky-eshte-kushti-qe-kurti-ia-ka-vendosur-hamzes-per-tu-miratuar-ligji-per-gjykaten-speciale-ne-lexim-te-dyte/"
+      ],
+      "Articles": {
+        "raporti-sot": "raportohet-se-ky-eshte-kushti-qe-kurti-ia-ka-vendosur-hamzes-per-t-u-miratuar"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "OVL-U\u00C7K: N\u00EBse nuk ka marr\u00EBveshje deri t\u00EB diel\u00EBn, t\u00EB h\u00EBn\u00EBn protestojm\u00EB para Kuvendit",
+      "Tokens": [
+        "ovl",
+        "uck",
+        "nes",
+        "marre",
+        "diel",
+        "hen",
+        "prote",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ovl-uck-nese-nuk-ka-marreveshje-deri-te-dielen-te-henen-protestojme-para-kuvendit/"
+      ],
+      "Articles": {
+        "infokosove24": "ovl-uck-nese-nuk-ka-marreveshje-deri-te-dielen-te-henen-protestojme-para"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Studimi francez: Disa konservues lidhen me rritjen e rrezikut p\u00EBr hipertension dhe s\u00EBmundje t\u00EB zemr\u00EBs",
+      "Tokens": [
+        "studi",
+        "franc",
+        "dis",
+        "konse",
+        "lidh",
+        "rritj",
+        "rrezi",
+        "hiper",
+        "semun",
+        "zemr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/studimi-francez-disa-konservues-lidhen-me-rritjen-e-rrezikut-per-hipertension-dhe-semundje-te-zemres/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "studimi-francez-disa-konservues-lidhen-me-rritjen-e-rrezikut-per-hipertension"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "EKSKLUZIVE | Kthes\u00EB n\u00EB takimin Kurti\u2013Hamza: Kurti nxjerr nj\u00EB kusht t\u00EB ri q\u00EB e komplikon marr\u00EBveshjen p\u00EBr Specialen dhe Presidentin",
+      "Tokens": [
+        "kth",
+        "takim",
+        "kurt",
+        "hamz",
+        "nxjer",
+        "kusht",
+        "kompl",
+        "marre",
+        "speci",
+        "presi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ekskluzive-kthese-ne-takimin-kurti-hamza-kurti-nxjerr-nje-kusht-te-ri-qe-e-komplikon-marreveshjen-per-specialen-dhe-presidentin/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ekskluzive-kthese-ne-takimin-kurti-hamza-kurti-nxjerr-nje-kusht-te-ri-qe-e"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Haziri nga protesta: Kuvendi ia ka borxh U\u00C7K-s\u00EB ndryshimin e Ligjit p\u00EBr Dhomat e Specializuara",
+      "Tokens": [
+        "hazir",
+        "prote",
+        "kuven",
+        "borxh",
+        "uck",
+        "ndrys",
+        "ligj",
+        "dhoma",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/haziri-nga-protesta-kuvendi-ia-ka-borxh-uck-se-ndryshimin-e-ligjit-per-dhomat-e-specializuara/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "haziri-nga-protesta-kuvendi-ia-ka-borxh-uck-se-ndryshimin-e-ligjit-per-dhomat-e"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Kandidati austriak p\u00EBr president premton kthimin e p\u00EBrkrenares dhe shpat\u00EBs s\u00EB Sk\u00EBnderbeut n\u00EB Shqip\u00EBri",
+      "Tokens": [
+        "kandi",
+        "austr",
+        "presi",
+        "premt",
+        "kthim",
+        "perkr",
+        "shpat",
+        "skend",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kandidati-austriak-per-president-premton-kthimin-e-perkrenares-dhe-shpates-se-skenderbeut-ne-shqiperi/"
+      ],
+      "Articles": {
+        "raporti-sot": "kandidati-austriak-per-president-premton-kthimin-e-perkrenares-dhe-shpates-se"
+      }
+    },
+    {
+      "At": "2026-10-03T19:47:13.8345592+00:00",
+      "Title": "Anglia turp\u00EBron Kroacin\u00EB n\u00EB Rijeka, \u201CTre Luan\u00EBt\u201D fitojn\u00EB 7-0",
+      "Tokens": [
+        "angli",
+        "turpe",
+        "kroac",
+        "rijek",
+        "tre",
+        "luan",
+        "fitoj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/anglia-turperon-kroacine-ne-rijeka-tre-luanet-fitojne-7-0/"
+      ],
+      "Articles": {
+        "infokosove24": "anglia-turperon-kroacine-ne-rijeka-tre-luanet-fitojne-7-0"
+      }
+    },
+    {
       "At": "2026-10-03T15:07:54.7148099+00:00",
       "Title": "Hamza: Ligji p\u00EBr Specialen duhet t\u00EB aprovohet n\u00EB dy leximet, pastaj \u00E7\u00EBshtja e presidentit",
       "Tokens": [
