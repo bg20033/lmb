@@ -1,6 +1,371 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 4,
   "Published": [
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Rikthehet flamuri kuqezi n\u00EB maj\u00EBn e Korabit, largohet ai maqedonas",
+      "Tokens": [
+        "rikth",
+        "flamu",
+        "kuqez",
+        "maj",
+        "korab",
+        "largo",
+        "maqed"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/rikthehet-flamuri-kuqezi-ne-majen-e-korabit-largohet-ai-maqedonas/",
+        "https://www.gazetaexpress.com/rikthehet-flamuri-kuqezi-ne-majen-e-korabit-studentet-shqiptare-largojne-simbolin-maqedonas-pamje/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "rikthehet-flamuri-kuqezi-ne-majen-e-korabit-studentet-shqiptare-largojne"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Kurti uron Dit\u00EBn e Bashkimit t\u00EB Gjermanis\u00EB: Lufta mes demokracive dhe autokracive nuk ka p\u00EBrfunduar",
+      "Tokens": [
+        "kurt",
+        "uron",
+        "dit",
+        "bashk",
+        "gjerm",
+        "luft",
+        "mes",
+        "demok",
+        "autok",
+        "perfu"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/kurti-uron-diten-e-bashkimit-te-gjermanise-lufta-mes-demokracive-dhe-autokracive-nuk-ka-perfunduar/",
+        "https://sinjali.com/kurti-uron-diten-e-bashkimit-te-gjermanise-nje-kapitull-i-rendesishem-ne-historine-moderne-te-evropes/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kurti-uron-diten-e-bashkimit-te-gjermanise-nje-kapitull-i-rendesishem-ne"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Ndikimi i Zinedine Zidane \u00EBsht\u00EB i menj\u00EBhersh\u00EBm, arrihet nj\u00EB num\u00EBr rekord n\u00EB Franc\u00EB",
+      "Tokens": [
+        "ndiki",
+        "zined",
+        "zidan",
+        "menje",
+        "arrih",
+        "numer",
+        "rekor",
+        "franc"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ndikimi-i-zinedine-zidane-eshte-i-menjehershem-arrihet-nje-numer-rekord-ne-france/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndikimi-i-zinedine-zidane-eshte-i-menjehershem-arrihet-nje-numer-rekord-ne"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Dua Lipa dhe Shakira b\u00EBhen bashk\u00EB n\u00EB Madrid, k\u00EBng\u00EBtarja kolumbiane: Jam fanse e jotja si gjithmon\u00EB",
+      "Tokens": [
+        "dua",
+        "lip",
+        "shaki",
+        "beh",
+        "bashk",
+        "madri",
+        "kenge",
+        "kolum",
+        "jam",
+        "fans",
+        "jot",
+        "gjith"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dua-lipa-dhe-shakira-behen-bashke-ne-madrid-kengetarja-kolumbiane-jam-fanse-e-jotja-si-gjithmone/"
+      ],
+      "Articles": {
+        "raporti-sot": "dua-lipa-dhe-shakira-behen-bashke-ne-madrid-kengetarja-kolumbiane-jam-fanse-e"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Dor\u00EBhiqet kreu i burgjeve n\u00EB Tennessee pas ekzekutimit t\u00EB d\u00EBshtuar t\u00EB Christa Pike",
+      "Tokens": [
+        "doreh",
+        "kre",
+        "burgj",
+        "tenne",
+        "ekzek",
+        "desht",
+        "chris",
+        "pik"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dorehiqet-kreu-i-burgjeve-ne-tennessee-pas-ekzekutimit-te-deshtuar-te-christa-pike/"
+      ],
+      "Articles": {
+        "infokosove24": "dorehiqet-kreu-i-burgjeve-ne-tennessee-pas-ekzekutimit-te-deshtuar-te-christa"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Shakira mahnitet nga z\u00EBri i Dua Lip\u00EBs gjat\u00EB performanc\u00EBs",
+      "Tokens": [
+        "shaki",
+        "mahni",
+        "zer",
+        "dua",
+        "lip",
+        "perfo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shakira-mahnitet-nga-zeri-i-dua-lipes-gjate-performances/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shakira-mahnitet-nga-zeri-i-dua-lipes-gjate-performances"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Wimmer vler\u00EBson Avdullahun, Asllanin dhe Hajdarin para ndeshjes Kosov\u00EB\u2013Austri: Jan\u00EB lojtar\u00EB fantastik\u00EB",
+      "Tokens": [
+        "wimme",
+        "vlere",
+        "avdul",
+        "aslla",
+        "hajda",
+        "ndesh",
+        "koso",
+        "austr",
+        "lojta",
+        "fanta"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/wimmer-vlereson-avdullahun-asllanin-dhe-hajdarin-para-ndeshjes-kosove-austri-jane-lojtare-fantastike/"
+      ],
+      "Articles": {
+        "kosova-fakt": "wimmer-vlereson-avdullahun-asllanin-dhe-hajdarin-para-ndeshjes-kosove-austri"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Burri i Albulena Haxhiut i reagon OVL\u2019s\u00EB: OVL -PDK jeni armiku kryesor p\u00EBr mbrojtjen e krer\u00EBve n\u00EB Hag\u00EB, s\u2019lat\u00EB gj\u00EB pa b\u00EBr\u00EB qe 27 vjet",
+      "Tokens": [
+        "burr",
+        "albul",
+        "haxhi",
+        "reago",
+        "ovl",
+        "pdk",
+        "jen",
+        "armik",
+        "kryes",
+        "mbroj",
+        "krer",
+        "hag",
+        "lat",
+        "gje",
+        "ber",
+        "vjet"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/burri-i-albulena1-haxhiut-i-reagon-ovlse-ovl-pdk-jeni-armiku-kryesor-per-mbrojtjen-e-krereve-ne-hage-slate-gje-pa-bere-qe-27-vjet/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "burri-i-albulena-haxhiut-i-reagon-ovl-se-ovl-pdk-jeni-armiku-kryesor-per"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Spanja vendos rekord historik, 41 ndeshje radhazi pa humbje",
+      "Tokens": [
+        "span",
+        "vendo",
+        "rekor",
+        "histo",
+        "ndesh",
+        "radha",
+        "humb"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/spanja-vendos-rekord-historik-41-ndeshje-radhazi-pa-humbje/"
+      ],
+      "Articles": {
+        "raporti-sot": "spanja-vendos-rekord-historik-41-ndeshje-radhazi-pa-humbje"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "D\u00EBnimi i ish-krer\u00EBve t\u00EB U\u00C7K\u2019s\u00EB, ish-prokurori amerikan Williamson: Do befasohesha n\u00EBse do kishe hetime tjera",
+      "Tokens": [
+        "denim",
+        "ish",
+        "krer",
+        "uck",
+        "proku",
+        "ameri",
+        "willi",
+        "befas",
+        "nes",
+        "kish",
+        "hetim",
+        "tjer"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/denimi1-i-ish-krereve-te-uckse-ish-prokurori-amerikan-williamson-do-befasohesha-nese-do-kishe-hetime-tjera/"
+      ],
+      "Articles": {
+        "infokosove24": "denimi-i-ish-krereve-te-uck-se-ish-prokurori-amerikan-williamson-do-befasohesha"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Humbi k\u00EBmb\u00EBn n\u00EB sulm, 13-vje\u00E7ari nga Palestina vazhdon t\u00EB luaj\u00EB futboll me protez\u00EB",
+      "Tokens": [
+        "humb",
+        "kemb",
+        "sulm",
+        "vjeca",
+        "pales",
+        "vazhd",
+        "lua",
+        "futbo",
+        "prote"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/humbi-kemben-ne-sulm-13-vjecari-nga-palestina-vazhdon-te-luaje-futboll-me-proteze/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "humbi-kemben-ne-sulm-13-vjecari-nga-palestina-vazhdon-te-luaje-futboll-me"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Ambasada Gjermane sh\u00EBnon 36-vjetorin e Ribashkimit t\u00EB Gjermanis\u00EB: N\u00EB Kosov\u00EB, kjo histori ka nj\u00EB kuptim t\u00EB ve\u00E7ant\u00EB",
+      "Tokens": [
+        "ambas",
+        "gjerm",
+        "sheno",
+        "vjeto",
+        "ribas",
+        "koso",
+        "histo",
+        "kupti",
+        "vecan"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ambasada-gjermane-shenon-36-vjetorin-e-ribashkimit-te-gjermanise-ne-kosove-kjo-histori-ka-nje-kuptim-te-vecante/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ambasada-gjermane-shenon-36-vjetorin-e-ribashkimit-te-gjermanise-ne-kosove-kjo"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "K\u00EBto zakone gjat\u00EB nat\u00EBs mund t\u2019ju ndihmojn\u00EB t\u00EB digjni m\u00EB shum\u00EB kalori gjat\u00EB gjumit",
+      "Tokens": [
+        "zakon",
+        "nat",
+        "mund",
+        "ndihm",
+        "digjn",
+        "shum",
+        "kalor",
+        "gjum"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/keto-zakone-gjate-nates-mund-tju-ndihmojne-te-digjni-me-shume-kalori-gjate-gjumit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "keto-zakone-gjate-nates-mund-t-ju-ndihmojne-te-digjni-me-shume-kalori-gjate"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Videot intime t\u00EB Adrian Hil\u00EBs vijojn\u00EB t\u00EB qarkullojn\u00EB, avokati: Bllokimi i tyre, i v\u00EBshtir\u00EB teknikisht",
+      "Tokens": [
+        "video",
+        "intim",
+        "adria",
+        "hil",
+        "vijoj",
+        "qarku",
+        "avoka",
+        "bllok",
+        "vesht",
+        "tekni"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/videot-intime-te-adrian-hiles-vijojne-te-qarkullojne-avokati-bllokimi-i-tyre-i-veshtire-teknikisht/"
+      ],
+      "Articles": {
+        "raporti-sot": "videot-intime-te-adrian-hiles-vijojne-te-qarkullojne-avokati-bllokimi-i-tyre-i"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Mikja e Monika Lubonj\u00EBs flet p\u00EBr gjendjen e aktores: \u00CBsht\u00EB m\u00EB shum\u00EB se e gjunj\u00EBzuar",
+      "Tokens": [
+        "mik",
+        "monik",
+        "lubon",
+        "flet",
+        "gjend",
+        "aktor",
+        "shum",
+        "gjunj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mikja-e-monika-lubonjes-flet-per-gjendjen-e-aktores-eshte-me-shume-se-e-gjunjezuar/"
+      ],
+      "Articles": {
+        "infokosove24": "mikja-e-monika-lubonjes-flet-per-gjendjen-e-aktores-eshte-me-shume-se-e"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Dy vjet pas divorcit nga J-Lo, Ben Affleck: Lidhjet nuk jan\u00EB nj\u00EB prioritet i madh n\u00EB jet\u00EBn time",
+      "Tokens": [
+        "vjet",
+        "divor",
+        "ben",
+        "affle",
+        "lidhj",
+        "prior",
+        "madh",
+        "jet",
+        "tim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dy-vjet-pas-divorcit-nga-j-lo-ben-affleck-lidhjet-nuk-jane-nje-prioritet-i-madh-ne-jeten-time/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "dy-vjet-pas-divorcit-nga-j-lo-ben-affleck-lidhjet-nuk-jane-nje-prioritet-i-madh"
+      }
+    },
+    {
+      "At": "2026-10-03T23:44:27.7965667+00:00",
+      "Title": "Modric pas humbjes 0-7 nga Anglia: Hera e par\u00EB q\u00EB m\u00EB erdhi marre q\u00EB vesha fanell\u00EBn kroate",
+      "Tokens": [
+        "modri",
+        "humbj",
+        "angli",
+        "her",
+        "par",
+        "erdh",
+        "marr",
+        "vesh",
+        "fanel",
+        "kroat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/modric-pas-humbjes-0-7-nga-anglia-hera-e-pare-qe-me-erdhi-marre-qe-vesha-fanellen-kroate/"
+      ],
+      "Articles": {
+        "kosova-fakt": "modric-pas-humbjes-0-7-nga-anglia-hera-e-pare-qe-me-erdhi-marre-qe-vesha"
+      }
+    },
     {
       "At": "2026-10-03T19:47:13.8345592+00:00",
       "Title": "Takimet e lider\u00EBve politik\u00EB, Daut Haradinaj: T\u00EB kota, s\u2019do prodhojn\u00EB asgj\u00EB \u2013 M\u00EB 6 tetor do t\u00EB duhej t\u00EB ishim t\u00EB gjith\u00EB n\u00EB shesh",
