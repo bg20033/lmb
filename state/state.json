@@ -1,6 +1,241 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Gjendja e grupit t\u00EB Kosov\u00EBs, pas kat\u00EBr ndeshjeve t\u00EB para t\u00EB Lig\u00EBs s\u00EB Kombeve",
+      "Tokens": [
+        "gjend",
+        "grup",
+        "kosov",
+        "kater",
+        "ndesh",
+        "lig",
+        "komb"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gjendja-e-grupit-te-kosoves-pas-kater-ndeshjeve-te-para-te-liges-se-kombeve/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gjendja-e-grupit-te-kosoves-pas-kater-ndeshjeve-te-para-te-liges-se-kombeve"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Me tenda e zjarre n\u00EB shesh, protestuesit e rrisin presionin p\u00EBr ligjin e Speciales, a do ta kryej\u00EB pun\u00EBn Kuvendi?",
+      "Tokens": [
+        "tend",
+        "zjarr",
+        "shesh",
+        "prote",
+        "rris",
+        "presi",
+        "ligj",
+        "speci",
+        "krye",
+        "pun",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/me-tenda-e-zjarre-neshesh-protestuesit-e-rrisin-presionin-per-ligjin-e-speciales-a-do-ta-kryeje-punen-kuvendi/"
+      ],
+      "Articles": {
+        "kosova-fakt": "me-tenda-e-zjarre-ne-shesh-protestuesit-e-rrisin-presionin-per-ligjin-e"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Shqiptari shmang ekzekutimin n\u00EB Kin\u00EB, Apeli i l\u00EB n\u00EB fuqi 25 vjet burg p\u00EBr 1 ton drog\u00EB",
+      "Tokens": [
+        "shqip",
+        "shman",
+        "ekzek",
+        "kin",
+        "apel",
+        "fuq",
+        "vjet",
+        "burg",
+        "ton",
+        "drog"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shqiptari-shmang-ekzekutimin-ne-kine-apeli-i-le-ne-fuqi-25-vjet-burg-per-1-ton-droge/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "shqiptari-shmang-ekzekutimin-ne-kine-apeli-i-le-ne-fuqi-25-vjet-burg-per-1-ton"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "T\u00EB m\u00EBdhenjt\u00EB h\u00EBngr\u00EBn mollat, t\u00EB res\u00EB iu mpin\u00EB dh\u00EBmb\u00EBt: Vdes 12-vje\u00E7arja n\u00EB SHBA, e goditi plumbi pasi dy burra q\u00EBlluan nj\u00EBri-tjetrin",
+      "Tokens": [
+        "medhe",
+        "hengr",
+        "molla",
+        "res",
+        "mpin",
+        "dhemb",
+        "vdes",
+        "vjeca",
+        "shb",
+        "godit",
+        "plumb",
+        "pas",
+        "burr",
+        "qellu",
+        "njer",
+        "tjetr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/te-medhenjte-hengren-mollat-te-rese-iu-mpine-dhembet-vdes-12-vjecarja-ne-shba-e-goditi-plumbi-pasi-dy-burra-qelluan-njeri-tjetrin/"
+      ],
+      "Articles": {
+        "raporti-sot": "te-medhenjte-hengren-mollat-te-rese-iu-mpine-dhembet-vdes-12-vjecarja-ne-shba-e"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Alban Krasniqi i VV i reagon Endrit Tha\u00E7it: Baba yt me PDK\u2019n\u00EB e ka themelu Gjykat\u00EBn, jo Albini e Vet\u00EBvendosja",
+      "Tokens": [
+        "alban",
+        "krasn",
+        "reago",
+        "endr",
+        "thac",
+        "bab",
+        "pdk",
+        "theme",
+        "gjyka",
+        "albin",
+        "vetev"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/alban-krasniqi-i-vv-i-reagon-endrit-thacit-baba-yt-me-pdkne-e-ka-themelu-gjykaten-jo-albini-e-vetevendosja/"
+      ],
+      "Articles": {
+        "infokosove24": "alban-krasniqi-i-vv-i-reagon-endrit-thacit-baba-yt-me-pdk-ne-e-ka-themelu"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "\u201C\u00C7artet\u201D burri i Albulena Haxhiut: Kallxoni djalit t\u00EB Hashimit q\u00EB baba i tij me PDK-n\u00EB e ka \u00E7u p\u00EBrpara themelimin e Gjykat\u00EBs",
+      "Tokens": [
+        "cart",
+        "burr",
+        "albul",
+        "haxhi",
+        "kallx",
+        "djal",
+        "hashi",
+        "bab",
+        "pdk",
+        "perpa",
+        "theme",
+        "gjyka"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/cartet-burri-i-albulena-haxhiut-kallxoni-djalit-te-hashimit-qe-baba-i-tij-me-pdk-ne-e-ka-cu-perpara-themelimin-e-gjykates/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "cartet-burri-i-albulena-haxhiut-kallxoni-djalit-te-hashimit-qe-baba-i-tij-me"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Rangnick pas barazimit me Kosov\u00EBn: Fusha ishte e v\u00EBshtir\u00EB, por goli nuk kishte lidhje me t\u00EB",
+      "Tokens": [
+        "rangn",
+        "baraz",
+        "kosov",
+        "fush",
+        "vesht",
+        "gol"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/rangnick-pas-barazimit-me-kosoven-fusha-ishte-e-veshtire-por-goli-nuk-kishte-lidhje-me-te/"
+      ],
+      "Articles": {
+        "kosova-fakt": "rangnick-pas-barazimit-me-kosoven-fusha-ishte-e-veshtire-por-goli-nuk-kishte"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Xhaka i uron suksese Berish\u00EBs pas pensionimit nga Komb\u00EBtarja e Kosov\u00EBs",
+      "Tokens": [
+        "xhak",
+        "uron",
+        "suks",
+        "beris",
+        "pensi",
+        "kombe",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/xhaka-i-uron-suksese-berishes-pas-pensionimit-nga-kombetarja-e-kosoves/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "xhaka-i-uron-suksese-berishes-pas-pensionimit-nga-kombetarja-e-kosoves"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Student\u00EBt n\u00EB mb\u00EBshtetje t\u00EB protest\u00EBs p\u00EBr U\u00C7K-n\u00EB, thirrje p\u00EBr mobilizim nes\u00EBr n\u00EB or\u00EBn 08:00",
+      "Tokens": [
+        "stude",
+        "mbesh",
+        "prote",
+        "uck",
+        "thirr",
+        "mobil",
+        "neser",
+        "oren"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/studentet-ne-mbeshtetje-tprotestes-per-uck-ne-thirrje-per-mobilizim-neser-ne-oren-0800/"
+      ],
+      "Articles": {
+        "raporti-sot": "studentet-ne-mbeshtetje-te-protestes-per-uck-ne-thirrje-per-mobilizim-neser-ne"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "OVL-U\u00C7K ndryshon orarin, protesta para Kuvendit nis n\u00EB 09:00",
+      "Tokens": [
+        "ovl",
+        "uck",
+        "ndrys",
+        "orar",
+        "prote",
+        "kuven",
+        "nis"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ovl-uck-ndryshon-orarin-protesta-para-kuvendit-nis-ne-0900/"
+      ],
+      "Articles": {
+        "infokosove24": "ovl-uck-ndryshon-orarin-protesta-para-kuvendit-nis-ne-09-00"
+      }
+    },
+    {
+      "At": "2026-10-04T23:55:42.8482812+00:00",
+      "Title": "Nes\u00EBr n\u00EB Kuvend Ligji p\u00EBr Specialen, sonte mbahet protesta e 19-t\u00EB n\u00EB Prishtin\u00EB",
+      "Tokens": [
+        "neser",
+        "kuven",
+        "ligj",
+        "speci",
+        "sont",
+        "mbah",
+        "prote",
+        "prish"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/neser-ne-kuvend-ligji-per-specialen-sonte-mbahet-protesta-e-19-te-ne-prishtine/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "neser-ne-kuvend-ligji-per-specialen-sonte-mbahet-protesta-e-19-te-ne-prishtine"
+      }
+    },
     {
       "At": "2026-10-04T20:04:37.718138+00:00",
       "Title": "Endrit Tha\u00E7i u b\u00EBn thirrje partive: T\u00EB b\u00EBhen bashk\u00EB dhe ta miratojn\u00EB ligjin p\u00EBr Specialen",
