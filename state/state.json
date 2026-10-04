@@ -1,6 +1,344 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Endrit Tha\u00E7i u b\u00EBn thirrje partive: T\u00EB b\u00EBhen bashk\u00EB dhe ta miratojn\u00EB ligjin p\u00EBr Specialen",
+      "Tokens": [
+        "endr",
+        "thac",
+        "ben",
+        "thirr",
+        "parti",
+        "beh",
+        "bashk",
+        "mirat",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/endrit-thaci-u-ben-thirrje-partive-te-behen-bashke-dhe-ta-miratojne-ligjin-per-specialen/",
+        "https://sinjali.com/thirrja-e-endrit-thacit-per-partite-bashkohuni-per-ndryshimin-e-ligjit-per-specialen/",
+        "https://www.gazetaexpress.com/endrit-thaci-u-ben-thirrje-partive-te-behen-bashke-dhe-ta-kalojne-ligjin-per-specialen/"
+      ],
+      "Articles": {
+        "infokosove24": "thirrja-e-endrit-thacit-per-partite-bashkohuni-per-ndryshimin-e-ligjit-per"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Kurti reagon pas barazimit t\u00EB Kosov\u00EBs me Austrin\u00EB",
+      "Tokens": [
+        "kurt",
+        "reago",
+        "baraz",
+        "kosov",
+        "austr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kurti-kosova-luajti-me-mire-se-austria-rezultati-nuk-pasqyroi-cfare-pame/",
+        "https://telegrafi.com/kurti-reagon-pas-barazimit-te-kosoves-me-austrine/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kurti-kosova-luajti-me-mire-se-austria-rezultati-nuk-pasqyroi-cfare-pame"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Videoja intime me Adi Hil\u00EBn, Blerina Matraku del me reagim",
+      "Tokens": [
+        "video",
+        "intim",
+        "adi",
+        "hil",
+        "bleri",
+        "matra",
+        "del",
+        "reagi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/videoja-intime-me-adi-hilen-blerina-matraku-del-me-reagim/",
+        "https://telegrafi.com/u-shfaq-ne-videot-intime-me-adrian-hilen-blerina-matraku-kerkon-falje-publike/"
+      ],
+      "Articles": {
+        "kosova-fakt": "videoja-intime-me-adi-hilen-blerina-matraku-del-me-reagim"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Vendosen tenda n\u00EB shesh pas paralajm\u00EBrimit t\u00EB protestuesve se do t\u00EB q\u00EBndrojn\u00EB gjith\u00EB nat\u00EBn te Kuvendi",
+      "Tokens": [
+        "vendo",
+        "tend",
+        "shesh",
+        "paral",
+        "prote",
+        "qendr",
+        "gjith",
+        "nat",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/vendosen-tenda-neshesh-pas-paralajmerimit-te-protestuesve-se-do-te-qendrojne-gjithe-naten-te-kuvendi/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "vendosen-tenda-ne-shesh-pas-paralajmerimit-te-protestuesve-se-do-te-qendrojne"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Deri n\u00EB 500 shkolla mund t\u00EB mbyllen t\u00EB h\u00EBn\u00EBn n\u00EB Franc\u00EB, nx\u00EBn\u00EBsit paralajm\u00EBrojn\u00EB protesta t\u00EB reja",
+      "Tokens": [
+        "500",
+        "shkol",
+        "mund",
+        "mbyll",
+        "hen",
+        "franc",
+        "nxene",
+        "paral",
+        "prote",
+        "rej"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/deri-ne-500-shkolla-mund-te-mbyllen-te-henen-ne-france-nxenesit-paralajmerojne-protesta-te-reja/"
+      ],
+      "Articles": {
+        "raporti-sot": "deri-ne-500-shkolla-mund-te-mbyllen-te-henen-ne-france-nxenesit-paralajmerojne"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Nj\u00EB marr\u00EBveshje q\u00EB do ta \u201Cndryshoj\u00EB loj\u00EBn\u201D, Reali po e b\u00EBn gati goditjen n\u00EB merkato",
+      "Tokens": [
+        "marre",
+        "ndrys",
+        "loj",
+        "real",
+        "ben",
+        "gat",
+        "godit",
+        "merka"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nje-marreveshje-qe-do-ta-ndryshoje-lojen-reali-po-e-ben-gati-goditjen-ne-merkato/"
+      ],
+      "Articles": {
+        "infokosove24": "nje-marreveshje-qe-do-ta-ndryshoje-lojen-reali-po-e-ben-gati-goditjen-ne-merkato"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Komentuesi k\u00EBrkoi ekzekutimin e Rexhep Selimit, gruaja e tij i drejtohet Prokuroris\u00EB",
+      "Tokens": [
+        "komen",
+        "kerko",
+        "ekzek",
+        "rexhe",
+        "selim",
+        "grua",
+        "drejt",
+        "proku"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/komentuesi-kerkoi-ekzekutimin-e-rexhep-selimit-gruaja-e-tij-i-drejtohet-prokurorise/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "komentuesi-kerkoi-ekzekutimin-e-rexhep-selimit-gruaja-e-tij-i-drejtohet"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Shqyrtimi i par\u00EB i projektligjit p\u00EBr Specialen, Kuvendi \u00E7on njoftim p\u00EBr seanc\u00EBn e nes\u00EBrme",
+      "Tokens": [
+        "shqyr",
+        "par",
+        "proje",
+        "speci",
+        "kuven",
+        "con",
+        "njoft",
+        "seanc",
+        "neser"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/shqyrtimi-i-pare-i-projektligjit-per-specialen-kuvendi-con-njoftim-per-seancen-e-neserme/"
+      ],
+      "Articles": {
+        "kosova-fakt": "shqyrtimi-i-pare-i-projektligjit-per-specialen-kuvendi-con-njoftim-per-seancen"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "\u201CAs me sheh\u00EBr, as me Barilev\u00EB\u201D: Ndeshja Kosov\u00EB\u2013Austri p\u00EBrfundon me barazim 1-1",
+      "Tokens": [
+        "shehe",
+        "baril",
+        "ndesh",
+        "koso",
+        "austr",
+        "perfu",
+        "baraz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/as-me-sheher-as-me-barileve-ndeshja-kosove-austri-perfundon-me-barazim-1-1/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "as-me-sheher-as-me-barileve-ndeshja-kosove-austri-perfundon-me-barazim-1-1"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Shqipe Mehemeti-Selimi i b\u00EBn thirrje Prokuroris\u00EB: Veproni, u b\u00EB thirrje p\u00EBr ekzekutimin e bashk\u00EBshortit tim",
+      "Tokens": [
+        "shqip",
+        "mehem",
+        "selim",
+        "ben",
+        "thirr",
+        "proku",
+        "vepro",
+        "ekzek",
+        "bashk",
+        "tim"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/shqipe-mehemeti-selimi-i-ben-thirrje-prokurorise-veproni-u-be-thirrje-per-ekzekutimin-e-bashkeshortit-tim/"
+      ],
+      "Articles": {
+        "raporti-sot": "shqipe-mehemeti-selimi-i-ben-thirrje-prokurorise-veproni-u-be-thirrje-per"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Dy shqiptar\u00EB humbin jet\u00EBn n\u00EB Greqi, u p\u00EBrplas\u00EBn moto\u00E7ikleta e skuteri \u2013 viktimat ishin miq",
+      "Tokens": [
+        "shqip",
+        "humb",
+        "jet",
+        "greq",
+        "perpl",
+        "motoc",
+        "skute",
+        "vikti",
+        "ish",
+        "miq"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dy-shqiptare-humbin-jeten-ne-greqi-u-perplasen-motocikleta-e-skuteri-viktimat-ishin-miq/"
+      ],
+      "Articles": {
+        "infokosove24": "dy-shqiptare-humbin-jeten-ne-greqi-u-perplasen-motocikleta-e-skuteri-viktimat"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Hamza: Jam optimist q\u00EB do ta p\u00EBrkrahin t\u00EB gjith\u00EB deputet\u00EBt ligjin p\u00EBr Specialen",
+      "Tokens": [
+        "hamz",
+        "jam",
+        "optim",
+        "perkr",
+        "gjith",
+        "deput",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/hamza-jam-optimist-qe-do-ta-perkrahin-te-gjithe-deputetet-ligjin-per-specialen/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "hamza-jam-optimist-qe-do-ta-perkrahin-te-gjithe-deputetet-ligjin-per-specialen"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "K\u00EBmb\u00EBsori q\u00EB vdiq pasi u godit nga vetura n\u00EB Prugovc, varroset nes\u00EBr",
+      "Tokens": [
+        "kembe",
+        "vdiq",
+        "pas",
+        "god",
+        "vetur",
+        "prugo",
+        "varro",
+        "neser"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kembesori-qe-vdiq-pasi-u-godit-nga-vetura-ne-prugovc-varroset-neser/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kembesori-qe-vdiq-pasi-u-godit-nga-vetura-ne-prugovc-varroset-neser"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Rrjet\u00EBn s\u2019e tund\u00EBn as mysafiri, as nikoqiri: Mbyllet pa gola pjesa e par\u00EB e ndeshjes Kosov\u00EB\u2013Austri",
+      "Tokens": [
+        "rrjet",
+        "tund",
+        "mysaf",
+        "nikoq",
+        "mbyll",
+        "gol",
+        "pjes",
+        "par",
+        "ndesh",
+        "koso",
+        "austr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/rrjeten-se-tunden-as-mysafiri-as-nikoqiri-mbyllet-pa-gola-pjesa-e-pare-e-ndeshjes-kosove-austri/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "rrjeten-s-e-tunden-as-mysafiri-as-nikoqiri-mbyllet-pa-gola-pjesa-e-pare-e"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Hamza thot\u00EB se Specialja dhe Presidenti jan\u00EB \u00E7\u00EBshtje t\u00EB ndara: S\u2019lejojm\u00EB t\u00EB trajtohen n\u00EB nivel t\u00EB pazareve politike",
+      "Tokens": [
+        "hamz",
+        "speci",
+        "presi",
+        "cesht",
+        "ndar",
+        "lejoj",
+        "trajt",
+        "nivel",
+        "pazar",
+        "polit"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hamza-thote-se-specialja-dhe-presidenti-jane-ceshtje-te-ndara-slejojme-te-trajtohen-ne-nivel-te-pazareve-politike/"
+      ],
+      "Articles": {
+        "raporti-sot": "hamza-thote-se-specialja-dhe-presidenti-jane-ceshtje-te-ndara-s-lejojme-te"
+      }
+    },
+    {
+      "At": "2026-10-04T20:04:37.718138+00:00",
+      "Title": "Merz mb\u00EBrrin n\u00EB Kiev n\u00EBn sirena, Gjermania premton 1 miliard euro ndihm\u00EB ushtarake p\u00EBr Ukrain\u00EBn",
+      "Tokens": [
+        "merz",
+        "mberr",
+        "kiev",
+        "siren",
+        "gjerm",
+        "premt",
+        "milia",
+        "euro",
+        "ndihm",
+        "ushta",
+        "ukrai"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/merz-mberrin-ne-kiev-nen-sirena-gjermania-premton-1-miliard-euro-ndihme-ushtarake-per-ukrainen/"
+      ],
+      "Articles": {
+        "infokosove24": "merz-mberrin-ne-kiev-nen-sirena-gjermania-premton-1-miliard-euro-ndihme"
+      }
+    },
     {
       "At": "2026-10-04T15:46:23.8410422+00:00",
       "Title": "Aksident n\u00EB rrug\u00EBn Klin\u00EB\u2013Gjakov\u00EB, kat\u00EBr persona d\u00EBrgohen p\u00EBr trajtim mjek\u00EBsor",
