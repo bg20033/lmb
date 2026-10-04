@@ -1,6 +1,404 @@
 {
-  "RotationCursor": 4,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Tre titullar\u00EB ndaj Izraelit mbesin jasht\u00EB p\u00EBr ndeshjen e sotme ndaj Austris\u00EB",
+      "Tokens": [
+        "tre",
+        "titul",
+        "ndaj",
+        "izrae",
+        "mbes",
+        "jasht",
+        "ndesh",
+        "sotm",
+        "austr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kosova-ndryshon-formacionin-ndaj-austrise-foda-le-ne-stol-tre-titullare-nga-ndeshja-me-izraelin/",
+        "https://telegrafi.com/tre-titullare-ndaj-izraelit-mbesin-jashte-per-ndeshjen-e-sotme-ndaj-austrise/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kosova-ndryshon-formacionin-ndaj-austrise-foda-le-ne-stol-tre-titullare-nga"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Zelensky dhe Putin k\u00EBrc\u00EBnojn\u00EB me sulme t\u00EB reja, nd\u00EBrsa Rusia paralajm\u00EBron t\u00EB huajt",
+      "Tokens": [
+        "zelen",
+        "put",
+        "kerce",
+        "sulm",
+        "rej",
+        "nders",
+        "rusi",
+        "paral",
+        "huajt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zelensky-dhe-putin-kercenojne-me-sulme-te-reja-ndersa-rusia-paralajmeron-te-huajt/",
+        "https://www.evropaelire.org/a/zelensky-putin-kercenojne-sulme-reja-rusia-paralajmeron-huajt/33869996.html"
+      ],
+      "Articles": {
+        "raporti-sot": "zelensky-dhe-putin-kercenojne-me-sulme-te-reja-ndersa-rusia-paralajmeron-te"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Merdare, kapen 50 mij\u00EB euro t\u00EB padeklaruara n\u00EB autobusin Itali\u2013Kosov\u00EB",
+      "Tokens": [
+        "merda",
+        "kap",
+        "mij",
+        "euro",
+        "padek",
+        "autob",
+        "ital",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zbulohen-50-mije-euro-te-fshehura-ne-autobusin-itali-kosove-ne-merdare/",
+        "https://telegrafi.com/merdare-kapen-50-mije-euro-te-padeklaruara-ne-autobusin-itali-kosove/"
+      ],
+      "Articles": {
+        "infokosove24": "zbulohen-50-mije-euro-te-fshehura-ne-autobusin-itali-kosove-ne-merdare"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Ish-ministri Aliu: Prokuroria Speciale ka pushuar hetimet ndaj meje, mir\u00EBpres vendimin",
+      "Tokens": [
+        "ish",
+        "minis",
+        "ali",
+        "proku",
+        "speci",
+        "pushu",
+        "hetim",
+        "ndaj",
+        "mej",
+        "mirep",
+        "vendi"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/prokuroria-speciale-pushon-hetimet-ndaj-liburn-aliut-ish-ministri-per-mua-ishte-e-pritshme/",
+        "https://www.gazetaexpress.com/liburn-aliu-prokuroria-speciale-i-pushoi-hetimet-ndaj-meje-mbase-do-te-vazhdoj-te-sulmohem-serish/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "liburn-aliu-prokuroria-speciale-i-pushoi-hetimet-ndaj-meje-mbase-do-te-vazhdoj"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Trump: Pes\u00EB mij\u00EB dollar\u00EB p\u00EBr \u00E7do amerikan n\u00EBse republikan\u00EBt fitojn\u00EB zgjedhjet",
+      "Tokens": [
+        "trump",
+        "pes",
+        "mij",
+        "dolla",
+        "cdo",
+        "ameri",
+        "nes",
+        "repub",
+        "fitoj",
+        "zgjed"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-pese-mije-dollare-per-cdo-amerikan-nese-republikanet-fitojne-zgjedhjet/"
+      ],
+      "Articles": {
+        "kosova-fakt": "trump-pese-mije-dollare-per-cdo-amerikan-nese-republikanet-fitojne-zgjedhjet"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Republikan\u00EB e demokrat\u00EB n\u00EB SHBA bashkohen kund\u00EBr Serbis\u00EB, k\u00EBrkojn\u00EB ndryshime n\u00EB politik\u00EBn e Beogradit",
+      "Tokens": [
+        "repub",
+        "demok",
+        "shb",
+        "bashk",
+        "kunde",
+        "serb",
+        "kerko",
+        "ndrys",
+        "polit",
+        "beogr"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/republikane-e-demokrate-ne-shba-bashkohen-kunder-serbise-kerkojne-ndryshime-ne-politiken-e-beogradit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "republikane-e-demokrate-ne-shba-bashkohen-kunder-serbise-kerkojne-ndryshime-ne"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Kapet n\u00EB Merdare me pajisje elektronike t\u00EB padeklaruara, vlera rreth 10 mij\u00EB euro",
+      "Tokens": [
+        "kap",
+        "merda",
+        "pajis",
+        "elekt",
+        "padek",
+        "vler",
+        "rreth",
+        "mij",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kapet-ne-merdare-me-pajisje-elektronike-te-padeklaruara-vlera-rreth-10-mije-euro/"
+      ],
+      "Articles": {
+        "raporti-sot": "kapet-ne-merdare-me-pajisje-elektronike-te-padeklaruara-vlera-rreth-10-mije-euro"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "T\u00EB sht\u00EBnat n\u00EB Ortakoll, ndalohet Demokrat Morina \u2013 kush \u00EBsht\u00EB \u201CLlaseri\u201D dhe e kaluara e tij kriminale",
+      "Tokens": [
+        "shten",
+        "ortak",
+        "ndalo",
+        "demok",
+        "morin",
+        "kush",
+        "llase",
+        "kalua",
+        "krimi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/te-shtenat-ne-ortakoll-ndalohet-demokrat-morina-kush-eshte-llaseri-dhe-e-kaluara-e-tij-kriminale/"
+      ],
+      "Articles": {
+        "infokosove24": "te-shtenat-ne-ortakoll-ndalohet-demokrat-morina-kush-eshte-llaseri-dhe-e"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Boshnjak\u00EBt votojn\u00EB n\u00EB zgjedhjet q\u00EB p\u00EBrballin forcat pro-per\u00EBndimore me ato nacionaliste",
+      "Tokens": [
+        "boshn",
+        "votoj",
+        "zgjed",
+        "perba",
+        "forca",
+        "pro",
+        "peren",
+        "nacio"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/boshnjaket-votojne-ne-zgjedhjet-qe-perballin-forcat-pro-perendimore-me-ato-nacionaliste/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "boshnjaket-votojne-ne-zgjedhjet-qe-perballin-forcat-pro-perendimore-me-ato"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Lajm i madh nga Barcelona, tre lojtar\u00EB pran\u00EB rinovimit",
+      "Tokens": [
+        "madh",
+        "barce",
+        "tre",
+        "lojta",
+        "pran",
+        "rinov"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/lajm-i-madh-nga-barcelona-tre-lojtare-prane-rinovimit/"
+      ],
+      "Articles": {
+        "kosova-fakt": "lajm-i-madh-nga-barcelona-tre-lojtare-prane-rinovimit"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Bosnja voton mes thirrjeve p\u00EBr integrim n\u00EB BE dhe ndarje t\u00EB vendit",
+      "Tokens": [
+        "bosn",
+        "voton",
+        "mes",
+        "thirr",
+        "integ",
+        "ndar",
+        "vend"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/bosnje-zgjedhje-perballe-forca-pro-perendim-nacionaliste/33870044.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "bosnja-voton-mes-thirrjeve-per-integrim-ne-be-dhe-ndarje-te-vendit"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Projektligji dhe Presidenti \u2013 PDK-ja mblidhet sot pas takimeve t\u00EB fundit t\u00EB Hamz\u00EBs me Kurtin",
+      "Tokens": [
+        "proje",
+        "presi",
+        "pdk",
+        "mblid",
+        "takim",
+        "fund",
+        "hamz",
+        "kurt"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/projektligji-dhe-presidenti-pdk-ja-mblidhet-sot-pas-takimeve-te-fundit-te-hamzes-me-kurtin/"
+      ],
+      "Articles": {
+        "raporti-sot": "projektligji-dhe-presidenti-pdk-ja-mblidhet-sot-pas-takimeve-te-fundit-te"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Vetura p\u00EBrplas k\u00EBmb\u00EBsorin n\u00EB Prishtin\u00EB\u2013Fush\u00EB Kosov\u00EB, d\u00EBrgohet n\u00EB QKUK",
+      "Tokens": [
+        "vetur",
+        "perpl",
+        "kembe",
+        "prish",
+        "fush",
+        "koso",
+        "dergo",
+        "qkuk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/vetura-perplas-kembesorin-ne-prishtine-fushe-kosove-dergohet-ne-qkuk/"
+      ],
+      "Articles": {
+        "infokosove24": "vetura-perplas-kembesorin-ne-prishtine-fushe-kosove-dergohet-ne-qkuk"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Nga Kosova n\u00EB Las Vegas: Prof. Dr. Venera Berisha Muharremi prezanton hulumtim p\u00EBr trajtimin e tiroides me fotobiomodulim",
+      "Tokens": [
+        "kosov",
+        "las",
+        "vegas",
+        "prof",
+        "vener",
+        "beris",
+        "muhar",
+        "preza",
+        "hulum",
+        "trajt",
+        "tiroi",
+        "fotob"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nga-kosova-ne-las-vegas-prof-dr-venera-berisha-muharremi-prezanton-hulumtim-per-trajtimin-e-tiroides-me-fotobiomodulim/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nga-kosova-ne-las-vegas-prof-dr-venera-berisha-muharremi-prezanton-hulumtim-per"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Tragjedi n\u00EB Prugovc: K\u00EBmb\u00EBsori nuk u mbijeton plag\u00EBve pas aksidentit \u2013 nd\u00EBrron jet\u00EB n\u00EB QKUK",
+      "Tokens": [
+        "tragj",
+        "prugo",
+        "kembe",
+        "mbije",
+        "plag",
+        "aksid",
+        "nderr",
+        "jet",
+        "qkuk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tragjedi-ne-prugovc-kembesori-nuk-u-mbijeton-plageve-pas-aksidentit-nderron-jete-ne-qkuk/"
+      ],
+      "Articles": {
+        "kosova-fakt": "tragjedi-ne-prugovc-kembesori-nuk-u-mbijeton-plageve-pas-aksidentit-nderron"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Ekskluzive | P\u00EBrplasja n\u00EB trafik n\u00EB Gjilan p\u00EBrfundon me sulm ndaj policit jasht\u00EB detyr\u00EBs \u2013 dy persona n\u00EB k\u00EBrkim",
+      "Tokens": [
+        "perpl",
+        "trafi",
+        "gjila",
+        "perfu",
+        "sulm",
+        "ndaj",
+        "polic",
+        "jasht",
+        "detyr",
+        "perso",
+        "kerki"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-perplasja-ne-trafik-ne-gjilan-perfundon-me-sulm-ndaj-policit-jashte-detyres-dy-persona-ne-kerkim/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ekskluzive-perplasja-ne-trafik-ne-gjilan-perfundon-me-sulm-ndaj-policit-jashte"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Ve\u00E7 edhe tre dit\u00EB afat, marr\u00EBveshje q\u00EB kalon ligjin p\u00EBr Specialen dhe Presidentin, apo zgjedhje t\u00EB reja?",
+      "Tokens": [
+        "vec",
+        "tre",
+        "dit",
+        "afat",
+        "marre",
+        "kalon",
+        "ligj",
+        "speci",
+        "presi",
+        "zgjed",
+        "rej"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/vec-edhe-tre-dite-afat-marreveshje-qe-kalon-ligjin-per-specialen-dhe-zgjedhjen-e-presidentit-apo-zgjedhje-te-reja/"
+      ],
+      "Articles": {
+        "raporti-sot": "vec-edhe-tre-dite-afat-marreveshje-qe-kalon-ligjin-per-specialen-dhe"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Sulmet iraniane nuk i ndalin eksportet e naft\u00EBs, por rafinerit\u00EB po",
+      "Tokens": [
+        "sulm",
+        "irani",
+        "ndal",
+        "ekspo",
+        "naft",
+        "rafin"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/sulmet-iraniane-nuk-i-ndalin-eksportet-e-naftes/33869142.html"
+      ],
+      "Articles": {
+        "infokosove24": "sulmet-iraniane-nuk-i-ndalin-eksportet-e-naftes-por-rafinerite-po"
+      }
+    },
+    {
+      "At": "2026-10-04T11:04:34.8145804+00:00",
+      "Title": "Horoskopi p\u00EBr dit\u00EBn e sotme, 4 Tetor 2026",
+      "Tokens": [
+        "horos",
+        "dit",
+        "sotm",
+        "tetor",
+        "2026"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/horoskopi-per-diten-e-sotme-4-tetor-2026/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "horoskopi-per-diten-e-sotme-4-tetor-2026"
+      }
+    },
     {
       "At": "2026-10-03T23:44:27.7965667+00:00",
       "Title": "Rikthehet flamuri kuqezi n\u00EB maj\u00EBn e Korabit, largohet ai maqedonas",
