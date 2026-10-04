@@ -1,6 +1,379 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Aksident n\u00EB rrug\u00EBn Klin\u00EB\u2013Gjakov\u00EB, kat\u00EBr persona d\u00EBrgohen p\u00EBr trajtim mjek\u00EBsor",
+      "Tokens": [
+        "aksid",
+        "rrug",
+        "klin",
+        "gjako",
+        "kater",
+        "perso",
+        "dergo",
+        "trajt",
+        "mjeke"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/aksident-ne-rrugen-kline-gjakove-kater-persona-dergohen-per-trajtim-mjekesor/",
+        "https://sinjali.com/aksident-me-dy-vetura-ne-volljake-te-klines-kater-persona-dergohen-per-trajtim/"
+      ],
+      "Articles": {
+        "kosova-fakt": "aksident-me-dy-vetura-ne-volljake-te-klines-kater-persona-dergohen-per-trajtim"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Ndryshimet e propozuara n\u00EB ligjin p\u00EBr Specialen shqyrtohen nes\u00EBr n\u00EB Kuvend",
+      "Tokens": [
+        "ndrys",
+        "propo",
+        "ligj",
+        "speci",
+        "shqyr",
+        "neser",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/deputetet-shqyrtojne-neser-ligji-speciale/33870096.html",
+        "https://sinjali.com/ndryshimi-i-ligjit-te-speciales-neser-hapi-i-pare-ne-komisionin-per-legjislacion/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndryshimet-e-propozuara-ne-ligjin-per-specialen-shqyrtohen-neser-ne-kuvend"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Protestuesit ndalin Arb\u00EBrie Nagavcin, Arian Tahirin dhe Besnik Tahirin para sht\u00EBpive: Thirreni seanc\u00EBn, votojeni ligjin p\u00EBr U\u00C7K-n\u00EB",
+      "Tokens": [
+        "prote",
+        "ndal",
+        "arber",
+        "nagav",
+        "arian",
+        "tahir",
+        "besni",
+        "shtep",
+        "thirr",
+        "seanc",
+        "votoj",
+        "ligj",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestuesit-ndalin-arberie-nagavcin-arian-tahirin-dhe-besnik-tahirin-para-shtepive-thirreni-seancen-votojeni-ligjin-per-uck-ne/",
+        "https://www.gazetaexpress.com/video-protestuesit-ndalin-arberie-nagavcin-arian-tahirin-dhe-besnik-tahirin-para-shtepive-thirreni-seancen-votojeni-ligjin-per-uck-ne/"
+      ],
+      "Articles": {
+        "raporti-sot": "video-protestuesit-ndalin-arberie-nagavcin-arian-tahirin-dhe-besnik-tahirin"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Thirrje p\u00EBr ekzekutimin e Rexhep Selimit n\u00EB komentet e Gazet\u00EBs Sinjali",
+      "Tokens": [
+        "thirr",
+        "ekzek",
+        "rexhe",
+        "selim",
+        "komen",
+        "gazet",
+        "sinja"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/thirrje-per-ekzekutimin-e-rexhep-selimit-ne-komentet-e-gazetes-sinjali/"
+      ],
+      "Articles": {
+        "infokosove24": "thirrje-per-ekzekutimin-e-rexhep-selimit-ne-komentet-e-gazetes-sinjali"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "N\u00EB flak\u00EBt e nj\u00EB prej zjarreve m\u00EB t\u00EB m\u00EBdha t\u00EB dekad\u00EBs: Zjarrfik\u00EBsi tregon si u l\u00EBndua gjat\u00EB intervenimit",
+      "Tokens": [
+        "flak",
+        "zjarr",
+        "medh",
+        "dekad",
+        "trego",
+        "lendu",
+        "inter"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ne-flaket-e-nje-prej-zjarreve-me-te-medha-te-dekades-zjarrfikesi-tregon-si-u-lendua-gjate-intervenimit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ne-flaket-e-nje-prej-zjarreve-me-te-medha-te-dekades-zjarrfikesi-tregon-si-u"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "\u201CJo n\u00EB emrin tim\u201D, shqiptar\u00EBt protestuan para Parlamentit gjerman",
+      "Tokens": [
+        "emr",
+        "tim",
+        "shqip",
+        "prote",
+        "parla",
+        "gjerm"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/jo-ne-emrin-tim-shqiptaret-protestuan-para-parlamentit-gjerman/"
+      ],
+      "Articles": {
+        "kosova-fakt": "jo-ne-emrin-tim-shqiptaret-protestuan-para-parlamentit-gjerman"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Kosova e publikon formacionin zyrtar, rikthehen Muriqi e Zhegrova",
+      "Tokens": [
+        "kosov",
+        "publi",
+        "forma",
+        "zyrta",
+        "rikth",
+        "muriq",
+        "zhegr"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kosova-e-publikon-formacionin-zyrtar-rikthehen-muriqi-e-zhegrova/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kosova-e-publikon-formacionin-zyrtar-rikthehen-muriqi-e-zhegrova"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Policia nis operacionin p\u00EBr largimin e mbi 3 mij\u00EB e 500 migrant\u00EBve nga kampi n\u00EB Ceuta",
+      "Tokens": [
+        "polic",
+        "nis",
+        "opera",
+        "largi",
+        "mij",
+        "500",
+        "migra",
+        "kamp",
+        "ceut"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-nis-operacionin-per-largimin-e-mbi-3-mije-e-500-migranteve-nga-kampi-ne-ceuta/"
+      ],
+      "Articles": {
+        "raporti-sot": "policia-nis-operacionin-per-largimin-e-mbi-3-mije-e-500-migranteve-nga-kampi-ne"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "\u201CNuk vlen as sa nj\u00EB thua i Ronaldos\u201D, tifozi p\u00EBrplaset me Jorge Jesusin n\u00EB aeroport",
+      "Tokens": [
+        "vlen",
+        "thu",
+        "ronal",
+        "tifoz",
+        "perpl",
+        "jorg",
+        "jesus",
+        "aerop"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nuk-vlen-as-sa-nje-thua-i-ronaldos-tifozi-perplaset-me-jorge-jesusin-ne-aeroport/"
+      ],
+      "Articles": {
+        "infokosove24": "nuk-vlen-as-sa-nje-thua-i-ronaldos-tifozi-perplaset-me-jorge-jesusin-ne-aeroport"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Shpirti artistik i Rexhep Selimit nuk u burgos: Shfaqet piktura e tij p\u00EBr U\u00C7K-n\u00EB",
+      "Tokens": [
+        "shpir",
+        "artis",
+        "rexhe",
+        "selim",
+        "burgo",
+        "shfaq",
+        "piktu",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shpirti-artistik-i-rexhep-selimit-nuk-u-burgos-shfaqet-piktura-e-tij-per-uck-ne/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shpirti-artistik-i-rexhep-selimit-nuk-u-burgos-shfaqet-piktura-e-tij-per-uck-ne"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "\u201CTela me gjemba inteligjent\u00EB\u201D: Kurthi i ri i Ukrain\u00EBs p\u00EBr dron\u00EBt",
+      "Tokens": [
+        "tel",
+        "gjemb",
+        "intel",
+        "kurth",
+        "ukrai",
+        "dron"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/kurthi-i-ri-i-ukraines-per-dronet-ruse/33869173.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "tela-me-gjemba-inteligjente-kurthi-i-ri-i-ukraines-per-dronet"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Haxhiu th\u00EBrret seanc\u00EB t\u00EB jasht\u00EBzakonshme p\u00EBr nes\u00EBr n\u00EB 09:00, ndryshimi i ligjit p\u00EBr Specialen pik\u00EB e par\u00EB e rendit t\u00EB dit\u00EBs",
+      "Tokens": [
+        "haxhi",
+        "therr",
+        "seanc",
+        "jasht",
+        "neser",
+        "ndrys",
+        "ligj",
+        "speci",
+        "pik",
+        "par",
+        "rend",
+        "dit"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/haxhiu-therret-seance-te-jashtezakonshme-per-neser-ne-0900-ndryshimi-i-ligjit-per-specialen-pike-e-pare-e-rendit-te-dites/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "haxhiu-therret-seance-te-jashtezakonshme-per-neser-ne-09-00-ndryshimi-i-ligjit"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "LVV dor\u00EBzon k\u00EBrkes\u00EB, nes\u00EBr n\u00EB 09:00 pritet t\u00EB mbahet nj\u00EB seanc\u00EB e jasht\u00EBzakonshme n\u00EB Kuvend",
+      "Tokens": [
+        "lvv",
+        "dorez",
+        "kerk",
+        "neser",
+        "prit",
+        "mbah",
+        "seanc",
+        "jasht",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lvv-dorezon-kerkese-neser-ne-0900-pritet-te-mbahet-nje-seance-e-jashtezakonshme-ne-kuvend/"
+      ],
+      "Articles": {
+        "raporti-sot": "lvv-dorezon-kerkese-neser-ne-09-00-pritet-te-mbahet-nje-seance-e"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Qytetari denoncon p\u00EBr Sinjalin: Po krijohet deponi mbeturinash n\u00EB Damanek t\u00EB Drenasit, \u00EBsht\u00EB b\u00EBr\u00EB tmerr",
+      "Tokens": [
+        "qytet",
+        "denon",
+        "sinja",
+        "krijo",
+        "depon",
+        "mbetu",
+        "daman",
+        "drena",
+        "ber",
+        "tmerr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/qytetari-denoncon-per-sinjalin-po-krijohet-deponi-mbeturinash-ne-damanek-te-drenasit-eshte-bere-tmerr/"
+      ],
+      "Articles": {
+        "infokosove24": "qytetari-denoncon-per-sinjalin-po-krijohet-deponi-mbeturinash-ne-damanek-te"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Kapet n\u00EB De\u00E7an personi i k\u00EBrkuar p\u00EBr vjedhje t\u00EB r\u00EBnd\u00EB dhe arm\u00EBmbajtje, ishte d\u00EBnuar me 4 vjet burgim",
+      "Tokens": [
+        "kap",
+        "decan",
+        "perso",
+        "kerku",
+        "vjedh",
+        "rend",
+        "armem",
+        "denua",
+        "vjet",
+        "burgi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kapet-ne-decan-personi-i-kerkuar-per-vjedhje-te-rende-dhe-armembajtje-ishte-denuar-me-4-vjet-burgim/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kapet-ne-decan-personi-i-kerkuar-per-vjedhje-te-rende-dhe-armembajtje-ishte"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Kushtrimi e merr nuse Auror\u00EBn n\u00EB Nekoc, dalin pamje",
+      "Tokens": [
+        "kusht",
+        "merr",
+        "nus",
+        "auror",
+        "nekoc",
+        "dal",
+        "pam"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kushtrimi-e-merr-nuse-auroren-ne-nekoc-dalin-pamje/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kushtrimi-e-merr-nuse-auroren-ne-nekoc-dalin-pamje"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Burimet e Express: Deputet\u00EBt njoftohen p\u00EBr takim t\u00EB Komisionit p\u00EBr Legjislacion, n\u00EB rend dite Ligji p\u00EBr Specialen",
+      "Tokens": [
+        "burim",
+        "expre",
+        "deput",
+        "njoft",
+        "takim",
+        "komis",
+        "legji",
+        "rend",
+        "dit",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/burimet-e-express-deputetet-njoftohen-per-takim-te-komisionit-per-legjislacion-ne-rend-dite-ligji-per-specialen/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "burimet-e-express-deputetet-njoftohen-per-takim-te-komisionit-per-legjislacion"
+      }
+    },
+    {
+      "At": "2026-10-04T15:46:23.8410422+00:00",
+      "Title": "Ukraina d\u00EBrgon ushqime me dron\u00EB p\u00EBr banor\u00EBt e uritur n\u00EBn okupimin rus",
+      "Tokens": [
+        "ukrai",
+        "dergo",
+        "ushqi",
+        "dron",
+        "banor",
+        "uritu",
+        "okupi",
+        "rus"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ukraina-dergon-ushqim-drone-banore-uritur/33869354.html"
+      ],
+      "Articles": {
+        "raporti-sot": "ukraina-dergon-ushqime-me-drone-per-banoret-e-uritur-nen-okupimin-rus"
+      }
+    },
     {
       "At": "2026-10-04T11:04:34.8145804+00:00",
       "Title": "Tre titullar\u00EB ndaj Izraelit mbesin jasht\u00EB p\u00EBr ndeshjen e sotme ndaj Austris\u00EB",
