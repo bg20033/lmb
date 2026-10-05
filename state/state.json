@@ -1,6 +1,486 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Nga juridiksioni te d\u00EBnimet: \u00C7far\u00EB parasheh projektligji p\u00EBr Specialen?",
+      "Tokens": [
+        "jurid",
+        "denim",
+        "paras",
+        "proje",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nga-juridiksioni-te-denimet-cfare-parasheh-projektligji-per-specialen/",
+        "https://www.evropaelire.org/a/cfare-ndryshon-projektligji-per-gjykaten-speciale/33870614.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "nga-juridiksioni-te-denimet-cfare-parasheh-projektligji-per-specialen"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "PDK k\u00EBrkon q\u00EB shqyrtimi i radh\u00EBs i ligjit p\u00EBr Specialen t\u00EB b\u00EBhet n\u00EB ora 17:30, Haxhiu e ashp\u00EBr: Nd\u00EBrhyrje brutale n\u00EB rendin e dit\u00EBs",
+      "Tokens": [
+        "pdk",
+        "kerko",
+        "shqyr",
+        "radh",
+        "ligj",
+        "speci",
+        "beh",
+        "ora",
+        "haxhi",
+        "ashpe",
+        "nderh",
+        "bruta",
+        "rend",
+        "dit"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pdk-kerkon-qe-shqyrtimi-i-radhes-i-ligjit-per-specialen-te-behet-ne-ora-1730-haxhiu-e-ashper-nderhyrje-brutale-ne-rendin-e-dites/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pdk-kerkon-qe-shqyrtimi-i-radhes-i-ligjit-per-specialen-te-behet-ne-ora-17-30"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "PDK propozon q\u00EB Ligji p\u00EBr Specialen t\u00EB votohet sot n\u00EB lexim t\u00EB dyt\u00EB",
+      "Tokens": [
+        "pdk",
+        "propo",
+        "ligj",
+        "speci",
+        "votoh",
+        "lexim",
+        "dyt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pdk-propozon-qe-ligji-per-specialen-te-votohet-sot-ne-lexim-te-dyte/"
+      ],
+      "Articles": {
+        "raporti-sot": "pdk-propozon-qe-ligji-per-specialen-te-votohet-sot-ne-lexim-te-dyte"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Blerina Matraku reagon pas publikimit t\u00EB videove intime: Nuk kam sy e faqe t\u00EB dal para babait",
+      "Tokens": [
+        "bleri",
+        "matra",
+        "reago",
+        "publi",
+        "video",
+        "intim",
+        "kam",
+        "faq",
+        "dal",
+        "baba"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/blerina-matraku-reagon-pas-publikimit-te-videove-intime-nuk-kam-sy-e-faqe-te-dal-para-babait/"
+      ],
+      "Articles": {
+        "infokosove24": "blerina-matraku-reagon-pas-publikimit-te-videove-intime-nuk-kam-sy-e-faqe-te"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "LEX | P\u00EBrballje n\u00EB gjykimin ndaj Nadica Cepkenoviqit \u2013 transmetohet intervista e Zahrije Podrimqakut, ajo kund\u00EBrshton p\u00EBrkthimin",
+      "Tokens": [
+        "lex",
+        "perba",
+        "gjyki",
+        "ndaj",
+        "nadic",
+        "cepke",
+        "trans",
+        "inter",
+        "zahri",
+        "podri",
+        "kunde",
+        "perkt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-perballje-ne-gjykimin-ndaj-nadica-cepkenoviqit-transmetohet-intervista-e-zahrije-podrimqakut-ajo-kundershton-perkthimin/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "lex-perballje-ne-gjykimin-ndaj-nadica-cepkenoviqit-transmetohet-intervista-e"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Driton Gojani zgjidhet kryesues i Bordit t\u00EB ZRrE-s\u00EB",
+      "Tokens": [
+        "drito",
+        "gojan",
+        "zgjid",
+        "kryes",
+        "bord",
+        "zrr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/driton-gojani-zgjidhet-kryesues-i-bordit-te-zrre-se/"
+      ],
+      "Articles": {
+        "kosova-fakt": "driton-gojani-zgjidhet-kryesues-i-bordit-te-zrre-se"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Dukej bukur prej larg e nga lart, por kjo ishte gjendja e r\u00EBnduar e fush\u00EBs n\u00EB \u201CFadil Vokrri\u201D mbr\u00EBm\u00EB",
+      "Tokens": [
+        "dukej",
+        "bukur",
+        "larg",
+        "lart",
+        "gjend",
+        "rendu",
+        "fush",
+        "fadil",
+        "vokrr",
+        "mbrem"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dukej-bukur-prej-larg-e-nga-lart-por-kjo-ishte-gjendja-e-renduar-e-fushes-ne-fadil-vokrri-mbreme/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dukej-bukur-prej-larg-e-nga-lart-por-kjo-ishte-gjendja-e-renduar-e-fushes-ne"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Kurti ende n\u00EB seanc\u00EB, takimi me Hamz\u00EBn ende s\u2019ka nisur",
+      "Tokens": [
+        "kurt",
+        "end",
+        "seanc",
+        "takim",
+        "hamz",
+        "nisur"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kurti-ende-ne-seance-takimi-me-hamzen-ende-ska-nisur/"
+      ],
+      "Articles": {
+        "raporti-sot": "kurti-ende-ne-seance-takimi-me-hamzen-ende-s-ka-nisur"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Organizatori i protestave t\u00EB p\u00EBrnatshme: Deputet\u00EBt s\u2019do t\u00EB mund t\u00EB dalin nga Kuvendi pa e votuar p\u00EBrfundimisht ligjin p\u00EBr Specialen",
+      "Tokens": [
+        "organ",
+        "prote",
+        "perna",
+        "deput",
+        "mund",
+        "dal",
+        "kuven",
+        "votua",
+        "perfu",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/organizatori-i-protestave-te-pernatshme-deputetet-sdo-te-mund-te-dalin-nga-kuvendi-pa-e-votuar-perfundimisht-ligjin-per-specialen/"
+      ],
+      "Articles": {
+        "infokosove24": "organizatori-i-protestave-te-pernatshme-deputetet-s-do-te-mund-te-dalin-nga"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Vu\u00E7iqi e vajton rr\u00EBzimin e Millosheviqit nga pushteti: Ishte gjykimi i nd\u00EBrkomb\u00EBtar\u00EBve p\u00EBr \u00E7\u00EBshtjen e Kosov\u00EBs dhe Malit t\u00EB Zi",
+      "Tokens": [
+        "vuciq",
+        "vajto",
+        "rrezi",
+        "millo",
+        "pusht",
+        "gjyki",
+        "nderk",
+        "cesht",
+        "kosov",
+        "mal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/vuciqi-e-vajton-rrezimin-e-millosheviqit-nga-pushteti-ishte-gjykimi-i-nderkombetareve-per-ceshtjen-e-kosoves-dhe-malit-te-zi/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "vuciqi-e-vajton-rrezimin-e-millosheviqit-nga-pushteti-ishte-gjykimi-i"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Nobel p\u00EBr shkenc\u00EBtar\u00EBt q\u00EB zbuluan se si truri i form\u00EBson ndjenjat",
+      "Tokens": [
+        "nobel",
+        "shken",
+        "zbulu",
+        "trur",
+        "forme",
+        "ndjen"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ndahet-cmimi-nobel-ne-mjeksi/33870599.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "nobel-per-shkencetaret-qe-zbuluan-se-si-truri-i-formeson-ndjenjat"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Protestat e student\u00EBve vazhdojn\u00EB n\u00EB t\u00EB gjith\u00EB Franc\u00EBn, mbyllen deri n\u00EB 500 shkolla",
+      "Tokens": [
+        "prote",
+        "stude",
+        "vazhd",
+        "gjith",
+        "franc",
+        "mbyll",
+        "500",
+        "shkol"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestat-e-studenteve-vazhdojne-ne-te-gjithe-francen-mbyllen-deri-ne-500-shkolla/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "protestat-e-studenteve-vazhdojne-ne-te-gjithe-francen-mbyllen-deri-ne-500"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Protestuesit i hodh\u00EBn edhe uj\u00EB Sami Kurteshit t\u00EB VV\u2019s\u00EB, pamje t\u00EB reja nga \u201Crrahja\u201D e shkurt\u00EBr mes tyre",
+      "Tokens": [
+        "prote",
+        "hodh",
+        "uje",
+        "sam",
+        "kurte",
+        "pam",
+        "rej",
+        "rrah",
+        "shkur",
+        "mes"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/protestuesit-i-hodhen-edhe-uje-sami-kurteshit-te-vvse-pamje-te-reja-nga-rrahja-e-shkurter-mes-tyre/"
+      ],
+      "Articles": {
+        "raporti-sot": "protestuesit-i-hodhen-edhe-uje-sami-kurteshit-te-vv-se-pamje-te-reja-nga-rrahja"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Rusia dhe Lindja e Mesme n\u00EB fokus t\u00EB turneut evropian t\u00EB Rubios",
+      "Tokens": [
+        "rusi",
+        "lind",
+        "mesm",
+        "fokus",
+        "turne",
+        "evrop",
+        "rubio"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rusia-lindja-e-mesme-ne-fokus-te-turneut-evropian-te-rubios/33870583.html"
+      ],
+      "Articles": {
+        "infokosove24": "rusia-dhe-lindja-e-mesme-ne-fokus-te-turneut-evropian-te-rubios"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Gucati: 100 deputet\u00EB shqiptar\u00EB, 100 vota \u2013 duhet unitet p\u00EBr Specialen",
+      "Tokens": [
+        "gucat",
+        "100",
+        "deput",
+        "shqip",
+        "vot",
+        "duh",
+        "unit",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gucati-100-deputete-shqiptare-100-vota-duhet-unitet-per-specialen/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gucati-100-deputete-shqiptare-100-vota-duhet-unitet-per-specialen"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Polic\u00EB t\u00EB pajisur mir\u00EB hyjn\u00EB brenda Kuvendit, deputet\u00EBve t\u00EB LVV-s\u00EB dikush u \u00E7on pica nga jasht\u00EB",
+      "Tokens": [
+        "polic",
+        "pajis",
+        "mir",
+        "hyjn",
+        "brend",
+        "kuven",
+        "deput",
+        "lvv",
+        "dikus",
+        "con",
+        "pic",
+        "jasht"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/police-te-pajisur-mire-hyjne-brenda-kuvendit-deputeteve-te-lvv-se-dikush-u-con-pica-nga-jashte/"
+      ],
+      "Articles": {
+        "kosova-fakt": "police-te-pajisur-mire-hyjne-brenda-kuvendit-deputeteve-te-lvv-se-dikush-u-con"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Donika G\u00EBrvalla buz\u00EBqesh dhe \u201Cl\u00EBmon\u201D emblem\u00EBn e U\u00C7K-s\u00EB n\u00EB Kuvend",
+      "Tokens": [
+        "donik",
+        "gerva",
+        "buzeq",
+        "lemon",
+        "emble",
+        "uck",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/donika-gervalla-buzeqesh-dhe-lemon-emblemen-e-uck-se-ne-kuvend/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "donika-gervalla-buzeqesh-dhe-lemon-emblemen-e-uck-se-ne-kuvend"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "\u201CNuk shoh dot baban\u00EB n\u00EB sy, ika nga sht\u00EBpia\u201D, pas publikimit t\u00EB videove intime me Adrian Hil\u00EBn, k\u00EBng\u00EBtarja: M\u00EB the jam i divorcuar",
+      "Tokens": [
+        "shoh",
+        "dot",
+        "baban",
+        "ika",
+        "shtep",
+        "publi",
+        "video",
+        "intim",
+        "adria",
+        "hil",
+        "kenge",
+        "jam",
+        "divor"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nuk-shoh-dot-babane-ne-sy-ika-nga-shtepia-pas-publikimit-te-videove-intime-me-adrian-hilen-kengetarja-me-the-jam-i-divorcuar/"
+      ],
+      "Articles": {
+        "raporti-sot": "nuk-shoh-dot-babane-ne-sy-ika-nga-shtepia-pas-publikimit-te-videove-intime-me"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Haxhiu thirrje protestuesve: Ruajeni qet\u00EBsin\u00EB, dhuna d\u00EBmton kauz\u00EBn",
+      "Tokens": [
+        "haxhi",
+        "thirr",
+        "prote",
+        "ruaje",
+        "qetes",
+        "dhun",
+        "demto",
+        "kauz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/haxhiu-thirrje-protestuesve-ruajeni-qetesine-dhuna-demton-kauzen/"
+      ],
+      "Articles": {
+        "infokosove24": "haxhiu-thirrje-protestuesve-ruajeni-qetesine-dhuna-demton-kauzen"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Nagavci: Ndryshimi i Ligjit p\u00EBr Specialen nuk i liron t\u00EB akuzuarit, duhet t\u00EB jemi t\u00EB vet\u00EBdijsh\u00EBm p\u00EBr kufijt\u00EB",
+      "Tokens": [
+        "nagav",
+        "ndrys",
+        "ligj",
+        "speci",
+        "liron",
+        "akuzu",
+        "duh",
+        "jem",
+        "veted",
+        "kufij"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nagavci-ndryshimi-i-ligjit-per-specialen-nuk-i-liron-te-akuzuarit-duhet-te-jemi-te-vetedijshem-per-kufijte/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nagavci-ndryshimi-i-ligjit-per-specialen-nuk-i-liron-te-akuzuarit-duhet-te-jemi"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "SHBA-ja p\u00EBrcjell rastin e dyshuar t\u00EB murtaj\u00EBs n\u00EB Rusi",
+      "Tokens": [
+        "shb",
+        "percj",
+        "rast",
+        "dyshu",
+        "murta",
+        "rus"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/shba-ja-percjell-rastin-e-dyshuar-te-murtajes-ne-rusi/33870446.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "shba-ja-percjell-rastin-e-dyshuar-te-murtajes-ne-rusi"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Dodik dhe partit\u00EB nacionaliste dominojn\u00EB zgjedhjet n\u00EB Bosnje",
+      "Tokens": [
+        "dodik",
+        "part",
+        "nacio",
+        "domin",
+        "zgjed",
+        "bosn"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/dodik-dhe-partite-nacionaliste-dominojne-zgjedhjet-ne-bosnje/33870428.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dodik-dhe-partite-nacionaliste-dominojne-zgjedhjet-ne-bosnje"
+      }
+    },
+    {
+      "At": "2026-10-05T12:12:39.8021309+00:00",
+      "Title": "Nis mbledhja e Komisionit p\u00EBr Legjislacion, shqyrtimi i ligjit p\u00EBr Specialen pika e vetme e rendit t\u00EB dit\u00EBs",
+      "Tokens": [
+        "nis",
+        "mbled",
+        "komis",
+        "legji",
+        "shqyr",
+        "ligj",
+        "speci",
+        "pik",
+        "vetm",
+        "rend",
+        "dit"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nis-mbledhja-e-komisionit-per-legjislacion-shqyrtimi-i-ligjit-per-specialen-pika-e-vetme-e-rendit-te-dites/"
+      ],
+      "Articles": {
+        "raporti-sot": "nis-mbledhja-e-komisionit-per-legjislacion-shqyrtimi-i-ligjit-per-specialen"
+      }
+    },
     {
       "At": "2026-10-04T23:55:42.8482812+00:00",
       "Title": "Gjendja e grupit t\u00EB Kosov\u00EBs, pas kat\u00EBr ndeshjeve t\u00EB para t\u00EB Lig\u00EBs s\u00EB Kombeve",
