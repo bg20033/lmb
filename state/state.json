@@ -1,6 +1,475 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 4,
   "Published": [
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Protesta l\u00EB 12 t\u00EB l\u00EBnduar, shumica nga gazi lotsjell\u00EBs",
+      "Tokens": [
+        "prote",
+        "lendu",
+        "shumi",
+        "gaz",
+        "lotsj"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/protesta-le-12-te-lenduar-shumica-nga-gazi-lotsjelles/",
+        "https://sinjali.com/12-paciente-kerkuan-ndihme-mjekesore-pas-protestes-shumica-nga-gazi-lotsjelles/"
+      ],
+      "Articles": {
+        "infokosove24": "12-paciente-kerkuan-ndihme-mjekesore-pas-protestes-shumica-nga-gazi-lotsjelles"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "OVL-U\u00C7K b\u00EBn thirrje p\u00EBr vazhdimin e protest\u00EBs: Nes\u00EBr t\u00EB gjith\u00EBve t\u00EB na gjej\u00EB m\u00EBngjesi n\u00EB sheshin e Prishtin\u00EBs",
+      "Tokens": [
+        "ovl",
+        "uck",
+        "ben",
+        "thirr",
+        "vazhd",
+        "prote",
+        "neser",
+        "gjith",
+        "gje",
+        "mengj",
+        "shesh",
+        "prish"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/ovl-uck-ben-thirrje-per-vazhdimin-e-protestes-neser-te-gjitheve-te-na-gjeje-mengjesi-ne-sheshin-e-prishtines/",
+        "https://sinjali.com/ovl-uck-ben-thirrje-per-vazhdimin-e-protestes-neser-mengjesi-duhet-te-na-gjeje-te-gjitheve-ne-shesh/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ovl-uck-ben-thirrje-per-vazhdimin-e-protestes-neser-mengjesi-duhet-te-na-gjeje"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Rexhepi reagon pas incidentit para Kuvendit: \u201CK\u00EBrkimi i faljes nuk e mbyll rastin\u201D",
+      "Tokens": [
+        "rexhe",
+        "reago",
+        "incid",
+        "kuven",
+        "kerki",
+        "falj",
+        "mbyll",
+        "rast"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/fahrush-rexhepi-reagon-pas-incidentit-me-protestuesit-kerkimfalja-nuk-e-mbyll-rastin/",
+        "https://telegrafi.com/rexhepi-reagon-pas-incidentit-para-kuvendit-kerkimi-i-faljes-nuk-e-mbyll-rastin/"
+      ],
+      "Articles": {
+        "kosova-fakt": "fahrush-rexhepi-reagon-pas-incidentit-me-protestuesit-kerkimfalja-nuk-e-mbyll"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Qet\u00EBsohet situata pran\u00EB Kuvendit pas p\u00EBrplasjeve, 12 persona k\u00EBrkuan ndihm\u00EB mjek\u00EBsore",
+      "Tokens": [
+        "qetes",
+        "situa",
+        "pran",
+        "kuven",
+        "perpl",
+        "perso",
+        "kerku",
+        "ndihm",
+        "mjeke"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/syla-12-persona-kane-kerkuar-ndihme-mjekesore-pas-protestes-nje-polic-dhe-11-civile/",
+        "https://www.evropaelire.org/a/ndryshimet-ne-ligjin-per-specialen-ne-kuvend/33870421.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "syla-12-persona-kane-kerkuar-ndihme-mjekesore-pas-protestes-nje-polic-dhe-11"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Ramush Haradinaj hyn n\u00EB mesin e protestuesve: Shpresuam q\u00EB po votojm\u00EB sonte, po na dhimbeni ju, vendi dhe ata atje",
+      "Tokens": [
+        "ramus",
+        "harad",
+        "hyn",
+        "mes",
+        "prote",
+        "shpre",
+        "votoj",
+        "sont",
+        "dhimb",
+        "vend",
+        "atj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ramush-haradinaj-i-bashkohet-protestes-po-me-dhimbeseni-ju-dhe-ata-ne-hage/",
+        "https://www.gazetaexpress.com/ramush-haradinaj-hyn-ne-mesin-e-protestuesve-shpresuam-qe-po-votojme-sonte-po-na-dhimbeni-ju-vendi-dhe-ata-atje/"
+      ],
+      "Articles": {
+        "raporti-sot": "ramush-haradinaj-i-bashkohet-protestes-po-me-dhimbeseni-ju-dhe-ata-ne-hage"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Arrestohet djali i v\u00EBllait t\u00EB Hashim Tha\u00E7it, gjat\u00EB protest\u00EBs",
+      "Tokens": [
+        "arres",
+        "djal",
+        "vella",
+        "hashi",
+        "thac",
+        "prote"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arrestohet-djali-i-vellait-te-hashim-thacit-gjate-protestes/",
+        "https://www.gazetaexpress.com/protesta-ne-shesh-arrestohet-nipi-i-hashim-thacit/"
+      ],
+      "Articles": {
+        "infokosove24": "protesta-ne-shesh-arrestohet-nipi-i-hashim-thacit"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "\u201CEgoja po ia shkat\u00EBrron reputacionin\u201D, CR7 kritikohet ashp\u00EBr, pas situat\u00EBs s\u00EB fundit te Portugalia",
+      "Tokens": [
+        "ego",
+        "shkat",
+        "reput",
+        "cr7",
+        "kriti",
+        "ashpe",
+        "situa",
+        "fund",
+        "portu"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/egoja-po-ia-shkaterron-reputacionin-cr7-kritikohet-ashper-pas-situates-se-fundit-te-portugalia/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "egoja-po-ia-shkaterron-reputacionin-cr7-kritikohet-ashper-pas-situates-se"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Rrahman Rama negocion me policin\u00EB, t\u00EBrhiqet kordoni, sheshi lirohet p\u00EBr protest\u00EB",
+      "Tokens": [
+        "rrahm",
+        "ram",
+        "negoc",
+        "polic",
+        "terhi",
+        "kordo",
+        "shesh",
+        "liroh",
+        "prote"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rrahman-rama-negocion-me-policine-terhiqet-kordoni-sheshi-lirohet-per-proteste/"
+      ],
+      "Articles": {
+        "kosova-fakt": "rrahman-rama-negocion-me-policine-terhiqet-kordoni-sheshi-lirohet-per-proteste"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "\u201CHeart of the Beast\u201D \u2013 apo, n\u00EB t\u00EB v\u00EBrtet\u00EB, zemra e dy veteran\u00EBve t\u00EB luft\u00EBs",
+      "Tokens": [
+        "heart",
+        "beast",
+        "verte",
+        "zemr",
+        "veter",
+        "luft"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/heart-of-the-beast-apo-ne-te-vertete-zemra-e-dy-veteraneve-te-luftes/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "heart-of-the-beast-apo-ne-te-vertete-zemra-e-dy-veteraneve-te-luftes"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Dy polic\u00EB godasin nj\u00EB qytetar gjat\u00EB protest\u00EBs, i treti q\u00EBndron pran\u00EB",
+      "Tokens": [
+        "polic",
+        "godas",
+        "qytet",
+        "prote",
+        "tret",
+        "qendr",
+        "pran"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dy-police-godasin-nje-qytetar-gjate-protestes-i-treti-qendron-prane/"
+      ],
+      "Articles": {
+        "raporti-sot": "dy-police-godasin-nje-qytetar-gjate-protestes-i-treti-qendron-prane"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Policia i nxjerr edhe automjetet e r\u00EBnda t\u00EB saj n\u00EB af\u00EBrsi t\u00EB Kuvendit t\u00EB Kosov\u00EBs",
+      "Tokens": [
+        "polic",
+        "nxjer",
+        "autom",
+        "rend",
+        "afers",
+        "kuven",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/policia-i-nxjerr-edhe-automjetet-e-renda-te-saj-ne-afersi-te-kuvendit-te-kosoves/"
+      ],
+      "Articles": {
+        "infokosove24": "policia-i-nxjerr-edhe-automjetet-e-renda-te-saj-ne-afersi-te-kuvendit-te-kosoves"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "PDK d\u00EBnon dhun\u00EBn ndaj protestuesve: Asnj\u00EB urdh\u00EBr politik nuk e justifikon",
+      "Tokens": [
+        "pdk",
+        "denon",
+        "dhun",
+        "ndaj",
+        "prote",
+        "asn",
+        "urdhe",
+        "polit",
+        "justi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pdk-denon-dhunen-ndaj-protestuesve-asnje-urdher-politik-nuk-e-justifikon/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "pdk-denon-dhunen-ndaj-protestuesve-asnje-urdher-politik-nuk-e-justifikon"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Nagavci me akuza: Pati gjuajtje me gur\u00EB d\u00EBmtim t\u00EB veturave, struktura t\u00EB PDK\u2019s\u00EB po e sulmojn\u00EB Policin\u00EB",
+      "Tokens": [
+        "nagav",
+        "akuz",
+        "pat",
+        "gjuaj",
+        "gur",
+        "demti",
+        "vetur",
+        "struk",
+        "pdk",
+        "sulmo",
+        "polic"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nagavci-me-akuza-pati-gjuajtje-me-gure-demtim-te-veturave-struktura-te-pdkse-po-e-sulmojne-policine/"
+      ],
+      "Articles": {
+        "kosova-fakt": "nagavci-me-akuza-pati-gjuajtje-me-gure-demtim-te-veturave-struktura-te-pdk-se"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Policia p\u00EBr protest\u00EBn: Deri m\u00EB tani nuk ka l\u00EBndime serioze",
+      "Tokens": [
+        "polic",
+        "prote",
+        "tan",
+        "lendi",
+        "serio"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-per-protesten-deri-me-tani-nuk-ka-lendime-serioze/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "policia-per-protesten-deri-me-tani-nuk-ka-lendime-serioze"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Kontejner\u00EBt p\u00EBrfshihen nga flak\u00EBt gjat\u00EB protest\u00EBs n\u00EB \u201CAgim Ramadani\u201D",
+      "Tokens": [
+        "konte",
+        "perfs",
+        "flak",
+        "prote",
+        "agim",
+        "ramad"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kontejneret-perfshihen-nga-flaket-gjate-protestes-ne-agim-ramadani/"
+      ],
+      "Articles": {
+        "raporti-sot": "kontejneret-perfshihen-nga-flaket-gjate-protestes-ne-agim-ramadani"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "OVL-U\u00C7K i drejtohet Policis\u00EB: Mbani duart larg f\u00EBmij\u00EBve t\u00EB d\u00EBshmor\u00EBve, veteran\u00EBve dhe qytetar\u00EBve",
+      "Tokens": [
+        "ovl",
+        "uck",
+        "drejt",
+        "polic",
+        "mban",
+        "duart",
+        "larg",
+        "femij",
+        "deshm",
+        "veter",
+        "qytet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ovl-uck-i-drejtohet-policise-mbani-duart-larg-femijeve-te-deshmoreve-veteraneve-dhe-qytetareve/"
+      ],
+      "Articles": {
+        "infokosove24": "ovl-uck-i-drejtohet-policise-mbani-duart-larg-femijeve-te-deshmoreve-veteraneve"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Thirrja e Ismailit p\u00EBr Policin\u00EB: Mos zbatoni urdh\u00EBrat e Qeveris\u00EB, po k\u00EBrkon q\u00EB ta eskaloj\u00EB situat\u00EBn",
+      "Tokens": [
+        "thirr",
+        "ismai",
+        "polic",
+        "zbato",
+        "urdhe",
+        "qever",
+        "kerko",
+        "eskal",
+        "situa"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/thirrja-e-ismailit-per-policine-mos-zbatoni-urdherat-e-qeverise-po-kerkon-qe-ta-eskaloje-situaten/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "thirrja-e-ismailit-per-policine-mos-zbatoni-urdherat-e-qeverise-po-kerkon-qe-ta"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Londrimi flet pas ndarjes s\u00EB Klodit dhe Elijon\u00EBs: \u201CKam raport t\u00EB mir\u00EB me t\u00EB dy\u201D",
+      "Tokens": [
+        "londr",
+        "flet",
+        "ndarj",
+        "klod",
+        "elijo",
+        "kam",
+        "rapor",
+        "mir"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/londrimi-flet-pas-ndarjes-se-klodit-dhe-elijones-kam-raport-te-mire-me-te-dy/"
+      ],
+      "Articles": {
+        "kosova-fakt": "londrimi-flet-pas-ndarjes-se-klodit-dhe-elijones-kam-raport-te-mire-me-te-dy"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Hysni Gucati mb\u00EBrrin n\u00EB Emergjenc\u00EB pas protest\u00EBs para Kuvendit",
+      "Tokens": [
+        "hysn",
+        "gucat",
+        "mberr",
+        "emerg",
+        "prote",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/hysni-gucati-mberrin-ne-emergjence-pas-protestes-para-kuvendit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "hysni-gucati-mberrin-ne-emergjence-pas-protestes-para-kuvendit"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Situata m\u00EB e re n\u00EB shesh: Ende num\u00EBr i madh protestuesish, policia vazhdon t\u00EB gjuaj\u00EB gaz lotsjell\u00EBs",
+      "Tokens": [
+        "situa",
+        "shesh",
+        "end",
+        "numer",
+        "madh",
+        "prote",
+        "polic",
+        "vazhd",
+        "gjua",
+        "gaz",
+        "lotsj"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/situata-me-e-re-neshesh-ende-ka-protestues-policia-vazhdon-te-gjuaje-gaz-lotsjelles/"
+      ],
+      "Articles": {
+        "raporti-sot": "situata-me-e-re-ne-shesh-ende-numer-i-madh-protestuesish-policia-vazhdon-te"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "P\u00EBrfundon takimi Kurti-Hamza n\u00EB Kuvend, nuk dihet rezultati",
+      "Tokens": [
+        "perfu",
+        "takim",
+        "kurt",
+        "hamz",
+        "kuven",
+        "dih",
+        "rezul"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/perfundon-takimi-kurti-hamza-ne-kuvend-nuk-dihet-rezultati/"
+      ],
+      "Articles": {
+        "infokosove24": "perfundon-takimi-kurti-hamza-ne-kuvend-nuk-dihet-rezultati"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Putin mb\u00EBshtet Vu\u00E7iqin, kanalet proruse u japin hap\u00EBsir\u00EB \u200B\u200Bedhe student\u00EBve",
+      "Tokens": [
+        "put",
+        "mbesh",
+        "vuciq",
+        "kanal",
+        "proru",
+        "jap",
+        "hapes",
+        "stude"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/mbeshtetja-putinin-vuciq/33870673.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "putin-mbeshtet-vuciqin-kanalet-proruse-u-japin-hapesire-edhe-studenteve"
+      }
+    },
+    {
+      "At": "2026-10-05T21:09:58.7143515+00:00",
+      "Title": "Tensione dhe p\u00EBrplasje para Kuvendit, policia p\u00EBrdor gaz lotsjell\u00EBs",
+      "Tokens": [
+        "tensi",
+        "perpl",
+        "kuven",
+        "polic",
+        "perdo",
+        "gaz",
+        "lotsj"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/tensione-perplaske-kuvend-gaze-lotsjelles/33870827.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "tensione-dhe-perplasje-para-kuvendit-policia-perdor-gaz-lotsjelles"
+      }
+    },
     {
       "At": "2026-10-05T12:12:39.8021309+00:00",
       "Title": "Nga juridiksioni te d\u00EBnimet: \u00C7far\u00EB parasheh projektligji p\u00EBr Specialen?",
