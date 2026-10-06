@@ -1,6 +1,127 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-06T22:58:44.4266634+00:00",
+      "Title": "Osmani uron Justina Pul\u00EBn: Mund t\u00EB llogaris\u00EB n\u00EB mb\u00EBshtetjen time t\u00EB p\u00EBrhershme",
+      "Tokens": [
+        "osman",
+        "uron",
+        "justi",
+        "pul",
+        "mund",
+        "lloga",
+        "mbesh",
+        "tim",
+        "perhe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/osmani-uron-justina-pulen-mund-te-llogarise-ne-mbeshtetjen-time-te-perhershme/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "osmani-uron-justina-pulen-mund-te-llogarise-ne-mbeshtetjen-time-te-perhershme"
+      }
+    },
+    {
+      "At": "2026-10-06T22:58:44.4266634+00:00",
+      "Title": "Hamza p\u00EBr zgjedhjen e Shiroka-Pul\u00EBs: \u00CBsht\u00EB mir\u00EB q\u00EB vendi do t\u00EB ket\u00EB stabilitet",
+      "Tokens": [
+        "hamz",
+        "zgjed",
+        "shiro",
+        "pul",
+        "mir",
+        "vend",
+        "ket",
+        "stabi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/hamza-per-zgjedhjen-e-shiroka-pules-eshte-mire-qe-vendi-do-te-kete-stabilitet/"
+      ],
+      "Articles": {
+        "kosova-fakt": "hamza-per-zgjedhjen-e-shiroka-pules-eshte-mire-qe-vendi-do-te-kete-stabilitet"
+      }
+    },
+    {
+      "At": "2026-10-06T22:58:44.4266634+00:00",
+      "Title": "Miratimi i ndryshimeve t\u00EB Ligjit p\u00EBr Specialen, avokati Berisha: Tani p\u00EBrgjegj\u00EBsia \u00EBsht\u00EB t\u00EB sigurohemi q\u00EB \u00E7mimin e tij t\u00EB mos e paguaj\u00EB Kosova",
+      "Tokens": [
+        "mirat",
+        "ndrys",
+        "ligj",
+        "speci",
+        "avoka",
+        "beris",
+        "tan",
+        "pergj",
+        "sigur",
+        "cmim",
+        "pagua",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/miratimi-i-ndryshimeve-te-ligjit-per-specialen-avokati-berisha-tani-pergjegjesia-eshte-te-sigurohemi-qe-cmimin-e-tij-te-mos-e-paguaje-kosova/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "miratimi-i-ndryshimeve-te-ligjit-per-specialen-avokati-berisha-tani"
+      }
+    },
+    {
+      "At": "2026-10-06T22:58:44.4266634+00:00",
+      "Title": "Trump p\u00EBr trazirat n\u00EB Franc\u00EB: Vjen nga migracioni i pakontrolluar",
+      "Tokens": [
+        "trump",
+        "trazi",
+        "franc",
+        "vjen",
+        "migra",
+        "pakon"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-per-trazirat-ne-france-vjen-nga-migracioni-i-pakontrolluar/"
+      ],
+      "Articles": {
+        "raporti-sot": "trump-per-trazirat-ne-france-vjen-nga-migracioni-i-pakontrolluar"
+      }
+    },
+    {
+      "At": "2026-10-06T22:58:44.4266634+00:00",
+      "Title": "Deputet\u00EBt nisin t\u00EB mblidhen n\u00EB Kuvend p\u00EBr seanc\u00EB",
+      "Tokens": [
+        "deput",
+        "nis",
+        "mblid",
+        "kuven",
+        "seanc"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/deputetet-nisin-te-mblidhen-ne-kuvend-per-seance/"
+      ],
+      "Articles": {
+        "infokosove24": "deputetet-nisin-te-mblidhen-ne-kuvend-per-seance"
+      }
+    },
+    {
+      "At": "2026-10-06T22:58:44.4266634+00:00",
+      "Title": "Ronaldo thyen heshtjen p\u00EBr konfliktin me Jesus dhe k\u00EBrkon d\u00EBnimin e tij: N\u00EBse nuk m\u00EB do, vet\u00EBm ma thuaj",
+      "Tokens": [
+        "ronal",
+        "thy",
+        "hesht",
+        "konfl",
+        "jesus",
+        "kerko",
+        "denim",
+        "nes",
+        "thuaj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ronaldo-thyen-heshtjen-per-konfliktin-me-jesus-dhe-kerkon-denimin-e-tij-nese-nuk-me-do-vetem-ma-thuaj/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ronaldo-thyen-heshtjen-per-konfliktin-me-jesus-dhe-kerkon-denimin-e-tij-nese"
+      }
+    },
     {
       "At": "2026-10-06T18:53:13.0854932+00:00",
       "Title": "Haradinaj: T\u00EB gjith\u00EB n\u00EB shesh, k\u00EBrkojm\u00EB votimin e Ligjit p\u00EBr Specialen",
