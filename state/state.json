@@ -1,6 +1,598 @@
 {
-  "RotationCursor": 0,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Haradinaj: T\u00EB gjith\u00EB n\u00EB shesh, k\u00EBrkojm\u00EB votimin e Ligjit p\u00EBr Specialen",
+      "Tokens": [
+        "harad",
+        "gjith",
+        "shesh",
+        "kerko",
+        "votim",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/haradinajt-te-gjithe-ne-shesh-kerkojme-votimin-e-ligjit-per-specialen/",
+        "https://sinjali.com/haradinaj-therret-qytetaret-ne-shesh-te-votohet-sonte-ligji-per-specialen/",
+        "https://telegrafi.com/ligji-per-specialen-ne-rend-dite-kuvendi-mblidhet-ne-ora-09-00/"
+      ],
+      "Articles": {
+        "raporti-sot": "haradinaj-therret-qytetaret-ne-shesh-te-votohet-sonte-ligji-per-specialen"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Kurti u k\u00EBrkon gazetar\u00EBve ta pyesin Hamz\u00EBn p\u00EBr propozimin e ri: Me Glauk Konjufc\u00EBn dhe Feride Rushitin flas vet\u00EB",
+      "Tokens": [
+        "kurt",
+        "kerko",
+        "gazet",
+        "pyes",
+        "hamz",
+        "propo",
+        "glauk",
+        "konju",
+        "ferid",
+        "rushi",
+        "flas",
+        "vet"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/kurti-u-kerkon-gazetareve-ta-pyesin-hamzen-per-propozimin-e-ri-me-glauk-konjufcen-dhe-feride-rushitin-flas-vete/",
+        "https://www.gazetaexpress.com/kurti-ia-kerkon-votat-pdkse-per-glauk-konjufcen-ose-feride-rushitin-ne-kembim-te-votimit-te-ligjit-per-specialen/"
+      ],
+      "Articles": {
+        "infokosove24": "kurti-ia-kerkon-votat-pdk-se-per-glauk-konjufcen-ose-feride-rushitin-ne-kembim"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "\u201CAlbin, eja n\u00EB Kuvend, mos vono\u201D, \u00C7itaku: Kan\u00EB mbetur edhe pak or\u00EB, votojeni ligjin",
+      "Tokens": [
+        "alb",
+        "eja",
+        "kuven",
+        "vono",
+        "citak",
+        "mbetu",
+        "pak",
+        "ore",
+        "votoj",
+        "ligj"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/albin-eja-ne-kuvend-mos-vono-citaku-kane-mbetur-edhe-pak-ore-votojeni-ligjin/",
+        "https://sinjali.com/vlora-citaku-i-ben-thirrje-kurtit-albin-eja-ne-kuvend-kane-mbetur-edhe-pak-ore/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "vlora-citaku-i-ben-thirrje-kurtit-albin-eja-ne-kuvend-kane-mbetur-edhe-pak-ore"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Kurti paralajm\u00EBroi fushat\u00EB t\u00EB ashp\u00EBr zgjedhore, Hamza: Mendoj ndryshe nga ai, duhet fushat\u00EB me programe, kultur\u00EB e civilizim",
+      "Tokens": [
+        "kurt",
+        "paral",
+        "fusha",
+        "ashpe",
+        "zgjed",
+        "hamz",
+        "mendo",
+        "ndrys",
+        "duh",
+        "progr",
+        "kultu",
+        "civil"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nese-shkohet-nezgjedhje-do-kete-perplasje-te-ashper-hamza-mendoj-ndryshe-nga-kurti-duhet-fushate-me-programe-kulture-e-civilizim/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kurti-paralajmeroi-fushate-te-ashper-zgjedhore-hamza-mendoj-ndryshe-nga-ai"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Hamza i p\u00EBrgjigjet Kurtit pasi i propozoi \u201CKonjufc\u00EBn ose Rushitin\u201D: Me President politik synon p\u00EBrmbylljen e kapjes s\u00EB institucioneve",
+      "Tokens": [
+        "hamz",
+        "pergj",
+        "kurt",
+        "pas",
+        "propo",
+        "konju",
+        "rushi",
+        "presi",
+        "polit",
+        "synon",
+        "permb",
+        "kapj",
+        "insti"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hamza-i-pergjigjet-kurtit-pasi-i-propozoi-konjufcen-ose-rushitin-qellimi-i-tij-permbyllja-e-kapjes-se-institucioneve/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "hamza-i-pergjigjet-kurtit-pasi-i-propozoi-konjufcen-ose-rushitin-me-president"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Zelensky ngre alarmin p\u00EBr sulm masiv rus: Kievi merr masa urgjente",
+      "Tokens": [
+        "zelen",
+        "ngr",
+        "alarm",
+        "sulm",
+        "masiv",
+        "rus",
+        "kiev",
+        "merr",
+        "mas",
+        "urgje"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zelensky-ngre-alarmin-per-sulm-masiv-rus-kievi-merr-masa-urgjente/"
+      ],
+      "Articles": {
+        "raporti-sot": "zelensky-ngre-alarmin-per-sulm-masiv-rus-kievi-merr-masa-urgjente"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Bekim Sejdiu rikonfirmoi se \u00EBsht\u00EB t\u00EBrhequr, Kurti ia p\u00EBrdor p\u00EBrs\u00EBri emrin thot\u00EB se PDK e refuzoi",
+      "Tokens": [
+        "bekim",
+        "sejdi",
+        "rikon",
+        "terhe",
+        "kurt",
+        "perdo",
+        "perse",
+        "emr",
+        "pdk",
+        "refuz"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/bekim-sejdiu-rikonfirmoi-se-eshte-terhequr-kurti-ia-perdor-perseri-emrin-thote-se-pdk-e-refuzoi/"
+      ],
+      "Articles": {
+        "infokosove24": "bekim-sejdiu-rikonfirmoi-se-eshte-terhequr-kurti-ia-perdor-perseri-emrin-thote"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Videot intime t\u00EB publikuara n\u00EB rrjet, Monika Lubonja padit Adrian Hil\u00EBn: S\u2019kam dh\u00EBn\u00EB p\u00EBlqim t\u00EB filmohem",
+      "Tokens": [
+        "video",
+        "intim",
+        "publi",
+        "rrj",
+        "monik",
+        "lubon",
+        "pad",
+        "adria",
+        "hil",
+        "kam",
+        "dhen",
+        "pelqi",
+        "filmo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/videot-intime-te-publikuara-ne-rrjet-monika-lubonja-padit-adrian-hilen-skam-dhene-pelqim-te-filmohem/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "videot-intime-te-publikuara-ne-rrjet-monika-lubonja-padit-adrian-hilen-s-kam"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Protagoniste n\u00EB videot e Adi Hil\u00EBs, reagon p\u00EBr her\u00EB t\u00EB par\u00EB Monika Lubonja",
+      "Tokens": [
+        "prota",
+        "video",
+        "adi",
+        "hil",
+        "reago",
+        "her",
+        "par",
+        "monik",
+        "lubon"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/protagoniste-ne-videot-e-adi-hiles-reagon-per-here-te-pare-monika-lubonja/"
+      ],
+      "Articles": {
+        "kosova-fakt": "protagoniste-ne-videot-e-adi-hiles-reagon-per-here-te-pare-monika-lubonja"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "\u201CS\u2019po mund ta takoj\u201D \u2013 Kurti u k\u00EBrkon gazetar\u00EBve t\u00EB nd\u00EBrmjet\u00EBsojn\u00EB mes tij dhe Hamz\u00EBs",
+      "Tokens": [
+        "mund",
+        "takoj",
+        "kurt",
+        "kerko",
+        "gazet",
+        "nderm",
+        "mes",
+        "hamz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/spo-mund-ta-takoj-kurti-u-kerkon-gazetareve-te-ndermjetesojne-mes-tij-dhe-hamzes/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "s-po-mund-ta-takoj-kurti-u-kerkon-gazetareve-te-ndermjetesojne-mes-tij-dhe"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Kurti tallet n\u00EB konferenc\u00EB: \u201CPrita se po shkoni te Hamza p\u00EBr t\u2019i b\u00EBr\u00EB pyetje\u201D, \u201C\u00E7ka po ua merr mendja p\u00EBr propozimet\u201D",
+      "Tokens": [
+        "kurt",
+        "tall",
+        "konfe",
+        "prit",
+        "shkon",
+        "hamz",
+        "ber",
+        "pyet",
+        "cka",
+        "merr",
+        "mend",
+        "propo"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-tallet-ne-konference-prita-se-po-shkoni-te-hamza-per-ti-bere-pyetje-cka-po-ua-merr-mendja-per-propozimet/"
+      ],
+      "Articles": {
+        "raporti-sot": "kurti-tallet-ne-konference-prita-se-po-shkoni-te-hamza-per-t-i-bere-pyetje-cka"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Kurti i vendos kusht PDK-s\u00EB: E votojm\u00EB ligjin t\u00EB parin n\u00EBse na garanton vot\u00EBn p\u00EBr Konjufc\u00EBn ose Rushitin",
+      "Tokens": [
+        "kurt",
+        "vendo",
+        "kusht",
+        "pdk",
+        "votoj",
+        "ligj",
+        "par",
+        "nes",
+        "garan",
+        "vot",
+        "konju",
+        "rushi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kurti-i-vendos-kusht-pdk-se-e-votojme-ligjin-te-parin-nese-na-garanton-voten-per-konjufcen-ose-rushitin/"
+      ],
+      "Articles": {
+        "infokosove24": "kurti-i-vendos-kusht-pdk-se-e-votojme-ligjin-te-parin-nese-na-garanton-voten"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Milani ka paguar 51 milion\u00EB euro p\u00EBr Moreiran, shuma mund t\u00EB shkoj\u00EB deri af\u00EBr 70-milion\u00EBshit",
+      "Tokens": [
+        "milan",
+        "pagua",
+        "milio",
+        "euro",
+        "morei",
+        "shum",
+        "mund",
+        "shko",
+        "afer"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/milani-ka-paguar-51-milione-euro-per-moreiran-shuma-mund-te-shkoje-deri-afer-70-milioneshit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "milani-ka-paguar-51-milione-euro-per-moreiran-shuma-mund-te-shkoje-deri-afer-70"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Lushaku: Sonte nj\u00EB nat\u00EB e v\u00EBshtir\u00EB p\u00EBr shtetin e Kosov\u00EBs",
+      "Tokens": [
+        "lusha",
+        "sont",
+        "nat",
+        "vesht",
+        "shtet",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lushaku-sonte-nje-nate-e-veshtire-per-shtetin-e-kosoves/"
+      ],
+      "Articles": {
+        "kosova-fakt": "lushaku-sonte-nje-nate-e-veshtire-per-shtetin-e-kosoves"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Messi drejt pensionimit, mesazhi emocional: Faleminderit q\u00EB m\u00EB desh\u00EBt kaq shum\u00EB",
+      "Tokens": [
+        "mess",
+        "drejt",
+        "pensi",
+        "mesaz",
+        "emoci",
+        "falem",
+        "desh",
+        "kaq",
+        "shum"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/messi-drejt-pensionimit-mesazhi-emocional-faleminderit-qe-me-deshet-kaq-shume/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "messi-drejt-pensionimit-mesazhi-emocional-faleminderit-qe-me-deshet-kaq-shume"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Edhe 4 or\u00EB e gjysm\u00EB afat, Kurti e Hamza komunikojn\u00EB me konferenca, n\u00EB 19:45 Kryeministri del p\u00EBrs\u00EBri",
+      "Tokens": [
+        "ore",
+        "gjysm",
+        "afat",
+        "kurt",
+        "hamz",
+        "komun",
+        "konfe",
+        "kryem",
+        "del",
+        "perse"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/edhe-4-ore-gjysme-afat-kurti-e-hamza-komunikojne-me-konferenca-ne-1945-kryeministri-del-perseri/"
+      ],
+      "Articles": {
+        "raporti-sot": "edhe-4-ore-e-gjysme-afat-kurti-e-hamza-komunikojne-me-konferenca-ne-19-45"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Gjini kritikon Kurtin: Ka luajtur loj\u00EBn e faj\u00EBsimit dhe t\u00EB blerjes s\u00EB koh\u00EBs",
+      "Tokens": [
+        "gjin",
+        "kriti",
+        "kurt",
+        "luajt",
+        "loj",
+        "fajes",
+        "blerj",
+        "koh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjini-kritikon-kurtin-ka-luajtur-lojen-e-fajesimit-dhe-te-blerjes-se-kohes/"
+      ],
+      "Articles": {
+        "infokosove24": "gjini-kritikon-kurtin-ka-luajtur-lojen-e-fajesimit-dhe-te-blerjes-se-kohes"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "N\u00EB Serbi d\u00EBnohet nj\u00EB an\u00EBtar i grupit q\u00EB dyshohet p\u00EBr lidhje me sabotimet ruse n\u00EB Evrop\u00EB",
+      "Tokens": [
+        "serb",
+        "denoh",
+        "aneta",
+        "grup",
+        "dysho",
+        "sabot",
+        "rus",
+        "evrop"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/serbi-sabotime-ruse-evrope/33871527.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ne-serbi-denohet-nje-anetar-i-grupit-qe-dyshohet-per-lidhje-me-sabotimet-ruse"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Alarmi p\u00EBr murtaj\u00EBn n\u00EB Siberi, Rusia: S\u2019ka raste t\u00EB konfirmuara",
+      "Tokens": [
+        "alarm",
+        "murta",
+        "siber",
+        "rusi",
+        "rast",
+        "konfi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/alarmi-per-murtajen-ne-siberi-rusia-ska-raste-te-konfirmuara/"
+      ],
+      "Articles": {
+        "kosova-fakt": "alarmi-per-murtajen-ne-siberi-rusia-s-ka-raste-te-konfirmuara"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Protest\u00EB s\u00EBrish n\u00EB or\u00EBn 21:00, Haziri: T\u00EB gjith\u00EB n\u00EB shesh, pa dallime e pa p\u00EBr\u00E7arje",
+      "Tokens": [
+        "prote",
+        "seris",
+        "oren",
+        "hazir",
+        "gjith",
+        "shesh",
+        "dalli",
+        "perca"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/proteste-serish-ne-oren-2100-haziri-te-gjithe-ne-shesh-pa-dallime-e-pa-percarje/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "proteste-serish-ne-oren-21-00-haziri-te-gjithe-ne-shesh-pa-dallime-e-pa-percarje"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Rregulla t\u00EB reja p\u00EBr zgjerimin e BE-s\u00EB: Qasje m\u00EB e hershme n\u00EB programe, por me klauzola m\u00EB t\u00EB gjata...",
+      "Tokens": [
+        "rregu",
+        "rej",
+        "zgjer",
+        "qas",
+        "hersh",
+        "progr",
+        "klauz",
+        "gjat"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/be-zgjerimi-rregulla/33871517.html"
+      ],
+      "Articles": {
+        "raporti-sot": "rregulla-te-reja-per-zgjerimin-e-be-se-qasje-me-e-hershme-ne-programe-por-me"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Sejdiu reagon pasi Kurti ia p\u00EBrmendi emrin: E kam njoftuar se s\u2019jam pjes\u00EB e procesit, zhg\u00EBnjyes ankthi q\u00EB po e p\u00EBrjeton Kosova",
+      "Tokens": [
+        "sejdi",
+        "reago",
+        "pas",
+        "kurt",
+        "perme",
+        "emr",
+        "kam",
+        "njoft",
+        "jam",
+        "pjes",
+        "proce",
+        "zhgen",
+        "ankth",
+        "perje",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sejdiu-reagon-pasi-kurti-ia-permendi-emrin-e-kam-njoftuar-se-sjam-pjese-e-procesit-zhgenjyes-ankthi-qe-po-e-perjeton-kosova/"
+      ],
+      "Articles": {
+        "infokosove24": "sejdiu-reagon-pasi-kurti-ia-permendi-emrin-e-kam-njoftuar-se-s-jam-pjese-e"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Hamza \u2013 Kurtit: S\u2019e b\u00EBre asnj\u00EB hap \u2013 s\u2019ka rezultat final pa u miratuar p\u00EBrfundimisht ligji p\u00EBr Specialen",
+      "Tokens": [
+        "hamz",
+        "kurt",
+        "ber",
+        "asn",
+        "hap",
+        "rezul",
+        "final",
+        "mirat",
+        "perfu",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hamza-kurtit-se-bere-asnje-hap-ska-rezultat-final-pa-u-miratuar-perfundimisht-ligji-per-specialen/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "hamza-kurtit-s-e-bere-asnje-hap-s-ka-rezultat-final-pa-u-miratuar-perfundimisht"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Protestat n\u00EB Prishtin\u00EB: Shqet\u00EBsime p\u00EBr thirrjet p\u00EBr dhun\u00EB n\u00EB rrjetet sociale",
+      "Tokens": [
+        "prote",
+        "prish",
+        "shqet",
+        "thirr",
+        "dhun",
+        "rrjet",
+        "socia"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/protesta-prishtine-shqetesime-thirrje-dhune-rrjete-sociale/33871406.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "protestat-ne-prishtine-shqetesime-per-thirrjet-per-dhune-ne-rrjetet-sociale"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Kurti: Ofert\u00EB shtes\u00EB \u2013 PDK t\u2019i siguroj\u00EB gjysm\u00EBn e votave t\u00EB veta p\u00EBr Bekim Sejdiun President, e votojm\u00EB ligjin p\u00EBr Specialen paraprakisht",
+      "Tokens": [
+        "kurt",
+        "ofert",
+        "sht",
+        "pdk",
+        "sigur",
+        "gjysm",
+        "vot",
+        "vet",
+        "bekim",
+        "sejdi",
+        "presi",
+        "votoj",
+        "ligj",
+        "speci",
+        "parap"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-oferte-shtese-pdk-ti-siguroje-gjysmen-e-votave-te-veta-per-bekim-sejdiun-president-e-votojme-ligjin-per-specialen-paraprakisht/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kurti-oferte-shtese-pdk-t-i-siguroje-gjysmen-e-votave-te-veta-per-bekim-sejdiun"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Mali i Zi ekstradon n\u00EB SHBA hakerin iranian t\u00EB akuzuar p\u00EBr sulme kibernetike n\u00EB favor t\u00EB Teheranit",
+      "Tokens": [
+        "mal",
+        "ekstr",
+        "shb",
+        "haker",
+        "irani",
+        "akuzu",
+        "sulm",
+        "kiber",
+        "favor",
+        "teher"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/mali-zi-ekstradon-shba-hakerin-iranian/33871387.html"
+      ],
+      "Articles": {
+        "raporti-sot": "mali-i-zi-ekstradon-ne-shba-hakerin-iranian-te-akuzuar-per-sulme-kibernetike-ne"
+      }
+    },
+    {
+      "At": "2026-10-06T18:53:13.0854932+00:00",
+      "Title": "Vdekja e dyshuar nga murtaja n\u00EB Rusi: Sa duhet t\u00EB shqet\u00EBsohemi?",
+      "Tokens": [
+        "vdek",
+        "dyshu",
+        "murta",
+        "rus",
+        "duh",
+        "shqet"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/murtaja-rusi-sa-duhet-te-shqetesohemi/33871367.html"
+      ],
+      "Articles": {
+        "infokosove24": "vdekja-e-dyshuar-nga-murtaja-ne-rusi-sa-duhet-te-shqetesohemi"
+      }
+    },
     {
       "At": "2026-10-06T11:57:45.6546678+00:00",
       "Title": "\u200BBerisha thirrje deputet\u00EBve t\u00EB Kuvendit: Ejani ta votojm\u00EB Ligjin p\u00EBr Specialen",
