@@ -1,6 +1,132 @@
 {
-  "RotationCursor": 4,
+  "RotationCursor": 0,
   "Published": [
+    {
+      "At": "2026-10-06T01:44:24.7615889+00:00",
+      "Title": "Esposito e arrin nj\u00EB rekord t\u00EB para 95 viteve, po shkon hapave t\u00EB legjend\u00EBs italiane",
+      "Tokens": [
+        "espos",
+        "arr",
+        "rekor",
+        "vit",
+        "shkon",
+        "hap",
+        "legje",
+        "itali"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/esposito-e-arrin-nje-rekord-te-para-95-viteve-po-shkon-hapave-te-legjendes-italiane/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "esposito-e-arrin-nje-rekord-te-para-95-viteve-po-shkon-hapave-te-legjendes"
+      }
+    },
+    {
+      "At": "2026-10-06T01:44:24.7615889+00:00",
+      "Title": "Burim Ramadani: Sjellja e Policis\u00EB sonte joproporcionale \u2013 askush t\u00EB mos mendoj\u00EB se i ik\u00EB p\u00EBrgjegj\u00EBsis\u00EB",
+      "Tokens": [
+        "burim",
+        "ramad",
+        "sjell",
+        "polic",
+        "sont",
+        "jopro",
+        "askus",
+        "mendo",
+        "ike",
+        "pergj"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sjellja-joproporcionale-shume-pune-per-ipk-ne-ramadani-thote-se-do-kerkoje-raportim-urgjent-ne-komisionin-per-siguri-nga-drejtori-i-policise/"
+      ],
+      "Articles": {
+        "raporti-sot": "burim-ramadani-sjellja-e-policise-sonte-joproporcionale-askush-te-mos-mendoje"
+      }
+    },
+    {
+      "At": "2026-10-06T01:44:24.7615889+00:00",
+      "Title": "Agon Maliqi tregon se si Kurti \u201Cmund t\u00EB tregohet shtetar dhe lider i p\u00EBrmasave te m\u00EBdha\u201D: Natyrisht s\u2019do t\u00EB ndodh\u00EB",
+      "Tokens": [
+        "agon",
+        "maliq",
+        "trego",
+        "kurt",
+        "mund",
+        "shtet",
+        "lider",
+        "perma",
+        "medh",
+        "natyr",
+        "ndodh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/agon-maliqi-tregon-se-si-kurti-mund-te-tregohet-shtetar-dhe-lider-i-permasave-te-medha-natyrisht-sdo-te-ndodhe/"
+      ],
+      "Articles": {
+        "infokosove24": "agon-maliqi-tregon-se-si-kurti-mund-te-tregohet-shtetar-dhe-lider-i-permasave"
+      }
+    },
+    {
+      "At": "2026-10-06T01:44:24.7615889+00:00",
+      "Title": "Berat Buzhala: Gani Tha\u00E7i m\u00EB konfirmoi se djali i tij, Leotrimi, \u00EBsht\u00EB n\u00EB spital pas nj\u00EB sulmi nga policia",
+      "Tokens": [
+        "berat",
+        "buzha",
+        "gan",
+        "thac",
+        "konfi",
+        "djal",
+        "leotr",
+        "spita",
+        "sulm",
+        "polic"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/berat-buzhala-gani-thaci-me-konfirmoi-se-djali-i-tij-leotrimi-eshte-ne-spital-pas-nje-sulmi-nga-policia/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "berat-buzhala-gani-thaci-me-konfirmoi-se-djali-i-tij-leotrimi-eshte-ne-spital"
+      }
+    },
+    {
+      "At": "2026-10-06T01:44:24.7615889+00:00",
+      "Title": "Ardian Gola p\u00EBr protest\u00EBn: \u00CBsht\u00EB mjaft e r\u00EBnd\u00EB dhe absurde m\u00EBnyra si degjeneroi",
+      "Tokens": [
+        "ardia",
+        "gol",
+        "prote",
+        "mjaft",
+        "rend",
+        "absur",
+        "menyr",
+        "degje"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ardian-gola-per-protesten-eshte-mjaft-e-rende-dhe-absurde-menyra-si-degjeneroi/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ardian-gola-per-protesten-eshte-mjaft-e-rende-dhe-absurde-menyra-si-degjeneroi"
+      }
+    },
+    {
+      "At": "2026-10-06T01:44:24.7615889+00:00",
+      "Title": "Pas p\u00EBrplasjeve me policin\u00EB, protestuesit pritet t\u00EB mblidhen s\u00EBrish n\u00EB m\u00EBngjes",
+      "Tokens": [
+        "perpl",
+        "polic",
+        "prote",
+        "prit",
+        "mblid",
+        "seris",
+        "mengj"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/perplasje-policine-protestuesit-mbildhen-neser/33870855.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pas-perplasjeve-me-policine-protestuesit-pritet-te-mblidhen-serish-ne-mengjes"
+      }
+    },
     {
       "At": "2026-10-05T21:09:58.7143515+00:00",
       "Title": "Protesta l\u00EB 12 t\u00EB l\u00EBnduar, shumica nga gazi lotsjell\u00EBs",
