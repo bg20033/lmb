@@ -162,6 +162,16 @@ public static class SelfTest
         var reactArticle = reactPub.Write(copyDraft, src, false, DateTimeOffset.UtcNow, licensedCopy: true);
         var reactJson = File.ReadAllText(reactArticle.MarkdownPath);
         Check("React publisher writes a licensed article with original link", reactJson.Contains("imported-") && reactJson.Contains(src[0].Url) && reactJson.Contains("\"status\": \"published\""));
+        if (File.Exists("config/categories.json"))
+        {
+            string Cat(string t) => Categorizer.Categorize(t, "") ?? "";
+            Check("category: sport", Cat("Portugalia fiton 2-1 kundër Norvegjisë në Oslo, gara e Ligës së Kombeve UEFA") == "sport", Cat("Portugalia fiton 2-1 kundër Norvegjisë"));
+            Check("category: magazine", Cat("Georgina “djeg” rrjetin nga palestra – fiziku i saj merr gjithë vëmendjen") == "magazine");
+            Check("category: politike", Cat("Kurti: Sot nisim komunikimet për takime me opozitën për presidentin") == "politike");
+            Check("category: kosova", Cat("Arrestohet në Viti i dyshuari për armëmbajtje pa leje") == "kosova");
+            Check("category: bota", Cat("Zelensky ngre alarmin për sulm masiv rus: Kievi merr masa urgjente") == "bota");
+            Check("category falls back for a site without it", Categorizer.Resolve("magazine", new[] { "politike", "kulture" }) == "kulture");
+        }
         Check("Kosovo time zone available", SitePublisher.ToKosovoTime(new DateTimeOffset(2026, 7, 1, 10, 0, 0, TimeSpan.Zero)).Offset == TimeSpan.FromHours(2));
 
         try { Directory.Delete(tmp, true); } catch { }

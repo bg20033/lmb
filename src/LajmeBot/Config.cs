@@ -123,7 +123,7 @@ public sealed class SiteConfig
     public int MaxArticlesPerRun { get; set; } = 2;
     /// <summary>Editorial voice passed to the AI.</summary>
     public string Style { get; set; } = "";
-    public List<string> Categories { get; set; } = new() { "bota", "politike", "ekonomi", "teknologji", "shkence", "kulture", "sport" };
+    public List<string> Categories { get; set; } = new() { "kosova", "bota", "politike", "ekonomi", "teknologji", "shkence", "kulture", "magazine", "sport" };
     public string AuthorId { get; set; } = "redaksia";
     public string AuthorName { get; set; } = "Redaksia";
     /// <summary>true = articles are written with draft: true (not shown on the site until you remove it).</summary>

@@ -59,10 +59,11 @@ public sealed class LajmePerKosovePublisher : INewsPublisher
             ["categoryId"] = CategoryId(draft.Category),
             ["authorId"] = "au-redaksia",
             ["status"] = "published",
-            ["image"] = $"https://picsum.photos/seed/lajme-per-kosove-{Uri.EscapeDataString(slug)}/1600/1067",
+            // Category illustration in the site's public/images/kategori (no random stock photos).
+            ["image"] = $"/images/kategori/{CategoryId(draft.Category)["cat-".Length..]}-{Illustration("imported-" + slug)}.jpg",
             ["imageAlt"] = "Ilustrim për " + draft.Title,
             ["imageCaption"] = "Ilustrim",
-            ["imageCredit"] = "Lajme për Kosovë",
+            ["imageCredit"] = "",
             ["tags"] = new JsonArray(draft.Tags.Select(tag => (JsonNode?)JsonValue.Create(tag)).ToArray()),
             ["publishedAt"] = local,
             ["scheduledFor"] = null,
@@ -119,10 +120,19 @@ public sealed class LajmePerKosovePublisher : INewsPublisher
         return slug;
     }
 
+    /// <summary>Same hash as illustrationFor() in the site's src/lib/categorize.ts (3 variants per category).</summary>
+    private static int Illustration(string seed)
+    {
+        uint h = 0;
+        foreach (var ch in seed) h = unchecked(h * 31 + ch);
+        return (int)(h % 3);
+    }
+
     private static string CategoryId(string category) => category switch
     {
         "sport" => "cat-sport", "ekonomi" => "cat-ekonomi", "teknologji" => "cat-teknologji",
         "shkence" => "cat-shkence", "kulture" => "cat-kulture", "bota" => "cat-bota",
+        "rajoni" => "cat-rajoni", "magazine" => "cat-jetese", "kosova" => "cat-kosova",
         _ => "cat-politike",
     };
 }

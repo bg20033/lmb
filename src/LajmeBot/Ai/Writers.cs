@@ -156,24 +156,16 @@ public sealed class LicensedCopyWriter : IArticleWriter
         // but cut only at a word boundary so licensed imports always satisfy every site schema.
         var title = TextUtil.TruncateWords(source.Title, 120);
         var description = TextUtil.TruncateWords(body.Replace('\n', ' '), 174);
-        var category = CategoryFor(req.Site, source.Title);
+        var category = CategoryFor(req.Site, source.Title, body);
         var motif = HeroImageGenerator.Motifs[(int)(TextUtil.StableHash(source.Url) % (ulong)HeroImageGenerator.Motifs.Length)];
         return Task.FromResult(new ArticleDraft(false, null, title, description, category,
             new() { source.Source, "Lajme" }, body, motif));
     }
 
-    private static string CategoryFor(SiteConfig site, string title)
+    private static string CategoryFor(SiteConfig site, string title, string body)
     {
-        var tokens = TextUtil.Tokens(title);
-        string Pick(string category, params string[] words) => site.Categories.Contains(category) && words.Any(w => tokens.Contains(TextUtil.Stem(w))) ? category : "";
-        return new[]
-            {
-                Pick("sport", "futboll", "ndeshje", "gol", "basketboll", "xhudo"),
-                Pick("ekonomi", "ekonomi", "paga", "buxhet", "banka", "treg"),
-                Pick("teknologji", "teknologji", "internet", "telefon", "aplikacion"),
-                Pick("kulture", "kulture", "film", "muzik", "teater"),
-                Pick("bota", "evrope", "bote", "amerik", "ukrain", "global"),
-            }.FirstOrDefault(x => x.Length > 0) ?? (site.Categories.Contains("politike") ? "politike" : site.Categories.First());
+        // Rules in config/categories.json; without that file everything falls back to "politike" as before.
+        return Categorizer.Resolve(Categorizer.Categorize(title, body), site.Categories);
     }
 }
 

@@ -122,7 +122,7 @@
       "AuthorId": "redaksia",
       "AuthorName": "Redaksia e Lajme për Kosovë",
       "Style": "Clear, factual news reporting.",
-      "Categories": ["bota", "politike", "ekonomi", "teknologji", "shkence", "kulture", "sport"]
+      "Categories": ["kosova", "bota", "rajoni", "politike", "ekonomi", "teknologji", "shkence", "kulture", "magazine", "sport"]
     }
   ]
 }
