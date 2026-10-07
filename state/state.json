@@ -1,6 +1,358 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 0,
   "Published": [
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Michael Douglas b\u00EBn nj\u00EB koment t\u00EB rrall\u00EB mbi ndarjen e shkurt\u00EBr t\u00EB Catherine Zeta-Jones pas m\u00EB shum\u00EB se nj\u00EB dekade",
+      "Tokens": [
+        "micha",
+        "dougl",
+        "ben",
+        "komen",
+        "rrall",
+        "ndarj",
+        "shkur",
+        "cathe",
+        "zet",
+        "jon",
+        "shum",
+        "dekad"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/michael-douglas-ben-nje-koment-te-rralle-mbi-ndarjen-e-shkurter-te-catherine-zeta-jones-pas-me-shume-se-nje-dekade/"
+      ],
+      "Articles": {
+        "kosova-fakt": "michael-douglas-ben-nje-koment-te-rralle-mbi-ndarjen-e-shkurter-te-catherine"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Policia suedeze q\u00EBllon nj\u00EB burr\u00EB t\u00EB armatosur pran\u00EB Pallatit Mbret\u00EBror n\u00EB Stokholm",
+      "Tokens": [
+        "polic",
+        "suede",
+        "qello",
+        "burr",
+        "armat",
+        "pran",
+        "palla",
+        "mbret",
+        "stokh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-suedeze-qellon-nje-burre-te-armatosur-prane-pallatit-mbreteror-ne-stokholm/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "policia-suedeze-qellon-nje-burre-te-armatosur-prane-pallatit-mbreteror-ne"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "FOTO | Qeveria njofton p\u00EBr 15 milion\u00EB euro subvencione, por fotografia ngre pik\u00EBpyetje \u2013 ministrat duken me fytyra t\u00EB transformuara",
+      "Tokens": [
+        "qever",
+        "njoft",
+        "milio",
+        "euro",
+        "subve",
+        "fotog",
+        "ngr",
+        "pikep",
+        "minis",
+        "duk",
+        "fytyr",
+        "trans"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/foto-qeveria-njofton-per-15-milione-euro-subvencione-por-fotografia-ngre-pikepyetje-ministrat-duken-me-fytyra-te-transformuara/"
+      ],
+      "Articles": {
+        "raporti-sot": "foto-qeveria-njofton-per-15-milione-euro-subvencione-por-fotografia-ngre"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Kryetari i Gjykat\u00EBs Administrative takon shefin e Zyr\u00EBs Ligjore t\u00EB Kampit Bondsteel",
+      "Tokens": [
+        "kryet",
+        "gjyka",
+        "admin",
+        "takon",
+        "shef",
+        "zyr",
+        "ligjo",
+        "kamp",
+        "bonds"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kryetari-i-gjykates-administrative-takon-shefin-e-zyres-ligjore-te-kampit-bondsteel/"
+      ],
+      "Articles": {
+        "infokosove24": "kryetari-i-gjykates-administrative-takon-shefin-e-zyres-ligjore-te-kampit"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Qeveria ndan rreth 15 milion\u00EB euro p\u00EBr subvencionimin e faturave t\u00EB energjis\u00EB",
+      "Tokens": [
+        "qever",
+        "ndan",
+        "rreth",
+        "milio",
+        "euro",
+        "subve",
+        "fatur",
+        "energ"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/qeveria-ndan-rreth-15-milione-euro-per-subvencionimin-e-faturave-te-energjise/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "qeveria-ndan-rreth-15-milione-euro-per-subvencionimin-e-faturave-te-energjise"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Partia ime, Zoti t\u00EB ndihmoft\u00EB \u2013 por mbi t\u00EB gjitha, kthjellohu",
+      "Tokens": [
+        "parti",
+        "ime",
+        "zot",
+        "ndihm",
+        "gjith",
+        "kthje"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/partia-ime-zoti-te-ndihmofte-por-mbi-te-gjitha-kthjellohu/"
+      ],
+      "Articles": {
+        "kosova-fakt": "partia-ime-zoti-te-ndihmofte-por-mbi-te-gjitha-kthjellohu"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Ronela Hajati \u201Crefuzon\u201D Bentley-n luksoz: Faleminderit p\u00EBr dhurat\u00EBn, po e mbaj Renaultin tim",
+      "Tokens": [
+        "ronel",
+        "hajat",
+        "refuz",
+        "bentl",
+        "lukso",
+        "falem",
+        "dhura",
+        "mbaj",
+        "renau",
+        "tim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ronela-hajati-refuzon-bentley-n-luksoz-faleminderit-per-dhuraten-po-e-mbaj-renaultin-tim/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ronela-hajati-refuzon-bentley-n-luksoz-faleminderit-per-dhuraten-po-e-mbaj"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Georgina \u201Cdjeg\u201D rrjetin nga palestra \u2013 fiziku i saj merr gjith\u00EB v\u00EBmendjen",
+      "Tokens": [
+        "georg",
+        "djeg",
+        "rrjet",
+        "pales",
+        "fizik",
+        "merr",
+        "gjith",
+        "vemen"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/georgina-djeg-rrjetin-nga-palestra-fiziku-i-saj-merr-gjithe-vemendjen/"
+      ],
+      "Articles": {
+        "raporti-sot": "georgina-djeg-rrjetin-nga-palestra-fiziku-i-saj-merr-gjithe-vemendjen"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Shqip\u00EBria merr lajmin m\u00EB t\u00EB r\u00EBnd\u00EBsish\u00EBm, i shtrohet rruga drejt Europianit me ndryshimin e fundit",
+      "Tokens": [
+        "shqip",
+        "merr",
+        "lajm",
+        "rende",
+        "shtro",
+        "rrug",
+        "drejt",
+        "europ",
+        "ndrys",
+        "fund"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shqiperia-merr-lajmin-me-te-rendesishem-i-shtrohet-rruga-drejt-europianit-me-ndryshimin-e-fundit/"
+      ],
+      "Articles": {
+        "infokosove24": "shqiperia-merr-lajmin-me-te-rendesishem-i-shtrohet-rruga-drejt-europianit-me"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Musliu pas votimit t\u00EB Ligjit p\u00EBr Specialen dhe zgjedhjes s\u00EB Presidentes: Pas k\u00EBtyre vendimeve q\u00EBndron nj\u00EB rezistenc\u00EB e gjat\u00EB",
+      "Tokens": [
+        "musli",
+        "votim",
+        "ligj",
+        "speci",
+        "zgjed",
+        "presi",
+        "ketyr",
+        "vendi",
+        "qendr",
+        "rezis"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/musliu-pas-votimit-te-ligjit-per-specialen-dhe-zgjedhjes-se-presidentes-pas-ketyre-vendimeve-qendron-nje-rezistence-e-gjate/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "musliu-pas-votimit-te-ligjit-per-specialen-dhe-zgjedhjes-se-presidentes-pas"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "\u00C7itaku: Mbr\u00EBm\u00EB Kuvendi nderoi U\u00C7K-n\u00EB, vetetven e shtetin",
+      "Tokens": [
+        "citak",
+        "mbrem",
+        "kuven",
+        "ndero",
+        "uck",
+        "vetet",
+        "shtet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/citaku-mbreme-kuvendi-nderoi-uck-ne-vetetven-e-shtetin/"
+      ],
+      "Articles": {
+        "kosova-fakt": "citaku-mbreme-kuvendi-nderoi-uck-ne-vetetven-e-shtetin"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Zyrtar\u00EBt e burgut nga Kosova gjat\u00EB trajnimit akuzohen p\u00EBr rrahjen e t\u00EB burgosurit n\u00EB burgun Vestre n\u00EB Danimark\u00EB",
+      "Tokens": [
+        "zyrta",
+        "burgu",
+        "kosov",
+        "trajn",
+        "akuzo",
+        "rrahj",
+        "burgo",
+        "vestr",
+        "danim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zyrtaret-e-burgut-nga-kosova-gjate-trajnimit-akuzohen-per-rrahjen-e-te-burgosurit-ne-burgun-vestre-ne-danimarke/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "zyrtaret-e-burgut-nga-kosova-gjate-trajnimit-akuzohen-per-rrahjen-e-te"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "IKD: Njoftimi i Kocit p\u00EBr zgjedhjen e presidentit nuk inicion rast n\u00EB Kushtetuese",
+      "Tokens": [
+        "ikd",
+        "njoft",
+        "koc",
+        "zgjed",
+        "presi",
+        "inici",
+        "rast",
+        "kusht"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/njoftimi-koci-zgjedhje-president-nuk-inicon-rast-kushtetuese/33871970.html"
+      ],
+      "Articles": {
+        "raporti-sot": "ikd-njoftimi-i-kocit-per-zgjedhjen-e-presidentit-nuk-inicion-rast-ne-kushtetuese"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Kos paralajm\u00EBron n\u00EBnshkrimin e traktatit t\u00EB an\u00EBtar\u00EBsimit me Malin e Zi ver\u00EBn e ardhshme",
+      "Tokens": [
+        "kos",
+        "paral",
+        "nensh",
+        "trakt",
+        "aneta",
+        "mal",
+        "ver",
+        "ardhs"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/kos-paralajmeron-nenshkrim-traktat-anetaresim-mal-zi/33871942.html"
+      ],
+      "Articles": {
+        "infokosove24": "kos-paralajmeron-nenshkrimin-e-traktatit-te-anetaresimit-me-malin-e-zi-veren-e"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Mungesa e barnave n\u00EB Iran ushqen tregun e zi",
+      "Tokens": [
+        "munge",
+        "barn",
+        "iran",
+        "ushq",
+        "tregu"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/mungesa-barna-iran-tregu-zi-cmime-larta/33871885.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mungesa-e-barnave-ne-iran-ushqen-tregun-e-zi"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Kosova zgjodhi presidenten pas marr\u00EBveshjes s\u00EB minut\u00EBs s\u00EB fundit q\u00EB p\u00EBrfshiu Ligjin p\u00EBr Specialen",
+      "Tokens": [
+        "kosov",
+        "zgjod",
+        "presi",
+        "marre",
+        "minut",
+        "fund",
+        "perfs",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/kosova-presidente-ligji-speciale/33871584.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "kosova-zgjodhi-presidenten-pas-marreveshjes-se-minutes-se-fundit-qe-perfshiu"
+      }
+    },
+    {
+      "At": "2026-10-07T11:42:06.6115896+00:00",
+      "Title": "Nj\u00EB udh\u00EBtim \u0022apokaliptik\u0022 n\u00EBn dron\u00EB rus\u00EB drejt vijave t\u00EB frontit n\u00EB Ukrain\u00EB",
+      "Tokens": [
+        "udhet",
+        "apoka",
+        "dron",
+        "rus",
+        "drejt",
+        "vij",
+        "front",
+        "ukra"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/udhetim-apokaliptik-drone-ukraina/33870713.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nje-udhetim-apokaliptik-nen-drone-ruse-drejt-vijave-te-frontit-ne-ukraine"
+      }
+    },
     {
       "At": "2026-10-06T22:58:44.4266634+00:00",
       "Title": "Osmani uron Justina Pul\u00EBn: Mund t\u00EB llogaris\u00EB n\u00EB mb\u00EBshtetjen time t\u00EB p\u00EBrhershme",
