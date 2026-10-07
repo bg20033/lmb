@@ -157,7 +157,7 @@ jobs:
               if [ "$MODE" = "publish" ] || [ "$MODE" = "licensed-copy" ]; then
                 git add -A $add_paths
                 msg="Lajme automatike: $count artikuj të rinj"; [ "$count" = "0" ] && msg="LajmeBot: përditësim"
-                git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "$msg"
+                git -c user.name="Bardh Gashi" -c user.email="bardhgjeki@gmail.com" commit --quiet -m "$msg"
                 git push --quiet origin HEAD && echo "$slug: u publikuan $count artikuj" || { echo "::error::$slug: push dështoi"; failed=1; }
               else
                 echo "$slug: ✅ $count artikuj TEST u ndërtuan pa gabime (nuk u publikuan)"
@@ -210,7 +210,7 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain state)" ]; then
             git add state
-            git -c user.name="LajmeBot" -c user.email="lajmebot@users.noreply.github.com" commit --quiet -m "Bot state"
+            git -c user.name="Bardh Gashi" -c user.email="bardhgjeki@gmail.com" commit --quiet -m "Bot state"
             if ! git push --quiet; then
               # A code push while this job is running can make the state-only commit stale.
               # The next scheduled run can safely rebuild the memory; do not fail publishing.
