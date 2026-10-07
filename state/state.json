@@ -1,6 +1,343 @@
 {
-  "RotationCursor": 0,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "\u200BQeveria shqiptare jep pension t\u00EB posa\u00E7\u00EBm p\u00EBr 117-vje\u00E7aren Qamile Marra",
+      "Tokens": [
+        "qever",
+        "shqip",
+        "jep",
+        "pensi",
+        "posac",
+        "117",
+        "vjeca",
+        "qamil",
+        "marr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/qeveria-shqiptare-i-jep-pension-te-posacem-117-vjecares-nga-berati-ajo-eshte-nder-me-te-moshuarat-ne-bote/",
+        "https://telegrafi.com/qeveria-shqiptare-jep-pension-te-posacem-per-117-vjecaren-qamile-marra/"
+      ],
+      "Articles": {
+        "raporti-sot": "qeveria-shqiptare-i-jep-pension-te-posacem-117-vjecares-nga-berati-ajo-eshte"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Molliqaj: Thelbi i pushtetit t\u00EB Kurtit \u00EBsht\u00EB i rreziksh\u00EBm",
+      "Tokens": [
+        "molli",
+        "thelb",
+        "pusht",
+        "kurt",
+        "rrezi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/molliqaj-thelbi-i-pushtetit-te-kurtit-eshte-i-rrezikshem/",
+        "https://telegrafi.com/molliqaj-thelbi-i-pushtetit-te-kurtit-eshte-i-rrezikshem/"
+      ],
+      "Articles": {
+        "infokosove24": "molliqaj-thelbi-i-pushtetit-te-kurtit-eshte-i-rrezikshem"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Sulm masiv rus n\u00EB Ukrain\u00EB, t\u00EB pakt\u00EBn 20 civil\u00EB t\u00EB vrar\u00EB",
+      "Tokens": [
+        "sulm",
+        "masiv",
+        "rus",
+        "ukra",
+        "pakt",
+        "civil",
+        "vrar"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/te-pakten-24-te-vrare-nga-sulmet-ruse-ne-ukraine-mes-viktimave-edhe-femije/",
+        "https://telegrafi.com/sulm-masiv-rus-ne-ukraine-te-pakten-20-civile-te-vrare/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "te-pakten-24-te-vrare-nga-sulmet-ruse-ne-ukraine-mes-viktimave-edhe-femije"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Digjet trafoja n\u00EB Trep\u00E7\u00EB, 63 minator\u00EB mbeten t\u00EB ngujuar n\u00EB minier\u00EB",
+      "Tokens": [
+        "digj",
+        "trafo",
+        "trepc",
+        "minat",
+        "mbet",
+        "nguju",
+        "minie"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/digjet-trafoja-ne-trepce-63-minatore-mbeten-te-ngujuar-ne-miniere/"
+      ],
+      "Articles": {
+        "kosova-fakt": "digjet-trafoja-ne-trepce-63-minatore-mbeten-te-ngujuar-ne-miniere"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Presidentja maqedonase uron Shiroka-Pul\u00EBn: Pres me padurim t\u00EB punoj ngusht\u00EB me t\u00EB",
+      "Tokens": [
+        "presi",
+        "maqed",
+        "uron",
+        "shiro",
+        "pul",
+        "pres",
+        "padur",
+        "punoj",
+        "ngush"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/presidentja-maqedonase-uron-shiroka-pulen-pres-me-padurim-te-punoj-ngushte-me-te/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "presidentja-maqedonase-uron-shiroka-pulen-pres-me-padurim-te-punoj-ngushte-me-te"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Fatura milion\u00EBshe e zgjedhjeve n\u00EB Serbi",
+      "Tokens": [
+        "fatur",
+        "milio",
+        "zgjed",
+        "serb"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/fatura-milioneshe-e-zgjedhjeve-ne-serbi/33871882.html"
+      ],
+      "Articles": {
+        "raporti-sot": "fatura-milioneshe-e-zgjedhjeve-ne-serbi"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Capital T zbulon arsyen e pauz\u00EBs nga skena: Nj\u00EB pjes\u00EB e vendimit erdhi duke par\u00EB situatat n\u00EBp\u00EBr t\u00EB cilat po kalojm\u00EB si popull",
+      "Tokens": [
+        "capit",
+        "zbulo",
+        "arsy",
+        "pauz",
+        "sken",
+        "pjes",
+        "vendi",
+        "erdh",
+        "duk",
+        "par",
+        "situa",
+        "neper",
+        "cilat",
+        "kaloj",
+        "popul"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/capital-t-zbulon-arsyen-e-pauzes-nga-skena-nje-pjese-e-vendimit-erdhi-duke-pare-situatat-neper-te-cilat-po-kalojme-si-popull/"
+      ],
+      "Articles": {
+        "infokosove24": "capital-t-zbulon-arsyen-e-pauzes-nga-skena-nje-pjese-e-vendimit-erdhi-duke-pare"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Zhegrova \u201Cmbret\u201D i driblimeve n\u00EB Nations League, l\u00EB pas yjet evropian\u00EB",
+      "Tokens": [
+        "zhegr",
+        "mbr",
+        "dribl",
+        "natio",
+        "leagu",
+        "yjet",
+        "evrop"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zhegrova-mbret-i-driblimeve-ne-nations-league-le-pas-yjet-evropiane/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "zhegrova-mbret-i-driblimeve-ne-nations-league-le-pas-yjet-evropiane"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Para se ta ndizni ngrohjen, pastrojini radiator\u00EBt me k\u00EBt\u00EB truk t\u00EB thjesht\u00EB",
+      "Tokens": [
+        "ndizn",
+        "ngroh",
+        "pastr",
+        "radia",
+        "ket",
+        "truk",
+        "thjes"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/para-se-ta-ndizni-ngrohjen-pastrojini-radiatoret-me-kete-truk-te-thjeshte/"
+      ],
+      "Articles": {
+        "kosova-fakt": "para-se-ta-ndizni-ngrohjen-pastrojini-radiatoret-me-kete-truk-te-thjeshte"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "U pensionua 3 vite m\u00EB par\u00EB, mesfushori spanjoll rikthehet n\u00EB futboll",
+      "Tokens": [
+        "pensi",
+        "vit",
+        "par",
+        "mesfu",
+        "spanj",
+        "rikth",
+        "futbo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/u-pensionua-3-vite-me-pare-mesfushori-spanjoll-rikthehet-ne-futboll/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "u-pensionua-3-vite-me-pare-mesfushori-spanjoll-rikthehet-ne-futboll"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Shakira e Pique p\u00EBrballen n\u00EB gjykat\u00EB p\u00EBr kujdestarin\u00EB e dy djemve: T\u00EB vij\u00EB ai n\u00EB Miami\u2026",
+      "Tokens": [
+        "shaki",
+        "piqu",
+        "perba",
+        "gjyka",
+        "kujde",
+        "djem",
+        "vij",
+        "miam"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shakira-e-pique-perballen-ne-gjykate-per-kujdestarine-e-dy-djemve-te-vije-ai-ne-miami/"
+      ],
+      "Articles": {
+        "raporti-sot": "shakira-e-pique-perballen-ne-gjykate-per-kujdestarine-e-dy-djemve-te-vije-ai-ne"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "AfD k\u00EBrkon nd\u00EBrprerjen e mb\u00EBshtetjes gjermane p\u00EBr Ukrain\u00EBn",
+      "Tokens": [
+        "afd",
+        "kerko",
+        "nderp",
+        "mbesh",
+        "gjerm",
+        "ukrai"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/afd-kerkon-nderprerjen-e-mbeshtetjes-gjermane-per-ukrainen/"
+      ],
+      "Articles": {
+        "infokosove24": "afd-kerkon-nderprerjen-e-mbeshtetjes-gjermane-per-ukrainen"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "E d\u00EBnuara p\u00EBr krime lufte, Bilana Plavshiq, varroset me nderime n\u00EB Banjalluk\u00EB",
+      "Tokens": [
+        "denua",
+        "krim",
+        "luft",
+        "bilan",
+        "plavs",
+        "varro",
+        "nderi",
+        "banja"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/denuara-krime-lufte-plavshiq-varroset-nderime/33872328.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "e-denuara-per-krime-lufte-bilana-plavshiq-varroset-me-nderime-ne-banjalluke"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Terras: Kosova duhet ta kthej\u00EB stabilitetin n\u00EB reforma dhe rritje ekonomike",
+      "Tokens": [
+        "terra",
+        "kosov",
+        "duh",
+        "kthe",
+        "stabi",
+        "refor",
+        "rrit",
+        "ekono"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/terras-kosova-duhet-ta-ktheje-stabilitetin-ne-reforma-dhe-rritje-ekonomike/"
+      ],
+      "Articles": {
+        "kosova-fakt": "terras-kosova-duhet-ta-ktheje-stabilitetin-ne-reforma-dhe-rritje-ekonomike"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Senatorja amerikane Jeanne Shaheen shpallet \u201CQytetare Nderi\u201D n\u00EB Sarajev\u00EB",
+      "Tokens": [
+        "senat",
+        "ameri",
+        "jeann",
+        "shahe",
+        "shpal",
+        "qytet",
+        "nder",
+        "saraj"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/senatorja-shaheen-nderohet-qytetare-nderi-sarajeve/33872260.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "senatorja-amerikane-jeanne-shaheen-shpallet-qytetare-nderi-ne-sarajeve"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Policia nd\u00EBrpret tubimin parazgjedhor t\u00EB List\u00EBs Serbe p\u00EBr zgjedhjet n\u00EB Serbi",
+      "Tokens": [
+        "polic",
+        "nderp",
+        "tubim",
+        "paraz",
+        "list",
+        "serb",
+        "zgjed"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/policia-lista-serbe-tubim/33872192.html"
+      ],
+      "Articles": {
+        "raporti-sot": "policia-nderpret-tubimin-parazgjedhor-te-listes-serbe-per-zgjedhjet-ne-serbi"
+      }
+    },
+    {
+      "At": "2026-10-07T19:18:34.7304655+00:00",
+      "Title": "Rubio n\u00EB Athin\u00EB paralajm\u00EBron Iranin se nuk do t\u00EB ket\u00EB kurr\u00EB arm\u00EB b\u00EBrthamore",
+      "Tokens": [
+        "rubio",
+        "ath",
+        "paral",
+        "iran",
+        "ket",
+        "kurr",
+        "arm",
+        "berth"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rubio-irani-arme-berthamore/33872145.html"
+      ],
+      "Articles": {
+        "infokosove24": "rubio-ne-athine-paralajmeron-iranin-se-nuk-do-te-kete-kurre-arme-berthamore"
+      }
+    },
     {
       "At": "2026-10-07T11:42:06.6115896+00:00",
       "Title": "Michael Douglas b\u00EBn nj\u00EB koment t\u00EB rrall\u00EB mbi ndarjen e shkurt\u00EBr t\u00EB Catherine Zeta-Jones pas m\u00EB shum\u00EB se nj\u00EB dekade",
