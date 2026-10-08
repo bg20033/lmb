@@ -1,6 +1,269 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 0,
   "Published": [
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Bllokimi i minator\u00EBve n\u00EB Trep\u00E7\u00EB, Rizvanolli: Menaxhmenti po organizon daljen p\u00EBrmes emergjenc\u00EBs",
+      "Tokens": [
+        "bllok",
+        "minat",
+        "trepc",
+        "rizva",
+        "menax",
+        "organ",
+        "dalj",
+        "perm",
+        "emerg"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nisin-te-dalin-nje-pjese-e-minatoreve-te-ngujuar-ne-trepce-permes-daljeve-emergjente/",
+        "https://telegrafi.com/bllokimi-i-minatoreve-ne-minieren-e-trepces-ministrja-rizvanolli-jep-detaje/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nisin-te-dalin-nje-pjese-e-minatoreve-te-ngujuar-ne-trepce-permes-daljeve"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Pas nj\u00EB defekti me energjin\u00EB elektrike, 63 minator\u00EB t\u00EB \u201CTrep\u00E7\u00EBs\u201D mbesin t\u00EB ngujuar n\u00EB tunelin e minier\u00EBs",
+      "Tokens": [
+        "defek",
+        "energ",
+        "elekt",
+        "minat",
+        "trepc",
+        "mbes",
+        "nguju",
+        "tunel",
+        "minie"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/63-minatoret-e-trepces-qe-mbeten-te-ngujuar-per-shkak-te-nje-defekti-me-energji-jane-ne-gjendje-te-mire-po-punohet-per-nxjerrjen-e-tyre/",
+        "https://telegrafi.com/63-minatore-te-trepces-mbeten-te-ngujuar-ne-tunel-pas-nje-defekti-me-energjine-elektrike/"
+      ],
+      "Articles": {
+        "kosova-fakt": "63-minatoret-e-trepces-qe-mbeten-te-ngujuar-per-shkak-te-nje-defekti-me-energji"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "D\u00EBbimi i saj shkaktoi protesta n\u00EB gjith\u00EB Spanj\u00EBn, vdes 87-vje\u00E7arja Maricarmen Abascal",
+      "Tokens": [
+        "debim",
+        "shkak",
+        "prote",
+        "gjith",
+        "spanj",
+        "vdes",
+        "vjeca",
+        "maric",
+        "abasc"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/debimi-i-saj-shkaktoi-protesta-ne-gjithe-spanjen-vdes-87-vjecarja-maricarmen-abascal/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "debimi-i-saj-shkaktoi-protesta-ne-gjithe-spanjen-vdes-87-vjecarja-maricarmen"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Ukraina thot\u00EB se pallati u bombardua nga Rusia si \u201Cdhurat\u00EB dit\u00EBlindjeje\u201D p\u00EBr Putinin",
+      "Tokens": [
+        "ukrai",
+        "palla",
+        "bomba",
+        "rusi",
+        "dhura",
+        "ditel",
+        "putin"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ukraina-thote-se-pallati-u-bombardua-nga-rusia-si-dhurate-ditelindjeje-per-putinin/"
+      ],
+      "Articles": {
+        "raporti-sot": "ukraina-thote-se-pallati-u-bombardua-nga-rusia-si-dhurate-ditelindjeje-per"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Bebe Rexha s\u2019i harron rr\u00EBnj\u00EBt, k\u00EBndon k\u00EBng\u00EB tradicionale shqiptare n\u00EB nj\u00EB dasm\u00EB \u2013 momenti b\u00EBhet viral",
+      "Tokens": [
+        "beb",
+        "rexh",
+        "harro",
+        "rrenj",
+        "kendo",
+        "keng",
+        "tradi",
+        "shqip",
+        "dasm",
+        "momen",
+        "beh",
+        "viral"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bebe-rexha-si-harron-rrenjet-kendon-kenge-tradicionale-shqiptare-ne-nje-dasme-momenti-behet-viral/"
+      ],
+      "Articles": {
+        "infokosove24": "bebe-rexha-s-i-harron-rrenjet-kendon-kenge-tradicionale-shqiptare-ne-nje-dasme"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "E enjtja sjell mot me diell e vran\u00EBsira, ja sa do t\u00EB jen\u00EB temperaturat",
+      "Tokens": [
+        "enjt",
+        "sjell",
+        "mot",
+        "diell",
+        "vrane",
+        "jen",
+        "tempe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/e-enjtja-sjell-mot-me-diell-e-vranesira-ja-sa-do-te-jene-temperaturat/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "e-enjtja-sjell-mot-me-diell-e-vranesira-ja-sa-do-te-jene-temperaturat"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Si u pajtua PDK-ja me Kurtin p\u00EBr Shiroka-Pul\u00EBn? Flet Tahiri",
+      "Tokens": [
+        "pajtu",
+        "pdk",
+        "kurt",
+        "shiro",
+        "pul",
+        "flet",
+        "tahir"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/si-u-pajtua-pdk-ja-me-kurtin-per-shiroka-pulen-flet-tahiri/"
+      ],
+      "Articles": {
+        "kosova-fakt": "si-u-pajtua-pdk-ja-me-kurtin-per-shiroka-pulen-flet-tahiri"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "P\u00EBrshkall\u00EBzohet situata n\u00EB Beograd, p\u00EBrplasen mb\u00EBshtet\u00EBsit e Vu\u00E7iqit dhe student\u00EBt",
+      "Tokens": [
+        "persh",
+        "situa",
+        "beogr",
+        "perpl",
+        "mbesh",
+        "vuciq",
+        "stude"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pershkallezohet-situata-ne-beograd-perplasen-mbeshtetesit-e-vuciqit-dhe-studentet/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pershkallezohet-situata-ne-beograd-perplasen-mbeshtetesit-e-vuciqit-dhe"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Shqiptarja Th\u00EBllenza Krasniqi em\u00EBrohet Sekretare e Shoqat\u00EBs s\u00EB OKB-s\u00EB n\u00EB Westchester",
+      "Tokens": [
+        "shqip",
+        "thell",
+        "krasn",
+        "emero",
+        "sekre",
+        "shoqa",
+        "okb",
+        "westc"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shqiptarja-thellenza-krasniqi-emerohet-sekretare-e-shoqates-se-okb-se-ne-westchester/"
+      ],
+      "Articles": {
+        "raporti-sot": "shqiptarja-thellenza-krasniqi-emerohet-sekretare-e-shoqates-se-okb-se-ne"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Ronaldo p\u00EBr Messin: Nj\u00EB tregim q\u00EB do t\u00EB zgjas\u00EB p\u00EBrgjithmon\u00EB",
+      "Tokens": [
+        "ronal",
+        "mess",
+        "tregi",
+        "zgjas",
+        "pergj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ronaldo-per-messin-nje-tregim-qe-do-te-zgjase-pergjithmone/"
+      ],
+      "Articles": {
+        "infokosove24": "ronaldo-per-messin-nje-tregim-qe-do-te-zgjase-pergjithmone"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Bashkimi Evropian bie dakord p\u00EBr paket\u00EBn e 22-t\u00EB t\u00EB sanksioneve ndaj Rusis\u00EB",
+      "Tokens": [
+        "bashk",
+        "evrop",
+        "bie",
+        "dakor",
+        "paket",
+        "sanks",
+        "ndaj",
+        "rus"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bashkimi-evropian-bie-dakord-per-paketen-e-22-te-te-sanksioneve-ndaj-rusise/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "bashkimi-evropian-bie-dakord-per-paketen-e-22-te-te-sanksioneve-ndaj-rusise"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Selvija flet p\u00EBr munges\u00EBn e Shpatit n\u00EB jet\u00EBn e djalit: Dashuria p\u00EBr t\u00EB nuk do t\u00EB zbehet kurr\u00EB",
+      "Tokens": [
+        "selvi",
+        "flet",
+        "munge",
+        "shpat",
+        "jet",
+        "djal",
+        "dashu",
+        "zbeh",
+        "kurr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/selvija-flet-per-mungesen-e-shpatit-ne-jeten-e-djalit-dashuria-per-te-nuk-do-te-zbehet-kurre/"
+      ],
+      "Articles": {
+        "kosova-fakt": "selvija-flet-per-mungesen-e-shpatit-ne-jeten-e-djalit-dashuria-per-te-nuk-do-te"
+      }
+    },
+    {
+      "At": "2026-10-08T00:55:50.8598611+00:00",
+      "Title": "Ambasada gjermane \u201Cthell\u00EBsisht e shqet\u00EBsuar\u201D pas ndryshimeve n\u00EB Ligjin p\u00EBr Gjykat\u00EBn Speciale",
+      "Tokens": [
+        "ambas",
+        "gjerm",
+        "thell",
+        "shqet",
+        "ndrys",
+        "ligj",
+        "gjyka",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ambasada-gjermane-shqetesuar-ndryshimi-specialen/33872302.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ambasada-gjermane-thellesisht-e-shqetesuar-pas-ndryshimeve-ne-ligjin-per"
+      }
+    },
     {
       "At": "2026-10-07T19:18:34.7304655+00:00",
       "Title": "\u200BQeveria shqiptare jep pension t\u00EB posa\u00E7\u00EBm p\u00EBr 117-vje\u00E7aren Qamile Marra",
@@ -15324,28 +15587,6 @@
       ],
       "Articles": {
         "kosova-aktuale": "vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-te-kosoves-me-95-vota"
-      }
-    },
-    {
-      "At": "2026-09-27T22:02:08.467736+00:00",
-      "Title": "Portugalia e mposht Norvegjin\u00EB, ia \u201Csheh hajrin\u201D gabimit t\u00EB portierit",
-      "Tokens": [
-        "portu",
-        "mposh",
-        "norve",
-        "sheh",
-        "hajr",
-        "gabim",
-        "porti"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/portugalia-e-mposht-norvegjine-ia-sheh-hajrin-gabimit-te-portierit/",
-        "https://www.koha.net/futboll/portugalia-mposht-norvegjine-ronaldo-nuk-luan",
-        "https://telegrafi.com/cristiano-ronaldos-i-tregohet-stoli-portugalia-fiton-ndaj-norvegjise/"
-      ],
-      "Articles": {
-        "raporti-sot": "portugalia-fiton-2-1-kunder-norvegjise-ne-oslo-gara-e-liges-se-kombeve-uefa",
-        "infokosove24": "portugalia-mposht-norvegjine-2-1-ne-oslo-dhe-nderhyn-ne-grupin-a4"
       }
     }
   ]
