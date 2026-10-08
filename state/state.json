@@ -1,6 +1,259 @@
 {
-  "RotationCursor": 0,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Takimi me Kurtin, presidentja Shiroka-Pula: Bashk\u00EBrendim nd\u00EBrmjet institucioneve, n\u00EB sh\u00EBrbim t\u00EB qytetar\u00EBve dhe vendit",
+      "Tokens": [
+        "takim",
+        "kurt",
+        "presi",
+        "shiro",
+        "pul",
+        "bashk",
+        "nderm",
+        "insti",
+        "sherb",
+        "qytet",
+        "vend"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shiroka-pula-ia-shpreh-kurtit-gatishmerine-per-bashkepunim-ne-sherbim-te-interesave-te-kosoves/",
+        "https://telegrafi.com/takimi-me-kurtin-presidentja-shiroka-pula-bashkerendim-ndermjet-institucioneve-ne-sherbim-te-qytetareve-dhe-vendit/"
+      ],
+      "Articles": {
+        "raporti-sot": "shiroka-pula-ia-shpreh-kurtit-gatishmerine-per-bashkepunim-ne-sherbim-te"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Kurti pas takimit me presidenten Shiroka-Pula: Nuk kemi koh\u00EB p\u00EBr t\u00EB humbur, do t\u00EB bashk\u00EBrendohemi p\u00EBr sfidat shtet\u00EBrore",
+      "Tokens": [
+        "kurt",
+        "takim",
+        "presi",
+        "shiro",
+        "pul",
+        "kem",
+        "koh",
+        "humbu",
+        "bashk",
+        "sfida",
+        "shtet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kurti-pas-takimit-me-presidenten-skemi-kohe-per-te-humbur-duhet-te-behemi-bashke-per-shume-sfida-shteterore/",
+        "https://telegrafi.com/kurti-deklarohet-pas-takimit-me-presidenten-shiroka-pula-nuk-kemi-kohe-per-te-humbur-do-te-bashkerendohemi-per-sfidat-shteterore/"
+      ],
+      "Articles": {
+        "infokosove24": "kurti-pas-takimit-me-presidenten-s-kemi-kohe-per-te-humbur-duhet-te-behemi"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Dogana konfirmon raportimin ekskluziv t\u00EB Sinjalit p\u00EBr kapjen e mbi 30 mij\u00EB eurove n\u00EB pik\u00EBn kufitare n\u00EB B\u00EBrnjak",
+      "Tokens": [
+        "dogan",
+        "konfi",
+        "rapor",
+        "ekskl",
+        "sinja",
+        "kapj",
+        "mij",
+        "euro",
+        "pik",
+        "kufit",
+        "bernj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dogana-konfirmon-raportimin-ekskluziv-te-sinjalit-per-kapjen-e-mbi-30-mije-eurove-ne-piken-kufitare-ne-bernjak/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "dogana-konfirmon-raportimin-ekskluziv-te-sinjalit-per-kapjen-e-mbi-30-mije"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Klubi kosovar n\u00EB bisedime me ish-trajnerin e Baselit",
+      "Tokens": [
+        "klub",
+        "kosov",
+        "bised",
+        "ish",
+        "trajn",
+        "basel"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/klubi-kosovar-ne-bisedime-me-ish-trajnerin-e-baselit/"
+      ],
+      "Articles": {
+        "kosova-fakt": "klubi-kosovar-ne-bisedime-me-ish-trajnerin-e-baselit"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Tragjedi n\u00EB Ukrain\u00EB: Bombat ruse godasin dy autobus\u00EB, 30 t\u00EB vrar\u00EB e 18 t\u00EB plagosur",
+      "Tokens": [
+        "tragj",
+        "ukra",
+        "bomba",
+        "rus",
+        "godas",
+        "autob",
+        "vrar",
+        "plago"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tragjedi-ne-ukraine-bombat-ruse-godasin-dy-autobuse-30-te-vrare-e-18-te-plagosur/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "tragjedi-ne-ukraine-bombat-ruse-godasin-dy-autobuse-30-te-vrare-e-18-te-plagosur"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Tahiri p\u00EBr ndryshimet n\u00EB Ligjin e Speciales: Nuk e zhb\u00EBjn\u00EB Gjykat\u00EBn, por synojn\u00EB ta p\u00EBrmir\u00EBsojn\u00EB",
+      "Tokens": [
+        "tahir",
+        "ndrys",
+        "ligj",
+        "speci",
+        "zhbej",
+        "gjyka",
+        "synoj",
+        "permi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tahiri-per-ndryshimet-ne-ligjin-e-speciales-nuk-e-zhbejne-gjykaten-por-synojne-ta-permiresojne/"
+      ],
+      "Articles": {
+        "raporti-sot": "tahiri-per-ndryshimet-ne-ligjin-e-speciales-nuk-e-zhbejne-gjykaten-por-synojne"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Nj\u00EB i l\u00EBnduar n\u00EB aksidentin mes kamionit dhe vetur\u00EBs n\u00EB Klin\u00EB",
+      "Tokens": [
+        "lendu",
+        "aksid",
+        "mes",
+        "kamio",
+        "vetur",
+        "klin"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nje-i-lenduar-ne-aksidentin-mes-kamionit-dhe-vetures-ne-kline/"
+      ],
+      "Articles": {
+        "infokosove24": "nje-i-lenduar-ne-aksidentin-mes-kamionit-dhe-vetures-ne-kline"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "A po kopjoni rutinat e bukuris\u00EB n\u00EB TikTok? Ja \u00E7far\u00EB mund t\u2019i ndodh\u00EB l\u00EBkur\u00EBs",
+      "Tokens": [
+        "kopjo",
+        "rutin",
+        "bukur",
+        "tikto",
+        "mund",
+        "ndodh",
+        "lekur"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/a-po-kopjoni-rutinat-e-bukurise-ne-tiktok-ja-cfare-mund-ti-ndodhe-lekures/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "a-po-kopjoni-rutinat-e-bukurise-ne-tiktok-ja-cfare-mund-t-i-ndodhe-lekures"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "LEX | \u201CM\u00EB rrihnin e m\u00EB maltretonin\u201D \u2013 D\u00EBshmi trondit\u00EBse n\u00EB gjykimin e Nadica \u00C7epkenoviqit, e d\u00EBmtuara nuk ndihet mir\u00EB gjat\u00EB rr\u00EBfimit n\u00EB gjykat\u00EB",
+      "Tokens": [
+        "lex",
+        "rrihn",
+        "maltr",
+        "deshm",
+        "trond",
+        "gjyki",
+        "nadic",
+        "cepke",
+        "demtu",
+        "ndih",
+        "mir",
+        "rrefi",
+        "gjyka"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-me-rrihnin-e-me-maltretonin-deshmi-tronditese-ne-gjykimin-e-nadica-cepkenoviqit-e-demtuara-nuk-ndihet-mire-gjate-rrefimit-ne-gjykate/"
+      ],
+      "Articles": {
+        "kosova-fakt": "lex-me-rrihnin-e-me-maltretonin-deshmi-tronditese-ne-gjykimin-e-nadica"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Ndodh edhe kjo: Pasagjeri kapet n\u00EB aeroport me 10 zogj t\u00EB gjall\u00EB t\u00EB fshehur n\u00EB t\u00EB brendshme",
+      "Tokens": [
+        "ndodh",
+        "pasag",
+        "kap",
+        "aerop",
+        "zogj",
+        "gjall",
+        "fsheh",
+        "brend"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndodh-edhe-kjo-pasagjeri-kapet-ne-aeroport-me-10-zogj-te-gjalle-te-fshehur-ne-te-brendshme/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndodh-edhe-kjo-pasagjeri-kapet-ne-aeroport-me-10-zogj-te-gjalle-te-fshehur-ne"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Asnj\u00EB vend i sigurt: Si i ndjekin Irani dhe Rusia kund\u00EBrshtar\u00EBt e tyre n\u00EB m\u00EBrgim",
+      "Tokens": [
+        "asn",
+        "vend",
+        "sigur",
+        "ndjek",
+        "iran",
+        "rusi",
+        "kunde",
+        "mergi"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/irani-rusia-ndjekin-kundershtaret-mergim/33872688.html"
+      ],
+      "Articles": {
+        "raporti-sot": "asnje-vend-i-sigurt-si-i-ndjekin-irani-dhe-rusia-kundershtaret-e-tyre-ne-mergim"
+      }
+    },
+    {
+      "At": "2026-10-08T11:57:03.8552006+00:00",
+      "Title": "Kompjuter\u00EB rus\u00EB, telefona amerikan\u00EB, llaptopi i Hunter Bidenit u thyen me nj\u00EB softuer t\u00EB fuqish\u00EBm rus....",
+      "Tokens": [
+        "kompj",
+        "rus",
+        "telef",
+        "ameri",
+        "llapt",
+        "hunte",
+        "biden",
+        "thy",
+        "softu",
+        "fuqis"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/softuer-rus-oxygen-forensics/33872093.html"
+      ],
+      "Articles": {
+        "infokosove24": "kompjutere-ruse-telefona-amerikane-llaptopi-i-hunter-bidenit-u-thyen-me-nje"
+      }
+    },
     {
       "At": "2026-10-08T00:55:50.8598611+00:00",
       "Title": "Bllokimi i minator\u00EBve n\u00EB Trep\u00E7\u00EB, Rizvanolli: Menaxhmenti po organizon daljen p\u00EBrmes emergjenc\u00EBs",
@@ -15542,51 +15795,6 @@
       "Articles": {
         "raporti-sot": "bajrami-s-e-di-nese-jane-takuar-abdixhiku-e-kurti-nese-ka-kandidat-te-ldk-se",
         "infokosove24": "bajrami-s-e-di-nese-jane-takuar-abdixhiku-e-kurti-nese-ka-kandidat-te-ldk-se"
-      }
-    },
-    {
-      "At": "2026-09-28T11:37:48.5919612+00:00",
-      "Title": "Kuvendi miraton deklarat\u00EBn p\u00EBr aktgjykimin e Speciales, n\u00EB mbrojtje t\u00EB U\u00C7K-s\u00EB",
-      "Tokens": [
-        "kuven",
-        "mirat",
-        "dekla",
-        "aktgj",
-        "speci",
-        "mbroj",
-        "uck"
-      ],
-      "SourceUrls": [
-        "https://www.koha.net/arberi/kuvendi-miraton-deklaraten-per-aktgjykimin-e-speciales",
-        "https://www.koha.net/arberi/teksti-i-plote-deklarates-se-harmonizuar-per-vendimin-e-speciales",
-        "https://sinjali.com/kuvendi-miraton-deklaraten-e-pdk-se-per-aktgjykimin-e-speciales-dhe-ne-mbrojtje-te-uck-se/",
-        "https://telegrafi.com/kuvendi-miraton-deklaraten-per-aktgjykimin-e-speciales-ne-mbrojtje-te-uck-se/",
-        "https://www.koha.net/arberi/abdixhiku-partite-pajtohen-per-tekstin-e-deklarates-per-vendimin-e-speciales",
-        "https://www.koha.net/arberi/edhe-pas-gjysme-ore-vonese-nuk-nis-seanca"
-      ],
-      "Articles": {
-        "infokosove24": "kuvendi-i-kosoves-miratu-deklarate-per-mbrojtjen-e-aktgjykimit-ndaj-dhomave-te",
-        "kosova-aktuale": "kuvendi-miraton-deklaraten-kunder-proceseve-ne-dhomat-e-specializuara"
-      }
-    },
-    {
-      "At": "2026-09-28T11:37:48.5919612+00:00",
-      "Title": "Vlora \u00C7itaku zgjidhet n\u00EBnkryetare e Kuvendit nga PDK",
-      "Tokens": [
-        "vlor",
-        "citak",
-        "zgjid",
-        "nenkr",
-        "kuven",
-        "pdk"
-      ],
-      "SourceUrls": [
-        "https://www.koha.net/arberi/vlora-citaku-votohet-per-nenkryetare",
-        "https://telegrafi.com/vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-nga-pdk/",
-        "https://sinjali.com/vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-te-kosoves/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "vlora-citaku-zgjidhet-nenkryetare-e-kuvendit-te-kosoves-me-95-vota"
       }
     }
   ]
