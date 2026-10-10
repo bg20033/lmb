@@ -1,6 +1,274 @@
 {
-  "RotationCursor": 4,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Ulutash mban adresimin lamtumir\u00EBs: Siguria sot, shum\u00EB m\u00EB e mir\u00EB se m\u00EB 1999",
+      "Tokens": [
+        "uluta",
+        "mban",
+        "adres",
+        "lamtu",
+        "sigur",
+        "shum",
+        "mir",
+        "1999"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ulutash-perfundon-mandatin-ne-kosove-situata-e-sigurise-eshte-shume-me-e-mire-se-ne-vitin-1999/",
+        "https://telegrafi.com/ulutash-mban-adresimin-lamtumires-siguria-sot-shume-me-e-mire-se-me-1999/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ulutash-perfundon-mandatin-ne-kosove-situata-e-sigurise-eshte-shume-me-e-mire"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Erdogan drejton vet\u00EB trenin e ri, Marta Kos e pyet n\u00EBse di t\u00EB drejtoj\u00EB edhe helikopterin",
+      "Tokens": [
+        "erdog",
+        "drejt",
+        "vet",
+        "tren",
+        "mart",
+        "kos",
+        "pyet",
+        "nes",
+        "helik"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/erdogan-drejton-vete-trenin-e-ri-marta-kos-e-pyet-nese-di-te-drejtoje-edhe-helikopterin/"
+      ],
+      "Articles": {
+        "raporti-sot": "erdogan-drejton-vete-trenin-e-ri-marta-kos-e-pyet-nese-di-te-drejtoje-edhe"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Zjarr n\u00EB Klin\u00EB, digjen mbeturinat pran\u00EB Post\u00EBs dhe d\u00EBmtohen dritaret e objektit",
+      "Tokens": [
+        "zjarr",
+        "klin",
+        "digj",
+        "mbetu",
+        "pran",
+        "post",
+        "demto",
+        "drita",
+        "objek"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zjarr-ne-kline-digjen-mbeturinat-prane-postes-dhe-demtohen-dritaret-e-objektit/"
+      ],
+      "Articles": {
+        "infokosove24": "zjarr-ne-kline-digjen-mbeturinat-prane-postes-dhe-demtohen-dritaret-e-objektit"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Google po p\u00EBrgatit emoji me ndri\u00E7im dhe kontrast m\u00EB t\u00EB lart\u00EB p\u00EBr Chat",
+      "Tokens": [
+        "googl",
+        "perga",
+        "emoj",
+        "ndric",
+        "kontr",
+        "lart",
+        "chat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/google-po-pergatit-emoji-me-ndricim-dhe-kontrast-me-te-larte-per-chat/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "google-po-pergatit-emoji-me-ndricim-dhe-kontrast-me-te-larte-per-chat"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Arrestohet 41-vje\u00E7ari i k\u00EBrkuar p\u00EBr vjedhje n\u00EB Prishtin\u00EB",
+      "Tokens": [
+        "arres",
+        "vjeca",
+        "kerku",
+        "vjedh",
+        "prish"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arrestohet-41-vjecari-i-kerkuar-per-vjedhje-ne-prishtine/"
+      ],
+      "Articles": {
+        "kosova-fakt": "arrestohet-41-vjecari-i-kerkuar-per-vjedhje-ne-prishtine"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Raportohet p\u00EBr sulm me raket\u00EB n\u00EB aeroportin e Riadit, pezullohet trafiku ajror n\u00EB Arabin\u00EB Saudite",
+      "Tokens": [
+        "rapor",
+        "sulm",
+        "raket",
+        "aerop",
+        "riad",
+        "pezul",
+        "trafi",
+        "ajror",
+        "arab",
+        "saud"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/raportohet-per-sulm-me-rakete-ne-aeroportin-e-riadit-pezullohet-trafiku-ajror-ne-arabine-saudite/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "raportohet-per-sulm-me-rakete-ne-aeroportin-e-riadit-pezullohet-trafiku-ajror"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Man City mund t\u00EB luaj\u00EB n\u00EB Lig\u00EBn e Kampion\u00EBve edhe n\u00EBse d\u00EBnohet me r\u00EBnie nga Liga Premier",
+      "Tokens": [
+        "man",
+        "city",
+        "mund",
+        "lua",
+        "lig",
+        "kampi",
+        "nes",
+        "denoh",
+        "reni",
+        "premi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/man-city-mund-te-luaje-ne-ligen-e-kampioneve-edhe-nese-denohet-me-renie-nga-liga-premier/"
+      ],
+      "Articles": {
+        "raporti-sot": "man-city-mund-te-luaje-ne-ligen-e-kampioneve-edhe-nese-denohet-me-renie-nga"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Irani merr p\u00EBrgjegj\u00EBsin\u00EB p\u00EBr sulmin ndaj cistern\u00EBs s\u00EB naft\u00EBs, k\u00EBrc\u00EBnon anijet n\u00EB Gjirin Persik",
+      "Tokens": [
+        "iran",
+        "merr",
+        "pergj",
+        "sulm",
+        "ndaj",
+        "ciste",
+        "naft",
+        "kerce",
+        "anij",
+        "gjir",
+        "persi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/irani-merr-pergjegjesine-per-sulmin-ndaj-cisternes-se-naftes-kercenon-anijet-ne-gjirin-persik/"
+      ],
+      "Articles": {
+        "infokosove24": "irani-merr-pergjegjesine-per-sulmin-ndaj-cisternes-se-naftes-kercenon-anijet-ne"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "\u00C7iklisti austriak thyen rekord bot\u00EBror, zbret nga 3.8 metra dhe shtyp nj\u00EB kuti me gom\u00EBn e bi\u00E7iklet\u00EBs",
+      "Tokens": [
+        "cikli",
+        "austr",
+        "thy",
+        "rekor",
+        "boter",
+        "zbr",
+        "metr",
+        "shtyp",
+        "kut",
+        "gom",
+        "bicik"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ciklisti-austriak-thyen-rekord-boteror-zbret-nga-3-8-metra-dhe-shtyp-nje-kuti-me-gomen-e-bicikletes/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ciklisti-austriak-thyen-rekord-boteror-zbret-nga-3-8-metra-dhe-shtyp-nje-kuti"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Presidentja Shiroka-Pula pranon urime nga president\u00EBt e Finland\u00EBs, Sllovenis\u00EB, Shqip\u00EBris\u00EB dhe Maqedonis\u00EB s\u00EB Veriut",
+      "Tokens": [
+        "presi",
+        "shiro",
+        "pul",
+        "prano",
+        "urim",
+        "finla",
+        "sllov",
+        "shqip",
+        "maqed",
+        "veriu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/presidentja-shiroka-pula-pranon-urime-nga-presidentet-e-finlandes-sllovenise-shqiperise-dhe-maqedonise-se-veriut/"
+      ],
+      "Articles": {
+        "kosova-fakt": "presidentja-shiroka-pula-pranon-urime-nga-presidentet-e-finlandes-sllovenise"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "AMK me apel p\u00EBr qytetar\u00EBt: Kontrolloni arin dhe argjendin para blerjes",
+      "Tokens": [
+        "amk",
+        "apel",
+        "qytet",
+        "kontr",
+        "arin",
+        "argje",
+        "blerj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/amk-me-apel-per-qytetaret-kontrolloni-arin-dhe-argjendin-para-blerjes/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "amk-me-apel-per-qytetaret-kontrolloni-arin-dhe-argjendin-para-blerjes"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Pas d\u00EBbimit nga Mali i Zi, themeluesi i rrjetit rus Rybar mb\u00EBrrin n\u00EB Serbi",
+      "Tokens": [
+        "debim",
+        "mal",
+        "theme",
+        "rrjet",
+        "rus",
+        "rybar",
+        "mberr",
+        "serb"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/debimi-mali-zi-themeluesi-rybar-mberrin-serbi/33874193.html"
+      ],
+      "Articles": {
+        "raporti-sot": "pas-debimit-nga-mali-i-zi-themeluesi-i-rrjetit-rus-rybar-mberrin-ne-serbi"
+      }
+    },
+    {
+      "At": "2026-10-10T16:13:03.6800312+00:00",
+      "Title": "Pa udh\u00EBrr\u00EBfyes drejt BE-s\u00EB: \u00C7far\u00EB tjet\u00EBr rrezikon t\u00EB humbas\u00EB Serbia?",
+      "Tokens": [
+        "udher",
+        "drejt",
+        "tjete",
+        "rrezi",
+        "humba",
+        "serbi"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/pa-udherrefyes-drejt-be-rreziku-humbas-serbia/33874065.html"
+      ],
+      "Articles": {
+        "infokosove24": "pa-udherrefyes-drejt-be-se-cfare-tjeter-rrezikon-te-humbase-serbia"
+      }
+    },
     {
       "At": "2026-10-10T11:06:06.4760051+00:00",
       "Title": "Burgjet e Maqedonis\u00EB jan\u00EB t\u00EB mbipopulluara",
