@@ -1,6 +1,331 @@
 {
-  "RotationCursor": 0,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Kurti: Serbia s\u2019e ka dor\u00EBzuar dokumentacionin kadastral pavar\u00EBsisht marr\u00EBveshjes s\u00EB vitit 2011",
+      "Tokens": [
+        "kurt",
+        "serbi",
+        "dorez",
+        "dokum",
+        "kadas",
+        "pavar",
+        "marre",
+        "vit",
+        "2011"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/kurti-serbia-se-ka-dorezuar-dokumentacionin-kadastral-pavaresisht-marreveshjes-se-vitit-2011/",
+        "https://sinjali.com/15-vjet-nga-marreveshja-as-kopjen-sna-e-kane-dorezuar-kurti-akuzon-serbine-per-mosdorezimin-e-dokumentacionit-kadastral/"
+      ],
+      "Articles": {
+        "raporti-sot": "15-vjet-nga-marreveshja-as-kopjen-s-na-e-kane-dorezuar-kurti-akuzon-serbine-per"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "\u00C7far\u00EB duhet t\u00EB dini rreth protestave t\u00EB nx\u00EBn\u00EBsve n\u00EB Franc\u00EB?",
+      "Tokens": [
+        "duh",
+        "din",
+        "rreth",
+        "prote",
+        "nxene",
+        "franc"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/cfare-duhet-te-dini-rreth-protestave-te-nxenesve-ne-france/"
+      ],
+      "Articles": {
+        "infokosove24": "cfare-duhet-te-dini-rreth-protestave-te-nxenesve-ne-france"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Shenjat q\u00EB jep trupi n\u00EBse keni munges\u00EB magnezi",
+      "Tokens": [
+        "shenj",
+        "jep",
+        "trup",
+        "nes",
+        "ken",
+        "mung",
+        "magne"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shenjat-qe-jep-trupi-nese-keni-mungese-magnezi/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shenjat-qe-jep-trupi-nese-keni-mungese-magnezi"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Erdogan uron presidenten e re t\u00EB Kosov\u00EBs, Justina Shiroka Pul\u00EBn \u2013 Jep mesazh p\u00EBr bashk\u00EBpunimin mes dy shteteve",
+      "Tokens": [
+        "erdog",
+        "uron",
+        "presi",
+        "kosov",
+        "justi",
+        "shiro",
+        "pul",
+        "jep",
+        "mesaz",
+        "bashk",
+        "mes",
+        "shtet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/erdogan-uron-presidenten-e-re-te-kosoves-justina-shiroka-pulen-jep-mesazh-per-bashkepunimin-mes-dy-shteteve/"
+      ],
+      "Articles": {
+        "kosova-fakt": "erdogan-uron-presidenten-e-re-te-kosoves-justina-shiroka-pulen-jep-mesazh-per"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "LEX | Gjasht\u00EB vjet burg dhe tri vjet pa t\u00EB drejt\u00EB vozitjeje \u2013 D\u00EBnohet i akuzuari n\u00EB Istog",
+      "Tokens": [
+        "lex",
+        "gjash",
+        "vjet",
+        "burg",
+        "tri",
+        "drejt",
+        "vozit",
+        "denoh",
+        "akuzu",
+        "istog"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-gjashte-vjet-burg-dhe-tri-vjet-pa-te-drejte-vozitjeje-denohet-i-akuzuari-ne-istog/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "lex-gjashte-vjet-burg-dhe-tri-vjet-pa-te-drejte-vozitjeje-denohet-i-akuzuari-ne"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "LEX | Nga aksioni i Krimeve Kibernetike n\u00EB bank\u00EBn e t\u00EB akuzuarve \u2013 372 mij\u00EB euro n\u00EBn dyshimet p\u00EBr shp\u00EBlarje parash, d\u00EBshmon eksperti financiar",
+      "Tokens": [
+        "lex",
+        "aksio",
+        "krim",
+        "kiber",
+        "bank",
+        "akuzu",
+        "372",
+        "mij",
+        "euro",
+        "dyshi",
+        "shpel",
+        "paras",
+        "deshm",
+        "ekspe",
+        "finan"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-nga-aksioni-i-krimeve-kibernetike-ne-banken-e-te-akuzuarve-372-mije-euro-nen-dyshimet-per-shpelarje-parash-deshmon-eksperti-financiar/"
+      ],
+      "Articles": {
+        "raporti-sot": "lex-nga-aksioni-i-krimeve-kibernetike-ne-banken-e-te-akuzuarve-372-mije-euro"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Danimarka planifikon t\u2019u lejoj\u00EB m\u00EBsimdh\u00EBn\u00EBsve p\u00EBrdorimin e forc\u00EBs fizike n\u00EB shkolla",
+      "Tokens": [
+        "danim",
+        "plani",
+        "lejo",
+        "mesim",
+        "perdo",
+        "forc",
+        "fizik",
+        "shkol"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/danimarka-planifikon-tu-lejoje-mesimdhenesve-perdorimin-e-forces-fizike-ne-shkolla/"
+      ],
+      "Articles": {
+        "infokosove24": "danimarka-planifikon-t-u-lejoje-mesimdhenesve-perdorimin-e-forces-fizike-ne"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Defekti n\u00EB uj\u00EBsjell\u00EBs l\u00EB disa fshatra t\u00EB Prizrenit tri dit\u00EB pa uj\u00EB",
+      "Tokens": [
+        "defek",
+        "ujesj",
+        "dis",
+        "fshat",
+        "prizr",
+        "tri",
+        "dit",
+        "uje"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/defekti-ne-ujesjelles-le-disa-fshatra-te-prizrenit-tri-dite-pa-uje/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "defekti-ne-ujesjelles-le-disa-fshatra-te-prizrenit-tri-dite-pa-uje"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Policia e Kosov\u00EBs n\u00EB veri pajiset me dron profesional",
+      "Tokens": [
+        "polic",
+        "kosov",
+        "ver",
+        "pajis",
+        "dron",
+        "profe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-e-kosoves-ne-veri-pajiset-me-dron-profesional/"
+      ],
+      "Articles": {
+        "kosova-fakt": "policia-e-kosoves-ne-veri-pajiset-me-dron-profesional"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Ligji p\u00EBr Specialen ende nuk ka mb\u00EBrritur te Presidentja \u2013 Ja kur pritet t\u2019i d\u00EBrgohet dhe sa dit\u00EB ka p\u00EBr t\u00EB vepruar",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "end",
+        "mberr",
+        "presi",
+        "prit",
+        "dergo",
+        "dit",
+        "vepru"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ligji-per-specialen-ende-nuk-ka-mberritur-te-presidentja-ja-kur-pritet-ti-dergohet-dhe-sa-dite-ka-per-te-vepruar/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ligji-per-specialen-ende-nuk-ka-mberritur-te-presidentja-ja-kur-pritet-t-i"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Krimi trondit\u00EBs n\u00EB SHBA: 45-vje\u00E7ari masakron familjen, vret vajz\u00EBn shtatz\u00EBn\u00EB dhe dy nip\u00EBrit",
+      "Tokens": [
+        "krim",
+        "trond",
+        "shb",
+        "vjeca",
+        "masak",
+        "famil",
+        "vret",
+        "vajz",
+        "shtat",
+        "niper"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/krimi-trondites-ne-shba-45-vjecari-masakron-familjen-vret-vajzen-shtatzene-dhe-dy-niperit/"
+      ],
+      "Articles": {
+        "raporti-sot": "krimi-trondites-ne-shba-45-vjecari-masakron-familjen-vret-vajzen-shtatzene-dhe"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Kriza e mbeturinave n\u00EB Prishtin\u00EB, n\u00EB fotografi",
+      "Tokens": [
+        "kriz",
+        "mbetu",
+        "prish",
+        "fotog"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/prishtina-mbeturina-pastrimi/33875687.html"
+      ],
+      "Articles": {
+        "infokosove24": "kriza-e-mbeturinave-ne-prishtine-ne-fotografi"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Gjermania do t\u00EB nis\u00EB gjyqin p\u00EBr \u0022krim lufte\u0022 lidhur me Nord Stream-in",
+      "Tokens": [
+        "gjerm",
+        "nis",
+        "gjyq",
+        "krim",
+        "luft",
+        "lidhu",
+        "nord",
+        "strea"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/gjermania-gjyq-nord-stream-krim-lufte/33875643.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gjermania-do-te-nise-gjyqin-per-krim-lufte-lidhur-me-nord-stream-in"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "N\u00EB BE, por n\u00EBn mbik\u00EBqyrje: Rregullat e reja p\u00EBr an\u00EBtar\u00EBt e ardhsh\u00EBm",
+      "Tokens": [
+        "mbike",
+        "rregu",
+        "rej",
+        "aneta",
+        "ardhs"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/be-rregulla-zgjerim-mbikeqyrje/33875554.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "ne-be-por-nen-mbikeqyrje-rregullat-e-reja-per-anetaret-e-ardhshem"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Zelensky akuzon Rusin\u00EB se po shkel arm\u00EBpushimin e Trumpit me sulme n\u00EB infraftruktur\u00EB t\u00EB energjis\u00EB",
+      "Tokens": [
+        "zelen",
+        "akuzo",
+        "rus",
+        "shkel",
+        "armep",
+        "trump",
+        "sulm",
+        "infra",
+        "energ"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/trump-marreveshja-dizel-rus/33875547.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "zelensky-akuzon-rusine-se-po-shkel-armepushimin-e-trumpit-me-sulme-ne"
+      }
+    },
+    {
+      "At": "2026-10-13T12:37:12.8072677+00:00",
+      "Title": "Si po ndikojn\u00EB sulmet e Ukrain\u00EBs ndaj \u0022Google-it t\u00EB Rusis\u00EB\u0022",
+      "Tokens": [
+        "ndiko",
+        "sulm",
+        "ukrai",
+        "ndaj",
+        "googl",
+        "rus"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/sulme-ukraina-yandex-google-rusise/33875714.html"
+      ],
+      "Articles": {
+        "raporti-sot": "si-po-ndikojne-sulmet-e-ukraines-ndaj-google-it-te-rusise"
+      }
+    },
     {
       "At": "2026-10-12T21:42:26.9965362+00:00",
       "Title": "Arrestohet Gani Geci",
@@ -10079,477 +10404,6 @@
       ],
       "Articles": {
         "infokosove24": "nuk-ishin-kamera-sigurie-eksperti-per-videot-intime-te-adi-hiles-nuk-ishin-te"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Haziri p\u00EBr dit\u00EBn e 18-t\u00EB t\u00EB protest\u00EBs: Nuk lodhemi, nuk ndalemi dhe nuk largohemi pa u d\u00EBgjuar!",
-      "Tokens": [
-        "hazir",
-        "dit",
-        "prote",
-        "lodhe",
-        "ndale",
-        "largo",
-        "degju"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/sonte-nata-e-18-te-e-protestes-haziri-nuk-ndalemi-dhe-nuk-largohemi-pa-u-degjuar/",
-        "https://telegrafi.com/haziri-per-diten-e-18-te-te-protestes-nuk-lodhemi-nuk-ndalemi-dhe-nuk-largohemi-pa-u-degjuar/"
-      ],
-      "Articles": {
-        "infokosove24": "sonte-nata-e-18-te-e-protestes-haziri-nuk-ndalemi-dhe-nuk-largohemi-pa-u-degjuar"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Kancelari gjerman Merz uron Kurtin: Kosova ka l\u00EBn\u00EB pas muaj t\u00EB t\u00EBr\u00EB t\u00EB pasiguris\u00EB politike",
-      "Tokens": [
-        "kance",
-        "gjerm",
-        "merz",
-        "uron",
-        "kurt",
-        "kosov",
-        "len",
-        "muaj",
-        "ter",
-        "pasig",
-        "polit"
-      ],
-      "SourceUrls": [
-        "https://telegrafi.com/kancelari-gjerman-merz-uron-kurtin-merz-uron-kurtin-kosova-ka-lene-pas-muaj-te-tere-te-pasigurise-politike/",
-        "https://www.gazetaexpress.com/kancelari-gjerman-i-shkruan-kurtit-pas-zgjedhjes-kryeminister-kosova-ka-paguar-kosto-per-pasigurine-politke-e-muajve-te-kaluar/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "kancelari-gjerman-i-shkruan-kurtit-pas-zgjedhjes-kryeminister-kosova-ka-paguar"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Avokati Mishetiq publikon deklarat\u00EBn e Vu\u00E7iqit dhe k\u00EBrkon p\u00EBrgjigje: Si e dinte Macroni 6 dit\u00EB m\u00EB her\u00EBt se Tha\u00E7i do d\u00EBnohej",
-      "Tokens": [
-        "avoka",
-        "mishe",
-        "publi",
-        "dekla",
-        "vuciq",
-        "kerko",
-        "pergj",
-        "dint",
-        "macro",
-        "dit",
-        "her",
-        "thac",
-        "denoh"
-      ],
-      "SourceUrls": [
-        "https://telegrafi.com/avokati-mishetiq-publikon-deklaraten-e-vuciqit-dhe-kerkon-pergjigje-si-e-dinte-macroni-6-dite-me-heret-se-thaci-do-denohej/",
-        "https://www.gazetaexpress.com/si-e-dinte-macron-6-dite-me-heret-se-thaci-do-te-denohet-rende-misetic-e-publikon-videon-e-vuciq-pyetje-qe-do-pergjigje/"
-      ],
-      "Articles": {
-        "kosova-fakt": "si-e-dinte-macron-6-dite-me-heret-se-thaci-do-te-denohet-rende-misetic-e"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Konfirmohet raportimi i Sinjalit: Kat\u00EBr t\u00EB dyshuar p\u00EBr shp\u00EBrthimin pran\u00EB sht\u00EBpis\u00EB s\u00EB avokatit Kerolli, tre ndalohen p\u00EBr 48 or\u00EB",
-      "Tokens": [
-        "konfi",
-        "rapor",
-        "sinja",
-        "kater",
-        "dyshu",
-        "shper",
-        "pran",
-        "shtep",
-        "avoka",
-        "kerol",
-        "tre",
-        "ndalo",
-        "ore"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/konfirmohet-raportimi-i-sinjalit-kater-te-dyshuar-per-shperthimin-prane-shtepise-se-avokatit-kerolli-tre-ndalohen-per-48-ore/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "konfirmohet-raportimi-i-sinjalit-kater-te-dyshuar-per-shperthimin-prane"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Real Madridi k\u00EBrkon t\u2019i hiqen titujt Barcelon\u00EBs, UEFA rihap \u00E7\u00EBshtjen Negreira",
-      "Tokens": [
-        "real",
-        "madri",
-        "kerko",
-        "hiq",
-        "tituj",
-        "barce",
-        "uef",
-        "rihap",
-        "cesht",
-        "negre"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/real-madridi-kerkon-ti-hiqen-titujt-barcelones-uefa-rihap-ceshtjen-negreira/"
-      ],
-      "Articles": {
-        "raporti-sot": "real-madridi-kerkon-t-i-hiqen-titujt-barcelones-uefa-rihap-ceshtjen-negreira"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "\u00C7far\u00EB e b\u00EBn nj\u00EB protest\u00EB l\u00EBvizje shoq\u00EBrore?",
-      "Tokens": [
-        "ben",
-        "prote",
-        "leviz",
-        "shoqe"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/cfare-ben-proteste-levizja-shoqerore/33869286.html"
-      ],
-      "Articles": {
-        "infokosove24": "cfare-e-ben-nje-proteste-levizje-shoqerore"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Raphinha shpallet lojtari i muajit n\u00EB La Liga p\u00EBr t\u00EB dytin muaj radhazi",
-      "Tokens": [
-        "raphi",
-        "shpal",
-        "lojta",
-        "muaj",
-        "lig",
-        "dyt",
-        "radha"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/raphinha-shpallet-lojtari-i-muajit-ne-la-liga-per-te-dytin-muaj-radhazi/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "raphinha-shpallet-lojtari-i-muajit-ne-la-liga-per-te-dytin-muaj-radhazi"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Kancelari Merz uron Kurtin: Kap\u00EBrceni dallimet partiake p\u00EBr t\u00EB zgjidhur \u00E7\u00EBshtjet institucionale",
-      "Tokens": [
-        "kance",
-        "merz",
-        "uron",
-        "kurt",
-        "kaper",
-        "dalli",
-        "parti",
-        "zgjid",
-        "cesht",
-        "insti"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kancelari-merz-uron-kurtin-kaperceni-dallimet-partiake-per-te-zgjidhur-ceshtjet-institucionale/"
-      ],
-      "Articles": {
-        "kosova-fakt": "kancelari-merz-uron-kurtin-kaperceni-dallimet-partiake-per-te-zgjidhur-ceshtjet"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Emiratet e Bashkuara Arabe: Bashk\u00EBpiloti sulmoi kapitenin me s\u00EBpat\u00EB, tentoi t\u00EB kryente sulm terrorist",
-      "Tokens": [
-        "emira",
-        "bashk",
-        "arab",
-        "sulmo",
-        "kapit",
-        "sepat",
-        "tento",
-        "kryen",
-        "sulm",
-        "terro"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/emiratet-e-bashkuara-arabe-bashkepiloti-sulmoi-kapitenin-me-sepate-tentoi-te-kryente-sulm-terrorist/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "emiratet-e-bashkuara-arabe-bashkepiloti-sulmoi-kapitenin-me-sepate-tentoi-te"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Liga e Kombeve | Shqip\u00EBria sfidon Finland\u00EBn, sot n\u00EB fush\u00EB edhe Spanja, Anglia e Kroacia",
-      "Tokens": [
-        "lig",
-        "komb",
-        "shqip",
-        "sfido",
-        "finla",
-        "fush",
-        "span",
-        "angli",
-        "kroac"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/liga-e-kombeve-shqiperia-sfidon-finlanden-sot-ne-fushe-edhe-spanja-anglia-e-kroacia/"
-      ],
-      "Articles": {
-        "raporti-sot": "liga-e-kombeve-shqiperia-sfidon-finlanden-sot-ne-fushe-edhe-spanja-anglia-e"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "SINJALI 24 | Kosova derisa flinte: Arm\u00EB, rrahje, dhun\u00EB n\u00EB familje, k\u00EBrc\u00EBnime dhe arrestime brenda pak or\u00EBsh",
-      "Tokens": [
-        "sinja",
-        "kosov",
-        "deris",
-        "flint",
-        "arm",
-        "rrah",
-        "dhun",
-        "famil",
-        "kerce",
-        "arres",
-        "brend",
-        "pak",
-        "oresh"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/sinjali-24-kosova-derisa-flinte-arme-rrahje-dhune-ne-familje-kercenime-dhe-arrestime-brenda-pak-oresh/"
-      ],
-      "Articles": {
-        "infokosove24": "sinjali-24-kosova-derisa-flinte-arme-rrahje-dhune-ne-familje-kercenime-dhe"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "D\u00EBnimi maksimal 15 vjet, vuajtja e burgut n\u00EB Kosov\u00EB, t\u00EB d\u00EBnuarit mund t\u00EB falen nga Presidenti i Kosov\u00EBs- detaje nga Projektligji p\u00EBr Specialen",
-      "Tokens": [
-        "denim",
-        "maksi",
-        "vjet",
-        "vuajt",
-        "burgu",
-        "koso",
-        "denua",
-        "mund",
-        "fal",
-        "presi",
-        "kosov",
-        "deta",
-        "proje",
-        "speci"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/denimi-maksimal-15-vjet-vuajtja-e-burgut-ne-kosove-te-denuarit-mund-te-falen-nga-presidenti-i-kosoves-detaje-nga-projektligji-per-specialen/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "denimi-maksimal-15-vjet-vuajtja-e-burgut-ne-kosove-te-denuarit-mund-te-falen"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Ekskluzive | Dram\u00EB te hyrja VIP e \u201CGate Club\u201D: 20-vje\u00E7ari nxjerr arm\u00EBn ndaj sigurimit, pjes\u00EBtari i FSK-s\u00EB nd\u00EBrhyn dhe e \u00E7armatos",
-      "Tokens": [
-        "dram",
-        "hyr",
-        "vip",
-        "gat",
-        "club",
-        "vjeca",
-        "nxjer",
-        "arm",
-        "ndaj",
-        "sigur",
-        "pjese",
-        "fsk",
-        "nderh",
-        "carma"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ekskluzive-drame-te-hyrja-vip-e-gate-club-20-vjecari-nxjerr-armen-ndaj-sigurimit-pjesetari-i-fsk-se-nderhyn-dhe-e-carmatos/"
-      ],
-      "Articles": {
-        "kosova-fakt": "ekskluzive-drame-te-hyrja-vip-e-gate-club-20-vjecari-nxjerr-armen-ndaj"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Ramadani k\u00EBrkon seanc\u00EB urgjente p\u00EBr votimin e plot\u00EBsim-ndryshimit t\u00EB ligjit p\u00EBr Dhomat e Specializuara",
-      "Tokens": [
-        "ramad",
-        "kerko",
-        "seanc",
-        "urgje",
-        "votim",
-        "plote",
-        "ndrys",
-        "ligj",
-        "dhoma",
-        "speci"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/ramadani-kerkon-seance-urgjente-per-votimin-e-plotesim-ndryshimit-te-ligjit-per-dhomat-e-specializuara/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "ramadani-kerkon-seance-urgjente-per-votimin-e-plotesim-ndryshimit-te-ligjit-per"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Kapet 33-vje\u00E7ari me urdh\u00EBres\u00EB aktive p\u00EBr dhun\u00EB n\u00EB familje \u2013 d\u00EBrgohet n\u00EB vuajtje t\u00EB d\u00EBnimit prej 20 dit\u00EBsh",
-      "Tokens": [
-        "kap",
-        "vjeca",
-        "urdhe",
-        "akti",
-        "dhun",
-        "famil",
-        "dergo",
-        "vuajt",
-        "denim",
-        "dites"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kapet-33-vjecari-me-urdherese-aktive-per-dhune-ne-familje-dergohet-ne-vuajtje-te-denimit-prej-20-ditesh/"
-      ],
-      "Articles": {
-        "raporti-sot": "kapet-33-vjecari-me-urdherese-aktive-per-dhune-ne-familje-dergohet-ne-vuajtje"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Er\u00EB e r\u00EBnd\u00EB nga banesa alarmon fqinj\u00EBt n\u00EB Gjilan \u2013 gruaja gjendet pa shenja jete, dyshohet se kishte vdekur dit\u00EB m\u00EB par\u00EB",
-      "Tokens": [
-        "ere",
-        "rend",
-        "banes",
-        "alarm",
-        "fqinj",
-        "gjila",
-        "grua",
-        "gjend",
-        "shen",
-        "jet",
-        "dysho",
-        "vdeku",
-        "dit",
-        "par"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ere-e-rende-nga-banesa-alarmon-fqinjet-ne-gjilan-gruaja-gjendet-pa-shenja-jete-dyshohet-se-kishte-vdekur-dite-me-pare/"
-      ],
-      "Articles": {
-        "infokosove24": "ere-e-rende-nga-banesa-alarmon-fqinjet-ne-gjilan-gruaja-gjendet-pa-shenja-jete"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Dyshohet p\u00EBr dhun\u00EB sistematike ndaj bashk\u00EBshortes dhe vajz\u00EBs s\u00EB mitur n\u00EB Fush\u00EB Kosov\u00EB \u2013 i dyshuari paraqitet me avokat dhe ndalohet p\u00EBr 48 or\u00EB",
-      "Tokens": [
-        "dysho",
-        "dhun",
-        "siste",
-        "ndaj",
-        "bashk",
-        "vajz",
-        "mitur",
-        "fush",
-        "koso",
-        "dyshu",
-        "paraq",
-        "avoka",
-        "ndalo",
-        "ore"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/dyshohet-per-dhune-sistematike-ndaj-bashkeshortes-dhe-vajzes-se-mitur-ne-fushe-kosove-i-dyshuari-paraqitet-me-avokat-dhe-ndalohet-per-48-ore/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "dyshohet-per-dhune-sistematike-ndaj-bashkeshortes-dhe-vajzes-se-mitur-ne-fushe"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Bastisje n\u00EB Hogosht t\u00EB Kamenic\u00EBs \u2013 gjendet pushk\u00EB M48 dhe municion",
-      "Tokens": [
-        "basti",
-        "hogos",
-        "kamen",
-        "gjend",
-        "pushk",
-        "m48",
-        "munic"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/bastisje-ne-hogosht-te-kamenices-gjendet-pushke-m48-dhe-municion/"
-      ],
-      "Articles": {
-        "kosova-fakt": "bastisje-ne-hogosht-te-kamenices-gjendet-pushke-m48-dhe-municion"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Ekskluzive | Fyerjet eskalojn\u00EB n\u00EB rrahje n\u00EB Leposaviq \u2013 23-vje\u00E7ari goditet n\u00EB fytyr\u00EB dhe p\u00EBrfundon n\u00EB spital",
-      "Tokens": [
-        "fyerj",
-        "eskal",
-        "rrah",
-        "lepos",
-        "vjeca",
-        "godit",
-        "fytyr",
-        "perfu",
-        "spita"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ekskluzive-fyerjet-eskalojne-ne-rrahje-ne-leposaviq-23-vjecari-goditet-ne-fytyre-dhe-perfundon-ne-spital/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "ekskluzive-fyerjet-eskalojne-ne-rrahje-ne-leposaviq-23-vjecari-goditet-ne"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "Gashi thot\u00EB se LDK i nd\u00EBrroi tre pal\u00EB q\u00EBndrime p\u00EBr 18 muaj n\u00EB raport me Kurtin: Koha t\u00EB kthehemi te vetja",
-      "Tokens": [
-        "gash",
-        "ldk",
-        "nderr",
-        "tre",
-        "pal",
-        "qendr",
-        "muaj",
-        "rapor",
-        "kurt",
-        "koh",
-        "ktheh",
-        "vet"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/gashi-thote-se-ldk-i-nderroi-tre-pale-qendrime-per-18-muaj-ne-raport-me-kurtin-koha-te-kthehemi-te-vetja/"
-      ],
-      "Articles": {
-        "raporti-sot": "gashi-thote-se-ldk-i-nderroi-tre-pale-qendrime-per-18-muaj-ne-raport-me-kurtin"
-      }
-    },
-    {
-      "At": "2026-10-03T10:20:54.067546+00:00",
-      "Title": "K\u00EB, n\u00EB fakt, p\u00EBrfaq\u00EBsojn\u00EB partit\u00EB \u201Cruse\u201D n\u00EB Serbi?",
-      "Tokens": [
-        "fakt",
-        "perfa",
-        "part",
-        "rus",
-        "serb"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/ke-perfaqesojne-partite-ruse-ne-serbi/33868964.html"
-      ],
-      "Articles": {
-        "infokosove24": "ke-ne-fakt-perfaqesojne-partite-ruse-ne-serbi"
       }
     }
   ]
