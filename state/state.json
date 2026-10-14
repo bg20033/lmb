@@ -1,6 +1,172 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 4,
   "Published": [
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Zelensky pranon se ndihet \u201Ci tradhtuar\u201D nga Trumpi p\u00EBr marr\u00EBveshjen me Putinin",
+      "Tokens": [
+        "zelen",
+        "prano",
+        "ndih",
+        "tradh",
+        "trump",
+        "marre",
+        "putin"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zelensky-pranon-se-ndihet-i-tradhtuar-nga-trumpi-per-marreveshjen-me-putinin/"
+      ],
+      "Articles": {
+        "infokosove24": "zelensky-pranon-se-ndihet-i-tradhtuar-nga-trumpi-per-marreveshjen-me-putinin"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Rikthehet seriali legjendar \u201CBaywatch\u201D, publikohet traileri i versionit t\u00EB ri",
+      "Tokens": [
+        "rikth",
+        "seria",
+        "legje",
+        "baywa",
+        "publi",
+        "trail",
+        "versi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/rikthehet-seriali-legjendar-baywatch-publikohet-traileri-i-versionit-te-ri/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "rikthehet-seriali-legjendar-baywatch-publikohet-traileri-i-versionit-te-ri"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "YouTube Music prezanton etiketa p\u00EBr k\u00EBng\u00EBt e krijuara me inteligjenc\u00EB artificiale",
+      "Tokens": [
+        "youtu",
+        "music",
+        "preza",
+        "etike",
+        "keng",
+        "kriju",
+        "intel",
+        "artif"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/youtube-music-prezanton-etiketa-per-kenget-e-krijuara-me-inteligjence-artificiale/"
+      ],
+      "Articles": {
+        "kosova-fakt": "youtube-music-prezanton-etiketa-per-kenget-e-krijuara-me-inteligjence"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Trumpi publikon pamjet e sulmit fatal t\u00EB tigrit, familja e viktim\u00EBs: Na shkaktojn\u00EB shqet\u00EBsim t\u00EB r\u00EBnd\u00EB",
+      "Tokens": [
+        "trump",
+        "publi",
+        "pamj",
+        "sulm",
+        "fatal",
+        "tigr",
+        "famil",
+        "vikti",
+        "shkak",
+        "shqet",
+        "rend"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trumpi-publikon-pamjet-e-sulmit-fatal-te-tigrit-familja-e-viktimes-na-shkaktojne-shqetesim-te-rende/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "trumpi-publikon-pamjet-e-sulmit-fatal-te-tigrit-familja-e-viktimes-na"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Alarm n\u00EB Stamboll, p\u00EBrmbytjet bllokojn\u00EB Murat Boz dhe Demet \u00D6zdemir n\u00EB studio",
+      "Tokens": [
+        "alarm",
+        "stamb",
+        "permb",
+        "bllok",
+        "murat",
+        "boz",
+        "dem",
+        "ozdem",
+        "studi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/alarm-ne-stamboll-permbytjet-bllokojne-murat-boz-dhe-demet-ozdemir-ne-studio/"
+      ],
+      "Articles": {
+        "raporti-sot": "alarm-ne-stamboll-permbytjet-bllokojne-murat-boz-dhe-demet-ozdemir-ne-studio"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Basri vendos, Dukagjini mposht Vushtrrin\u00EB me rezultat minima",
+      "Tokens": [
+        "basr",
+        "vendo",
+        "dukag",
+        "mposh",
+        "vusht",
+        "rezul",
+        "minim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/basri-vendos-dukagjini-mposht-vushtrrine-me-rezultat-minima/"
+      ],
+      "Articles": {
+        "infokosove24": "basri-vendos-dukagjini-mposht-vushtrrine-me-rezultat-minima"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Protesta e dhunshme q\u00EB shkat\u00EBrroi Tiran\u00EBn, shoq\u00EBrohen disa t\u00EB rinj pas p\u00EBrfundimit t\u00EB tubimit",
+      "Tokens": [
+        "prote",
+        "dhuns",
+        "shkat",
+        "tiran",
+        "shoqe",
+        "dis",
+        "rinj",
+        "perfu",
+        "tubim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protesta-e-dhunshme-qe-shkaterroi-tiranen-shoqerohen-disa-te-rinj-pas-perfundimit-te-tubimit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "protesta-e-dhunshme-qe-shkaterroi-tiranen-shoqerohen-disa-te-rinj-pas"
+      }
+    },
+    {
+      "At": "2026-10-14T23:52:41.4344181+00:00",
+      "Title": "Mediumi italian: Transferimi i p\u00EBrgjegj\u00EBsis\u00EB p\u00EBr Ur\u00EBn e Ibrit nga KFOR-i te Policia e Kosov\u00EBs duket hapur n\u00EB terren",
+      "Tokens": [
+        "mediu",
+        "itali",
+        "trans",
+        "pergj",
+        "uren",
+        "ibr",
+        "kfor",
+        "polic",
+        "kosov",
+        "duk",
+        "hapur",
+        "terr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mediumi-italian-transferimi-i-pergjegjesise-per-uren-e-ibrit-nga-kfor-i-te-policia-e-kosoves-duket-hapur-ne-terren/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mediumi-italian-transferimi-i-pergjegjesise-per-uren-e-ibrit-nga-kfor-i-te"
+      }
+    },
     {
       "At": "2026-10-14T20:36:19.6826795+00:00",
       "Title": "Tirana n\u00EB flak\u00EB, protestuesit sulmojn\u00EB Komisariatin e Policis\u00EB",
