@@ -1,6 +1,475 @@
 {
-  "RotationCursor": 4,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "\u201CNdjeva q\u00EB u p\u00EBrplasa fuqish\u00EBm\u2026\u201D, d\u00EBshmia e Ledion Ball\u00EBs q\u00EB polic\u00EBt i thyen k\u00EBmb\u00EBn n\u00EB protest\u00EB",
+      "Tokens": [
+        "ndjev",
+        "perpl",
+        "fuqis",
+        "deshm",
+        "ledio",
+        "ball",
+        "polic",
+        "thy",
+        "kemb",
+        "prote"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndjeva-qe-u-perplasa-fuqishem-deshmia-e-ledion-balles-qe-policet-i-thyen-kemben-ne-proteste/",
+        "https://telegrafi.com/ndjeva-qe-u-perplasa-fuqishem-deshmia-e-ledion-balles-qe-policet-i-thyen-kemben-ne-proteste/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndjeva-qe-u-perplasa-fuqishem-deshmia-e-ledion-balles-qe-policet-i-thyen-kemben"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Ndalimi i shamis\u00EB n\u00EB shkollat e Azerbajxhanit shkakton protesta, 37 persona t\u00EB ndaluar",
+      "Tokens": [
+        "ndali",
+        "sham",
+        "shkol",
+        "azerb",
+        "shkak",
+        "prote",
+        "perso",
+        "ndalu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndalimi-i-shamise-ne-shkollat-e-azerbajxhanit-shkakton-protesta-37-persona-te-ndaluar/"
+      ],
+      "Articles": {
+        "raporti-sot": "ndalimi-i-shamise-ne-shkollat-e-azerbajxhanit-shkakton-protesta-37-persona-te"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Harry Kane vendos p\u00EBr t\u00EB ardhmen, drejt rinovimit t\u00EB kontrat\u00EBs me Bayern Munichun",
+      "Tokens": [
+        "harry",
+        "vendo",
+        "ardhm",
+        "drejt",
+        "rinov",
+        "kontr",
+        "bayer",
+        "munic"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/harry-kane-vendos-per-te-ardhmen-drejt-rinovimit-te-kontrates-me-bayern-munichun/"
+      ],
+      "Articles": {
+        "infokosove24": "harry-kane-vendos-per-te-ardhmen-drejt-rinovimit-te-kontrates-me-bayern-munichun"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "A e pagoi intervist\u00EBn n\u00EB New York? P\u00EBrparim Rama: Aq sa e ka paguar Jennifer Lopezin e Mamdani, po normal q\u00EB jo..",
+      "Tokens": [
+        "pago",
+        "inter",
+        "new",
+        "york",
+        "perpa",
+        "ram",
+        "pagua",
+        "jenni",
+        "lopez",
+        "mamda",
+        "norma"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/a-e-paguajti-intervistenne-new-york-perparim-rama-aq-sa-e-ka-paguar-jennifer-lopezin-e-mamdani/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "a-e-pagoi-intervisten-ne-new-york-perparim-rama-aq-sa-e-ka-paguar-jennifer"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "\u00C7far\u00EB mund t\u00EB p\u00EBrmbush\u00EB Mali i Zi nga k\u00EBrkesat e Kroacis\u00EB?",
+      "Tokens": [
+        "mund",
+        "permb",
+        "mal",
+        "kerke",
+        "kroac"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/cfare-mund-permbush-mali-zi-kroacise/33877445.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "cfare-mund-te-permbushe-mali-i-zi-nga-kerkesat-e-kroacise"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Legjenda e Hollywoodit Al Pacino shpallet fitues i \u00C7mimit p\u00EBr Arritje Jet\u00EBsore",
+      "Tokens": [
+        "legje",
+        "holly",
+        "pacin",
+        "shpal",
+        "fitu",
+        "cmim",
+        "arrit",
+        "jetes"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/legjenda-e-hollywoodit-al-pacino-shpallet-fitues-i-cmimit-per-arritje-jetesore/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "legjenda-e-hollywoodit-al-pacino-shpallet-fitues-i-cmimit-per-arritje-jetesore"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Kurti njofton p\u00EBr vdekjen e m\u00EBrgimtares nga Amerika me familjar\u00EB t\u00EB saj n\u00EB aksident n\u00EB Greqi",
+      "Tokens": [
+        "kurt",
+        "njoft",
+        "vdekj",
+        "mergi",
+        "ameri",
+        "famil",
+        "aksid",
+        "greq"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-njofton-per-vdekjen-e-mergimtares-nga-amerika-me-familjare-te-saj-ne-aksident-ne-greqi/"
+      ],
+      "Articles": {
+        "raporti-sot": "kurti-njofton-per-vdekjen-e-mergimtares-nga-amerika-me-familjare-te-saj-ne"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Mirlind Daku shk\u00EBlqen n\u00EB Rusi, sh\u00EBnon dy gola dhe i siguron fitoren Spartakut t\u00EB Mosk\u00EBs",
+      "Tokens": [
+        "mirli",
+        "dak",
+        "shkel",
+        "rus",
+        "sheno",
+        "gol",
+        "sigur",
+        "fitor",
+        "spart",
+        "mosk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mirlind-daku-shkelqen-ne-rusi-shenon-dy-gola-dhe-i-siguron-fitoren-spartakut-te-moskes/"
+      ],
+      "Articles": {
+        "infokosove24": "mirlind-daku-shkelqen-ne-rusi-shenon-dy-gola-dhe-i-siguron-fitoren-spartakut-te"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Deputet\u00EB nga Kosova dhe Shqip\u00EBria p\u00EBrmbyllin vizit\u00EBn pes\u00EBditore n\u00EB Izrael, reagon ambasadorja Tamar Ziv",
+      "Tokens": [
+        "deput",
+        "kosov",
+        "shqip",
+        "permb",
+        "vizit",
+        "pesed",
+        "izrae",
+        "reago",
+        "ambas",
+        "tamar",
+        "ziv"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/deputete-nga-kosova-dhe-shqiperia-permbyllin-viziten-peseditore-ne-izrael-reagon-ambasadorja-tamar-ziv/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "deputete-nga-kosova-dhe-shqiperia-permbyllin-viziten-peseditore-ne-izrael"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Flick po e provon Frenkie de Jongun n\u00EB qend\u00EBr t\u00EB mbrojtjes",
+      "Tokens": [
+        "flick",
+        "provo",
+        "frenk",
+        "jongu",
+        "qende",
+        "mbroj"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/flick-po-e-provon-frenkie-de-jongun-ne-qender-te-mbrojtjes/"
+      ],
+      "Articles": {
+        "kosova-fakt": "flick-po-e-provon-frenkie-de-jongun-ne-qender-te-mbrojtjes"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "\u201C72 milion\u00EBshi nuk po ec\u00EB p\u00EBrpara\u201D Rama p\u00EBr b\u00EBrllokun n\u00EB Prishtin\u00EB, nd\u00EBrhyn Latifi: N\u00EB fund p\u00EBrgjegj\u00EBsia ka me t\u00EB mbet\u00EB ty\u2026",
+      "Tokens": [
+        "milio",
+        "ece",
+        "perpa",
+        "ram",
+        "berll",
+        "prish",
+        "nderh",
+        "latif",
+        "fund",
+        "pergj",
+        "mbet"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/72-milioneshi-nuk-po-ece-perpara-rama-per-berllokun-ne-prishtine-nderhyn-latifi-ne-fund-pergjegjesia-ka-me-te-mbete-ty/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "72-milioneshi-nuk-po-ece-perpara-rama-per-berllokun-ne-prishtine-nderhyn-latifi"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Raportimi i Sinjalit p\u00EBr personin e gjetur t\u00EB vdekur n\u00EB Prizren, Policia jep detaje",
+      "Tokens": [
+        "rapor",
+        "sinja",
+        "perso",
+        "gjetu",
+        "vdeku",
+        "prizr",
+        "polic",
+        "jep",
+        "deta"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/raportimi-i-sinjalit-per-personin-e-gjetur-te-vdekur-ne-prizren-policia-jep-detaje/"
+      ],
+      "Articles": {
+        "raporti-sot": "raportimi-i-sinjalit-per-personin-e-gjetur-te-vdekur-ne-prizren-policia-jep"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "A \u00EBsht\u00EB marr\u00EB n\u00EB pyetje, a ka hetime ndaj tij, P\u00EBrparim Rama n\u00EB Pressing: Jo, s\u2019ka asgj\u00EB pos zhurmave t\u00EB VV\u2019s\u00EB, krijojn\u00EB rrena",
+      "Tokens": [
+        "marr",
+        "pyet",
+        "hetim",
+        "ndaj",
+        "perpa",
+        "ram",
+        "press",
+        "asg",
+        "pos",
+        "zhurm",
+        "krijo",
+        "rren"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nuk-jam-marre-nepyetje-rama-thote-se-qeveria-ia-ka-bllokuar-disa-projekte/"
+      ],
+      "Articles": {
+        "infokosove24": "a-eshte-marre-ne-pyetje-a-ka-hetime-ndaj-tij-perparim-rama-ne-pressing-jo-s-ka"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Rama qeshet me deklaratat e VV se do t\u00EB arrestohet: Zhurm\u00EB e shantazh, s\u2019munden me m\u00EB frik\u00EBsu, proceset jan\u00EB transparente",
+      "Tokens": [
+        "ram",
+        "qesh",
+        "dekla",
+        "arres",
+        "zhurm",
+        "shant",
+        "mund",
+        "frike",
+        "proce",
+        "trans"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-qeshet-me-deklaratat-e-vv-se-do-te-arrestohet-zhurme-e-shantazh-smunden-me-me-frikesu-proceset-jane-transparente/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "rama-qeshet-me-deklaratat-e-vv-se-do-te-arrestohet-zhurme-e-shantazh-s-munden"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Yndyrnat trans natyrore n\u00EB qum\u00EBsht dhe djath\u00EB nuk rrisin rrezikun p\u00EBr s\u00EBmundjet e zemr\u00EBs",
+      "Tokens": [
+        "yndyr",
+        "trans",
+        "natyr",
+        "qumes",
+        "djath",
+        "rris",
+        "rrezi",
+        "semun",
+        "zemr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/yndyrnat-trans-natyrore-ne-qumesht-dhe-djathe-nuk-rrisin-rrezikun-per-semundjet-e-zemres/"
+      ],
+      "Articles": {
+        "kosova-fakt": "yndyrnat-trans-natyrore-ne-qumesht-dhe-djathe-nuk-rrisin-rrezikun-per-semundjet"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Vitamina D2 apo D3? Studimi i ri zbulon dallime t\u00EB r\u00EBnd\u00EBsishme mes tyre",
+      "Tokens": [
+        "vitam",
+        "studi",
+        "zbulo",
+        "dalli",
+        "rende",
+        "mes"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/vitamina-d2-apo-d3-studimi-i-ri-zbulon-dallime-te-rendesishme-mes-tyre/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "vitamina-d2-apo-d3-studimi-i-ri-zbulon-dallime-te-rendesishme-mes-tyre"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Kremlini: Nafta ruse rikthehet n\u00EB tregjet globale pas marr\u00EBveshjes me Trumpin",
+      "Tokens": [
+        "kreml",
+        "naft",
+        "rus",
+        "rikth",
+        "tregj",
+        "globa",
+        "marre",
+        "trump"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kremlini-nafta-ruse-rikthehet-ne-tregjet-globale-pas-marreveshjes-me-trumpin/"
+      ],
+      "Articles": {
+        "raporti-sot": "kremlini-nafta-ruse-rikthehet-ne-tregjet-globale-pas-marreveshjes-me-trumpin"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Vet\u00EBm dy kana\u00E7e Coca-Cola n\u00EB jav\u00EB mund t\u00EB lidhen me ndryshime n\u00EB trurin e f\u00EBmij\u00EBve, studimi ngre shqet\u00EBsime p\u00EBr kafein\u00EBn",
+      "Tokens": [
+        "kanac",
+        "coc",
+        "col",
+        "jav",
+        "mund",
+        "lidh",
+        "ndrys",
+        "trur",
+        "femij",
+        "studi",
+        "ngr",
+        "shqet",
+        "kafei"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/vetem-dy-kanace-coca-cola-ne-jave-mund-te-lidhen-me-ndryshime-ne-trurin-e-femijeve-studimi-ngre-shqetesime-per-kafeinen/"
+      ],
+      "Articles": {
+        "infokosove24": "vetem-dy-kanace-coca-cola-ne-jave-mund-te-lidhen-me-ndryshime-ne-trurin-e"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Dua Lipa zbulon momente nga jeta martesore me Callum Turner, mahnit me fustanin elegant dhe flet p\u00EBr planet p\u00EBr f\u00EBmij\u00EB",
+      "Tokens": [
+        "dua",
+        "lip",
+        "zbulo",
+        "momen",
+        "jet",
+        "marte",
+        "callu",
+        "turne",
+        "mahn",
+        "fusta",
+        "elega",
+        "flet",
+        "plan",
+        "femi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dua-lipa-zbulon-momente-nga-jeta-martesore-me-callum-turner-mahnit-me-fustanin-elegant-dhe-flet-per-planet-per-femije/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "dua-lipa-zbulon-momente-nga-jeta-martesore-me-callum-turner-mahnit-me-fustanin"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "DASH: Vendet e Ballkanit s\u2019kan\u00EB arritur p\u00EBrparim sa duhet n\u00EB luft\u00EBn kund\u00EBr trafikimit me qenie njer\u00EBzore",
+      "Tokens": [
+        "dash",
+        "vend",
+        "ballk",
+        "arrit",
+        "perpa",
+        "duh",
+        "luft",
+        "kunde",
+        "trafi",
+        "qeni",
+        "njere"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/dash-vendet-ballkanit-pa-perparim-lufte-trafikim-njerez/33877401.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "dash-vendet-e-ballkanit-s-kane-arritur-perparim-sa-duhet-ne-luften-kunder"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Gjykata Speciale hap nj\u00EB tjet\u00EBr p\u00EBrplasje me aleat\u00EBt",
+      "Tokens": [
+        "gjyka",
+        "speci",
+        "hap",
+        "tjete",
+        "perpl",
+        "aleat"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/gjykata-speciale-hap-perplasje-aleatet/33877357.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "gjykata-speciale-hap-nje-tjeter-perplasje-me-aleatet"
+      }
+    },
+    {
+      "At": "2026-10-15T20:17:13.3130488+00:00",
+      "Title": "Serwer: Kosova mund ta pranoj\u00EB Asociacionin vet\u00EBm n\u00EBse eliminohet k\u00EBrc\u00EBnimi ndaj sovranitetit t\u00EB saj",
+      "Tokens": [
+        "serwe",
+        "kosov",
+        "mund",
+        "prano",
+        "asoci",
+        "nes",
+        "elimi",
+        "kerce",
+        "ndaj",
+        "sovra"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/serwer-kosova-mund-ta-pranoje-asociacionin-vetem-nese-eliminohet-kercenimi-ndaj-sovranitetit-te-saj/"
+      ],
+      "Articles": {
+        "raporti-sot": "serwer-kosova-mund-ta-pranoje-asociacionin-vetem-nese-eliminohet-kercenimi-ndaj"
+      }
+    },
     {
       "At": "2026-10-15T15:34:20.4621591+00:00",
       "Title": "Begaj reagon pas dhun\u00EBs n\u00EB protestat n\u00EB Tiran\u00EB: \u201CDhuna nuk mund t\u00EB jet\u00EB kurr\u00EB zgjidhje\u201D",
