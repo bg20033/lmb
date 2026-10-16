@@ -1,6 +1,453 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Sfidat e siguris\u00EB p\u00EBr Iranin r\u00EBndohen nga rritja e kryengritjes s\u00EB armatosur brenda vendit",
+      "Tokens": [
+        "sfida",
+        "sigur",
+        "iran",
+        "rendo",
+        "rrit",
+        "kryen",
+        "armat",
+        "brend",
+        "vend"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sfidat-e-sigurise-per-iranin-rendohen-nga-rritja-e-kryengritjes-se-armatosur-brenda-vendit/",
+        "https://www.evropaelire.org/a/sfidat-sigurise-irani-kryengritje-armatosur/33877752.html"
+      ],
+      "Articles": {
+        "infokosove24": "sfidat-e-sigurise-per-iranin-rendohen-nga-rritja-e-kryengritjes-se-armatosur"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Shkurte Fejza i drejtohet Edi Ram\u00EBs me nj\u00EB let\u00EBr: D\u00EBgjojini student\u00EBt, Shqip\u00EBria ka nevoj\u00EB p\u00EBr mir\u00EBkuptim",
+      "Tokens": [
+        "shkur",
+        "fejz",
+        "drejt",
+        "edi",
+        "ram",
+        "leter",
+        "degjo",
+        "stude",
+        "shqip",
+        "nevo",
+        "mirek"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shkurte-fejza-i-drejtohet-edi-rames-me-nje-leter-degjojini-studentet-shqiperia-ka-nevoje-per-mirekuptim/",
+        "https://www.gazetaexpress.com/shkurte-fejza-i-drejtohet-rames-per-protestat-e-studenteve-degjojeni-rinine-gjeni-nje-rruge-mirekuptimi/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shkurte-fejza-i-drejtohet-rames-per-protestat-e-studenteve-degjojeni-rinine"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Dita e kat\u00EBrt e protest\u00EBs studentore n\u00EB Tiran\u00EB, saldohen dritaret e Kryeministris\u00EB",
+      "Tokens": [
+        "dit",
+        "kater",
+        "prote",
+        "stude",
+        "tiran",
+        "saldo",
+        "drita",
+        "kryem"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dita-e-katert-e-protestes-studentore-ne-tirane-saldohen-dritaret-e-kryeministrise/"
+      ],
+      "Articles": {
+        "kosova-fakt": "dita-e-katert-e-protestes-studentore-ne-tirane-saldohen-dritaret-e"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Nga Verity n\u00EB Digger: 12 nga filmat m\u00EB t\u00EB mir\u00EB p\u00EBr t\u2019i par\u00EB k\u00EBt\u00EB tetor",
+      "Tokens": [
+        "verit",
+        "digge",
+        "filma",
+        "mir",
+        "par",
+        "ket",
+        "tetor"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nga-verity-ne-digger-12-nga-filmat-me-te-mire-per-ti-pare-kete-tetor/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nga-verity-ne-digger-12-nga-filmat-me-te-mire-per-t-i-pare-kete-tetor"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "LEX | Bislim Syla d\u00EBnohet me 8 vjet burgim p\u00EBr trafikim me njer\u00EBz dhe l\u00EBndim t\u00EB leht\u00EB trupor",
+      "Tokens": [
+        "lex",
+        "bisli",
+        "syl",
+        "denoh",
+        "vjet",
+        "burgi",
+        "trafi",
+        "njere",
+        "lendi",
+        "leht",
+        "trupo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-bislim-syla-denohet-me-8-vjet-burgim-per-trafikim-me-njerez-dhe-lendim-te-lehte-trupor/"
+      ],
+      "Articles": {
+        "raporti-sot": "lex-bislim-syla-denohet-me-8-vjet-burgim-per-trafikim-me-njerez-dhe-lendim-te"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Gjykata vendos mas\u00EBn e arrestit n\u00EB sht\u00EBpi p\u00EBr Klevi Metajn",
+      "Tokens": [
+        "gjyka",
+        "vendo",
+        "mas",
+        "arres",
+        "shtep",
+        "klev",
+        "metaj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjykata-vendos-masen-e-arrestit-ne-shtepi-per-klevi-metajn/"
+      ],
+      "Articles": {
+        "infokosove24": "gjykata-vendos-masen-e-arrestit-ne-shtepi-per-klevi-metajn"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "\u201CMos na shkelni\u201D, pun\u00EBtor\u00EBt teknik\u00EB t\u00EB sektorit privat protestojn\u00EB p\u00EBr paga",
+      "Tokens": [
+        "shkel",
+        "punet",
+        "tekni",
+        "sekto",
+        "priva",
+        "prote",
+        "pag"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mos-na-shkelni-punetoret-teknike-te-sektorit-privat-protestojne-per-paga/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mos-na-shkelni-punetoret-teknike-te-sektorit-privat-protestojne-per-paga"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Gjigant\u00EBt e K-pop-it, Stray Kids, i bashkohen BTS n\u00EB bojkotimin e \u00E7mimeve Grammy",
+      "Tokens": [
+        "gjiga",
+        "pop",
+        "stray",
+        "kids",
+        "bashk",
+        "bts",
+        "bojko",
+        "cmim",
+        "gramm"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjigantet-e-k-pop-it-stray-kids-i-bashkohen-bts-ne-bojkotimin-e-cmimeve-grammy/"
+      ],
+      "Articles": {
+        "kosova-fakt": "gjigantet-e-k-pop-it-stray-kids-i-bashkohen-bts-ne-bojkotimin-e-cmimeve-grammy"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Man City rrezikon p\u00EBrjashtimin deri n\u00EB 10 vjet nga garat evropiane",
+      "Tokens": [
+        "man",
+        "city",
+        "rrezi",
+        "perja",
+        "vjet",
+        "garat",
+        "evrop"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/man-city-rrezikon-perjashtimin-deri-ne-10-vjet-nga-garat-evropiane/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "man-city-rrezikon-perjashtimin-deri-ne-10-vjet-nga-garat-evropiane"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Kriz\u00EB financiare n\u00EB futbollin anglez, 94% e klubeve operojn\u00EB me humbje",
+      "Tokens": [
+        "kriz",
+        "finan",
+        "futbo",
+        "angle",
+        "klub",
+        "opero",
+        "humb"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/krize-financiare-ne-futbollin-anglez-94-e-klubeve-operojne-me-humbje/"
+      ],
+      "Articles": {
+        "raporti-sot": "krize-financiare-ne-futbollin-anglez-94-e-klubeve-operojne-me-humbje"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Haradinaj kujton mikun dhe bashk\u00EBluft\u00EBtarin Adrian Krasniqi: Dha jet\u00EBn p\u00EBr liri",
+      "Tokens": [
+        "harad",
+        "kujto",
+        "mikun",
+        "bashk",
+        "adria",
+        "krasn",
+        "dha",
+        "jet",
+        "lir"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/haradinaj-kujton-mikun-dhe-bashkeluftetarin-adrian-krasniqi-dha-jeten-per-liri/"
+      ],
+      "Articles": {
+        "infokosove24": "haradinaj-kujton-mikun-dhe-bashkeluftetarin-adrian-krasniqi-dha-jeten-per-liri"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Barcelona synon Lisandro Martinezin, katalunasit mund ta transferojn\u00EB falas",
+      "Tokens": [
+        "barce",
+        "synon",
+        "lisan",
+        "marti",
+        "katal",
+        "mund",
+        "trans",
+        "falas"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/barcelona-synon-lisandro-martinezin-katalunasit-mund-ta-transferojne-falas/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "barcelona-synon-lisandro-martinezin-katalunasit-mund-ta-transferojne-falas"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Paga minimale ende tatohet, barr\u00EBn e mbajn\u00EB pun\u00EBtor\u00EBt",
+      "Tokens": [
+        "pag",
+        "minim",
+        "end",
+        "tatoh",
+        "barr",
+        "mbajn",
+        "punet"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/paga-minimale-tatim-punetori-shteti/33877795.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "paga-minimale-ende-tatohet-barren-e-mbajne-punetoret"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Meta publikon modelin Muse Spark me pesh\u00EB t\u00EB hapur p\u00EBr kodim dhe detyra agjentike",
+      "Tokens": [
+        "met",
+        "publi",
+        "model",
+        "mus",
+        "spark",
+        "pesh",
+        "hapur",
+        "kodim",
+        "detyr",
+        "agjen"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/meta-publikon-modelin-muse-spark-me-peshe-te-hapur-per-kodim-dhe-detyra-agjentike/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "meta-publikon-modelin-muse-spark-me-peshe-te-hapur-per-kodim-dhe-detyra"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Tensionohet protesta n\u00EB Elbasan, gjimnazist\u00EBt u v\u00EBn\u00EB flak\u00EBn kazan\u00EBve t\u00EB mbeturinave",
+      "Tokens": [
+        "tensi",
+        "prote",
+        "elbas",
+        "gjimn",
+        "ven",
+        "flak",
+        "kazan",
+        "mbetu"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/tensionohet-protesta-ne-elbasan-gjimnazistet-u-vene-flaken-kazaneve-te-mbeturinave/"
+      ],
+      "Articles": {
+        "raporti-sot": "tensionohet-protesta-ne-elbasan-gjimnazistet-u-vene-flaken-kazaneve-te"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Kodi Civil rikthehet n\u00EB Kuvend, kund\u00EBrshtar\u00EBt paralajm\u00EBrojn\u00EB kund\u00EBrshtim edhe m\u00EB t\u00EB madh",
+      "Tokens": [
+        "kod",
+        "civil",
+        "rikth",
+        "kuven",
+        "kunde",
+        "paral",
+        "madh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kodi-civil-rikthehet-ne-kuvend-kundershtaret-paralajmerojne-kundershtim-edhe-me-te-madh/"
+      ],
+      "Articles": {
+        "infokosove24": "kodi-civil-rikthehet-ne-kuvend-kundershtaret-paralajmerojne-kundershtim-edhe-me"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Reuters raporton nga Tirana: Protestuesit paq\u00EBsor\u00EB t\u00EB ver\u00EBs u ndien t\u00EB pad\u00EBgjuar, tash ka gur\u00EB e gaz lotsjell\u00EBs",
+      "Tokens": [
+        "reute",
+        "rapor",
+        "tiran",
+        "prote",
+        "paqes",
+        "ver",
+        "ndi",
+        "padeg",
+        "tash",
+        "gur",
+        "gaz",
+        "lotsj"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/reuters-raporton-nga-tirana-protestuesit-paqesore-te-veres-u-ndien-te-padegjuar-tash-ka-gure-e-gaz-lotsjelles/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "reuters-raporton-nga-tirana-protestuesit-paqesore-te-veres-u-ndien-te-padegjuar"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Nazarko p\u00EBr protestat e dhunshme n\u00EB Shqip\u00EBri: Kurti t\u00EB b\u00EBj\u00EB thirrje p\u00EBr qet\u00EBsi, t\u2019i ngjaj\u00EB Rugov\u00EBs",
+      "Tokens": [
+        "nazar",
+        "prote",
+        "dhuns",
+        "shqip",
+        "kurt",
+        "bej",
+        "thirr",
+        "qetes",
+        "ngja",
+        "rugov"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/nazarko-per-protestat-e-dhunshme-ne-shqiperi-kurti-te-beje-thirrje-per-qetesi-ti-ngjaje-rugoves1/"
+      ],
+      "Articles": {
+        "kosova-fakt": "nazarko-per-protestat-e-dhunshme-ne-shqiperi-kurti-te-beje-thirrje-per-qetesi-t"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Rama lidh protestat me integrimin n\u00EB BE: Nuk \u00EBsht\u00EB rast\u00EBsi q\u00EB k\u00EBtu plas flaka",
+      "Tokens": [
+        "ram",
+        "lidh",
+        "prote",
+        "integ",
+        "raste",
+        "ket",
+        "plas",
+        "flak"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-lidh-protestat-me-integrimin-ne-be-nuk-eshte-rastesi-qe-ketu-plas-flaka/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "rama-lidh-protestat-me-integrimin-ne-be-nuk-eshte-rastesi-qe-ketu-plas-flaka"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Rama akuzon p\u00EBr \u201Cduar t\u00EB huaja\u201D n\u00EB protest\u00EB: Nuk ka lidhje me problemet e student\u00EBve",
+      "Tokens": [
+        "ram",
+        "akuzo",
+        "duar",
+        "hua",
+        "prote",
+        "probl",
+        "stude"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-akuzon-per-duar-te-huaja-ne-proteste-nuk-ka-lidhje-me-problemet-e-studenteve/"
+      ],
+      "Articles": {
+        "raporti-sot": "rama-akuzon-per-duar-te-huaja-ne-proteste-nuk-ka-lidhje-me-problemet-e"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Sa t\u00EB sigurta jan\u00EB t\u00EB dh\u00EBnat digjitale n\u00EB Kosov\u00EB?",
+      "Tokens": [
+        "sigur",
+        "dhena",
+        "digji",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/siguria-te-dhenat-digjitale-kosova/33877345.html"
+      ],
+      "Articles": {
+        "infokosove24": "sa-te-sigurta-jane-te-dhenat-digjitale-ne-kosove"
+      }
+    },
+    {
+      "At": "2026-10-16T09:40:55.5695498+00:00",
+      "Title": "Ukraina teston dron\u00EB me IA teksa nxehet debati p\u00EBr arm\u00EBt autonome",
+      "Tokens": [
+        "ukrai",
+        "testo",
+        "dron",
+        "teks",
+        "nxeh",
+        "debat",
+        "arm",
+        "auton"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ukraina-drone-ia-arme-autonome/33877240.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ukraina-teston-drone-me-ia-teksa-nxehet-debati-per-armet-autonome"
+      }
+    },
     {
       "At": "2026-10-15T23:39:47.3182765+00:00",
       "Title": "Rrahmani Kurtit p\u00EBr Kodin Civil: Hiqi ato dy nene, po t\u00EB paralajm\u00EBroj mos hajde me d\u00EBshtu",
@@ -10132,132 +10579,6 @@
       ],
       "Articles": {
         "lajme-per-kosove": "oret-e-fundit-presidenti-dhe-ligji-per-specialen-ende-pezull"
-      }
-    },
-    {
-      "At": "2026-10-06T01:44:24.7615889+00:00",
-      "Title": "Esposito e arrin nj\u00EB rekord t\u00EB para 95 viteve, po shkon hapave t\u00EB legjend\u00EBs italiane",
-      "Tokens": [
-        "espos",
-        "arr",
-        "rekor",
-        "vit",
-        "shkon",
-        "hap",
-        "legje",
-        "itali"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/esposito-e-arrin-nje-rekord-te-para-95-viteve-po-shkon-hapave-te-legjendes-italiane/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "esposito-e-arrin-nje-rekord-te-para-95-viteve-po-shkon-hapave-te-legjendes"
-      }
-    },
-    {
-      "At": "2026-10-06T01:44:24.7615889+00:00",
-      "Title": "Burim Ramadani: Sjellja e Policis\u00EB sonte joproporcionale \u2013 askush t\u00EB mos mendoj\u00EB se i ik\u00EB p\u00EBrgjegj\u00EBsis\u00EB",
-      "Tokens": [
-        "burim",
-        "ramad",
-        "sjell",
-        "polic",
-        "sont",
-        "jopro",
-        "askus",
-        "mendo",
-        "ike",
-        "pergj"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/sjellja-joproporcionale-shume-pune-per-ipk-ne-ramadani-thote-se-do-kerkoje-raportim-urgjent-ne-komisionin-per-siguri-nga-drejtori-i-policise/"
-      ],
-      "Articles": {
-        "raporti-sot": "burim-ramadani-sjellja-e-policise-sonte-joproporcionale-askush-te-mos-mendoje"
-      }
-    },
-    {
-      "At": "2026-10-06T01:44:24.7615889+00:00",
-      "Title": "Agon Maliqi tregon se si Kurti \u201Cmund t\u00EB tregohet shtetar dhe lider i p\u00EBrmasave te m\u00EBdha\u201D: Natyrisht s\u2019do t\u00EB ndodh\u00EB",
-      "Tokens": [
-        "agon",
-        "maliq",
-        "trego",
-        "kurt",
-        "mund",
-        "shtet",
-        "lider",
-        "perma",
-        "medh",
-        "natyr",
-        "ndodh"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/agon-maliqi-tregon-se-si-kurti-mund-te-tregohet-shtetar-dhe-lider-i-permasave-te-medha-natyrisht-sdo-te-ndodhe/"
-      ],
-      "Articles": {
-        "infokosove24": "agon-maliqi-tregon-se-si-kurti-mund-te-tregohet-shtetar-dhe-lider-i-permasave"
-      }
-    },
-    {
-      "At": "2026-10-06T01:44:24.7615889+00:00",
-      "Title": "Berat Buzhala: Gani Tha\u00E7i m\u00EB konfirmoi se djali i tij, Leotrimi, \u00EBsht\u00EB n\u00EB spital pas nj\u00EB sulmi nga policia",
-      "Tokens": [
-        "berat",
-        "buzha",
-        "gan",
-        "thac",
-        "konfi",
-        "djal",
-        "leotr",
-        "spita",
-        "sulm",
-        "polic"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/berat-buzhala-gani-thaci-me-konfirmoi-se-djali-i-tij-leotrimi-eshte-ne-spital-pas-nje-sulmi-nga-policia/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "berat-buzhala-gani-thaci-me-konfirmoi-se-djali-i-tij-leotrimi-eshte-ne-spital"
-      }
-    },
-    {
-      "At": "2026-10-06T01:44:24.7615889+00:00",
-      "Title": "Ardian Gola p\u00EBr protest\u00EBn: \u00CBsht\u00EB mjaft e r\u00EBnd\u00EB dhe absurde m\u00EBnyra si degjeneroi",
-      "Tokens": [
-        "ardia",
-        "gol",
-        "prote",
-        "mjaft",
-        "rend",
-        "absur",
-        "menyr",
-        "degje"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ardian-gola-per-protesten-eshte-mjaft-e-rende-dhe-absurde-menyra-si-degjeneroi/"
-      ],
-      "Articles": {
-        "kosova-fakt": "ardian-gola-per-protesten-eshte-mjaft-e-rende-dhe-absurde-menyra-si-degjeneroi"
-      }
-    },
-    {
-      "At": "2026-10-06T01:44:24.7615889+00:00",
-      "Title": "Pas p\u00EBrplasjeve me policin\u00EB, protestuesit pritet t\u00EB mblidhen s\u00EBrish n\u00EB m\u00EBngjes",
-      "Tokens": [
-        "perpl",
-        "polic",
-        "prote",
-        "prit",
-        "mblid",
-        "seris",
-        "mengj"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/perplasje-policine-protestuesit-mbildhen-neser/33870855.html"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "pas-perplasjeve-me-policine-protestuesit-pritet-te-mblidhen-serish-ne-mengjes"
       }
     }
   ]
