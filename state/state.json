@@ -2,6 +2,340 @@
   "RotationCursor": 4,
   "Published": [
     {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "\u201CE kisha ndar\u00EB mendjen t\u00EB largohesha\u201D, Raphinha: Flicku m\u00EB bindi t\u00EB q\u00EBndroj\u00EB, ai m\u00EB ndryshoi si person",
+      "Tokens": [
+        "kish",
+        "ndar",
+        "mendj",
+        "largo",
+        "raphi",
+        "flick",
+        "bind",
+        "qendr",
+        "ndrys",
+        "perso"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/e-kisha-ndare-mendjen-te-largohesha-raphinha-flicku-me-bindi-te-qendroje-ai-me-ndryshoi-si-person/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "e-kisha-ndare-mendjen-te-largohesha-raphinha-flicku-me-bindi-te-qendroje-ai-me"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "G\u00EBzim n\u00EB familjen e Mozzik dhe Lotina Hazirit, reperi b\u00EBhet baba i nj\u00EB djali dhe zbulon emrin e ve\u00E7ant\u00EB",
+      "Tokens": [
+        "gezim",
+        "famil",
+        "mozzi",
+        "lotin",
+        "hazir",
+        "reper",
+        "beh",
+        "bab",
+        "djal",
+        "zbulo",
+        "emr",
+        "vecan"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gezim-ne-familjen-e-mozzik-dhe-lotina-hazirit-reperi-behet-baba-i-nje-djali-dhe-zbulon-emrin-e-vecante/"
+      ],
+      "Articles": {
+        "raporti-sot": "gezim-ne-familjen-e-mozzik-dhe-lotina-hazirit-reperi-behet-baba-i-nje-djali-dhe"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Enzo Fernandez shkakton polemika pas incidentit me gjyqtarin n\u00EB ndeshjen City \u2013 PSG",
+      "Tokens": [
+        "enzo",
+        "ferna",
+        "shkak",
+        "polem",
+        "incid",
+        "gjyqt",
+        "ndesh",
+        "city",
+        "psg"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/enzo-fernandez-shkakton-polemika-pas-incidentit-me-gjyqtarin-ne-ndeshjen-city-psg/"
+      ],
+      "Articles": {
+        "infokosove24": "enzo-fernandez-shkakton-polemika-pas-incidentit-me-gjyqtarin-ne-ndeshjen-city"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Italia nis hetim ndaj ministrit t\u00EB Mbrojtjes dhe komandantit t\u00EB ushtris\u00EB izraelite p\u00EBr trajtimin e aktivist\u00EBve t\u00EB flotiljes p\u00EBr Gaz\u00EBn",
+      "Tokens": [
+        "itali",
+        "nis",
+        "hetim",
+        "ndaj",
+        "minis",
+        "mbroj",
+        "koman",
+        "ushtr",
+        "izrae",
+        "trajt",
+        "aktiv",
+        "floti",
+        "gaz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/italia-nis-hetim-ndaj-ministrit-te-mbrojtjes-dhe-komandantit-te-ushtrise-izraelite-per-trajtimin-e-aktivisteve-te-flotiljes-per-gazen/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "italia-nis-hetim-ndaj-ministrit-te-mbrojtjes-dhe-komandantit-te-ushtrise"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "M\u00EBngjese t\u00EB ftohta, por dit\u00EB me diell \u2013 ky \u00EBsht\u00EB parashikimi i motit p\u00EBr fundjav\u00EB",
+      "Tokens": [
+        "mengj",
+        "ftoht",
+        "dit",
+        "diell",
+        "paras",
+        "mot",
+        "fundj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mengjese-te-ftohta-por-dite-me-diell-ky-eshte-parashikimi-i-motit-per-fundjave/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mengjese-te-ftohta-por-dite-me-diell-ky-eshte-parashikimi-i-motit-per-fundjave"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Fisnik Asllani zbulon \u00E7far\u00EB po e penalizon Hoffenheimin",
+      "Tokens": [
+        "fisni",
+        "aslla",
+        "zbulo",
+        "penal",
+        "hoffe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/fisnik-asllani-zbulon-cfare-po-e-penalizon-hoffenheimin/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "fisnik-asllani-zbulon-cfare-po-e-penalizon-hoffenheimin"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Kolon\u00EBt izraelit\u00EB sulmojn\u00EB fshatrat n\u00EB gjith\u00EB Bregun Per\u00EBndimor, plagosen disa persona dhe nj\u00EB gazetare e huaj",
+      "Tokens": [
+        "kolon",
+        "izrae",
+        "sulmo",
+        "fshat",
+        "gjith",
+        "bregu",
+        "peren",
+        "plago",
+        "dis",
+        "perso",
+        "gazet",
+        "huaj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kolonet-izraelite-sulmojne-fshatrat-ne-gjithe-bregun-perendimor-plagosen-disa-persona-dhe-nje-gazetare-e-huaj/"
+      ],
+      "Articles": {
+        "raporti-sot": "kolonet-izraelite-sulmojne-fshatrat-ne-gjithe-bregun-perendimor-plagosen-disa"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Raportimet se protestuesit e hodh\u00EBn n\u00EB Lan\u00EB, deputeti i PD: Pati nj\u00EB incident, skem\u00EB e partis\u00EB n\u00EB pushtet",
+      "Tokens": [
+        "rapor",
+        "prote",
+        "hodh",
+        "lan",
+        "deput",
+        "pat",
+        "incid",
+        "skem",
+        "part",
+        "pusht"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/raportimet-se-protestuesit-e-hodhen-ne-lane-deputeti-i-pd-pati-nje-incident-skeme-e-partise-ne-pushtet/"
+      ],
+      "Articles": {
+        "infokosove24": "raportimet-se-protestuesit-e-hodhen-ne-lane-deputeti-i-pd-pati-nje-incident"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Spiunazh p\u00EBrmes reklamave n\u00EB internet, kompania izraelite dyshohet se gjurmoi miliona p\u00EBrdorues",
+      "Tokens": [
+        "spiun",
+        "perm",
+        "rekla",
+        "inter",
+        "kompa",
+        "izrae",
+        "dysho",
+        "gjurm",
+        "milio",
+        "perdo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/spiunazh-permes-reklamave-ne-internet-kompania-izraelite-dyshohet-se-gjurmoi-miliona-perdorues/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "spiunazh-permes-reklamave-ne-internet-kompania-izraelite-dyshohet-se-gjurmoi"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Sulmet e huth\u00EBve n\u00EB Arabin\u00EB Saudite, ambasada e Kosov\u00EBs me apel p\u00EBr shtetasit kosovar\u00EB: Q\u00EBndroni n\u00EB ambiente t\u00EB mbyllura",
+      "Tokens": [
+        "sulm",
+        "huth",
+        "arab",
+        "saud",
+        "ambas",
+        "kosov",
+        "apel",
+        "shtet",
+        "qendr",
+        "ambie",
+        "mbyll"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sulmet-e-hutheve-ne-arabine-saudite-ambasada-e-kosoves-me-apel-per-shtetasit-kosovare-qendroni-ne-ambiente-te-mbyllura/"
+      ],
+      "Articles": {
+        "kosova-fakt": "sulmet-e-hutheve-ne-arabine-saudite-ambasada-e-kosoves-me-apel-per-shtetasit"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Klan Shqip\u00EBria: Dy kosovar\u00EB t\u00EB arrestuar n\u00EB protest\u00EB, simpatizant\u00EB t\u00EB Albin Kurtit q\u00EB erdh\u00EBn me autobus edhe me disa t\u00EB tjer\u00EB",
+      "Tokens": [
+        "klan",
+        "shqip",
+        "kosov",
+        "arres",
+        "prote",
+        "simpa",
+        "alb",
+        "kurt",
+        "erdh",
+        "autob",
+        "dis",
+        "tjer"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/klan-shqiperia-dy-kosovare-te-arrestuar-ne-proteste-simpatizante-te-albin-kurtit-qe-erdhen-me-autobus-edhe-me-disa-te-tjere/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "klan-shqiperia-dy-kosovare-te-arrestuar-ne-proteste-simpatizante-te-albin"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Situata para kryeministris\u00EB, mediat n\u00EB Shqip\u00EBri raportojn\u00EB p\u00EBr nj\u00EB marr\u00EBveshje mes protestuesve e Policis\u00EB",
+      "Tokens": [
+        "situa",
+        "kryem",
+        "media",
+        "shqip",
+        "rapor",
+        "marre",
+        "mes",
+        "prote",
+        "polic"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/mediat-ne-shqiperi-raportojne-per-nje-marreveshje-mes-protestuesve-e-policise/"
+      ],
+      "Articles": {
+        "raporti-sot": "situata-para-kryeministrise-mediat-ne-shqiperi-raportojne-per-nje-marreveshje"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Qent\u00EB e tij sulmuan r\u00EBnd\u00EB nj\u00EB 17-vje\u00E7ar, ylli i Real Madridit p\u00EBrballet me gjykat\u00EBn \u2013 prokuroria k\u00EBrkon gjob\u00EB dhe d\u00EBmshp\u00EBrblim",
+      "Tokens": [
+        "qent",
+        "sulmu",
+        "rend",
+        "vjeca",
+        "yll",
+        "real",
+        "madri",
+        "perba",
+        "gjyka",
+        "proku",
+        "kerko",
+        "gjob",
+        "demsh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/qente-e-tij-sulmuan-rende-nje-17-vjecar-ylli-i-real-madridit-perballet-me-gjykaten-prokuroria-kerkon-gjobe-dhe-demshperblim/"
+      ],
+      "Articles": {
+        "infokosove24": "qente-e-tij-sulmuan-rende-nje-17-vjecar-ylli-i-real-madridit-perballet-me"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Shuhet avokati Sheremet Ademi \u2013 Besnik R. BERISHA: \u201CSonte do t\u00EB doja ta takoja edhe nj\u00EB her\u00EB, vet\u00EBm t\u00EB ulesha e ta d\u00EBgjoja\u201D",
+      "Tokens": [
+        "shuh",
+        "avoka",
+        "shere",
+        "adem",
+        "besni",
+        "beris",
+        "sont",
+        "doj",
+        "tako",
+        "her",
+        "ulesh",
+        "degjo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shuhet-avokati-sheremet-ademi-besnik-r-berisha-sonte-do-te-doja-ta-takoja-edhe-nje-here-vetem-te-ulesha-e-ta-degjoja/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shuhet-avokati-sheremet-ademi-besnik-r-berisha-sonte-do-te-doja-ta-takoja-edhe"
+      }
+    },
+    {
+      "At": "2026-10-16T23:28:55.514375+00:00",
+      "Title": "Bashkia e Shkodr\u00EBs n\u00EB flak\u00EB, godina sulmohet me molotov\u00EB nga disa persona t\u00EB maskuar",
+      "Tokens": [
+        "bashk",
+        "shkod",
+        "flak",
+        "godin",
+        "sulmo",
+        "molot",
+        "dis",
+        "perso",
+        "masku"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bashkia-e-shkodres-ne-flake-godina-sulmohet-me-molotove-nga-disa-persona-te-maskuar/"
+      ],
+      "Articles": {
+        "kosova-fakt": "bashkia-e-shkodres-ne-flake-godina-sulmohet-me-molotove-nga-disa-persona-te"
+      }
+    },
+    {
       "At": "2026-10-16T19:53:50.1443945+00:00",
       "Title": "Tre polic\u00EB t\u00EB suspenduar n\u00EBn dyshimet p\u00EBr keqp\u00EBrdorim t\u00EB detyr\u00EBs e ngacmim seksual, Sve\u00E7la: S\u2019lejojm\u00EB t\u00EB njolloset Policia e Kosov\u00EBs",
       "Tokens": [
@@ -10421,127 +10755,6 @@
       ],
       "Articles": {
         "lajme-per-kosove": "nje-udhetim-apokaliptik-nen-drone-ruse-drejt-vijave-te-frontit-ne-ukraine"
-      }
-    },
-    {
-      "At": "2026-10-06T22:58:44.4266634+00:00",
-      "Title": "Osmani uron Justina Pul\u00EBn: Mund t\u00EB llogaris\u00EB n\u00EB mb\u00EBshtetjen time t\u00EB p\u00EBrhershme",
-      "Tokens": [
-        "osman",
-        "uron",
-        "justi",
-        "pul",
-        "mund",
-        "lloga",
-        "mbesh",
-        "tim",
-        "perhe"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/osmani-uron-justina-pulen-mund-te-llogarise-ne-mbeshtetjen-time-te-perhershme/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "osmani-uron-justina-pulen-mund-te-llogarise-ne-mbeshtetjen-time-te-perhershme"
-      }
-    },
-    {
-      "At": "2026-10-06T22:58:44.4266634+00:00",
-      "Title": "Hamza p\u00EBr zgjedhjen e Shiroka-Pul\u00EBs: \u00CBsht\u00EB mir\u00EB q\u00EB vendi do t\u00EB ket\u00EB stabilitet",
-      "Tokens": [
-        "hamz",
-        "zgjed",
-        "shiro",
-        "pul",
-        "mir",
-        "vend",
-        "ket",
-        "stabi"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/hamza-per-zgjedhjen-e-shiroka-pules-eshte-mire-qe-vendi-do-te-kete-stabilitet/"
-      ],
-      "Articles": {
-        "kosova-fakt": "hamza-per-zgjedhjen-e-shiroka-pules-eshte-mire-qe-vendi-do-te-kete-stabilitet"
-      }
-    },
-    {
-      "At": "2026-10-06T22:58:44.4266634+00:00",
-      "Title": "Miratimi i ndryshimeve t\u00EB Ligjit p\u00EBr Specialen, avokati Berisha: Tani p\u00EBrgjegj\u00EBsia \u00EBsht\u00EB t\u00EB sigurohemi q\u00EB \u00E7mimin e tij t\u00EB mos e paguaj\u00EB Kosova",
-      "Tokens": [
-        "mirat",
-        "ndrys",
-        "ligj",
-        "speci",
-        "avoka",
-        "beris",
-        "tan",
-        "pergj",
-        "sigur",
-        "cmim",
-        "pagua",
-        "kosov"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/miratimi-i-ndryshimeve-te-ligjit-per-specialen-avokati-berisha-tani-pergjegjesia-eshte-te-sigurohemi-qe-cmimin-e-tij-te-mos-e-paguaje-kosova/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "miratimi-i-ndryshimeve-te-ligjit-per-specialen-avokati-berisha-tani"
-      }
-    },
-    {
-      "At": "2026-10-06T22:58:44.4266634+00:00",
-      "Title": "Trump p\u00EBr trazirat n\u00EB Franc\u00EB: Vjen nga migracioni i pakontrolluar",
-      "Tokens": [
-        "trump",
-        "trazi",
-        "franc",
-        "vjen",
-        "migra",
-        "pakon"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/trump-per-trazirat-ne-france-vjen-nga-migracioni-i-pakontrolluar/"
-      ],
-      "Articles": {
-        "raporti-sot": "trump-per-trazirat-ne-france-vjen-nga-migracioni-i-pakontrolluar"
-      }
-    },
-    {
-      "At": "2026-10-06T22:58:44.4266634+00:00",
-      "Title": "Deputet\u00EBt nisin t\u00EB mblidhen n\u00EB Kuvend p\u00EBr seanc\u00EB",
-      "Tokens": [
-        "deput",
-        "nis",
-        "mblid",
-        "kuven",
-        "seanc"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/deputetet-nisin-te-mblidhen-ne-kuvend-per-seance/"
-      ],
-      "Articles": {
-        "infokosove24": "deputetet-nisin-te-mblidhen-ne-kuvend-per-seance"
-      }
-    },
-    {
-      "At": "2026-10-06T22:58:44.4266634+00:00",
-      "Title": "Ronaldo thyen heshtjen p\u00EBr konfliktin me Jesus dhe k\u00EBrkon d\u00EBnimin e tij: N\u00EBse nuk m\u00EB do, vet\u00EBm ma thuaj",
-      "Tokens": [
-        "ronal",
-        "thy",
-        "hesht",
-        "konfl",
-        "jesus",
-        "kerko",
-        "denim",
-        "nes",
-        "thuaj"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ronaldo-thyen-heshtjen-per-konfliktin-me-jesus-dhe-kerkon-denimin-e-tij-nese-nuk-me-do-vetem-ma-thuaj/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "ronaldo-thyen-heshtjen-per-konfliktin-me-jesus-dhe-kerkon-denimin-e-tij-nese"
       }
     }
   ]
