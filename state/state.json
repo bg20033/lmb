@@ -1,6 +1,518 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Dhuna n\u00EB protest\u00EB, pezullohen dy polic\u00EB n\u00EB Tiran\u00EB",
+      "Tokens": [
+        "dhun",
+        "prote",
+        "pezul",
+        "polic",
+        "tiran"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pezullohen-dy-efektive-policie-ne-tirane-per-perdorim-te-dhunes-ndaj-protestuesve-nis-hetimi-disiplinor/",
+        "https://telegrafi.com/dhuna-ne-proteste-pezullohen-dy-police-ne-tirane/"
+      ],
+      "Articles": {
+        "kosova-fakt": "pezullohen-dy-efektive-policie-ne-tirane-per-perdorim-te-dhunes-ndaj"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Nga student\u00EBt te pensionist\u00EBt, \u00E7far\u00EB i bashkon protestuesit n\u00EB Tiran\u00EB?",
+      "Tokens": [
+        "stude",
+        "pensi",
+        "bashk",
+        "prote",
+        "tiran"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/nga-studentet-te-pensionistet-cfare-i-bashkon-protestuesit-ne-tirane/",
+        "https://www.evropaelire.org/a/studentet-pensionistet-protestuesit-tirane-shqiperi/33877994.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nga-studentet-te-pensionistet-cfare-i-bashkon-protestuesit-ne-tirane"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Konjufca k\u00EBrkon dor\u00EBzimin e Radoi\u00E7iqit dhe t\u00EB akuzuarve t\u00EB tjer\u00EB p\u00EBr Banjsk\u00EBn: BE-ja t\u00EB ushtroj\u00EB presion ndaj Serbis\u00EB",
+      "Tokens": [
+        "konju",
+        "kerko",
+        "dorez",
+        "radoi",
+        "akuzu",
+        "tjer",
+        "banjs",
+        "ushtr",
+        "presi",
+        "ndaj",
+        "serb"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/konjufca-kerkon-dorezimin-e-radoiciqit-dhe-te-akuzuarve-te-tjere-per-banjsken-be-ja-te-ushtroje-presion-ndaj-serbise/",
+        "https://www.gazetaexpress.com/konjufca-ambiciet-territoriale-te-serbise-jane-kercenim-serioz-be-te-ushtroje-presion-vendimtar-per-dorezimin-e-radoiciqit/"
+      ],
+      "Articles": {
+        "raporti-sot": "konjufca-ambiciet-territoriale-te-serbise-jane-kercenim-serioz-be-te-ushtroje"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Aktakuz\u00EB ndaj Skender Llugiqit q\u00EB k\u00EBrkoi pushtaktimin e Haradinajt",
+      "Tokens": [
+        "aktak",
+        "ndaj",
+        "skend",
+        "llugi",
+        "kerko",
+        "pusht",
+        "harad"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/aktakuze-ndaj-skender-llugiqit-qe-kerkoi-pushtaktimin-e-haradinajt/",
+        "https://www.gazetaexpress.com/ngrihet-aktakuze-ndaj-skender-llugiqit-kishte-bere-thirrje-qe-te-pushkatohet-ramush-haradinaj/"
+      ],
+      "Articles": {
+        "infokosove24": "ngrihet-aktakuze-ndaj-skender-llugiqit-kishte-bere-thirrje-qe-te-pushkatohet"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Kryesia e Kuvendit mblidhet t\u00EB h\u00EBn\u00EBn",
+      "Tokens": [
+        "kryes",
+        "kuven",
+        "mblid",
+        "hen"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kryesia-e-kuvendit-mblidhet-te-henen-5/",
+        "https://www.gazetaexpress.com/te-henen-mblidhet-kryesia-e-kuvendit-do-te-propozohet-rendi-i-dites-per-seancen-e-radhes/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kryesia-e-kuvendit-mblidhet-te-henen"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "\u2018\u2018Ju kam shporr\u00EB si mbeturina nga zyrat\u2019\u2019, Peci i reagon ashp\u00EBr Krasniqit: Idiot, nga sot e ke padin\u00EB p\u00EBr shpifje",
+      "Tokens": [
+        "kam",
+        "shpor",
+        "mbetu",
+        "zyrat",
+        "pec",
+        "reago",
+        "ashpe",
+        "krasn",
+        "idiot",
+        "pad",
+        "shpif"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ju-kam-shporre-si-mbeturina-nga-zyrat-peci-i-reagon-ashper-krasniqit-idiot-nga-sot-e-ke-padine-per-shpifje/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ju-kam-shporre-si-mbeturina-nga-zyrat-peci-i-reagon-ashper-krasniqit-idiot-nga"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Inspektorati ndalon punimet n\u00EB nj\u00EB sht\u00EBpi private n\u00EB Prizren, mungonin masat e siguris\u00EB",
+      "Tokens": [
+        "inspe",
+        "ndalo",
+        "punim",
+        "shtep",
+        "priva",
+        "prizr",
+        "mungo",
+        "masat",
+        "sigur"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/inspektorati-ndalon-punimet-ne-nje-shtepi-private-ne-prizren-mungonin-masat-e-sigurise/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "inspektorati-ndalon-punimet-ne-nje-shtepi-private-ne-prizren-mungonin-masat-e"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Dardan Krasniqi: Pritet arrestimi i dy kryetar\u00EBve t\u00EB komunave, mund t\u00EB jet\u00EB Faton Peci, mbr\u00EBm\u00EB dhash\u00EB d\u00EBshmi\u2026",
+      "Tokens": [
+        "darda",
+        "krasn",
+        "prit",
+        "arres",
+        "kryet",
+        "komun",
+        "mund",
+        "jet",
+        "faton",
+        "pec",
+        "mbrem",
+        "dhash",
+        "deshm"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dardan-krasniqi-pritet-arrestimi-i-dy-kryetareve-te-komunave-mund-te-jete-faton-peci-mbreme-dhashe-deshmi/"
+      ],
+      "Articles": {
+        "raporti-sot": "dardan-krasniqi-pritet-arrestimi-i-dy-kryetareve-te-komunave-mund-te-jete-faton"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Jose Mourinho me mesazh emocionues p\u00EBr tifoz\u00EBt e Rom\u00EBs, pas rikthimit t\u00EB tij n\u00EB \u201COlimpico\u201D: P\u00EBrjet\u00EBsisht fal\u00EBnderues",
+      "Tokens": [
+        "jos",
+        "mouri",
+        "mesaz",
+        "emoci",
+        "tifoz",
+        "rom",
+        "rikth",
+        "olimp",
+        "perje",
+        "falen"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/jose-mourinho-me-mesazh-emocionues-per-tifozet-e-romes-pas-rikthimit-te-tij-ne-olimpico-perjetesisht-falenderues/"
+      ],
+      "Articles": {
+        "infokosove24": "jose-mourinho-me-mesazh-emocionues-per-tifozet-e-romes-pas-rikthimit-te-tij-ne"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Emily Ibanez Guerrero i sjell Kosov\u00EBs tri medalje t\u00EB arta n\u00EB Kampionatin Evropian t\u00EB pesh\u00EBngritjes",
+      "Tokens": [
+        "emily",
+        "ibane",
+        "guerr",
+        "sjell",
+        "kosov",
+        "tri",
+        "medal",
+        "art",
+        "kampi",
+        "evrop",
+        "peshe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/emily-ibanez-guerrero-i-sjell-kosoves-tri-medalje-te-arta-ne-kampionatin-evropian-te-peshengritjes/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "emily-ibanez-guerrero-i-sjell-kosoves-tri-medalje-te-arta-ne-kampionatin"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Studimi i ri: Ushqimet e shum\u00EBp\u00EBrpunuara nuk lidhen domosdoshm\u00EBrisht me kancerin e zorr\u00EBs s\u00EB trash\u00EB",
+      "Tokens": [
+        "studi",
+        "ushqi",
+        "shume",
+        "lidh",
+        "domos",
+        "kance",
+        "zorr",
+        "trash"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/studimi-i-ri-ushqimet-e-shumeperpunuara-nuk-lidhen-domosdoshmerisht-me-kancerin-e-zorres-se-trashe/"
+      ],
+      "Articles": {
+        "kosova-fakt": "studimi-i-ri-ushqimet-e-shumeperpunuara-nuk-lidhen-domosdoshmerisht-me-kancerin"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Publikohen fotografit\u00EB e para t\u00EB Pap\u00EBs q\u00EB nga operacioni n\u00EB mushk\u00EBri",
+      "Tokens": [
+        "publi",
+        "fotog",
+        "pap",
+        "opera",
+        "mushk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/publikohen-fotografite-e-para-te-papes-qe-nga-operacioni-ne-mushkeri/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "publikohen-fotografite-e-para-te-papes-qe-nga-operacioni-ne-mushkeri"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "A do ta ftoj\u00EB m\u00EB Martinezin? Carrick zbulon vendimin pas incidentit",
+      "Tokens": [
+        "fto",
+        "marti",
+        "carri",
+        "zbulo",
+        "vendi",
+        "incid"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/a-do-ta-ftoje-me-martinezin-carrick-zbulon-vendimin-pas-incidentit/"
+      ],
+      "Articles": {
+        "raporti-sot": "a-do-ta-ftoje-me-martinezin-carrick-zbulon-vendimin-pas-incidentit"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Protestat e dhunshme n\u00EB Shqip\u00EBri, mbi 150 t\u00EB arrestuar brenda kat\u00EBr dit\u00EBsh",
+      "Tokens": [
+        "prote",
+        "dhuns",
+        "shqip",
+        "150",
+        "arres",
+        "brend",
+        "kater",
+        "dites"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestat-e-dhunshme-ne-shqiperi-mbi-150-te-arrestuar-brenda-kater-ditesh/"
+      ],
+      "Articles": {
+        "infokosove24": "protestat-e-dhunshme-ne-shqiperi-mbi-150-te-arrestuar-brenda-kater-ditesh"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Sulmet ruse me dron\u00EB vrasin t\u00EB pakt\u00EBn tre persona n\u00EB Ukrain\u00EB, 370 mij\u00EB banor\u00EB mbesin pa energji elektrike",
+      "Tokens": [
+        "sulm",
+        "rus",
+        "dron",
+        "vras",
+        "pakt",
+        "tre",
+        "perso",
+        "ukra",
+        "370",
+        "mij",
+        "banor",
+        "mbes",
+        "energ",
+        "elekt"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sulmet-ruse-me-drone-vrasin-te-pakten-tre-persona-ne-ukraine-370-mije-banore-mbesin-pa-energji-elektrike/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "sulmet-ruse-me-drone-vrasin-te-pakten-tre-persona-ne-ukraine-370-mije-banore"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Mozzik b\u00EBhet baba p\u00EBr her\u00EB t\u00EB dyt\u00EB, reperi ndan lajmin e g\u00EBzuesh\u00EBm p\u00EBr lindjen e djalit",
+      "Tokens": [
+        "mozzi",
+        "beh",
+        "bab",
+        "her",
+        "dyt",
+        "reper",
+        "ndan",
+        "lajm",
+        "gezue",
+        "lindj",
+        "djal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mozzik-behet-baba-per-here-te-dyte-reperi-ndan-lajmin-e-gezueshem-per-lindjen-e-djalit/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mozzik-behet-baba-per-here-te-dyte-reperi-ndan-lajmin-e-gezueshem-per-lindjen-e"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "\u201CI\u2019ll never STOP loving you\u201D, Rama p\u00EBr Shqip\u00EBrin\u00EB: E kam dashur kur e kishin p\u00EBrplasur p\u00EBrtok\u00EB dhe pa rezerv\u00EB e dua edhe sot",
+      "Tokens": [
+        "never",
+        "stop",
+        "lovin",
+        "you",
+        "ram",
+        "shqip",
+        "kam",
+        "dashu",
+        "kish",
+        "perpl",
+        "perto",
+        "rezer",
+        "dua"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ill-never-stop-loving-you-rama-per-shqiperine-e-kam-dashur-kur-e-kishin-perplasur-pertoke-dhe-pa-rezerve-e-dua-edhe-sot/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "i-ll-never-stop-loving-you-rama-per-shqiperine-e-kam-dashur-kur-e-kishin"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Ben Affleck: Jam shum\u00EB i lodhur p\u00EBr marr\u00EBdh\u00EBnie intime, \u00EBsht\u00EB shum\u00EB pun\u00EB",
+      "Tokens": [
+        "ben",
+        "affle",
+        "jam",
+        "shum",
+        "lodhu",
+        "marre",
+        "intim",
+        "pun"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ben-affleck-jam-shume-i-lodhur-per-marredhenie-intime-eshte-shume-pune/"
+      ],
+      "Articles": {
+        "raporti-sot": "ben-affleck-jam-shume-i-lodhur-per-marredhenie-intime-eshte-shume-pune"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "\u201CS\u2019kemi asgj\u00EB p\u00EBr t\u00EB njoftuar tani\u201D: Pentagoni p\u00EBr iden\u00EB e Kurtit q\u00EB Bondsteel t\u00EB b\u00EBhet baz\u00EB e p\u00EBrhershme ushtarake n\u00EB Kosov\u00EB",
+      "Tokens": [
+        "kem",
+        "asg",
+        "njoft",
+        "tan",
+        "penta",
+        "iden",
+        "kurt",
+        "bonds",
+        "beh",
+        "baz",
+        "perhe",
+        "ushta",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/skemi-asgje-per-te-njoftuar-tani-pentagoni-per-idene-e-kurtit-qe-bondsteel-te-behet-baze-e-perhershme-ushtarake-ne-kosove/"
+      ],
+      "Articles": {
+        "infokosove24": "s-kemi-asgje-per-te-njoftuar-tani-pentagoni-per-idene-e-kurtit-qe-bondsteel-te"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Rama faj\u00EBson \u0022duart e huaja\u0022 p\u00EBr trazirat n\u00EB Shqip\u00EBri",
+      "Tokens": [
+        "ram",
+        "fajes",
+        "duart",
+        "hua",
+        "trazi",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rama-duart-huaja-trazira-shqiperi/33877905.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "rama-fajeson-duart-e-huaja-per-trazirat-ne-shqiperi"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Rubio drejt Azis\u00EB Qendrore, nd\u00EBrsa SHBA-ja synon rol m\u00EB t\u00EB madh n\u00EB rajonin e dominuar nga Rusia dhe Kina",
+      "Tokens": [
+        "rubio",
+        "drejt",
+        "azis",
+        "qendr",
+        "nders",
+        "shb",
+        "synon",
+        "rol",
+        "madh",
+        "rajon",
+        "domin",
+        "rusi",
+        "kin"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rubio-azia-qendrore-shba-rusia-kina/33877877.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "rubio-drejt-azise-qendrore-ndersa-shba-ja-synon-rol-me-te-madh-ne-rajonin-e"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Senator\u00EBt amerikan\u00EB k\u00EBrkojn\u00EB hetim p\u00EBr nd\u00EBrprerjet e Starshield, nd\u00EBrsa Zelensky merr pjes\u00EB n\u00EB samitin e...",
+      "Tokens": [
+        "senat",
+        "ameri",
+        "kerko",
+        "hetim",
+        "nderp",
+        "stars",
+        "nders",
+        "zelen",
+        "merr",
+        "pjes",
+        "samit"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/senatoret-amerikane-hetim-starshield-ukraina-zelensky-be/33877850.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "senatoret-amerikane-kerkojne-hetim-per-nderprerjet-e-starshield-ndersa-zelensky"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "Plani italian: Prani n\u00EB Kosov\u00EB edhe pasi KFOR t\u00EB reduktohet, radar\u00EB n\u00EB Ballkan q\u00EB gjurmojn\u00EB dhe zbulojn\u00EB raketa balistike",
+      "Tokens": [
+        "plan",
+        "itali",
+        "pran",
+        "koso",
+        "pas",
+        "kfor",
+        "reduk",
+        "radar",
+        "ballk",
+        "gjurm",
+        "zbulo",
+        "raket",
+        "balis"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/plani-italian-prani-ne-kosove-edhe-pasi-kfor-te-reduktohet-radare-ne-ballkan-qe-gjurmojne-dhe-zbulojne-raketa-balistike/"
+      ],
+      "Articles": {
+        "raporti-sot": "plani-italian-prani-ne-kosove-edhe-pasi-kfor-te-reduktohet-radare-ne-ballkan-qe"
+      }
+    },
+    {
+      "At": "2026-10-16T15:21:04.0420136+00:00",
+      "Title": "\u0022T\u00EB fort\u00EBt\u0022 e Ballkanit: Pse nuk l\u00EBkunden leht\u00EB?",
+      "Tokens": [
+        "fort",
+        "ballk",
+        "lekun",
+        "leht"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/te-fortet-ballkanit-pse-nuk-lekunden-lehte/33877911.html"
+      ],
+      "Articles": {
+        "infokosove24": "te-fortet-e-ballkanit-pse-nuk-lekunden-lehte"
+      }
+    },
     {
       "At": "2026-10-16T09:40:55.5695498+00:00",
       "Title": "Sfidat e siguris\u00EB p\u00EBr Iranin r\u00EBndohen nga rritja e kryengritjes s\u00EB armatosur brenda vendit",
@@ -10152,433 +10664,6 @@
       ],
       "Articles": {
         "infokosove24": "vdekja-e-dyshuar-nga-murtaja-ne-rusi-sa-duhet-te-shqetesohemi"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "\u200BBerisha thirrje deputet\u00EBve t\u00EB Kuvendit: Ejani ta votojm\u00EB Ligjin p\u00EBr Specialen",
-      "Tokens": [
-        "beris",
-        "thirr",
-        "deput",
-        "kuven",
-        "ejan",
-        "votoj",
-        "ligj",
-        "speci"
-      ],
-      "SourceUrls": [
-        "https://telegrafi.com/berisha-thirrje-deputeteve-te-kuvendit-ejani-ta-votojme-ligjin-per-specialen/",
-        "https://sinjali.com/tahiri-u-ben-thirrje-deputeteve-kthehuni-ne-kuvend-dhe-votojeni-ligjin-per-dhomat-e-specializuara/"
-      ],
-      "Articles": {
-        "raporti-sot": "tahiri-u-ben-thirrje-deputeteve-kthehuni-ne-kuvend-dhe-votojeni-ligjin-per"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Hamza: S\u2019ka takim me Kurtin derisa t\u00EB votohet ligji p\u00EBr Specialen, pastaj jemi t\u00EB hapur",
-      "Tokens": [
-        "hamz",
-        "takim",
-        "kurt",
-        "deris",
-        "votoh",
-        "ligj",
-        "speci",
-        "pasta",
-        "jem",
-        "hapur"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/hamza-i-thote-jo-takimit-me-kurtin-derisa-te-votohet-ligji-per-specialen/",
-        "https://www.gazetaexpress.com/hamza-ska-takim-me-kurtin-derisa-te-votohet-ligji-per-specialen-pastaj-jemi-te-hapur/"
-      ],
-      "Articles": {
-        "infokosove24": "hamza-s-ka-takim-me-kurtin-derisa-te-votohet-ligji-per-specialen-pastaj-jemi-te"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Haxhiu i drejtohet Kushtetueses p\u00EBr kompetencat presidenciale pas skadimit t\u00EB mandatit",
-      "Tokens": [
-        "haxhi",
-        "drejt",
-        "kusht",
-        "kompe",
-        "presi",
-        "skadi",
-        "manda"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/haxhiu-i-drejtohet-kushtetueses-cfare-ndodh-me-kompetencat-presidenciale-pas-perfundimit-te-mandatit/",
-        "https://www.evropaelire.org/a/haxhiu-i-drejtohet-kushtetueses-per-kompetencat-presidenciale/33871222.html"
-      ],
-      "Articles": {
-        "kosova-aktuale": "haxhiu-i-drejtohet-kushtetueses-per-kompetencat-presidenciale-pas-skadimit-te"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "U plagos r\u00EBnd\u00EB n\u00EB Poterq t\u00EB Klin\u00EBs, 81-vje\u00E7arja nuk i mbijeton plag\u00EBt \u2013 nd\u00EBrron jet\u00EB pas afro nj\u00EB muaji n\u00EB QKUK",
-      "Tokens": [
-        "plago",
-        "rend",
-        "poter",
-        "klin",
-        "vjeca",
-        "mbije",
-        "plag",
-        "nderr",
-        "jet",
-        "afro",
-        "muaj",
-        "qkuk"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/u-plagos-rende-ne-poterq-te-klines-81-vjecarja-nuk-i-mbijeton-plaget-nderron-jete-pas-afro-nje-muaji-ne-qkuk/"
-      ],
-      "Articles": {
-        "kosova-fakt": "u-plagos-rende-ne-poterq-te-klines-81-vjecarja-nuk-i-mbijeton-plaget-nderron"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Scholes: Ndihem p\u00EBrgjegj\u00EBs p\u00EBr largimin e Pogbas nga Man Utd",
-      "Tokens": [
-        "schol",
-        "ndihe",
-        "pergj",
-        "largi",
-        "pogba",
-        "man",
-        "utd"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/scholes-ndihem-pergjegjes-per-largimin-e-pogbas-nga-man-utd/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "scholes-ndihem-pergjegjes-per-largimin-e-pogbas-nga-man-utd"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Protesta mbr\u00EBm\u00EB n\u00EB shesh, momenti kur policia i gjuajti gabimisht me top uji polic\u00EBt",
-      "Tokens": [
-        "prote",
-        "mbrem",
-        "shesh",
-        "momen",
-        "polic",
-        "gjuaj",
-        "gabim",
-        "top",
-        "uji"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/protesta-mbreme-ne-shesh-momenti-kur-policia-i-gjuajti-gabimisht-me-top-uji-policet/"
-      ],
-      "Articles": {
-        "raporti-sot": "protesta-mbreme-ne-shesh-momenti-kur-policia-i-gjuajti-gabimisht-me-top-uji"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "LEX | S\u00EBrish aktgjykim lirues p\u00EBr Mendim Sojev\u00EBn dhe Ganimete Gashi-Ahmetin n\u00EB rastin e 1.2 milion eurove",
-      "Tokens": [
-        "lex",
-        "seris",
-        "aktgj",
-        "liru",
-        "mendi",
-        "sojev",
-        "ganim",
-        "gash",
-        "ahmet",
-        "rast",
-        "milio",
-        "euro"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/lex-serish-aktgjykim-lirues-per-mendim-sojeven-dhe-ganimete-gashi-ahmetin-ne-rastin-e-1-2-milion-eurove/"
-      ],
-      "Articles": {
-        "infokosove24": "lex-serish-aktgjykim-lirues-per-mendim-sojeven-dhe-ganimete-gashi-ahmetin-ne"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "A do t\u00EB ket\u00EB seanc\u00EB t\u00EB re? \u2013 Dy deputet\u00EB dhe Ministri i Kurtit shihen duke hyr\u00EB n\u00EB Kuvend",
-      "Tokens": [
-        "ket",
-        "seanc",
-        "deput",
-        "minis",
-        "kurt",
-        "shih",
-        "duk",
-        "hyr",
-        "kuven"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/a-do-te-kete-seance-te-re-dy-deputete-dhe-ministri-i-kurtit-shihen-duke-hyre-ne-kuvend/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "a-do-te-kete-seance-te-re-dy-deputete-dhe-ministri-i-kurtit-shihen-duke-hyre-ne"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Para dy dekadash arrestoi Kurtin, dje drejtoi protest\u00EBn: Eprori Fatmir Balaj s\u2019njeh pushtet e as parti, sh\u00EBrben me nder e p\u00EBrkushtim n\u00EB Polici",
-      "Tokens": [
-        "dekad",
-        "arres",
-        "kurt",
-        "drejt",
-        "prote",
-        "epror",
-        "fatmi",
-        "balaj",
-        "njeh",
-        "pusht",
-        "part",
-        "sherb",
-        "nder",
-        "perku",
-        "polic"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/para-dy-dekadash-arrestoi-kurtin-dje-drejtoi-protesten-eprori-fatmir-balaj-snjeh-pushtet-e-as-parti-sherben-me-nder-e-perkushtim-ne-polici/"
-      ],
-      "Articles": {
-        "kosova-fakt": "para-dy-dekadash-arrestoi-kurtin-dje-drejtoi-protesten-eprori-fatmir-balaj-s"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Dhuna n\u00EB protest\u00EB, Rrustemi: T\u00EB gjith\u00EB e din\u00EB, por sidomos ne t\u00EB VV\u2019s\u00EB, q\u00EB kur goditet policia ajo reagon",
-      "Tokens": [
-        "dhun",
-        "prote",
-        "rrust",
-        "gjith",
-        "din",
-        "sidom",
-        "godit",
-        "polic",
-        "reago"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/dhuna1-ne-proteste-rrustemi-te-gjithe-e-dine-por-sidomos-ne-te-vvse-qe-kur-goditet-policia-ajo-reagon/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "dhuna-ne-proteste-rrustemi-te-gjithe-e-dine-por-sidomos-ne-te-vv-se-qe-kur"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Abdixhiku me bilancin \u201Cpo t\u00EB na kishin d\u00EBgjuar\u201D: Do t\u00EB kishim president, stabilitet dhe m\u00EB shum\u00EB mbrojtje p\u00EBr t\u00EB v\u00EBrtet\u00EBn e luft\u00EBs",
-      "Tokens": [
-        "abdix",
-        "bilan",
-        "kish",
-        "degju",
-        "kishi",
-        "presi",
-        "stabi",
-        "shum",
-        "mbroj",
-        "verte",
-        "luft"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/abdixhiku-me-bilancin-po-te-na-kishin-degjuar-do-te-kishim-president-stabilitet-dhe-me-shume-mbrojtje-per-te-verteten-e-luftes/"
-      ],
-      "Articles": {
-        "raporti-sot": "abdixhiku-me-bilancin-po-te-na-kishin-degjuar-do-te-kishim-president-stabilitet"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "PDK: Haxhiu ta th\u00EBrras\u00EB me urgjenc\u00EB seanc\u00EBn, Kurti e Sve\u00E7la t\u00EB mos urdh\u00EBrojn\u00EB shtypjen e protest\u00EBs me dhun\u00EB",
-      "Tokens": [
-        "pdk",
-        "haxhi",
-        "therr",
-        "urgje",
-        "seanc",
-        "kurt",
-        "svecl",
-        "urdhe",
-        "shtyp",
-        "prote",
-        "dhun"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/pdk-haxhiu-ta-therrase-me-urgjence-seancen-kurti-e-svecla-te-mos-urdherojne-shtypjen-e-protestes-me-dhune/"
-      ],
-      "Articles": {
-        "infokosove24": "pdk-haxhiu-ta-therrase-me-urgjence-seancen-kurti-e-svecla-te-mos-urdherojne"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Themelet e siguris\u00EB komb\u00EBtare gjermane n\u00EB rrezik? Ish-shefi i sh\u00EBrbimit inteligjent arrestohet p\u00EBr spiunazh",
-      "Tokens": [
-        "theme",
-        "sigur",
-        "kombe",
-        "gjerm",
-        "rrezi",
-        "ish",
-        "shef",
-        "sherb",
-        "intel",
-        "arres",
-        "spiun"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/themelet-e-sigurise-kombetare-gjermane-ne-rrezik-ish-shefi-i-sherbimit-inteligjent-arrestohet-per-spiunazh/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "themelet-e-sigurise-kombetare-gjermane-ne-rrezik-ish-shefi-i-sherbimit"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Kurti nuk b\u00EBn t\u00EB ditur n\u00EBse do t\u00EB takohet me partit\u00EB",
-      "Tokens": [
-        "kurt",
-        "ben",
-        "ditur",
-        "nes",
-        "takoh",
-        "part"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kurti-nuk-ben-te-ditur-nese-do-te-takohet-me-partite/"
-      ],
-      "Articles": {
-        "kosova-fakt": "kurti-nuk-ben-te-ditur-nese-do-te-takohet-me-partite"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Nj\u00EB legjend\u00EB, nj\u00EB fanell\u00EB, nj\u00EB lamtumir\u00EB: Messi sonte shkruan kapitullin e fundit",
-      "Tokens": [
-        "legje",
-        "fanel",
-        "lamtu",
-        "mess",
-        "sont",
-        "shkru",
-        "kapit",
-        "fund"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/nje-legjende-nje-fanelle-nje-lamtumire-messi-sonte-shkruan-kapitullin-e-fundit/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "nje-legjende-nje-fanelle-nje-lamtumire-messi-sonte-shkruan-kapitullin-e-fundit"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Kenia konfirmon rastin dhe viktim\u00EBn e par\u00EB nga Ebola",
-      "Tokens": [
-        "keni",
-        "konfi",
-        "rast",
-        "vikti",
-        "par",
-        "ebol"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kenia-konfirmon-rastin-dhe-viktimen-e-pare-nga-ebola/"
-      ],
-      "Articles": {
-        "raporti-sot": "kenia-konfirmon-rastin-dhe-viktimen-e-pare-nga-ebola"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Komandanti i FSK-s\u00EB priti n\u00EB takim komandantin e KFOR-it, diskutuan situat\u00EBn e siguris\u00EB",
-      "Tokens": [
-        "koman",
-        "fsk",
-        "prit",
-        "takim",
-        "kfor",
-        "disku",
-        "situa",
-        "sigur"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/komandanti-i-fsk-se-priti-ne-takim-komandantin-e-kfor-it-diskutuan-situaten-e-sigurise/"
-      ],
-      "Articles": {
-        "infokosove24": "komandanti-i-fsk-se-priti-ne-takim-komandantin-e-kfor-it-diskutuan-situaten-e"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Hamza: Nuk kemi pasur komunikim me LVV-n\u00EB, k\u00EBrkesa jon\u00EB \u00EBsht\u00EB e qart\u00EB \u2013 t\u00EB thirret seanca",
-      "Tokens": [
-        "hamz",
-        "kem",
-        "pasur",
-        "komun",
-        "lvv",
-        "kerke",
-        "jon",
-        "qart",
-        "thirr",
-        "seanc"
-      ],
-      "SourceUrls": [
-        "https://www.gazetaexpress.com/hamza-nuk-kemi-pasur-komunikim-me-lvv-ne-kerkesa-jone-eshte-e-qarte-te-thirret-seanca/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "hamza-nuk-kemi-pasur-komunikim-me-lvv-ne-kerkesa-jone-eshte-e-qarte-te-thirret"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Kush mbetet n\u00EB krye t\u00EB shtetit n\u00EBse Kosova nuk e zgjedh presidentin sot?",
-      "Tokens": [
-        "kush",
-        "mbet",
-        "kry",
-        "shtet",
-        "nes",
-        "kosov",
-        "zgjed",
-        "presi"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/kush-mbetet-ne-krye-nese-kosova-nuk-e-zgjedh-presidentin-sot/33871116.html"
-      ],
-      "Articles": {
-        "kosova-fakt": "kush-mbetet-ne-krye-te-shtetit-nese-kosova-nuk-e-zgjedh-presidentin-sot"
-      }
-    },
-    {
-      "At": "2026-10-06T11:57:45.6546678+00:00",
-      "Title": "Or\u00EBt e fundit: Presidenti dhe Ligji p\u00EBr Specialen ende pezull",
-      "Tokens": [
-        "oret",
-        "fund",
-        "presi",
-        "ligj",
-        "speci",
-        "end",
-        "pezul"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/dita-vendimtare-per-presidentin/33871117.html"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "oret-e-fundit-presidenti-dhe-ligji-per-specialen-ende-pezull"
       }
     }
   ]
