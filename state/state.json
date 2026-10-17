@@ -2,6 +2,319 @@
   "RotationCursor": 4,
   "Published": [
     {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Dy polic\u00EB p\u00EBrfshihen nga flak\u00EBt pas hedhjes s\u00EB molotovit n\u00EB protest\u00EB",
+      "Tokens": [
+        "polic",
+        "perfs",
+        "flak",
+        "hedhj",
+        "molot",
+        "prote"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestat-ne-tirane-flaket-perfshijne-gjykaten-e-larte/",
+        "https://sinjali.com/dy-police-perfshihen-nga-flaket-pas-hedhjes-se-molotovit-ne-proteste/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dy-police-perfshihen-nga-flaket-pas-hedhjes-se-molotovit-ne-proteste"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Ish-zyrtari komunal n\u00EB Sharr n\u00EB strukturat zgjedhore t\u00EB Vu\u00E7iqit, dega e VV\u2019s\u00EB: E papranueshme, k\u00EBrkojm\u00EB sqarim publik",
+      "Tokens": [
+        "ish",
+        "zyrta",
+        "komun",
+        "sharr",
+        "struk",
+        "zgjed",
+        "vuciq",
+        "deg",
+        "papra",
+        "kerko",
+        "sqari",
+        "publi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ish-zyrtari-komunal-ne-sharr-ne-strukturat-zgjedhore-te-vuciqit-dega-e-vvse-e-papranueshme-kerkojme-sqarim-publik/"
+      ],
+      "Articles": {
+        "raporti-sot": "ish-zyrtari-komunal-ne-sharr-ne-strukturat-zgjedhore-te-vuciqit-dega-e-vv-se-e"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Spalletti vler\u00EBson Zhegrov\u00EBn: L\u00EBvizjet e tij jan\u00EB t\u00EB paparashikueshme, meriton m\u00EB shum\u00EB minuta",
+      "Tokens": [
+        "spall",
+        "vlere",
+        "zhegr",
+        "leviz",
+        "papar",
+        "merit",
+        "shum",
+        "minut"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/spalletti-vlereson-zhegroven-levizjet-e-tij-jane-te-paparashikueshme-meriton-me-shume-minuta/"
+      ],
+      "Articles": {
+        "infokosove24": "spalletti-vlereson-zhegroven-levizjet-e-tij-jane-te-paparashikueshme-meriton-me"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Arbana Osmani kritikon m\u00EBnyr\u00EBn si po trajtohet dhuna ndaj t\u00EB miturve: \u201CAskush nuk e meriton k\u00EBt\u00EB\u201D",
+      "Tokens": [
+        "arban",
+        "osman",
+        "kriti",
+        "menyr",
+        "trajt",
+        "dhun",
+        "ndaj",
+        "mitur",
+        "askus",
+        "merit",
+        "ket"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arbana-osmani-kritikon-menyren-si-po-trajtohet-dhuna-ndaj-te-miturve-askush-nuk-e-meriton-kete/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "arbana-osmani-kritikon-menyren-si-po-trajtohet-dhuna-ndaj-te-miturve-askush-nuk"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "R\u00EBndohet situata, zjarr n\u00EB katin e par\u00EB t\u00EB godin\u00EBs s\u00EB Gjykat\u00EBs s\u00EB Lart\u00EB, merr flak\u00EB edhe nj\u00EB automjet",
+      "Tokens": [
+        "rendo",
+        "situa",
+        "zjarr",
+        "kat",
+        "par",
+        "godin",
+        "gjyka",
+        "lart",
+        "merr",
+        "flak",
+        "autom"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rendohet-situata-zjarr-ne-katin-e-pare-te-godines-se-gjykates-se-larte-merr-flake-edhe-nje-automjet/"
+      ],
+      "Articles": {
+        "kosova-fakt": "rendohet-situata-zjarr-ne-katin-e-pare-te-godines-se-gjykates-se-larte-merr"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Lepenci shkarkon Faruk Statovcin pas barazimit me Bes\u00EBn",
+      "Tokens": [
+        "lepen",
+        "shkar",
+        "faruk",
+        "stato",
+        "baraz",
+        "bes"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lepenci-shkarkon-faruk-statovcin-pas-barazimit-me-besen/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "lepenci-shkarkon-faruk-statovcin-pas-barazimit-me-besen"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Karton i kuq p\u00EBr goditjen me kok\u00EB, por Liverpooli nuk fiton penallti \u2013 kjo \u00EBsht\u00EB arsyeja",
+      "Tokens": [
+        "karto",
+        "kuq",
+        "godit",
+        "kok",
+        "liver",
+        "fiton",
+        "penal",
+        "arsye"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/karton-i-kuq-per-goditjen-me-koke-por-liverpooli-nuk-fiton-penallti-kjo-eshte-arsyeja/"
+      ],
+      "Articles": {
+        "raporti-sot": "karton-i-kuq-per-goditjen-me-koke-por-liverpooli-nuk-fiton-penallti-kjo-eshte"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Bajrami i k\u00EBrkon Prokuroris\u00EB Speciale t\u2019i hetoj\u00EB tender\u00EBt nj\u00EBburimor\u00EB: Jan\u00EB b\u00EBr\u00EB praktik\u00EB qeveris\u00EBse, bashk\u00EB me ta edhe korrupsioni",
+      "Tokens": [
+        "bajra",
+        "kerko",
+        "proku",
+        "speci",
+        "heto",
+        "tende",
+        "njebu",
+        "ber",
+        "prakt",
+        "qever",
+        "bashk",
+        "korru"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/bajrami-i-kerkon-prokurorise-speciale-ti-hetoje-tenderet-njeburimore-jane-bere-praktike-qeverisese-bashke-me-ta-edhe-korrupsioni/"
+      ],
+      "Articles": {
+        "infokosove24": "bajrami-i-kerkon-prokurorise-speciale-t-i-hetoje-tenderet-njeburimore-jane-bere"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Tragjedi n\u00EB Jemen, tre f\u00EBmij\u00EB humbin jet\u00EBn nga sulmet ajrore",
+      "Tokens": [
+        "tragj",
+        "jem",
+        "tre",
+        "femi",
+        "humb",
+        "jet",
+        "sulm",
+        "ajror"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tragjedi-ne-jemen-tre-femije-humbin-jeten-nga-sulmet-ajrore/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "tragjedi-ne-jemen-tre-femije-humbin-jeten-nga-sulmet-ajrore"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Gjasht\u00EB dit\u00EB nga vrasja e 29-vje\u00E7arit n\u00EB Pogragj\u00EB, babai i dyshuar ende n\u00EB arrati",
+      "Tokens": [
+        "gjash",
+        "dit",
+        "vras",
+        "vjeca",
+        "pogra",
+        "baba",
+        "dyshu",
+        "end",
+        "arrat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjashte-dite-nga-vrasja-e-29-vjecarit-ne-pogragje-babai-i-dyshuar-ende-ne-arrati/"
+      ],
+      "Articles": {
+        "kosova-fakt": "gjashte-dite-nga-vrasja-e-29-vjecarit-ne-pogragje-babai-i-dyshuar-ende-ne-arrati"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Maresca e b\u00EBn historin\u00EB n\u00EB Premierlig\u00EB, b\u00EBhet trajneri i par\u00EB q\u00EB i fiton shtat\u00EB ndeshjet e para t\u00EB kampionatit",
+      "Tokens": [
+        "mares",
+        "ben",
+        "histo",
+        "premi",
+        "beh",
+        "trajn",
+        "par",
+        "fiton",
+        "shtat",
+        "ndesh",
+        "kampi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/maresca-e-ben-historine-ne-premierlige-behet-trajneri-i-pare-qe-i-fiton-shtate-ndeshjet-e-para-te-kampionatit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "maresca-e-ben-historine-ne-premierlige-behet-trajneri-i-pare-qe-i-fiton-shtate"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Kreshnik Smajlaj me Aleanc\u00EBn e Prishtin\u00EBs merr pjes\u00EB n\u00EB prezantimin e platform\u00EBs politike t\u00EB Ardian Gjinit",
+      "Tokens": [
+        "kresh",
+        "smajl",
+        "alean",
+        "prish",
+        "merr",
+        "pjes",
+        "preza",
+        "platf",
+        "polit",
+        "ardia",
+        "gjin"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kreshnik-smajlaj-me-aleancen-e-prishtines-merr-pjese-ne-prezantimin-e-platformes-politike-te-ardian-gjinit/"
+      ],
+      "Articles": {
+        "raporti-sot": "kreshnik-smajlaj-me-aleancen-e-prishtines-merr-pjese-ne-prezantimin-e"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Apple k\u00EBrkon uljen e prodhimit t\u00EB iPhone 18 Pro, \u00E7ipat e memories po shtrenjtohen",
+      "Tokens": [
+        "appl",
+        "kerko",
+        "ulj",
+        "prodh",
+        "iphon",
+        "pro",
+        "cipat",
+        "memor",
+        "shtre"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/apple-kerkon-uljen-e-prodhimit-te-iphone-18-pro-cipat-e-memories-po-shtrenjtohen/"
+      ],
+      "Articles": {
+        "infokosove24": "apple-kerkon-uljen-e-prodhimit-te-iphone-18-pro-cipat-e-memories-po-shtrenjtohen"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Gjini: Nuk guxojm\u00EB t\u00EB eksperimentojm\u00EB me institucionet dhe Kushtetut\u00EBn e Kosov\u00EBs",
+      "Tokens": [
+        "gjin",
+        "guxoj",
+        "ekspe",
+        "insti",
+        "kusht",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjini-nuk-guxojme-te-eksperimentojme-me-institucionet-dhe-kushtetuten-e-kosoves/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gjini-nuk-guxojme-te-eksperimentojme-me-institucionet-dhe-kushtetuten-e-kosoves"
+      }
+    },
+    {
+      "At": "2026-10-17T17:51:06.6683122+00:00",
+      "Title": "Nga Maroviq te Radoi\u00E7iq: T\u00EB k\u00EBrkuarit q\u00EB nuk ekstradohen",
+      "Tokens": [
+        "marov",
+        "radoi",
+        "kerku",
+        "ekstr"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/maroviq-te-radoiciq-kerkuarit-nuk-ekstradohen/33878468.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "nga-maroviq-te-radoiciq-te-kerkuarit-qe-nuk-ekstradohen"
+      }
+    },
+    {
       "At": "2026-10-17T14:10:18.4227826+00:00",
       "Title": "Tensione para Kryeministris\u00EB, protestuesit hedhin molotov\u00EB, policia nd\u00EBrhyn me gaz lotsjell\u00EBs dhe autobot\u00EB me uj\u00EB",
       "Tokens": [
