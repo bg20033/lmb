@@ -2,6 +2,441 @@
   "RotationCursor": 4,
   "Published": [
     {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Hykmete Bajrami kritikon Qeverin\u00EB: Sektorit publik pag\u00EBn e 13-t\u00EB, n\u00EB privat nuk po respektohet as paga minimale",
+      "Tokens": [
+        "hykme",
+        "bajra",
+        "kriti",
+        "qever",
+        "sekto",
+        "publi",
+        "pag",
+        "priva",
+        "respe",
+        "minim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bajrami-13-paga-per-sektorin-publik-ndersa-punetoret-teknike-se-marrin-as-pagen-minimale/",
+        "https://www.gazetaexpress.com/hykmete-bajrami-kritikon-qeverine-sektorit-publik-pagen-e-13-te-ne-privat-nuk-po-respektohet-as-paga-minimale/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "bajrami-13-paga-per-sektorin-publik-ndersa-punetoret-teknike-s-e-marrin-as"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Flick flet p\u00EBr minutat e Lamine Yamalit: Nuk dua t\u2019ia nd\u00EBrpres k\u00EBt\u00EB form\u00EB fantastike",
+      "Tokens": [
+        "flick",
+        "flet",
+        "minut",
+        "lam",
+        "yamal",
+        "dua",
+        "nderp",
+        "ket",
+        "form",
+        "fanta"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/flick-flet-per-minutat-e-lamine-yamalit-nuk-dua-tia-nderpres-kete-forme-fantastike/"
+      ],
+      "Articles": {
+        "raporti-sot": "flick-flet-per-minutat-e-lamine-yamalit-nuk-dua-t-ia-nderpres-kete-forme"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "\u201CN\u00EBse ndahesh nga burri, s\u2019ke vend n\u00EB sht\u00EBpi\u201D \u2013 babai dyshohet se k\u00EBrc\u00EBnoi psikologjikisht vajz\u00EBn e mitur n\u00EB Gjakov\u00EB, ajo p\u00EBrfundon n\u00EB strehimore",
+      "Tokens": [
+        "nes",
+        "ndahe",
+        "burr",
+        "vend",
+        "shtep",
+        "baba",
+        "dysho",
+        "kerce",
+        "psiko",
+        "vajz",
+        "mitur",
+        "gjako",
+        "perfu",
+        "streh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nese-ndahesh-nga-burri-ske-vend-ne-shtepi-babai-dyshohet-se-kercenoi-psikologjikisht-vajzen-e-mitur-ne-gjakove-ajo-perfundon-ne-strehimore/"
+      ],
+      "Articles": {
+        "infokosove24": "nese-ndahesh-nga-burri-s-ke-vend-ne-shtepi-babai-dyshohet-se-kercenoi"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Ekskluzive | K\u00EBta jan\u00EB dy \u201Cdiller\u00EBt\u201D q\u00EB u kapen me 53 kg marihuan\u00EB n\u00EB operacionin \u201CMALI\u201D n\u00EB Gjilan, droga kap vler\u00EBn e 80 mij\u00EB eurove",
+      "Tokens": [
+        "ket",
+        "dille",
+        "kap",
+        "marih",
+        "opera",
+        "mal",
+        "gjila",
+        "drog",
+        "vler",
+        "mij",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-keta-jane-dy-dilleret-qe-u-kapen-me-53-kg-marihuane-ne-operacionin-mali-ne-gjilan-droga-kap-vleren-e-80-mije-eurove/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ekskluzive-keta-jane-dy-dilleret-qe-u-kapen-me-53-kg-marihuane-ne-operacionin"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Ekskluzive | Policia ndal vetur\u00EBn p\u00EBr kund\u00EBrvajtje n\u00EB Gjakov\u00EB \u2013 21-vje\u00E7ari nxjerr thik\u00EBn dhe shufr\u00EBn e hekurit",
+      "Tokens": [
+        "polic",
+        "ndal",
+        "vetur",
+        "kunde",
+        "gjako",
+        "vjeca",
+        "nxjer",
+        "thik",
+        "shufr",
+        "hekur"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-policia-ndal-veturen-per-kundervajtje-ne-gjakove-21-vjecari-nxjerr-thiken-dhe-shufren-e-hekurit/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ekskluzive-policia-ndal-veturen-per-kundervajtje-ne-gjakove-21-vjecari-nxjerr"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Ekskluzive | Policia ndal Golf-in e zi te Rrethi i Fontan\u00EBs n\u00EB Prishtin\u00EB \u2013 n\u00EBn ul\u00EBsen e shoferit gjendet pistoleta me 5 fishek\u00EB",
+      "Tokens": [
+        "polic",
+        "ndal",
+        "golf",
+        "rreth",
+        "fonta",
+        "prish",
+        "ules",
+        "shofe",
+        "gjend",
+        "pisto",
+        "fishe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-policia-ndal-golf-in-e-zi-te-rrethi-i-fontanes-ne-prishtine-nen-ulesen-e-shoferit-gjendet-pistoleta-me-5-fisheke/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ekskluzive-policia-ndal-golf-in-e-zi-te-rrethi-i-fontanes-ne-prishtine-nen"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Ekskluzive | Policia alarmohet p\u00EBr nj\u00EB person me arm\u00EB n\u00EB Prishtin\u00EB \u2013 gjendet pistoleta me 5 fishek\u00EB, nj\u00EBri nga t\u00EB dyshuarit pranon pron\u00EBsin\u00EB",
+      "Tokens": [
+        "polic",
+        "alarm",
+        "perso",
+        "arm",
+        "prish",
+        "gjend",
+        "pisto",
+        "fishe",
+        "njer",
+        "dyshu",
+        "prano",
+        "prone"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-policia-alarmohet-per-nje-person-me-arme-ne-prishtine-gjendet-pistoleta-me-5-fisheke-njeri-nga-te-dyshuarit-pranon-pronesine/"
+      ],
+      "Articles": {
+        "raporti-sot": "ekskluzive-policia-alarmohet-per-nje-person-me-arme-ne-prishtine-gjendet"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Protesta n\u00EB Tiran\u00EB: Policia arreston 10 persona, 22 t\u00EB tjer\u00EB procedohen penalisht",
+      "Tokens": [
+        "prote",
+        "tiran",
+        "polic",
+        "arres",
+        "perso",
+        "tjer",
+        "proce",
+        "penal"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/protesta-ne-tirane-policia-arreston-10-persona-22-te-tjere-procedohen-penalisht/"
+      ],
+      "Articles": {
+        "infokosove24": "protesta-ne-tirane-policia-arreston-10-persona-22-te-tjere-procedohen-penalisht"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "I shp\u00EBton rrezikut p\u00EBr paralizim 21-vje\u00E7ari i dhunuar nga policia, vazhdon trajtimin n\u00EB spital",
+      "Tokens": [
+        "shpet",
+        "rrezi",
+        "paral",
+        "vjeca",
+        "dhunu",
+        "polic",
+        "vazhd",
+        "trajt",
+        "spita"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/i-shpeton-rrezikut-per-paralizim-21-vjecari-i-dhunuar-nga-policia-vazhdon-trajtimin-ne-spital/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "i-shpeton-rrezikut-per-paralizim-21-vjecari-i-dhunuar-nga-policia-vazhdon"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Presidenti i La Lig\u00EBs n\u00EB telashe pas deklarat\u00EBs kontroverse p\u00EBr Real Madridin, autoritetet spanjolle nisin hetimet",
+      "Tokens": [
+        "presi",
+        "lig",
+        "telas",
+        "dekla",
+        "kontr",
+        "real",
+        "madri",
+        "autor",
+        "spanj",
+        "nis",
+        "hetim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/presidenti-i-la-liges-ne-telashe-pas-deklarates-kontroverse-per-real-madridin-autoritetet-spanjolle-nisin-hetimet/"
+      ],
+      "Articles": {
+        "kosova-fakt": "presidenti-i-la-liges-ne-telashe-pas-deklarates-kontroverse-per-real-madridin"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Reuters: Rama e zgjodhi si fytyr\u00EB t\u00EB re t\u00EB PS, tani deputetja 25 vje\u00E7are i \u00EBsht\u00EB bashkuar protest\u00EBs dhe po ia k\u00EBrkon dor\u00EBheqjen",
+      "Tokens": [
+        "reute",
+        "ram",
+        "zgjod",
+        "fytyr",
+        "tan",
+        "deput",
+        "vjeca",
+        "bashk",
+        "prote",
+        "kerko",
+        "doreh"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/reuters-rama-e-zgjodhi-si-fytyre-te-re-te-ps-tani-deputetja-25-vjecare-i-eshte-bashkuar-protestes-dhe-po-ia-kerkon-doreheqjen/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "reuters-rama-e-zgjodhi-si-fytyre-te-re-te-ps-tani-deputetja-25-vjecare-i-eshte"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Macron \u201Ci pak\u00EBnqur\u201D me marr\u00EBveshjen SHBA-Rusi p\u00EBr naft\u00EBn: D\u00EBrgon mesazh negativ",
+      "Tokens": [
+        "macro",
+        "paken",
+        "marre",
+        "shb",
+        "rus",
+        "naft",
+        "dergo",
+        "mesaz",
+        "negat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/macron-i-pakenqur-me-marreveshjen-shba-rusi-per-naften-dergon-mesazh-negativ/"
+      ],
+      "Articles": {
+        "raporti-sot": "macron-i-pakenqur-me-marreveshjen-shba-rusi-per-naften-dergon-mesazh-negativ"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Trumpi heq dor\u00EB nga zbatimi i sanksioneve ndaj Rusis\u00EB pak para se t\u00EB hynin n\u00EB fuqi",
+      "Tokens": [
+        "trump",
+        "heq",
+        "dor",
+        "zbati",
+        "sanks",
+        "ndaj",
+        "rus",
+        "pak",
+        "hyn",
+        "fuq"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/trump-heqdoresankionerusie/33878368.html"
+      ],
+      "Articles": {
+        "infokosove24": "trumpi-heq-dore-nga-zbatimi-i-sanksioneve-ndaj-rusise-pak-para-se-te-hynin-ne"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Diddy transferohet n\u00EB nj\u00EB burg tjet\u00EBr, i prishet \u201Creha\u00ADtia\u201D pas grilave",
+      "Tokens": [
+        "diddy",
+        "trans",
+        "burg",
+        "tjete",
+        "prish",
+        "reh",
+        "tia",
+        "gril"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/diddy-transferohet-ne-nje-burg-tjeter-i-prishet-rehatia-pas-grilave/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "diddy-transferohet-ne-nje-burg-tjeter-i-prishet-reha-tia-pas-grilave"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Sot i jepet lamtumira e fundit avokatit Sheremet Ademi",
+      "Tokens": [
+        "jep",
+        "lamtu",
+        "fund",
+        "avoka",
+        "shere",
+        "adem"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sot-i-jepet-lamtumira-e-fundit-avokatit-sheremet-ademi/"
+      ],
+      "Articles": {
+        "kosova-fakt": "sot-i-jepet-lamtumira-e-fundit-avokatit-sheremet-ademi"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Maqedonci: Kemi k\u00EBrkuar nga SHBA-ja t\u00EB diskutojm\u00EB blerjen e helikopter\u00EBve",
+      "Tokens": [
+        "maqed",
+        "kem",
+        "kerku",
+        "shb",
+        "disku",
+        "blerj",
+        "helik"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/maqedonci-kemi-kerkuar-nga-shba-ja-te-diskutojme-blerjen-e-helikoptereve/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "maqedonci-kemi-kerkuar-nga-shba-ja-te-diskutojme-blerjen-e-helikoptereve"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "U nda nga jeta n\u00EB mosh\u00EBn 40-vje\u00E7are, zbulohet shkaku i v\u00EBrtet\u00EB i vdekjes s\u00EB mund\u00EBsit t\u00EB AEW-s\u00EB",
+      "Tokens": [
+        "nda",
+        "jet",
+        "mosh",
+        "vjeca",
+        "zbulo",
+        "shkak",
+        "verte",
+        "vdekj",
+        "munde",
+        "aew"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/u-nda-nga-jeta-ne-moshen-40-vjecare-zbulohet-shkaku-i-vertete-i-vdekjes-se-mundesit-te-aew-se/"
+      ],
+      "Articles": {
+        "raporti-sot": "u-nda-nga-jeta-ne-moshen-40-vjecare-zbulohet-shkaku-i-vertete-i-vdekjes-se"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Rusia dhe taliban\u00EBt po afrohen gjithnj\u00EB e m\u00EB shum\u00EB. \u00C7far\u00EB p\u00EBrfiton secila pal\u00EB?",
+      "Tokens": [
+        "rusi",
+        "talib",
+        "afroh",
+        "gjith",
+        "shum",
+        "perfi",
+        "secil",
+        "pal"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rusia-talibanet-afrohen/33877770.html"
+      ],
+      "Articles": {
+        "infokosove24": "rusia-dhe-talibanet-po-afrohen-gjithnje-e-me-shume-cfare-perfiton-secila-pale"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "Joseph: BE ta kritikoj\u00EB privatisht Kosov\u00EBn p\u00EBr Specialen, Presidentja Justina-Pula do t\u00EB jet\u00EB udh\u00EBheq\u00EBse e besueshme p\u00EBr t\u00EB gjith\u00EB",
+      "Tokens": [
+        "josep",
+        "kriti",
+        "priva",
+        "kosov",
+        "speci",
+        "presi",
+        "justi",
+        "pul",
+        "jet",
+        "udheh",
+        "besue",
+        "gjith"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/joseph-be-ta-kritikoje-privatisht-kosoven-per-specialen-presidentja-justina-pula-do-te-jete-udheheqese-e-besueshme-per-te-gjithe/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "joseph-be-ta-kritikoje-privatisht-kosoven-per-specialen-presidentja-justina"
+      }
+    },
+    {
+      "At": "2026-10-17T09:12:38.8895292+00:00",
+      "Title": "\u201CA u radikalizua l\u00EBvizja Flamingo?\u201D, BBC shkruan p\u00EBr protestat n\u00EB Shqip\u00EBri",
+      "Tokens": [
+        "radik",
+        "leviz",
+        "flami",
+        "bbc",
+        "shkru",
+        "prote",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/a-u-radikalizua-levizja-flamingo-bbc-shkruan-per-protestat-ne-shqiperi/"
+      ],
+      "Articles": {
+        "kosova-fakt": "a-u-radikalizua-levizja-flamingo-bbc-shkruan-per-protestat-ne-shqiperi"
+      }
+    },
+    {
       "At": "2026-10-16T23:28:55.514375+00:00",
       "Title": "\u201CE kisha ndar\u00EB mendjen t\u00EB largohesha\u201D, Raphinha: Flicku m\u00EB bindi t\u00EB q\u00EBndroj\u00EB, ai m\u00EB ndryshoi si person",
       "Tokens": [
