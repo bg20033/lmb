@@ -2,6 +2,420 @@
   "RotationCursor": 2,
   "Published": [
     {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Mes protestave dhe tensioneve n\u00EB Tiran\u00EB, Edi Rama anulon vizit\u00EBn zyrtare n\u00EB Austri",
+      "Tokens": [
+        "mes",
+        "prote",
+        "tensi",
+        "tiran",
+        "edi",
+        "ram",
+        "anulo",
+        "vizit",
+        "zyrta",
+        "austr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mes-protestave-dhe-tensioneve-ne-tirane-edi-rama-anulon-viziten-zyrtare-ne-austri/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mes-protestave-dhe-tensioneve-ne-tirane-edi-rama-anulon-viziten-zyrtare-ne"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Aksion i madh policor n\u00EB Tiran\u00EB, sheshi para Kryeministris\u00EB zbrazet brenda 10 minutash",
+      "Tokens": [
+        "aksio",
+        "madh",
+        "polic",
+        "tiran",
+        "shesh",
+        "kryem",
+        "zbraz",
+        "brend",
+        "minut"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/aksion-i-madh-policor-ne-tirane-sheshi-para-kryeministrise-zbrazet-brenda-10-minutash/"
+      ],
+      "Articles": {
+        "kosova-fakt": "aksion-i-madh-policor-ne-tirane-sheshi-para-kryeministrise-zbrazet-brenda-10"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Rama s\u2019do t\u00EB shkoj\u00EB n\u00EB Vjen\u00EB, Qeveria austriake: Vizita u anulua nga pala shqiptare",
+      "Tokens": [
+        "ram",
+        "shko",
+        "vjen",
+        "qever",
+        "austr",
+        "vizit",
+        "anulu",
+        "pal",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-sdo-te-shkoje-ne-vjene-qeveria-austriake-vizita-u-anulua-nga-pala-shqiptare-1/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "rama-s-do-te-shkoje-ne-vjene-qeveria-austriake-vizita-u-anulua-nga-pala"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Rama b\u00EBn homazhe p\u00EBr Idriz Rrecajn, eshtrat e t\u00EB cilit u gjet\u00EBn pas 27 vitesh n\u00EB nj\u00EB varr masiv n\u00EB Zubin Potok",
+      "Tokens": [
+        "ram",
+        "ben",
+        "homaz",
+        "idriz",
+        "rreca",
+        "eshtr",
+        "cil",
+        "gjet",
+        "vites",
+        "varr",
+        "masiv",
+        "zub",
+        "potok"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/rama-ben-homazhe-per-idriz-rrecajn-eshtrat-e-te-cilit-u-gjeten-pas-27-vitesh-ne-nje-varr-masiv-ne-zubin-potok/"
+      ],
+      "Articles": {
+        "raporti-sot": "rama-ben-homazhe-per-idriz-rrecajn-eshtrat-e-te-cilit-u-gjeten-pas-27-vitesh-ne"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Unitedi e barazon rekordin e pad\u00EBshiruar 94-vje\u00E7ar",
+      "Tokens": [
+        "unite",
+        "baraz",
+        "rekor",
+        "pades",
+        "vjeca"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/unitedi-e-barazon-rekordin-e-padeshiruar-94-vjecar/"
+      ],
+      "Articles": {
+        "infokosove24": "unitedi-e-barazon-rekordin-e-padeshiruar-94-vjecar"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Vet\u00EBm 7 vje\u00E7e, Adea Azemi shpallet kampione e bot\u00EBs n\u00EB sportet marciale \u2013 triumfon n\u00EB Franc\u00EB",
+      "Tokens": [
+        "vjec",
+        "ade",
+        "azem",
+        "shpal",
+        "kampi",
+        "bot",
+        "sport",
+        "marci",
+        "trium",
+        "franc"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/vetem-7-vjece-adea-azemi-shpallet-kampione-e-botes-ne-sportet-marciale-triumfon-ne-france/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "vetem-7-vjece-adea-azemi-shpallet-kampione-e-botes-ne-sportet-marciale-triumfon"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Goditje e r\u00EBnd\u00EB p\u00EBr Liverpoolin, Szoboszlai p\u00EBson s\u00EBrish l\u00EBndim \u2013 pritet t\u00EB mungoj\u00EB p\u00EBr nj\u00EB periudh\u00EB",
+      "Tokens": [
+        "godit",
+        "rend",
+        "liver",
+        "szobo",
+        "peson",
+        "seris",
+        "lendi",
+        "prit",
+        "mungo",
+        "periu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/goditje-e-rende-per-liverpoolin-szoboszlai-peson-serish-lendim-pritet-te-mungoje-per-nje-periudhe/"
+      ],
+      "Articles": {
+        "kosova-fakt": "goditje-e-rende-per-liverpoolin-szoboszlai-peson-serish-lendim-pritet-te"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Inteligjenca artificiale pritet t\u00EB ndryshoj\u00EB ekonomin\u00EB bot\u00EBrore, ekonomist\u00EBt parashikojn\u00EB rritje t\u00EB madhe t\u00EB produktivitetit",
+      "Tokens": [
+        "intel",
+        "artif",
+        "prit",
+        "ndrys",
+        "ekono",
+        "boter",
+        "paras",
+        "rrit",
+        "madh",
+        "produ"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/inteligjenca-artificiale-pritet-te-ndryshoje-ekonomine-boterore-ekonomistet-parashikojne-rritje-te-madhe-te-produktivitetit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "inteligjenca-artificiale-pritet-te-ndryshoje-ekonomine-boterore-ekonomistet"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Haradinaj merr pjes\u00EB n\u00EB \u201CDit\u00EBn e G\u00EBshtenj\u00EBs\u201D n\u00EB De\u00E7an, fal\u00EBnderon fermer\u00EBt dhe kryetarin Ramosaj",
+      "Tokens": [
+        "harad",
+        "merr",
+        "pjes",
+        "dit",
+        "gesht",
+        "decan",
+        "falen",
+        "ferme",
+        "kryet",
+        "ramos"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/haradinaj-merr-pjese-ne-diten-e-geshtenjes-ne-decan-falenderon-fermeret-dhe-kryetarin-ramosaj/"
+      ],
+      "Articles": {
+        "raporti-sot": "haradinaj-merr-pjese-ne-diten-e-geshtenjes-ne-decan-falenderon-fermeret-dhe"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Protestat n\u00EB Paris: Nj\u00EB demonstrues humb jet\u00EBn, arrestohen 855 persona",
+      "Tokens": [
+        "prote",
+        "par",
+        "demon",
+        "humb",
+        "jet",
+        "arres",
+        "855",
+        "perso"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/protestat-ne-paris-nje-demonstrues-humb-jeten-arrestohen-855-persona/"
+      ],
+      "Articles": {
+        "infokosove24": "protestat-ne-paris-nje-demonstrues-humb-jeten-arrestohen-855-persona"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Mbi 1 mij\u00EB dron\u00EB sulmojn\u00EB Rusin\u00EB, shp\u00EBrthejn\u00EB zjarre t\u00EB m\u00EBdha n\u00EB Sh\u00EBn Petersburg \u2013 nj\u00EB i vdekur dhe pes\u00EB t\u00EB plagosur",
+      "Tokens": [
+        "mij",
+        "dron",
+        "sulmo",
+        "rus",
+        "shper",
+        "zjarr",
+        "medh",
+        "shen",
+        "peter",
+        "vdeku",
+        "pes",
+        "plago"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mbi-1-mije-drone-sulmojne-rusine-shperthejne-zjarre-te-medha-ne-shen-petersburg-nje-i-vdekur-dhe-pese-te-plagosur/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mbi-1-mije-drone-sulmojne-rusine-shperthejne-zjarre-te-medha-ne-shen-petersburg"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Kryesia e Kuvendit mblidhet nes\u00EBr, n\u00EB rend dite formimi i komisionit p\u00EBr an\u00EBtar\u00EBt e Bordit t\u00EB RTK-s\u00EB",
+      "Tokens": [
+        "kryes",
+        "kuven",
+        "mblid",
+        "neser",
+        "rend",
+        "dit",
+        "formi",
+        "komis",
+        "aneta",
+        "bord",
+        "rtk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kryesia-e-kuvendit-mblidhet-neser-ne-rend-dite-formimi-i-komisionit-per-anetaret-e-bordit-te-rtk-se/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kryesia-e-kuvendit-mblidhet-neser-ne-rend-dite-formimi-i-komisionit-per"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Gjendet nj\u00EB person pa shenja jete n\u00EB Tiran\u00EB",
+      "Tokens": [
+        "gjend",
+        "perso",
+        "shen",
+        "jet",
+        "tiran"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gjendet-nje-person-pa-shenja-jete-ne-tirane-2/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "gjendet-nje-person-pa-shenja-jete-ne-tirane"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Rama nuk duhet t\u00EB dor\u00EBhiqet, por duhet t\u00EB shkoj\u00EB n\u00EB zgjedhje",
+      "Tokens": [
+        "ram",
+        "duh",
+        "doreh",
+        "shko",
+        "zgjed"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-nuk-duhet-te-dorehiqet-por-duhet-te-shkoje-ne-zgjedhje/"
+      ],
+      "Articles": {
+        "raporti-sot": "rama-nuk-duhet-te-dorehiqet-por-duhet-te-shkoje-ne-zgjedhje"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Ndahet nga jeta ish-pjes\u00EBtari i Policis\u00EB s\u00EB Kosov\u00EBs, Vehbi Shala",
+      "Tokens": [
+        "ndah",
+        "jet",
+        "ish",
+        "pjese",
+        "polic",
+        "kosov",
+        "vehb",
+        "shal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndahet-nga-jeta-ish-pjesetari-i-policise-se-kosoves-vehbi-shala/"
+      ],
+      "Articles": {
+        "infokosove24": "ndahet-nga-jeta-ish-pjesetari-i-policise-se-kosoves-vehbi-shala"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Uzuni reagon p\u00EBr protestat n\u00EB Shqip\u00EBri: \u201CPolic\u00EB, nderojeni uniform\u00EBn tuaj! Dhuna \u00EBsht\u00EB e papranueshme\u201D",
+      "Tokens": [
+        "uzun",
+        "reago",
+        "prote",
+        "shqip",
+        "polic",
+        "ndero",
+        "unifo",
+        "tuaj",
+        "dhun",
+        "papra"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/uzuni-reagon-per-protestat-ne-shqiperi-police-nderojeni-uniformen-tuaj-dhuna-eshte-e-papranueshme/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "uzuni-reagon-per-protestat-ne-shqiperi-police-nderojeni-uniformen-tuaj-dhuna"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "A do t\u00EB ket\u00EB zgjedhje t\u00EB drejta n\u00EB Serbi fundjav\u00EBn e ardhshme?",
+      "Tokens": [
+        "ket",
+        "zgjed",
+        "drejt",
+        "serb",
+        "fundj",
+        "ardhs"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/zgjedhje-serbi-fundjave-drejta-apo-jo/33878817.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "a-do-te-kete-zgjedhje-te-drejta-ne-serbi-fundjaven-e-ardhshme"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Policia p\u00EBr trupin e pajet\u00EB n\u00EB Lan\u00EB: Viktima rreth 60-vje\u00E7, dyshohet se n\u00EB gjendje t\u00EB dehur \u00EBsht\u00EB hedhur n\u00EB lum\u00EB",
+      "Tokens": [
+        "polic",
+        "trup",
+        "pajet",
+        "lan",
+        "vikti",
+        "rreth",
+        "vjec",
+        "dysho",
+        "gjend",
+        "dehur",
+        "hedhu",
+        "lum"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/policia-per-trupin-e-pajete-ne-lane-viktima-rreth-60-vjec-dyshohet-se-ne-gjendje-te-dehur-eshte-hedhur-ne-lume/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "policia-per-trupin-e-pajete-ne-lane-viktima-rreth-60-vjec-dyshohet-se-ne"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Zelensky: Rusia synon ta fus\u00EB Ukrain\u00EBn n\u00EB err\u00EBsir\u00EB t\u00EB plot\u00EB",
+      "Tokens": [
+        "zelen",
+        "rusi",
+        "synon",
+        "fus",
+        "ukrai",
+        "erres",
+        "plot"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/zelensky-rusia-synon-ukrainen-erresire-plote/33878837.html"
+      ],
+      "Articles": {
+        "raporti-sot": "zelensky-rusia-synon-ta-fuse-ukrainen-ne-erresire-te-plote"
+      }
+    },
+    {
+      "At": "2026-10-18T14:29:56.7912548+00:00",
+      "Title": "Receta ballkanike e pushtetit jet\u00EBgjat\u00EB",
+      "Tokens": [
+        "recet",
+        "ballk",
+        "pusht",
+        "jeteg"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/receta-ballkanike-pushtetit-jetegjate/33877988.html"
+      ],
+      "Articles": {
+        "infokosove24": "receta-ballkanike-e-pushtetit-jetegjate"
+      }
+    },
+    {
       "At": "2026-10-18T09:29:04.4815117+00:00",
       "Title": "\u201CArrestime t\u00EB zyrtar\u00EBve\u201D \u2013 Kryeprokuroria thyen heshtjen, reagon pas raportimeve q\u00EB shkaktuan konfuzion n\u00EB publik",
       "Tokens": [
@@ -11507,259 +11921,6 @@
       ],
       "Articles": {
         "lajme-per-kosove": "kryetari-i-tiranes-eshte-ne-burg-a-po-e-drejton-qytetin-avatari-i-tij-me-ia"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Takimi me Kurtin, presidentja Shiroka-Pula: Bashk\u00EBrendim nd\u00EBrmjet institucioneve, n\u00EB sh\u00EBrbim t\u00EB qytetar\u00EBve dhe vendit",
-      "Tokens": [
-        "takim",
-        "kurt",
-        "presi",
-        "shiro",
-        "pul",
-        "bashk",
-        "nderm",
-        "insti",
-        "sherb",
-        "qytet",
-        "vend"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/shiroka-pula-ia-shpreh-kurtit-gatishmerine-per-bashkepunim-ne-sherbim-te-interesave-te-kosoves/",
-        "https://telegrafi.com/takimi-me-kurtin-presidentja-shiroka-pula-bashkerendim-ndermjet-institucioneve-ne-sherbim-te-qytetareve-dhe-vendit/"
-      ],
-      "Articles": {
-        "raporti-sot": "shiroka-pula-ia-shpreh-kurtit-gatishmerine-per-bashkepunim-ne-sherbim-te"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Kurti pas takimit me presidenten Shiroka-Pula: Nuk kemi koh\u00EB p\u00EBr t\u00EB humbur, do t\u00EB bashk\u00EBrendohemi p\u00EBr sfidat shtet\u00EBrore",
-      "Tokens": [
-        "kurt",
-        "takim",
-        "presi",
-        "shiro",
-        "pul",
-        "kem",
-        "koh",
-        "humbu",
-        "bashk",
-        "sfida",
-        "shtet"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kurti-pas-takimit-me-presidenten-skemi-kohe-per-te-humbur-duhet-te-behemi-bashke-per-shume-sfida-shteterore/",
-        "https://telegrafi.com/kurti-deklarohet-pas-takimit-me-presidenten-shiroka-pula-nuk-kemi-kohe-per-te-humbur-do-te-bashkerendohemi-per-sfidat-shteterore/"
-      ],
-      "Articles": {
-        "infokosove24": "kurti-pas-takimit-me-presidenten-s-kemi-kohe-per-te-humbur-duhet-te-behemi"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Dogana konfirmon raportimin ekskluziv t\u00EB Sinjalit p\u00EBr kapjen e mbi 30 mij\u00EB eurove n\u00EB pik\u00EBn kufitare n\u00EB B\u00EBrnjak",
-      "Tokens": [
-        "dogan",
-        "konfi",
-        "rapor",
-        "ekskl",
-        "sinja",
-        "kapj",
-        "mij",
-        "euro",
-        "pik",
-        "kufit",
-        "bernj"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/dogana-konfirmon-raportimin-ekskluziv-te-sinjalit-per-kapjen-e-mbi-30-mije-eurove-ne-piken-kufitare-ne-bernjak/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "dogana-konfirmon-raportimin-ekskluziv-te-sinjalit-per-kapjen-e-mbi-30-mije"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Klubi kosovar n\u00EB bisedime me ish-trajnerin e Baselit",
-      "Tokens": [
-        "klub",
-        "kosov",
-        "bised",
-        "ish",
-        "trajn",
-        "basel"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/klubi-kosovar-ne-bisedime-me-ish-trajnerin-e-baselit/"
-      ],
-      "Articles": {
-        "kosova-fakt": "klubi-kosovar-ne-bisedime-me-ish-trajnerin-e-baselit"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Tragjedi n\u00EB Ukrain\u00EB: Bombat ruse godasin dy autobus\u00EB, 30 t\u00EB vrar\u00EB e 18 t\u00EB plagosur",
-      "Tokens": [
-        "tragj",
-        "ukra",
-        "bomba",
-        "rus",
-        "godas",
-        "autob",
-        "vrar",
-        "plago"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/tragjedi-ne-ukraine-bombat-ruse-godasin-dy-autobuse-30-te-vrare-e-18-te-plagosur/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "tragjedi-ne-ukraine-bombat-ruse-godasin-dy-autobuse-30-te-vrare-e-18-te-plagosur"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Tahiri p\u00EBr ndryshimet n\u00EB Ligjin e Speciales: Nuk e zhb\u00EBjn\u00EB Gjykat\u00EBn, por synojn\u00EB ta p\u00EBrmir\u00EBsojn\u00EB",
-      "Tokens": [
-        "tahir",
-        "ndrys",
-        "ligj",
-        "speci",
-        "zhbej",
-        "gjyka",
-        "synoj",
-        "permi"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/tahiri-per-ndryshimet-ne-ligjin-e-speciales-nuk-e-zhbejne-gjykaten-por-synojne-ta-permiresojne/"
-      ],
-      "Articles": {
-        "raporti-sot": "tahiri-per-ndryshimet-ne-ligjin-e-speciales-nuk-e-zhbejne-gjykaten-por-synojne"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Nj\u00EB i l\u00EBnduar n\u00EB aksidentin mes kamionit dhe vetur\u00EBs n\u00EB Klin\u00EB",
-      "Tokens": [
-        "lendu",
-        "aksid",
-        "mes",
-        "kamio",
-        "vetur",
-        "klin"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/nje-i-lenduar-ne-aksidentin-mes-kamionit-dhe-vetures-ne-kline/"
-      ],
-      "Articles": {
-        "infokosove24": "nje-i-lenduar-ne-aksidentin-mes-kamionit-dhe-vetures-ne-kline"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "A po kopjoni rutinat e bukuris\u00EB n\u00EB TikTok? Ja \u00E7far\u00EB mund t\u2019i ndodh\u00EB l\u00EBkur\u00EBs",
-      "Tokens": [
-        "kopjo",
-        "rutin",
-        "bukur",
-        "tikto",
-        "mund",
-        "ndodh",
-        "lekur"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/a-po-kopjoni-rutinat-e-bukurise-ne-tiktok-ja-cfare-mund-ti-ndodhe-lekures/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "a-po-kopjoni-rutinat-e-bukurise-ne-tiktok-ja-cfare-mund-t-i-ndodhe-lekures"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "LEX | \u201CM\u00EB rrihnin e m\u00EB maltretonin\u201D \u2013 D\u00EBshmi trondit\u00EBse n\u00EB gjykimin e Nadica \u00C7epkenoviqit, e d\u00EBmtuara nuk ndihet mir\u00EB gjat\u00EB rr\u00EBfimit n\u00EB gjykat\u00EB",
-      "Tokens": [
-        "lex",
-        "rrihn",
-        "maltr",
-        "deshm",
-        "trond",
-        "gjyki",
-        "nadic",
-        "cepke",
-        "demtu",
-        "ndih",
-        "mir",
-        "rrefi",
-        "gjyka"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/lex-me-rrihnin-e-me-maltretonin-deshmi-tronditese-ne-gjykimin-e-nadica-cepkenoviqit-e-demtuara-nuk-ndihet-mire-gjate-rrefimit-ne-gjykate/"
-      ],
-      "Articles": {
-        "kosova-fakt": "lex-me-rrihnin-e-me-maltretonin-deshmi-tronditese-ne-gjykimin-e-nadica"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Ndodh edhe kjo: Pasagjeri kapet n\u00EB aeroport me 10 zogj t\u00EB gjall\u00EB t\u00EB fshehur n\u00EB t\u00EB brendshme",
-      "Tokens": [
-        "ndodh",
-        "pasag",
-        "kap",
-        "aerop",
-        "zogj",
-        "gjall",
-        "fsheh",
-        "brend"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ndodh-edhe-kjo-pasagjeri-kapet-ne-aeroport-me-10-zogj-te-gjalle-te-fshehur-ne-te-brendshme/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "ndodh-edhe-kjo-pasagjeri-kapet-ne-aeroport-me-10-zogj-te-gjalle-te-fshehur-ne"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Asnj\u00EB vend i sigurt: Si i ndjekin Irani dhe Rusia kund\u00EBrshtar\u00EBt e tyre n\u00EB m\u00EBrgim",
-      "Tokens": [
-        "asn",
-        "vend",
-        "sigur",
-        "ndjek",
-        "iran",
-        "rusi",
-        "kunde",
-        "mergi"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/irani-rusia-ndjekin-kundershtaret-mergim/33872688.html"
-      ],
-      "Articles": {
-        "raporti-sot": "asnje-vend-i-sigurt-si-i-ndjekin-irani-dhe-rusia-kundershtaret-e-tyre-ne-mergim"
-      }
-    },
-    {
-      "At": "2026-10-08T11:57:03.8552006+00:00",
-      "Title": "Kompjuter\u00EB rus\u00EB, telefona amerikan\u00EB, llaptopi i Hunter Bidenit u thyen me nj\u00EB softuer t\u00EB fuqish\u00EBm rus....",
-      "Tokens": [
-        "kompj",
-        "rus",
-        "telef",
-        "ameri",
-        "llapt",
-        "hunte",
-        "biden",
-        "thy",
-        "softu",
-        "fuqis"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/softuer-rus-oxygen-forensics/33872093.html"
-      ],
-      "Articles": {
-        "infokosove24": "kompjutere-ruse-telefona-amerikane-llaptopi-i-hunter-bidenit-u-thyen-me-nje"
       }
     }
   ]
