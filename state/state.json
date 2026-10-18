@@ -1,6 +1,471 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 3,
   "Published": [
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "PDK-ja p\u00EBr raportimet p\u00EBr largimin e Bedri Hamz\u00EBs: Nuk ka asnj\u00EB vendim zyrtar",
+      "Tokens": [
+        "pdk",
+        "rapor",
+        "largi",
+        "bedr",
+        "hamz",
+        "asn",
+        "vendi",
+        "zyrta"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pdk-ja-per-largimin-e-bedri-hamzes-do-te-jape-doreheqje-nuk-do-te-kandidoje-me-per-kryetar/",
+        "https://telegrafi.com/pdk-ja-per-raportimet-per-largimin-e-bedri-hamzes-nuk-ka-asnje-vendim-zyrtar/",
+        "https://telegrafi.com/raportimet-per-largimin-e-hamzes-nga-pdk-ja-flasin-ganimete-musliu-dhe-xhavit-haliti/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "pdk-ja-per-largimin-e-bedri-hamzes-do-te-jape-doreheqje-nuk-do-te-kandidoje-me"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "DRIDHET PDK \u2013 Bedri Hamza jep dor\u00EBheqje nga kreu i partis\u00EB",
+      "Tokens": [
+        "dridh",
+        "pdk",
+        "bedr",
+        "hamz",
+        "jep",
+        "doreh",
+        "kre",
+        "part"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pdk-thote-se-bedri-hamza-jep-doreheqje-pasi-te-shpallen-zgjedhjet-ne-parti-dhe-nuk-rikandidon/",
+        "https://sinjali.com/dridhet-pdk-bedri-hamza-jep-doreheqje-nga-kreu-i-partise/"
+      ],
+      "Articles": {
+        "kosova-fakt": "dridhet-pdk-bedri-hamza-jep-doreheqje-nga-kreu-i-partise"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Zbarkon RENEA n\u00EB bulevard, forcat speciale n\u00EB mbrojtje t\u00EB Kryeministris\u00EB",
+      "Tokens": [
+        "zbark",
+        "rene",
+        "bulev",
+        "forca",
+        "speci",
+        "mbroj",
+        "kryem"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tensionet-ne-tirane-forcat-speciale-renea-zbarkojne-te-kryeministria-blindohet-objekti-qeveritar/",
+        "https://telegrafi.com/zbarkon-renea-ne-bulevard-forcat-speciale-ne-mbrojtje-te-kryeministrise/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "tensionet-ne-tirane-forcat-speciale-renea-zbarkojne-te-kryeministria-blindohet"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "\u201CFranca po digjet\u201D, Trump reagon ndaj protestave t\u00EB dhunshme: Mbyllni kufijt\u00EB dhe merrni kontrollin",
+      "Tokens": [
+        "franc",
+        "digj",
+        "trump",
+        "reago",
+        "ndaj",
+        "prote",
+        "dhuns",
+        "mbyll",
+        "kufij",
+        "merrn",
+        "kontr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/franca-po-digjet-trump-reagon-ndaj-protestave-te-dhunshme-mbyllni-kufijte-dhe-merrni-kontrollin/"
+      ],
+      "Articles": {
+        "raporti-sot": "franca-po-digjet-trump-reagon-ndaj-protestave-te-dhunshme-mbyllni-kufijte-dhe"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Protestuesit i v\u00EBn\u00EB zjarrin Ministris\u00EB s\u00EB Infrastruktur\u00EBs",
+      "Tokens": [
+        "prote",
+        "ven",
+        "zjarr",
+        "minis",
+        "infra"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/protestuesit-i-vene-zjarrin-ministrise-se-infrastruktures/"
+      ],
+      "Articles": {
+        "infokosove24": "protestuesit-i-vene-zjarrin-ministrise-se-infrastruktures"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Dy zjarre brenda 35 minutave n\u00EB Klin\u00EB, Policia identifikon p\u00EBrgjegj\u00EBsit \u2013 gjobiten me nga 500 euro",
+      "Tokens": [
+        "zjarr",
+        "brend",
+        "minut",
+        "klin",
+        "polic",
+        "ident",
+        "pergj",
+        "gjobi",
+        "500",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dy-zjarre-brenda-35-minutave-ne-kline-policia-identifikon-pergjegjesit-gjobiten-me-nga-500-euro/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "dy-zjarre-brenda-35-minutave-ne-kline-policia-identifikon-pergjegjesit-gjobiten"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Trazirat n\u00EB Tiran\u00EB, protestuesit i v\u00EBn\u00EB flak\u00EBn Komisariatit nr.3 dhe Ministris\u00EB s\u00EB Pun\u00EBve t\u00EB Brendshme",
+      "Tokens": [
+        "trazi",
+        "tiran",
+        "prote",
+        "ven",
+        "flak",
+        "komis",
+        "minis",
+        "pun",
+        "brend"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/trazirat-ne-tirane-protestuesit-i-vene-flaken-komisariatit-nr-3-dhe-ministrise-se-puneve-te-brendshme/"
+      ],
+      "Articles": {
+        "kosova-fakt": "trazirat-ne-tirane-protestuesit-i-vene-flaken-komisariatit-nr-3-dhe-ministrise"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Kosova shk\u00EBlqen n\u00EB Kup\u00EBn Bot\u00EBrore t\u00EB kikboksit n\u00EB Uzbekistan, Nart Kastrati dhe Art Dulaj fitojn\u00EB dy medalje",
+      "Tokens": [
+        "kosov",
+        "shkel",
+        "kup",
+        "boter",
+        "kikbo",
+        "uzbek",
+        "nart",
+        "kastr",
+        "art",
+        "dulaj",
+        "fitoj",
+        "medal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kosova-shkelqen-ne-kupen-boterore-te-kikboksit-ne-uzbekistan-nart-kastrati-dhe-art-dulaj-fitojne-dy-medalje/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kosova-shkelqen-ne-kupen-boterore-te-kikboksit-ne-uzbekistan-nart-kastrati-dhe"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Incident mes t\u00EB miturve n\u00EB Pej\u00EB: Nj\u00EBri p\u00EBrfundon n\u00EB emergjenc\u00EB, tjetri arrestohet",
+      "Tokens": [
+        "incid",
+        "mes",
+        "mitur",
+        "pej",
+        "njer",
+        "perfu",
+        "emerg",
+        "tjetr",
+        "arres"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/incident-mes-te-miturve-ne-peje-njeri-perfundon-ne-emergjence-tjetri-arrestohet/"
+      ],
+      "Articles": {
+        "raporti-sot": "incident-mes-te-miturve-ne-peje-njeri-perfundon-ne-emergjence-tjetri-arrestohet"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Pes\u00EB ish-yjet e Realit flasin p\u00EBr Valverden, disa prej tyre pajtohen q\u00EB ai t\u00EB nd\u00EBrroj\u00EB pozicion",
+      "Tokens": [
+        "pes",
+        "ish",
+        "yjet",
+        "real",
+        "flas",
+        "valve",
+        "dis",
+        "pajto",
+        "nderr",
+        "pozic"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pese-ish-yjet-e-realit-flasin-per-valverden-disa-prej-tyre-pajtohen-qe-ai-te-nderroje-pozicion/"
+      ],
+      "Articles": {
+        "infokosove24": "pese-ish-yjet-e-realit-flasin-per-valverden-disa-prej-tyre-pajtohen-qe-ai-te"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Ali Ahmeti b\u00EBn thirrje p\u00EBr qet\u00EBsi: \u201CShqip\u00EBria q\u00EB digjet \u00EBsht\u00EB humbje p\u00EBr secilin prej nesh\u201D",
+      "Tokens": [
+        "ali",
+        "ahmet",
+        "ben",
+        "thirr",
+        "qetes",
+        "shqip",
+        "digj",
+        "humb",
+        "secil",
+        "nesh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ali-ahmeti-ben-thirrje-per-qetesi-shqiperia-qe-digjet-eshte-humbje-per-secilin-prej-nesh/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ali-ahmeti-ben-thirrje-per-qetesi-shqiperia-qe-digjet-eshte-humbje-per-secilin"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Inspektorati i Mjedisit ndalon punimet e nj\u00EB kompanie dhe shqipton tri gjoba \u2013 evidentohen mang\u00EBsi edhe n\u00EB Termocentralin Kosova A",
+      "Tokens": [
+        "inspe",
+        "mjedi",
+        "ndalo",
+        "punim",
+        "kompa",
+        "shqip",
+        "tri",
+        "gjob",
+        "evide",
+        "mange",
+        "termo",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/inspektorati-i-mjedisit-ndalon-punimet-e-nje-kompanie-dhe-shqipton-tri-gjoba-evidentohen-mangesi-edhe-ne-termocentralin-kosova-a/"
+      ],
+      "Articles": {
+        "kosova-fakt": "inspektorati-i-mjedisit-ndalon-punimet-e-nje-kompanie-dhe-shqipton-tri-gjoba"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Brukseli d\u00EBnon sulmet dhe zjarr\u00EBv\u00EBniet ndaj institucioneve n\u00EB Shqip\u00EBri, k\u00EBrkon q\u00EB p\u00EBrgjigja e policis\u00EB t\u00EB jet\u00EB proporcionale",
+      "Tokens": [
+        "bruks",
+        "denon",
+        "sulm",
+        "zjarr",
+        "ndaj",
+        "insti",
+        "shqip",
+        "kerko",
+        "pergj",
+        "polic",
+        "jet",
+        "propo"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/brukseli-denonsulmetdhe-zjarreveniet-ndaj-institucioneve-ne-shqiperi-kerkon-qe-pergjigja-e-policise-te-jete-proporcionale/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "brukseli-denon-sulmet-dhe-zjarreveniet-ndaj-institucioneve-ne-shqiperi-kerkon"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Goditet me mjet t\u00EB mpreht\u00EB nj\u00EB i mitur n\u00EB Pej\u00EB, arrestohet i dyshuari \u2013 edhe ai i mitur i familjes Elshani",
+      "Tokens": [
+        "godit",
+        "mjet",
+        "mpreh",
+        "mitur",
+        "pej",
+        "arres",
+        "dyshu",
+        "famil",
+        "elsha"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/goditet-me-mjet-te-mprehte-nje-i-mitur-ne-peje-arrestohet-i-dyshuari-edhe-ai-i-mitur-i-familjes-elshani/"
+      ],
+      "Articles": {
+        "raporti-sot": "goditet-me-mjet-te-mprehte-nje-i-mitur-ne-peje-arrestohet-i-dyshuari-edhe-ai-i"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Protestat e dhunshme n\u00EB Shqip\u00EBri, Lladrovci k\u00EBrkon shtyrjen e ekskursionit t\u00EB maturant\u00EBve t\u00EB Drenasit: Siguria e tyre mbi gjith\u00E7ka",
+      "Tokens": [
+        "prote",
+        "dhuns",
+        "shqip",
+        "lladr",
+        "kerko",
+        "shtyr",
+        "eksku",
+        "matur",
+        "drena",
+        "sigur",
+        "gjith"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestat-e-dhunshme-ne-shqiperi-lladrovci-kerkon-shtyrjen-e-ekskursionit-te-maturanteve-te-drenasit-siguria-e-tyre-mbi-gjithcka/"
+      ],
+      "Articles": {
+        "infokosove24": "protestat-e-dhunshme-ne-shqiperi-lladrovci-kerkon-shtyrjen-e-ekskursionit-te"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Manchester United nuk gjen qet\u00EBsi, ndalet edhe nga Leeds \u2013 \u201CDjajt\u00EB e Kuq\u201D vazhdojn\u00EB me rezultate zhg\u00EBnjyese",
+      "Tokens": [
+        "manch",
+        "unite",
+        "gjen",
+        "qetes",
+        "ndal",
+        "leeds",
+        "djajt",
+        "kuq",
+        "vazhd",
+        "rezul",
+        "zhgen"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/manchester-united-nuk-gjen-qetesi-ndalet-edhe-nga-leeds-djajte-e-kuq-vazhdojne-me-rezultate-zhgenjyese/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "manchester-united-nuk-gjen-qetesi-ndalet-edhe-nga-leeds-djajte-e-kuq-vazhdojne"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "P\u00EBrshkall\u00EBzohet m\u00EB tej protesta n\u00EB Tiran\u00EB, Policia i p\u00EBrgjigjet me plumba gome bresh\u00EBris\u00EB s\u00EB molotov\u00EBve",
+      "Tokens": [
+        "persh",
+        "tej",
+        "prote",
+        "tiran",
+        "polic",
+        "pergj",
+        "plumb",
+        "gom",
+        "bresh",
+        "molot"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pershkallezohet-me-tej-protesta-ne-tirane-policia-i-pergjigjet-me-plumba-gome-bresherise-se-molotoveve/"
+      ],
+      "Articles": {
+        "kosova-fakt": "pershkallezohet-me-tej-protesta-ne-tirane-policia-i-pergjigjet-me-plumba-gome"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Nga Tirana n\u00EB Prishtin\u00EB, a mund t\u00EB p\u00EBrhapet vala e protestave? A rrezikon edhe Qeveria Kurti t\u00EB p\u00EBrballet me pak\u00EBnaq\u00EBsi qytetare?",
+      "Tokens": [
+        "tiran",
+        "prish",
+        "mund",
+        "perha",
+        "val",
+        "prote",
+        "rrezi",
+        "qever",
+        "kurt",
+        "perba",
+        "paken",
+        "qytet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nga-tirana-ne-prishtine-a-mund-te-perhapet-vala-e-protestave-a-rrezikon-edhe-qeveria-kurti-te-perballet-me-pakenaqesi-qytetare/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nga-tirana-ne-prishtine-a-mund-te-perhapet-vala-e-protestave-a-rrezikon-edhe"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Apeli i krer\u00EBve fetar\u00EB n\u00EB Shqip\u00EBri pas takimit me presidentin: Qytetar\u00EBt t\u00EB d\u00EBgjohen, zgjidhni dialogun mbi konfliktin",
+      "Tokens": [
+        "apel",
+        "krer",
+        "fetar",
+        "shqip",
+        "takim",
+        "presi",
+        "qytet",
+        "degjo",
+        "zgjid",
+        "dialo",
+        "konfl"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/apeli-i-krereve-fetare-ne-shqiperi-pas-takimit-me-presidentin-qytetaret-te-degjohen-zgjidhni-dialogun-mbi-konfliktin/"
+      ],
+      "Articles": {
+        "raporti-sot": "apeli-i-krereve-fetare-ne-shqiperi-pas-takimit-me-presidentin-qytetaret-te"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Protestat e dhunshme n\u00EB Tiran\u00EB, reagon raportuesi i Parlamentit Evropian: Ndaloni p\u00EBrshkall\u00EBzimin, dhuna nuk \u00EBsht\u00EB zgjidhje",
+      "Tokens": [
+        "prote",
+        "dhuns",
+        "tiran",
+        "reago",
+        "rapor",
+        "parla",
+        "evrop",
+        "ndalo",
+        "persh",
+        "dhun",
+        "zgjid"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/protestat-e-dhunshme-ne-tirane-reagon-raportuesi-i-parlamentit-evropian-ndaloni-pershkallezimin-dhuna-nuk-eshte-zgjidhje/"
+      ],
+      "Articles": {
+        "infokosove24": "protestat-e-dhunshme-ne-tirane-reagon-raportuesi-i-parlamentit-evropian-ndaloni"
+      }
+    },
+    {
+      "At": "2026-10-18T18:01:19.9133691+00:00",
+      "Title": "Trophylab: Qindra kompani t\u00EB huaja sigurojn\u00EB qasje n\u00EB hulumtimet mbi arm\u00EBt ruse t\u00EB kapura n\u00EB Ukrain\u00EB",
+      "Tokens": [
+        "troph",
+        "qindr",
+        "kompa",
+        "hua",
+        "sigur",
+        "qas",
+        "hulum",
+        "arm",
+        "rus",
+        "kapur",
+        "ukra"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/trophylab-arme-ruse-kapura-ukraina/33877778.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "trophylab-qindra-kompani-te-huaja-sigurojne-qasje-ne-hulumtimet-mbi-armet-ruse"
+      }
+    },
     {
       "At": "2026-10-18T14:29:56.7912548+00:00",
       "Title": "Mes protestave dhe tensioneve n\u00EB Tiran\u00EB, Edi Rama anulon vizit\u00EBn zyrtare n\u00EB Austri",
