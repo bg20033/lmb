@@ -1,6 +1,348 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Rama: Le t\u2019ua v\u00EBm\u00EB Loj\u00EBrave Mesdhetare emrin \u201CAlbin Kurti 2030\u201D, vet\u00EBm t\u00EB mos i humbim",
+      "Tokens": [
+        "ram",
+        "vem",
+        "lojer",
+        "mesdh",
+        "emr",
+        "alb",
+        "kurt",
+        "2030",
+        "humbi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-le-tua-veme-lojerave-mesdhetare-emrin-albin-kurti-2030-vetem-te-mos-i-humbim/",
+        "https://telegrafi.com/rama-le-tua-veme-lojerave-mesdhetare-emrin-albin-kurti-2030-vetem-te-mos-i-humbim/"
+      ],
+      "Articles": {
+        "infokosove24": "rama-le-t-ua-veme-lojerave-mesdhetare-emrin-albin-kurti-2030-vetem-te-mos-i"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Haradinaj kritikon Konjufc\u00EBn pas fjalimit n\u00EB OKB p\u00EBr vendimin e Speciales: \u201CMarre, Glauk!\u201D",
+      "Tokens": [
+        "harad",
+        "kriti",
+        "konju",
+        "fjali",
+        "okb",
+        "vendi",
+        "speci",
+        "marr",
+        "glauk"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/haradinaj-kritikon-konjufcen-pas-fjalimit-ne-okb-per-kreret-e-uck-se-marre-glauk/",
+        "https://sinjali.com/daut-haradinaj-kritikon-konjufcen-per-paraqitjen-ne-okb-marre-glauk-bota-po-na-sheh-cuditshem/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "daut-haradinaj-kritikon-konjufcen-per-paraqitjen-ne-okb-marre-glauk-bota-po-na"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Ronaldo, m\u00EB i miri i t\u00EB gjitha koh\u00EBrave?! Superylli portugez po e fiton \u2018gar\u00EBn\u2019 me Messin",
+      "Tokens": [
+        "ronal",
+        "mir",
+        "gjith",
+        "koher",
+        "super",
+        "portu",
+        "fiton",
+        "gar",
+        "mess"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ronaldo-me-i-miri-i-te-gjitha-koherave-superylli-portugez-po-e-fiton-garen-me-messin/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ronaldo-me-i-miri-i-te-gjitha-koherave-superylli-portugez-po-e-fiton-garen-me"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Konjufca -Gjuriqit n\u00EB KS t\u00EB OKB: Si mund t\u00EB jemi ekstremist\u00EB kur kemi zgjedhur nj\u00EB presidente t\u00EB fes\u00EB katolike",
+      "Tokens": [
+        "konju",
+        "gjuri",
+        "okb",
+        "mund",
+        "jem",
+        "ekstr",
+        "kem",
+        "zgjed",
+        "presi",
+        "fes",
+        "katol"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/konjufca-gjuriqit-ne-ks-te-okb-si-mund-te-jemi-ekstremiste-kur-kemi-zgjedhur-nje-presidente-te-fese-katolike/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "konjufca-gjuriqit-ne-ks-te-okb-si-mund-te-jemi-ekstremiste-kur-kemi-zgjedhur"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Llapi p\u00EBrforcohet me ish-lojtarin e Ajaxit dhe Sivassporit",
+      "Tokens": [
+        "llap",
+        "perfo",
+        "ish",
+        "lojta",
+        "ajax",
+        "sivas"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/llapi-perforcohet-me-ish-lojtarin-e-ajaxit-dhe-sivassporit/"
+      ],
+      "Articles": {
+        "raporti-sot": "llapi-perforcohet-me-ish-lojtarin-e-ajaxit-dhe-sivassporit"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "T\u00EB pakt\u00EBn 153 t\u00EB vrar\u00EB nga sulmi me dron n\u00EB Sudan, flak\u00EBt p\u00EBrfshijn\u00EB tregun",
+      "Tokens": [
+        "pakt",
+        "153",
+        "vrar",
+        "sulm",
+        "dron",
+        "sudan",
+        "flak",
+        "perfs",
+        "tregu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/te-pakten-153-te-vrare-nga-sulmi-me-dron-ne-sudan-flaket-perfshijne-tregun/"
+      ],
+      "Articles": {
+        "infokosove24": "te-pakten-153-te-vrare-nga-sulmi-me-dron-ne-sudan-flaket-perfshijne-tregun"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "ShBA-ja thirrje Kosov\u00EBs dhe Serbis\u00EB: T\u00EB nd\u00EBrmarrin hapa konkret\u00EB p\u00EBr nd\u00EBrtimin e besimit",
+      "Tokens": [
+        "shb",
+        "thirr",
+        "kosov",
+        "serb",
+        "nderm",
+        "hap",
+        "konkr",
+        "ndert",
+        "besim"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shba-ja-thirrje-kosoves-dhe-serbise-te-ndermarrin-hapa-konkrete-per-ndertimin-e-besimit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shba-ja-thirrje-kosoves-dhe-serbise-te-ndermarrin-hapa-konkrete-per-ndertimin-e"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Parashikimi i motit p\u00EBr t\u00EB m\u00EBrkur\u00EBn",
+      "Tokens": [
+        "paras",
+        "mot",
+        "merku"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/parashikimi-i-motit-per-te-merkuren-39/"
+      ],
+      "Articles": {
+        "kosova-fakt": "parashikimi-i-motit-per-te-merkuren"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Dyshime p\u00EBr nxjerrje t\u00EB paligjshme t\u00EB dokumenteve zyrtare n\u00EB Leposaviq, nj\u00EB person ndalohet p\u00EBr 48 or\u00EB",
+      "Tokens": [
+        "dyshi",
+        "nxjer",
+        "palig",
+        "dokum",
+        "zyrta",
+        "lepos",
+        "perso",
+        "ndalo",
+        "ore"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dyshime-per-nxjerrje-te-paligjshme-te-dokumenteve-zyrtare-ne-leposaviq-nje-person-ndalohet-per-48-ore/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dyshime-per-nxjerrje-te-paligjshme-te-dokumenteve-zyrtare-ne-leposaviq-nje"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Policia ndalon kamionin me shtat\u00EB krer\u00EB gjedhe n\u00EB kufi me Serbin\u00EB, shoferi ik\u00EBn",
+      "Tokens": [
+        "polic",
+        "ndalo",
+        "kamio",
+        "shtat",
+        "krer",
+        "gjedh",
+        "kuf",
+        "serb",
+        "shofe",
+        "iken"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policia-ndalon-kamionin-me-shtate-krere-gjedhe-ne-kufi-me-serbine-shoferi-iken/"
+      ],
+      "Articles": {
+        "raporti-sot": "policia-ndalon-kamionin-me-shtate-krere-gjedhe-ne-kufi-me-serbine-shoferi-iken"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Me 3.35 promil\u00EB alkool, shkel urdhrin e mbrojtjes dhe shkon te vendi i pun\u00EBs s\u00EB gruas n\u00EB Gjakov\u00EB \u2013 p\u00EBrfundon n\u00EB ndalim",
+      "Tokens": [
+        "promi",
+        "alkoo",
+        "shkel",
+        "urdhr",
+        "mbroj",
+        "shkon",
+        "vend",
+        "pun",
+        "gruas",
+        "gjako",
+        "perfu",
+        "ndali"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/me-3-35-promile-alkool-shkel-urdhrin-e-mbrojtjes-dhe-shkon-te-vendi-i-punes-se-gruas-ne-gjakove-perfundon-ne-ndalim/"
+      ],
+      "Articles": {
+        "infokosove24": "me-3-35-promile-alkool-shkel-urdhrin-e-mbrojtjes-dhe-shkon-te-vendi-i-punes-se"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Ekskluzive | Ky \u00EBsht\u00EB turku q\u00EB sulmoi dy polic\u00EB me shqelma pas rrahjes n\u00EB Prishtin\u00EB, u kap me 1.14 promil\u00EB alkool",
+      "Tokens": [
+        "turk",
+        "sulmo",
+        "polic",
+        "shqel",
+        "rrahj",
+        "prish",
+        "kap",
+        "promi",
+        "alkoo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-ky-eshte-turku-qe-sulmoi-dy-police-me-shqelma-pas-rrahjes-ne-prishtine-u-kap-me-1-14-promile-alkool/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ekskluzive-ky-eshte-turku-qe-sulmoi-dy-police-me-shqelma-pas-rrahjes-ne"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Konjufca p\u00EBr d\u00EBnimet e Speciales n\u00EB OKB: Kan\u00EB gabime, presim t\u00EB korrigjohen n\u00EB apel",
+      "Tokens": [
+        "konju",
+        "denim",
+        "speci",
+        "okb",
+        "gabim",
+        "presi",
+        "korri",
+        "apel"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/konjufca-per-denimet-e-speciales-ne-okb-kane-gabime-presim-te-korrigjohen-ne-apel/"
+      ],
+      "Articles": {
+        "kosova-fakt": "konjufca-per-denimet-e-speciales-ne-okb-kane-gabime-presim-te-korrigjohen-ne"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Tragjike n\u00EB Ferizaj | Vdes n\u00EB QKUK 68-vje\u00E7ari q\u00EB p\u00EBsoi djegie t\u00EB r\u00EBnda \u2013 familjar\u00EBt kishin nd\u00EBrhyr\u00EB p\u00EBr ta shp\u00EBtuar",
+      "Tokens": [
+        "tragj",
+        "feriz",
+        "vdes",
+        "qkuk",
+        "vjeca",
+        "peso",
+        "djegi",
+        "rend",
+        "famil",
+        "kish",
+        "nderh",
+        "shpet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/tragjike-ne-ferizaj-vdes-ne-qkuk-68-vjecari-qe-pesoi-djegie-te-renda-familjaret-kishin-nderhyre-per-ta-shpetuar/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "tragjike-ne-ferizaj-vdes-ne-qkuk-68-vjecari-qe-pesoi-djegie-te-renda-familjaret"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "Sulmohet mjeku n\u00EB Emergjenc\u00EBn e Vushtrris\u00EB \u2013 pacienti k\u00EBrkon me ngulm kontrollin, e godet dhe e shtyn pas mosmarr\u00EBveshjes",
+      "Tokens": [
+        "sulmo",
+        "mjek",
+        "emerg",
+        "vusht",
+        "pacie",
+        "kerko",
+        "ngulm",
+        "kontr",
+        "god",
+        "shtyn",
+        "mosma"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sulmohet-mjeku-ne-emergjencen-e-vushtrrise-pacienti-kerkon-me-ngulm-kontrollin-e-godet-dhe-e-shtyn-pas-mosmarreveshjes/"
+      ],
+      "Articles": {
+        "raporti-sot": "sulmohet-mjeku-ne-emergjencen-e-vushtrrise-pacienti-kerkon-me-ngulm-kontrollin"
+      }
+    },
+    {
+      "At": "2026-10-20T23:47:54.1512448+00:00",
+      "Title": "SHBA n\u00EB KS t\u00EB OKB: Paqja mes Kosov\u00EBs dhe Serbis\u00EB \u00EBsht\u00EB esenciale, Presidenti Trump admiron t\u00EB dyja vendet",
+      "Tokens": [
+        "shb",
+        "okb",
+        "paq",
+        "mes",
+        "kosov",
+        "serb",
+        "esenc",
+        "presi",
+        "trump",
+        "admir",
+        "dyj",
+        "vend"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/shba-ne-ks-te-okb-paqja-mes-kosoves-dhe-serbise-eshte-esenciale-presidenti-trump-admiron-te-dyja-vendet/"
+      ],
+      "Articles": {
+        "infokosove24": "shba-ne-ks-te-okb-paqja-mes-kosoves-dhe-serbise-eshte-esenciale-presidenti"
+      }
+    },
     {
       "At": "2026-10-20T20:28:37.6788356+00:00",
       "Title": "Shefi i UNMIK-ut n\u00EB OKB k\u00EBrkon p\u00EBrgjegj\u00EBsi p\u00EBr Banjsk\u00EBn dhe sulmin n\u00EB Ib\u00EBr-Lepenc",
@@ -13540,309 +13882,6 @@
       ],
       "Articles": {
         "kosova-aktuale": "rusia-i-gezohet-deklaratave-te-trumpit-per-largimin-e-zelenskyt"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Pas marr\u00EBveshjes Trump-Putin, Kallas: Evropa nuk do ta leht\u00EBsoj\u00EB presionin ndaj Rusis\u00EB",
-      "Tokens": [
-        "marre",
-        "trump",
-        "put",
-        "kalla",
-        "evrop",
-        "lehte",
-        "presi",
-        "ndaj",
-        "rus"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/pas-raportimeve-per-marreveshjen-trump-putin-kallas-be-ja-nuk-do-ta-ule-presionin-ndaj-rusise/",
-        "https://telegrafi.com/pas-marreveshjes-trump-putin-kallas-evropa-nuk-do-ta-lehtesoje-presionin-ndaj-rusise/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "pas-raportimeve-per-marreveshjen-trump-putin-kallas-be-ja-nuk-do-ta-ule"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Qeveria e Kosov\u00EBs: Prania e Radoi\u00E7iqit n\u00EB tubimin e SNS-s\u00EB d\u00EBshmon se Serbia q\u00EBndroi pas sulmit n\u00EB Banjsk\u00EB",
-      "Tokens": [
-        "qever",
-        "kosov",
-        "prani",
-        "radoi",
-        "tubim",
-        "sns",
-        "deshm",
-        "serbi",
-        "qendr",
-        "sulm",
-        "banjs"
-      ],
-      "SourceUrls": [
-        "https://telegrafi.com/qeveria-e-kosoves-prania-e-radoiciqit-ne-tubimin-e-sns-se-deshmon-se-serbia-qendroi-pas-sulmit-ne-banjske/",
-        "https://www.evropaelire.org/a/radoicic-vucic-qeveria-e-kosoves-/33874233.html"
-      ],
-      "Articles": {
-        "kosova-fakt": "qeveria-e-kosoves-prania-e-radoiciqit-ne-tubimin-e-sns-se-deshmon-se-serbia"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Historianit nga Ekuadori i b\u00EBn p\u00EBrshtypje zgjedhja e presidentes katolike n\u00EB Kosov\u00EB: Na fton t\u00EB reflektojm\u00EB",
-      "Tokens": [
-        "histo",
-        "ekuad",
-        "ben",
-        "persh",
-        "zgjed",
-        "presi",
-        "katol",
-        "koso",
-        "fton",
-        "refle"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/historianit-nga-ekuadori-i-ben-pershtypje-zgjedhja-e-presidentes-katolike-ne-kosove-na-fton-te-reflektojme/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "historianit-nga-ekuadori-i-ben-pershtypje-zgjedhja-e-presidentes-katolike-ne"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Tart\u00EB me moll\u00EB, karamel dhe arra pekan \u2013 \u00EBmb\u00EBlsira ideale p\u00EBr dit\u00EBt e vjesht\u00EBs",
-      "Tokens": [
-        "tart",
-        "moll",
-        "karam",
-        "arr",
-        "pekan",
-        "embel",
-        "ideal",
-        "dit",
-        "vjesh"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/tarte-me-molle-karamel-dhe-arra-pekan-embelsira-ideale-per-ditet-e-vjeshtes/"
-      ],
-      "Articles": {
-        "raporti-sot": "tarte-me-molle-karamel-dhe-arra-pekan-embelsira-ideale-per-ditet-e-vjeshtes"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Pas videove intime t\u00EB Adi Hil\u00EBs, flet p\u00EBr her\u00EB t\u00EB par\u00EB Blerina Matraku: Nuk i kam asnj\u00EB lloj borxhi, i dhash\u00EB 10 mij\u00EB euro p\u00EBr nj\u00EB album",
-      "Tokens": [
-        "video",
-        "intim",
-        "adi",
-        "hil",
-        "flet",
-        "her",
-        "par",
-        "bleri",
-        "matra",
-        "kam",
-        "asn",
-        "lloj",
-        "borxh",
-        "dhash",
-        "mij",
-        "euro",
-        "album"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/pas-videove-intime-te-adi-hiles-flet-per-here-te-pare-blerina-matraku-nuk-i-kam-asnje-lloj-borxhi-i-dhashe-10-mije-euro-per-nje-album/"
-      ],
-      "Articles": {
-        "infokosove24": "pas-videove-intime-te-adi-hiles-flet-per-here-te-pare-blerina-matraku-nuk-i-kam"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Inspektorati i Mjedisit gjobit nj\u00EB kompani, tri t\u00EB tjera i detyron t\u00EB ndalin pun\u00EBn",
-      "Tokens": [
-        "inspe",
-        "mjedi",
-        "gjob",
-        "kompa",
-        "tri",
-        "tjer",
-        "detyr",
-        "ndal",
-        "pun"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/inspektorati-i-mjedisit-gjobit-nje-kompani-tri-te-tjera-i-detyron-te-ndalin-punen/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "inspektorati-i-mjedisit-gjobit-nje-kompani-tri-te-tjera-i-detyron-te-ndalin"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Barcelona mposht Getafen dhe vazhdon me bilanc t\u00EB p\u00EBrsosur n\u00EB La Liga",
-      "Tokens": [
-        "barce",
-        "mposh",
-        "getaf",
-        "vazhd",
-        "bilan",
-        "perso",
-        "lig"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/barcelona-mposht-getafen-dhe-vazhdon-me-bilanc-te-persosur-ne-la-liga/"
-      ],
-      "Articles": {
-        "kosova-fakt": "barcelona-mposht-getafen-dhe-vazhdon-me-bilanc-te-persosur-ne-la-liga"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Nga 1 n\u00EBntori nisin kontrollet p\u00EBr bizneset online n\u00EB Kosov\u00EB",
-      "Tokens": [
-        "nento",
-        "nis",
-        "kontr",
-        "bizne",
-        "onl",
-        "koso"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/nga-1-nentori-nisin-kontrollet-per-bizneset-online-ne-kosove/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "nga-1-nentori-nisin-kontrollet-per-bizneset-online-ne-kosove"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Harrojini ndalesat p\u00EBr karikim, Honda po nd\u00EBrton rrug\u00EB q\u00EB karikojn\u00EB veturat gjat\u00EB l\u00EBvizjes",
-      "Tokens": [
-        "harro",
-        "ndale",
-        "karik",
-        "hond",
-        "ndert",
-        "rrug",
-        "vetur",
-        "leviz"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/harrojini-ndalesat-per-karikim-honda-po-nderton-rruge-qe-karikojne-veturat-gjate-levizjes/"
-      ],
-      "Articles": {
-        "raporti-sot": "harrojini-ndalesat-per-karikim-honda-po-nderton-rruge-qe-karikojne-veturat"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Shp\u00EBrthen supertankeri me naft\u00EB n\u00EB Ngushtic\u00EBn e Hormuzit, dyshohet se ra n\u00EB kontakt me nj\u00EB min\u00EB detare",
-      "Tokens": [
-        "shper",
-        "super",
-        "naft",
-        "ngush",
-        "hormu",
-        "dysho",
-        "konta",
-        "min",
-        "detar"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/shperthen-supertankeri-me-nafte-ne-ngushticen-e-hormuzit-dyshohet-se-ra-ne-kontakt-me-nje-mine-detare/"
-      ],
-      "Articles": {
-        "infokosove24": "shperthen-supertankeri-me-nafte-ne-ngushticen-e-hormuzit-dyshohet-se-ra-ne"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Dikur i lutej p\u00EBr bashk\u00EBpunim Fidan Jupollit, sot e sulmon me karikatur\u00EB: Moderatori ia kujton mesazhet",
-      "Tokens": [
-        "dikur",
-        "lutej",
-        "bashk",
-        "fidan",
-        "jupol",
-        "sulmo",
-        "karik",
-        "moder",
-        "kujto",
-        "mesaz"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/dikur-i-lutej-per-bashkepunim-fidan-jupollit-sot-e-sulmon-me-karikature-moderatori-ia-kujton-mesazhet/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "dikur-i-lutej-per-bashkepunim-fidan-jupollit-sot-e-sulmon-me-karikature"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Trumpi i del kund\u00EBr Zelenskyt: Ka ardhur koha q\u00EB Ukraina ta zgjedh\u00EB nj\u00EB president t\u00EB ri",
-      "Tokens": [
-        "trump",
-        "del",
-        "kunde",
-        "zelen",
-        "ardhu",
-        "koh",
-        "ukrai",
-        "zgjed",
-        "presi"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/trumpi-i-del-kunder-zelenskyt-ka-ardhur-koha-qe-ukraina-ta-zgjedhe-nje-president-te-ri/"
-      ],
-      "Articles": {
-        "kosova-fakt": "trumpi-i-del-kunder-zelenskyt-ka-ardhur-koha-qe-ukraina-ta-zgjedhe-nje"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Europoli godet rrjetin e kokain\u00EBs, arrestohen 20 persona dhe sekuestrohen 43 ton\u00EB drog\u00EB",
-      "Tokens": [
-        "europ",
-        "god",
-        "rrjet",
-        "kokai",
-        "arres",
-        "perso",
-        "sekue",
-        "ton",
-        "drog"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/europoli-godet-rrjetin-e-kokaines-arrestohen-20-persona-dhe-sekuestrohen-43-tone-droge/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "europoli-godet-rrjetin-e-kokaines-arrestohen-20-persona-dhe-sekuestrohen-43"
-      }
-    },
-    {
-      "At": "2026-10-10T20:32:52.4522343+00:00",
-      "Title": "Blogu ushtarak italian: Tensionet etnike dhe politike n\u00EB veri, burim i paq\u00EBndrueshm\u00EBris\u00EB n\u00EB Kosov\u00EB",
-      "Tokens": [
-        "blog",
-        "ushta",
-        "itali",
-        "tensi",
-        "etnik",
-        "polit",
-        "ver",
-        "burim",
-        "paqen",
-        "koso"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/blogu-ushtarak-italian-tensionet-etnike-dhe-politike-ne-veri-burim-i-paqendrueshmerise-ne-kosove/"
-      ],
-      "Articles": {
-        "raporti-sot": "blogu-ushtarak-italian-tensionet-etnike-dhe-politike-ne-veri-burim-i"
       }
     }
   ]
