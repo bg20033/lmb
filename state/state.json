@@ -1,6 +1,449 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 4,
   "Published": [
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Rama i vendosi, protestuesit rr\u00EBzojn\u00EB karriget para kryeministris\u00EB",
+      "Tokens": [
+        "ram",
+        "vendo",
+        "prote",
+        "rrezo",
+        "karri",
+        "kryem"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/rama-i-vendosi-protestuesit-rrezojne-karriget-para-kryeministrise/",
+        "https://www.gazetaexpress.com/protestuesit-heqin-karriget-qe-vendosi-rama-para-kryeministrise-i-grisin-letrat-ku-shkruhej-dialog/",
+        "https://sinjali.com/rama-fton-studentet-ne-dialog-vendos-karrige-bosh-para-kryeministrise/",
+        "https://telegrafi.com/rama-vendos-mbishkrimin-dialog-mbi-disa-karrige-para-kryeministrise/"
+      ],
+      "Articles": {
+        "kosova-fakt": "protestuesit-heqin-karriget-qe-vendosi-rama-para-kryeministrise-i-grisin-letrat"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Pedagog\u00EBt dalin n\u00EB mb\u00EBshtetje t\u00EB student\u00EBve n\u00EB Tiran\u00EB, kund\u00EBrshtojn\u00EB dhun\u00EBn policore\u200B",
+      "Tokens": [
+        "pedag",
+        "dal",
+        "mbesh",
+        "stude",
+        "tiran",
+        "kunde",
+        "dhun",
+        "polic"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/pedagoget-dalin-ne-mbeshtetje-te-studenteve-ne-tirane-kundershtojne-dhunen-policore/",
+        "https://sinjali.com/pedagoget-nisin-marshimin-paqesor-ne-mbeshtetje-te-studenteve-ne-tirane/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pedagoget-nisin-marshimin-paqesor-ne-mbeshtetje-te-studenteve-ne-tirane"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Reagimet n\u00EB Kosov\u00EB dhe ligji p\u00EBr Specialen, Trendafilova: Mbetemi t\u00EB pal\u00EBkundur, askush s\u2019mund t\u2019u diktoj\u00EB gjykat\u00EBsve si ta zbatojn\u00EB ligjin",
+      "Tokens": [
+        "reagi",
+        "koso",
+        "ligj",
+        "speci",
+        "trend",
+        "mbete",
+        "palek",
+        "askus",
+        "mund",
+        "dikto",
+        "gjyka",
+        "zbato"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trendafilova-pas-reagimeve-ne-kosove-askush-smund-tu-diktoje-gjyqtareve-si-ta-zbatojne-ligjin/",
+        "https://www.gazetaexpress.com/reagimet-ne-kosove-dhe-ligji-per-specialen-trendafilova-mbetemi-te-palekundur-askush-smund-tu-diktoje-gjykatesve-si-ta-zbatojne-ligjin/"
+      ],
+      "Articles": {
+        "raporti-sot": "reagimet-ne-kosove-dhe-ligji-per-specialen-trendafilova-mbetemi-te-palekundur"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "LEX | Autobote t\u00EB mbushura 90% me uj\u00EB n\u00EB vend t\u00EB naft\u00EBs, aktakuz\u00EB ndaj 12 personave \u2013 dyshohet se d\u00EBmtuan shtetin mbi 4.6 milion\u00EB euro",
+      "Tokens": [
+        "lex",
+        "autob",
+        "mbush",
+        "uje",
+        "vend",
+        "naft",
+        "aktak",
+        "ndaj",
+        "perso",
+        "dysho",
+        "demtu",
+        "shtet",
+        "milio",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lex-autobote-te-mbushura-90-me-uje-ne-vend-te-naftes-aktakuze-ndaj-12-personave-dyshohet-se-demtuan-shtetin-mbi-4-6-milione-euro/"
+      ],
+      "Articles": {
+        "infokosove24": "lex-autobote-te-mbushura-90-me-uje-ne-vend-te-naftes-aktakuze-ndaj-12-personave"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Selimi-Tr\u00EBndafilov\u00EBs: Em\u00EBroni gjyqta\u00EBrt n\u00EB Themelore e Apel dhe mbani takime me diplomat\u00EB, askush nuk i beson procesit",
+      "Tokens": [
+        "selim",
+        "trend",
+        "emero",
+        "gjyqt",
+        "theme",
+        "apel",
+        "mban",
+        "takim",
+        "diplo",
+        "askus",
+        "beson",
+        "proce"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/selimi-trendafiloves-emeroni-gjyqtaert-ne-themelore-e-apel-dhe-mbani-takime-me-diplomate-askush-nuk-i-beson-procesit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "selimi-trendafiloves-emeroni-gjyqtaert-ne-themelore-e-apel-dhe-mbani-takime-me"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Komisioni p\u00EBr Sh\u00EBndet\u00EBsi miraton Projektligjin p\u00EBr ndryshimin dhe plot\u00EBsimin e ligjit p\u00EBr ndarjet buxhetore p\u00EBr vitin 2026",
+      "Tokens": [
+        "komis",
+        "shend",
+        "mirat",
+        "proje",
+        "ndrys",
+        "plote",
+        "ligj",
+        "ndarj",
+        "buxhe",
+        "vit",
+        "2026"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/komisioni-per-shendetesi-miraton-projektligjin-per-ndryshimin-dhe-plotesimin-e-ligjit-per-ndarjet-buxhetore-per-vitin-2026/"
+      ],
+      "Articles": {
+        "kosova-fakt": "komisioni-per-shendetesi-miraton-projektligjin-per-ndryshimin-dhe-plotesimin-e"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Pas 43 vjet\u00EBsh, Christiane Amanpour i jep fund bashk\u00EBpunimit me CNN-in",
+      "Tokens": [
+        "vjete",
+        "chris",
+        "amanp",
+        "jep",
+        "fund",
+        "bashk",
+        "cnn"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pas-43-vjetesh-christiane-amanpour-i-jep-fund-bashkepunimit-me-cnn-in/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "pas-43-vjetesh-christiane-amanpour-i-jep-fund-bashkepunimit-me-cnn-in"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Nga Prishtina n\u00EB Pej\u00EB e Gjilan, k\u00EBto jan\u00EB qytetet ku hapet sezoni i gjuetis\u00EB m\u00EB 25 tetor",
+      "Tokens": [
+        "prish",
+        "pej",
+        "gjila",
+        "qytet",
+        "hap",
+        "sezon",
+        "gjuet",
+        "tetor"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nga-prishtina-ne-peje-e-gjilan-keto-jane-qytetet-ku-hapet-sezoni-i-gjuetise-me-25-tetor/"
+      ],
+      "Articles": {
+        "raporti-sot": "nga-prishtina-ne-peje-e-gjilan-keto-jane-qytetet-ku-hapet-sezoni-i-gjuetise-me"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "B\u00EBhet virale foshnja q\u00EB pozoi si mbret pak minuta pas lindjes",
+      "Tokens": [
+        "beh",
+        "viral",
+        "foshn",
+        "pozo",
+        "mbr",
+        "pak",
+        "minut",
+        "lindj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/behet-virale-foshnja-qe-pozoi-si-mbret-pak-minuta-pas-lindjes/"
+      ],
+      "Articles": {
+        "infokosove24": "behet-virale-foshnja-qe-pozoi-si-mbret-pak-minuta-pas-lindjes"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "\u201C43 vite fantastike\u201D, gazetarja Christiane Amanpour e lajm\u00EBron largimin nga CNN",
+      "Tokens": [
+        "vit",
+        "fanta",
+        "gazet",
+        "chris",
+        "amanp",
+        "lajme",
+        "largi",
+        "cnn"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/43-vite-fantastike-gazetarja-christiane-amanpour-e-lajmeron-largimin-nga-cnn/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "43-vite-fantastike-gazetarja-christiane-amanpour-e-lajmeron-largimin-nga-cnn"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "PSG \u2013 Bar\u00E7a, formacionet e mundshme",
+      "Tokens": [
+        "psg",
+        "barc",
+        "forma",
+        "munds"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/psg-barca-formacionet-e-mundshme/"
+      ],
+      "Articles": {
+        "kosova-fakt": "psg-barca-formacionet-e-mundshme"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Ndahet nga jeta n\u00EB mosh\u00EBn 34-vje\u00E7are ish e dashura e Justin Bieber",
+      "Tokens": [
+        "ndah",
+        "jet",
+        "mosh",
+        "vjeca",
+        "ish",
+        "dashu",
+        "just",
+        "biebe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndahet-nga-jeta-ne-moshen-34-vjecare-ish-e-dashura-e-justin-bieber/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndahet-nga-jeta-ne-moshen-34-vjecare-ish-e-dashura-e-justin-bieber"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Deimel: Kosova duhet t\u00EB rikthej\u00EB besimin e BE-s\u00EB p\u00EBrmes diplomacis\u00EB",
+      "Tokens": [
+        "deime",
+        "kosov",
+        "duh",
+        "rikth",
+        "besim",
+        "perm",
+        "diplo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/deimel-kosova-duhet-te-riktheje-besimin-e-be-se-permes-diplomacise/"
+      ],
+      "Articles": {
+        "raporti-sot": "deimel-kosova-duhet-te-riktheje-besimin-e-be-se-permes-diplomacise"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Rama pret n\u00EB takim Hargreaves: Diskutuam p\u00EBr 19 projekte strategjike q\u00EB po e \u00E7ojn\u00EB qytetin p\u00EBrpara",
+      "Tokens": [
+        "ram",
+        "pret",
+        "takim",
+        "hargr",
+        "disku",
+        "proje",
+        "strat",
+        "cojn",
+        "qytet",
+        "perpa"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-pret-ne-takim-hargreaves-diskutuam-per-19-projekte-strategjike-qe-po-e-cojne-qytetin-perpara/"
+      ],
+      "Articles": {
+        "infokosove24": "rama-pret-ne-takim-hargreaves-diskutuam-per-19-projekte-strategjike-qe-po-e"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Darka pas or\u00EBs 20:00 t\u00EB sh\u00EBndosh: E v\u00EBrtet\u00EB apo mit?",
+      "Tokens": [
+        "dark",
+        "ores",
+        "shend",
+        "verte",
+        "mit"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/darka-pas-ores-2000-te-shendosh-e-vertete-apo-mit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "darka-pas-ores-20-00-te-shendosh-e-vertete-apo-mit"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Dogana e Kosov\u00EBs zbulon mall t\u00EB padeklaruar n\u00EB Aeroportin Nd\u00EBrkomb\u00EBtar t\u00EB Prishtin\u00EBs",
+      "Tokens": [
+        "dogan",
+        "kosov",
+        "zbulo",
+        "mall",
+        "padek",
+        "aerop",
+        "nderk",
+        "prish"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dogana-e-kosoves-zbulon-mall-te-padeklaruar-ne-aeroportin-nderkombetar-te-prishtines/"
+      ],
+      "Articles": {
+        "kosova-fakt": "dogana-e-kosoves-zbulon-mall-te-padeklaruar-ne-aeroportin-nderkombetar-te"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Rama paralajm\u00EBron masa ndaj protestuesve, shqyrton uljen e mosh\u00EBs p\u00EBr p\u00EBrgjegj\u00EBsi penale",
+      "Tokens": [
+        "ram",
+        "paral",
+        "mas",
+        "ndaj",
+        "prote",
+        "shqyr",
+        "ulj",
+        "mosh",
+        "pergj",
+        "penal"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rama-paralajmeron-masa-protestues-ulje-denim-penal/33880026.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "rama-paralajmeron-masa-ndaj-protestuesve-shqyrton-uljen-e-moshes-per"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Skandali i dyshuar p\u00EBr pagesa n\u00EB k\u00EBmbim t\u00EB ndikimit trondit Sht\u00EBpin\u00EB e Bardh\u00EB",
+      "Tokens": [
+        "skand",
+        "dyshu",
+        "pages",
+        "kembi",
+        "ndiki",
+        "trond",
+        "shtep",
+        "bardh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/skandali-i-dyshuar-per-pagesa-ne-kembim-te-ndikimit-trondit-shtepine-e-bardhe/"
+      ],
+      "Articles": {
+        "raporti-sot": "skandali-i-dyshuar-per-pagesa-ne-kembim-te-ndikimit-trondit-shtepine-e-bardhe"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Teoricieni rus Dugin intensifikon propagand\u00EBn anti-BE, k\u00EBrkon front shqiptaro-serb",
+      "Tokens": [
+        "teori",
+        "rus",
+        "dug",
+        "inten",
+        "propa",
+        "ant",
+        "kerko",
+        "front",
+        "shqip",
+        "serb"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/teoricieni-rus-dugin-intensifikon-propaganden-anti-be-kerkon-front-shqiptaro-serb/"
+      ],
+      "Articles": {
+        "infokosove24": "teoricieni-rus-dugin-intensifikon-propaganden-anti-be-kerkon-front-shqiptaro"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Rama: Aktor\u00EB t\u00EB huaj po i hedhin benzin\u00EB zjarrit, n\u00EB protest\u00EB t\u00EB rinj t\u00EB maskuar dhe t\u00EB paguar p\u00EBr t\u00EB sulmuar policin\u00EB",
+      "Tokens": [
+        "ram",
+        "aktor",
+        "huaj",
+        "hedh",
+        "benz",
+        "zjarr",
+        "prote",
+        "rinj",
+        "masku",
+        "pagua",
+        "sulmu",
+        "polic"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-aktore-te-huaj-po-i-hedhin-benzine-zjarrit-ne-proteste-te-rinj-te-maskuar-dhe-te-paguar-per-te-sulmuar-policine/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "rama-aktore-te-huaj-po-i-hedhin-benzine-zjarrit-ne-proteste-te-rinj-te-maskuar"
+      }
+    },
+    {
+      "At": "2026-10-20T09:58:14.2904844+00:00",
+      "Title": "Droj\u00EB p\u00EBr luft\u00EB hap\u00EBsinore: Sateliti ushtarak rus i afrohet nj\u00EBrit q\u00EB p\u00EBrdoret nga Ukraina",
+      "Tokens": [
+        "dro",
+        "luft",
+        "hapes",
+        "satel",
+        "ushta",
+        "rus",
+        "afroh",
+        "njer",
+        "perdo",
+        "ukrai"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/satelit-ushtarak-rus-hapesire-ukraine/33879676.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "droje-per-lufte-hapesinore-sateliti-ushtarak-rus-i-afrohet-njerit-qe-perdoret"
+      }
+    },
     {
       "At": "2026-10-19T22:53:27.4869317+00:00",
       "Title": "Pronari i Milanit synon Al-Nassrin, Ronaldo mund t\u00EB mbaj\u00EB 20 p\u00EBr qind t\u00EB aksioneve",
@@ -12864,303 +13307,6 @@
       ],
       "Articles": {
         "kosova-fakt": "trump-thote-se-eshte-marre-vesh-me-putinin-per-dizelin-rus-ukraina-e-quan"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Premier League rikthehet n\u00EBn hijen e skandalit t\u00EB Manchester Cityt",
-      "Tokens": [
-        "premi",
-        "leagu",
-        "rikth",
-        "hij",
-        "skand",
-        "manch",
-        "cityt"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/premier-league-rikthehet-nen-hijen-e-skandalit-te-manchester-cityt/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "premier-league-rikthehet-nen-hijen-e-skandalit-te-manchester-cityt"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Trump zgjedh Katie Zacharia-n si z\u00EBdh\u00EBn\u00EBsen e re t\u00EB Sht\u00EBpis\u00EB s\u00EB Bardh\u00EB",
-      "Tokens": [
-        "trump",
-        "zgjed",
-        "kati",
-        "zacha",
-        "zedhe",
-        "shtep",
-        "bardh"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/trump-zgjedh-katie-zacharia-n-si-zedhenesen-e-re-te-shtepise-se-bardhe/"
-      ],
-      "Articles": {
-        "raporti-sot": "trump-zgjedh-katie-zacharia-n-si-zedhenesen-e-re-te-shtepise-se-bardhe"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Diell t\u00EB shtun\u00EBn, shi t\u00EB diel\u00EBn \u2013 ky \u00EBsht\u00EB parashikimi i motit p\u00EBr vikend",
-      "Tokens": [
-        "diell",
-        "shtun",
-        "shi",
-        "diel",
-        "paras",
-        "mot",
-        "viken"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/diell-te-shtunen-shi-te-dielen-ky-eshte-parashikimi-i-motit-per-vikend/"
-      ],
-      "Articles": {
-        "infokosove24": "diell-te-shtunen-shi-te-dielen-ky-eshte-parashikimi-i-motit-per-vikend"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Bebe Rexha s\u2019i harron traditat shqiptare, ia merr valles mes tupanave n\u00EB dasm\u00EBn e v\u00EBllait \u2013 publikohen pamjet",
-      "Tokens": [
-        "beb",
-        "rexh",
-        "harro",
-        "tradi",
-        "shqip",
-        "merr",
-        "vall",
-        "mes",
-        "tupan",
-        "dasm",
-        "vella",
-        "publi",
-        "pamj"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/bebe-rexha-si-harron-traditat-shqiptare-ia-merr-valles-mes-tupanave-ne-dasmen-e-vellait-publikohen-pamjet/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "bebe-rexha-s-i-harron-traditat-shqiptare-ia-merr-valles-mes-tupanave-ne-dasmen"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Zelensky kritikon marr\u00EBveshjen Trump\u2013Putin p\u00EBr naft\u00EBn ruse: Dhuratat p\u00EBr Putinin nuk \u00E7ojn\u00EB n\u00EB paqe",
-      "Tokens": [
-        "zelen",
-        "kriti",
-        "marre",
-        "trump",
-        "put",
-        "naft",
-        "rus",
-        "dhura",
-        "putin",
-        "cojn",
-        "paq"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/zelensky-kritikon-marreveshjen-trump-putin-per-naften-ruse-dhuratat-per-putinin-nuk-cojne-ne-paqe/"
-      ],
-      "Articles": {
-        "kosova-fakt": "zelensky-kritikon-marreveshjen-trump-putin-per-naften-ruse-dhuratat-per-putinin"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Prokuroria jep detaje p\u00EBr vrasjen e dyfisht\u00EB n\u00EB Livo\u00E7 t\u00EB Ul\u00EBt t\u00EB Gjilanit",
-      "Tokens": [
-        "proku",
-        "jep",
-        "deta",
-        "vrasj",
-        "dyfis",
-        "livoc",
-        "ulet",
-        "gjila"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/prokuroria-jep-detaje-per-vrasjen-e-dyfishte-ne-livoc-te-ulet-te-gjilanit/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "prokuroria-jep-detaje-per-vrasjen-e-dyfishte-ne-livoc-te-ulet-te-gjilanit"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Kurti pret ambasadorin italian, n\u00EB takim diskutohet edhe p\u00EBr aktgjykimin ndaj ish-krer\u00EBve t\u00EB U\u00C7K-s\u00EB",
-      "Tokens": [
-        "kurt",
-        "pret",
-        "ambas",
-        "itali",
-        "takim",
-        "disku",
-        "aktgj",
-        "ndaj",
-        "ish",
-        "krer",
-        "uck"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kurti-pret-ambasadorin-italian-ne-takim-diskutohet-edhe-per-aktgjykimin-ndaj-ish-krereve-te-uck-se/"
-      ],
-      "Articles": {
-        "raporti-sot": "kurti-pret-ambasadorin-italian-ne-takim-diskutohet-edhe-per-aktgjykimin-ndaj"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Vrasja e dyfisht\u00EB n\u00EB Gjilan, p\u00EBrfundon operimi i t\u00EB plagosurit \u2013 gjendja e tij e r\u00EBnd\u00EB, por stabile",
-      "Tokens": [
-        "vras",
-        "dyfis",
-        "gjila",
-        "perfu",
-        "operi",
-        "plago",
-        "gjend",
-        "rend",
-        "stabi"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/vrasja-e-dyfishte-ne-gjilan-perfundon-operimi-i-te-plagosurit-gjendja-e-tij-e-rende-por-stabile/"
-      ],
-      "Articles": {
-        "infokosove24": "vrasja-e-dyfishte-ne-gjilan-perfundon-operimi-i-te-plagosurit-gjendja-e-tij-e"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Egzoni e fali xhuman\u00EB p\u00EBr her\u00EB t\u00EB fundit pak para tragjedis\u00EB, imami nga Gjilani me fjal\u00EB prek\u00EBse pas vdekjes s\u00EB tij dhe motr\u00EBs",
-      "Tokens": [
-        "egzon",
-        "fal",
-        "xhuma",
-        "her",
-        "fund",
-        "pak",
-        "tragj",
-        "imam",
-        "gjila",
-        "fjal",
-        "prek",
-        "vdekj",
-        "motr"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/egzoni-e-fali-xhumane-per-here-te-fundit-pak-para-tragjedise-imami-nga-gjilani-me-fjale-prekese-pas-vdekjes-se-tij-dhe-motres/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "egzoni-e-fali-xhumane-per-here-te-fundit-pak-para-tragjedise-imami-nga-gjilani"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "T\u00EBrmet me magnitud\u00EB 7.6 ball\u00EB n\u00EB Panama, l\u00EBshohet paralajm\u00EBrim p\u00EBr cunami",
-      "Tokens": [
-        "term",
-        "magni",
-        "ball",
-        "panam",
-        "lesho",
-        "paral",
-        "cunam"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/termet-me-magnitude-7-6-balle-ne-panama-leshohet-paralajmerim-per-cunami/"
-      ],
-      "Articles": {
-        "kosova-fakt": "termet-me-magnitude-7-6-balle-ne-panama-leshohet-paralajmerim-per-cunami"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "LDK-ja n\u00EB Obiliq cakton pasuesin e Xhafer Gashit, ja kush do ta udh\u00EBheq\u00EB deg\u00EBn",
-      "Tokens": [
-        "ldk",
-        "obili",
-        "cakto",
-        "pasue",
-        "xhafe",
-        "gash",
-        "kush",
-        "udheh",
-        "deg"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ldk-ja-ne-obiliq-cakton-pasuesin-e-xhafer-gashit-ja-kush-do-ta-udheheqe-degen/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "ldk-ja-ne-obiliq-cakton-pasuesin-e-xhafer-gashit-ja-kush-do-ta-udheheqe-degen"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Nuk e l\u00EBn\u00EB t\u00EB qet\u00EB as jasht\u00EB fush\u00EBs, tifoz\u00EBt e Newcastle-it provokojn\u00EB Xhak\u00EBn: E th\u00EBrrasin \u201CCOVID\u201D",
-      "Tokens": [
-        "len",
-        "qet",
-        "jasht",
-        "fush",
-        "tifoz",
-        "newca",
-        "provo",
-        "xhak",
-        "therr",
-        "covid"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/nuk-e-lene-te-qete-as-jashte-fushes-tifozet-e-newcastle-it-provokojne-xhaken-e-therrasin-covid/"
-      ],
-      "Articles": {
-        "raporti-sot": "nuk-e-lene-te-qete-as-jashte-fushes-tifozet-e-newcastle-it-provokojne-xhaken-e"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Rita Ora n\u00EB koncertin e Yll Limanit n\u00EB Lond\u00EBr? Fansat nisin spekulimet",
-      "Tokens": [
-        "rit",
-        "ora",
-        "konce",
-        "yll",
-        "liman",
-        "londe",
-        "fansa",
-        "nis",
-        "speku"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/rita-ora-ne-koncertin-e-yll-limanit-ne-londer-fansat-nisin-spekulimet/"
-      ],
-      "Articles": {
-        "infokosove24": "rita-ora-ne-koncertin-e-yll-limanit-ne-londer-fansat-nisin-spekulimet"
-      }
-    },
-    {
-      "At": "2026-10-09T23:10:27.393706+00:00",
-      "Title": "Si e p\u00EBrdor\u00EBn operativ\u00EBt iranian\u00EB IA-n\u00EB p\u00EBr t\u00EB publikuar lajme t\u00EB rrem\u00EB n\u00EB media amerikane?",
-      "Tokens": [
-        "perdo",
-        "opera",
-        "irani",
-        "publi",
-        "lajm",
-        "rrem",
-        "medi",
-        "ameri"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/operative-iraniane-ia-lajme-rreme-media-amerikane/33873801.html"
-      ],
-      "Articles": {
-        "kosova-aktuale": "si-e-perdoren-operativet-iraniane-ia-ne-per-te-publikuar-lajme-te-rreme-ne"
       }
     }
   ]
