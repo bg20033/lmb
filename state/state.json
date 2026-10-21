@@ -2,6 +2,422 @@
   "RotationCursor": 0,
   "Published": [
     {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "SHBA-ja rikonfirmon mb\u00EBshtetjen p\u00EBr KFOR-in",
+      "Tokens": [
+        "shb",
+        "rikon",
+        "mbesh",
+        "kfor"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shba-ja-rikonfirmon-mbeshtetjen-per-kfor-in/",
+        "https://www.gazetaexpress.com/vergori-ne-ambasaden-amerikane-shba-mbesim-te-perkushtuar-per-te-mbeshtetur-misionin-e-kforit/"
+      ],
+      "Articles": {
+        "raporti-sot": "vergori-ne-ambasaden-amerikane-shba-mbesim-te-perkushtuar-per-te-mbeshtetur"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "P\u00EBrparim Rama s\u2019e fsheh q\u00EB synon ta udh\u00EBheq LDK\u2019n\u00EB, nga partia i \u00E7ojn\u00EB mesazh se nj\u00EB her\u00EB duhet hapur gara",
+      "Tokens": [
+        "perpa",
+        "ram",
+        "fsheh",
+        "synon",
+        "udheh",
+        "ldk",
+        "parti",
+        "cojn",
+        "mesaz",
+        "her",
+        "duh",
+        "hapur",
+        "gar"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/perparim-rama-se-fsheh-qe-synon-ta-udheheq-ldkne-nga-partia-i-cojne-mesazh-se-nje-here-duhet-hapur-gara/"
+      ],
+      "Articles": {
+        "infokosove24": "perparim-rama-s-e-fsheh-qe-synon-ta-udheheq-ldk-ne-nga-partia-i-cojne-mesazh-se"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Arabia Saudite leht\u00EBson procedurat e vizave turistike p\u00EBr qytetar\u00EBt e Kosov\u00EBs, MPJD-ja jep detaje",
+      "Tokens": [
+        "arabi",
+        "saud",
+        "lehte",
+        "proce",
+        "viz",
+        "turis",
+        "qytet",
+        "kosov",
+        "mpjd",
+        "jep",
+        "deta"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arabia-saudite-lehteson-procedurat-e-vizave-turistike-per-qytetaret-e-kosoves-mpjd-ja-jep-detaje/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "arabia-saudite-lehteson-procedurat-e-vizave-turistike-per-qytetaret-e-kosoves"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Sadiku: Brenda LDK\u2019s\u00EB ka nis gara, kushdo q\u00EB do udh\u00EBheq\u00EB do e ket\u00EB bashk\u00EBpunimin tim, un\u00EB s\u2019kam aspirata, t\u00EB pakt\u00EBn jo tash",
+      "Tokens": [
+        "sadik",
+        "brend",
+        "ldk",
+        "nis",
+        "gar",
+        "kushd",
+        "udheh",
+        "ket",
+        "bashk",
+        "tim",
+        "une",
+        "kam",
+        "aspir",
+        "pakt",
+        "tash"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sadiku-brenda-ldkse-ka-nis-gara-kushdo-qe-do-udheheqe-do-e-kete-bashkepunimin-tim-une-skam-aspirata-te-pakten-jo-tash/"
+      ],
+      "Articles": {
+        "kosova-fakt": "sadiku-brenda-ldk-se-ka-nis-gara-kushdo-qe-do-udheheqe-do-e-kete-bashkepunimin"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Lamine Yamal arrin \u201Cdouble-double\u201D me gola dhe asistime",
+      "Tokens": [
+        "lam",
+        "yamal",
+        "arr",
+        "doubl",
+        "gol",
+        "asist"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/lamine-yamal-arrin-double-double-me-gola-dhe-asistime/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "lamine-yamal-arrin-double-double-me-gola-dhe-asistime"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Inspektorati ndalon punimet n\u00EB kat\u00EBr objekte nd\u00EBrtimi n\u00EB Gjakov\u00EB, Ferizaj dhe Gjilan",
+      "Tokens": [
+        "inspe",
+        "ndalo",
+        "punim",
+        "kater",
+        "objek",
+        "ndert",
+        "gjako",
+        "feriz",
+        "gjila"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/inspektorati-ndalon-punimet-ne-kater-objekte-ndertimi-ne-gjakove-ferizaj-dhe-gjilan/"
+      ],
+      "Articles": {
+        "raporti-sot": "inspektorati-ndalon-punimet-ne-kater-objekte-ndertimi-ne-gjakove-ferizaj-dhe"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Pothuajse gjysma e deputet\u00EBve holandez\u00EB p\u00EBrdor\u00EBn IA-n\u00EB p\u00EBr fjalimet parlamentare",
+      "Tokens": [
+        "pothu",
+        "gjysm",
+        "deput",
+        "holan",
+        "perdo",
+        "fjali",
+        "parla"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pothuajse-gjysma-e-deputeteve-holandeze-perdoren-ia-ne-per-fjalimet-parlamentare/"
+      ],
+      "Articles": {
+        "infokosove24": "pothuajse-gjysma-e-deputeteve-holandeze-perdoren-ia-ne-per-fjalimet-parlamentare"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "OKB-ja k\u00EBrkon mobilizimin e shteteve p\u00EBr t\u2019u p\u00EBrballur me fenomenin El Ninjo",
+      "Tokens": [
+        "okb",
+        "kerko",
+        "mobil",
+        "shtet",
+        "perba",
+        "fenom",
+        "ninjo"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/okb-mobilizim-pasojate-el-ninjo/33881054.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "okb-ja-kerkon-mobilizimin-e-shteteve-per-t-u-perballur-me-fenomenin-el-ninjo"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Memli Krasniqi vler\u00EBson udh\u00EBheqjen e Hamz\u00EBs: PDK me ty p\u00EBrballoi sfida t\u00EB m\u00EBdha dhe arriti rezultate t\u00EB mira",
+      "Tokens": [
+        "meml",
+        "krasn",
+        "vlere",
+        "udheh",
+        "hamz",
+        "pdk",
+        "perba",
+        "sfid",
+        "medh",
+        "arrit",
+        "rezul",
+        "mir"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/largimi1-i-hamzes-nga-pozita-e-kryetarit-te-pdk-krasniqi-ishte-kenaqesi-qe-punuam-bashke/"
+      ],
+      "Articles": {
+        "kosova-fakt": "memli-krasniqi-vlereson-udheheqjen-e-hamzes-pdk-me-ty-perballoi-sfida-te-medha"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Analizat e gjakut mund t\u00EB zbulojn\u00EB s\u00EBmundjet inflamatore t\u00EB zorr\u00EBve 10 vjet para diagnoz\u00EBs",
+      "Tokens": [
+        "anali",
+        "gjaku",
+        "mund",
+        "zbulo",
+        "semun",
+        "infla",
+        "zorr",
+        "vjet",
+        "diagn"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/analizat-e-gjakut-mund-te-zbulojne-semundjet-inflamatore-te-zorreve-10-vjet-para-diagnozes/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "analizat-e-gjakut-mund-te-zbulojne-semundjet-inflamatore-te-zorreve-10-vjet"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Arrestohet nj\u00EB person n\u00EB Prishtin\u00EB, dyshohet se u paraqit rrejsh\u00EBm si punonj\u00EBs i AKI-s\u00EB",
+      "Tokens": [
+        "arres",
+        "perso",
+        "prish",
+        "dysho",
+        "paraq",
+        "rrejs",
+        "punon",
+        "aki"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arrestohet-nje-person-ne-prishtine-dyshohet-se-u-paraqit-rrejshem-si-punonjes-i-aki-se/"
+      ],
+      "Articles": {
+        "raporti-sot": "arrestohet-nje-person-ne-prishtine-dyshohet-se-u-paraqit-rrejshem-si-punonjes-i"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Barcelona konfirmon munges\u00EBn e Dani Olmos n\u00EB El Clasico, nj\u00EB tjet\u00EBr goditje p\u00EBr Hansi Flick",
+      "Tokens": [
+        "barce",
+        "konfi",
+        "munge",
+        "dan",
+        "olmos",
+        "clasi",
+        "tjete",
+        "godit",
+        "hans",
+        "flick"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/barcelona-konfirmon-mungesen-e-dani-olmos-ne-el-clasico-nje-tjeter-goditje-per-hansi-flick/"
+      ],
+      "Articles": {
+        "infokosove24": "barcelona-konfirmon-mungesen-e-dani-olmos-ne-el-clasico-nje-tjeter-goditje-per"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Zelensky: Ukraina \u00EBsht\u00EB gati ta ngrij\u00EB luft\u00EBn p\u00EBrgjat\u00EB vij\u00EBs aktuale t\u00EB frontit",
+      "Tokens": [
+        "zelen",
+        "ukrai",
+        "gat",
+        "ngri",
+        "luft",
+        "pergj",
+        "vij",
+        "aktua",
+        "front"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zelensky-ukraina-eshte-gati-ta-ngrije-luften-pergjate-vijes-aktuale-te-frontit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "zelensky-ukraina-eshte-gati-ta-ngrije-luften-pergjate-vijes-aktuale-te-frontit"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Pensionohet ish-sulmuesi i Komb\u00EBtares shqiptare",
+      "Tokens": [
+        "pensi",
+        "ish",
+        "sulmu",
+        "kombe",
+        "shqip"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pensionohet-ish-sulmuesi-i-kombetares-shqiptare/"
+      ],
+      "Articles": {
+        "kosova-fakt": "pensionohet-ish-sulmuesi-i-kombetares-shqiptare"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Macron shp\u00EBrthen ndaj lider\u00EBve t\u00EB huaj p\u00EBr protestat n\u00EB Franc\u00EB: T\u00EB papranueshme dhe budallall\u00EBqe",
+      "Tokens": [
+        "macro",
+        "shper",
+        "ndaj",
+        "lider",
+        "huaj",
+        "prote",
+        "franc",
+        "papra",
+        "budal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/macron-shperthen-ndaj-lidereve-te-huaj-per-protestat-ne-france-te-papranueshme-dhe-budallalleqe/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "macron-shperthen-ndaj-lidereve-te-huaj-per-protestat-ne-france-te-papranueshme"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Nj\u00EB person d\u00EBnohet me dhjet\u00EB vjet burgim p\u00EBr krime lufte n\u00EB rajonin e Pej\u00EBs",
+      "Tokens": [
+        "perso",
+        "denoh",
+        "dhjet",
+        "vjet",
+        "burgi",
+        "krim",
+        "luft",
+        "rajon",
+        "pej"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/denim-krime-lufte-ne-peje/33880925.html"
+      ],
+      "Articles": {
+        "raporti-sot": "nje-person-denohet-me-dhjete-vjet-burgim-per-krime-lufte-ne-rajonin-e-pejes"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Rrahu brutalisht nj\u00EB grua n\u00EB mes t\u00EB qytetit, Prokuroria n\u00EB Pej\u00EB ndalon t\u00EB dyshuarin p\u00EBr 48 or\u00EB",
+      "Tokens": [
+        "rrah",
+        "bruta",
+        "gru",
+        "mes",
+        "qytet",
+        "proku",
+        "pej",
+        "ndalo",
+        "dyshu",
+        "ore"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rrahu-brutalisht-nje-grua-ne-mes-te-qytetit-prokuroria-ne-peje-ndalon-te-dyshuarin-per-48-ore/"
+      ],
+      "Articles": {
+        "infokosove24": "rrahu-brutalisht-nje-grua-ne-mes-te-qytetit-prokuroria-ne-peje-ndalon-te"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Harry rr\u00EBfen pendes\u00EBn m\u00EB t\u00EB madhe p\u00EBr bised\u00EBn e fundit me Princesh\u00EBn Diana",
+      "Tokens": [
+        "harry",
+        "rref",
+        "pende",
+        "madh",
+        "bised",
+        "fund",
+        "princ",
+        "dian"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/harry-rrefen-pendesen-me-te-madhe-per-biseden-e-fundit-me-princeshen-diana/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "harry-rrefen-pendesen-me-te-madhe-per-biseden-e-fundit-me-princeshen-diana"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Rusia e liron shtetasin amerikan q\u00EB e akuzonte se kishte luftuar p\u00EBr Ukrain\u00EBn",
+      "Tokens": [
+        "rusi",
+        "liron",
+        "shtet",
+        "ameri",
+        "akuzo",
+        "luftu",
+        "ukrai"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rusia-liron-amerikanin-akuzonte-lufte-ukraine/33880826.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "rusia-e-liron-shtetasin-amerikan-qe-e-akuzonte-se-kishte-luftuar-per-ukrainen"
+      }
+    },
+    {
+      "At": "2026-10-21T15:55:23.9213305+00:00",
+      "Title": "Ushtari i plagosur ukrainas t\u00EBrhiqet nga fronti me dron fluturues",
+      "Tokens": [
+        "ushta",
+        "plago",
+        "ukrai",
+        "terhi",
+        "front",
+        "dron",
+        "flutu"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ushtari-plagosur-ukrainas-terhiqet-dron-fluturues/33880827.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ushtari-i-plagosur-ukrainas-terhiqet-nga-fronti-me-dron-fluturues"
+      }
+    },
+    {
       "At": "2026-10-21T10:01:41.9484384+00:00",
       "Title": "I d\u00EBrguari amerikan, Steve Witkoff, e takon Putinin, nj\u00EB dit\u00EB pas bisedimeve me Zelenskyn p\u00EBr paqen n\u00EB...",
       "Tokens": [
@@ -14025,329 +14441,6 @@
       ],
       "Articles": {
         "kosova-aktuale": "lufte-psikologjike-aktivisti-rus-pershkruan-se-si-i-ndjek-kremlini-kritiket-ne"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Arrestohet n\u00EB New York shqiptari i k\u00EBrkuar p\u00EBr tri vrasje",
-      "Tokens": [
-        "arres",
-        "new",
-        "york",
-        "shqip",
-        "kerku",
-        "tri",
-        "vras"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/arrestohet-ne-new-york-shqiptari-i-kerkuar-per-tri-vrasje/",
-        "https://sinjali.com/arrestohet-ne-greqi-19-vjecari-turk-i-kerkuar-nga-shqiperia-per-vrasje/"
-      ],
-      "Articles": {
-        "kosova-fakt": "arrestohet-ne-new-york-shqiptari-i-kerkuar-per-tri-vrasje"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Shkenc\u00EBtar\u00EBt zbulojn\u00EB nj\u00EB sistem t\u00EB ri pastrimi n\u00EB sy",
-      "Tokens": [
-        "shken",
-        "zbulo",
-        "siste",
-        "pastr"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/shkencetaret-zbulojne-nje-sistem-te-ri-pastrimi-ne-sy/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "shkencetaret-zbulojne-nje-sistem-te-ri-pastrimi-ne-sy"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Rebel\u00EBt Houthi paralajm\u00EBrojn\u00EB: Shmangni hap\u00EBsir\u00EBn ajrore t\u00EB Arabis\u00EB Saudite, do t\u00EB vazhdojm\u00EB sulmet",
-      "Tokens": [
-        "rebel",
-        "houth",
-        "paral",
-        "shman",
-        "hapes",
-        "ajror",
-        "arab",
-        "saud",
-        "vazhd",
-        "sulm"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/rebelet-houthi-paralajmerojne-shmangni-hapesiren-ajrore-te-arabise-saudite-do-te-vazhdojme-sulmet/"
-      ],
-      "Articles": {
-        "raporti-sot": "rebelet-houthi-paralajmerojne-shmangni-hapesiren-ajrore-te-arabise-saudite-do"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Rama d\u00EBnon sulmet e Huth\u00EBve ndaj Arabis\u00EB Saudite: Autor\u00EBt dhe mb\u00EBshtet\u00EBsit e tyre t\u00EB mbajn\u00EB p\u00EBrgjegj\u00EBsi",
-      "Tokens": [
-        "ram",
-        "denon",
-        "sulm",
-        "huth",
-        "ndaj",
-        "arab",
-        "saud",
-        "autor",
-        "mbesh",
-        "mbajn",
-        "pergj"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/rama-denon-sulmet-e-hutheve-ndaj-arabise-saudite-autoret-dhe-mbeshtetesit-e-tyre-te-mbajne-pergjegjesi/"
-      ],
-      "Articles": {
-        "infokosove24": "rama-denon-sulmet-e-hutheve-ndaj-arabise-saudite-autoret-dhe-mbeshtetesit-e"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Nj\u00EB burr\u00EB vdes pasi hyn n\u00EB kafazin e tigrave n\u00EB nj\u00EB park n\u00EB Britani",
-      "Tokens": [
-        "burr",
-        "vdes",
-        "pas",
-        "hyn",
-        "kafaz",
-        "tigr",
-        "park",
-        "brita"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/nje-burre-vdes-pasi-hyn-ne-kafazin-e-tigrave-ne-nje-park-ne-britani/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "nje-burre-vdes-pasi-hyn-ne-kafazin-e-tigrave-ne-nje-park-ne-britani"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Ish-ministrja e Tha\u00E7it q\u00EB u b\u00EB zgjidhja e Kurtit",
-      "Tokens": [
-        "ish",
-        "minis",
-        "thac",
-        "zgjid",
-        "kurt"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/ish-ministre-thacit-behet-zgjidhja-kurtit/33874473.html"
-      ],
-      "Articles": {
-        "kosova-fakt": "ish-ministrja-e-thacit-qe-u-be-zgjidhja-e-kurtit"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Humbja ndaj Vushtrris\u00EB i kushton me postin e trajnerit, Gjilani ndan rrug\u00EBt me Debatik Currin",
-      "Tokens": [
-        "humb",
-        "ndaj",
-        "vusht",
-        "kusht",
-        "post",
-        "trajn",
-        "gjila",
-        "ndan",
-        "rrug",
-        "debat",
-        "curr"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/humbja-ndaj-vushtrrise-i-kushton-me-postin-e-trajnerit-gjilani-ndan-rruget-me-debatik-currin/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "humbja-ndaj-vushtrrise-i-kushton-me-postin-e-trajnerit-gjilani-ndan-rruget-me"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Kamberi: Vu\u00E7iqi po p\u00EBrpiqet ta pengoj\u00EB nd\u00EBrkomb\u00EBtarizimin e \u00E7\u00EBshtjes s\u00EB shqiptar\u00EBve t\u00EB Lugin\u00EBs",
-      "Tokens": [
-        "kambe",
-        "vuciq",
-        "perpi",
-        "pengo",
-        "nderk",
-        "cesht",
-        "shqip",
-        "lugin"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kamberi-vuciqi-po-perpiqet-ta-pengoje-nderkombetarizimin-e-ceshtjes-se-shqiptareve-te-lugines/"
-      ],
-      "Articles": {
-        "raporti-sot": "kamberi-vuciqi-po-perpiqet-ta-pengoje-nderkombetarizimin-e-ceshtjes-se"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Ish-ministri gjerman i reagon Da\u00E7iqit p\u00EBr \u201Cvalvitjen e flamurit serb mbi Prizren\u201D: E gjora Serbi, kjo \u00E7on n\u00EB luft\u00EB",
-      "Tokens": [
-        "ish",
-        "minis",
-        "gjerm",
-        "reago",
-        "daciq",
-        "valvi",
-        "flamu",
-        "serb",
-        "prizr",
-        "gjor",
-        "con",
-        "luft"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ish-ministri-gjerman-i-reagon-daciqit-per-valvitjen-e-flamurit-serb-mbi-prizren-e-gjora-serbi-kjo-con-ne-lufte/"
-      ],
-      "Articles": {
-        "infokosove24": "ish-ministri-gjerman-i-reagon-daciqit-per-valvitjen-e-flamurit-serb-mbi-prizren"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Vinicius Jr rrezikon deri n\u00EB kat\u00EBr ndeshje pezullim, mund t\u00EB mungoj\u00EB n\u00EB \u201CEl Clasico\u201D",
-      "Tokens": [
-        "vinic",
-        "rrezi",
-        "kater",
-        "ndesh",
-        "pezul",
-        "mund",
-        "mungo",
-        "clasi"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/vinicius-jr-rrezikon-deri-ne-kater-ndeshje-pezullim-mund-te-mungoje-ne-el-clasico/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "vinicius-jr-rrezikon-deri-ne-kater-ndeshje-pezullim-mund-te-mungoje-ne-el"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Bullgaria i premton mb\u00EBshtetje Kosov\u00EBs p\u00EBr integrimin n\u00EB BE",
-      "Tokens": [
-        "bullg",
-        "premt",
-        "mbesh",
-        "kosov",
-        "integ"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/bullgaria-i-premton-mbeshtetje-kosoves-per-integrimin-ne-be/"
-      ],
-      "Articles": {
-        "kosova-fakt": "bullgaria-i-premton-mbeshtetje-kosoves-per-integrimin-ne-be"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Alarm n\u00EB Evrop\u00EB, Rusia dyshohet se sh\u00EBnjestron drejtuesit e industris\u00EB s\u00EB arm\u00EBve",
-      "Tokens": [
-        "alarm",
-        "evrop",
-        "rusi",
-        "dysho",
-        "shenj",
-        "drejt",
-        "indus",
-        "arm"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/alarm-ne-evrope-rusia-dyshohet-se-shenjestron-drejtuesit-e-industrise-se-armeve/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "alarm-ne-evrope-rusia-dyshohet-se-shenjestron-drejtuesit-e-industrise-se-armeve"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Nga Jennifer Lopez te P\u00EBrparim Rama: Kush \u00EBsht\u00EB Feroz Khan, influenceri q\u00EB i ndal njer\u00EBzit rrug\u00EBve t\u00EB New Yorkut?",
-      "Tokens": [
-        "jenni",
-        "lopez",
-        "perpa",
-        "ram",
-        "kush",
-        "feroz",
-        "khan",
-        "influ",
-        "ndal",
-        "njere",
-        "rrug",
-        "new",
-        "yorku"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/nga-jennifer-lopez-te-perparim-rama-kush-eshte-feroz-khan-influenceri-qe-i-ndal-njerezit-rrugeve-te-new-yorkut/"
-      ],
-      "Articles": {
-        "raporti-sot": "nga-jennifer-lopez-te-perparim-rama-kush-eshte-feroz-khan-influenceri-qe-i-ndal"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Republikan\u00EBt n\u00EB Dhom\u00EBn e P\u00EBrfaq\u00EBsuesve synojn\u00EB bllokimin e marr\u00EBveshjes s\u00EB Trumpit p\u00EBr dizelin rus",
-      "Tokens": [
-        "repub",
-        "dhom",
-        "perfa",
-        "synoj",
-        "bllok",
-        "marre",
-        "trump",
-        "dizel",
-        "rus"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/republikanet-synojne-bllokimin-marreveshjes-trump-rusi/33874467.html"
-      ],
-      "Articles": {
-        "infokosove24": "republikanet-ne-dhomen-e-perfaqesuesve-synojne-bllokimin-e-marreveshjes-se"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Trump: Ukraina duhet t\u00EB ket\u00EB president t\u00EB ri",
-      "Tokens": [
-        "trump",
-        "ukrai",
-        "duh",
-        "ket",
-        "presi"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/trump-ukraina-president-te-ri/33874455.html"
-      ],
-      "Articles": {
-        "kosova-aktuale": "trump-ukraina-duhet-te-kete-president-te-ri"
-      }
-    },
-    {
-      "At": "2026-10-11T11:21:39.4328792+00:00",
-      "Title": "Bosnje dhe Hercegovina pas zgjedhjeve: Mes Rusis\u00EB dhe Per\u00EBndimit",
-      "Tokens": [
-        "bosn",
-        "herce",
-        "zgjed",
-        "mes",
-        "rus",
-        "peren"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/bosnja-pas-zgjedhjeve-mes-rusise-perendimit/33874068.html"
-      ],
-      "Articles": {
-        "kosova-fakt": "bosnje-dhe-hercegovina-pas-zgjedhjeve-mes-rusise-dhe-perendimit"
       }
     }
   ]
