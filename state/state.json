@@ -2,6 +2,221 @@
   "RotationCursor": 2,
   "Published": [
     {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Senatorja amerikane reagon p\u00EBr protestat n\u00EB Shqip\u00EBri: Qeveria t\u00EB ndal\u00EB p\u00EBrdorimin e tepruar t\u00EB forc\u00EBs policore dhe t\u00EB luftoj\u00EB korrupsionin",
+      "Tokens": [
+        "senat",
+        "ameri",
+        "reago",
+        "prote",
+        "shqip",
+        "qever",
+        "ndal",
+        "perdo",
+        "tepru",
+        "forc",
+        "polic",
+        "lufto",
+        "korru"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/senatorja-amerikane-per-protestat-ne-shqiperi-qeveria-te-ndale-dhunen-policore/",
+        "https://telegrafi.com/senatorja-amerikane-mesazh-per-protestat-ne-shqiperi-mbroni-qytetaret-nga-dhuna-policore-dhe-luftoni-korrupsionin/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "senatorja-amerikane-per-protestat-ne-shqiperi-qeveria-te-ndale-dhunen-policore"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Mbappe barazon rekordin e Zidanes dhe i afrohet Benzemas n\u00EB historin\u00EB e Lig\u00EBs s\u00EB Kampion\u00EBve",
+      "Tokens": [
+        "mbapp",
+        "baraz",
+        "rekor",
+        "zidan",
+        "afroh",
+        "benze",
+        "histo",
+        "lig",
+        "kampi"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/mbappe-barazon-rekordin-e-zidanes-dhe-i-afrohet-benzemas-ne-historine-e-liges-se-kampioneve/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mbappe-barazon-rekordin-e-zidanes-dhe-i-afrohet-benzemas-ne-historine-e-liges"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Probleme me d\u00EBmtimet te Milani, Amorim humb dy sulmuesit para sfidave t\u00EB r\u00EBnd\u00EBsishme",
+      "Tokens": [
+        "probl",
+        "demti",
+        "milan",
+        "amori",
+        "humb",
+        "sulmu",
+        "sfid",
+        "rende"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/probleme-me-demtimet-te-milani-amorim-humb-dy-sulmuesit-para-sfidave-te-rendesishme/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "probleme-me-demtimet-te-milani-amorim-humb-dy-sulmuesit-para-sfidave-te"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Labinot Rexha kritikon Leonora Jakupin dhe kund\u00EBrshton rikthimin e saj si opinioniste n\u00EB BBVK 5",
+      "Tokens": [
+        "labin",
+        "rexh",
+        "kriti",
+        "leono",
+        "jakup",
+        "kunde",
+        "rikth",
+        "opini",
+        "bbvk"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/labinot-rexha-kritikon-leonora-jakupin-dhe-kundershton-rikthimin-e-saj-si-opinioniste-ne-bbvk-5/"
+      ],
+      "Articles": {
+        "raporti-sot": "labinot-rexha-kritikon-leonora-jakupin-dhe-kundershton-rikthimin-e-saj-si"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Trump paralajm\u00EBron fundin e luft\u00EBs n\u00EB Ukrain\u00EB: Jemi m\u00EB af\u00EBr paqes se kurr\u00EB",
+      "Tokens": [
+        "trump",
+        "paral",
+        "fund",
+        "luft",
+        "ukra",
+        "jem",
+        "afer",
+        "paq",
+        "kurr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-paralajmeron-fundin-e-luftes-ne-ukraine-jemi-me-afer-paqes-se-kurre/"
+      ],
+      "Articles": {
+        "infokosove24": "trump-paralajmeron-fundin-e-luftes-ne-ukraine-jemi-me-afer-paqes-se-kurre"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Moti t\u00EB enjten n\u00EB Kosov\u00EB me diell e vran\u00EBsira, priten edhe ca riga shiu",
+      "Tokens": [
+        "mot",
+        "enjt",
+        "koso",
+        "diell",
+        "vrane",
+        "prit",
+        "rig",
+        "shi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/moti-te-enjten-ne-kosove-me-diell-e-vranesira-priten-edhe-ca-riga-shiu/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "moti-te-enjten-ne-kosove-me-diell-e-vranesira-priten-edhe-ca-riga-shiu"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Pjesa e lapsit kimik i mbetet n\u00EB fyt nx\u00EBn\u00EBsit t\u00EB klas\u00EBs s\u00EB gjasht\u00EB n\u00EB Prizren, stafi i shkoll\u00EBs ia shp\u00EBton jet\u00EBn",
+      "Tokens": [
+        "pjes",
+        "laps",
+        "kimik",
+        "mbet",
+        "fyt",
+        "nxene",
+        "klas",
+        "gjash",
+        "prizr",
+        "staf",
+        "shkol",
+        "shpet",
+        "jet"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pjesa-e-lapsit-kimik-i-mbetet-ne-fyt-nxenesit-te-klases-se-gjashte-ne-prizren-stafi-i-shkolles-ia-shpeton-jeten/"
+      ],
+      "Articles": {
+        "kosova-fakt": "pjesa-e-lapsit-kimik-i-mbetet-ne-fyt-nxenesit-te-klases-se-gjashte-ne-prizren"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Top Channel: Nata e n\u00EBnt\u00EB e protest\u00EBs n\u00EB Tiran\u00EB mbyllet pa dhun\u00EB, \u201Cpak incidente te Kryeministria\u201D",
+      "Tokens": [
+        "top",
+        "chann",
+        "nat",
+        "nent",
+        "prote",
+        "tiran",
+        "mbyll",
+        "dhun",
+        "pak",
+        "incid",
+        "kryem"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/top-channel-nata-e-nente-e-protestes-ne-tirane-mbyllet-pa-dhune-pak-incidente-te-kryeministria/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "top-channel-nata-e-nente-e-protestes-ne-tirane-mbyllet-pa-dhune-pak-incidente"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "Arrestohet n\u00EB Gjermani shqiptari i dyshuar p\u00EBr pjes\u00EBmarrje n\u00EB grupin ekstremist",
+      "Tokens": [
+        "arres",
+        "gjerm",
+        "shqip",
+        "dyshu",
+        "pjese",
+        "grup",
+        "ekstr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/arrestohet-ne-gjermani-shqiptari-i-dyshuar-per-pjesemarrje-ne-grupin-ekstremist/"
+      ],
+      "Articles": {
+        "raporti-sot": "arrestohet-ne-gjermani-shqiptari-i-dyshuar-per-pjesemarrje-ne-grupin-ekstremist"
+      }
+    },
+    {
+      "At": "2026-10-21T23:58:56.7643345+00:00",
+      "Title": "SHBA-ja urdh\u00EBron evakuimin e stafit dhe familjeve nga Arabia Saudite",
+      "Tokens": [
+        "shb",
+        "urdhe",
+        "evaku",
+        "staf",
+        "famil",
+        "arabi",
+        "saud"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shba-ja-urdheron-evakuimin-e-stafit-dhe-familjeve-nga-arabia-saudite/"
+      ],
+      "Articles": {
+        "infokosove24": "shba-ja-urdheron-evakuimin-e-stafit-dhe-familjeve-nga-arabia-saudite"
+      }
+    },
+    {
       "At": "2026-10-21T20:33:05.2211023+00:00",
       "Title": "Vdekja e pacientes me kancer, drejtori i Onkologjis\u00EB mohon munges\u00EBn e terapis\u00EB p\u00EBr kat\u00EBr muaj",
       "Tokens": [
@@ -14350,281 +14565,6 @@
       ],
       "Articles": {
         "infokosove24": "diplomati-rus-i-debuar-nga-bullgaria-shfaqet-ne-serbi"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Ngjarje e r\u00EBnd\u00EB n\u00EB Pogragj\u00EB t\u00EB Gjilanit, dyshohet se babai vrau t\u00EB birin",
-      "Tokens": [
-        "ngjar",
-        "rend",
-        "pogra",
-        "gjila",
-        "dysho",
-        "baba",
-        "vra",
-        "bir"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/e-trishte-ky-eshte-29-vjecari-qe-dyshohet-se-u-vra-nga-babai-i-tij-ne-pogragje-te-gjilanit/",
-        "https://sinjali.com/ekskluzive-tragjedi-familjare-ne-gjilan-babai-dyshohet-se-vrau-djalin-29-vjecar-dhe-iku-me-veture/",
-        "https://telegrafi.com/dyshohet-per-vrasje-brenda-nje-familjeje-ne-pogragje-te-gjilanit/"
-      ],
-      "Articles": {
-        "kosova-fakt": "ekskluzive-tragjedi-familjare-ne-gjilan-babai-dyshohet-se-vrau-djalin-29-vjecar"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Diell n\u00EB m\u00EBngjes, vran\u00EBsira gjat\u00EB dit\u00EBs \u2013 Ja si do t\u00EB jet\u00EB moti n\u00EB Prishtin\u00EB t\u00EB h\u00EBn\u00EBn",
-      "Tokens": [
-        "diell",
-        "mengj",
-        "vrane",
-        "dit",
-        "jet",
-        "mot",
-        "prish",
-        "hen"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/diell-ne-mengjes-vranesira-gjate-dites-ja-si-do-te-jete-moti-ne-prishtine-te-henen/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "diell-ne-mengjes-vranesira-gjate-dites-ja-si-do-te-jete-moti-ne-prishtine-te"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Nes\u00EBr mblidhet Kryesia e Kuvendit, k\u00EBto jan\u00EB pikat e propozuara p\u00EBr seanc\u00EBn e ardhshme plenare",
-      "Tokens": [
-        "neser",
-        "mblid",
-        "kryes",
-        "kuven",
-        "pikat",
-        "propo",
-        "seanc",
-        "ardhs",
-        "plena"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/neser-mblidhet-kryesia-e-kuvendit-keto-jane-pikat-e-propozuara-per-seancen-e-ardhshme-plenare/"
-      ],
-      "Articles": {
-        "raporti-sot": "neser-mblidhet-kryesia-e-kuvendit-keto-jane-pikat-e-propozuara-per-seancen-e"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Dy djem, dy tragjedi \u2013 Nj\u00EBrin ia mori aksidenti me moto\u00E7iklet\u00EB, p\u00EBr vrasjen e tjetrit dyshohet vet\u00EB babai",
-      "Tokens": [
-        "djem",
-        "tragj",
-        "njer",
-        "mor",
-        "aksid",
-        "motoc",
-        "vrasj",
-        "tjetr",
-        "dysho",
-        "vet",
-        "baba"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/dy-djem-dy-tragjedi-njerin-ia-mori-aksidenti-me-motociklete-per-vrasjen-e-tjetrit-dyshohet-vete-babai/"
-      ],
-      "Articles": {
-        "infokosove24": "dy-djem-dy-tragjedi-njerin-ia-mori-aksidenti-me-motociklete-per-vrasjen-e"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Tri raste t\u00EB dhun\u00EBs n\u00EB familje brenda pak or\u00EBsh \u2013 babai k\u00EBrkon mbrojtje nga djali, n\u00EBna largohet me kat\u00EBr f\u00EBmij\u00EBt, nj\u00EB i dyshuar n\u00EB arrati",
-      "Tokens": [
-        "tri",
-        "rast",
-        "dhun",
-        "famil",
-        "brend",
-        "pak",
-        "oresh",
-        "baba",
-        "kerko",
-        "mbroj",
-        "djal",
-        "nen",
-        "largo",
-        "kater",
-        "femij",
-        "dyshu",
-        "arrat"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/tri-raste-te-dhunes-ne-familje-brenda-pak-oresh-babai-kerkon-mbrojtje-nga-djali-nena-largohet-me-kater-femijet-nje-i-dyshuar-ne-arrati/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "tri-raste-te-dhunes-ne-familje-brenda-pak-oresh-babai-kerkon-mbrojtje-nga-djali"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Ekskluzive | Klima, agregate e kabllo zhduken nga prona n\u00EB Lipjan \u2013 kapet i dyshuari, pranon vjedhjen e kabllove",
-      "Tokens": [
-        "klim",
-        "agreg",
-        "kabll",
-        "zhduk",
-        "pron",
-        "lipja",
-        "kap",
-        "dyshu",
-        "prano",
-        "vjedh"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ekskluzive-klima-agregate-e-kabllo-zhduken-nga-prona-ne-lipjan-kapet-i-dyshuari-pranon-vjedhjen-e-kabllove/"
-      ],
-      "Articles": {
-        "kosova-fakt": "ekskluzive-klima-agregate-e-kabllo-zhduken-nga-prona-ne-lipjan-kapet-i-dyshuari"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Ekskluzive | \u201CHajni i stiroporit\u201D kapet n\u00EB Lipjan \u2013 dyshohet se shkoi me kombi t\u00EB bardh\u00EB te objekti n\u00EB nd\u00EBrtim",
-      "Tokens": [
-        "hajn",
-        "stiro",
-        "kap",
-        "lipja",
-        "dysho",
-        "shko",
-        "komb",
-        "bardh",
-        "objek",
-        "ndert"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ekskluzive-hajni-i-stiroporit-kapet-ne-lipjan-dyshohet-se-shkoi-me-kombi-te-bardhe-te-objekti-ne-ndertim/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "ekskluzive-hajni-i-stiroporit-kapet-ne-lipjan-dyshohet-se-shkoi-me-kombi-te"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Zjarrv\u00EBnie n\u00EB qend\u00EBr t\u00EB Prishtin\u00EBs \u2013 digjen disa vetura dhe nj\u00EB moto\u00E7iklet\u00EB n\u00EB garazh",
-      "Tokens": [
-        "zjarr",
-        "qende",
-        "prish",
-        "digj",
-        "dis",
-        "vetur",
-        "motoc",
-        "garaz"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/zjarrvenie-ne-qender-te-prishtines-digjen-disa-vetura-dhe-nje-motociklete-ne-garazh/"
-      ],
-      "Articles": {
-        "raporti-sot": "zjarrvenie-ne-qender-te-prishtines-digjen-disa-vetura-dhe-nje-motociklete-ne"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Ekskluzive | Hajnat hyjn\u00EB me forc\u00EB n\u00EB kish\u00EBn n\u00EB Partesh \u2013 vjedhin tri thika me ngjyr\u00EB ari nga vendi ku q\u00EBndron prifti",
-      "Tokens": [
-        "hajna",
-        "hyjn",
-        "forc",
-        "kish",
-        "parte",
-        "vjedh",
-        "tri",
-        "thik",
-        "ngjyr",
-        "ari",
-        "vend",
-        "qendr",
-        "prift"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ekskluzive-hajnat-hyjne-me-force-ne-kishen-ne-partesh-vjedhin-tri-thika-me-ngjyre-ari-nga-vendi-ku-qendron-prifti/"
-      ],
-      "Articles": {
-        "infokosove24": "ekskluzive-hajnat-hyjne-me-force-ne-kishen-ne-partesh-vjedhin-tri-thika-me"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Ekskluzive | Ky \u00EBsht\u00EB i dyshuari p\u00EBr vrasjen e djalit n\u00EB Pogragj\u00EB t\u00EB Gjilanit \u2013 Ramiz Arifi dyshohet se iku me Suzuki pas krimit",
-      "Tokens": [
-        "dyshu",
-        "vrasj",
-        "djal",
-        "pogra",
-        "gjila",
-        "ramiz",
-        "arif",
-        "dysho",
-        "iku",
-        "suzuk",
-        "krim"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ekskluzive-ky-eshte-i-dyshuari-per-vrasjen-e-djalit-ne-pogragje-te-gjilanit-ramiz-arifi-dyshohet-se-iku-me-suzuki-pas-krimit/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "ekskluzive-ky-eshte-i-dyshuari-per-vrasjen-e-djalit-ne-pogragje-te-gjilanit"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "\u201CDor\u00EBheqje apo p\u00EBrjashtim? LDK-ja n\u00EB Obiliq ia kund\u00EBrshton versionin Labinot Miren\u00EBs: E larguam q\u00EB n\u00EB janar p\u00EBr vot\u00EBn pro VV-s\u00EB\u201D",
-      "Tokens": [
-        "doreh",
-        "perja",
-        "ldk",
-        "obili",
-        "kunde",
-        "versi",
-        "labin",
-        "miren",
-        "largu",
-        "janar",
-        "vot",
-        "pro"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/doreheqje-apo-perjashtim-ldk-ja-ne-obiliq-ia-kundershton-versionin-labinot-mirenes-e-larguam-qe-ne-janar-per-voten-pro-vv-se/"
-      ],
-      "Articles": {
-        "kosova-fakt": "doreheqje-apo-perjashtim-ldk-ja-ne-obiliq-ia-kundershton-versionin-labinot"
-      }
-    },
-    {
-      "At": "2026-10-11T22:48:17.3700798+00:00",
-      "Title": "Gjilani tronditet nga tri viktima brenda tri dit\u00EBsh \u2013 Alban Hyseni th\u00EBrret urgjentisht K\u00EBshillin p\u00EBr Siguri",
-      "Tokens": [
-        "gjila",
-        "trond",
-        "tri",
-        "vikti",
-        "brend",
-        "dites",
-        "alban",
-        "hysen",
-        "therr",
-        "urgje",
-        "keshi",
-        "sigur"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/gjilani-tronditet-nga-tri-viktima-brenda-tri-ditesh-alban-hyseni-therret-urgjentisht-keshillin-per-siguri/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "gjilani-tronditet-nga-tri-viktima-brenda-tri-ditesh-alban-hyseni-therret"
       }
     }
   ]
