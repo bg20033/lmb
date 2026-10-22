@@ -1,6 +1,378 @@
 {
-  "RotationCursor": 4,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "D\u00EBm mbi 50 mij\u00EB euro, arrestohet nj\u00EB person p\u00EBr fajde dhe detyrim n\u00EB Prishtin\u00EB",
+      "Tokens": [
+        "dem",
+        "mij",
+        "euro",
+        "arres",
+        "perso",
+        "fajd",
+        "detyr",
+        "prish"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/dem-mbi-50-mije-euro-arrestohet-nje-person-per-fajde-dhe-detyrim-ne-prishtine/",
+        "https://sinjali.com/dyshohet-per-fajde-dhe-detyrim-ndalohet-nje-person-ne-prishtine-demi-mbi-50-mije-euro/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dyshohet-per-fajde-dhe-detyrim-ndalohet-nje-person-ne-prishtine-demi-mbi-50"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Kosova pret Izraelin n\u00EB \u201CFadil Vokrri\u201D, dalin n\u00EB shitje biletat p\u00EBr ndeshjen e r\u00EBnd\u00EBsishme t\u00EB Lig\u00EBs s\u00EB Kombeve",
+      "Tokens": [
+        "kosov",
+        "pret",
+        "izrae",
+        "fadil",
+        "vokrr",
+        "dal",
+        "shit",
+        "bilet",
+        "ndesh",
+        "rende",
+        "lig",
+        "komb"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dalin-ne-shitje-biletat-per-ndeshjen-kosove-izrael-keto-jane-cmimet/",
+        "https://www.gazetaexpress.com/kosova-pret-izraelin-ne-fadil-vokrri-dalin-ne-shitje-biletat-per-ndeshjen-e-rendesishme-te-liges-se-kombeve/"
+      ],
+      "Articles": {
+        "raporti-sot": "kosova-pret-izraelin-ne-fadil-vokrri-dalin-ne-shitje-biletat-per-ndeshjen-e"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Sve\u00E7la n\u00EB Itali, k\u00EBrkon bashk\u00EBpunim p\u00EBr themelimin e Xhandarm\u00EBris\u00EB s\u00EB Kosov\u00EBs",
+      "Tokens": [
+        "svecl",
+        "ital",
+        "kerko",
+        "bashk",
+        "theme",
+        "xhand",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/svecla-ne-itali-kerkon-bashkepunim-per-themelimin-e-xhandarmerise-se-kosoves/"
+      ],
+      "Articles": {
+        "infokosove24": "svecla-ne-itali-kerkon-bashkepunim-per-themelimin-e-xhandarmerise-se-kosoves"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Kurti ndan pamje nga Samiti i Berlinit, njofton p\u00EBr \u2018\u2018nj\u00EB bised\u00EB\u2019\u2019 me Merz: Investimet gjermane jan\u00EB rreth 1.5 miliard\u00EB euro",
+      "Tokens": [
+        "kurt",
+        "ndan",
+        "pam",
+        "samit",
+        "berli",
+        "njoft",
+        "bised",
+        "merz",
+        "inves",
+        "gjerm",
+        "rreth",
+        "milia",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kurti-ndan-pamje-nga-samiti-i-berlinit-njofton-per-nje-bisede-me-merz-investimet-gjermane-jane-rreth-1-5-miliarde-euro/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kurti-ndan-pamje-nga-samiti-i-berlinit-njofton-per-nje-bisede-me-merz"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Albian Hajdari operohet n\u00EB t\u00EB dyja k\u00EBmb\u00EBt, pritet rehabilitimi",
+      "Tokens": [
+        "albia",
+        "hajda",
+        "opero",
+        "dyj",
+        "kemb",
+        "prit",
+        "rehab"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/albian-hajdari-operohet-ne-te-dyja-kembet-pritet-rehabilitimi/"
+      ],
+      "Articles": {
+        "kosova-fakt": "albian-hajdari-operohet-ne-te-dyja-kembet-pritet-rehabilitimi"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Selin Bollati zbulon detaje nga jeta me Gimbon: \u201CBashk\u00EBjetesa erdhi natyrsh\u00EBm, po e shijojm\u00EB shum\u00EB\u201D",
+      "Tokens": [
+        "sel",
+        "bolla",
+        "zbulo",
+        "deta",
+        "jet",
+        "gimbo",
+        "bashk",
+        "erdh",
+        "natyr",
+        "shijo",
+        "shum"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/selin-bollati-zbulon-detaje-nga-jeta-me-gimbon-bashkejetesa-erdhi-natyrshem-po-e-shijojme-shume/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "selin-bollati-zbulon-detaje-nga-jeta-me-gimbon-bashkejetesa-erdhi-natyrshem-po"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Ekskluzive | Kapet n\u00EB flagranc\u00EB 23-vje\u00E7ari n\u00EB Podujev\u00EB, po paketonte marihuan\u00EB p\u00EBr shitje",
+      "Tokens": [
+        "kap",
+        "flagr",
+        "vjeca",
+        "poduj",
+        "paket",
+        "marih",
+        "shit"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kapet-ne-flagrance-23-vjecari-ne-podujeve-po-paketonte-marihuane-per-shitje/"
+      ],
+      "Articles": {
+        "raporti-sot": "ekskluzive-kapet-ne-flagrance-23-vjecari-ne-podujeve-po-paketonte-marihuane-per"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Rubios i k\u00EBrkohen sanksione ndaj kat\u00EBr biznesmen\u00EBve serb\u00EB t\u00EB af\u00EBrt me Vu\u00E7iqin",
+      "Tokens": [
+        "rubio",
+        "kerko",
+        "sanks",
+        "ndaj",
+        "kater",
+        "bizne",
+        "serb",
+        "afert",
+        "vuciq"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/rubio-sanksione-biznesmen-vucic/33881684.html"
+      ],
+      "Articles": {
+        "infokosove24": "rubios-i-kerkohen-sanksione-ndaj-kater-biznesmeneve-serbe-te-afert-me-vuciqin"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Ekskluzive | K\u00EBta jan\u00EB tre t\u00EB dyshuarit p\u00EBr tentim vrasjen n\u00EB De\u00E7an, Sinjali zbulon emrat e tyre",
+      "Tokens": [
+        "ket",
+        "tre",
+        "dyshu",
+        "tenti",
+        "vrasj",
+        "decan",
+        "sinja",
+        "zbulo",
+        "emrat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-keta-jane-tre-te-dyshuarit-per-tentim-vrasjen-ne-decan-sinjali-zbulon-emrat-e-tyre/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ekskluzive-keta-jane-tre-te-dyshuarit-per-tentim-vrasjen-ne-decan-sinjali"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "\u201CBoll m\u00EB me manipulime\u201D, Besnik Tahiri kritikon retorik\u00EBn politike serbe ndaj Kosov\u00EBs",
+      "Tokens": [
+        "boll",
+        "manip",
+        "besni",
+        "tahir",
+        "kriti",
+        "retor",
+        "polit",
+        "serb",
+        "ndaj",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/boll-me-me-manipulime-besnik-tahiri-kritikon-retoriken-politike-serbe-ndaj-kosoves/"
+      ],
+      "Articles": {
+        "kosova-fakt": "boll-me-me-manipulime-besnik-tahiri-kritikon-retoriken-politike-serbe-ndaj"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Ambasada e Ukrain\u00EBs: Rusia duhet t\u00EB nd\u00EBshkohet p\u00EBr krimet, p\u00EBrfshir\u00EB vrasjen e civil\u00EBve",
+      "Tokens": [
+        "ambas",
+        "ukrai",
+        "rusi",
+        "duh",
+        "ndesh",
+        "krim",
+        "perfs",
+        "vrasj",
+        "civil"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ambasada-e-ukraines-rusia-duhet-te-ndeshkohet-per-krimet-perfshire-vrasjen-e-civileve/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ambasada-e-ukraines-rusia-duhet-te-ndeshkohet-per-krimet-perfshire-vrasjen-e"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Gani Geci d\u00EBrgohet n\u00EB Spitalin e Pej\u00EBs, reagon familja e tij: Vler\u00EBsojm\u00EB kujdesin dhe profesionalizmin e t\u00EB gjith\u00EBve",
+      "Tokens": [
+        "gan",
+        "gec",
+        "dergo",
+        "spita",
+        "pej",
+        "reago",
+        "famil",
+        "vlere",
+        "kujde",
+        "profe",
+        "gjith"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gani-geci-dergohet-ne-spitalin-e-pejes-reagon-familja-e-tij-vleresojme-kujdesin-dhe-profesionalizmin-e-te-gjitheve/"
+      ],
+      "Articles": {
+        "raporti-sot": "gani-geci-dergohet-ne-spitalin-e-pejes-reagon-familja-e-tij-vleresojme-kujdesin"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Kush do ta marr\u00EB drejtimin e PDK-s\u00EB? Ismaili e Gruda pretendent\u00EB",
+      "Tokens": [
+        "kush",
+        "marr",
+        "drejt",
+        "pdk",
+        "ismai",
+        "grud",
+        "prete"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kush-do-ta-marre-drejtimin-e-pdk-se-ismaili-e-gruda-pretendente/"
+      ],
+      "Articles": {
+        "infokosove24": "kush-do-ta-marre-drejtimin-e-pdk-se-ismaili-e-gruda-pretendente"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Zgjedhjet q\u00EB mund ta tronditin pushtetin e Vu\u00E7iqit n\u00EB Serbi",
+      "Tokens": [
+        "zgjed",
+        "mund",
+        "trond",
+        "pusht",
+        "vuciq",
+        "serb"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/vuciq-perballet-sfiden-madhe-zgjedhore-shqetesime-parregullsi/33881520.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "zgjedhjet-qe-mund-ta-tronditin-pushtetin-e-vuciqit-ne-serbi"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Hargreaves takon komandantin e ri t\u00EB KFOR-it",
+      "Tokens": [
+        "hargr",
+        "takon",
+        "koman",
+        "kfor"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/hargreaves-takon-komandantin-e-ri-te-kfor-it/"
+      ],
+      "Articles": {
+        "kosova-fakt": "hargreaves-takon-komandantin-e-ri-te-kfor-it"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Kosova heton 10 t\u00EB dyshuar p\u00EBr kontraband\u00EB me mallra n\u00EB veri t\u00EB vendit",
+      "Tokens": [
+        "kosov",
+        "heton",
+        "dyshu",
+        "kontr",
+        "mallr",
+        "ver",
+        "vend"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/policia-arreston-10-kunder-kontrabandes-mallra-veri/33881621.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kosova-heton-10-te-dyshuar-per-kontrabande-me-mallra-ne-veri-te-vendit"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Naser Hafizi deklarohet i pafajsh\u00EBm p\u00EBr keqp\u00EBrdorim t\u00EB detyr\u00EBs dhe dy veprat tjera penale",
+      "Tokens": [
+        "naser",
+        "hafiz",
+        "dekla",
+        "pafaj",
+        "keqpe",
+        "detyr",
+        "vepra",
+        "tjer",
+        "penal"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/naser-hafizi-deklarohet-i-pafajshem-per-keqperdorim-te-detyres-dhe-dy-veprat-tjera-penale/"
+      ],
+      "Articles": {
+        "raporti-sot": "naser-hafizi-deklarohet-i-pafajshem-per-keqperdorim-te-detyres-dhe-dy-veprat"
+      }
+    },
+    {
+      "At": "2026-10-22T15:51:49.008126+00:00",
+      "Title": "Pse mbetet e lart\u00EB vdekshm\u00EBria e foshnjave n\u00EB komunitetet rom, ashkali dhe egjiptian",
+      "Tokens": [
+        "mbet",
+        "lart",
+        "vdeks",
+        "foshn",
+        "komun",
+        "rom",
+        "ashka",
+        "egjip"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/vdekshmeria-foshnjave-rom-ashkali-egjiptian-kosova/33881537.html"
+      ],
+      "Articles": {
+        "infokosove24": "pse-mbetet-e-larte-vdekshmeria-e-foshnjave-ne-komunitetet-rom-ashkali-dhe"
+      }
+    },
     {
       "At": "2026-10-22T10:02:25.3600379+00:00",
       "Title": "\u0022Dikush n\u00EB gjoks e ka kancerin, ju e rregulloni mindilin\u201D - Ymeri kritikon Vitin\u00EB, p\u00EBrgjigjet ministri",
@@ -14670,366 +15042,6 @@
       ],
       "Articles": {
         "lajme-per-kosove": "be-ja-pothuajse-jashte-fushates-zgjedhore-ne-serbi"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Kos: Ndryshimet n\u00EB Ligjin p\u00EBr Specialen jan\u00EB t\u00EB papranueshme p\u00EBr BE-n\u00EB",
-      "Tokens": [
-        "kos",
-        "ndrys",
-        "ligj",
-        "speci",
-        "papra"
-      ],
-      "SourceUrls": [
-        "https://telegrafi.com/marta-kos-e-cilesoi-te-papranueshem-ligjin-per-specialen-citaku-mospajtimet-me-miqte-jane-normale/",
-        "https://telegrafi.com/kos-ndryshimet-ne-ligjin-per-specialen-jane-te-papranueshme-per-be-ne/",
-        "https://www.evropaelire.org/a/kallas-ndryshimet-ne-ligjin-per-specialen-te-papranueshme/33874936.html"
-      ],
-      "Articles": {
-        "raporti-sot": "kos-ndryshimet-ne-ligjin-per-specialen-jane-te-papranueshme-per-be-ne"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Courtois af\u00EBr rinovimit deri n\u00EB vitin 2028",
-      "Tokens": [
-        "court",
-        "afer",
-        "rinov",
-        "vit",
-        "2028"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/courtois-afer-rinovimit-deri-ne-vitin-2028/"
-      ],
-      "Articles": {
-        "infokosove24": "courtois-afer-rinovimit-deri-ne-vitin-2028"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Alarm n\u00EB shkollat e Polonis\u00EB pas tre sulmeve me thik\u00EB, vendosen 20 mij\u00EB forca policore n\u00EB institucionet arsimore",
-      "Tokens": [
-        "alarm",
-        "shkol",
-        "polon",
-        "tre",
-        "sulm",
-        "thik",
-        "vendo",
-        "mij",
-        "forc",
-        "polic",
-        "insti",
-        "arsim"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/alarm-ne-shkollat-e-polonise-pas-tre-sulmeve-me-thike-vendosen-20-mije-forca-policore-ne-institucionet-arsimore/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "alarm-ne-shkollat-e-polonise-pas-tre-sulmeve-me-thike-vendosen-20-mije-forca"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Dogana zbulon mallra t\u00EB padeklaruara n\u00EB V\u00EBrmic\u00EB, kapin vler\u00EBn mbi 10 mij\u00EB eurove",
-      "Tokens": [
-        "dogan",
-        "zbulo",
-        "mallr",
-        "padek",
-        "vermi",
-        "kap",
-        "vler",
-        "mij",
-        "euro"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/dogana-zbulon-mallra-te-padeklaruara-ne-vermice-kapin-vleren-mbi-10-mije-eurove/"
-      ],
-      "Articles": {
-        "kosova-fakt": "dogana-zbulon-mallra-te-padeklaruara-ne-vermice-kapin-vleren-mbi-10-mije-eurove"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Shiroka-Pula k\u00EBrkon mb\u00EBshtetjen e Shqip\u00EBris\u00EB p\u00EBr integrimin euroatlantik t\u00EB Kosov\u00EBs",
-      "Tokens": [
-        "shiro",
-        "pul",
-        "kerko",
-        "mbesh",
-        "shqip",
-        "integ",
-        "euroa",
-        "kosov"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/shiroka-pula-kerkon-mbeshtetjen-e-shqiperise-per-integrimin-euroatlantik-te-kosoves/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "shiroka-pula-kerkon-mbeshtetjen-e-shqiperise-per-integrimin-euroatlantik-te"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Shqip\u00EBria dhe Izraeli n\u00EBnshkruajn\u00EB marr\u00EBveshje p\u00EBr bashk\u00EBpunim, fokusi n\u00EB siguri dhe teknologji",
-      "Tokens": [
-        "shqip",
-        "izrae",
-        "nensh",
-        "marre",
-        "bashk",
-        "fokus",
-        "sigur",
-        "tekno"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/shqiperia-izraeli-marreveshje-bashkepunim-siguri-teknologji/33875097.html"
-      ],
-      "Articles": {
-        "raporti-sot": "shqiperia-dhe-izraeli-nenshkruajne-marreveshje-per-bashkepunim-fokusi-ne-siguri"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Kat\u00EBr bllokime n\u00EB n\u00EBnt\u00EB muaj dhe i nj\u00EBjti problem p\u00EBr minator\u00EBt e Stant\u00EBrgut",
-      "Tokens": [
-        "kater",
-        "bllok",
-        "nent",
-        "muaj",
-        "njejt",
-        "probl",
-        "minat",
-        "stant"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/miniera-stanterg-bllokime-minatoret/33875073.html"
-      ],
-      "Articles": {
-        "infokosove24": "kater-bllokime-ne-nente-muaj-dhe-i-njejti-problem-per-minatoret-e-stantergut"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "LEX | K\u00EBrkohet p\u00EBrjashtimi i gjyqtarit n\u00EB rastin e Nagip Krasniqit \u2013 Nd\u00EBrpritet seanca ku pritej t\u00EB d\u00EBshmonte Dejona Mihali",
-      "Tokens": [
-        "lex",
-        "kerko",
-        "perja",
-        "gjyqt",
-        "rast",
-        "nagip",
-        "krasn",
-        "nderp",
-        "seanc",
-        "prite",
-        "deshm",
-        "dejon",
-        "mihal"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/lex-kerkohet-perjashtimi-i-gjyqtarit-ne-rastin-e-nagip-krasniqit-nderpritet-seanca-ku-pritej-te-deshmonte-dejona-mihali/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "lex-kerkohet-perjashtimi-i-gjyqtarit-ne-rastin-e-nagip-krasniqit-nderpritet"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "LEX | I d\u00EBnuar me burgim t\u00EB p\u00EBrjetsh\u00EBm p\u00EBr vrasjen e Liridona Ademajt, Naim Murseli k\u00EBrkon ulje t\u00EB d\u00EBnimit \u2013 Caktohet seanca n\u00EB Apel",
-      "Tokens": [
-        "lex",
-        "denua",
-        "burgi",
-        "perje",
-        "vrasj",
-        "lirid",
-        "adema",
-        "naim",
-        "murse",
-        "kerko",
-        "ulj",
-        "denim",
-        "cakto",
-        "seanc",
-        "apel"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/lex-i-denuar-me-burgim-te-perjetshem-per-vrasjen-e-liridona-ademajt-naim-murseli-kerkon-ulje-te-denimit-caktohet-seanca-ne-apel/"
-      ],
-      "Articles": {
-        "kosova-fakt": "lex-i-denuar-me-burgim-te-perjetshem-per-vrasjen-e-liridona-ademajt-naim"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Dyshohet se e goditi ish-futbollisten, Liridon Leci reagon pas deklarat\u00EBs s\u00EB Dibran Istrefit: Bashk\u00EBpunimin e nd\u00EBrpreva vet\u00EB",
-      "Tokens": [
-        "dysho",
-        "godit",
-        "ish",
-        "futbo",
-        "lirid",
-        "lec",
-        "reago",
-        "dekla",
-        "dibra",
-        "istre",
-        "bashk",
-        "nderp",
-        "vet"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/dyshohet-se-e-goditi-ish-futbollisten-liridon-leci-reagon-pas-deklarates-se-dibran-istrefit-bashkepunimin-e-nderpreva-vete/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "dyshohet-se-e-goditi-ish-futbollisten-liridon-leci-reagon-pas-deklarates-se"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Tobey Maguire nuk mori pjes\u00EB vet\u00EBm si i ftuar n\u00EB dasm\u00EBn e ish-bashk\u00EBshortes s\u00EB tij, por ishte ai q\u00EB drejtoi te gjith\u00EB ceremonin\u00EB martesore",
-      "Tokens": [
-        "tobey",
-        "magui",
-        "mor",
-        "pjes",
-        "ftuar",
-        "dasm",
-        "ish",
-        "bashk",
-        "drejt",
-        "gjith",
-        "cerem",
-        "marte"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/tobey-maguire-nuk-mori-pjese-vetem-si-i-ftuar-ne-dasmen-e-ish-bashkeshortes-se-tij-por-ishte-ai-qe-drejtoi-te-gjithe-ceremonine-martesore/"
-      ],
-      "Articles": {
-        "raporti-sot": "tobey-maguire-nuk-mori-pjese-vetem-si-i-ftuar-ne-dasmen-e-ish-bashkeshortes-se"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Libani sekuestron 400 kg hashash me vler\u00EB 1 milion dollar\u00EB, disa t\u00EB arrestuar",
-      "Tokens": [
-        "liban",
-        "sekue",
-        "400",
-        "hasha",
-        "vler",
-        "milio",
-        "dolla",
-        "dis",
-        "arres"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/libani-sekuestron-400-kg-hashash-me-vlere-1-milion-dollare-disa-te-arrestuar/"
-      ],
-      "Articles": {
-        "infokosove24": "libani-sekuestron-400-kg-hashash-me-vlere-1-milion-dollare-disa-te-arrestuar"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Cristiano Ronaldo: Jam futbollisti m\u00EB i mir\u00EB i t\u00EB gjitha koh\u00EBrave \u2013 Ja \u00E7ka thot\u00EB p\u00EBr Messin",
-      "Tokens": [
-        "crist",
-        "ronal",
-        "jam",
-        "futbo",
-        "mir",
-        "gjith",
-        "koher",
-        "cka",
-        "mess"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/cristiano-ronaldo-jam-futbollisti-me-i-mire-i-te-gjitha-koherave-ja-cka-thote-per-messin/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "cristiano-ronaldo-jam-futbollisti-me-i-mire-i-te-gjitha-koherave-ja-cka-thote"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Shum\u00EB her\u00EBt? Zona t\u00EB Bjellorusis\u00EB t\u00EB prekura nga \u00C7ernobili s\u0027do t\u00EB konsiderohen \u0022t\u00EB kontaminuara\u0022 m\u00EB",
-      "Tokens": [
-        "shum",
-        "her",
-        "zon",
-        "bjell",
-        "preku",
-        "cerno",
-        "konsi",
-        "konta"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/bjellorusia-cernobili-zona-kontaminuara/33873529.html"
-      ],
-      "Articles": {
-        "kosova-fakt": "shume-heret-zona-te-bjellorusise-te-prekura-nga-cernobili-s-do-te-konsiderohen"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Pas d\u00EBbimit nga Mali i Zi, blogeri rus kthehet nga Serbia n\u00EB Rusi",
-      "Tokens": [
-        "debim",
-        "mal",
-        "bloge",
-        "rus",
-        "ktheh",
-        "serbi"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/pas-debimit-nga-mali-i-zi-blogeri-rus-kthehet-ne-rusi/33874990.html"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "pas-debimit-nga-mali-i-zi-blogeri-rus-kthehet-nga-serbia-ne-rusi"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Zelensky: Rusia nuk i ndal sulmet, pavar\u00EBsisht thirrjes s\u00EB Trumpit p\u00EBr arm\u00EBpushim",
-      "Tokens": [
-        "zelen",
-        "rusi",
-        "ndal",
-        "sulm",
-        "pavar",
-        "thirr",
-        "trump",
-        "armep"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/zelensky-rusia-nuk-i-ndal-sulmet/33874979.html"
-      ],
-      "Articles": {
-        "raporti-sot": "zelensky-rusia-nuk-i-ndal-sulmet-pavaresisht-thirrjes-se-trumpit-per-armepushim"
-      }
-    },
-    {
-      "At": "2026-10-12T13:01:55.7111768+00:00",
-      "Title": "Diplomati rus i d\u00EBbuar nga Bullgaria shfaqet n\u00EB Serbi",
-      "Tokens": [
-        "diplo",
-        "rus",
-        "debua",
-        "bullg",
-        "shfaq",
-        "serb"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/diplomati-rus-debuar-bullgaria-spiunazh-serbi/33873455.html"
-      ],
-      "Articles": {
-        "infokosove24": "diplomati-rus-i-debuar-nga-bullgaria-shfaqet-ne-serbi"
       }
     }
   ]
