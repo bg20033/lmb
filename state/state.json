@@ -1,6 +1,531 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "\u00C7far\u00EB ndodh tani me Ligjin p\u00EBr Specialen pasi presidentja e riktheu n\u00EB Kuvend?",
+      "Tokens": [
+        "ndodh",
+        "tan",
+        "ligj",
+        "speci",
+        "pas",
+        "presi",
+        "rikth",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/cfare-ndodh-tani-me-ligjin-per-specialen-pasi-presidentja-e-riktheu-ne-kuvend/",
+        "https://www.evropaelire.org/a/pdk-ligji-speciale-presidentja/33881774.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "cfare-ndodh-tani-me-ligjin-per-specialen-pasi-presidentja-e-riktheu-ne-kuvend"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "\u201CKush tenton t\u00EB luaj\u00EB me U\u00C7K-n\u00EB, do t\u00EB na ket\u00EB p\u00EBrball\u00EB\u201D \u2013 Haziri reagon pas kthimit t\u00EB Ligjit p\u00EBr Specialen",
+      "Tokens": [
+        "kush",
+        "tento",
+        "lua",
+        "uck",
+        "ket",
+        "perba",
+        "hazir",
+        "reago",
+        "kthim",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kushdo-qe-luan-me-uck-ne-do-te-na-kete-perballe-haziri-reagon-per-ligjin-e-speciales/",
+        "https://telegrafi.com/kush-tenton-te-luaje-me-uck-ne-do-te-na-kete-perballe-haziri-reagon-pas-kthimit-te-ligjit-per-specialen/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kushdo-qe-luan-me-uck-ne-do-te-na-kete-perballe-haziri-reagon-per-ligjin-e"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "\u201CShokuese, rruga m\u00EB e keqe, ka pasur rrug\u00EB t\u00EB tjera\u201D, Limaj kritika PDK\u2019s\u00EB p\u00EBr kthimin e ligjit p\u00EBr Specialen",
+      "Tokens": [
+        "shoku",
+        "rrug",
+        "keq",
+        "pasur",
+        "tjer",
+        "limaj",
+        "kriti",
+        "pdk",
+        "kthim",
+        "ligj",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shokuese-rruga-me-e-keqe-ka-pasur-rruge-te-tjera-limaj-kritika-pdkse-per-kthimin-e-ligjit-per-specialen/",
+        "https://www.gazetaexpress.com/shokuese-rruga-me-e-keqe-ka-pasur-rruge-te-tjera-limaj-kritika-pdkse-per-kthimin-e-ligjit-per-specialen/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "shokuese-rruga-me-e-keqe-ka-pasur-rruge-te-tjera-limaj-kritika-pdk-se-per"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Pamje t\u00EB rralla n\u00EB det \u2013 delfini roz\u00EB shfaqet n\u00EB brigjet e Omanit, habit me ngjyr\u00EBn e pazakont\u00EB",
+      "Tokens": [
+        "pam",
+        "rrall",
+        "det",
+        "delfi",
+        "roz",
+        "shfaq",
+        "brigj",
+        "oman",
+        "hab",
+        "ngjyr",
+        "pazak"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pamje-te-rralla-ne-det-delfini-roze-shfaqet-ne-brigjet-e-omanit-habit-me-ngjyren-e-pazakonte/"
+      ],
+      "Articles": {
+        "raporti-sot": "pamje-te-rralla-ne-det-delfini-roze-shfaqet-ne-brigjet-e-omanit-habit-me"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Yamal ndahet nga delegacioni i Barcelon\u00EBs p\u00EBr Topin e Art\u00EB: K\u00EBt\u00EB her\u00EB udh\u00EBton i vet\u00EBm drejt lavdis\u00EB",
+      "Tokens": [
+        "yamal",
+        "ndah",
+        "deleg",
+        "barce",
+        "top",
+        "art",
+        "ket",
+        "her",
+        "udhet",
+        "drejt",
+        "lavd"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/yamal-ndahet-nga-delegacioni-i-barcelones-per-topin-e-arte-kete-here-udheton-i-vetem-drejt-lavdise/"
+      ],
+      "Articles": {
+        "infokosove24": "yamal-ndahet-nga-delegacioni-i-barcelones-per-topin-e-arte-kete-here-udheton-i"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Ramadani p\u00EBrcjell q\u00EBndrimin e Alenac\u00EBs: Kushdo q\u00EB \u00EBsht\u00EB p\u00EBrfshir\u00EB n\u00EB loj\u00EBn e kthimit t\u00EB ligjit, do ta trajtojm\u00EB si kund\u00EBrshtar t\u00EB U\u00C7K-s\u00EB",
+      "Tokens": [
+        "ramad",
+        "percj",
+        "qendr",
+        "alena",
+        "kushd",
+        "perfs",
+        "loj",
+        "kthim",
+        "ligj",
+        "trajt",
+        "kunde",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ramadani-percjell-qendrimin-e-aak-se-kushdo-qe-eshte-perfshire-ne-lojen-e-kthimit-te-ligjit-do-ta-trajtojme-si-kundershtar-te-uck-se/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ramadani-percjell-qendrimin-e-alenaces-kushdo-qe-eshte-perfshire-ne-lojen-e"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Ish-k\u00EBshilltari i Veselit, Bytyqi mohon p\u00EBrfshirjen n\u00EB t\u00EBrheqjen e Ligjit t\u00EB Speciales: Pretendimet p\u00EBr sulm ndaj Grud\u00EBs jan\u00EB t\u00EB rreme",
+      "Tokens": [
+        "ish",
+        "keshi",
+        "vesel",
+        "bytyq",
+        "mohon",
+        "perfs",
+        "terhe",
+        "ligj",
+        "speci",
+        "prete",
+        "sulm",
+        "ndaj",
+        "grud",
+        "rrem"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ish-keshilltari-i-veselit-bytyqi-mohon-perfshirjen-ne-terheqjen-e-ligjit-te-speciales-pretendimet-per-sulm-ndaj-grudes-jane-te-rreme/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ish-keshilltari-i-veselit-bytyqi-mohon-perfshirjen-ne-terheqjen-e-ligjit-te"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Trump telefonon Musk p\u00EBr Starlinkun n\u00EB Ukrain\u00EB, k\u00EBrkon heqjen e kufizimeve",
+      "Tokens": [
+        "trump",
+        "telef",
+        "musk",
+        "starl",
+        "ukra",
+        "kerko",
+        "heqj",
+        "kufiz"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-telefonon-musk-per-starlinkun-ne-ukraine-kerkon-heqjen-e-kufizimeve/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "trump-telefonon-musk-per-starlinkun-ne-ukraine-kerkon-heqjen-e-kufizimeve"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Abdixhiku thot\u00EB se vendimi n\u00EB Hag\u00EB s\u2019\u00EBsht\u00EB ndaj U\u00C7K-s\u00EB: Gabim t\u00EB thuhet kjo",
+      "Tokens": [
+        "abdix",
+        "vendi",
+        "hag",
+        "ndaj",
+        "uck",
+        "gabim",
+        "thuh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/abdixhiku-thote-se-vendimi-ne-hage-seshte-ndaj-uck-se-gabim-te-thuhet-kjo/"
+      ],
+      "Articles": {
+        "raporti-sot": "abdixhiku-thote-se-vendimi-ne-hage-s-eshte-ndaj-uck-se-gabim-te-thuhet-kjo"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "\u00C7lirim Haziri reagon pasi PDK k\u00EBrkoi q\u00EB ligji i Speciales t\u00EB kthehet n\u00EB Kuvend: Nuk besoj se dikush do t\u00EB tentoj\u00EB t\u00EB luaj\u00EB me U\u00C7K\u2019n\u00EB",
+      "Tokens": [
+        "cliri",
+        "hazir",
+        "reago",
+        "pas",
+        "pdk",
+        "kerko",
+        "ligj",
+        "speci",
+        "ktheh",
+        "kuven",
+        "besoj",
+        "dikus",
+        "tento",
+        "lua",
+        "uck"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/clirim-haziri-reagon-pasi-pdk-kerkoi-qe-ligji-i-speciales-te-kthehet-ne-kuvend-nuk-besoj-se-dikush-do-te-tentoje-te-luaje-me-uckne/"
+      ],
+      "Articles": {
+        "infokosove24": "clirim-haziri-reagon-pasi-pdk-kerkoi-qe-ligji-i-speciales-te-kthehet-ne-kuvend"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "T\u00EB rinjt\u00EB p\u00EBrleshen me grushte n\u00EB Ulpian\u00EB t\u00EB Prishtin\u00EBs \u2013 PAMJE",
+      "Tokens": [
+        "rinjt",
+        "perle",
+        "grush",
+        "ulpia",
+        "prish",
+        "pam"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/te-rinjte-perleshen-me-grushte-ne-ulpiane-te-prishtines-pamje/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "te-rinjte-perleshen-me-grushte-ne-ulpiane-te-prishtines-pamje"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Mourinho i pak\u00EBnaqur para El Clasicos: Barcelona ka 24 or\u00EB m\u00EB shum\u00EB pushim",
+      "Tokens": [
+        "mouri",
+        "paken",
+        "clasi",
+        "barce",
+        "ore",
+        "shum",
+        "pushi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mourinho-i-pakenaqur-para-el-clasicos-barcelona-ka-24-ore-me-shume-pushim/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mourinho-i-pakenaqur-para-el-clasicos-barcelona-ka-24-ore-me-shume-pushim"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "\u201CMbi 500 tema diplome me sukses\u201D \u2013 nga Bachelor deri n\u00EB Doktoratur\u00EB, reklamat q\u00EB ngren\u00EB alarmin p\u00EBr integritetin akademik n\u00EB Kosov\u00EB",
+      "Tokens": [
+        "500",
+        "tem",
+        "diplo",
+        "suks",
+        "bache",
+        "dokto",
+        "rekla",
+        "ngr",
+        "alarm",
+        "integ",
+        "akade",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mbi-500-tema-diplome-me-sukses-nga-bachelor-deri-ne-doktorature-reklamat-qe-ngrene-alarmin-per-integritetin-akademik-ne-kosove/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "mbi-500-tema-diplome-me-sukses-nga-bachelor-deri-ne-doktorature-reklamat-qe"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Nasim Haradinaj kritikon P\u00EBrparim Grud\u00EBn p\u00EBr Ligjin e Speciales: Si po ndihesh tani?",
+      "Tokens": [
+        "nasim",
+        "harad",
+        "kriti",
+        "perpa",
+        "grud",
+        "ligj",
+        "speci",
+        "ndihe",
+        "tan"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nasim-haradinaj-kritikon-perparim-gruden-per-ligjin-e-speciales-si-po-ndihesh-tani/"
+      ],
+      "Articles": {
+        "raporti-sot": "nasim-haradinaj-kritikon-perparim-gruden-per-ligjin-e-speciales-si-po-ndihesh"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Behramaj i del krah Grud\u00EBs: Je vendosur padrejt\u00EBsisht n\u00EB k\u00EBt\u00EB pozit\u00EB, mbaje kok\u00EBn lart dhe b\u00EBhu gati p\u00EBr gar\u00EB",
+      "Tokens": [
+        "behra",
+        "del",
+        "krah",
+        "grud",
+        "vendo",
+        "padre",
+        "ket",
+        "poz",
+        "mba",
+        "kok",
+        "lart",
+        "beh",
+        "gat",
+        "gar"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/behramaj-i-del-krah-grudes-je-vendosur-padrejtesisht-ne-kete-pozite-mbaje-koken-lart-dhe-ndjehu-krenar/"
+      ],
+      "Articles": {
+        "infokosove24": "behramaj-i-del-krah-grudes-je-vendosur-padrejtesisht-ne-kete-pozite-mbaje-koken"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Gjermania paralajm\u00EBron p\u00EBr raste t\u00EB reja spiunazhi nga Rusia",
+      "Tokens": [
+        "gjerm",
+        "paral",
+        "rast",
+        "rej",
+        "spiun",
+        "rusi"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/gjermania-perpjekje-spiunazhi-rusi/33881849.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gjermania-paralajmeron-per-raste-te-reja-spiunazhi-nga-rusia"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Ish-k\u00EBshilltari i Tha\u00E7it i del n\u00EB mbrojtje Grud\u00EBs p\u00EBr Ligjin e Speciales, e nxit t\u00EB garoj\u00EB p\u00EBr kryetar t\u00EB PDK-s\u00EB",
+      "Tokens": [
+        "ish",
+        "keshi",
+        "thac",
+        "del",
+        "mbroj",
+        "grud",
+        "ligj",
+        "speci",
+        "nxit",
+        "garo",
+        "kryet",
+        "pdk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ish-keshilltari-i-thacit-i-del-ne-mbrojtje-grudes-per-ligjin-e-speciales-e-nxit-te-garoje-per-kryetar-te-pdk-se/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ish-keshilltari-i-thacit-i-del-ne-mbrojtje-grudes-per-ligjin-e-speciales-e-nxit"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Fenomeni i rrall\u00EB q\u00EB e b\u00EBri Kosov\u00EBn t\u00EB ve\u00E7ant\u00EB \u2013 a po rrezikon Bifurkacioni i Nerodimes t\u00EB mbetet vet\u00EBm histori?",
+      "Tokens": [
+        "fenom",
+        "rrall",
+        "ber",
+        "kosov",
+        "vecan",
+        "rrezi",
+        "bifur",
+        "nerod",
+        "mbet",
+        "histo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/fenomeni-i-rralle-qe-e-beri-kosoven-te-vecante-a-po-rrezikon-bifurkacioni-i-nerodimes-te-mbetet-vetem-histori/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "fenomeni-i-rralle-qe-e-beri-kosoven-te-vecante-a-po-rrezikon-bifurkacioni-i"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Laureta thyen heshtjen pas humbjes s\u00EB Laurentit",
+      "Tokens": [
+        "laure",
+        "thy",
+        "hesht",
+        "humbj"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/laureta-thyen-heshtjen-pas-humbjes-se-laurentit/"
+      ],
+      "Articles": {
+        "raporti-sot": "laureta-thyen-heshtjen-pas-humbjes-se-laurentit"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "PDK i k\u00EBrkoi Presidentes t\u00EBrheqjen e ligjit, reagon Gruda: Q\u00EBndroj prapa \u00E7do shkronje, nuk ka asnj\u00EB gabim",
+      "Tokens": [
+        "pdk",
+        "kerko",
+        "presi",
+        "terhe",
+        "ligj",
+        "reago",
+        "grud",
+        "qendr",
+        "prap",
+        "cdo",
+        "shkro",
+        "asn",
+        "gabim"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pdk-i-kerkoi-presidentes-terheqjen-e-ligjit-reagon-gruda-qendroj-prapa-cdo-shkronje-nuk-ka-asnje-gabim/"
+      ],
+      "Articles": {
+        "infokosove24": "pdk-i-kerkoi-presidentes-terheqjen-e-ligjit-reagon-gruda-qendroj-prapa-cdo"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "SHBA-ja e akuzon Rusin\u00EB p\u00EBr veprim \u201Cq\u00EBllimisht t\u00EB pamatur\u201D p\u00EBr afrimin e satelitit ushtarak",
+      "Tokens": [
+        "shb",
+        "akuzo",
+        "rus",
+        "vepri",
+        "qelli",
+        "pamat",
+        "afrim",
+        "satel",
+        "ushta"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/shba-akuza-rusi-sateliti/33881832.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shba-ja-e-akuzon-rusine-per-veprim-qellimisht-te-pamatur-per-afrimin-e"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Pas samitit Trump-Xi, SHBA-ja ende pa zgjidhje p\u00EBr mineralet kritike",
+      "Tokens": [
+        "samit",
+        "trump",
+        "shb",
+        "end",
+        "zgjid",
+        "miner",
+        "kriti"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/shba-mineralet-kritike-kina/33881137.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "pas-samitit-trump-xi-shba-ja-ende-pa-zgjidhje-per-mineralet-kritike"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Leonard Cohen, poeti i dashuris\u00EB dhe melankolis\u00EB: 20 k\u00EBng\u00EBt m\u00EB t\u00EB mira t\u00EB karrier\u00EBs s\u00EB tij",
+      "Tokens": [
+        "leona",
+        "coh",
+        "poet",
+        "dashu",
+        "melan",
+        "keng",
+        "mir",
+        "karri"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/leonard-cohen-poeti-i-dashurise-dhe-melankolise-20-kenget-me-te-mira-te-karrieres-se-tij/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "leonard-cohen-poeti-i-dashurise-dhe-melankolise-20-kenget-me-te-mira-te"
+      }
+    },
+    {
+      "At": "2026-10-22T20:30:28.5961619+00:00",
+      "Title": "Merz: Ngecja e dialogut Kosov\u00EB-Serbi, penges\u00EB p\u00EBr p\u00EBrparimin e gjith\u00EB rajonit",
+      "Tokens": [
+        "merz",
+        "ngec",
+        "dialo",
+        "koso",
+        "serb",
+        "peng",
+        "perpa",
+        "gjith",
+        "rajon"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/merz-ngecja-dialogu-kosove-serbi-pengese-perparim-rajonit/33881556.html"
+      ],
+      "Articles": {
+        "raporti-sot": "merz-ngecja-e-dialogut-kosove-serbi-pengese-per-perparimin-e-gjithe-rajonit"
+      }
+    },
     {
       "At": "2026-10-22T15:51:49.008126+00:00",
       "Title": "D\u00EBm mbi 50 mij\u00EB euro, arrestohet nj\u00EB person p\u00EBr fajde dhe detyrim n\u00EB Prishtin\u00EB",
