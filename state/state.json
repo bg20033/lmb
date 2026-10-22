@@ -1,6 +1,471 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 4,
   "Published": [
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "\u0022Dikush n\u00EB gjoks e ka kancerin, ju e rregulloni mindilin\u201D - Ymeri kritikon Vitin\u00EB, p\u00EBrgjigjet ministri",
+      "Tokens": [
+        "dikus",
+        "gjoks",
+        "kance",
+        "rregu",
+        "mindi",
+        "ymer",
+        "kriti",
+        "vit",
+        "pergj",
+        "minis"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/dikush-ne-gjoks-e-ka-kancerin-ju-e-rregulloni-mindilin-ymeri-kritikon-vitine-pergjigjet-ministri/",
+        "https://sinjali.com/ymeri-e-ashper-ndaj-vitise-se-di-si-fle-kur-dikush-e-ka-kancerin-ne-gjoks-e-ti-e-rregullon-mindilin/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ymeri-e-ashper-ndaj-vitise-s-e-di-si-fle-kur-dikush-e-ka-kancerin-ne-gjoks-e-ti"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Juventusi pendohet q\u00EB e la Zhegrov\u00EBn jasht\u00EB list\u00EBs s\u00EB Evrop\u00EBs",
+      "Tokens": [
+        "juven",
+        "pendo",
+        "zhegr",
+        "jasht",
+        "list",
+        "evrop"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/juventusi-pendohet-qe-e-la-zhegroven-jashte-listes-evropiane/",
+        "https://www.gazetaexpress.com/juventusi-pendohet-qe-e-la-zhegroven-jashte-listes-se-evropes/"
+      ],
+      "Articles": {
+        "kosova-fakt": "juventusi-pendohet-qe-e-la-zhegroven-jashte-listes-se-evropes"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Merz thot\u00EB se raportet Kosov\u00EB-Serbi po i pengojn\u00EB t\u00EB gjith\u00EB t\u00EB ecin p\u00EBrpara: Inkurajojm\u00EB p\u00EBrgjegj\u00EBsi dhe progres urgjent n\u00EB dialog",
+      "Tokens": [
+        "merz",
+        "rapor",
+        "koso",
+        "serb",
+        "pengo",
+        "gjith",
+        "ecin",
+        "perpa",
+        "inkur",
+        "pergj",
+        "progr",
+        "urgje",
+        "dialo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/merz-kerkon-perparim-ne-dialogun-kosove-serbi-gjendja-aktuale-po-i-pengon-te-gjithe/",
+        "https://www.gazetaexpress.com/merz-thote-se-rapor1tet-kosove-serbi-po-i-pengojne-te-gjithe-te-ecin-perpara-inkurajojme-pergjegjesi-dhe-progres-urgjent-ne-dialog/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "merz-thote-se-raportet-kosove-serbi-po-i-pengojne-te-gjithe-te-ecin-perpara"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "\u200BHaradinaj: Kthimi prapa i Ligjit p\u00EBr Specialen do t\u00EB ishte ofendim, kjo \u00EBsht\u00EB loj\u00EB e ndyt\u00EB",
+      "Tokens": [
+        "harad",
+        "kthim",
+        "prap",
+        "ligj",
+        "speci",
+        "ofend",
+        "loj",
+        "ndyt"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/haradinaj-kthimi-prapa-i-ligjit-per-specialen-do-te-ishte-ofendim-kjo-eshte-loje-e-ndyte/",
+        "https://www.gazetaexpress.com/ligji-per-specialen-haradinaj-kthimi-prapa-do-te-ishte-ofendim-loje-e-ndyte-turp-per-ata-qe-jane-perfshire/"
+      ],
+      "Articles": {
+        "raporti-sot": "ligji-per-specialen-haradinaj-kthimi-prapa-do-te-ishte-ofendim-loje-e-ndyte"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Kush do ta udh\u00EBheq\u00EB Departamentin Special n\u00EB Gjykat\u00EBn e Apelit n\u00EB Prishtin\u00EB? KGJK merr vendimin",
+      "Tokens": [
+        "kush",
+        "udheh",
+        "depar",
+        "speci",
+        "gjyka",
+        "apel",
+        "prish",
+        "kgjk",
+        "merr",
+        "vendi"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kush-do-ta-udheheqe-departamentin-special-ne-gjykaten-e-apelit-ne-prishtine-kgjk-merr-vendimin/"
+      ],
+      "Articles": {
+        "infokosove24": "kush-do-ta-udheheqe-departamentin-special-ne-gjykaten-e-apelit-ne-prishtine"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "G\u00EBrvalla: Faton Peci do t\u00EB mbahet mend p\u00EBr luftimin e krimit dhe korrupsionit",
+      "Tokens": [
+        "gerva",
+        "faton",
+        "pec",
+        "mbah",
+        "mend",
+        "lufti",
+        "krim",
+        "korru"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/gervalla-faton-peci-do-te-mbahet-mend-per-luftimin-e-krimit-dhe-korrupsionit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gervalla-faton-peci-do-te-mbahet-mend-per-luftimin-e-krimit-dhe-korrupsionit"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Presidentja nuk deklarohet n\u00EBse do t\u2019i dekretoj\u00EB ose jo ndryshimet n\u00EB Ligjin p\u00EBr Gjykat\u00EBn Speciale",
+      "Tokens": [
+        "presi",
+        "dekla",
+        "nes",
+        "dekre",
+        "ndrys",
+        "ligj",
+        "gjyka",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/presidentja-nuk-deklarohet-nese-do-ti-dekretoje-ose-jo-ndryshimet-ne-ligjin-per-gjykaten-speciale/"
+      ],
+      "Articles": {
+        "kosova-fakt": "presidentja-nuk-deklarohet-nese-do-t-i-dekretoje-ose-jo-ndryshimet-ne-ligjin"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Rama e nxjerr nj\u00EB tabel\u00EB, godet mediat: Pasqyra e turpit, \u201Cstudent\u00EBt\u201D i b\u00EBn\u00EB viktima e Policin\u00EB monst\u00EBr mizore",
+      "Tokens": [
+        "ram",
+        "nxjer",
+        "tabel",
+        "god",
+        "media",
+        "pasqy",
+        "turp",
+        "stude",
+        "ben",
+        "vikti",
+        "polic",
+        "monst",
+        "mizor"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rama-e-nxjerr-nje-tabele-godet-mediat-pasqyra-e-turpit-studentet-i-bene-viktima-e-policine-monster-mizore/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "rama-e-nxjerr-nje-tabele-godet-mediat-pasqyra-e-turpit-studentet-i-bene-viktima"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Aksioni kund\u00EBr kontraband\u00EBs n\u00EB veri, sekuestrohen mbi 22 automjete dhe mallra mbi 200 mij\u00EB euro",
+      "Tokens": [
+        "aksio",
+        "kunde",
+        "kontr",
+        "ver",
+        "sekue",
+        "autom",
+        "mallr",
+        "200",
+        "mij",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/aksioni-kunder-kontrabandes-ne-veri-sekuestrohen-mbi-22-automjete-dhe-mallra-mbi-200-mije-euro/"
+      ],
+      "Articles": {
+        "raporti-sot": "aksioni-kunder-kontrabandes-ne-veri-sekuestrohen-mbi-22-automjete-dhe-mallra"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Shaqir Totaj p\u00EBr Express: Nuk do t\u00EB kandidoj p\u00EBr kryetar t\u00EB PDK\u2019s\u00EB, jam i p\u00EBrqendruar n\u00EB Prizren",
+      "Tokens": [
+        "shaqi",
+        "totaj",
+        "expre",
+        "kandi",
+        "kryet",
+        "pdk",
+        "jam",
+        "perqe",
+        "prizr"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/shaqir-totaj-per-express-nuk-do-te-kandidoj-per-kryetar-te-pdkse-jam-i-perqendruar-ne-prizren/"
+      ],
+      "Articles": {
+        "infokosove24": "shaqir-totaj-per-express-nuk-do-te-kandidoj-per-kryetar-te-pdk-se-jam-i"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Kosova synon kompanin\u00EB e saj ajrore, por me \u00E7far\u00EB kostoje?",
+      "Tokens": [
+        "kosov",
+        "synon",
+        "kompa",
+        "ajror",
+        "kosto"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/kosova-kompani-ajrore-kostoja-aviacioni/33880255.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kosova-synon-kompanine-e-saj-ajrore-por-me-cfare-kostoje"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Vitia: Her\u00EB pas here ka munges\u00EB t\u00EB barnave t\u00EB caktuara n\u00EB Onkologji",
+      "Tokens": [
+        "viti",
+        "her",
+        "mung",
+        "barn",
+        "caktu",
+        "onkol"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/vitia-here-pas-here-ka-mungese-te-barnave-te-caktuara-ne-onkologji/"
+      ],
+      "Articles": {
+        "kosova-fakt": "vitia-here-pas-here-ka-mungese-te-barnave-te-caktuara-ne-onkologji"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Fabrika e municionit n\u00EB Gjakov\u00EB, Ramadani-Qeveris\u00EB: Ende asnj\u00EB tull\u00EB s\u2019i \u00EBsht\u00EB vendosur",
+      "Tokens": [
+        "fabri",
+        "munic",
+        "gjako",
+        "ramad",
+        "qever",
+        "end",
+        "asn",
+        "tull",
+        "vendo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/fabrika-e-municionit-ne-gjakove-ramadani-qeverise-ende-asnje-tulle-si-eshte-vendosur/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "fabrika-e-municionit-ne-gjakove-ramadani-qeverise-ende-asnje-tulle-s-i-eshte"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Deliu-Kodra k\u00EBrkon mekaniz\u00EBm t\u00EB pavarur p\u00EBr monitorimin e Dhomave t\u00EB Specializuara",
+      "Tokens": [
+        "deli",
+        "kodr",
+        "kerko",
+        "mekan",
+        "pavar",
+        "monit",
+        "dhom",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/deliu-kodra-kerkon-mekanizem-te-pavarur-per-monitorimin-e-dhomave-te-specializuara/"
+      ],
+      "Articles": {
+        "raporti-sot": "deliu-kodra-kerkon-mekanizem-te-pavarur-per-monitorimin-e-dhomave-te"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Shtat\u00EB t\u00EB vrar\u00EB nga sulmet ruse n\u00EB Ukrain\u00EB, Moska pretendon se ka interceptuar qindra dron\u00EB",
+      "Tokens": [
+        "shtat",
+        "vrar",
+        "sulm",
+        "rus",
+        "ukra",
+        "mosk",
+        "prete",
+        "inter",
+        "qindr",
+        "dron"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shtate-te-vrare-nga-sulmet-ruse-ne-ukraine-moska-pretendon-se-ka-interceptuar-qindra-drone/"
+      ],
+      "Articles": {
+        "infokosove24": "shtate-te-vrare-nga-sulmet-ruse-ne-ukraine-moska-pretendon-se-ka-interceptuar"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "KGJK merr vendime p\u00EBr gjasht\u00EB gjykata \u2013 k\u00EBta jan\u00EB gjyqtar\u00EBt mbik\u00EBqyr\u00EBs q\u00EB u em\u00EBruan sot",
+      "Tokens": [
+        "kgjk",
+        "merr",
+        "vendi",
+        "gjash",
+        "gjyka",
+        "ket",
+        "gjyqt",
+        "mbike",
+        "emeru"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kgjk-merr-vendime-per-gjashte-gjykata-keta-jane-gjyqtaret-mbikeqyres-qe-u-emeruan-sot/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "kgjk-merr-vendime-per-gjashte-gjykata-keta-jane-gjyqtaret-mbikeqyres-qe-u"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "P\u00EBrplasje n\u00EB Kuvend, Teuta Haxhiu nuk e l\u00EBshon foltoren pasi i p\u00EBrfundon koha p\u00EBr fjalim",
+      "Tokens": [
+        "perpl",
+        "kuven",
+        "teut",
+        "haxhi",
+        "lesho",
+        "folto",
+        "pas",
+        "perfu",
+        "koh",
+        "fjali"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/perplasje-ne-kuvend-teuta-haxhiu-nuk-e-leshon-foltoren-pasi-i-perfundon-koha-per-fjalim/"
+      ],
+      "Articles": {
+        "kosova-fakt": "perplasje-ne-kuvend-teuta-haxhiu-nuk-e-leshon-foltoren-pasi-i-perfundon-koha"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Sherr masiv n\u00EB Parlament, deputeti i PD p\u00EBrplaset fizikisht me ish-ministrin e Brendsh\u00EBm (VIDEO)",
+      "Tokens": [
+        "sherr",
+        "masiv",
+        "parla",
+        "deput",
+        "perpl",
+        "fizik",
+        "ish",
+        "minis",
+        "brend"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/sherr-masiv-ne-parlament-deputeti-i-pd-perplaset-fizikisht-me-ish-ministrin-e-brendshem-video/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "sherr-masiv-ne-parlament-deputeti-i-pd-perplaset-fizikisht-me-ish-ministrin-e"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Ukraina ende n\u00EB pritje t\u00EB p\u00EBrgjigjes nga SHBA-ja p\u00EBr kufizimet n\u00EB Starlink",
+      "Tokens": [
+        "ukrai",
+        "end",
+        "prit",
+        "pergj",
+        "shb",
+        "kufiz",
+        "starl"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ukraina-pritje-pergjegjes-shba-kufizime-starlink/33881457.html"
+      ],
+      "Articles": {
+        "raporti-sot": "ukraina-ende-ne-pritje-te-pergjigjes-nga-shba-ja-per-kufizimet-ne-starlink"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "I mori jet\u00EBn v\u00EBllait pas mosmarr\u00EBveshjes p\u00EBr pron\u00EB, Prokuroria ngre aktakuz\u00EB ndaj t\u00EB dyshuarit nga Klina",
+      "Tokens": [
+        "mor",
+        "jet",
+        "vella",
+        "mosma",
+        "pron",
+        "proku",
+        "ngr",
+        "aktak",
+        "ndaj",
+        "dyshu",
+        "klin"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/i-mori-jeten-vellait-pas-mosmarreveshjes-per-prone-prokuroria-ngre-aktakuze-ndaj-te-dyshuarit-nga-klina/"
+      ],
+      "Articles": {
+        "infokosove24": "i-mori-jeten-vellait-pas-mosmarreveshjes-per-prone-prokuroria-ngre-aktakuze"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "Freedom House: Pushteti n\u00EB Serbi shtypi protestat e organizuara p\u00EBrmes mjeteve digjitale",
+      "Tokens": [
+        "freed",
+        "hous",
+        "pusht",
+        "serb",
+        "shtyp",
+        "prote",
+        "organ",
+        "perm",
+        "mjet",
+        "digji"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/freedom-house-protesta-serbi-mjetedigjitale/33881084.html"
+      ],
+      "Articles": {
+        "kosova-aktuale": "freedom-house-pushteti-ne-serbi-shtypi-protestat-e-organizuara-permes-mjeteve"
+      }
+    },
+    {
+      "At": "2026-10-22T10:02:25.3600379+00:00",
+      "Title": "\u0022Gjith\u00E7ka e vdekur\u0022: Ukraina \u00E7liron vendbanime, por ato tashm\u00EB jan\u00EB kthyer n\u00EB rr\u00EBnoja",
+      "Tokens": [
+        "gjith",
+        "vdeku",
+        "ukrai",
+        "cliro",
+        "vendb",
+        "tashm",
+        "kthye",
+        "rreno"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/ukraina-cliron-vendbanime-rrenoja/33881022.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "gjithcka-e-vdekur-ukraina-cliron-vendbanime-por-ato-tashme-jane-kthyer-ne"
+      }
+    },
     {
       "At": "2026-10-21T23:58:56.7643345+00:00",
       "Title": "Senatorja amerikane reagon p\u00EBr protestat n\u00EB Shqip\u00EBri: Qeveria t\u00EB ndal\u00EB p\u00EBrdorimin e tepruar t\u00EB forc\u00EBs policore dhe t\u00EB luftoj\u00EB korrupsionin",
