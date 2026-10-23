@@ -1,6 +1,621 @@
 {
-  "RotationCursor": 3,
+  "RotationCursor": 1,
   "Published": [
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "BE-ja mir\u00EBpret kthimin e Ligjit p\u00EBr Specialen n\u00EB Kuvend, pret t\u00EB konsultohet p\u00EBr t\u00EB",
+      "Tokens": [
+        "mirep",
+        "kthim",
+        "ligj",
+        "speci",
+        "kuven",
+        "pret",
+        "konsu"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/ligji-per-specialen-rikthen-debatet-politike-veteranet-paralajmerojne-protesta/",
+        "https://kallxo.com/lajm/protestat-ne-shqiperi-dhe-ligji-per-gjykaten-speciale-video/",
+        "https://telegrafi.com/be-ja-mirepret-kthimin-e-ligjit-per-gjykaten-speciale-ne-kuvend-per-rishqyrtim/",
+        "https://www.evropaelire.org/a/bashkimi-evropian-ligji-speciale/33883178.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "protestat-ne-shqiperi-dhe-ligji-per-gjykaten-speciale-video"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Ligji p\u00EBr Specialen u kthye n\u00EB Kuvend, BE-ja k\u00EBrkon konsultim para rinisjes s\u00EB diskutimeve p\u00EBr ndryshime",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "kthy",
+        "kuven",
+        "kerko",
+        "konsu",
+        "rinis",
+        "disku",
+        "ndrys"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/be-presim-te-konsultohemi-per-ligjin-e-speciales-nese-rinisin-diskutimet-per-ndryshim-ne-kuvendin-e-kosoves/",
+        "https://sinjali.com/ligji-per-specialen-u-kthye-ne-kuvend-be-ja-kerkon-konsultim-para-rinisjes-se-diskutimeve-per-ndryshime/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ligji-per-specialen-u-kthye-ne-kuvend-be-ja-kerkon-konsultim-para-rinisjes-se"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Franca mobilizon 70 mij\u00EB polic\u00EB pas trazirave, protestat p\u00EBrhapen n\u00EB disa vende t\u00EB Europ\u00EBs",
+      "Tokens": [
+        "franc",
+        "mobil",
+        "mij",
+        "polic",
+        "trazi",
+        "prote",
+        "perha",
+        "dis",
+        "vend",
+        "europ"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/franca-mobilizon-70-mije-police-pas-trazirave-protestat-perhapen-ne-disa-vende-te-europes/"
+      ],
+      "Articles": {
+        "raporti-sot": "franca-mobilizon-70-mije-police-pas-trazirave-protestat-perhapen-ne-disa-vende"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Presidentja Shiroka-Pula u prit n\u00EB takim nga homologu hungarez, i k\u00EBrkon mb\u00EBshtetje n\u00EB rrug\u00EBtimin e Kosov\u00EBs drejt integrimit europian",
+      "Tokens": [
+        "presi",
+        "shiro",
+        "pul",
+        "prit",
+        "takim",
+        "homol",
+        "hunga",
+        "kerko",
+        "mbesh",
+        "rruge",
+        "kosov",
+        "drejt",
+        "integ",
+        "europ"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/lajm/presidentja-shiroka-pula-u-prit-ne-takim-nga-homologu-hungarez-i-kerkon-mbeshtetje-ne-rrugetimin-e-kosoves-drejt-integrimit-europian/"
+      ],
+      "Articles": {
+        "infokosove24": "presidentja-shiroka-pula-u-prit-ne-takim-nga-homologu-hungarez-i-kerkon"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "\u201CNuk kam asgj\u00EB personale me Trumpin\u201D \u2013 Zelensky kund\u00EBrshton l\u00EBshimet ndaj Rusis\u00EB",
+      "Tokens": [
+        "kam",
+        "asg",
+        "perso",
+        "trump",
+        "zelen",
+        "kunde",
+        "leshi",
+        "ndaj",
+        "rus"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nuk-kam-asgje-personale-me-trumpin-zelensky-kundershton-leshimet-ndaj-rusise/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nuk-kam-asgje-personale-me-trumpin-zelensky-kundershton-leshimet-ndaj-rusise"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Bar\u00E7a po tenton ta thyej\u00EB rekordin e t\u00EB ardhurave n\u00EB \u201CEl Clasico\u201D, ja sa do t\u00EB fitoj\u00EB",
+      "Tokens": [
+        "barc",
+        "tento",
+        "thye",
+        "rekor",
+        "ardhu",
+        "clasi",
+        "fito"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/barca-po-tenton-ta-thyeje-rekordin-e-te-ardhurave-ne-el-clasico-ja-sa-do-te-fitoje/"
+      ],
+      "Articles": {
+        "kosova-fakt": "barca-po-tenton-ta-thyeje-rekordin-e-te-ardhurave-ne-el-clasico-ja-sa-do-te"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Hasan Krasniqi tregon arsyen e shkarkimit nga KRU \u201CGjakova\u201D: Ose n\u00EBnshkruaje, ose jep dor\u00EBheqje",
+      "Tokens": [
+        "hasan",
+        "krasn",
+        "trego",
+        "arsy",
+        "shkar",
+        "kru",
+        "gjako",
+        "nensh",
+        "jep",
+        "doreh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/hasan-krasniqi-tregon-arsyen-e-shkarkimit-nga-kru-gjakova-ose-nenshkruaje-ose-jep-doreheqje/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "hasan-krasniqi-tregon-arsyen-e-shkarkimit-nga-kru-gjakova-ose-nenshkruaje-ose"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Muharremi: Kuvendi mund ta ndryshoj\u00EB ligjin e kthyer nga Presidentja p\u00EBr rishqyrtim",
+      "Tokens": [
+        "muhar",
+        "kuven",
+        "mund",
+        "ndrys",
+        "ligj",
+        "kthye",
+        "presi",
+        "rishq"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/muharremi-kuvendi-mund-ta-ndryshoje-ligjin-e-kthyer-nga-presidentja-per-rishqyrtim/"
+      ],
+      "Articles": {
+        "raporti-sot": "muharremi-kuvendi-mund-ta-ndryshoje-ligjin-e-kthyer-nga-presidentja-per"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Ekskluzive | Bastisje n\u00EB banes\u00EBn e nj\u00EB 28-vje\u00E7ari n\u00EB veri t\u00EB Mitrovic\u00EBs \u2013 Policia gjen jelek antiplumb, municion dhe dhjet\u00EBra veshje, zbulohet identiteti i t\u00EB dyshuarit",
+      "Tokens": [
+        "basti",
+        "banes",
+        "vjeca",
+        "ver",
+        "mitro",
+        "polic",
+        "gjen",
+        "jelek",
+        "antip",
+        "munic",
+        "dhjet",
+        "vesh",
+        "zbulo",
+        "ident",
+        "dyshu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-bastisje-ne-banesen-e-nje-28-vjecari-ne-veri-te-mitrovices-policia-gjen-jelek-antiplumb-municion-dhe-dhjetera-veshje-zbulohet-identiteti-i-te-dyshuarit/"
+      ],
+      "Articles": {
+        "infokosove24": "ekskluzive-bastisje-ne-banesen-e-nje-28-vjecari-ne-veri-te-mitrovices-policia"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Ekskluzive | K\u00EBrkohej nga Gjykata p\u00EBr vuajtjen e d\u00EBnimit me burg, arrestohet 24-vje\u00E7ari n\u00EB Gjakov\u00EB \u2013 d\u00EBrgohet n\u00EB Dubrav\u00EB",
+      "Tokens": [
+        "kerko",
+        "gjyka",
+        "vuajt",
+        "denim",
+        "burg",
+        "arres",
+        "vjeca",
+        "gjako",
+        "dergo",
+        "dubr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-kerkohej-nga-gjykata-per-vuajtjen-e-denimit-me-burg-arrestohet-24-vjecari-ne-gjakove-dergohet-ne-dubrave/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ekskluzive-kerkohej-nga-gjykata-per-vuajtjen-e-denimit-me-burg-arrestohet-24"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Misteri i 1 milion eurove t\u00EB fshehura n\u00EB Mercedes n\u00EB Merdar\u00EB, 33-vje\u00E7ari q\u00EB pretendon se parat\u00EB jan\u00EB t\u00EB tij \u2013 p\u00EBrfundon n\u00EB prangat e Speciales",
+      "Tokens": [
+        "miste",
+        "milio",
+        "euro",
+        "fsheh",
+        "merce",
+        "merda",
+        "vjeca",
+        "prete",
+        "parat",
+        "perfu",
+        "prang",
+        "speci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/misteri-i-1-milion-eurove-te-fshehura-ne-mercedes-ne-merdare-33-vjecari-qe-pretendon-se-parate-jane-te-tij-perfundon-ne-prangat-e-speciales/"
+      ],
+      "Articles": {
+        "kosova-fakt": "misteri-i-1-milion-eurove-te-fshehura-ne-mercedes-ne-merdare-33-vjecari-qe"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Franca dhe Britania kryejn\u00EB simulimin e par\u00EB t\u00EB p\u00EBrbashk\u00EBt t\u00EB nj\u00EB sulmi b\u00EBrthamor",
+      "Tokens": [
+        "franc",
+        "brita",
+        "kryej",
+        "simul",
+        "par",
+        "perba",
+        "sulm",
+        "berth"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/franca-britania-simulim-sulm-berthamor/33883198.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "franca-dhe-britania-kryejne-simulimin-e-pare-te-perbashket-te-nje-sulmi"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Haxhiu: Kuvendi do t\u00EB vendos\u00EB n\u00EBse do t\u00EB ket\u00EB Ligj p\u00EBr Specialen, sipas nj\u00EB vendimi t\u00EB Kushtetueses ai s\u2019mund t\u00EB ndryshohet",
+      "Tokens": [
+        "haxhi",
+        "kuven",
+        "vendo",
+        "nes",
+        "ket",
+        "ligj",
+        "speci",
+        "sipas",
+        "vendi",
+        "kusht",
+        "mund",
+        "ndrys"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/haxhiu-kuvendi-do-te-vendose-nese-do-te-kete-ligj-per-specialen-sipas-nje-vendimi-te-kushtetueses-ai-smund-te-ndryshohet/"
+      ],
+      "Articles": {
+        "raporti-sot": "haxhiu-kuvendi-do-te-vendose-nese-do-te-kete-ligj-per-specialen-sipas-nje"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Ekskluzive | Dy t\u00EB miturit publikuan fotografin\u00EB me kallashnikov n\u00EB Snapchat, Policia ia gjen arm\u00EBn 52-vje\u00E7arit n\u00EB Klin\u00EB \u2013 ky \u00EBsht\u00EB i dyshuari",
+      "Tokens": [
+        "mitur",
+        "publi",
+        "fotog",
+        "kalla",
+        "snapc",
+        "polic",
+        "gjen",
+        "arm",
+        "vjeca",
+        "klin",
+        "dyshu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-dy-te-miturit-publikuan-fotografine-me-kallashnikov-ne-snapchat-policia-ia-gjen-armen-52-vjecarit-ne-kline-ky-eshte-i-dyshuari/"
+      ],
+      "Articles": {
+        "infokosove24": "ekskluzive-dy-te-miturit-publikuan-fotografine-me-kallashnikov-ne-snapchat"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Nga marihuana e paketuar me foli alumini te pistoleta me dy fishek\u00EB \u2013 \u00E7far\u00EB sekuestroi Policia n\u00EB Podujev\u00EB?",
+      "Tokens": [
+        "marih",
+        "paket",
+        "fol",
+        "alumi",
+        "pisto",
+        "fishe",
+        "sekue",
+        "polic",
+        "poduj"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nga-marihuana-e-paketuar-me-foli-alumini-te-pistoleta-me-dy-fisheke-cfare-sekuestroi-policia-ne-podujeve/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nga-marihuana-e-paketuar-me-foli-alumini-te-pistoleta-me-dy-fisheke-cfare"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Sulmoi t\u00EB dashur\u00EBn e mitur n\u00EB Zve\u00E7an, ky \u00EBsht\u00EB 20-vje\u00E7ari q\u00EB u arrestua nga Policia \u2013 Prokuroria e liroi m\u00EB pas",
+      "Tokens": [
+        "sulmo",
+        "dashu",
+        "mitur",
+        "zveca",
+        "vjeca",
+        "arres",
+        "polic",
+        "proku",
+        "liro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sulmoi-te-dashuren-e-mitur-ne-zvecan-ky-eshte-20-vjecari-qe-u-arrestua-nga-policia-prokuroria-e-liroi-me-pas/"
+      ],
+      "Articles": {
+        "kosova-fakt": "sulmoi-te-dashuren-e-mitur-ne-zvecan-ky-eshte-20-vjecari-qe-u-arrestua-nga"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Ekskluzive | Ky \u00EBsht\u00EB 42-vje\u00E7ari q\u00EB u arrestua n\u00EB Prizren n\u00EB kuad\u00EBr t\u00EB operacionit \u201CKuzhina\u201D \u2013 Policia i gjen drog\u00EB n\u00EB sht\u00EBpi",
+      "Tokens": [
+        "vjeca",
+        "arres",
+        "prizr",
+        "kuade",
+        "opera",
+        "kuzhi",
+        "polic",
+        "gjen",
+        "drog",
+        "shtep"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-ky-eshte-42-vjecari-qe-u-arrestua-ne-prizren-ne-kuader-te-operacionit-kuzhina-policia-i-gjen-droge-ne-shtepi/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ekskluzive-ky-eshte-42-vjecari-qe-u-arrestua-ne-prizren-ne-kuader-te"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Ekskluzive| U kap n\u00EB flagranc\u00EB duke marr\u00EB para nga fajdeja, pejanit i gjenden edhe kat\u00EBr arm\u00EB n\u00EB sht\u00EBpi",
+      "Tokens": [
+        "kap",
+        "flagr",
+        "duk",
+        "marr",
+        "fajde",
+        "pejan",
+        "gjend",
+        "kater",
+        "arm",
+        "shtep"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-u-kap-ne-flagrance-duke-marre-para-nga-fajdeja-pejanit-i-gjenden-edhe-kater-arme-ne-shtepi/"
+      ],
+      "Articles": {
+        "raporti-sot": "ekskluzive-u-kap-ne-flagrance-duke-marre-para-nga-fajdeja-pejanit-i-gjenden"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "\u00C7far\u00EB moti do t\u00EB mbaj\u00EB n\u00EB Kosov\u00EB t\u00EB shtun\u00EBn dhe t\u00EB diel\u00EBn?",
+      "Tokens": [
+        "mot",
+        "mba",
+        "koso",
+        "shtun",
+        "diel"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/lajm/cfare-moti-do-te-mbaje-ne-kosove-te-shtunen-dhe-te-dielen-2/"
+      ],
+      "Articles": {
+        "infokosove24": "cfare-moti-do-te-mbaje-ne-kosove-te-shtunen-dhe-te-dielen"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Pas gati nj\u00EB shekulli, rizbulohet n\u00EB Indonezi primati q\u00EB mendohej se ishte zhdukur",
+      "Tokens": [
+        "gat",
+        "sheku",
+        "rizbu",
+        "indon",
+        "prima",
+        "mendo",
+        "zhduk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/pas-gati-nje-shekulli-rizbulohet-ne-indonezi-primati-qe-mendohej-se-ishte-zhdukur/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "pas-gati-nje-shekulli-rizbulohet-ne-indonezi-primati-qe-mendohej-se-ishte"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "\u201CRespekt p\u00EBr profesionalizmin dhe integritetin tuaj\u201D \u2013 Nehat Geci vler\u00EBson publikisht avokatin Besnik R. Berisha pas zhvillimeve n\u00EB rastin e v\u00EBllait t\u00EB tij",
+      "Tokens": [
+        "respe",
+        "profe",
+        "integ",
+        "tuaj",
+        "nehat",
+        "gec",
+        "vlere",
+        "publi",
+        "avoka",
+        "besni",
+        "beris",
+        "zhvil",
+        "rast",
+        "vella"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/respekt-per-profesionalizmin-dhe-integritetin-tuaj-nehat-geci-vlereson-publikisht-avokatin-besnik-r-berisha-pas-zhvillimeve-ne-rastin-e-vellait-te-tij/"
+      ],
+      "Articles": {
+        "kosova-fakt": "respekt-per-profesionalizmin-dhe-integritetin-tuaj-nehat-geci-vlereson"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Nafta ruse drejt SHBA-s\u00EB p\u00EBr her\u00EB t\u00EB par\u00EB q\u00EB nga viti 2022",
+      "Tokens": [
+        "naft",
+        "rus",
+        "drejt",
+        "shb",
+        "her",
+        "par",
+        "vit",
+        "2022"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nafta-ruse-drejt-shba-se-per-here-te-pare-qe-nga-viti-2022/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "nafta-ruse-drejt-shba-se-per-here-te-pare-qe-nga-viti-2022"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Greqia ndalon rrjetet sociale p\u00EBr f\u00EBmij\u00EBt n\u00EBn 15 vje\u00E7, ligji i ri hyn n\u00EB fuqi n\u00EB vitin 2027",
+      "Tokens": [
+        "greqi",
+        "ndalo",
+        "rrjet",
+        "socia",
+        "femij",
+        "vjec",
+        "ligj",
+        "hyn",
+        "fuq",
+        "vit",
+        "2027"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/greqia-ndalon-rrjetet-sociale-per-femijet-nen-15-vjec-ligji-i-ri-hyn-ne-fuqi-ne-vitin-2027/"
+      ],
+      "Articles": {
+        "raporti-sot": "greqia-ndalon-rrjetet-sociale-per-femijet-nen-15-vjec-ligji-i-ri-hyn-ne-fuqi-ne"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Zbulohet plantacioni me 1,200 bim\u00EB kanabisi n\u00EB Itali, arrestohet shqiptari q\u00EB kujdesej p\u00EBr t\u00EB",
+      "Tokens": [
+        "zbulo",
+        "plant",
+        "200",
+        "bim",
+        "kanab",
+        "ital",
+        "arres",
+        "shqip",
+        "kujde"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/zbulohet-plantacioni-me-1200-bime-kanabisi-ne-itali-arrestohet-shqiptari-qe-kujdesej-per-te/"
+      ],
+      "Articles": {
+        "infokosove24": "zbulohet-plantacioni-me-1-200-bime-kanabisi-ne-itali-arrestohet-shqiptari-qe"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Nj\u00EB tjet\u00EBr gol drejt historis\u00EB, Ronaldo i afrohet shifr\u00EBs s\u00EB 1.000 realizimeve",
+      "Tokens": [
+        "tjete",
+        "gol",
+        "drejt",
+        "histo",
+        "ronal",
+        "afroh",
+        "shifr",
+        "000",
+        "reali"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/nje-tjeter-gol-drejt-historise-ronaldo-i-afrohet-shifres-se-1-000-realizimeve/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "nje-tjeter-gol-drejt-historise-ronaldo-i-afrohet-shifres-se-1-000-realizimeve"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Pacolli reagon pasi Peci ia nd\u00EBrlidhi emrin me dosjen e atentatit ndaj Jusuf G\u00EBrvall\u00EBs: Do t\u2019iu drejtohem autoriteteve n\u00EB Gjermani",
+      "Tokens": [
+        "pacol",
+        "reago",
+        "pas",
+        "pec",
+        "nderl",
+        "emr",
+        "dosj",
+        "atent",
+        "ndaj",
+        "jusuf",
+        "gerva",
+        "drejt",
+        "autor",
+        "gjerm"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/pacolli-reagon-pasi-peci-ia-nderlidhi-emrin-me-dosjen-e-atentatit-ndaj-jusuf-gervalles-do-tiu-drejtohem-autoriteteve-ne-gjermani/"
+      ],
+      "Articles": {
+        "kosova-fakt": "pacolli-reagon-pasi-peci-ia-nderlidhi-emrin-me-dosjen-e-atentatit-ndaj-jusuf"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Termokos: Ngrohja do t\u00EB ndalet p\u00EBrkoh\u00EBsisht n\u00EB or\u00EBt e para t\u00EB s\u00EB shtun\u00EBs",
+      "Tokens": [
+        "termo",
+        "ngroh",
+        "ndal",
+        "perko",
+        "oret",
+        "shtun"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/termokos-ngrohja-do-te-ndalet-perkohesisht-ne-oret-e-para-te-se-shtunes/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "termokos-ngrohja-do-te-ndalet-perkohesisht-ne-oret-e-para-te-se-shtunes"
+      }
+    },
+    {
+      "At": "2026-10-23T20:20:14.3176643+00:00",
+      "Title": "Specialja flet pasi vajza e Jakup Krasniqit alarmoi p\u00EBr gjendjen e tij dhe refuzimin p\u00EBr t\u2019u mjekuar n\u00EB qelin\u00EB e Hag\u00EBs",
+      "Tokens": [
+        "speci",
+        "flet",
+        "pas",
+        "vajz",
+        "jakup",
+        "krasn",
+        "alarm",
+        "gjend",
+        "refuz",
+        "mjeku",
+        "qel",
+        "hag"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/specialja-flet-pasi-vajza-e-jakup-krasniqit-alarmoi-per-gjendjen-e-tij-dhe-refuzimin-per-tu-mjekuar-ne-qeline-e-hages/"
+      ],
+      "Articles": {
+        "raporti-sot": "specialja-flet-pasi-vajza-e-jakup-krasniqit-alarmoi-per-gjendjen-e-tij-dhe"
+      }
+    },
     {
       "At": "2026-10-23T15:42:58.1135903+00:00",
       "Title": "Shqip\u00EBria zyrtarizon pjes\u00EBmarrjen n\u00EB misionin p\u00EBr Gaz\u00EBn, n\u00EBnshkruhet marr\u00EBveshja mes ushtris\u00EB shqiptare dhe ISF\u2019s\u00EB",
@@ -16296,255 +16911,6 @@
       ],
       "Articles": {
         "lajme-per-kosove": "kikiriket-mund-te-permiresojne-reagimin-e-trurit-ndaj-insulines-zbulon-studimi"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Haziri: Mosvotimi i Ligjit p\u00EBr Specialen ishte q\u00EBndrim konsistent i LDK-s\u00EB",
-      "Tokens": [
-        "hazir",
-        "mosvo",
-        "ligj",
-        "speci",
-        "qendr",
-        "konsi",
-        "ldk"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/haziri-mosvotimi-i-ligjit-per-specialen-ishte-qendrim-konsistent-i-ldk-se/",
-        "https://telegrafi.com/haziri-mosvotimi-i-ligjit-per-specialen-ishte-qendrim-konsistent-i-ldk-se/"
-      ],
-      "Articles": {
-        "infokosove24": "haziri-mosvotimi-i-ligjit-per-specialen-ishte-qendrim-konsistent-i-ldk-se"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Aksioni n\u00EB Fush\u00EB-Kosov\u00EB, Policia jep detaje: Dy persona t\u00EB arrestuar, nj\u00EBri k\u00EBrc\u00EBnoi qytetarin me arm\u00EB \u2013 tjetri pengoi policin\u00EB",
-      "Tokens": [
-        "aksio",
-        "fush",
-        "koso",
-        "polic",
-        "jep",
-        "deta",
-        "perso",
-        "arres",
-        "njer",
-        "kerce",
-        "qytet",
-        "arm",
-        "tjetr",
-        "pengo"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/aksioni-ne-fushe-kosove-policia-jep-detaje-dy-persona-te-arrestuar-njeri-kercenoi-qytetarin-me-arme-tjetri-pengoi-policine/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "aksioni-ne-fushe-kosove-policia-jep-detaje-dy-persona-te-arrestuar-njeri"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Protestat p\u00EBr arsimin p\u00EBrshkall\u00EBzohen n\u00EB Franc\u00EB, p\u00EBrleshje t\u00EB dhunshme n\u00EB Paris",
-      "Tokens": [
-        "prote",
-        "arsim",
-        "persh",
-        "franc",
-        "perle",
-        "dhuns",
-        "par"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/protestat-per-arsimin-pershkallezohen-ne-france-perleshje-te-dhunshme-ne-paris/"
-      ],
-      "Articles": {
-        "kosova-fakt": "protestat-per-arsimin-pershkallezohen-ne-france-perleshje-te-dhunshme-ne-paris"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Trump akuzon Houthit p\u00EBr tentim t\u00EB shtrenjtimit t\u00EB naft\u00EBs para zgjedhjeve n\u00EB SHBA",
-      "Tokens": [
-        "trump",
-        "akuzo",
-        "houth",
-        "tenti",
-        "shtre",
-        "naft",
-        "zgjed",
-        "shb"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/trump-akuzon-houthit-per-tentim-te-shtrenjtimit-te-naftes-para-zgjedhjeve-ne-shba/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "trump-akuzon-houthit-per-tentim-te-shtrenjtimit-te-naftes-para-zgjedhjeve-ne"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Aleanca k\u00EBrkon q\u00EB ndihma ligjore p\u00EBr ish-krer\u00EBt e U\u00C7K-s\u00EB t\u00EB trajtohet me seriozitetin m\u00EB t\u00EB lart\u00EB shtet\u00EBror: T\u00EB zhvishet nga interesat politike",
-      "Tokens": [
-        "alean",
-        "kerko",
-        "ndihm",
-        "ligjo",
-        "ish",
-        "krer",
-        "uck",
-        "trajt",
-        "serio",
-        "lart",
-        "shtet",
-        "zhvis",
-        "inter",
-        "polit"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/aleanca-kerkon-qe-ndihma-ligjore-per-ish-kreret-e-uck-se-te-trajtohet-me-seriozitetin-me-te-larte-shteteror-te-zhvishet-nga-interesat-politike/"
-      ],
-      "Articles": {
-        "raporti-sot": "aleanca-kerkon-qe-ndihma-ligjore-per-ish-kreret-e-uck-se-te-trajtohet-me"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "BE-ja me kufizime t\u00EB reja p\u00EBr makinat kineze, ja \u00E7far\u00EB po planifikohet",
-      "Tokens": [
-        "kufiz",
-        "rej",
-        "makin",
-        "kinez",
-        "plani"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/be-ja-me-kufizime-te-reja-per-makinat-kineze-ja-cfare-po-planifikohet/"
-      ],
-      "Articles": {
-        "infokosove24": "be-ja-me-kufizime-te-reja-per-makinat-kineze-ja-cfare-po-planifikohet"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Aksioni n\u00EB Fush\u00EB-Kosov\u00EB, prangoset nj\u00EB person",
-      "Tokens": [
-        "aksio",
-        "fush",
-        "koso",
-        "prang",
-        "perso"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/aksioni-ne-fushe-kosove-prangoset-nje-person/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "aksioni-ne-fushe-kosove-prangoset-nje-person"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Ja kur pritet t\u00EB rikthehet Raphinha n\u00EB fush\u00EB, Barcelona merr lajme t\u00EB mira",
-      "Tokens": [
-        "prit",
-        "rikth",
-        "raphi",
-        "fush",
-        "barce",
-        "merr",
-        "lajm",
-        "mir"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/ja-kur-pritet-te-rikthehet-raphinha-ne-fushe-barcelona-merr-lajme-te-mira/"
-      ],
-      "Articles": {
-        "kosova-fakt": "ja-kur-pritet-te-rikthehet-raphinha-ne-fushe-barcelona-merr-lajme-te-mira"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Trump: SHBA-ja vazhdon t\u00EB ndaj\u00EB informacione t\u00EB inteligjenc\u00EBs me Ukrain\u00EBn",
-      "Tokens": [
-        "trump",
-        "shb",
-        "vazhd",
-        "nda",
-        "infor",
-        "intel",
-        "ukrai"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/trump-shba-ja-vazhdon-te-ndaje-informacione-te-inteligjences-me-ukrainen/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "trump-shba-ja-vazhdon-te-ndaje-informacione-te-inteligjences-me-ukrainen"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "SHBA-ja njofton rotacionin e trupave n\u00EB Kosov\u00EB: P\u00EBrmir\u00EBsim i kushteve t\u00EB siguris\u00EB",
-      "Tokens": [
-        "shb",
-        "njoft",
-        "rotac",
-        "trup",
-        "koso",
-        "permi",
-        "kusht",
-        "sigur"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/shba-ja-njofton-rotacionin-e-trupave-ne-kosove-permiresim-i-kushteve-te-sigurise/"
-      ],
-      "Articles": {
-        "raporti-sot": "shba-ja-njofton-rotacionin-e-trupave-ne-kosove-permiresim-i-kushteve-te-sigurise"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "Detaje ekskluzive nga arrestimi i zyrtarit t\u00EB Komun\u00EBs s\u00EB Prishtin\u00EBs, hetimi p\u00EBr parcel\u00EBn n\u00EB Veternik e \u00E7on n\u00EB pranga \u2013 i sekuestrohen telefoni dhe sh\u00EBnimet",
-      "Tokens": [
-        "deta",
-        "arres",
-        "zyrta",
-        "komun",
-        "prish",
-        "hetim",
-        "parce",
-        "veter",
-        "con",
-        "prang",
-        "sekue",
-        "telef",
-        "sheni"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/detaje-ekskluzive-nga-arrestimi-i-zyrtarit-te-komunes-se-prishtines-hetimi-per-parcelen-ne-veternik-e-con-ne-pranga-i-sekuestrohen-telefoni-dhe-shenimet/"
-      ],
-      "Articles": {
-        "infokosove24": "detaje-ekskluzive-nga-arrestimi-i-zyrtarit-te-komunes-se-prishtines-hetimi-per"
-      }
-    },
-    {
-      "At": "2026-10-13T19:50:45.6159115+00:00",
-      "Title": "BE-ja e shqet\u00EBsuar p\u00EBr pranin\u00EB e Radoi\u00E7iqit n\u00EB tubimin e SNS-s\u00EB, k\u00EBrkon drejt\u00EBsi p\u00EBr Banjsk\u00EBn",
-      "Tokens": [
-        "shqet",
-        "pran",
-        "radoi",
-        "tubim",
-        "sns",
-        "kerko",
-        "drejt",
-        "banjs"
-      ],
-      "SourceUrls": [
-        "https://www.evropaelire.org/a/be-shqetesuar-radoiciq-kerkon-hetim-serbi-banjska/33875898.html"
-      ],
-      "Articles": {
-        "kosova-aktuale": "be-ja-e-shqetesuar-per-pranine-e-radoiciqit-ne-tubimin-e-sns-se-kerkon-drejtesi"
       }
     }
   ]
