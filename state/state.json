@@ -1,6 +1,327 @@
 {
-  "RotationCursor": 1,
+  "RotationCursor": 2,
   "Published": [
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Bordi i Paqes pas n\u00EBnshkrimit t\u00EB marr\u00EBveshjes me Shqip\u00EBrin\u00EB, vler\u00EBson kontributin e Kosov\u00EBs",
+      "Tokens": [
+        "bord",
+        "paq",
+        "nensh",
+        "marre",
+        "shqip",
+        "vlere",
+        "kontr",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/bordi-i-paqes-konfirmon-kosova-kontribuon-ne-sigurine-dhe-rindertimin-e-gazes/",
+        "https://www.gazetaexpress.com/shqiperia-nenshkruan-marreveshje-me-bordin-e-paqes-per-kontribut-ne-forcen-nderkombetare-te-stabilizimit-per-gazan/"
+      ],
+      "Articles": {
+        "infokosove24": "marreveshja-e-shqiperise-me-forcen-stabilizuese-te-gazes-reagojne-bordi-i-paqes"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Ekstradohen dy persona t\u00EB k\u00EBrkuar nga Mali i Zi dhe Gjermania n\u00EB Kosov\u00EB",
+      "Tokens": [
+        "ekstr",
+        "perso",
+        "kerku",
+        "mal",
+        "gjerm",
+        "koso"
+      ],
+      "SourceUrls": [
+        "https://telegrafi.com/ekstradohen-dy-persona-te-kerkuar-nga-mali-i-zi-dhe-gjermania-ne-kosove/",
+        "https://sinjali.com/ekstradohen-dy-persona-te-kerkuar-me-urdherarrest-nderkombetar-njeri-nga-mali-i-zi-e-tjetri-nga-gjermania/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ekstradohen-dy-persona-te-kerkuar-me-urdherarrest-nderkombetar-njeri-nga-mali-i"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Shembet nj\u00EB nd\u00EBrtes\u00EB shum\u00EBkat\u00EBshe n\u00EB Kenia, frik\u00EB p\u00EBr persona t\u00EB bllokuar n\u00EBn rr\u00EBnoja \u2013 PAMJE",
+      "Tokens": [
+        "shemb",
+        "ndert",
+        "shume",
+        "keni",
+        "frik",
+        "perso",
+        "bllok",
+        "rreno",
+        "pam"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shembet-nje-ndertese-shumekateshe-ne-kenia-frike-per-persona-te-bllokuar-nen-rrenoja-pamje/"
+      ],
+      "Articles": {
+        "kosova-fakt": "shembet-nje-ndertese-shumekateshe-ne-kenia-frike-per-persona-te-bllokuar-nen"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Trump paralajm\u00EBron nj\u00EB tjet\u00EBr operacion ushtarak kund\u00EBr Iranit",
+      "Tokens": [
+        "trump",
+        "paral",
+        "tjete",
+        "opera",
+        "ushta",
+        "kunde",
+        "iran"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/trump-paralajmeron-nje-tjeter-operacion-ushtarak-kunder-iranit/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "trump-paralajmeron-nje-tjeter-operacion-ushtarak-kunder-iranit"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Yll Limanit i ndodh e papritura n\u00EB Lond\u00EBr, e zbulon hallin q\u00EB e ka kapur",
+      "Tokens": [
+        "yll",
+        "liman",
+        "ndodh",
+        "papri",
+        "londe",
+        "zbulo",
+        "hall",
+        "kapur"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/yll-limanit-i-ndodh-e-papritura-ne-londer-e-zbulon-hallin-qe-e-ka-kapur/"
+      ],
+      "Articles": {
+        "raporti-sot": "yll-limanit-i-ndodh-e-papritura-ne-londer-e-zbulon-hallin-qe-e-ka-kapur"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Kurti shpall zgjedhjet e brendshme n\u00EB Vet\u00EBvendosje",
+      "Tokens": [
+        "kurt",
+        "shpal",
+        "zgjed",
+        "brend",
+        "vetev"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kurti-shpall-zgjedhjet-e-brendshme-ne-vetevendosje/"
+      ],
+      "Articles": {
+        "infokosove24": "kurti-shpall-zgjedhjet-e-brendshme-ne-vetevendosje"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Mot me diell dhe vran\u00EBsira gjat\u00EB vikendit, temperaturat do t\u00EB arrijn\u00EB deri n\u00EB 19 grad\u00EB",
+      "Tokens": [
+        "mot",
+        "diell",
+        "vrane",
+        "viken",
+        "tempe",
+        "arrij",
+        "grad"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/mot-me-diell-dhe-vranesira-gjate-vikendit-temperaturat-do-te-arrijne-deri-ne-19-grade/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "mot-me-diell-dhe-vranesira-gjate-vikendit-temperaturat-do-te-arrijne-deri-ne-19"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "70 vjetori i Revolucionit hungarez, presidentja Shiroka-Pula n\u00EB rend t\u00EB par\u00EB me krer\u00EBt e BE-s\u00EB Costa e Von Der Leyen",
+      "Tokens": [
+        "vjeto",
+        "revol",
+        "hunga",
+        "presi",
+        "shiro",
+        "pul",
+        "rend",
+        "par",
+        "krer",
+        "cost",
+        "von",
+        "der",
+        "ley"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/70-vjetori-i-revolucionit-hungarez-presidentja-shiroka-pula-ne-rend-te-pare-me-kreret-e-be-se-costa-e-von-der-leyen/"
+      ],
+      "Articles": {
+        "kosova-fakt": "70-vjetori-i-revolucionit-hungarez-presidentja-shiroka-pula-ne-rend-te-pare-me"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Muriqi i premton trajnerit gol n\u00EB derbin ndaj Galatasarayt: Mos u brengos",
+      "Tokens": [
+        "muriq",
+        "premt",
+        "trajn",
+        "gol",
+        "derb",
+        "ndaj",
+        "galat",
+        "breng"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/muriqi-i-premton-trajnerit-gol-ne-derbin-ndaj-galatasarayt-mos-u-brengos/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "muriqi-i-premton-trajnerit-gol-ne-derbin-ndaj-galatasarayt-mos-u-brengos"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Rodri i emocionuar p\u00EBr \u201CEl Clasicon\u201D e par\u00EB, flet p\u00EBr Realin",
+      "Tokens": [
+        "rodr",
+        "emoci",
+        "clasi",
+        "par",
+        "flet",
+        "real"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/rodri-i-emocionuar-per-el-clasicon-e-pare-flet-per-realin/"
+      ],
+      "Articles": {
+        "raporti-sot": "rodri-i-emocionuar-per-el-clasicon-e-pare-flet-per-realin"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Alban Sk\u00EBnderaj reagon pas vdekjes s\u00EB k\u00EBng\u00EBtares Rinesa Qeriqi: Do t\u00EB mbetesh gjithmon\u00EB nj\u00EB Lea e v\u00EBrtet\u00EB",
+      "Tokens": [
+        "alban",
+        "skend",
+        "reago",
+        "vdekj",
+        "kenge",
+        "rines",
+        "qeriq",
+        "mbete",
+        "gjith",
+        "lea",
+        "verte"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/alban-skenderaj-reagon-pas-vdekjes-se-kengetares-rinesa-qeriqi-do-te-mbetesh-gjithmone-nje-lea-e-vertete/"
+      ],
+      "Articles": {
+        "infokosove24": "alban-skenderaj-reagon-pas-vdekjes-se-kengetares-rinesa-qeriqi-do-te-mbetesh"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Putini thot\u00EB se bisedimet p\u00EBr paqen duhet t\u00EB garantojn\u00EB sigurin\u00EB e Rusis\u00EB, Ukrain\u00EBs dhe gjith\u00EB Evrop\u00EBs",
+      "Tokens": [
+        "putin",
+        "bised",
+        "paq",
+        "duh",
+        "garan",
+        "sigur",
+        "rus",
+        "ukrai",
+        "gjith",
+        "evrop"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/putini-thote-se-bisedimet-per-paqen-duhet-te-garantojne-sigurine-e-rusise-ukraines-dhe-gjithe-evropes/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "putini-thote-se-bisedimet-per-paqen-duhet-te-garantojne-sigurine-e-rusise"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Shiroka-Pula takon kryeministrin e Hungaris\u00EB",
+      "Tokens": [
+        "shiro",
+        "pul",
+        "takon",
+        "kryem",
+        "hunga"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shiroka-pula-takon-kryeministrin-e-hungarise/"
+      ],
+      "Articles": {
+        "kosova-fakt": "shiroka-pula-takon-kryeministrin-e-hungarise"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Dh\u00EBndri i Kosov\u00EBs n\u00EB gar\u00EB p\u00EBr James Bond, nis provat p\u00EBr 007",
+      "Tokens": [
+        "dhend",
+        "kosov",
+        "gar",
+        "jam",
+        "bond",
+        "nis",
+        "prova",
+        "007"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/dhendri-i-kosoves-ne-gare-per-james-bond-nis-provat-per-007/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "dhendri-i-kosoves-ne-gare-per-james-bond-nis-provat-per-007"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Dreshaj: Vendimet e ministrit Muja rrezikojn\u00EB largimin masiv t\u00EB pun\u00EBtor\u00EBve nga qum\u00EBshtoret",
+      "Tokens": [
+        "dresh",
+        "vendi",
+        "minis",
+        "muj",
+        "rrezi",
+        "largi",
+        "masiv",
+        "punet",
+        "qumes"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/dreshaj-vendimet-e-ministrit-muja-rrezikojne-largimin-masiv-te-punetoreve-nga-qumeshtoret/"
+      ],
+      "Articles": {
+        "raporti-sot": "dreshaj-vendimet-e-ministrit-muja-rrezikojne-largimin-masiv-te-punetoreve-nga"
+      }
+    },
+    {
+      "At": "2026-10-23T23:50:22.9141718+00:00",
+      "Title": "Durmishi: 16 qum\u00EBshtore e kan\u00EB nd\u00EBrprer\u00EB plot\u00EBsisht prodhimin pas vendimeve t\u00EB Qeveris\u00EB",
+      "Tokens": [
+        "durmi",
+        "qumes",
+        "nderp",
+        "plote",
+        "prodh",
+        "vendi",
+        "qever"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/durmishi-16-qumeshtore-e-kane-nderprere-plotesisht-prodhimin-pas-vendimeve-te-qeverise/"
+      ],
+      "Articles": {
+        "infokosove24": "durmishi-16-qumeshtore-e-kane-nderprere-plotesisht-prodhimin-pas-vendimeve-te"
+      }
+    },
     {
       "At": "2026-10-23T20:20:14.3176643+00:00",
       "Title": "BE-ja mir\u00EBpret kthimin e Ligjit p\u00EBr Specialen n\u00EB Kuvend, pret t\u00EB konsultohet p\u00EBr t\u00EB",
