@@ -2,6 +2,612 @@
   "RotationCursor": 3,
   "Published": [
     {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Arrestohet nj\u00EB person n\u00EB Klin\u00EB, sekuestrohet nj\u00EB AK-47 me karikator",
+      "Tokens": [
+        "arres",
+        "perso",
+        "klin",
+        "sekue",
+        "karik"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/arrestohet-nje-person-ne-kline-sekuestrohet-nje-ak-47-me-karikator/",
+        "https://telegrafi.com/arrestohet-nje-person-dhe-sekuestrohet-nje-arme-zjarri-ne-kline/"
+      ],
+      "Articles": {
+        "kosova-fakt": "arrestohet-nje-person-ne-kline-sekuestrohet-nje-ak-47-me-karikator"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Ndahet nga jeta Prokurorja e Prokuroris\u00EB Speciale, Ajshe Ferati",
+      "Tokens": [
+        "ndah",
+        "jet",
+        "proku",
+        "speci",
+        "ajsh",
+        "ferat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndahet-nga-jeta-prokurorja-e-prokurorise-speciale-ajshe-ferati/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndahet-nga-jeta-prokurorja-e-prokurorise-speciale-ajshe-ferati"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Elena Sadiku, trajnerja me prejardhje nga Kosova, n\u00EB gar\u00EB p\u00EBr \u00E7mimin \u201CTopi i Art\u00EB\u201D",
+      "Tokens": [
+        "elen",
+        "sadik",
+        "trajn",
+        "preja",
+        "kosov",
+        "gar",
+        "cmim",
+        "top",
+        "art"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/elena-sadiku-trajnerja-me-prejardhje-nga-kosova-ne-gare-per-cmimin-topi-i-arte/"
+      ],
+      "Articles": {
+        "raporti-sot": "elena-sadiku-trajnerja-me-prejardhje-nga-kosova-ne-gare-per-cmimin-topi-i-arte"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Capital T mb\u00EBshtet protestat studentore n\u00EB Shqip\u00EBri: \u201CMir\u00EBqenia e popullit tim \u00EBsht\u00EB mbi gjith\u00E7ka\u201D",
+      "Tokens": [
+        "capit",
+        "mbesh",
+        "prote",
+        "stude",
+        "shqip",
+        "mireq",
+        "popul",
+        "tim",
+        "gjith"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/capital-t-mbeshtet-protestat-studentore-ne-shqiperi-mireqenia-e-popullit-tim-eshte-mbi-gjithcka/"
+      ],
+      "Articles": {
+        "infokosove24": "capital-t-mbeshtet-protestat-studentore-ne-shqiperi-mireqenia-e-popullit-tim"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Vaksina eksperimentale e mRNA-s\u00EB ul rrezikun e rikthimit t\u00EB melanom\u00EBs me 42%",
+      "Tokens": [
+        "vaksi",
+        "ekspe",
+        "mrn",
+        "rrezi",
+        "rikth",
+        "melan"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/vaksina-eksperimentale-e-mrna-se-ul-rrezikun-e-rikthimit-te-melanomes-me-42/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "vaksina-eksperimentale-e-mrna-se-ul-rrezikun-e-rikthimit-te-melanomes-me-42"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Mourinho rikthen tensionet e vjetra me Barcelon\u00EBn, historia e nj\u00EB rivaliteti plot polemika",
+      "Tokens": [
+        "mouri",
+        "rikth",
+        "tensi",
+        "vjetr",
+        "barce",
+        "histo",
+        "rival",
+        "plot",
+        "polem"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/mourinho-rikthen-tensionet-e-vjetra-me-barcelonen-historia-e-nje-rivaliteti-plot-polemika/"
+      ],
+      "Articles": {
+        "kosova-fakt": "mourinho-rikthen-tensionet-e-vjetra-me-barcelonen-historia-e-nje-rivaliteti"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Paralajm\u00EBrohet shtrenjtimi i Rrug\u00EBs s\u00EB Kombit, tarifa mund t\u00EB rritet nga 5 n\u00EB 8 euro",
+      "Tokens": [
+        "paral",
+        "shtre",
+        "rrug",
+        "komb",
+        "tarif",
+        "mund",
+        "rrit",
+        "euro"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/paralajmerohet-shtrenjtimi-i-rruges-se-kombit-tarifa-mund-te-rritet-nga-5-ne-8-euro/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "paralajmerohet-shtrenjtimi-i-rruges-se-kombit-tarifa-mund-te-rritet-nga-5-ne-8"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "M\u00EB 25 n\u00EBntor samiti BE-Ballkani Per\u00EBndimor, Costa: An\u00EBtar\u00EBsimi i tyre prioritet dhe investim gjeostrategjik yni",
+      "Tokens": [
+        "nento",
+        "samit",
+        "ballk",
+        "peren",
+        "cost",
+        "aneta",
+        "prior",
+        "inves",
+        "gjeos",
+        "yni"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/me1-25-nentor-samiti-be-ballkani-perendimor-costa-anetaresimi-i-tyre-prioritet-dhe-investim-gjeostrategjik-yni/"
+      ],
+      "Articles": {
+        "raporti-sot": "me-25-nentor-samiti-be-ballkani-perendimor-costa-anetaresimi-i-tyre-prioritet"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "N\u00EB mesnat\u00EB ndalet nj\u00EBsia B2, KEK: B\u00EBhet n\u00EB m\u00EBnyr\u00EB t\u00EB kontrolluar, shkak problemet teknike",
+      "Tokens": [
+        "mesna",
+        "ndal",
+        "njesi",
+        "kek",
+        "beh",
+        "menyr",
+        "kontr",
+        "shkak",
+        "probl",
+        "tekni"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ne1-mesnate-ndalet-njesia-b2-kek-behet-ne-menyre-te-kontrolluar-shkak-problemet-teknike/"
+      ],
+      "Articles": {
+        "infokosove24": "ne-mesnate-ndalet-njesia-b2-kek-behet-ne-menyre-te-kontrolluar-shkak-problemet"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Berisha sulmon Ram\u00EBn dhe Vu\u00E7iqin pas takimit n\u00EB Budva: Dy gangster\u00EBt e Ballkanit",
+      "Tokens": [
+        "beris",
+        "sulmo",
+        "ram",
+        "vuciq",
+        "takim",
+        "budv",
+        "gangs",
+        "ballk"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/berisha-sulmon-ramen-dhe-vuciqin-pas-takimit-ne-budva-dy-gangsteret-e-ballkanit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "berisha-sulmon-ramen-dhe-vuciqin-pas-takimit-ne-budva-dy-gangsteret-e-ballkanit"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Shqip\u00EBria dhe Kosova synojn\u00EB forcimin e bashk\u00EBpunimit n\u00EB fush\u00EBn e arkivave",
+      "Tokens": [
+        "shqip",
+        "kosov",
+        "synoj",
+        "forci",
+        "bashk",
+        "fush",
+        "arkiv"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shqiperia-dhe-kosova-synojne-forcimin-e-bashkepunimit-ne-fushen-e-arkivave/"
+      ],
+      "Articles": {
+        "kosova-fakt": "shqiperia-dhe-kosova-synojne-forcimin-e-bashkepunimit-ne-fushen-e-arkivave"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Presidenti austriak i d\u00EBrgon let\u00EBr urimi Justina Shiroka Pul\u00EBs, premton mb\u00EBshtetje p\u00EBr integrimin evropian t\u00EB Kosov\u00EBs",
+      "Tokens": [
+        "presi",
+        "austr",
+        "dergo",
+        "leter",
+        "urim",
+        "justi",
+        "shiro",
+        "pul",
+        "premt",
+        "mbesh",
+        "integ",
+        "evrop",
+        "kosov"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/presidenti-austriak-i-dergon-leter-urimi-justina-shiroka-pules-premton-mbeshtetje-per-integrimin-evropian-te-kosoves/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "presidenti-austriak-i-dergon-leter-urimi-justina-shiroka-pules-premton"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "A \u00EBsht\u00EB b\u00EBr\u00EB Man Utd nj\u00EB klub i pakontrolluesh\u00EBm?",
+      "Tokens": [
+        "ber",
+        "man",
+        "utd",
+        "klub",
+        "pakon"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/a-eshte-bere-man-utd-nje-klub-i-pakontrollueshem/"
+      ],
+      "Articles": {
+        "raporti-sot": "a-eshte-bere-man-utd-nje-klub-i-pakontrollueshem"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "KEK-u paralajm\u00EBron ndaljen e nj\u00EBsis\u00EB B2 t\u00EB \u201CKosova B\u201D, shkak problemet teknike",
+      "Tokens": [
+        "kek",
+        "paral",
+        "ndalj",
+        "njes",
+        "kosov",
+        "shkak",
+        "probl",
+        "tekni"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/kek-u-paralajmeron-ndaljen-e-njesise-b2-te-kosova-b-shkak-problemet-teknike/"
+      ],
+      "Articles": {
+        "infokosove24": "kek-u-paralajmeron-ndaljen-e-njesise-b2-te-kosova-b-shkak-problemet-teknike"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Meta gjobitet me 25 miliard\u00EB dollar\u00EB p\u00EBr \u2018g\u00EBnjeshtra\u2019 mbi privat\u00EBsin\u00EB e t\u00EB dh\u00EBnave t\u00EB p\u00EBrdoruesve",
+      "Tokens": [
+        "met",
+        "gjobi",
+        "milia",
+        "dolla",
+        "genje",
+        "priva",
+        "dhen",
+        "perdo"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/meta-gjobitet-me-25-miliarde-dollare-per-genjeshtra-mbi-privatesine-e-te-dhenave-te-perdoruesve/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "meta-gjobitet-me-25-miliarde-dollare-per-genjeshtra-mbi-privatesine-e-te"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Droni Bayraktar fluturon mbi Nashec t\u00EB Prizrenit",
+      "Tokens": [
+        "dron",
+        "bayra",
+        "flutu",
+        "nashe",
+        "prizr"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/droni-bayraktar-fluturon-mbi-nashec-te-prizrenit/"
+      ],
+      "Articles": {
+        "kosova-fakt": "droni-bayraktar-fluturon-mbi-nashec-te-prizrenit"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Ligji p\u00EBr Specialen kthehet aty ku mori votat, \u00E7far\u00EB ndodh tutje me procedurat n\u00EB Kuvend?",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "ktheh",
+        "aty",
+        "mor",
+        "votat",
+        "ndodh",
+        "tut",
+        "proce",
+        "kuven"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/gjate/ligji-per-specialen-kthehet-aty-ku-mori-votat-cfare-ndodh-tutje-me-procedurat-ne-kuvend/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ligji-per-specialen-kthehet-aty-ku-mori-votat-cfare-ndodh-tutje-me-procedurat"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Ligji p\u00EBr Specialen, Maliqi: PDK\u2019ja duhej t\u2019i ulte pritshmerit\u00EB, Kosova e ka t\u00EB kufizuar hap\u00EBsir\u00EBn p\u00EBr veprim",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "maliq",
+        "pdk",
+        "duhej",
+        "ult",
+        "prits",
+        "kosov",
+        "kufiz",
+        "hapes",
+        "vepri"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ligji1-per-specialen-maliqi-pdkja-duhej-ti-ulte-pritshmerite-kosova-e-ka-te-kufizuar-hapesiren-per-veprim/"
+      ],
+      "Articles": {
+        "raporti-sot": "ligji-per-specialen-maliqi-pdk-ja-duhej-t-i-ulte-pritshmerite-kosova-e-ka-te"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Polic\u00EBt e r\u00EBn\u00EB n\u00EB krye t\u00EB detyr\u00EBs nderohen me loj\u00EBra sportive tradicionale n\u00EB Gjakov\u00EB",
+      "Tokens": [
+        "polic",
+        "ren",
+        "kry",
+        "detyr",
+        "ndero",
+        "lojer",
+        "sport",
+        "tradi",
+        "gjako"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/policet-e-rene-ne-krye-te-detyres-nderohen-me-lojera-sportive-tradicionale-ne-gjakove/"
+      ],
+      "Articles": {
+        "infokosove24": "policet-e-rene-ne-krye-te-detyres-nderohen-me-lojera-sportive-tradicionale-ne"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Sanksione p\u00EBr KB Prishtin\u00EBn, klubi nuk mund t\u00EB b\u00EBj\u00EB ndryshime n\u00EB ekip pa zgjidhur \u00E7\u00EBshtjen n\u00EB BAT",
+      "Tokens": [
+        "sanks",
+        "prish",
+        "klub",
+        "mund",
+        "bej",
+        "ndrys",
+        "ekip",
+        "zgjid",
+        "cesht",
+        "bat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sanksione-per-kb-prishtinen-klubi-nuk-mund-te-beje-ndryshime-ne-ekip-pa-zgjidhur-ceshtjen-ne-bat/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "sanksione-per-kb-prishtinen-klubi-nuk-mund-te-beje-ndryshime-ne-ekip-pa"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "PDK-ja dhe LDK-ja n\u00EB betej\u00EB me veten",
+      "Tokens": [
+        "pdk",
+        "ldk",
+        "bete",
+        "vet"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/pdk-ldk-beteje-me-veten/33882774.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "pdk-ja-dhe-ldk-ja-ne-beteje-me-veten"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Konkurs: Koordinator i projektit p\u00EBr Qendr\u00EBn Multietnike n\u00EB Mitrovic\u00EBn e Veriut",
+      "Tokens": [
+        "konku",
+        "koord",
+        "proje",
+        "qendr",
+        "multi",
+        "mitro",
+        "veriu"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/lajm/konkurs-koordinator-i-projektit-per-qendren-multietnike-ne-mitrovicen-e-veriut/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "konkurs-koordinator-i-projektit-per-qendren-multietnike-ne-mitrovicen-e-veriut"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Kat\u00EBr raste t\u00EB dhun\u00EBs n\u00EB familje raportohen n\u00EB Polici",
+      "Tokens": [
+        "kater",
+        "rast",
+        "dhun",
+        "famil",
+        "rapor",
+        "polic"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/lajm/kater-raste-te-dhunes-ne-familje-raportohen-ne-polici-7/"
+      ],
+      "Articles": {
+        "raporti-sot": "kater-raste-te-dhunes-ne-familje-raportohen-ne-polici"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Policia nis hetimet p\u00EBr rrethanat e vdekjes s\u00EB nj\u00EB personi n\u00EB QKUK",
+      "Tokens": [
+        "polic",
+        "nis",
+        "hetim",
+        "rreth",
+        "vdekj",
+        "perso",
+        "qkuk"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/lajm/policia-nis-hetimet-per-rrethanat-e-vdekjes-se-nje-personi-ne-qkuk/"
+      ],
+      "Articles": {
+        "infokosove24": "policia-nis-hetimet-per-rrethanat-e-vdekjes-se-nje-personi-ne-qkuk"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Shiroka Pula nis vizit\u00EBn e par\u00EB jasht\u00EB vendit si presidente",
+      "Tokens": [
+        "shiro",
+        "pul",
+        "nis",
+        "vizit",
+        "par",
+        "jasht",
+        "vend",
+        "presi"
+      ],
+      "SourceUrls": [
+        "https://kallxo.com/lajm/shiroka-pula-nis-viziten-e-pare-jashte-vendit-si-presidente/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shiroka-pula-nis-viziten-e-pare-jashte-vendit-si-presidente"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Kthimi i ligjit p\u00EBr Specialen, Haxhiu: Po shihet q\u00EB edhe dor\u00EBheqja e kryetarit ka qen\u00EB mu p\u00EBr k\u00EBt\u00EB",
+      "Tokens": [
+        "kthim",
+        "ligj",
+        "speci",
+        "haxhi",
+        "shih",
+        "doreh",
+        "kryet",
+        "qen",
+        "ket"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kthimi-i-ligjit-per-specialen-haxhiu-po-shihet-qe-edhe-doreheqja-e-kryetarit-ka-qene-mu-per-kete/"
+      ],
+      "Articles": {
+        "kosova-fakt": "kthimi-i-ligjit-per-specialen-haxhiu-po-shihet-qe-edhe-doreheqja-e-kryetarit-ka"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Kompania \u201CPastrimi\u201D del me apel: Mos hidhni xhama n\u00EB kontejner\u00EB, l\u00EBndohen pun\u00EBtor\u00EBt",
+      "Tokens": [
+        "kompa",
+        "pastr",
+        "del",
+        "apel",
+        "hidhn",
+        "xham",
+        "konte",
+        "lendo",
+        "punet"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/kompania-pastrimi-del-me-apel-mos-hidhni-xhama-ne-kontejnere-lendohen-punetoret/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "kompania-pastrimi-del-me-apel-mos-hidhni-xhama-ne-kontejnere-lendohen-punetoret"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Ligji p\u00EBr Specialen kthehet n\u00EB Kuvend, rinis debati politik \u2013 p\u00EBr miratim duhen 61 vota",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "ktheh",
+        "kuven",
+        "rin",
+        "debat",
+        "polit",
+        "mirat",
+        "duh",
+        "vot"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ligji-per-specialen-kthehet-ne-kuvend-rinis-debati-politik-per-miratim-duhen-61-vota/"
+      ],
+      "Articles": {
+        "raporti-sot": "ligji-per-specialen-kthehet-ne-kuvend-rinis-debati-politik-per-miratim-duhen-61"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Zjarre, dron\u00EB dhe grafite: Gjurm\u00EBt ruse n\u00EB aktet e sabotimit n\u00EB mbar\u00EB Evrop\u00EBn",
+      "Tokens": [
+        "zjarr",
+        "dron",
+        "graf",
+        "gjurm",
+        "rus",
+        "akt",
+        "sabot",
+        "mbar",
+        "evrop"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/zjarre-drone-grafite-gjurmet-ruse-aktet-sabotimit-evropa/33880172.html"
+      ],
+      "Articles": {
+        "infokosove24": "zjarre-drone-dhe-grafite-gjurmet-ruse-ne-aktet-e-sabotimit-ne-mbare-evropen"
+      }
+    },
+    {
+      "At": "2026-10-23T09:56:52.098076+00:00",
+      "Title": "Gjini k\u00EBrkon llogari nga Qeveria: Tregoni pse jemi t\u00EB p\u00EBrjashtuar nga dialogu strategjik me Amerik\u00EBn",
+      "Tokens": [
+        "gjin",
+        "kerko",
+        "lloga",
+        "qever",
+        "trego",
+        "jem",
+        "perja",
+        "dialo",
+        "strat",
+        "ameri"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/gjini-kerkon-llogari-nga-qeveria-tregoni-pse-jemi-te-perjashtuar-nga-dialogu-strategjik-me-ameriken/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "gjini-kerkon-llogari-nga-qeveria-tregoni-pse-jemi-te-perjashtuar-nga-dialogu"
+      }
+    },
+    {
       "At": "2026-10-22T23:57:44.5465364+00:00",
       "Title": "Vinicius n\u00EB kriz\u00EB, statistika trondit\u00EBse ndaj Leipzigut",
       "Tokens": [
