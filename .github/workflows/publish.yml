@@ -2,8 +2,9 @@ name: Publiko lajme
 
 on:
   schedule:
-    # Every 2 hours from 05:07 to 21:07 UTC  (≈ 07:07–23:07 in Kosovo during summer time).
-    - cron: "7 5-21/2 * * *"
+    # Vetëm 2 herë në ditë (06:07 dhe 16:07 UTC ≈ 07:07 dhe 17:07 në Kosovë në dimër, 08:07/18:07 në verë).
+    # Çdo ekzekutim = 1 deploy në Vercel për secilën faqe, prandaj sa më rrallë aq më pak "Deployment Storage".
+    - cron: "7 6,16 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -14,7 +15,7 @@ on:
           - discover   # PROVË PA AI: lexon portalet, grupon lajmet, lexon tekstet — s'shkruan asgjë
           - test       # PROVË PA AI: shkruan artikuj TEST në kopje të faqeve, i ndërton + SEO audit — NUK publikon
           - dry-run    # ME AI: Claude shkruan artikuj të vërtetë, i sheh të plotë në Summary — NUK publikon
-          - publish    # ME AI: publikon në faqe (kjo punon vetë çdo 2 orë)
+          - publish    # ME AI: publikon në faqe (kjo punon vetë 2 herë në ditë)
           - licensed-copy # PA AI: publikon tekstin e plotë të burimit të licencuar, me atribim + link
       max_stories:
         description: "Sa histori (bosh = sipas config/bot.json)"
@@ -59,7 +60,7 @@ jobs:
       - name: Self-test
         run: $BOT selftest
 
-      # Until the secrets are set, scheduled runs end quietly instead of failing every 2 hours.
+      # Until the secrets are set, scheduled runs end quietly instead of failing on every run.
       - name: Check secrets
         id: gate
         env:
@@ -173,6 +174,30 @@ jobs:
             popd > /dev/null
           done
           exit $failed
+
+      # Fshin deploy-et e vjetra në Vercel që "Deployment Storage" të mos mbushet (limiti falas 10 GB).
+      # Punon vetëm nëse e ke vendos sekretin VERCEL_TOKEN (vercel.com/account/tokens).
+      # Mban deploy-in aktual të production + 2 më të rejat për secilën faqe.
+      - name: Pastro deploy-et e vjetra në Vercel
+        if: always() && steps.gate.outputs.go == 'true' && (env.MODE == 'publish' || env.MODE == 'licensed-copy')
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_TEAM: team_ZbdGvzpy5reSakQdHadBlL2z
+          KEEP: "3"
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then echo "::notice::VERCEL_TOKEN mungon — pastrimi i deploy-eve u anashkalua."; exit 0; fi
+          api() { curl -fsS -H "Authorization: Bearer $VERCEL_TOKEN" "$@"; }
+          for project in raporti-sot infokosove24 kosova-aktuale kosova-fakt lajme-per-kosove; do
+            current=$(api "https://api.vercel.com/v9/projects/$project?teamId=$VERCEL_TEAM" | jq -r '.targets.production.id // empty') || { echo "::warning::$project: s'u lexua projekti"; continue; }
+            ids=$(api "https://api.vercel.com/v6/deployments?projectId=$project&teamId=$VERCEL_TEAM&limit=100" \
+              | jq -r '.deployments | sort_by(-.created) | map(select(.state != "BUILDING" and .state != "QUEUED" and .state != "INITIALIZING")) | .['"$KEEP"':][] | .uid') || continue
+            n=0
+            for id in $ids; do
+              [ "$id" = "$current" ] && continue
+              api -X DELETE "https://api.vercel.com/v13/deployments/$id?teamId=$VERCEL_TEAM" > /dev/null && n=$((n+1))
+            done
+            echo "$project: u fshinë $n deploy të vjetra (production aktual: $current)"
+          done
 
       - name: Show one test article
         if: steps.gate.outputs.go == 'true' && env.MODE == 'test'

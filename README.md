@@ -50,9 +50,9 @@ Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e arti
    | `licensed-copy` | jo | `SITES_TOKEN` | Publikon tekstin e plotë të burimit të licencuar, me atribim + link. Ky është modaliteti automatik. |
 
    Rendi i rekomanduar: `discover` → `test` → `dry-run` → `publish`.
-   Derisa të mos i vendosësh sekretet, ekzekutimet automatike çdo 2 orë mbarojnë pa bo asgjë (pa gabime).
+   Derisa të mos i vendosësh sekretet, ekzekutimet automatike mbarojnë pa bo asgjë (pa gabime).
 
-Pas kësaj punon vetë çdo 2 orë, prej orës 07 deri në 23 me orën e Kosovës (`cron` në `.github/workflows/publish.yml`).
+Pas kësaj punon vetë 2 herë në ditë, në 07:07 dhe 17:07 me orën e Kosovës (dimër; në verë 08:07 dhe 18:07) (`cron` në `.github/workflows/publish.yml`).
 
 ## Modeli dhe kostoja
 
