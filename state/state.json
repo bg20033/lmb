@@ -1,6 +1,523 @@
 {
-  "RotationCursor": 2,
+  "RotationCursor": 0,
   "Published": [
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Shiroka-Pula u b\u00EBn thirrje shqiptar\u00EBve t\u00EB Lugin\u00EBs t\u00EB votojn\u00EB p\u00EBr koalicionin shqiptar",
+      "Tokens": [
+        "shiro",
+        "pul",
+        "ben",
+        "thirr",
+        "shqip",
+        "lugin",
+        "votoj",
+        "koali"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shiroka-pula-u-ben-thirrje-shqiptareve-te-lugines-te-votojne-per-koalicionin-shqiptar/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shiroka-pula-u-ben-thirrje-shqiptareve-te-lugines-te-votojne-per-koalicionin"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Krismat e arm\u00EBve n\u00EB nj\u00EB aheng familjar n\u00EB Batllav\u00EB alarmojn\u00EB Policin\u00EB \u2013 k\u00EBta jan\u00EB tre t\u00EB dyshuarit, sekuestrohen arm\u00EB e dhjet\u00EBra fishek\u00EB",
+      "Tokens": [
+        "krism",
+        "arm",
+        "aheng",
+        "famil",
+        "batll",
+        "alarm",
+        "polic",
+        "ket",
+        "tre",
+        "dyshu",
+        "sekue",
+        "dhjet",
+        "fishe"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/krismat-e-armeve-ne-nje-aheng-familjar-ne-batllave-alarmojne-policine-keta-jane-tre-te-dyshuarit-sekuestrohen-arme-e-dhjetera-fisheke/"
+      ],
+      "Articles": {
+        "kosova-fakt": "krismat-e-armeve-ne-nje-aheng-familjar-ne-batllave-alarmojne-policine-keta-jane"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "P\u00EBrleshje mes tre personave n\u00EB Vushtrri, n\u00EB rast p\u00EBrfshihet edhe nj\u00EB pjes\u00EBtar i FSK-s\u00EB \u2013 Sinjali zbulon emrat e t\u00EB dyshuarve",
+      "Tokens": [
+        "perle",
+        "mes",
+        "tre",
+        "perso",
+        "vusht",
+        "rast",
+        "perfs",
+        "pjese",
+        "fsk",
+        "sinja",
+        "zbulo",
+        "emrat",
+        "dyshu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/perleshje-mes-tre-personave-ne-vushtrri-ne-rast-perfshihet-edhe-nje-pjesetar-i-fsk-se-sinjali-zbulon-emrat-e-te-dyshuarve/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "perleshje-mes-tre-personave-ne-vushtrri-ne-rast-perfshihet-edhe-nje-pjesetar-i"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "T\u00EB sht\u00EBna me arm\u00EB zjarri pas nj\u00EB mosmarr\u00EBveshjeje n\u00EB Gjakov\u00EB, i dyshuari 17-vje\u00E7ar n\u00EB arrati \u2013 Policia bastis sht\u00EBpin\u00EB e tij",
+      "Tokens": [
+        "shten",
+        "arm",
+        "zjarr",
+        "mosma",
+        "gjako",
+        "dyshu",
+        "vjeca",
+        "arrat",
+        "polic",
+        "bast",
+        "shtep"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/te-shtena-me-arme-zjarri-pas-nje-mosmarreveshjeje-ne-gjakove-i-dyshuari-17-vjecar-ne-arrati-policia-bastis-shtepine-e-tij/"
+      ],
+      "Articles": {
+        "raporti-sot": "te-shtena-me-arme-zjarri-pas-nje-mosmarreveshjeje-ne-gjakove-i-dyshuari-17"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Presidentja fton banor\u00EBt e Lugin\u00EBs t\u00EB votojn\u00EB nes\u00EBr n\u00EB zgjedhjet serbe: M\u00EB shum\u00EB deputet\u00EB shqiptar\u00EB e z\u00EB m\u00EB t\u00EB fuqish\u00EBm",
+      "Tokens": [
+        "presi",
+        "fton",
+        "banor",
+        "lugin",
+        "votoj",
+        "neser",
+        "zgjed",
+        "serb",
+        "shum",
+        "deput",
+        "shqip",
+        "fuqis"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/presidentja-fton-banoret-e-lugines-te-votojne-neser-ne-zgjedhjet-serbe-me-shume-deputete-shqiptare-e-ze-me-te-fuqishem/"
+      ],
+      "Articles": {
+        "infokosove24": "presidentja-fton-banoret-e-lugines-te-votojne-neser-ne-zgjedhjet-serbe-me-shume"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Shkoi p\u00EBr ta vizituar mikun, e gjeti t\u00EB vdekur n\u00EB sht\u00EBpi \u2013 ky \u00EBsht\u00EB 43-vje\u00E7ari q\u00EB u gjet pa shenja jete n\u00EB Gra\u00E7anic\u00EB",
+      "Tokens": [
+        "shko",
+        "vizit",
+        "mikun",
+        "gjet",
+        "vdeku",
+        "shtep",
+        "vjeca",
+        "shen",
+        "jet",
+        "graca"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/shkoi-per-ta-vizituar-mikun-e-gjeti-te-vdekur-ne-shtepi-ky-eshte-43-vjecari-qe-u-gjet-pa-shenja-jete-ne-gracanice/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "shkoi-per-ta-vizituar-mikun-e-gjeti-te-vdekur-ne-shtepi-ky-eshte-43-vjecari-qe"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "\u2018\u2018Zgjedhjet mund t\u00EB sjellin ndryshim n\u00EB Serbi\u2019\u2019, shkrimtari serb n\u00EB FAZ: Parlamenti mund t\u00EB mbetet pa asnj\u00EB parti proevropiane",
+      "Tokens": [
+        "zgjed",
+        "mund",
+        "sjell",
+        "ndrys",
+        "serb",
+        "shkri",
+        "faz",
+        "parla",
+        "mbet",
+        "asn",
+        "part",
+        "proev"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/zgjedhjet-mund-te-sjellin-ndryshim-ne-serbi-shkrimtari-serb-ne-faz-parlamenti-mund-te-mbetet-pa-asnje-parti-proevropiane/"
+      ],
+      "Articles": {
+        "kosova-fakt": "zgjedhjet-mund-te-sjellin-ndryshim-ne-serbi-shkrimtari-serb-ne-faz-parlamenti"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Alarm n\u00EB Riad, Huthit l\u00EBshojn\u00EB raket\u00EB balistike drejt kryeqytetit saudit \u2013 mbrojtja e intercepton",
+      "Tokens": [
+        "alarm",
+        "riad",
+        "huth",
+        "lesho",
+        "raket",
+        "balis",
+        "drejt",
+        "kryeq",
+        "saud",
+        "mbroj",
+        "inter"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/alarm-ne-riad-huthit-leshojne-rakete-balistike-drejt-kryeqytetit-saudit-mbrojtja-e-intercepton/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "alarm-ne-riad-huthit-leshojne-rakete-balistike-drejt-kryeqytetit-saudit"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "U raportuan t\u00EB zhdukur n\u00EB Viti, zbulohet ku p\u00EBrfunduan 48-vje\u00E7arja dhe djali i saj 11-vje\u00E7ar",
+      "Tokens": [
+        "rapor",
+        "zhduk",
+        "vit",
+        "zbulo",
+        "perfu",
+        "vjeca",
+        "djal"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/u-raportuan-te-zhdukur-ne-viti-zbulohet-ku-perfunduan-48-vjecarja-dhe-djali-i-saj-11-vjecar/"
+      ],
+      "Articles": {
+        "raporti-sot": "u-raportuan-te-zhdukur-ne-viti-zbulohet-ku-perfunduan-48-vjecarja-dhe-djali-i"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Dram\u00EB n\u00EB nj\u00EB market n\u00EB Drenas: 49-vje\u00E7ari k\u00EBrc\u00EBnon me thik\u00EB personat brenda, pronari l\u00EBndohet duke tentuar ta \u00E7armatos\u00EB \u2013 Sinjali zbulon emrin e t\u00EB arrestuarit",
+      "Tokens": [
+        "dram",
+        "mark",
+        "drena",
+        "vjeca",
+        "kerce",
+        "thik",
+        "perso",
+        "brend",
+        "prona",
+        "lendo",
+        "duk",
+        "tentu",
+        "carma",
+        "sinja",
+        "zbulo",
+        "emr",
+        "arres"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/drame-ne-nje-market-ne-drenas-49-vjecari-kercenon-me-thike-personat-brenda-pronari-lendohet-duke-tentuar-ta-carmatose-sinjali-zbulon-emrin-e-te-arrestuarit/"
+      ],
+      "Articles": {
+        "infokosove24": "drame-ne-nje-market-ne-drenas-49-vjecari-kercenon-me-thike-personat-brenda"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "\u201CSi e komentoni kthimin e Ligjit p\u00EBr Specialen n\u00EB Kuvend?\u201D, Kurti: Urime 515 rekrut\u00EBt e rinj t\u00EB FSK-s\u00EB",
+      "Tokens": [
+        "komen",
+        "kthim",
+        "ligj",
+        "speci",
+        "kuven",
+        "kurt",
+        "urim",
+        "515",
+        "rekru",
+        "rinj",
+        "fsk"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/si-e-komentoni-kthimin-e-ligjit-per-specialen-ne-kuvend-kurti-urime-515-rekrutet-e-rinj-te-fsk-se/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "si-e-komentoni-kthimin-e-ligjit-per-specialen-ne-kuvend-kurti-urime-515"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Ekskluzive | Me arm\u00EB n\u00EB brez n\u00EB mes t\u00EB nat\u00EBs, Policia arreston 18-vje\u00E7arin n\u00EB Obiliq \u2013 ky \u00EBsht\u00EB i dyshuari q\u00EB p\u00EBrfundoi n\u00EB ndalim",
+      "Tokens": [
+        "arm",
+        "brez",
+        "mes",
+        "nat",
+        "polic",
+        "arres",
+        "vjeca",
+        "obili",
+        "dyshu",
+        "perfu",
+        "ndali"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-me-arme-ne-brez-ne-mes-te-nates-policia-arreston-18-vjecarin-ne-obiliq-ky-eshte-i-dyshuari-qe-perfundoi-ne-ndalim/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ekskluzive-me-arme-ne-brez-ne-mes-te-nates-policia-arreston-18-vjecarin-ne"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "I gjenden rreth 20 gram\u00EB marihuan\u00EB n\u00EB Prishtin\u00EB, ky \u00EBsht\u00EB 21-vje\u00E7ari q\u00EB u arrestua nga Policia \u2013 i kontrollohet edhe sht\u00EBpia",
+      "Tokens": [
+        "gjend",
+        "rreth",
+        "gram",
+        "marih",
+        "prish",
+        "vjeca",
+        "arres",
+        "polic",
+        "kontr",
+        "shtep"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/i-gjenden-rreth-20-grame-marihuane-ne-prishtine-ky-eshte-21-vjecari-qe-u-arrestua-nga-policia-i-kontrollohet-edhe-shtepia/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "i-gjenden-rreth-20-grame-marihuane-ne-prishtine-ky-eshte-21-vjecari-qe-u"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Ekskluzive | Aksioni kund\u00EBr Call Center-ave n\u00EB Prishtin\u00EB eskalon n\u00EB sulm ndaj Policis\u00EB \u2013 dy zyrtar\u00EB l\u00EBndohen, k\u00EBta jan\u00EB t\u00EB dyshuarit",
+      "Tokens": [
+        "aksio",
+        "kunde",
+        "call",
+        "cente",
+        "ave",
+        "prish",
+        "eskal",
+        "sulm",
+        "ndaj",
+        "polic",
+        "zyrta",
+        "lendo",
+        "ket",
+        "dyshu"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-aksioni-kunder-call-center-ave-ne-prishtine-eskalon-ne-sulm-ndaj-policise-dy-zyrtare-lendohen-keta-jane-te-dyshuarit/"
+      ],
+      "Articles": {
+        "raporti-sot": "ekskluzive-aksioni-kunder-call-center-ave-ne-prishtine-eskalon-ne-sulm-ndaj"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Ekskluzive | Mashtrime p\u00EBrmes Call Center-ave n\u00EB Prishtin\u00EB e Obiliq, bien n\u00EB pranga 9 persona \u2013 Sinjali zbulon emrat e t\u00EB arrestuarve",
+      "Tokens": [
+        "masht",
+        "perm",
+        "call",
+        "cente",
+        "ave",
+        "prish",
+        "obili",
+        "bien",
+        "prang",
+        "perso",
+        "sinja",
+        "zbulo",
+        "emrat",
+        "arres"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ekskluzive-mashtrime-permes-call-center-ave-ne-prishtine-e-obiliq-bien-ne-pranga-9-persona-sinjali-zbulon-emrat-e-te-arrestuarve/"
+      ],
+      "Articles": {
+        "infokosove24": "ekskluzive-mashtrime-permes-call-center-ave-ne-prishtine-e-obiliq-bien-ne"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Ambasadori gjerman do \u201Chapa konkret\u00EB\u201D nga Kosova p\u00EBr themelimin e Asociacionit",
+      "Tokens": [
+        "ambas",
+        "gjerm",
+        "hap",
+        "konkr",
+        "kosov",
+        "theme",
+        "asoci"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ambasadori-gjerman-do-hapa-konkrete-nga-kosova-per-themelimin-e-asociacionit/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "ambasadori-gjerman-do-hapa-konkrete-nga-kosova-per-themelimin-e-asociacionit"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Franca dislokon 70.000 polic\u00EB p\u00EBr protestat e reja",
+      "Tokens": [
+        "franc",
+        "dislo",
+        "000",
+        "polic",
+        "prote",
+        "rej"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/franca-dislokon-police-protesta/33883449.html"
+      ],
+      "Articles": {
+        "kosova-fakt": "franca-dislokon-70-000-police-per-protestat-e-reja"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Ndahet nga jeta zyrtarja policore, Bukurije Ferati",
+      "Tokens": [
+        "ndah",
+        "jet",
+        "zyrta",
+        "polic",
+        "bukur",
+        "ferat"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/ndahet-nga-jeta-zyrtarja-policore-bukurije-ferati/"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "ndahet-nga-jeta-zyrtarja-policore-bukurije-ferati"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Bebe Rexha n\u00EB qend\u00EBr t\u00EB v\u00EBmendjes n\u00EB Franc\u00EB, paraqitje magjeps\u00EBse n\u00EB \u2018NRJ Music Awards\u2019",
+      "Tokens": [
+        "beb",
+        "rexh",
+        "qende",
+        "vemen",
+        "franc",
+        "paraq",
+        "magje",
+        "nrj",
+        "music",
+        "award"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/bebe-rexha-ne-qender-te-vemendjes-ne-france-paraqitje-magjepsese-ne-nrj-music-awards/"
+      ],
+      "Articles": {
+        "raporti-sot": "bebe-rexha-ne-qender-te-vemendjes-ne-france-paraqitje-magjepsese-ne-nrj-music"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "SINJALI 24 | Pretenduesi i 1 milion eurove n\u00EB pranga, nj\u00EB 42-vje\u00E7ar kapet p\u00EBr fajde, Policia sekuestron drog\u00EB e arm\u00EB",
+      "Tokens": [
+        "sinja",
+        "prete",
+        "milio",
+        "euro",
+        "prang",
+        "vjeca",
+        "kap",
+        "fajd",
+        "polic",
+        "sekue",
+        "drog",
+        "arm"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/sinjali-24-pretenduesi-i-1-milion-eurove-ne-pranga-nje-42-vjecar-kapet-per-fajde-policia-sekuestron-droge-e-arme/"
+      ],
+      "Articles": {
+        "infokosove24": "sinjali-24-pretenduesi-i-1-milion-eurove-ne-pranga-nje-42-vjecar-kapet-per"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Superliga e Kosov\u00EBs rikthehet sot me dy ndeshje",
+      "Tokens": [
+        "super",
+        "kosov",
+        "rikth",
+        "ndesh"
+      ],
+      "SourceUrls": [
+        "https://sinjali.com/superliga-e-kosoves-rikthehet-sot-me-dy-ndeshje/"
+      ],
+      "Articles": {
+        "kosova-aktuale": "superliga-e-kosoves-rikthehet-sot-me-dy-ndeshje"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Ligji p\u00EBr Specialen hap dilema t\u00EB reja, Haxhiu thot\u00EB se s\u2019mund t\u00EB ndryshohet, PDK k\u00EBrkon q\u00EB kjo t\u00EB kryhet p\u00EBr 4 jav\u00EB",
+      "Tokens": [
+        "ligj",
+        "speci",
+        "hap",
+        "dilem",
+        "rej",
+        "haxhi",
+        "mund",
+        "ndrys",
+        "pdk",
+        "kerko",
+        "kryh",
+        "jav"
+      ],
+      "SourceUrls": [
+        "https://www.gazetaexpress.com/ligji-per-specialen-hap-dilema-te-reja-haxhiu-thote-se-smund-te-ndryshohet-pdk-kerkon-qe-kjo-te-kryhet-per-4-jave/"
+      ],
+      "Articles": {
+        "kosova-fakt": "ligji-per-specialen-hap-dilema-te-reja-haxhiu-thote-se-s-mund-te-ndryshohet-pdk"
+      }
+    },
+    {
+      "At": "2026-10-24T09:26:32.7842178+00:00",
+      "Title": "Bllokimi i trafikut n\u00EB Arktik frenon ambiciet e Rusis\u00EB p\u00EBr nj\u00EB rrug\u00EB detare drejt Kin\u00EBs",
+      "Tokens": [
+        "bllok",
+        "trafi",
+        "arkti",
+        "freno",
+        "ambic",
+        "rus",
+        "rrug",
+        "detar",
+        "drejt",
+        "kin"
+      ],
+      "SourceUrls": [
+        "https://www.evropaelire.org/a/arktik-anije-rruga-rusia-kine/33882929.html"
+      ],
+      "Articles": {
+        "lajme-per-kosove": "bllokimi-i-trafikut-ne-arktik-frenon-ambiciet-e-rusise-per-nje-rruge-detare"
+      }
+    },
     {
       "At": "2026-10-23T23:50:22.9141718+00:00",
       "Title": "Bordi i Paqes pas n\u00EBnshkrimit t\u00EB marr\u00EBveshjes me Shqip\u00EBrin\u00EB, vler\u00EBson kontributin e Kosov\u00EBs",
@@ -16978,260 +17495,6 @@
       ],
       "Articles": {
         "kosova-aktuale": "kosova-ne-fushaten-zgjedhore-ne-serbi-retorike-nacionaliste-pak-zgjidhje"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Pezullohen kat\u00EBr polic\u00EB dhe nj\u00EB n\u00EBnkomisar n\u00EB Shqip\u00EBri pas videos s\u00EB protestuesit me k\u00EBmb\u00EB t\u00EB thyer",
-      "Tokens": [
-        "pezul",
-        "kater",
-        "polic",
-        "nenko",
-        "shqip",
-        "video",
-        "prote",
-        "kemb",
-        "thyer"
-      ],
-      "SourceUrls": [
-        "https://telegrafi.com/pese-zyrtare-policore-pezullohen-pas-videos-ku-shihej-i-riu-me-kembe-te-thyer-qe-terhiqej-nga-ta/",
-        "https://sinjali.com/policia-pezullon-kater-efektive-dhe-shefin-e-komisariatit-pasi-ia-thyen-kemben-19-vjecarit-ne-proteste/"
-      ],
-      "Articles": {
-        "kosova-fakt": "policia-pezullon-kater-efektive-dhe-shefin-e-komisariatit-pasi-ia-thyen-kemben"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Duane \u201CKeffe D\u201D Davis d\u00EBnohet me 40 vjet burgim p\u00EBr organizimin e vrasjes s\u00EB Tupac Shakurit",
-      "Tokens": [
-        "duan",
-        "keff",
-        "dav",
-        "denoh",
-        "vjet",
-        "burgi",
-        "organ",
-        "vrasj",
-        "tupac",
-        "shaku"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/duane-keffe-d-davis-denohet-me-40-vjet-burgim-per-organizimin-e-vrasjes-se-tupac-shakurit/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "duane-keffe-d-davis-denohet-me-40-vjet-burgim-per-organizimin-e-vrasjes-se"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Raketat kapen pran\u00EB Riadit pas sulmit saudit ndaj depos s\u00EB karburantit n\u00EB Jemen",
-      "Tokens": [
-        "raket",
-        "kap",
-        "pran",
-        "riad",
-        "sulm",
-        "saud",
-        "ndaj",
-        "depos",
-        "karbu",
-        "jem"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/raketat-kapen-prane-riadit-pas-sulmit-saudit-ndaj-depos-se-karburantit-ne-jemen/"
-      ],
-      "Articles": {
-        "raporti-sot": "raketat-kapen-prane-riadit-pas-sulmit-saudit-ndaj-depos-se-karburantit-ne-jemen"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Protestat n\u00EB Tiran\u00EB, dhjet\u00EBra persona marrin ndihm\u00EB mjek\u00EBsore \u2013 t\u00EB gjith\u00EB jasht\u00EB rrezikut p\u00EBr jet\u00EBn",
-      "Tokens": [
-        "prote",
-        "tiran",
-        "dhjet",
-        "perso",
-        "marr",
-        "ndihm",
-        "mjeke",
-        "gjith",
-        "jasht",
-        "rrezi",
-        "jet"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/protestat-ne-tirane-dhjetera-persona-marrin-ndihme-mjekesore-te-gjithe-jashte-rrezikut-per-jeten/"
-      ],
-      "Articles": {
-        "infokosove24": "protestat-ne-tirane-dhjetera-persona-marrin-ndihme-mjekesore-te-gjithe-jashte"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Tuttosport: Zhegrova fiton \u201Czemr\u00EBn\u201D e Spallettit, kosovari mes kat\u00EBr lojtar\u00EBve q\u00EB po fiton r\u00EBnd\u00EBsi te Juventusi",
-      "Tokens": [
-        "tutto",
-        "zhegr",
-        "fiton",
-        "zemr",
-        "spall",
-        "kosov",
-        "mes",
-        "kater",
-        "lojta",
-        "rende",
-        "juven"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/tuttosport-zhegrova-fiton-zemren-e-spallettit-kosovari-mes-kater-lojtareve-qe-po-fiton-rendesi-te-juventusi/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "tuttosport-zhegrova-fiton-zemren-e-spallettit-kosovari-mes-kater-lojtareve-qe"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Nes\u00EBr mblidhet Qeveria, ky \u00EBsht\u00EB rendi i dit\u00EBs",
-      "Tokens": [
-        "neser",
-        "mblid",
-        "qever",
-        "rend",
-        "dit"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/neser-mblidhet-qeveria-ky-eshte-rendi-i-dites/"
-      ],
-      "Articles": {
-        "kosova-fakt": "neser-mblidhet-qeveria-ky-eshte-rendi-i-dites"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "KFOR-i zhvillon ushtrim p\u00EBr viktima masive n\u00EB Bondsteel, simulohet evakuimi me helikopter",
-      "Tokens": [
-        "kfor",
-        "zhvil",
-        "ushtr",
-        "vikti",
-        "masi",
-        "bonds",
-        "simul",
-        "evaku",
-        "helik"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kfor-i-zhvillon-ushtrim-per-viktima-masive-ne-bondsteel-simulohet-evakuimi-me-helikopter/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "kfor-i-zhvillon-ushtrim-per-viktima-masive-ne-bondsteel-simulohet-evakuimi-me"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Senatori amerikan p\u00EBr dialogun Kosov\u00EB-Serbi: Duam p\u00EBrmir\u00EBsim, por nuk presim p\u00EBrparim t\u00EB shpejt\u00EB",
-      "Tokens": [
-        "senat",
-        "ameri",
-        "dialo",
-        "koso",
-        "serb",
-        "duam",
-        "permi",
-        "presi",
-        "perpa",
-        "shpej"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/senatori-amerikan-per-dialogun-kosove-serbi-duam-permiresim-por-nuk-presim-perparim-te-shpejte/"
-      ],
-      "Articles": {
-        "raporti-sot": "senatori-amerikan-per-dialogun-kosove-serbi-duam-permiresim-por-nuk-presim"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Papa Leoni diagnostikohet me kancer n\u00EB mushk\u00EBri, Vatikani njofton se operacioni ka qen\u00EB i suksessh\u00EBm",
-      "Tokens": [
-        "pap",
-        "leon",
-        "diagn",
-        "kance",
-        "mushk",
-        "vatik",
-        "njoft",
-        "opera",
-        "qen",
-        "sukse"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/papa-leoni-diagnostikohet-me-kancer-ne-mushkeri-vatikani-njofton-se-operacioni-ka-qene-i-suksesshem/"
-      ],
-      "Articles": {
-        "infokosove24": "papa-leoni-diagnostikohet-me-kancer-ne-mushkeri-vatikani-njofton-se-operacioni"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Pamje t\u00EB r\u00EBnda nga protesta n\u00EB Tiran\u00EB, i riu me k\u00EBmb\u00EB t\u00EB thyer merret nga Policia",
-      "Tokens": [
-        "pam",
-        "rend",
-        "prote",
-        "tiran",
-        "riu",
-        "kemb",
-        "thyer",
-        "merr",
-        "polic"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/pamje-te-renda-nga-protesta-ne-tirane-i-riu-me-kembe-te-thyer-merret-nga-policia/"
-      ],
-      "Articles": {
-        "kosova-aktuale": "pamje-te-renda-nga-protesta-ne-tirane-i-riu-me-kembe-te-thyer-merret-nga-policia"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Alarm n\u00EB aeroportin e Nurembergut, pezullohen fluturimet pas nj\u00EB emergjence",
-      "Tokens": [
-        "alarm",
-        "aerop",
-        "nurem",
-        "pezul",
-        "flutu",
-        "emerg"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/alarm-ne-aeroportin-e-nurembergut-pezullohen-fluturimet-pas-nje-emergjence/"
-      ],
-      "Articles": {
-        "kosova-fakt": "alarm-ne-aeroportin-e-nurembergut-pezullohen-fluturimet-pas-nje-emergjence"
-      }
-    },
-    {
-      "At": "2026-10-14T00:15:24.7407044+00:00",
-      "Title": "Kikirik\u00EBt mund t\u00EB p\u00EBrmir\u00EBsojn\u00EB reagimin e trurit ndaj insulin\u00EBs, zbulon studimi",
-      "Tokens": [
-        "kikir",
-        "mund",
-        "permi",
-        "reagi",
-        "trur",
-        "ndaj",
-        "insul",
-        "zbulo",
-        "studi"
-      ],
-      "SourceUrls": [
-        "https://sinjali.com/kikiriket-mund-te-permiresojne-reagimin-e-trurit-ndaj-insulines-zbulon-studimi/"
-      ],
-      "Articles": {
-        "lajme-per-kosove": "kikiriket-mund-te-permiresojne-reagimin-e-trurit-ndaj-insulines-zbulon-studimi"
       }
     }
   ]
