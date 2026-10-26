@@ -188,7 +188,7 @@ jobs:
         run: |
           if [ -z "$VERCEL_TOKEN" ]; then echo "::notice::VERCEL_TOKEN mungon — pastrimi i deploy-eve u anashkalua."; exit 0; fi
           api() { curl -fsS -H "Authorization: Bearer $VERCEL_TOKEN" "$@"; }
-          for project in raporti-sot infokosove24 kosova-aktuale kosova-fakt lajme-per-kosove; do
+          for project in raporti-sot lajme-per-kosove; do
             current=$(api "https://api.vercel.com/v9/projects/$project?teamId=$VERCEL_TEAM" | jq -r '.targets.production.id // empty') || { echo "::warning::$project: s'u lexua projekti"; continue; }
             ids=$(api "https://api.vercel.com/v6/deployments?projectId=$project&teamId=$VERCEL_TEAM&limit=100" \
               | jq -r '.deployments | sort_by(-.created) | map(select(.state != "BUILDING" and .state != "QUEUED" and .state != "INITIALIZING")) | .['"$KEEP"':][] | .uid') || continue

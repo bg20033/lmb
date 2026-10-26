@@ -5,7 +5,7 @@
   "MinDelayPerHostMs": 1500,
   // How much to publish on every run (the GitHub workflow runs once a week: Monday 06:07 UTC).
   "MaxStoriesPerRun": 60,     // every fresh discovered story is distributed in one run
-  "SitesPerStory": 1,         // one copy per story, distributed evenly across the five sites
+  "SitesPerStory": 1,         // one copy per story, distributed evenly across the enabled sites
   "MaxSourcesPerStory": 4,
   "MaxStoryAgeHours": 16,   // longest gap between two runs is 14 h (overnight)
   "ClusterSimilarity": 0.3,
@@ -74,6 +74,7 @@
     },
     {
       "Slug": "infokosove24",
+      "Enabled": false,          // boti nuk publikon më këtu (vetëm Raporti Sot dhe Lajme për Kosovë)
       "Name": "InfoKosove24",
       "Repo": "bg20033/infokosove24",
       "Branch": "main",
@@ -87,6 +88,7 @@
     },
     {
       "Slug": "kosova-aktuale",
+      "Enabled": false,          // boti nuk publikon më këtu (vetëm Raporti Sot dhe Lajme për Kosovë)
       "Name": "Kosova Aktuale",
       "Repo": "bg20033/kosova-aktuale",
       "Branch": "main",
@@ -100,6 +102,7 @@
     },
     {
       "Slug": "kosova-fakt",
+      "Enabled": false,          // boti nuk publikon më këtu (vetëm Raporti Sot dhe Lajme për Kosovë)
       "Name": "Kosova Fakt",
       "Repo": "bg20033/kosova-fakt",
       "Branch": "main",
