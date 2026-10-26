@@ -3,7 +3,7 @@
   "UserAgent": "LajmeBot/1.0 (+mailto:redaksia@example.com)",
   "RequestTimeoutSeconds": 25,
   "MinDelayPerHostMs": 1500,
-  // How much to publish on every run (the GitHub workflow runs twice a day: 06:07 and 16:07 UTC).
+  // How much to publish on every run (the GitHub workflow runs once a week: Monday 06:07 UTC).
   "MaxStoriesPerRun": 60,     // every fresh discovered story is distributed in one run
   "SitesPerStory": 1,         // one copy per story, distributed evenly across the five sites
   "MaxSourcesPerStory": 4,

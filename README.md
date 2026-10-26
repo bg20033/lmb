@@ -52,7 +52,7 @@ Faqet kryesore + kategoritë ──► linkat e artikujve ──► hapja e arti
    Rendi i rekomanduar: `discover` → `test` → `dry-run` → `publish`.
    Derisa të mos i vendosësh sekretet, ekzekutimet automatike mbarojnë pa bo asgjë (pa gabime).
 
-Pas kësaj punon vetë 2 herë në ditë, në 07:07 dhe 17:07 me orën e Kosovës (dimër; në verë 08:07 dhe 18:07) (`cron` në `.github/workflows/publish.yml`).
+Pas kësaj punon vetë 1 herë në javë, të hënën në 07:07 me orën e Kosovës (dimër; në verë 08:07). Mund ta nisësh edhe me dorë te Actions → "Publiko lajme" → Run workflow (`cron` në `.github/workflows/publish.yml`).
 
 ## Modeli dhe kostoja
 

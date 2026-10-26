@@ -2,9 +2,10 @@ name: Publiko lajme
 
 on:
   schedule:
-    # Vetëm 2 herë në ditë (06:07 dhe 16:07 UTC ≈ 07:07 dhe 17:07 në Kosovë në dimër, 08:07/18:07 në verë).
+    # Vetëm 1 herë në javë: të hënën në 06:07 UTC (≈ 07:07 në Kosovë në dimër, 08:07 në verë).
     # Çdo ekzekutim = 1 deploy në Vercel për secilën faqe, prandaj sa më rrallë aq më pak "Deployment Storage".
-    - cron: "7 6,16 * * *"
+    # Për me e nis me dorë: GitHub → Actions → "Publiko lajme" → Run workflow.
+    - cron: "7 6 * * 1"
   workflow_dispatch:
     inputs:
       mode:
@@ -15,7 +16,7 @@ on:
           - discover   # PROVË PA AI: lexon portalet, grupon lajmet, lexon tekstet — s'shkruan asgjë
           - test       # PROVË PA AI: shkruan artikuj TEST në kopje të faqeve, i ndërton + SEO audit — NUK publikon
           - dry-run    # ME AI: Claude shkruan artikuj të vërtetë, i sheh të plotë në Summary — NUK publikon
-          - publish    # ME AI: publikon në faqe (kjo punon vetë 2 herë në ditë)
+          - publish    # ME AI: publikon në faqe (kjo punon vetë 1 herë në javë, të hënën)
           - licensed-copy # PA AI: publikon tekstin e plotë të burimit të licencuar, me atribim + link
       max_stories:
         description: "Sa histori (bosh = sipas config/bot.json)"
